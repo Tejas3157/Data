@@ -383,8 +383,8 @@ const data = {
     ],
   },
 
-
   //==== Deep Learnig ====
+
   'deep-learning-1': {
   id: 'deep-learning-1',
   title: 'What Makes Learning "Deep"?',
@@ -14307,26 +14307,10231 @@ Je ne suis pas d\'accord: I disagree.'
 
 // =====Mandarin Chinese====
 
-
+'mandarin-chinese-1': {
+  id: 'mandarin-chinese-1',
+  title: 'Pinyin and Tones Introduction',
+  image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Pinyin and Tones Introduction' },
+    { type: 'text', content:
+      'Pinyin is the Romanization system for Mandarin Chinese pronunciation. \
+Tones are essential in Mandarin as they change word meanings. \
+Mandarin has four main tones plus a neutral tone. \
+Mastering tones early prevents communication errors later. \
+Pinyin helps learners read Chinese characters with correct pronunciation.' 
+    },
+    { type: 'subtitle', content: 'The Four Tones' },
+    { type: 'text', content:
+      'First Tone: High and level (mā - mother). \
+Second Tone: Rising, like asking a question (má - hemp). \
+Third Tone: Falling then rising (mǎ - horse). \
+Fourth Tone: Sharp falling (mà - scold). \
+Neutral Tone: Light and short (ma - question particle).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1522383225653-ed111181a951?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Tips' },
+    { type: 'text', content:
+      'Use hand gestures to visualize tone contours. \
+Practice with minimal pairs (words that differ only in tone). \
+Record yourself and compare with native speakers. \
+Listen to Chinese music and repeat lyrics with correct tones. \
+Start with tone combinations in two-syllable words.' 
+    }
+  ]
+},
+'mandarin-chinese-2': {
+  id: 'mandarin-chinese-2',
+  title: 'Basic Greetings and Introductions',
+  image: 'https://images.unsplash.com/photo-1557214257-7a2c4ba7226e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Greetings and Introductions' },
+    { type: 'text', content:
+      'Chinese greetings vary by time of day and formality. \
+Understanding cultural aspects of introductions is important. \
+Chinese names put family name first, then given name. \
+Politeness markers like "nín" show respect to elders. \
+Greetings often include questions about eating or activities.' 
+    },
+    { type: 'subtitle', content: 'Essential Greetings' },
+    { type: 'text', content:
+      'Nǐ hǎo: Hello (informal). \
+Nín hǎo: Hello (formal/respectful). \
+Zǎoshang hǎo: Good morning. \
+Xiàwǔ hǎo: Good afternoon. \
+Wǎnshàng hǎo: Good evening. \
+Zàijiàn: Goodbye. \
+Míngtiān jiàn: See you tomorrow.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1523473827533-2a64d0d3671c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Introduction Phrases' },
+    { type: 'text', content:
+      'Wǒ jiào...: My name is... \
+Nǐ jiào shénme míngzi?: What is your name? \
+Wǒ shì...: I am... (nationality/occupation). \
+Nǎli rén?: Where are you from? \
+Hěn gāoxìng rènshi nǐ: Nice to meet you. \
+Qǐng wèn: May I ask... (polite prefix).' 
+    }
+  ]
+},
+'mandarin-chinese-3': {
+  id: 'mandarin-chinese-3',
+  title: 'Numbers 1-100 and Counting',
+  image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Numbers 1-100 and Counting' },
+    { type: 'text', content:
+      'Chinese numbers follow logical patterns making them relatively easy. \
+Number system is decimal-based with consistent rules. \
+Learning numbers is essential for shopping, telling time, and dates. \
+Chinese has measure words (classifiers) used with numbers. \
+Mastering numbers 1-10 allows counting to 99 with simple combinations.' 
+    },
+    { type: 'subtitle', content: 'Basic Numbers' },
+    { type: 'text', content:
+      '1-10: yī, èr, sān, sì, wǔ, liù, qī, bā, jiǔ, shí. \
+11: shí yī (ten one). \
+20: èr shí (two ten). \
+21: èr shí yī (two ten one). \
+100: yī bǎi (one hundred). \
+Note: Two is "èr" when counting, "liǎng" when used with measure words.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1522383225653-ed111181a951?w=1000&q=60' },
+    { type: 'subtitle', content: 'Counting Patterns' },
+    { type: 'text', content:
+      'Tens + units: sān shí wǔ (35). \
+Hundreds: yī bǎi èr shí sān (123). \
+Telephone numbers: read digits individually. \
+Money: kuài (dollars), máo (dimes), fēn (cents). \
+Age: suì (years old) - wǒ èr shí wǔ suì (I am 25 years old).' 
+    }
+  ]
+},
+'mandarin-chinese-4': {
+  id: 'mandarin-chinese-4',
+  title: 'Basic Sentence Structure',
+  image: 'https://images.unsplash.com/photo-1557214257-7a2c4ba7226e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Sentence Structure' },
+    { type: 'text', content:
+      'Chinese sentence structure follows Subject-Verb-Object (SVO) pattern. \
+There are no verb conjugations for tense or person. \
+Word order is crucial as Chinese has limited grammatical markers. \
+Time expressions usually come before the verb. \
+Questions are formed by adding question particles or using question words.' 
+    },
+    { type: 'subtitle', content: 'Basic Patterns' },
+    { type: 'text', content:
+      'SVO: Wǒ chī fàn (I eat food). \
+Time + Subject + Verb + Object: Wǒ jīntiān chī fàn (I today eat food). \
+Negative: Add "bù" before verb: Wǒ bù chī fàn (I not eat food). \
+Yes/No questions: Add "ma" at end: Nǐ chī fàn ma? (You eat food?). \
+Question word questions: Replace element with question word.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1523473827533-2a64d0d3671c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Common Constructions' },
+    { type: 'text', content:
+      'Shì (to be): Wǒ shì xuésheng (I am student). \
+Yǒu (to have): Wǒ yǒu shū (I have book). \
+Zài (to be at): Wǒ zài jiā (I am at home). \
+Hěn (very): Wǒ hěn gāoxìng (I very happy). \
+Word order is fixed, particles indicate grammatical relationships.' 
+    }
+  ]
+},
+'mandarin-chinese-5': {
+  id: 'mandarin-chinese-5',
+  title: 'Question Words and Asking Questions',
+  image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Question Words and Asking Questions' },
+    { type: 'text', content:
+      'Chinese question words are placed where the answer would go. \
+Question particles like "ma" turn statements into yes/no questions. \
+Alternative questions use "háishì" (or). \
+Tag questions use "duì bù duì" (right or not). \
+Understanding question formation is essential for communication.' 
+    },
+    { type: 'subtitle', content: 'Question Words' },
+    { type: 'text', content:
+      'Shénme: What. \
+Shéi: Who. \
+Nǎ: Which. \
+Nǎr/Nǎlǐ: Where. \
+Shénme shíhou: When. \
+Zěnme: How. \
+Wèishénme: Why. \
+Duōshao: How much/many.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1522383225653-ed111181a951?w=1000&q=60' },
+    { type: 'subtitle', content: 'Question Types' },
+    { type: 'text', content:
+      'Yes/No: Add "ma" - Nǐ shì xuésheng ma? (Are you student?). \
+Question word: Nǐ shì shéi? (Who are you?). \
+Alternative: Nǐ hē chá háishì kāfēi? (You drink tea or coffee?). \
+Tag: Nǐ shì xuésheng, duì bù duì? (You are student, right?). \
+Verb-not-verb: Nǐ chī bù chī? (You eat or not eat?).' 
+    }
+  ]
+},
+'mandarin-chinese-6': {
+  id: 'mandarin-chinese-6',
+  title: 'Time Expressions and Dates',
+  image: 'https://images.unsplash.com/photo-1557214257-7a2c4ba7226e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Time Expressions and Dates' },
+    { type: 'text', content:
+      'Chinese time expressions follow logical patterns. \
+Dates are expressed from largest to smallest unit. \
+Time of day has specific vocabulary. \
+Days of week are numbered (Monday = week one). \
+Months are numbered (January = one month).' 
+    },
+    { type: 'subtitle', content: 'Time Vocabulary' },
+    { type: 'text', content:
+      'Jīntiān: Today. \
+Míngtiān: Tomorrow. \
+Zuótiān: Yesterday. \
+Xiànzài: Now. \
+Diǎn: O\'clock. \
+Fēn: Minute. \
+Xīngqī: Week. \
+Yuè: Month. \
+Nián: Year.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1523473827533-2a64d0d3671c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Date and Time Format' },
+    { type: 'text', content:
+      'Year-Month-Day: Èr líng èr sān nián shí yuè shí wǔ hào (2023-10-15). \
+Time: Shí\'èr diǎn sānshí fēn (12:30). \
+Days of week: Xīngqī yī (Monday) through Xīngqī tiān/Xīngqī rì (Sunday). \
+Seasons: Chūntiān (spring), xiàtiān (summer), qiūtiān (autumn), dōngtiān (winter). \
+Birthdays: Shēngrì kuàilè (Happy birthday).' 
+    }
+  ]
+},
+'mandarin-chinese-7': {
+  id: 'mandarin-chinese-7',
+  title: 'Family and Relationships Vocabulary',
+  image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Family and Relationships Vocabulary' },
+    { type: 'text', content:
+      'Chinese has specific terms for family members based on age and lineage. \
+Family is central to Chinese culture and frequent conversation topic. \
+Terms differ for paternal vs maternal relatives. \
+Understanding family terminology shows cultural awareness. \
+Measure words are used when counting family members.' 
+    },
+    { type: 'subtitle', content: 'Immediate Family' },
+    { type: 'text', content:
+      'Bàba: Father. \
+Māma: Mother. \
+Gēge: Older brother. \
+Dìdi: Younger brother. \
+Jiějie: Older sister. \
+Mèimei: Younger sister. \
+Note: Terms often repeated (bàba, māma) rather than single syllable.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1522383225653-ed111181a951?w=1000&q=60' },
+    { type: 'subtitle', content: 'Extended Family' },
+    { type: 'text', content:
+      'Yéye: Paternal grandfather. \
+Nǎinai: Paternal grandmother. \
+Gōnggong: Maternal grandfather. \
+Pópo: Maternal grandmother. \
+Shūshu: Father\'s younger brother. \
+Bóbo: Father\'s older brother. \
+Gūgu: Father\'s sister. \
+Jiùjiu: Mother\'s brother.' 
+    }
+  ]
+},
+'mandarin-chinese-8': {
+  id: 'mandarin-chinese-8',
+  title: 'Food and Dining Vocabulary',
+  image: 'https://images.unsplash.com/photo-1557214257-7a2c4ba7226e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Food and Dining Vocabulary' },
+    { type: 'text', content:
+      'Chinese cuisine varies greatly by region. \
+Food is central to social interactions and hospitality. \
+Understanding basic food vocabulary helps with ordering and shopping. \
+Chinese meals typically include rice/noodles, vegetables, and protein. \
+Drinking tea is common with or between meals.' 
+    },
+    { type: 'subtitle', content: 'Basic Food Terms' },
+    { type: 'text', content:
+      'Fàn: Rice/meal. \
+Miàn: Noodles. \
+Shūcài: Vegetables. \
+Ròu: Meat. \
+Yú: Fish. \
+Shuǐguǒ: Fruit. \
+Shuǐ: Water. \
+Chá: Tea.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1523473827533-2a64d0d3671c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Restaurant Phrases' },
+    { type: 'text', content:
+      'Wǒ yào...: I want... \
+Qǐngwèn...: May I ask... \
+Duōshao qián?: How much money? \
+Mǎidān: Check/bill. \
+Hǎo chī: Delicious. \
+Wǒ bù chī...: I don\'t eat... \
+Fúwùyuán: Waiter/waitress. \
+Cāntīng: Restaurant.' 
+    }
+  ]
+},
+'mandarin-chinese-9': {
+  id: 'mandarin-chinese-9',
+  title: 'Directions and Location Words',
+  image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Directions and Location Words' },
+    { type: 'text', content:
+      'Chinese uses specific particles to indicate location. \
+Direction words are essential for navigation and describing positions. \
+Asking for directions requires particular sentence patterns. \
+Understanding basic geography vocabulary helps with travel. \
+Location words often combine with measure words.' 
+    },
+    { type: 'subtitle', content: 'Location Particles' },
+    { type: 'text', content:
+      'Zài: At/in/on (indicates location). \
+Lǐ: Inside. \
+Wài: Outside. \
+Shàng: Above/on. \
+Xià: Below/under. \
+Qián: Front. \
+Hòu: Back. \
+Pángbiān: Beside/next to.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1522383225653-ed111181a951?w=1000&q=60' },
+    { type: 'subtitle', content: 'Asking Directions' },
+    { type: 'text', content:
+      '...zài nǎr?: Where is...? \
+Zěnme zǒu?: How do I get there? \
+Yuǎn bù yuǎn?: Is it far? \
+Jìn bù jìn?: Is it near? \
+Wǎng zuǒ guǎi: Turn left. \
+Wǎng yòu guǎi: Turn right. \
+Yìzhí zǒu: Go straight. \
+Zài nǎge fángxiàng?: In which direction?' 
+    }
+  ]
+},
+'mandarin-chinese-10': {
+  id: 'mandarin-chinese-10',
+  title: 'Introduction to Chinese Characters',
+  image: 'https://images.unsplash.com/photo-1557214257-7a2c4ba7226e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Chinese Characters' },
+    { type: 'text', content:
+      'Chinese characters are logograms representing words or morphemes. \
+Characters have stroke order rules for proper writing. \
+Radicals provide clues to meaning and pronunciation. \
+Simplified characters are used in Mainland China, traditional in Taiwan/HK. \
+Learning characters builds deeper understanding of the language.' 
+    },
+    { type: 'subtitle', content: 'Character Basics' },
+    { type: 'text', content:
+      'Strokes: Basic brush movements that make up characters. \
+Radicals: Component parts that give meaning hints. \
+Pictographs: Characters derived from pictures. \
+Ideographs: Characters representing abstract ideas. \
+Phonetic compounds: Characters with sound and meaning components.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1523473827533-2a64d0d3671c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Learning Strategies' },
+    { type: 'text', content:
+      'Learn stroke order rules (top to bottom, left to right). \
+Start with high-frequency characters. \
+Use spaced repetition software for memorization. \
+Practice writing characters by hand regularly. \
+Learn characters in context through words and sentences. \
+Recognize radicals to guess meanings of unfamiliar characters.' 
+    }
+  ]
+},
 
 // =====German Grammar====
 
-
+'german-grammar-1': {
+  id: 'german-grammar-1',
+  title: 'German Cases Introduction',
+  image: 'https://images.unsplash.com/photo-1542574621-e088a4464f7e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'German Cases Introduction' },
+    { type: 'text', content:
+      'German has four grammatical cases: nominative, accusative, dative, genitive. \
+Cases determine noun endings and article forms. \
+Cases indicate grammatical function (subject, direct object, indirect object, possession). \
+Mastering cases is essential for correct German grammar. \
+Cases affect articles, adjectives, and some noun endings.' 
+    },
+    { type: 'subtitle', content: 'The Four Cases' },
+    { type: 'text', content:
+      'Nominative: Subject of sentence (der Mann). \
+Accusative: Direct object (den Mann). \
+Dative: Indirect object (dem Mann). \
+Genitive: Possession (des Mannes). \
+Each case has specific definite and indefinite article forms.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=1000&q=60' },
+    { type: 'subtitle', content: 'Case Usage' },
+    { type: 'text', content:
+      'Nominative: Who or what is doing the action. \
+Accusative: Who or what is directly affected by the action. \
+Dative: To whom or for whom the action is done. \
+Genitive: Shows possession or relationship between nouns. \
+Prepositions govern specific cases (accusative, dative, or both).' 
+    }
+  ]
+},
+'german-grammar-2': {
+  id: 'german-grammar-2',
+  title: 'Definite and Indefinite Articles',
+  image: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Definite and Indefinite Articles' },
+    { type: 'text', content:
+      'German articles must match gender (masculine, feminine, neuter), number, and case. \
+Definite articles: der (masc), die (fem), das (neut), die (plural). \
+Indefinite articles: ein (masc/neut), eine (fem), keine (negative). \
+Articles change form depending on grammatical case. \
+Learning articles with nouns from the beginning is crucial.' 
+    },
+    { type: 'subtitle', content: 'Definite Articles' },
+    { type: 'text', content:
+      'Nominative: der, die, das, die. \
+Accusative: den, die, das, die. \
+Dative: dem, der, dem, den (+n for plural nouns). \
+Genitive: des (+s/es), der, des (+s/es), der. \
+Examples: der Mann (the man), die Frau (the woman), das Kind (the child).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542574621-e088a4464f7e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Indefinite Articles' },
+    { type: 'text', content:
+      'Nominative: ein (masc/neut), eine (fem). \
+Accusative: einen (masc), eine (fem), ein (neut). \
+Dative: einem (masc/neut), einer (fem). \
+Genitive: eines (masc/neut), einer (fem). \
+No indefinite article for plural; use "keine" for negative.' 
+    }
+  ]
+},
+'german-grammar-3': {
+  id: 'german-grammar-3',
+  title: 'Present Tense Verb Conjugation',
+  image: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Present Tense Verb Conjugation' },
+    { type: 'text', content:
+      'German verbs change endings based on subject pronoun. \
+Regular verbs follow predictable patterns in present tense. \
+Present tense can express present actions, future plans, or general truths. \
+Verb position is crucial: main verb is second element in statements. \
+Separable prefix verbs split in main clauses.' 
+    },
+    { type: 'subtitle', content: 'Regular Verb Endings' },
+    { type: 'text', content:
+      'ich: -e (ich mache - I make/do). \
+du: -st (du machst - you make). \
+er/sie/es: -t (er macht - he makes). \
+wir: -en (wir machen - we make). \
+ihr: -t (ihr macht - you all make). \
+sie/Sie: -en (sie machen - they/you formal make). \
+Infinitive: -en (machen - to make).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1000&q=60' },
+    { type: 'subtitle', content: 'Common Irregularities' },
+    { type: 'text', content:
+      'Vowel changes: e → ie (sehen - ich sehe, du siehst). \
+Vowel changes: e → i (geben - ich gebe, du gibst). \
+Stem-changing verbs: a → ä (fahren - ich fahre, du fährst). \
+Modal verbs have irregular conjugations. \
+sein (to be) and haben (to have) are completely irregular.' 
+    }
+  ]
+},
+'german-grammar-4': {
+  id: 'german-grammar-4',
+  title: 'German Word Order',
+  image: 'https://images.unsplash.com/photo-1542574621-e088a4464f7e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'German Word Order' },
+    { type: 'text', content:
+      'German word order follows specific rules based on sentence type. \
+Main clause: Verb is second element (V2 rule). \
+Subordinate clause: Verb moves to end. \
+Questions: Verb comes first or question word + verb. \
+Time-Manner-Place order for adverbs. \
+Position of nicht (not) depends on what is being negated.' 
+    },
+    { type: 'subtitle', content: 'Basic Word Order' },
+    { type: 'text', content:
+      'Statement: Subject + Verb + Other elements (Ich lese ein Buch). \
+Question: Verb + Subject (Liest du ein Buch?). \
+Question with question word: Question word + Verb + Subject (Was liest du?). \
+Subordinate clause: ..., dass + Subject + Other elements + Verb (..., dass ich ein Buch lese). \
+Inverted order for emphasis: Time + Verb + Subject (Heute lese ich ein Buch).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=1000&q=60' },
+    { type: 'subtitle', content: 'Position Rules' },
+    { type: 'text', content:
+      'Time before manner before place: Ich fahre heute mit dem Zug nach Berlin. \
+Nicht comes before what it negates: Ich lese nicht das Buch. \
+Separable prefixes: gehen (to go) → Ich gehe aus (I go out). \
+Inseparable prefixes: beginnen (to begin) → Ich beginne (I begin). \
+Reflexive pronouns: Ich wasche mich (I wash myself).' 
+    }
+  ]
+},
+'german-grammar-5': {
+  id: 'german-grammar-5',
+  title: 'Noun Gender and Plurals',
+  image: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Noun Gender and Plurals' },
+    { type: 'text', content:
+      'All German nouns have gender: masculine, feminine, or neuter. \
+Gender affects articles, adjective endings, and pronouns. \
+Plural formation has several patterns with some predictability. \
+Compound nouns take gender of last component. \
+Learning nouns with their articles and plurals is essential.' 
+    },
+    { type: 'subtitle', content: 'Gender Hints' },
+    { type: 'text', content:
+      'Masculine: -er, -en, -ig, -ling, -or (der Lehrer). \
+Feminine: -e, -heit, -keit, -schaft, -ung, -tion (die Freiheit). \
+Neuter: -chen, -lein, -ment, -um, -tum (das Mädchen). \
+But many exceptions: der Junge (masc), die Kamera (fem), das Auto (neut). \
+Natural gender often matches grammatical gender for people.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542574621-e088a4464f7e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Plural Forms' },
+    { type: 'text', content:
+      '-e: der Tag → die Tage (day → days). \
+-¨e: der Vater → die Väter (father → fathers). \
+-er: das Kind → die Kinder (child → children). \
+-¨er: das Buch → die Bücher (book → books). \
+-(e)n: die Frau → die Frauen (woman → women). \
+-s: das Auto → die Autos (car → cars). \
+No change: der Lehrer → die Lehrer (teacher → teachers).' 
+    }
+  ]
+},
+'german-grammar-6': {
+  id: 'german-grammar-6',
+  title: 'Prepositions with Cases',
+  image: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Prepositions with Cases' },
+    { type: 'text', content:
+      'German prepositions govern specific grammatical cases. \
+Some prepositions always take accusative case. \
+Some always take dative case. \
+Two-way prepositions take either accusative or dative depending on meaning. \
+Genitive prepositions are formal and less common.' 
+    },
+    { type: 'subtitle', content: 'Accusative Prepositions' },
+    { type: 'text', content:
+      'durch (through). \
+für (for). \
+gegen (against). \
+ohne (without). \
+um (around/at). \
+bis (until). \
+Preposition + den/die/das/die (accusative articles). \
+Example: für den Mann (for the man).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1000&q=60' },
+    { type: 'subtitle', content: 'Dative Prepositions' },
+    { type: 'text', content:
+      'aus (out of/from). \
+außer (except). \
+bei (at/near). \
+mit (with). \
+nach (after/to). \
+seit (since). \
+von (from/of). \
+zu (to). \
+gegenüber (opposite). \
+Preposition + dem/der/dem/den (dative articles).' 
+    }
+  ]
+},
+'german-grammar-7': {
+  id: 'german-grammar-7',
+  title: 'Modal Verbs',
+  image: 'https://images.unsplash.com/photo-1542574621-e088a4464f7e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Modal Verbs' },
+    { type: 'text', content:
+      'Modal verbs express ability, permission, obligation, or possibility. \
+They are irregular in present tense conjugation. \
+Modal verbs are used with infinitive of main verb. \
+In perfect tense, they use haben + infinitive of modal + infinitive of main verb. \
+Modal verbs change meaning in different contexts.' 
+    },
+    { type: 'subtitle', content: 'Six Modal Verbs' },
+    { type: 'text', content:
+      'können (can/able to): ich kann, du kannst, er kann. \
+müssen (must/have to): ich muss, du musst, er muss. \
+dürfen (may/be allowed to): ich darf, du darfst, er darf. \
+sollen (should/ought to): ich soll, du sollst, er soll. \
+wollen (want to): ich will, du willst, er will. \
+mögen (like to): ich mag, du magst, er mag (möchten = would like).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=1000&q=60' },
+    { type: 'subtitle', content: 'Usage Examples' },
+    { type: 'text', content:
+      'Ich kann Deutsch sprechen (I can speak German). \
+Du musst heute arbeiten (You must work today). \
+Wir dürfen hier rauchen (We may smoke here). \
+Sie soll mehr lernen (She should study more). \
+Ihr wollt ins Kino gehen (You want to go to the cinema). \
+Er mag Fußball spielen (He likes to play soccer).' 
+    }
+  ]
+},
+'german-grammar-8': {
+  id: 'german-grammar-8',
+  title: 'Adjective Endings',
+  image: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Adjective Endings' },
+    { type: 'text', content:
+      'German adjectives change endings based on gender, case, and article type. \
+Three declension patterns: strong, weak, and mixed. \
+Strong declension when no article precedes adjective. \
+Weak declension after definite articles. \
+Mixed declension after indefinite articles.' 
+    },
+    { type: 'subtitle', content: 'Weak Declension' },
+    { type: 'text', content:
+      'After der/die/das: adjective ending is -e or -en. \
+Nominative: der gute Mann, die gute Frau, das gute Kind. \
+Accusative: den guten Mann, die gute Frau, das gute Kind. \
+Dative: dem guten Mann, der guten Frau, dem guten Kind. \
+Always -en except nominative singular (masc/neut -e, fem -e).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542574621-e088a4464f7e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strong Declension' },
+    { type: 'text', content:
+      'No article: guter Mann, gute Frau, gutes Kind. \
+Endings similar to definite articles but with adjective forms. \
+Nominative: -er (masc), -e (fem), -es (neut), -e (plural). \
+Accusative: -en (masc), -e (fem), -es (neut), -e (plural). \
+Dative: -em (masc/neut), -er (fem), -en (plural).' 
+    }
+  ]
+},
+'german-grammar-9': {
+  id: 'german-grammar-9',
+  title: 'Past Tenses: Perfekt and Präteritum',
+  image: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Past Tenses: Perfekt and Präteritum' },
+    { type: 'text', content:
+      'German has two main past tenses for spoken and written language. \
+Perfekt (present perfect) is used for spoken German and recent past. \
+Präteritum (simple past) is used for written narrative and formal speech. \
+Some verbs (sein, haben, modal verbs) often use Präteritum in speech. \
+Formation depends on whether verb uses haben or sein as auxiliary.' 
+    },
+    { type: 'subtitle', content: 'Perfekt Formation' },
+    { type: 'text', content:
+      'haben/sein (conjugated) + past participle. \
+Regular verbs: ge- + stem + -t (machen → gemacht). \
+Irregular verbs: ge- + irregular stem + -en (sehen → gesehen). \
+Verbs with inseparable prefixes: no ge- (verstehen → verstanden). \
+Verbs with separable prefixes: ge- between prefix and stem (aufmachen → aufgemacht).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1000&q=60' },
+    { type: 'subtitle', content: 'Auxiliary Choice' },
+    { type: 'text', content:
+      'haben: most verbs, especially transitive verbs. \
+sein: verbs of movement (gehen, fahren), change of state (werden), and sein/bleiben. \
+Ich habe gelernt (I studied/learned). \
+Ich bin gegangen (I went). \
+Du hast gesprochen (You spoke). \
+Du bist gekommen (You came).' 
+    }
+  ]
+},
+'german-grammar-10': {
+  id: 'german-grammar-10',
+  title: 'Subordinate Clauses and Conjunctions',
+  image: 'https://images.unsplash.com/photo-1542574621-e088a4464f7e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Subordinate Clauses and Conjunctions' },
+    { type: 'text', content:
+      'Subordinate clauses provide additional information to main clauses. \
+Subordinating conjunctions send verb to end of clause. \
+Coordinating conjunctions don\'t affect word order. \
+Two-part conjunctions require specific word order. \
+Understanding clause structure is key to complex German sentences.' 
+    },
+    { type: 'subtitle', content: 'Subordinating Conjunctions' },
+    { type: 'text', content:
+      'dass (that). \
+weil (because). \
+obwohl (although). \
+wenn (if/when). \
+als (when - past). \
+da (since/because). \
+bis (until). \
+seitdem (since). \
+Conjunction + Subject + Other elements + Verb (..., weil ich müde bin).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=1000&q=60' },
+    { type: 'subtitle', content: 'Coordinating Conjunctions' },
+    { type: 'text', content:
+      'und (and). \
+oder (or). \
+aber (but). \
+denn (for/because). \
+sondern (but rather). \
+Word order: Subject + Verb + ... conjunction + Subject + Verb + ... (Ich lerne, und er arbeitet). \
+These don\'t change verb position.' 
+    }
+  ]
+},
 
 // =======Japanese Writing====
 
-
+'japanese-writing-1': {
+  id: 'japanese-writing-1',
+  title: 'Introduction to Japanese Writing Systems',
+  image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Japanese Writing Systems' },
+    { type: 'text', content:
+      'Japanese uses three writing systems: hiragana, katakana, and kanji. \
+Hiragana is used for native Japanese words and grammatical elements. \
+Katakana is used for foreign loanwords, emphasis, and technical terms. \
+Kanji are Chinese characters representing words or ideas. \
+All three systems are used together in written Japanese.' 
+    },
+    { type: 'subtitle', content: 'Writing System Purposes' },
+    { type: 'text', content:
+      'Hiragana: 46 basic characters, phonetic, for grammar particles and native words. \
+Katakana: 46 basic characters, phonetic, for foreign words and onomatopoeia. \
+Kanji: Thousands of characters, represent meaning, for content words. \
+Romaji: Roman alphabet used for transliteration and beginners. \
+Furigana: Small hiragana above kanji to show pronunciation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1000&q=60' },
+    { type: 'subtitle', content: 'Learning Order' },
+    { type: 'text', content:
+      'Start with hiragana - foundation of Japanese writing. \
+Then learn katakana - used for many modern words. \
+Begin kanji with basic, high-frequency characters. \
+Practice writing characters in correct stroke order. \
+Learn vocabulary in context rather than isolated characters.' 
+    }
+  ]
+},
+'japanese-writing-2': {
+  id: 'japanese-writing-2',
+  title: 'Hiragana Basics',
+  image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Hiragana Basics' },
+    { type: 'text', content:
+      'Hiragana is a syllabary with 46 basic characters. \
+Each character represents a syllable (vowel or consonant + vowel). \
+Hiragana is cursive and rounded in appearance. \
+It\'s the first writing system Japanese children learn. \
+Mastering hiragana is essential for reading and writing Japanese.' 
+    },
+    { type: 'subtitle', content: 'Hiragana Structure' },
+    { type: 'text', content:
+      'Five vowels: あ (a), い (i), う (u), え (e), お (o). \
+K-column: か (ka), き (ki), く (ku), け (ke), こ (ko). \
+S-column: さ (sa), し (shi), す (su), せ (se), そ (so). \
+T-column: た (ta), ち (chi), つ (tsu), て (te), と (to). \
+N-column: な (na), に (ni), ぬ (nu), ね (ne), の (no).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Modified Sounds' },
+    { type: 'text', content:
+      'Dakuten (゛): Changes voiceless consonants to voiced (か→が ga). \
+Handakuten (゜): Changes "h" to "p" (は→ぱ pa). \
+Yōon: Small ゃ, ゅ, ょ create palatalized sounds (きゃ kya). \
+Sokuon: Small っ doubles following consonant (かった katta). \
+Long vowels: Extend vowel sound (おかあさん okāsan - mother).' 
+    }
+  ]
+},
+'japanese-writing-3': {
+  id: 'japanese-writing-3',
+  title: 'Katakana Basics',
+  image: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Katakana Basics' },
+    { type: 'text', content:
+      'Katakana has the same sounds as hiragana but different characters. \
+It\'s angular and sharp compared to rounded hiragana. \
+Used for foreign words, scientific terms, and emphasis. \
+Many modern Japanese words are written in katakana. \
+Learning katakana is essential for reading menus, brands, and technology terms.' 
+    },
+    { type: 'subtitle', content: 'Katakana Characters' },
+    { type: 'text', content:
+      'ア (a), イ (i), ウ (u), エ (e), オ (o). \
+カ (ka), キ (ki), ク (ku), ケ (ke), コ (ko). \
+サ (sa), シ (shi), ス (su), セ (se), ソ (so). \
+タ (ta), チ (chi), ツ (tsu), テ (te), ト (to). \
+ナ (na), ニ (ni), ヌ (nu), ネ (ne), ノ (no).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Foreign Sound Adaptations' },
+    { type: 'text', content:
+      'ヴ (vu) for "v" sound: ビデオ (bideo - video). \
+ファ (fa), フィ (fi), フェ (fe), フォ (fo). \
+ティ (ti), ディ (di), トゥ (tu), ドゥ (du). \
+Small ァ, ィ, ゥ, ェ, ォ for non-standard combinations. \
+Example: ハンバーガー (hanbāgā - hamburger).' 
+    }
+  ]
+},
+'japanese-writing-4': {
+  id: 'japanese-writing-4',
+  title: 'Kanji Introduction and Radicals',
+  image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Kanji Introduction and Radicals' },
+    { type: 'text', content:
+      'Kanji are Chinese characters adapted for Japanese. \
+Each kanji has one or more readings (pronunciations). \
+On-yomi: Chinese-derived reading used in compounds. \
+Kun-yomi: Japanese native reading used alone or with hiragana. \
+Radicals are component parts that give meaning hints.' 
+    },
+    { type: 'subtitle', content: 'Basic Kanji Concepts' },
+    { type: 'text', content:
+      'Stroke order: Specific sequence for writing characters correctly. \
+Radicals: Building blocks that categorize kanji (水 water, 火 fire). \
+Jōyō kanji: 2,136 characters for general use. \
+Grade levels: Kanji taught in specific school grades. \
+Multiple readings: 人 can be read as "jin" (on) or "hito" (kun).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1000&q=60' },
+    { type: 'subtitle', content: 'Common Radicals' },
+    { type: 'text', content:
+      '人 (human) radical: 休 (rest), 体 (body). \
+水 (water) radical: 海 (sea), 泳 (swim). \
+木 (tree) radical: 林 (woods), 森 (forest). \
+火 (fire) radical: 炎 (flame), 熱 (heat). \
+口 (mouth) radical: 吃 (eat), 叫 (shout). \
+心 (heart) radical: 思 (think), 恋 (love).' 
+    }
+  ]
+},
+'japanese-writing-5': {
+  id: 'japanese-writing-5',
+  title: 'Numbers and Counters',
+  image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Numbers and Counters' },
+    { type: 'text', content:
+      'Japanese has two number systems: native Japanese and Sino-Japanese (Chinese-based). \
+Counters (classifiers) must be used when counting objects. \
+Different objects require different counter words. \
+Numbers change pronunciation when combined with certain counters. \
+Mastering numbers is essential for daily life and shopping.' 
+    },
+    { type: 'subtitle', content: 'Number Systems' },
+    { type: 'text', content:
+      'Sino-Japanese: 一 (ichi), 二 (ni), 三 (san), 四 (shi/yon), 五 (go). \
+Native Japanese: ひとつ (hitotsu), ふたつ (futatsu), みっつ (mittsu). \
+10-100: 十 (jū), 二十 (ni-jū), 百 (hyaku), 千 (sen), 万 (man). \
+Combination: 十一 (jū-ichi - 11), 二十一 (ni-jū-ichi - 21). \
+Irregular: 四 (shi/yon), 七 (shichi/nana), 九 (kyū/ku).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Common Counters' },
+    { type: 'text', content:
+      'つ: General counter for small objects (ひとつ, ふたつ). \
+人 (nin): For people (ひとり, ふたり, さんにん). \
+枚 (mai): For flat objects (いちまい, にまい). \
+本 (hon): For long, thin objects (いっぽん, にほん). \
+台 (dai): For machines and vehicles (いちだい, にだい). \
+歳 (sai): For age (いっさい, にさい, はたち - 20 years old).' 
+    }
+  ]
+},
+'japanese-writing-6': {
+  id: 'japanese-writing-6',
+  title: 'Basic Sentence Structure in Writing',
+  image: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Sentence Structure in Writing' },
+    { type: 'text', content:
+      'Japanese sentences follow Subject-Object-Verb (SOV) order. \
+Particles indicate grammatical function (wa, ga, o, ni, de, etc.). \
+Verbs come at the end of sentences. \
+Topic-comment structure is common with は (wa) particle. \
+Written Japanese often omits subjects when clear from context.' 
+    },
+    { type: 'subtitle', content: 'Basic Particles' },
+    { type: 'text', content:
+      'は (wa): Topic marker (私は学生です - I am student). \
+が (ga): Subject marker (私が行きます - I will go). \
+を (o): Direct object marker (本を読みます - read book). \
+に (ni): Direction/time marker (学校に行きます - go to school). \
+で (de): Location/means marker (学校で勉強します - study at school). \
+の (no): Possessive marker (私の本 - my book).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Writing Examples' },
+    { type: 'text', content:
+      '私は学生です。 (Watashi wa gakusei desu.) - I am student. \
+私は日本語を勉強します。 (Watashi wa nihongo o benkyō shimasu.) - I study Japanese. \
+学校で友達に会いました。 (Gakkō de tomodachi ni aimashita.) - I met friend at school. \
+これは私の本です。 (Kore wa watashi no hon desu.) - This is my book. \
+明日東京に行きます。 (Ashita Tōkyō ni ikimasu.) - Tomorrow go to Tokyo.' 
+    }
+  ]
+},
+'japanese-writing-7': {
+  id: 'japanese-writing-7',
+  title: 'Time and Date Expressions',
+  image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Time and Date Expressions' },
+    { type: 'text', content:
+      'Time expressions use specific counters and kanji. \
+Dates follow year-month-day order. \
+Days of week use elements for celestial bodies. \
+Time of day has particular vocabulary. \
+Understanding time expressions is crucial for scheduling and daily life.' 
+    },
+    { type: 'subtitle', content: 'Time Vocabulary' },
+    { type: 'text', content:
+      '時 (ji): Hour (いちじ - 1:00). \
+分 (fun/pun): Minute (じゅっぷん - 10 minutes). \
+秒 (byō): Second. \
+今日 (kyō): Today. \
+明日 (ashita): Tomorrow. \
+昨日 (kinō): Yesterday. \
+今 (ima): Now.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1000&q=60' },
+    { type: 'subtitle', content: 'Dates and Days' },
+    { type: 'text', content:
+      '年 (nen): Year (2023年). \
+月 (gatsu): Month (一月 - January). \
+日 (nichi): Day (一日 - 1st day, ついたち - 1st of month). \
+曜日 (yōbi): Day of week. \
+月曜日 (getsuyōbi): Monday. \
+火曜日 (kayōbi): Tuesday. \
+水曜日 (suiyōbi): Wednesday. \
+木曜日 (mokuyōbi): Thursday. \
+金曜日 (kin\'yōbi): Friday. \
+土曜日 (doyōbi): Saturday. \
+日曜日 (nichiyōbi): Sunday.' 
+    }
+  ]
+},
+'japanese-writing-8': {
+  id: 'japanese-writing-8',
+  title: 'Family and Personal Information',
+  image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Family and Personal Information' },
+    { type: 'text', content:
+      'Japanese has specific terms for family members. \
+Different words are used for one\'s own family vs others\' families. \
+Personal information follows particular sentence patterns. \
+Age uses special counter 歳 (sai). \
+Occupations have specific vocabulary and kanji.' 
+    },
+    { type: 'subtitle', content: 'Family Terms' },
+    { type: 'text', content:
+      '父 (chichi): My father. \
+母 (haha): My mother. \
+兄 (ani): My older brother. \
+姉 (ane): My older sister. \
+弟 (otōto): My younger brother. \
+妹 (imōto): My younger sister. \
+For others\' family: お父さん (otōsan), お母さん (okāsan), etc.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Personal Information' },
+    { type: 'text', content:
+      '名前 (namae): Name (お名前は？ - What is your name?). \
+年齢 (nenrei): Age (年齢は？ - How old are you?). \
+職業 (shokugyō): Occupation (職業は？ - What is your occupation?). \
+学生 (gakusei): Student. \
+先生 (sensei): Teacher. \
+会社員 (kaishain): Company employee. \
+医者 (isha): Doctor.' 
+    }
+  ]
+},
+'japanese-writing-9': {
+  id: 'japanese-writing-9',
+  title: 'Common Kanji Compounds',
+  image: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Common Kanji Compounds' },
+    { type: 'text', content:
+      'Most Japanese words are written with kanji compounds. \
+Compounds combine two or more kanji to create new meanings. \
+On-yomi readings are typically used in compounds. \
+Understanding common components helps decipher unfamiliar compounds. \
+Learning compounds in context is more effective than isolated kanji.' 
+    },
+    { type: 'subtitle', content: 'Common Compound Patterns' },
+    { type: 'text', content:
+      '学校 (gakkō): School (学 study + 校 institution). \
+先生 (sensei): Teacher (先 before + 生 life). \
+大学生 (daigakusei): University student (大 big + 学 study + 生 person). \
+日本語 (nihongo): Japanese language (日 sun/Japan + 本 origin + 語 language). \
+電話 (denwa): Telephone (電 electricity + 話 talk). \
+旅行 (ryokō): Travel (旅 trip + 行 go). \
+食事 (shokuji): Meal (食 eat + 事 thing).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Learning Strategies' },
+    { type: 'text', content:
+      'Learn kanji in vocabulary words, not isolation. \
+Notice repeated components in related words. \
+Use mnemonic stories to remember kanji meanings. \
+Practice reading real Japanese materials at appropriate level. \
+Create flashcards with compounds on one side, meaning and reading on other.' 
+    }
+  ]
+},
+'japanese-writing-10': {
+  id: 'japanese-writing-10',
+  title: 'Reading Practice and Resources',
+  image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Reading Practice and Resources' },
+    { type: 'text', content:
+      'Regular reading practice builds character recognition and vocabulary. \
+Start with materials designed for learners. \
+Use furigana (small hiragana above kanji) initially. \
+Gradually reduce dependence on romaji and furigana. \
+Reading authentic materials improves real-world comprehension.' 
+    },
+    { type: 'subtitle', content: 'Practice Materials' },
+    { type: 'text', content:
+      'Graded readers: Books designed for specific proficiency levels. \
+Children\'s books: Simple language with furigana. \
+Manga: Japanese comics with furigana and visual context. \
+NHK News Web Easy: Simplified news articles with furigana. \
+Japanese subtitles: Watch Japanese media with Japanese subtitles. \
+Menus and signs: Real-world reading practice.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1000&q=60' },
+    { type: 'subtitle', content: 'Reading Strategies' },
+    { type: 'text', content:
+      'Read for overall comprehension first, not word-by-word. \
+Use context to guess unknown kanji meanings. \
+Look up only key unfamiliar words that block understanding. \
+Read aloud to practice pronunciation and rhythm. \
+Keep reading journal of new vocabulary and kanji. \
+Set regular reading goals (pages per day, articles per week).' 
+    }
+  ]
+},
 
 // =======Italian Conversation====
 
-
+'italian-conversation-1': {
+  id: 'italian-conversation-1',
+  title: 'Italian Pronunciation Basics',
+  image: 'https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Italian Pronunciation Basics' },
+    { type: 'text', content:
+      'Italian pronunciation is phonetic with consistent letter-to-sound rules. \
+Double consonants are pronounced longer and with more emphasis. \
+Vowels are pure and consistent, unlike English. \
+Accent marks indicate stress in certain words. \
+Mastering pronunciation early prevents accent fossilization.' 
+    },
+    { type: 'subtitle', content: 'Key Sounds' },
+    { type: 'text', content:
+      'C before e/i: Soft "ch" sound (cena - dinner). \
+C before a/o/u: Hard "k" sound (casa - house). \
+G before e/i: Soft "j" sound (giorno - day). \
+G before a/o/u: Hard "g" sound (gatto - cat). \
+GLI: Palatal "lli" sound (figlio - son). \
+GN: Nasal "ny" sound (signore - sir). \
+SC before e/i: "sh" sound (pesce - fish).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Tips' },
+    { type: 'text', content:
+      'Listen to Italian music and repeat lyrics. \
+Watch Italian films with Italian subtitles. \
+Practice tongue twisters (scioglilingua). \
+Record yourself and compare to native speakers. \
+Focus on vowel purity and consonant clarity.' 
+    }
+  ]
+},
+'italian-conversation-2': {
+  id: 'italian-conversation-2',
+  title: 'Greetings and Introductions',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Greetings and Introductions' },
+    { type: 'text', content:
+      'Italian greetings vary by time of day and formality. \
+Cheek kissing (fare la baciata) is common in social settings. \
+Understanding formal vs informal address is important. \
+Introductions often include questions about origin and well-being. \
+Proper greetings establish rapport in Italian culture.' 
+    },
+    { type: 'subtitle', content: 'Essential Greetings' },
+    { type: 'text', content:
+      'Ciao: Hello/Goodbye (informal). \
+Buongiorno: Good morning/Good day. \
+Buonasera: Good evening. \
+Buonanotte: Good night. \
+Arrivederci: Goodbye (formal). \
+Come stai?: How are you? (informal). \
+Come sta?: How are you? (formal).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Introduction Phrases' },
+    { type: 'text', content:
+      'Mi chiamo...: My name is... \
+Come ti chiami?: What is your name? (informal). \
+Come si chiama?: What is your name? (formal). \
+Piacere: Nice to meet you. \
+Di dove sei?: Where are you from? (informal). \
+Di dov\'è?: Where are you from? (formal). \
+Sono...: I am... (nationality).' 
+    }
+  ]
+},
+'italian-conversation-3': {
+  id: 'italian-conversation-3',
+  title: 'Ordering Food and Drinks',
+  image: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Ordering Food and Drinks' },
+    { type: 'text', content:
+      'Italian cuisine varies greatly by region. \
+Meal structure includes antipasto, primo, secondo, contorno, dolce. \
+Coffee culture has specific rules and vocabulary. \
+Understanding menu categories helps when dining out. \
+Polite phrases are important in restaurant interactions.' 
+    },
+    { type: 'subtitle', content: 'Restaurant Phrases' },
+    { type: 'text', content:
+      'Un tavolo per due, per favore: A table for two, please. \
+Il menu, per favore: The menu, please. \
+Vorrei...: I would like... \
+Mi porti...?: Could you bring me...? \
+Il conto, per favore: The check, please. \
+È delizioso: It\'s delicious. \
+Sono vegetariano/a: I am vegetarian.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Food Vocabulary' },
+    { type: 'text', content:
+      'Colazione: Breakfast. \
+Pranzo: Lunch. \
+Cena: Dinner. \
+Antipasto: Appetizer. \
+Primo piatto: First course (pasta/rice). \
+Secondo piatto: Main course (meat/fish). \
+Contorno: Side dish. \
+Dolce: Dessert.' 
+    }
+  ]
+},
+'italian-conversation-4': {
+  id: 'italian-conversation-4',
+  title: 'Shopping and Market Conversations',
+  image: 'https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Shopping and Market Conversations' },
+    { type: 'text', content:
+      'Italian markets (mercati) are important for fresh food. \
+Shopping etiquette includes specific greetings and politeness. \
+Understanding sizes, colors, and materials vocabulary. \
+Bargaining is not common in stores but may occur in markets. \
+Receipts are called "scontrino" or "ricevuta".' 
+    },
+    { type: 'subtitle', content: 'Shopping Phrases' },
+    { type: 'text', content:
+      'Quanto costa?: How much does it cost? \
+Posso provarlo?: Can I try it on? \
+Ha una taglia più piccola/grande?: Do you have a smaller/larger size? \
+Lo prendo: I\'ll take it. \
+È troppo caro: It\'s too expensive. \
+Dove sono i camerini?: Where are the fitting rooms? \
+Cerca qualcosa in particolare?: Are you looking for something specific?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1000&q=60' },
+    { type: 'subtitle', content: 'Market Vocabulary' },
+    { type: 'text', content:
+      'Il mercato: Market. \
+La frutta: Fruit. \
+La verdura: Vegetables. \
+Il pane: Bread. \
+Il formaggio: Cheese. \
+La carne: Meat. \
+Il pesce: Fish. \
+Un chilo: One kilogram.' 
+    }
+  ]
+},
+'italian-conversation-5': {
+  id: 'italian-conversation-5',
+  title: 'Directions and Transportation',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Directions and Transportation' },
+    { type: 'text', content:
+      'Asking for directions requires specific question forms. \
+Understanding transportation vocabulary is essential for travel. \
+Italian cities have various public transportation options. \
+Prepositions (a, da, in, etc.) are crucial for location expressions. \
+Confidence with directions reduces travel stress.' 
+    },
+    { type: 'subtitle', content: 'Direction Questions' },
+    { type: 'text', content:
+      'Dov\'è...?: Where is...? \
+Come si arriva a...?: How do I get to...? \
+È lontano?: Is it far? \
+È vicino?: Is it near? \
+A destra: To the right. \
+A sinistra: To the left. \
+Sempre diritto: Straight ahead. \
+All\'angolo: At the corner.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Transportation' },
+    { type: 'text', content:
+      'La stazione: Train station. \
+La metropolitana: Subway. \
+L\'autobus: Bus. \
+Il taxi: Taxi. \
+Un biglietto: A ticket. \
+Andata: One-way. \
+Andata e ritorno: Round-trip. \
+Il binario: Platform.' 
+    }
+  ]
+},
+'italian-conversation-6': {
+  id: 'italian-conversation-6',
+  title: 'Making Plans and Invitations',
+  image: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Making Plans and Invitations' },
+    { type: 'text', content:
+      'Italian social interactions have specific etiquette. \
+Making plans involves negotiating time and place. \
+Invitations may be verbal or implied. \
+Understanding time expressions is crucial. \
+Accepting/declining invitations requires polite formulations.' 
+    },
+    { type: 'subtitle', content: 'Planning Phrases' },
+    { type: 'text', content:
+      'Che fai stasera?: What are you doing tonight? \
+Ti va di...?: How about...? (informal). \
+Le va di...?: How about...? (formal). \
+Vorrei invitarti a...: I would like to invite you to... \
+A che ora?: At what time? \
+Dove ci incontriamo?: Where shall we meet? \
+Ci vediamo alle...: See you at...' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Responses' },
+    { type: 'text', content:
+      'Volentieri!: Gladly! \
+Mi piacerebbe: I would like to. \
+Mi dispiace, non posso: I\'m sorry, I can\'t. \
+Forse un\'altra volta: Maybe another time. \
+Perfetto!: Perfect! \
+D\'accordo!: Agreed! \
+A più tardi!: See you later!' 
+    }
+  ]
+},
+'italian-conversation-7': {
+  id: 'italian-conversation-7',
+  title: 'Talking About Family and Friends',
+  image: 'https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Talking About Family and Friends' },
+    { type: 'text', content:
+      'Family is central to Italian culture. \
+Specific terms for family members include affectionate forms. \
+Describing relationships requires correct gender agreement. \
+Asking about family is common in conversations. \
+Possessive adjectives must match gender and number of possessed item.' 
+    },
+    { type: 'subtitle', content: 'Family Members' },
+    { type: 'text', content:
+      'Madre/Mamma: Mother/Mom. \
+Padre/Papà: Father/Dad. \
+Fratello: Brother. \
+Sorella: Sister. \
+Nonno: Grandfather. \
+Nonna: Grandmother. \
+Zio: Uncle. \
+Zia: Aunt. \
+Marito: Husband. \
+Moglie: Wife.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1000&q=60' },
+    { type: 'subtitle', content: 'Conversation Starters' },
+    { type: 'text', content:
+      'Hai fratelli o sorelle?: Do you have brothers or sisters? \
+Quanti anni ha tuo figlio?: How old is your son? \
+Dove vivono i tuoi genitori?: Where do your parents live? \
+Come si chiama tua moglie?: What is your wife\'s name? \
+Hai figli?: Do you have children? \
+Sei sposato/a?: Are you married?' 
+    }
+  ]
+},
+'italian-conversation-8': {
+  id: 'italian-conversation-8',
+  title: 'Weather and Small Talk',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Weather and Small Talk' },
+    { type: 'text', content:
+      'Weather is common small talk topic in Italy. \
+Seasonal vocabulary helps describe changing conditions. \
+Understanding weather-related activities and clothing. \
+Small talk often includes comments on food or current events. \
+Cultural awareness improves small talk appropriateness.' 
+    },
+    { type: 'subtitle', content: 'Weather Vocabulary' },
+    { type: 'text', content:
+      'Che tempo fa?: What\'s the weather like? \
+Fa bel tempo: It\'s nice weather. \
+Fa brutto tempo: It\'s bad weather. \
+Fa caldo: It\'s hot. \
+Fa freddo: It\'s cold. \
+Piove: It\'s raining. \
+Nevica: It\'s snowing. \
+C\'è vento: It\'s windy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Small Talk Topics' },
+    { type: 'text', content:
+      'Com\'è stato il weekend?: How was your weekend? \
+Che programmi hai per oggi?: What are your plans for today? \
+Cosa ne pensi di...?: What do you think about...? \
+Hai visto...?: Have you seen...? (film/news). \
+Ti piace qui?: Do you like it here? \
+Da quanto tempo sei qui?: How long have you been here?' 
+    }
+  ]
+},
+'italian-conversation-9': {
+  id: 'italian-conversation-9',
+  title: 'Emergencies and Problem Solving',
+  image: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Emergencies and Problem Solving' },
+    { type: 'text', content:
+      'Emergency situations require clear, simple communication. \
+Medical vocabulary helps describe symptoms accurately. \
+Understanding Italian emergency numbers is important. \
+Pharmacy (farmacia) interactions follow specific patterns. \
+Problem-solving conversations require polite but firm language.' 
+    },
+    { type: 'subtitle', content: 'Emergency Phrases' },
+    { type: 'text', content:
+      'Aiuto!: Help! \
+Chiamate la polizia!: Call the police! \
+Chiamate un\'ambulanza!: Call an ambulance! \
+Al fuoco!: Fire! \
+Ho bisogno di un dottore: I need a doctor. \
+Dov\'è l\'ospedale?: Where is the hospital? \
+Dov\'è la farmacia più vicina?: Where is the nearest pharmacy?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Problem Vocabulary' },
+    { type: 'text', content:
+      'Mi fa male...: I have pain in... (la testa: head, lo stomaco: stomach). \
+Sono malato/a: I am sick. \
+Ho la febbre: I have a fever. \
+Sono allergico/a a...: I am allergic to... \
+Una ricetta: A prescription. \
+Le medicine: Medicine. \
+L\'aspirina: Aspirin.' 
+    }
+  ]
+},
+'italian-conversation-10': {
+  id: 'italian-conversation-10',
+  title: 'Cultural Topics and Current Events',
+  image: 'https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cultural Topics and Current Events' },
+    { type: 'text', content:
+      'Discussing culture shows interest in Italian society. \
+Current events are common conversation topics. \
+Understanding regional differences enriches discussions. \
+Cultural references (art, music, food) connect with Italians. \
+Political discussions require tact and awareness of context.' 
+    },
+    { type: 'subtitle', content: 'Cultural Topics' },
+    { type: 'text', content:
+      'Cucina italiana: Italian cuisine. \
+Calcio: Soccer/football. \
+Opera: Opera. \
+Arte rinascimentale: Renaissance art. \
+Moda italiana: Italian fashion. \
+Cinema italiano: Italian cinema. \
+Festività italiane: Italian holidays. \
+Dialetti regionali: Regional dialects.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1000&q=60' },
+    { type: 'subtitle', content: 'Discussion Phrases' },
+    { type: 'text', content:
+      'Cosa ne pensi della situazione...?: What do you think about the situation...? \
+Hai sentito la notizia su...?: Have you heard the news about...? \
+Secondo te...?: In your opinion...? \
+Qual è la tua opinione su...?: What is your opinion about...? \
+Sono d\'accordo: I agree. \
+Non sono d\'accordo: I disagree. \
+È un argomento interessante: That\'s an interesting topic.' 
+    }
+  ]
+},
 
 // ======Portuguese Essentials====
 
-
+'portuguese-essentials-1': {
+  id: 'portuguese-essentials-1',
+  title: 'Portuguese Pronunciation Basics',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Portuguese Pronunciation Basics' },
+    { type: 'text', content:
+      'Portuguese pronunciation varies between European and Brazilian varieties. \
+Nasal vowels are distinctive feature of Portuguese. \
+Stress patterns are important as they can change word meaning. \
+Accent marks indicate stress and vowel quality. \
+Mastering pronunciation early helps with comprehension and speaking.' 
+    },
+    { type: 'subtitle', content: 'Key Sounds' },
+    { type:'text', content:
+      'NH: "ny" sound like Spanish ñ (amanhã - tomorrow). \
+LH: "lli" sound (filho - son). \
+Ç: "ss" sound (açaí). \
+Ã/Õ: Nasal vowels (irmã - sister, limões - lemons). \
+R: Guttural in Portugal, h-like in Brazil (Rio). \
+S at end: "sh" in Portugal, "s" in Brazil (livros - books).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Tips' },
+    { type: 'text', content:
+      'Listen to Portuguese music from both Portugal and Brazil. \
+Watch films with Portuguese subtitles. \
+Practice minimal pairs to distinguish similar sounds. \
+Record yourself and compare to native speakers. \
+Focus on nasal vowels and stress patterns.' 
+    }
+  ]
+},
+'portuguese-essentials-2': {
+  id: 'portuguese-essentials-2',
+  title: 'Greetings and Polite Expressions',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Greetings and Polite Expressions' },
+    { type: 'text', content:
+      'Portuguese greetings vary by time, formality, and region. \
+Politeness is highly valued in Portuguese-speaking cultures. \
+Understanding tu vs você distinction is important. \
+Greetings often include questions about well-being. \
+Proper greetings establish positive interactions.' 
+    },
+    { type: 'subtitle', content: 'Essential Greetings' },
+    { type: 'text', content:
+      'Olá: Hello. \
+Bom dia: Good morning. \
+Boa tarde: Good afternoon. \
+Boa noite: Good evening/good night. \
+Tchau: Goodbye. \
+Até logo: See you later. \
+Como está?: How are you? (formal). \
+Como estás?: How are you? (informal).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Politeness Essentials' },
+    { type: 'text', content:
+      'Por favor: Please. \
+Obrigado (m)/Obrigada (f): Thank you. \
+De nada: You\'re welcome. \
+Com licença: Excuse me. \
+Desculpe: Sorry/Excuse me. \
+Prazer em conhecê-lo/a: Nice to meet you. \
+Se faz favor: Please (Portugal).' 
+    }
+  ]
+},
+'portuguese-essentials-3': {
+  id: 'portuguese-essentials-3',
+  title: 'Introductions and Basic Questions',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introductions and Basic Questions' },
+    { type: 'text', content:
+      'Portuguese introductions follow specific patterns. \
+Asking and answering basic questions builds conversation skills. \
+Cultural aspects influence how personal information is shared. \
+Understanding regional variations in vocabulary. \
+Confidence in introductions opens doors to deeper conversations.' 
+    },
+    { type: 'subtitle', content: 'Introduction Phrases' },
+    { type: 'text', content:
+      'Me chamo...: My name is... \
+Como se chama?: What is your name? (formal). \
+Como te chamas?: What is your name? (informal). \
+Prazer: Nice to meet you. \
+Sou...: I am... (nationality/profession). \
+De onde é?: Where are you from? (formal). \
+De onde és?: Where are you from? (informal).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Basic Questions' },
+    { type: 'text', content:
+      'O que faz?: What do you do? (formal). \
+O que fazes?: What do you do? (informal). \
+Onde mora?: Where do you live? (formal). \
+Onde moras?: Where do you live? (informal). \
+Fala inglês?: Do you speak English? \
+Tem irmãos?: Do you have siblings? \
+Quantos anos tem?: How old are you?' 
+    }
+  ]
+},
+'portuguese-essentials-4': {
+  id: 'portuguese-essentials-4',
+  title: 'Numbers and Shopping',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Numbers and Shopping' },
+    { type: 'text', content:
+      'Portuguese numbers follow logical patterns. \
+Shopping vocabulary varies between Portugal and Brazil. \
+Understanding currency and prices is essential. \
+Market culture is important in Portuguese-speaking countries. \
+Polite shopping interactions include specific phrases.' 
+    },
+    { type: 'subtitle', content: 'Basic Numbers' },
+    { type: 'text', content:
+      '1-10: um, dois, três, quatro, cinco, seis, sete, oito, nove, dez. \
+11-19: onze, doze, treze, catorze, quinze, dezasseis, dezassete, dezoito, dezanove. \
+20-100: vinte, trinta, quarenta, cinquenta, sessenta, setenta, oitenta, noventa, cem. \
+Brazilian vs European: 16-19 (dezesseis vs dezasseis). \
+Ordinal numbers: primeiro, segundo, terceiro.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Shopping Phrases' },
+    { type: 'text', content:
+      'Quanto custa?: How much does it cost? \
+Posso experimentar?: Can I try it on? \
+Tem tamanho maior/menor?: Do you have a larger/smaller size? \
+Vou levar: I\'ll take it. \
+É muito caro: It\'s too expensive. \
+Onde é o provador?: Where is the fitting room? \
+Aceita cartão?: Do you accept cards?' 
+    }
+  ]
+},
+'portuguese-essentials-5': {
+  id: 'portuguese-essentials-5',
+  title: 'Food and Restaurant Vocabulary',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Food and Restaurant Vocabulary' },
+    { type: 'text', content:
+      'Portuguese cuisine varies greatly between Portugal and Brazil. \
+Understanding meal structure helps when dining out. \
+Coffee culture has specific terms and customs. \
+Regional specialties have particular vocabulary. \
+Polite restaurant interactions are important.' 
+    },
+    { type: 'subtitle', content: 'Restaurant Phrases' },
+    { type: 'text', content:
+      'Uma mesa para dois, por favor: A table for two, please. \
+O menu, por favor: The menu, please. \
+Gostaria de...: I would like... \
+Pode trazer...?: Could you bring...? \
+A conta, por favor: The check, please. \
+Está delicioso: It\'s delicious. \
+Sou vegetariano/a: I am vegetarian.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Meal Vocabulary' },
+    { type: 'text', content:
+      'Pequeno-almoço (PT)/Café da manhã (BR): Breakfast. \
+Almoço: Lunch. \
+Jantar: Dinner. \
+Entrada: Appetizer. \
+Prato principal: Main course. \
+Sobremesa: Dessert. \
+Café: Coffee (espresso unless specified). \
+Vinho: Wine.' 
+    }
+  ]
+},
+'portuguese-essentials-6': {
+  id: 'portuguese-essentials-6',
+  title: 'Directions and Transportation',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Directions and Transportation' },
+    { type: 'text', content:
+      'Asking for directions requires specific question forms. \
+Transportation vocabulary differs between Portugal and Brazil. \
+Understanding public transportation systems. \
+Prepositions are crucial for location expressions. \
+Confidence with directions reduces travel stress.' 
+    },
+    { type: 'subtitle', content: 'Direction Questions' },
+    { type: 'text', content:
+      'Onde fica...?: Where is...? \
+Como chego a...?: How do I get to...? \
+É longe?: Is it far? \
+É perto?: Is it near? \
+À direita: To the right. \
+À esquerda: To the left. \
+Sempre em frente: Straight ahead. \
+Na esquina: At the corner.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Transportation' },
+    { type: 'text', content:
+      'A estação: Train station. \
+O metro: Subway. \
+O autocarro (PT)/Ônibus (BR): Bus. \
+O táxi: Taxi. \
+Um bilhete: A ticket. \
+Ida: One-way. \
+Ida e volta: Round-trip. \
+A plataforma: Platform.' 
+    }
+  ]
+},
+'portuguese-essentials-7': {
+  id: 'portuguese-essentials-7',
+  title: 'Accommodation and Hotel Phrases',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Accommodation and Hotel Phrases' },
+    { type: 'text', content:
+      'Hotel interactions follow specific formal patterns. \
+Understanding room types and amenities vocabulary. \
+Checking in/out involves particular questions. \
+Complaints or requests require polite phrasing. \
+Differences between Portugal and Brazil in terminology.' 
+    },
+    { type: 'subtitle', content: 'Hotel Phrases' },
+    { type: 'text', content:
+      'Tenho uma reserva: I have a reservation. \
+Tem um quarto disponível?: Do you have a room available? \
+Para uma pessoa/duas pessoas: For one person/two people. \
+Com casa de banho/banheiro: With bathroom. \
+O pequeno-almoço está incluído?: Is breakfast included? \
+A que horas é o pequeno-almoço?: What time is breakfast? \
+A chave, por favor: The key, please.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Requests and Problems' },
+    { type: 'text', content:
+      'Pode trazer...?: Can you bring...? \
+Não há água quente: There\'s no hot water. \
+A televisão não funciona: The television doesn\'t work. \
+O quarto é muito barulhento: The room is too noisy. \
+Gostaria de prolongar a estadia: I would like to extend my stay. \
+Parto amanhã: I\'m leaving tomorrow.' 
+    }
+  ]
+},
+'portuguese-essentials-8': {
+  id: 'portuguese-essentials-8',
+  title: 'Health and Emergency Phrases',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Health and Emergency Phrases' },
+    { type: 'text', content:
+      'Emergency situations require clear communication. \
+Medical vocabulary helps describe symptoms accurately. \
+Understanding healthcare system differences. \
+Emergency numbers vary by country. \
+Pharmacy interactions follow specific patterns.' 
+    },
+    { type: 'subtitle', content: 'Emergency Phrases' },
+    { type: 'text', content:
+      'Socorro!: Help! \
+Chame a polícia!: Call the police! \
+Chame uma ambulância!: Call an ambulance! \
+Fogo!: Fire! \
+Preciso de um médico: I need a doctor. \
+Onde fica o hospital?: Where is the hospital? \
+Onde fica a farmácia mais próxima?: Where is the nearest pharmacy?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Medical Vocabulary' },
+    { type: 'text', content:
+      'Tenho dor de...: I have pain in... (cabeça: head, estômago: stomach). \
+Estou doente: I am sick. \
+Tenho febre: I have a fever. \
+Sou alérgico/a a...: I am allergic to... \
+Uma receita: A prescription. \
+Os medicamentos: Medicine. \
+Aspirina: Aspirin.' 
+    }
+  ]
+},
+'portuguese-essentials-9': {
+  id: 'portuguese-essentials-9',
+  title: 'Social Interactions and Invitations',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Social Interactions and Invitations' },
+    { type: 'text', content:
+      'Portuguese social interactions have specific etiquette. \
+Invitations may be verbal or written with particular phrasing. \
+Understanding social cues helps navigate gatherings. \
+Topics of conversation differ by region. \
+Accepting/declining invitations requires polite formulations.' 
+    },
+    { type: 'subtitle', content: 'Invitation Phrases' },
+    { type: 'text', content:
+      'Gostaria de...?: Would you like to...? (formal). \
+Queres...?: Would you like to...? (informal). \
+Que tal...?: How about...? \
+Convido-o/a para...: I invite you to... (formal). \
+Convido-te para...: I invite you to... (informal). \
+Quais são os seus planos?: What are your plans? (formal). \
+Quais são os teus planos?: What are your plans? (informal).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Responses' },
+    { type: 'text', content:
+      'Com prazer!: With pleasure! \
+Claro!: Of course! \
+Desculpe, não posso: I\'m sorry, I can\'t. \
+Talvez outra vez: Maybe another time. \
+Que bom!: How nice! \
+A que horas?: At what time? \
+Onde?: Where?' 
+    }
+  ]
+},
+'portuguese-essentials-10': {
+  id: 'portuguese-essentials-10',
+  title: 'Weather and Daily Conversations',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Weather and Daily Conversations' },
+    { type: 'text', content:
+      'Weather is common small talk topic. \
+Seasonal vocabulary helps describe conditions. \
+Understanding weather-related activities. \
+Daily conversation topics include work, family, and plans. \
+Cultural awareness improves conversation appropriateness.' 
+    },
+    { type: 'subtitle', content: 'Weather Vocabulary' },
+    { type: 'text', content:
+      'Que tempo faz?: What\'s the weather like? \
+Está bom tempo: It\'s nice weather. \
+Está mau tempo: It\'s bad weather. \
+Está calor: It\'s hot. \
+Está frio: It\'s cold. \
+Está a chover: It\'s raining. \
+Está a nevar: It\'s snowing. \
+Está vento: It\'s windy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Daily Topics' },
+    { type: 'text', content:
+      'Como foi o seu fim de semana?: How was your weekend? (formal). \
+Como foi o teu fim de semana?: How was your weekend? (informal). \
+O que fez hoje?: What did you do today? (formal). \
+O que fizeste hoje?: What did you do today? (informal). \
+Trabalha onde?: Where do you work? (formal). \
+Trabalhas onde?: Where do you work? (informal). \
+Gosta daqui?: Do you like it here?' 
+    }
+  ]
+},
 
 // ======Arabic Script=====
 
+'arabic-script-1': {
+  id: 'arabic-script-1',
+  title: 'Arabic Alphabet Introduction',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Arabic Alphabet Introduction' },
+    { type: 'text', content:
+      'Arabic script is written from right to left. \
+The alphabet has 28 letters, all consonants (vowels are diacritical marks). \
+Letters change shape depending on position in word. \
+Arabic is cursive - letters connect within words. \
+Mastering the alphabet is first step to reading Arabic.' 
+    },
+    { type: 'subtitle', content: 'Script Characteristics' },
+    { type: 'text', content:
+      'Right-to-left writing direction. \
+Letters have initial, medial, final, and isolated forms. \
+No capital letters. \
+Short vowels are optional diacritical marks (harakat). \
+Long vowels are represented by letters (alif, waw, ya).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Learning Approach' },
+    { type: 'text', content:
+      'Learn letters in groups by similar shapes. \
+Practice each letter in all four positions. \
+Start with distinct letters that don\'t connect to left. \
+Use tracing sheets to learn proper letter formation. \
+Practice reading simple words before complex texts.' 
+    }
+  ]
+},
+'arabic-script-2': {
+  id: 'arabic-script-2',
+  title: 'Basic Letter Forms and Connections',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Letter Forms and Connections' },
+    { type: 'text', content:
+      'Arabic letters have different forms depending on position. \
+Some letters connect from both sides, others only from right. \
+Six letters (و ز ر ذ د ا) only connect to preceding letters. \
+Understanding connection rules is essential for reading. \
+Practice writing letters in context, not isolation.' 
+    },
+    { type: 'subtitle', content: 'Position Forms' },
+    { type: 'text', content:
+      'Isolated: Letter standing alone. \
+Initial: Beginning of word (connects to following letter). \
+Medial: Middle of word (connects to both sides). \
+Final: End of word (connects to preceding letter). \
+Example: ب (ba) - بـ (initial), ـبـ (medial), ـب (final), ب (isolated).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Connection Groups' },
+    { type: 'text', content:
+      'Two-way connectors: Most letters connect both sides. \
+One-way connectors: و ز ر ذ د ا connect only to right. \
+Practice common letter combinations. \
+Notice how letter shapes change in different positions. \
+Start with common words to see letters in context.' 
+    }
+  ]
+},
+'arabic-script-3': {
+  id: 'arabic-script-3',
+  title: 'Short Vowels (Harakat)',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Short Vowels (Harakat)' },
+    { type: 'text', content:
+      'Short vowels are optional diacritical marks above/below letters. \
+They indicate pronunciation but are often omitted in adult texts. \
+Essential for learners and religious texts (Qur\'an). \
+Three main short vowels: fatha, kasra, damma. \
+Sukun indicates absence of vowel.' 
+    },
+    { type: 'subtitle', content: 'Vowel Marks' },
+    { type: 'text', content:
+      'Fatha ( َ ): "a" sound (بَ = ba). \
+Kasra ( ِ ): "i" sound (بِ = bi). \
+Damma ( ُ ): "u" sound (بُ = bu). \
+Sukun ( ْ ): No vowel (بْ = b). \
+Shadda ( ّ ): Doubles consonant (بَّ = bba). \
+Tanwin: Nunation (ً ٍ ٌ ) for indefinite nouns.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Usage Rules' },
+    { type: 'text', content:
+      'Vowels usually written in children\'s books and learning materials. \
+Often omitted in newspapers, books, and signs. \
+Always used in Qur\'anic texts. \
+Help determine case endings in nouns and verbs. \
+Practice reading with and without vowel marks.' 
+    }
+  ]
+},
+'arabic-script-4': {
+  id: 'arabic-script-4',
+  title: 'Long Vowels and Diphthongs',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Long Vowels and Diphthongs' },
+    { type: 'text', content:
+      'Long vowels are represented by three letters: alif, waw, ya. \
+They function as consonants in some positions, vowels in others. \
+Diphthongs are combinations of short vowels with waw or ya. \
+Understanding long vowels is crucial for correct pronunciation. \
+They affect word meaning and grammatical function.' 
+    },
+    { type: 'subtitle', content: 'Long Vowel Letters' },
+    { type: 'text', content:
+      'Alif (ا): Long "aa" sound (با = baa). \
+Waw (و): Long "uu" sound (بو = buu). \
+Ya (ي): Long "ii" sound (بي = bii). \
+As consonants: Alif = glottal stop, Waw = w, Ya = y. \
+Madda (آ): Extended alif for "aa" at word beginning.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Diphthongs' },
+    { type: 'text', content:
+      'Aw: Fatha + waw (َو = aw). \
+Ay: Fatha + ya (َي = ay). \
+Examples: لَوْ (law - if), بَيْت (bayt - house). \
+Practice distinguishing between consonant and vowel functions. \
+Notice how pronunciation changes meaning.' 
+    }
+  ]
+},
+'arabic-script-5': {
+  id: 'arabic-script-5',
+  title: 'Sun and Moon Letters',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sun and Moon Letters' },
+    { type: 'text', content:
+      'Arabic has phonological rule affecting pronunciation of definite article "al-". \
+Sun letters cause assimilation of "l" sound to following consonant. \
+Moon letters keep the "l" sound pronounced. \
+This rule applies to pronunciation, not spelling. \
+Understanding this improves listening comprehension.' 
+    },
+    { type: 'subtitle', content: 'Sun Letters' },
+    { type: 'text', content:
+      'ت ث د ذ ر ز س ش ص ض ط ظ ل ن \
+14 letters that cause assimilation. \
+Examples: الشمس (ash-shams - the sun), not al-shams. \
+الرد (ar-radd - the reply), not al-radd. \
+The ل (lam) assimilates to the sun letter.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Moon Letters' },
+    { type: 'text', content:
+      'أ ب ج ح خ ع غ ف ق ك م ه و ي \
+14 letters that don\'t cause assimilation. \
+Examples: القمر (al-qamar - the moon). \
+الكتاب (al-kitaab - the book). \
+The ل (lam) remains pronounced. \
+Written with shadda on sun letter in careful texts.' 
+    }
+  ]
+},
+'arabic-script-6': {
+  id: 'arabic-script-6',
+  title: 'Numbers and Dates',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Numbers and Dates' },
+    { type: 'text', content:
+      'Arabic has two numeral systems: Eastern Arabic and Western Arabic. \
+Numbers written left-to-right within right-to-left text. \
+Gender agreement affects numbers 3-10. \
+Dates follow Hijri (Islamic) and Gregorian calendars. \
+Understanding numbers is essential for daily life.' 
+    },
+    { type: 'subtitle', content: 'Numeral Systems' },
+    { type: 'text', content:
+      'Eastern Arabic: ٠١٢٣٤٥٦٧٨٩ (used in Middle East). \
+Western Arabic: 0123456789 (used in North Africa). \
+Cardinal numbers: واحد (1), اثنان (2), ثلاثة (3). \
+Ordinal numbers: أول (first), ثاني (second), ثالث (third). \
+Numbers 3-10 have reverse gender agreement with counted noun.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Date Format' },
+    { type: 'text', content:
+      'Day-Month-Year order. \
+Islamic months: محرم, صفر, ربيع الأول, etc. \
+Days of week: الأحد (Sunday), الإثنين (Monday), الثلاثاء (Tuesday). \
+Time expressions: صباحاً (morning), مساءً (evening), ليلاً (night). \
+Practice reading dates in both numeral systems.' 
+    }
+  ]
+},
+'arabic-script-7': {
+  id: 'arabic-script-7',
+  title: 'Common Phrases and Greetings',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Common Phrases and Greetings' },
+    { type: 'text', content:
+      'Arabic greetings vary by time of day and region. \
+Religious expressions are common in greetings. \
+Formality levels affect phrase choice. \
+Cultural aspects influence greeting rituals. \
+Learning common phrases builds confidence.' 
+    },
+    { type: 'subtitle', content: 'Basic Greetings' },
+    { type: 'text', content:
+      'السلام عليكم: Peace be upon you (general greeting). \
+مرحبا: Hello. \
+صباح الخير: Good morning. \
+مساء الخير: Good evening. \
+مع السلامة: Goodbye. \
+إلى اللقاء: See you later. \
+كيف حالك؟: How are you? (to male). \
+كيف حالكِ؟: How are you? (to female).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Responses and Politeness' },
+    { type: 'text', content:
+      'وعليكم السلام: And upon you peace (response). \
+الحمد لله: Praise God (response to how are you). \
+من فضلك: Please. \
+شكراً: Thank you. \
+عفواً: You\'re welcome. \
+لو سمحت: Excuse me. \
+أنا آسف: I\'m sorry.' 
+    }
+  ]
+},
+'arabic-script-8': {
+  id: 'arabic-script-8',
+  title: 'Word Formation and Root System',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Word Formation and Root System' },
+    { type: 'text', content:
+      'Arabic is based on trilateral (3-letter) root system. \
+Roots convey basic meaning, patterns create specific words. \
+Understanding roots helps vocabulary acquisition. \
+Patterns (أوزان) create nouns, verbs, adjectives. \
+This system makes Arabic vocabulary logical and predictable.' 
+    },
+    { type: 'subtitle', content: 'Root System Basics' },
+    { type: 'text', content:
+      'Root: ك ت ب (k-t-b) related to writing. \
+كتاب (kitaab): Book. \
+كاتب (kaatib): Writer. \
+مكتب (maktab): Office/desk. \
+مكتبة (maktaba): Library. \
+يكتب (yaktub): He writes. \
+Patterns: فاعل (doer), مفعول (done to), etc.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Common Patterns' },
+    { type: 'text', content:
+      'فعل (fa3ala): Basic verb pattern. \
+مفعل (maf3al): Place or instrument. \
+فاعل (faa3il): Doer/agent. \
+مفعول (maf3uul): Passive participle. \
+تفعيل (taf3iil): Verbal noun (process). \
+Practice identifying roots in new vocabulary.' 
+    }
+  ]
+},
+'arabic-script-9': {
+  id: 'arabic-script-9',
+  title: 'Reading Practice Strategies',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Reading Practice Strategies' },
+    { type: 'text', content:
+      'Regular reading builds letter recognition and vocabulary. \
+Start with materials designed for learners. \
+Use texts with vowel marks (tashkeel) initially. \
+Gradually transition to texts without vowel marks. \
+Reading authentic materials improves real-world comprehension.' 
+    },
+    { type: 'subtitle', content: 'Practice Materials' },
+    { type: 'text', content:
+      'Children\'s books: Simple language with full vowel marks. \
+Qur\'an: Complete vowelization, but classical language. \
+News websites: Modern Standard Arabic, some vowelization. \
+Social media: Informal Arabic, minimal vowel marks. \
+Signs and advertisements: Real-world reading practice. \
+Graded readers: Designed for specific proficiency levels.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Reading Strategies' },
+    { type: 'text', content:
+      'Read right to left, top to bottom. \
+Identify root letters to guess word meanings. \
+Use context to determine vowel sounds. \
+Practice recognizing letter shapes in different positions. \
+Read aloud to connect visual and auditory recognition. \
+Keep vocabulary journal of new words and roots.' 
+    }
+  ]
+},
+'arabic-script-10': {
+  id: 'arabic-script-10',
+  title: 'Writing Practice and Calligraphy Basics',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Writing Practice and Calligraphy Basics' },
+    { type: 'text', content:
+      'Arabic handwriting follows specific stroke orders. \
+Calligraphy is respected art form in Arabic culture. \
+Practice develops muscle memory for letter forms. \
+Different scripts (naskh, ruq\'ah, thuluth) for different purposes. \
+Clear handwriting improves communication and learning.' 
+    },
+    { type: 'subtitle', content: 'Writing Practice' },
+    { type: 'text', content:
+      'Use lined paper with guidelines for proportions. \
+Practice letters in groups by shape similarity. \
+Connect letters to form simple words. \
+Pay attention to dot placement (above/below letters). \
+Practice common letter combinations and ligatures. \
+Write slowly at first, increase speed gradually.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Calligraphy Styles' },
+    { type: 'text', content:
+      'Naskh: Standard printed style, clear and readable. \
+Ruq\'ah: Cursive handwriting style for daily use. \
+Thuluth: Decorative style for titles and headings. \
+Diwani: Ornate style for official documents. \
+Kufic: Geometric early style, used in architecture. \
+Start with naskh for learning, then explore others.' 
+    }
+  ]
+},
+
+// =======Morning Routine=====
+
+'morning-routine-1': {
+  id: 'morning-routine-1',
+  title: 'The Science of Morning Routines',
+  image: 'https://images.unsplash.com/photo-1499241142330-28701ea87ff4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'The Science of Morning Routines' },
+    { type: 'text', content:
+      'Morning routines set the tone for your entire day by establishing positive momentum. \
+Research shows consistent morning rituals improve productivity, mood, and decision-making. \
+They help regulate circadian rhythms and cortisol levels for optimal energy. \
+Successful people across fields attribute their achievements to disciplined morning habits. \
+A well-designed morning routine creates compound benefits over time.' 
+    },
+    { type: 'subtitle', content: 'Biological Benefits' },
+    { type: 'text', content:
+      'Cortisol awakening response peaks 30-45 minutes after waking. \
+Morning light exposure regulates melatonin production for better sleep cycles. \
+Consistent wake times strengthen your body\'s internal clock. \
+Early hydration jumpstarts metabolism and cognitive function. \
+Movement in the morning increases blood flow to the brain.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Starting Principles' },
+    { type: 'text', content:
+      'Start small with 1-2 sustainable habits rather than overwhelming changes. \
+Focus on consistency over perfection - even 5 minutes daily creates impact. \
+Design your routine around your natural energy patterns and lifestyle. \
+Prepare the night before to reduce morning decision fatigue. \
+Track progress and adjust based on what actually works for you.' 
+    }
+  ]
+},
+'morning-routine-2': {
+  id: 'morning-routine-2',
+  title: 'Hydration and Nutrition Foundations',
+  image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Hydration and Nutrition Foundations' },
+    { type: 'text', content:
+      'Morning hydration and nutrition directly impact energy, focus, and metabolism. \
+After 6-8 hours of sleep, your body needs to replenish fluids and nutrients. \
+What you consume in the morning affects food choices throughout the day. \
+Proper morning nutrition stabilizes blood sugar and prevents mid-morning crashes. \
+These habits support physical health and mental clarity simultaneously.' 
+    },
+    { type: 'subtitle', content: 'Hydration Protocol' },
+    { type: 'text', content:
+      'Drink 16-20oz of water within 30 minutes of waking. \
+Add lemon for vitamin C and digestive benefits. \
+Room temperature water is gentlest on empty stomach. \
+Avoid caffeine for first 60-90 minutes to prevent cortisol interference. \
+Electrolyte supplements can enhance hydration if you sweat during sleep.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Breakfast Principles' },
+    { type: 'text', content:
+      'Include protein (20-30g) to sustain energy and reduce cravings. \
+Add healthy fats for brain function and hormone production. \
+Complex carbohydrates provide steady glucose release. \
+Fiber supports digestion and gut health. \
+Timing: Eat within 2 hours of waking for metabolic benefits.' 
+    }
+  ]
+},
+'morning-routine-3': {
+  id: 'morning-routine-3',
+  title: 'Mindfulness and Meditation Practices',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mindfulness and Meditation Practices' },
+    { type: 'text', content:
+      'Morning mindfulness creates mental space before the day\'s demands begin. \
+Meditation reduces stress hormones and increases focus neurotransmitters. \
+Even brief morning practice changes how you respond to challenges. \
+Mindfulness enhances emotional regulation and decision-making quality. \
+These practices build psychological resilience that compounds daily.' 
+    },
+    { type: 'subtitle', content: 'Meditation Techniques' },
+    { type: 'text', content:
+      'Breath awareness: Focus on natural breath rhythm for 5-10 minutes. \
+Body scan: Systematically notice sensations from head to toes. \
+Gratitude practice: Mentally list 3-5 things you\'re grateful for. \
+Visualization: Imagine your ideal day unfolding positively. \
+Loving-kindness: Send positive thoughts to yourself and others.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Tips' },
+    { type: 'text', content:
+      'Start with 5 minutes and gradually increase duration. \
+Use guided meditation apps if beginning independently is challenging. \
+Create dedicated space with minimal distractions. \
+Practice before checking phone or email. \
+Journal briefly after meditation to capture insights.' 
+    }
+  ]
+},
+'morning-routine-4': {
+  id: 'morning-routine-4',
+  title: 'Movement and Exercise Integration',
+  image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Movement and Exercise Integration' },
+    { type: 'text', content:
+      'Morning movement increases circulation, energy, and mental clarity. \
+Exercise releases endorphins that improve mood throughout the day. \
+Morning workouts are more likely to be completed consistently. \
+Physical activity enhances cognitive function and creativity. \
+Even light movement creates positive momentum for the day.' 
+    },
+    { type: 'subtitle', content: 'Movement Options' },
+    { type: 'text', content:
+      'Dynamic stretching: 5-10 minutes to awaken muscles and joints. \
+Yoga flow: Sun salutations or gentle sequences. \
+Walking: 15-20 minutes outdoors for light and movement. \
+High-intensity intervals: 10-15 minutes for time efficiency. \
+Resistance training: Bodyweight or light weights for strength.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60' },
+    { type: 'subtitle', content: 'Optimization Strategies' },
+    { type: 'text', content:
+      'Schedule workouts the night before to reduce decision fatigue. \
+Prepare workout clothes and equipment in advance. \
+Start with what feels achievable - even 10 minutes creates benefits. \
+Combine with other habits (listen to podcasts while walking). \
+Track consistency rather than intensity to build the habit.' 
+    }
+  ]
+},
+'morning-routine-5': {
+  id: 'morning-routine-5',
+  title: 'Planning and Prioritization Systems',
+  image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Planning and Prioritization Systems' },
+    { type: 'text', content:
+      'Morning planning reduces decision fatigue and increases daily effectiveness. \
+Clarifying priorities helps focus energy on what matters most. \
+Written plans create psychological commitment and accountability. \
+Reviewing long-term goals daily maintains alignment with big picture. \
+Effective planning systems prevent reactive, scattered days.' 
+    },
+    { type: 'subtitle', content: 'Planning Methods' },
+    { type: 'text', content:
+      'MITs (Most Important Tasks): Identify 1-3 critical tasks for the day. \
+Time blocking: Schedule specific time slots for different activities. \
+Eisenhower Matrix: Categorize tasks by urgency and importance. \
+Weekly review: Connect daily tasks to weekly goals each morning. \
+Progress tracking: Note what worked yesterday and adjust.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Tools' },
+    { type: 'text', content:
+      'Use physical planner for tactile engagement and reduced screen time. \
+Digital apps with reminder systems for tech-savvy approaches. \
+Bullet journal for creative, customizable planning. \
+Whiteboard for visual thinkers and family coordination. \
+Simple notebook for minimalists - pen and paper often work best.' 
+    }
+  ]
+},
+'morning-routine-6': {
+  id: 'morning-routine-6',
+  title: 'Digital Discipline and Technology Boundaries',
+  image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Discipline and Technology Boundaries' },
+    { type: 'text', content:
+      'Morning technology use significantly impacts mood and productivity. \
+Checking email/social media first thing creates reactive mindset. \
+Digital distractions fragment attention and reduce deep work capacity. \
+Intentional technology boundaries preserve mental energy. \
+Delaying digital engagement allows space for proactive thinking.' 
+    },
+    { type: 'subtitle', content: 'Boundary Strategies' },
+    { type: 'text', content:
+      'No-phone first hour: Delay all digital engagement for 60 minutes. \
+Airplane mode: Disable connectivity during morning routine. \
+Designated check-in times: Schedule specific times for email/social media. \
+Notification management: Turn off non-essential alerts. \
+Physical separation: Charge phone outside bedroom.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Alternative Activities' },
+    { type: 'text', content:
+      'Reading physical books or printed materials. \
+Journaling with pen and paper. \
+Creative activities (drawing, playing instrument). \
+Conversation with family members. \
+Outdoor time without devices. \
+Preparation for the day (meal prep, outfit selection).' 
+    }
+  ]
+},
+'morning-routine-7': {
+  id: 'morning-routine-7',
+  title: 'Sleep Optimization for Better Mornings',
+  image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sleep Optimization for Better Mornings' },
+    { type: 'text', content:
+      'Quality morning routines begin with quality sleep the night before. \
+Sleep affects every aspect of morning energy and willpower. \
+Consistent sleep schedule makes waking easier and more natural. \
+Sleep hygiene practices improve both sleep quality and morning alertness. \
+Optimal sleep supports all other morning habits.' 
+    },
+    { type: 'subtitle', content: 'Evening Preparation' },
+    { type: 'text', content:
+      'Consistent bedtime: Aim for same sleep/wake times daily. \
+Digital sunset: Stop screen use 60-90 minutes before bed. \
+Evening routine: Wind down activities signal sleep preparation. \
+Environment optimization: Cool, dark, quiet bedroom. \
+Next-day preparation: Lay out clothes, prep meals, set goals.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Morning Sleep Strategies' },
+    { type: 'text', content:
+      'Natural light exposure: Open curtains immediately upon waking. \
+Consistent wake time: Even on weekends, maintain schedule within 60 minutes. \
+Gradual waking: Use sunrise alarm clocks that simulate dawn. \
+No snooze: Place alarm across room to force getting up. \
+Morning sunlight: 10-15 minutes of outdoor light within first hour.' 
+    }
+  ]
+},
+'morning-routine-8': {
+  id: 'morning-routine-8',
+  title: 'Personalized Routine Design',
+  image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Personalized Routine Design' },
+    { type: 'text', content:
+      'Effective routines align with individual chronotype, lifestyle, and goals. \
+One-size-fits-all approaches often fail due to mismatched personal needs. \
+Successful routines evolve based on experimentation and self-awareness. \
+Design around natural energy patterns rather than fighting biology. \
+Personalization increases adherence and long-term sustainability.' 
+    },
+    { type: 'subtitle', content: 'Assessment Factors' },
+    { type: 'text', content:
+      'Chronotype: Are you naturally morning or evening oriented? \
+Energy patterns: When do you have peak mental and physical energy? \
+Life stage: Work schedule, family responsibilities, health considerations. \
+Goals: Weight loss, stress reduction, career advancement, creativity. \
+Preferences: Activities you enjoy versus those you merely tolerate.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60' },
+    { type: 'subtitle', content: 'Design Process' },
+    { type: 'text', content:
+      'Start audit: Track current morning activities for one week. \
+Identify pain points: What causes stress or inefficiency? \
+Select 2-3 keystone habits: Most impactful changes to implement first. \
+Sequence logically: Order activities for smooth flow. \
+Build gradually: Add new elements every 2-3 weeks. \
+Review monthly: Adjust based on what\'s working.' 
+    }
+  ]
+},
+'morning-routine-9': {
+  id: 'morning-routine-9',
+  title: 'Overcoming Common Obstacles',
+  image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Overcoming Common Obstacles' },
+    { type: 'text', content:
+      'Even well-designed routines face implementation challenges. \
+Understanding common obstacles helps prepare effective solutions. \
+Flexibility within structure prevents all-or-nothing thinking. \
+Progress tracking provides motivation through visible improvement. \
+Resilience strategies turn setbacks into learning opportunities.' 
+    },
+    { type: 'subtitle', content: 'Common Challenges' },
+    { type: 'text', content:
+      'Snooze addiction: Difficulty getting out of bed immediately. \
+Time constraints: Perceived lack of time for comprehensive routine. \
+Motivation fluctuations: Inconsistent willpower and energy levels. \
+Family responsibilities: Balancing personal routine with others\' needs. \
+Travel and disruptions: Maintaining habits during schedule changes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Solutions' },
+    { type: 'text', content:
+      'Micro-routines: 5-minute versions for time-pressed days. \
+Habit stacking: Link new habits to existing ones. \
+Accountability systems: Partner, coach, or tracking app. \
+Flexible framework: Core non-negotiables plus optional elements. \
+Emergency plan: Minimum viable routine for difficult days. \
+Self-compassion: Accept imperfection and resume quickly after misses.' 
+    }
+  ]
+},
+'morning-routine-10': {
+  id: 'morning-routine-10',
+  title: 'Advanced Optimization and Long-Term Maintenance',
+  image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Advanced Optimization and Long-Term Maintenance' },
+    { type: 'text', content:
+      'Advanced optimization maximizes routine effectiveness over time. \
+Seasonal adjustments keep routines relevant through life changes. \
+Habit automatization reduces willpower requirements. \
+Continuous improvement mindset prevents stagnation. \
+Long-term maintenance strategies ensure lasting benefits.' 
+    },
+    { type: 'subtitle', content: 'Optimization Techniques' },
+    { type: 'text', content:
+      'Habit chaining: Sequence activities for automatic flow. \
+Environment design: Arrange physical space to support habits. \
+Energy mapping: Schedule activities according to natural rhythms. \
+Progress measurement: Track quantitative and qualitative outcomes. \
+Periodic reviews: Quarterly assessments and adjustments.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Maintenance Strategies' },
+    { type: 'text', content:
+      'Routine variations: Different versions for weekdays, weekends, travel. \
+Renewal periods: Scheduled breaks to prevent burnout. \
+Community engagement: Share routines with accountability partners. \
+Skill development: Learn new elements to maintain interest. \
+Legacy thinking: Consider long-term impact of consistent practice. \
+Celebration rituals: Acknowledge milestones and progress.' 
+    }
+  ]
+},
+
+// =======Quick Workouts=====
+
+'quick-workouts-1': {
+  id: 'quick-workouts-1',
+  title: 'The Science of Efficient Exercise',
+  image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'The Science of Efficient Exercise' },
+    { type: 'text', content:
+      'Short, intense workouts can produce significant fitness gains through strategic design. \
+High-Intensity Interval Training (HIIT) maximizes calorie burn and metabolic benefits. \
+Compound movements engage multiple muscle groups simultaneously for efficiency. \
+Workout density (work vs rest ratio) determines effectiveness more than duration. \
+Consistency with short workouts often beats occasional long sessions.' 
+    },
+    { type: 'subtitle', content: 'Key Principles' },
+    { type: 'text', content:
+      'Intensity over duration: Higher effort yields greater benefits in less time. \
+Progressive overload: Gradually increase difficulty to continue progress. \
+Compound exercises: Work multiple joints and muscles together. \
+Minimal equipment: Bodyweight exercises maximize accessibility. \
+Recovery integration: Balance work with adequate rest periods.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60' },
+    { type: 'subtitle', content: 'Time Efficiency Strategies' },
+    { type: 'text', content:
+      'Supersets: Pair exercises back-to-back with minimal rest. \
+Circuit training: Move through exercise sequence continuously. \
+Tabata protocol: 20 seconds work, 10 seconds rest for 4 minutes. \
+EMOM (Every Minute on the Minute): Complete prescribed work within each minute. \
+Density training: Complete more work in same time frame over weeks.' 
+    }
+  ]
+},
+'quick-workouts-2': {
+  id: 'quick-workouts-2',
+  title: '10-Minute Bodyweight Fundamentals',
+  image: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60',
+  sections: [
+    { type: 'title', content: '10-Minute Bodyweight Fundamentals' },
+    { type: 'text', content:
+      'Ten minutes of focused bodyweight training can maintain fitness and boost energy. \
+Full-body engagement ensures balanced development and functional strength. \
+No equipment required makes these workouts accessible anywhere. \
+Proper form prevents injury and maximizes effectiveness. \
+Regular short sessions build consistency more sustainably than sporadic long workouts.' 
+    },
+    { type: 'subtitle', content: 'Core Movements' },
+    { type: 'text', content:
+      'Push-ups: Upper body strength and core stabilization. \
+Squats: Lower body power and mobility foundation. \
+Planks: Core strength and postural alignment. \
+Lunges: Unilateral leg strength and balance. \
+Burpees: Full-body metabolic conditioning. \
+Mountain climbers: Cardiorespiratory and core engagement.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Sample Workout' },
+    { type: 'text', content:
+      'Warm-up: 1 minute dynamic stretching. \
+Circuit (repeat 3 times): \
+- 45 seconds squats (rest 15 seconds) \
+- 45 seconds push-ups (rest 15 seconds) \
+- 45 seconds planks (rest 15 seconds) \
+- 45 seconds lunges (rest 15 seconds) \
+- 45 seconds mountain climbers (rest 15 seconds) \
+Cool-down: 1 minute static stretching.' 
+    }
+  ]
+},
+'quick-workouts-3': {
+  id: 'quick-workouts-3',
+  title: 'High-Intensity Interval Training (HIIT)',
+  image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'High-Intensity Interval Training (HIIT)' },
+    { type: 'text', content:
+      'HIIT alternates short bursts of maximum effort with recovery periods. \
+This approach elevates metabolism for hours after workout completion (EPOC effect). \
+Time-efficient: 15-20 minutes can equal benefits of longer moderate exercise. \
+Adaptable to various fitness levels through intensity adjustment. \
+Improves both aerobic capacity and anaerobic power simultaneously.' 
+    },
+    { type: 'subtitle', content: 'HIIT Protocols' },
+    { type: 'text', content:
+      'Tabata: 20 seconds all-out effort, 10 seconds rest, repeat 8 rounds (4 minutes total). \
+30/30: 30 seconds work, 30 seconds rest for 10-20 minutes. \
+45/15: 45 seconds work, 15 seconds rest for metabolic conditioning. \
+Pyramid: Increasing then decreasing work intervals (30-60-90-60-30 seconds). \
+EMOM HIIT: Complete prescribed reps each minute, rest remainder.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60' },
+    { type: 'subtitle', content: 'Workout Structure' },
+    { type: 'text', content:
+      'Warm-up: 3-5 minutes dynamic movements. \
+Work intervals: 85-95% maximum effort. \
+Active recovery: Light movement during rest periods. \
+Cool-down: 3-5 minutes gradual intensity reduction. \
+Frequency: 2-4 times weekly with rest days between. \
+Progression: Increase work interval duration or decrease rest over time.' 
+    }
+  ]
+},
+'quick-workouts-4': {
+  id: 'quick-workouts-4',
+  title: 'Office and Travel Workouts',
+  image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Office and Travel Workouts' },
+    { type: 'text', content:
+      'Exercise opportunities exist even in confined spaces with limited time. \
+Micro-workouts throughout day accumulate significant fitness benefits. \
+Travel-friendly routines maintain consistency during disruptions. \
+Isometric exercises build strength without equipment or movement. \
+Regular movement breaks improve circulation and mental focus.' 
+    },
+    { type: 'subtitle', content: 'Office Exercises' },
+    { type: 'text', content:
+      'Chair squats: Stand up and sit down without using hands. \
+Desk push-ups: Incline push-ups using sturdy desk edge. \
+Wall sits: Back against wall, knees at 90 degrees. \
+Calf raises: Rise onto toes while standing. \
+Seated leg lifts: Straighten and hold legs parallel to floor. \
+Shoulder blade squeezes: Improve posture and upper back strength.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Travel Workouts' },
+    { type: 'text', content:
+      'Hotel room routine: 15-minute bodyweight circuit. \
+Resistance band exercises: Portable strength training. \
+Stair workouts: Climb stairs for cardio and leg strength. \
+Park bench exercises: Dips, step-ups, incline push-ups. \
+Swimming: Hotel pool full-body workout. \
+Walking exploration: Sightseeing combined with activity.' 
+    }
+  ]
+},
+'quick-workouts-5': {
+  id: 'quick-workouts-5',
+  title: 'Equipment-Free Strength Building',
+  image: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Equipment-Free Strength Building' },
+    { type: 'text', content:
+      'Bodyweight training builds functional strength using natural resistance. \
+Progressive overload achieved through leverage changes and tempo variations. \
+Minimal joint stress compared to heavy weight training. \
+Improves mobility and body awareness simultaneously. \
+Accessible anywhere, requiring only minimal space.' 
+    },
+    { type: 'subtitle', content: 'Progression Methods' },
+    { type: 'text', content:
+      'Leverage changes: Elevate feet for push-up difficulty, hands for easier version. \
+Tempo manipulation: Slow eccentrics (4 seconds down) increase time under tension. \
+Range of motion: Increase depth or extension for greater challenge. \
+Unilateral variations: Single-leg or single-arm exercises increase difficulty. \
+Plyometrics: Explosive movements for power development.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strength Circuit' },
+    { type: 'text', content:
+      'Push-up variations: Standard, decline, plyometric. \
+Squat progressions: Air squat, pistol squat, jump squat. \
+Pull-up alternatives: Inverted rows using table, towel pull-ups. \
+Core series: Plank, side plank, hollow body hold. \
+Leg matrix: Lunges, single-leg deadlifts, calf raises. \
+Complete 3 rounds with 60 seconds rest between exercises.' 
+    }
+  ]
+},
+'quick-workouts-6': {
+  id: 'quick-workouts-6',
+  title: 'Cardio Blasts for Busy Schedules',
+  image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cardio Blasts for Busy Schedules' },
+    { type: 'text', content:
+      'Short, intense cardio sessions improve heart health and endurance efficiently. \
+Metabolic conditioning workouts torch calories in minimal time. \
+Variety prevents adaptation and maintains engagement. \
+Can be done with or without equipment. \
+Improves recovery capacity between strength training sessions.' 
+    },
+    { type: 'subtitle', content: 'Cardio Formats' },
+    { type: 'text', content:
+      'Sprint intervals: Maximum effort sprints with walking recovery. \
+Jump rope circuits: Various footwork patterns for coordination. \
+Stair running: Up-down repeats for power development. \
+Hill repeats: Outdoor sprinting on incline. \
+Battle ropes: Wave patterns for upper body cardio. \
+Kettlebell swings: Power generation from hips.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60' },
+    { type: 'subtitle', content: '15-Minute Cardio Workout' },
+    { type: 'text', content:
+      'Warm-up: 3 minutes light jogging or jumping jacks. \
+Main set: 10 rounds of 30 seconds hard effort, 30 seconds easy recovery. \
+Options: Sprints, burpees, mountain climbers, high knees. \
+Cool-down: 2 minutes walking and dynamic stretching. \
+Frequency: 2-3 times weekly on non-strength days. \
+Progress by increasing work interval or decreasing recovery.' 
+    }
+  ]
+},
+'quick-workouts-7': {
+  id: 'quick-workouts-7',
+  title: 'Core Strengthening in 10 Minutes',
+  image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Core Strengthening in 10 Minutes' },
+    { type: 'text', content:
+      'Core strength supports posture, prevents back pain, and enhances athletic performance. \
+Functional core training involves anti-movement and stabilization exercises. \
+Short, frequent core sessions yield better results than occasional long workouts. \
+Proper breathing patterns maximize core engagement and effectiveness. \
+Balance anterior and posterior chain exercises for complete development.' 
+    },
+    { type: 'subtitle', content: 'Core Exercise Categories' },
+    { type: 'text', content:
+      'Anti-extension: Planks, dead bugs, ab rollouts. \
+Anti-rotation: Pallof presses, bird dogs, side planks. \
+Anti-lateral flexion: Suitcase carries, side bends. \
+Flexion: Crunches, sit-ups, leg raises. \
+Rotation: Russian twists, wood chops, bicycle crunches.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60' },
+    { type: 'subtitle', content: '10-Minute Core Circuit' },
+    { type: 'text', content:
+      'Plank: 45 seconds work, 15 seconds rest. \
+Dead bug: 45 seconds work, 15 seconds rest. \
+Side plank (each side): 30 seconds work, 15 seconds rest. \
+Bird dog: 45 seconds work, 15 seconds rest. \
+Hollow body hold: 45 seconds work, 15 seconds rest. \
+Complete 2-3 rounds total. \
+Focus on quality movement and breathing control.' 
+    }
+  ]
+},
+'quick-workouts-8': {
+  id: 'quick-workouts-8',
+  title: 'Flexibility and Mobility Routines',
+  image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Flexibility and Mobility Routines' },
+    { type: 'text', content:
+      'Mobility work prevents injury, improves movement quality, and enhances recovery. \
+Dynamic stretching prepares body for activity; static stretching aids recovery. \
+Short mobility sessions maintain joint health and movement freedom. \
+Target common problem areas: hips, shoulders, thoracic spine, ankles. \
+Consistency with brief sessions beats occasional long stretching.' 
+    },
+    { type: 'subtitle', content: 'Mobility Exercises' },
+    { type: 'text', content:
+      'Hip circles: Improve hip joint capsule mobility. \
+Cat-cow: Spinal flexion and extension. \
+Shoulder dislocates: Improve shoulder range of motion. \
+Ankle circles: Prevent stiffness and improve balance. \
+Thoracic rotations: Enhance spinal rotation capacity. \
+World\'s greatest stretch: Comprehensive mobility drill.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60' },
+    { type: 'subtitle', content: '10-Minute Mobility Flow' },
+    { type: 'text', content:
+      'Neck circles: 30 seconds each direction. \
+Arm circles: 30 seconds forward and backward. \
+Torso twists: 30 seconds standing rotations. \
+Leg swings: 30 seconds front-back and side-to-side each leg. \
+Hip circles: 30 seconds each direction. \
+Deep squat hold: 60 seconds with focus on posture. \
+Downward dog to cobra flow: 60 seconds continuous movement. \
+Repeat sequence 2 times for full body mobility.' 
+    }
+  ]
+},
+'quick-workouts-9': {
+  id: 'quick-workouts-9',
+  title: 'Workout Stacking and Integration',
+  image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Workout Stacking and Integration' },
+    { type: 'text', content:
+      'Workout stacking combines multiple short sessions for cumulative effect. \
+Integration into daily life increases consistency without extra time commitment. \
+Micro-workouts throughout day prevent sedentary behavior patterns. \
+Strategic timing maximizes energy and recovery patterns. \
+Varied stimulus prevents adaptation and maintains progress.' 
+    },
+    { type: 'subtitle', content: 'Stacking Strategies' },
+    { type: 'text', content:
+      'Morning mobility + evening strength: Split focus areas. \
+Lunch cardio + after-work flexibility: Utilize different times. \
+Grease the groove: Frequent short practice of skill movements. \
+Movement snacks: 2-5 minute activity bursts every hour. \
+Weekend accumulation: Longer session to complement weekday micro-workouts.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1000&q=60' },
+    { type: 'subtitle', content: 'Daily Integration' },
+    { type: 'text', content:
+      'Morning: 5-minute mobility routine upon waking. \
+Work breaks: 2-minute bodyweight exercises every 90 minutes. \
+Lunch: 10-minute walk or stair climbing. \
+Afternoon: 5-minute stretching to combat sitting. \
+Evening: 10-minute strength or cardio session. \
+Total: 30+ minutes activity integrated seamlessly into day.' 
+    }
+  ]
+},
+'quick-workouts-10': {
+  id: 'quick-workouts-10',
+  title: 'Progression and Periodization',
+  image: 'https://images.unsplash.com/photo-1536922246289-88c42f957773?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Progression and Periodization' },
+    { type: 'text', content:
+      'Systematic progression prevents plateaus and ensures continuous improvement. \
+Periodization organizes training into focused blocks for optimal results. \
+Even short workouts benefit from structured planning. \
+Variation prevents adaptation and maintains motivation. \
+Long-term consistency requires sustainable progression strategies.' 
+    },
+    { type: 'subtitle', content: 'Progression Methods' },
+    { type: 'text', content:
+      'Volume increase: More reps or sets over time. \
+Intensity increase: Heavier resistance or faster tempo. \
+Density increase: Same work in less time. \
+Complexity increase: More challenging exercise variations. \
+Frequency increase: More sessions per week. \
+Decreased rest: Shorter recovery between exercises.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60' },
+    { type: 'subtitle', content: '4-Week Cycle Example' },
+    { type: 'text', content:
+      'Week 1: Foundation - Establish form and consistency. \
+Week 2: Volume - Increase total reps by 10-15%. \
+Week 3: Intensity - Add resistance or faster pace. \
+Week 4: Deload - Reduce volume for recovery and supercompensation. \
+Repeat cycle with increased baseline. \
+Track workouts to monitor progress objectively.' 
+    }
+  ]
+},
+
+// =======Nutrition Basics======
+
+'nutrition-basics-1': {
+  id: 'nutrition-basics-1',
+  title: 'Macronutrients Fundamentals',
+  image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Macronutrients Fundamentals' },
+    { type: 'text', content:
+      'Macronutrients provide energy and building blocks for bodily functions. \
+Understanding macros helps balance diet for specific health and fitness goals. \
+Each macronutrient serves distinct physiological roles. \
+Proper macronutrient distribution supports metabolism, hormones, and body composition. \
+Quality matters as much as quantity for each macronutrient category.' 
+    },
+    { type: 'subtitle', content: 'The Three Macronutrients' },
+    { type: 'text', content:
+      'Carbohydrates: Primary energy source, 4 calories per gram. \
+Proteins: Building blocks for tissues and enzymes, 4 calories per gram. \
+Fats: Energy storage, hormone production, 9 calories per gram. \
+Each plays unique roles beyond just calorie provision. \
+Balance depends on activity level, goals, and individual response.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Application' },
+    { type: 'text', content:
+      'General guideline: 45-65% carbs, 20-35% fat, 10-35% protein. \
+Active individuals need more protein for recovery and carbs for energy. \
+Focus on whole food sources for each macronutrient. \
+Track intake for 1-2 weeks to understand current patterns. \
+Adjust ratios based on energy levels, performance, and body composition goals.' 
+    }
+  ]
+},
+'nutrition-basics-2': {
+  id: 'nutrition-basics-2',
+  title: 'Micronutrients and Phytonutrients',
+  image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Micronutrients and Phytonutrients' },
+    { type: 'text', content:
+      'Micronutrients (vitamins and minerals) enable thousands of biochemical reactions. \
+Phytonutrients from plants provide antioxidant and anti-inflammatory benefits. \
+Deficiencies cause subtle symptoms long before serious diseases manifest. \
+Food synergy makes nutrients more bioavailable than isolated supplements. \
+Color variety in produce indicates diverse phytonutrient profiles.' 
+    },
+    { type: 'subtitle', content: 'Essential Micronutrients' },
+    { type: 'text', content:
+      'Fat-soluble vitamins: A, D, E, K - stored in body fat. \
+Water-soluble vitamins: B-complex, C - require daily replenishment. \
+Minerals: Calcium, magnesium, iron, zinc, selenium, potassium. \
+Electrolytes: Sodium, potassium, chloride for fluid balance. \
+Trace minerals: Required in small amounts but critical for health.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1000&q=60' },
+    { type: 'subtitle', content: 'Optimization Strategies' },
+    { type: 'text', content:
+      'Eat rainbow: Consume fruits/vegetables of different colors daily. \
+Pair wisely: Vitamin C enhances iron absorption; fat aids fat-soluble vitamin uptake. \
+Cook properly: Some nutrients become more bioavailable with cooking (lycopene). \
+Seasonal eating: Provides nutrient diversity throughout year. \
+Soil quality matters: Choose organic when possible for mineral content.' 
+    }
+  ]
+},
+'nutrition-basics-3': {
+  id: 'nutrition-basics-3',
+  title: 'Hydration Science',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Hydration Science' },
+    { type: 'text', content:
+      'Water comprises 60% of adult body weight and is essential for every cellular process. \
+Even mild dehydration (1-2% body weight) impairs cognitive and physical performance. \
+Hydration needs vary by size, activity, climate, and diet. \
+Thirst is a late indicator - drink proactively throughout day. \
+Electrolyte balance is as important as water quantity.' 
+    },
+    { type: 'subtitle', content: 'Hydration Guidelines' },
+    { type: 'text', content:
+      'General: 0.5-1 ounce per pound of body weight daily. \
+Activity: Add 16-24 ounces per hour of exercise. \
+Climate: Increase in hot/humid conditions and at altitude. \
+Monitor urine: Pale yellow indicates proper hydration. \
+Timing: Consistent intake beats large volumes at once.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Electrolyte Management' },
+    { type: 'text', content:
+      'Sodium: Most lost in sweat, crucial for fluid balance. \
+Potassium: Counters sodium, found in fruits and vegetables. \
+Magnesium: Involved in 300+ enzymatic reactions. \
+Calcium: Muscle function and bone health. \
+Sources: Natural foods, mineral water, balanced electrolyte supplements.' 
+    }
+  ]
+},
+'nutrition-basics-4': {
+  id: 'nutrition-basics-4',
+  title: 'Fiber and Gut Health',
+  image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Fiber and Gut Health' },
+    { type: 'text', content:
+      'Dietary fiber supports digestive health, blood sugar control, and satiety. \
+Gut microbiome influences immunity, mood, and metabolism through fiber fermentation. \
+Most people consume only half the recommended daily fiber. \
+Different fiber types serve distinct functions in the body. \
+Gradual increase prevents digestive discomfort during adaptation.' 
+    },
+    { type: 'subtitle', content: 'Fiber Types' },
+    { type: 'text', content:
+      'Soluble fiber: Dissolves in water, forms gel, slows digestion (oats, beans, apples). \
+Insoluble fiber: Adds bulk, promotes regularity (whole grains, vegetables, nuts). \
+Resistant starch: Fermented in colon, feeds beneficial bacteria (cooled potatoes, green bananas). \
+Prebiotics: Specific fibers that selectively feed probiotics (garlic, onions, asparagus). \
+Daily target: 25-35 grams for adults, from diverse sources.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1000&q=60' },
+    { type: 'subtitle', content: 'Gut Health Strategies' },
+    { type: 'text', content:
+      'Eat fermented foods: Yogurt, kefir, sauerkraut, kimchi. \
+Include polyphenol-rich foods: Berries, dark chocolate, green tea. \
+Rotate fiber sources: Different plants feed different bacterial strains. \
+Limit artificial sweeteners: Some disrupt gut bacteria balance. \
+Manage stress: Gut-brain axis connects emotional and digestive health.' 
+    }
+  ]
+},
+'nutrition-basics-5': {
+  id: 'nutrition-basics-5',
+  title: 'Protein Quality and Requirements',
+  image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Protein Quality and Requirements' },
+    { type: 'text', content:
+      'Protein provides amino acids for tissue repair, enzyme production, and immune function. \
+Protein quality depends on amino acid profile and digestibility. \
+Requirements vary by age, activity level, and health status. \
+Timing distribution affects muscle protein synthesis throughout day. \
+Complete proteins contain all essential amino acids in adequate ratios.' 
+    },
+    { type: 'subtitle', content: 'Protein Requirements' },
+    { type: 'text', content:
+      'Sedentary adults: 0.8g per kg body weight. \
+Active individuals: 1.2-1.7g per kg. \
+Strength athletes: 1.6-2.2g per kg. \
+Older adults: 1.0-1.2g per kg to prevent sarcopenia. \
+Distribution: 20-40g per meal for optimal muscle protein synthesis.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Protein Sources' },
+    { type: 'text', content:
+      'Complete animal proteins: Meat, poultry, fish, eggs, dairy. \
+Complete plant proteins: Soy, quinoa, buckwheat, chia. \
+Complementary proteins: Rice + beans, hummus + pita, peanut butter on bread. \
+Digestibility: Animal proteins typically 90-99%, plant proteins 70-90%. \
+Variety ensures adequate intake of all essential amino acids.' 
+    }
+  ]
+},
+'nutrition-basics-6': {
+  id: 'nutrition-basics-6',
+  title: 'Healthy Fats and Omega Balance',
+  image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Healthy Fats and Omega Balance' },
+    { type: 'text', content:
+      'Dietary fats support brain function, hormone production, and nutrient absorption. \
+Omega-3 and omega-6 fatty acids must come from diet (essential fatty acids). \
+Modern diets often have imbalanced omega-6 to omega-3 ratios (15:1 vs ideal 4:1). \
+Fat quality affects inflammation levels and cardiovascular health. \
+Different fats have distinct cooking properties and health impacts.' 
+    },
+    { type: 'subtitle', content: 'Fat Categories' },
+    { type: 'text', content:
+      'Saturated fats: Stable for cooking, from animal and tropical sources. \
+Monounsaturated fats: Heart-healthy, olive oil, avocados, nuts. \
+Polyunsaturated fats: Omega-3 and omega-6, from fish, seeds, vegetable oils. \
+Trans fats: Artificial, avoid completely for health. \
+Cholesterol: Dietary intake has minor effect on blood cholesterol for most people.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Omega Balance Strategies' },
+    { type: 'text', content:
+      'Increase omega-3: Fatty fish (salmon, mackerel), flaxseeds, walnuts. \
+Reduce omega-6: Limit processed vegetable oils (soybean, corn, sunflower). \
+Cooking oils: Olive oil (low heat), avocado oil (high heat), coconut oil (medium heat). \
+Whole food fats: Nuts, seeds, avocados, olives, eggs. \
+Supplementation: Fish oil or algae-based DHA/EPA if diet insufficient.' 
+    }
+  ]
+},
+'nutrition-basics-7': {
+  id: 'nutrition-basics-7',
+  title: 'Meal Timing and Frequency',
+  image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Meal Timing and Frequency' },
+    { type: 'text', content:
+      'Meal timing affects energy levels, metabolism, and body composition. \
+Individual variability means no single optimal eating schedule for everyone. \
+Consistent meal patterns regulate hunger hormones and blood sugar. \
+Nutrient timing around exercise can enhance performance and recovery. \
+Intermittent fasting approaches offer metabolic benefits for some individuals.' 
+    },
+    { type: 'subtitle', content: 'Timing Strategies' },
+    { type: 'text', content:
+      'Breakfast: Within 2 hours of waking to stabilize blood sugar. \
+Pre-workout: 1-2 hours before exercise for energy. \
+Post-workout: Within 2 hours for recovery (carbs + protein). \
+Evening meals: Finish 2-3 hours before bedtime for digestion. \
+Snacking: Only if hungry between meals, focus on protein/fiber.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1000&q=60' },
+    { type: 'subtitle', content: 'Intermittent Fasting Approaches' },
+    { type: 'text', content:
+      '16/8 method: 16-hour fast, 8-hour eating window daily. \
+5:2 approach: Normal eating 5 days, 500-600 calories 2 days weekly. \
+Alternate day fasting: Regular eating one day, fasting or very low calories next. \
+Time-restricted eating: Align eating window with circadian rhythms. \
+Considerations: Not suitable for everyone, especially women with hormone concerns.' 
+    }
+  ]
+},
+'nutrition-basics-8': {
+  id: 'nutrition-basics-8',
+  title: 'Food Quality and Processing',
+  image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Food Quality and Processing' },
+    { type: 'text', content:
+      'Food processing affects nutrient density, glycemic impact, and additive content. \
+The NOVA classification system categorizes foods by processing level. \
+Ultra-processed foods often displace whole foods in modern diets. \
+Food quality impacts satiety signals, gut health, and chronic disease risk. \
+Ingredient awareness helps identify heavily processed items.' 
+    },
+    { type: 'subtitle', content: 'Processing Levels' },
+    { type: 'text', content:
+      'Unprocessed: Natural state (fruits, vegetables, eggs, meat). \
+Minimally processed: Cleaned, cut, frozen, pasteurized. \
+Processed: Added ingredients (canned vegetables, fresh bread, cheese). \
+Ultra-processed: Industrial formulations with additives (soda, chips, ready meals). \
+Aim: 80-90% of diet from first three categories.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Quality Indicators' },
+    { type: 'text', content:
+      'Short ingredient lists: Recognizable whole food ingredients. \
+Minimal added sugars: Less than 10g per serving ideally. \
+Healthy fats: Olive oil, avocado oil rather than partially hydrogenated oils. \
+Fiber content: Whole grains over refined grains. \
+Additive awareness: Limit artificial colors, sweeteners, preservatives.' 
+    }
+  ]
+},
+'nutrition-basics-9': {
+  id: 'nutrition-basics-9',
+  title: 'Reading Labels and Portion Control',
+  image: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Reading Labels and Portion Control' },
+    { type: 'text', content:
+      'Nutrition labels provide essential information for informed choices. \
+Serving sizes often differ from typical consumption amounts. \
+Ingredient order indicates proportion in product. \
+Marketing claims can be misleading without label verification. \
+Portion awareness prevents unintentional overconsumption.' 
+    },
+    { type: 'subtitle', content: 'Label Reading Essentials' },
+    { type: 'text', content:
+      'Serving size: Compare to what you actually eat. \
+Calories: Consider in context of daily needs. \
+Macronutrients: Check protein, fiber, sugar, fat types. \
+Ingredients: First 3-5 make up bulk of product. \
+% Daily Value: Based on 2000 calorie diet, adjust for your needs.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Portion Strategies' },
+    { type: 'text', content:
+      'Plate method: 1/2 vegetables, 1/4 protein, 1/4 starch. \
+Hand measurements: Palm = protein, fist = vegetables, cupped hand = carbs, thumb = fats. \
+Mindful eating: Eat slowly, recognize hunger/fullness cues. \
+Pre-portioned snacks: Avoid eating directly from large packages. \
+Restaurant tactics: Share entrees, box half immediately, choose appetizer portions.' 
+    }
+  ]
+},
+'nutrition-basics-10': {
+  id: 'nutrition-basics-10',
+  title: 'Sustainable Eating Patterns',
+  image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sustainable Eating Patterns' },
+    { type: 'text', content:
+      'Sustainable nutrition balances health, practicality, and enjoyment. \
+Flexible approaches prevent all-or-nothing thinking and diet cycling. \
+Habit-based changes create lasting results more effectively than strict rules. \
+Social and cultural considerations enhance long-term adherence. \
+Progress-focused mindset values consistency over perfection.' 
+    },
+    { type: 'subtitle', content: 'Sustainable Principles' },
+    { type: 'text', content:
+      '80/20 rule: Nutrient-dense foods 80% of time, flexibility 20%. \
+Additive approach: Focus on adding healthy foods rather than restriction. \
+Meal preparation: Reduces decision fatigue and supports good choices. \
+Mindful enjoyment: Savor food without guilt or distraction. \
+Social integration: Adapt eating patterns to social situations gracefully.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Framework' },
+    { type: 'text', content:
+      'Start with one change: Hydration, vegetable intake, or protein at meals. \
+Track progress: Food journal, photos, or simple checklist. \
+Adjust gradually: One change every 2-3 weeks allows habituation. \
+Problem-solve obstacles: Identify barriers and create solutions. \
+Celebrate non-scale victories: Energy, sleep, performance, mood improvements.' 
+    }
+  ]
+},
+
+// =======Meditation Guide=====
+
+'meditation-guide-1': {
+  id: 'meditation-guide-1',
+  title: 'Introduction to Meditation Benefits',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Meditation Benefits' },
+    { type: 'text', content:
+      'Meditation is a mental training practice that cultivates awareness and presence. \
+Regular practice creates structural brain changes that enhance emotional regulation. \
+Meditation reduces stress hormones while increasing feel-good neurotransmitters. \
+It improves focus, decision-making, and creativity through enhanced neural connectivity. \
+Even brief daily practice yields measurable benefits over time.' 
+    },
+    { type: 'subtitle', content: 'Scientific Benefits' },
+    { type: 'text', content:
+      'Stress reduction: Decreases cortisol and activates relaxation response. \
+Emotional regulation: Strengthens prefrontal cortex control over amygdala. \
+Attention improvement: Increases gray matter in attention-related brain regions. \
+Pain management: Changes brain\'s relationship to discomfort signals. \
+Immune function: Reduces inflammatory markers and supports cellular health.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Getting Started' },
+    { type: 'text', content:
+      'Start with 5 minutes daily rather than occasional long sessions. \
+Focus on consistency - daily practice beats duration. \
+Create dedicated space with minimal distractions. \
+Use guided meditations if beginning independently is challenging. \
+Expect wandering mind - gently return focus without judgment.' 
+    }
+  ]
+},
+'meditation-guide-2': {
+  id: 'meditation-guide-2',
+  title: 'Breath Awareness Meditation',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Breath Awareness Meditation' },
+    { type: 'text', content:
+      'Breath awareness is the foundation of most meditation practices. \
+The breath serves as an anchor to the present moment. \
+This practice cultivates mindfulness by observing natural breathing patterns. \
+It trains attention to return to a neutral focus point when distracted. \
+Regular practice increases awareness of mind-body connection.' 
+    },
+    { type: 'subtitle', content: 'Practice Technique' },
+    { type: 'text', content:
+      'Sit comfortably with spine straight but relaxed. \
+Close eyes or maintain soft gaze downward. \
+Bring attention to physical sensation of breathing. \
+Notice inhalation and exhalation without controlling breath. \
+When mind wanders, gently return attention to breath. \
+Start with 5-10 minutes, gradually increase duration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Common Challenges' },
+    { type: 'text', content:
+      'Mind wandering: Normal occurrence - gently return focus without criticism. \
+Physical discomfort: Adjust position mindfully, don\'t ignore significant pain. \
+Sleepiness: Practice when alert, open eyes slightly, or sit upright. \
+Impatience: Acknowledge feeling and return to breath. \
+"Bad meditation" doesn\'t exist - every session has value.' 
+    }
+  ]
+},
+'meditation-guide-3': {
+  id: 'meditation-guide-3',
+  title: 'Body Scan Meditation',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Body Scan Meditation' },
+    { type: 'text', content:
+      'Body scan cultivates interoceptive awareness - sensing internal bodily sensations. \
+This practice reduces dissociation from physical experience common in modern life. \
+It helps identify and release stored tension throughout the body. \
+Regular practice improves mind-body communication and stress recognition. \
+Body awareness enhances emotional intelligence and self-regulation.' 
+    },
+    { type: 'subtitle', content: 'Practice Method' },
+    { type: 'text', content:
+      'Lie down or sit comfortably with spine supported. \
+Bring attention to toes, noticing any sensations without judgment. \
+Gradually move attention up through feet, ankles, calves, knees. \
+Continue scanning upward through entire body to crown of head. \
+Spend 20-60 seconds on each body region. \
+Notice overall bodily awareness at completion.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Therapeutic Applications' },
+    { type: 'text', content:
+      'Chronic pain management: Changes relationship to discomfort. \
+Anxiety reduction: Grounds awareness in physical present. \
+Sleep improvement: Promotes relaxation response. \
+Emotional processing: Sensations often correlate with emotional states. \
+Trauma sensitivity: Practice gently, stop if overwhelming.' 
+    }
+  ]
+},
+'meditation-guide-4': {
+  id: 'meditation-guide-4',
+  title: 'Loving-Kindness Meditation (Metta)',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Loving-Kindness Meditation (Metta)' },
+    { type: 'text', content:
+      'Loving-kindness cultivates unconditional friendliness toward self and others. \
+This practice strengthens neural pathways associated with compassion and connection. \
+It counteracts negative self-talk and judgmental tendencies. \
+Regular practice increases empathy while maintaining healthy boundaries. \
+Metta meditation has been shown to reduce symptoms of depression and social anxiety.' 
+    },
+    { type: 'subtitle', content: 'Practice Sequence' },
+    { type: 'text', content:
+      'Begin with self: "May I be happy, may I be healthy, may I be safe, may I live with ease." \
+Extend to benefactor: Someone who naturally evokes warm feelings. \
+Include neutral person: Someone you feel indifferent toward. \
+Challenge with difficult person: Someone you have conflict with (optional). \
+Expand to all beings: Universal loving-kindness. \
+Each phrase repeated mentally with genuine intention.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Emotional Development' },
+    { type: 'text', content:
+      'Self-compassion foundation: Essential before extending to others. \
+Forgiveness cultivation: Releases resentment\'s psychological burden. \
+Connection enhancement: Strengthens sense of shared humanity. \
+Boundary maintenance: Compassion doesn\'t mean accepting harmful behavior. \
+Gradual progression: Start with easy recipients, expand circle over time.' 
+    }
+  ]
+},
+'meditation-guide-5': {
+  id: 'meditation-guide-5',
+  title: 'Mindfulness in Daily Activities',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mindfulness in Daily Activities' },
+    { type: 'text', content:
+      'Mindfulness extends meditation principles into ordinary life moments. \
+This practice transforms routine activities into opportunities for presence. \
+It reduces automatic pilot living where days pass without conscious awareness. \
+Daily mindfulness bridges formal meditation with continuous awareness. \
+Regular practice creates seamless integration of mindfulness throughout waking hours.' 
+    },
+    { type: 'subtitle', content: 'Activity Examples' },
+    { type: 'text', content:
+      'Mindful eating: Savor flavors, textures, and eating process. \
+Mindful walking: Notice sensation of each step, connection with ground. \
+Mindful listening: Fully attend to others without planning response. \
+Mindful chores: Engage fully in washing dishes, cleaning, or organizing. \
+Mindful waiting: Use delays as opportunities for present-moment awareness.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Strategies' },
+    { type: 'text', content:
+      'Choose one daily activity for mindfulness practice each week. \
+Set reminders: Post-it notes, phone alerts, or environmental cues. \
+Use senses: Ground awareness in sight, sound, touch, taste, smell. \
+Non-judgmental observation: Notice experiences without labeling good/bad. \
+Brief moments count: Even 30 seconds of full presence creates benefits.' 
+    }
+  ]
+},
+'meditation-guide-6': {
+  id: 'meditation-guide-6',
+  title: 'Dealing with Thoughts and Emotions',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Dealing with Thoughts and Emotions' },
+    { type: 'text', content:
+      'Meditation cultivates a new relationship with mental and emotional experiences. \
+Rather than suppressing or being controlled by thoughts/emotions, practice observation. \
+This creates psychological space between stimulus and response. \
+Regular practice reduces emotional reactivity and increases response flexibility. \
+Mindfulness helps recognize thought patterns as mental events rather than truths.' 
+    },
+    { type: 'subtitle', content: 'Observation Techniques' },
+    { type: 'text', content:
+      'Thought labeling: Silently note "thinking" when thoughts arise. \
+Cloud watching: Imagine thoughts passing like clouds across sky of awareness. \
+River metaphor: See thoughts floating by without jumping in. \
+Emotion sensation mapping: Locate physical sensations of emotions in body. \
+Breathing space: Pause and take three conscious breaths during emotional activation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Difficult Experience Handling' },
+    { type: 'text', content:
+      'RAIN technique: Recognize, Allow, Investigate, Nurture. \
+Grounding: Return attention to physical sensations or breath. \
+Self-compassion: Speak to yourself as you would comfort a friend. \
+Temporary pause: It\'s okay to stop meditation if overwhelmed. \
+Professional support: Seek therapy for trauma or severe distress.' 
+    }
+  ]
+},
+'meditation-guide-7': {
+  id: 'meditation-guide-7',
+  title: 'Meditation Posture and Environment',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Meditation Posture and Environment' },
+    { type: 'text', content:
+      'Physical setup significantly impacts meditation quality and consistency. \
+Proper posture supports alertness while minimizing discomfort. \
+Environment design reduces distractions and supports practice intention. \
+Ergonomic considerations prevent physical strain during longer sessions. \
+Personalized setup increases likelihood of regular practice.' 
+    },
+    { type: 'subtitle', content: 'Posture Principles' },
+    { type: 'text', content:
+      'Spine alignment: Straight but not rigid, natural curves maintained. \
+Comfortable stability: Supported yet alert, not slouched or tense. \
+Options: Chair sitting, cushion cross-legged, kneeling bench, lying down. \
+Hand placement: Resting on thighs, palms up or down, or in lap. \
+Head position: Balanced, chin slightly tucked, gaze soft or eyes closed.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Environment Optimization' },
+    { type: 'text', content:
+      'Dedicated space: Consistent location signals practice intention. \
+Minimal distractions: Quiet area, turn off devices, inform household. \
+Comfortable temperature: Neither too hot nor cold for stillness. \
+Pleasant aesthetics: Simple, clean, perhaps with meaningful objects. \
+Lighting control: Natural light preferred, adjustable artificial light.' 
+    }
+  ]
+},
+'meditation-guide-8': {
+  id: 'meditation-guide-8',
+  title: 'Developing Consistent Practice',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Developing Consistent Practice' },
+    { type: 'text', content:
+      'Consistency matters more than duration for meditation benefits. \
+Habit formation science supports small, regular practice over sporadic long sessions. \
+Overcoming common obstacles requires strategic planning and self-compassion. \
+Progress tracking maintains motivation through visible commitment. \
+Flexible approaches accommodate changing life circumstances.' 
+    },
+    { type: 'subtitle', content: 'Habit Formation Strategies' },
+    { type: 'text', content:
+      'Anchor habit: Link meditation to existing routine (after brushing teeth). \
+Start small: 5 minutes daily beats 30 minutes occasionally. \
+Consistency priority: Missed day? Resume immediately without self-criticism. \
+Track progress: Calendar marking, app tracking, or journal notes. \
+Accountability: Practice partner, group, or teacher support.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Obstacle Solutions' },
+    { type: 'text', content:
+      'Time constraints: Micro-meditations (1-3 minutes) throughout day. \
+Motivation fluctuations: Focus on discipline rather than waiting for inspiration. \
+Sleepiness: Practice at different times, splash face with water first. \
+Restlessness: Walking meditation or movement-based practices. \
+Boredom: Vary techniques, use guided meditations, join challenges.' 
+    }
+  ]
+},
+'meditation-guide-9': {
+  id: 'meditation-guide-9',
+  title: 'Advanced Techniques and Retreats',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Advanced Techniques and Retreats' },
+    { type: 'text', content:
+      'Advanced meditation practices deepen awareness and cultivate specific qualities. \
+Retreats provide immersive environments for profound practice development. \
+These approaches require stable foundation in basic mindfulness. \
+Advanced techniques address subtle aspects of consciousness and perception. \
+Retreat experiences often accelerate progress through sustained practice.' 
+    },
+    { type: 'subtitle', content: 'Advanced Practices' },
+    { type: 'text', content:
+      'Choiceless awareness: Open monitoring without specific focus object. \
+Self-inquiry: "Who am I?" contemplation beyond personality identification. \
+Visualization: Detailed mental imagery for specific purposes. \
+Mantra repetition: Sacred sound vibration for concentration and transformation. \
+Energy awareness: Subtle body sensations and energy movement.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Retreat Considerations' },
+    { type: 'text', content:
+      'Types: Weekend, week-long, or longer residential or online retreats. \
+Preparation: Establish daily practice first, research teachers/traditions. \
+Intention setting: Clear purpose enhances retreat benefits. \
+Integration plan: Prepare for returning to daily life post-retreat. \
+Teacher guidance: Especially important for intensive practice.' 
+    }
+  ]
+},
+'meditation-guide-10': {
+  id: 'meditation-guide-10',
+  title: 'Integrating Meditation into Lifestyle',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Integrating Meditation into Lifestyle' },
+    { type: 'text', content:
+      'Successful meditation integration creates seamless practice-life harmony. \
+Lifestyle alignment supports rather than conflicts with meditation values. \
+Work, relationships, and leisure activities can embody mindfulness principles. \
+Long-term sustainability requires adaptation to life stage changes. \
+Meditation becomes natural aspect of being rather than separate activity.' 
+    },
+    { type: 'subtitle', content: 'Integration Areas' },
+    { type: 'text', content:
+      'Work mindfulness: Single-tasking, mindful communication, purposeful breaks. \
+Relationship presence: Deep listening, non-reactive responses, gratitude expressions. \
+Leisure choices: Activities that naturally cultivate presence and joy. \
+Digital boundaries: Intentional technology use supporting rather than distracting. \
+Community connection: Like-minded practitioners for support and inspiration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Lifelong Practice' },
+    { type: 'text', content:
+      'Evolution acceptance: Practice changes naturally over months and years. \
+Seasonal adaptation: Adjust practice with life circumstances and energy levels. \
+Teaching others: Deepens understanding through sharing (when ready). \
+Continual learning: Explore different traditions and techniques. \
+Service integration: Apply mindfulness to benefit others and community.' 
+    }
+  ]
+},
+
+// =======Sleep Optimization=====
+
+'sleep-optimization-1': {
+  id: 'sleep-optimization-1',
+  title: 'The Science of Sleep Cycles',
+  image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'The Science of Sleep Cycles' },
+    { type: 'text', content:
+      'Sleep consists of 90-minute cycles repeating throughout the night. \
+Each cycle includes NREM (non-rapid eye movement) and REM (rapid eye movement) stages. \
+NREM sleep dominates early night for physical restoration. \
+REM sleep increases toward morning for memory consolidation and emotional processing. \
+Understanding sleep architecture helps optimize timing and quality.' 
+    },
+    { type: 'subtitle', content: 'Sleep Stages' },
+    { type: 'text', content:
+      'Stage 1 (N1): Light sleep, transition from wakefulness (5-10% of night). \
+Stage 2 (N2): Deeper sleep, memory consolidation (45-55% of night). \
+Stage 3 (N3): Deep sleep, physical restoration (15-25% of night). \
+REM: Brain activity similar to waking, dreaming, emotional processing (20-25%). \
+Cycles: 4-6 complete cycles per night for optimal restoration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Optimization Principles' },
+    { type: 'text', content:
+      'Consistent schedule: Same bedtime/wake time ±30 minutes daily. \
+Complete cycles: Wake at end of 90-minute cycle (after 7.5 or 9 hours). \
+Sleep debt repayment: Extra sleep after deficit, not excessive oversleeping. \
+Light exposure: Morning sunlight regulates circadian rhythm. \
+Temperature: Cool room (60-67°F/15-19°C) supports sleep initiation.' 
+    }
+  ]
+},
+'sleep-optimization-2': {
+  id: 'sleep-optimization-2',
+  title: 'Circadian Rhythm Optimization',
+  image: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Circadian Rhythm Optimization' },
+    { type: 'text', content:
+      'Circadian rhythms are 24-hour biological cycles regulating sleep-wake patterns. \
+Light exposure is primary zeitgeber (time-giver) synchronizing internal clock. \
+Melatonin production follows inverse pattern to cortisol throughout day. \
+Disrupted rhythms contribute to insomnia, mood disorders, and metabolic issues. \
+Alignment with natural light-dark cycle promotes optimal sleep and health.' 
+    },
+    { type: 'subtitle', content: 'Daily Synchronization' },
+    { type: 'text', content:
+      'Morning light: 15-30 minutes within 60 minutes of waking. \
+Daylight exposure: Regular breaks outdoors or near windows. \
+Evening darkness: Reduce artificial light 2-3 hours before bedtime. \
+Consistent schedule: Regular sleep/wake times anchor rhythm. \
+Meal timing: Align eating with daylight hours when possible.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1000&q=60' },
+    { type: 'subtitle', content: 'Technology Management' },
+    { type: 'text', content:
+      'Blue light reduction: Apps or glasses blocking blue wavelengths after sunset. \
+Screen curfew: No screens 60-90 minutes before bed. \
+Night mode: Enable on all devices after sunset. \
+Alternative activities: Reading physical books, conversation, gentle stretching. \
+Dark environment: Blackout curtains, eye masks for complete darkness.' 
+    }
+  ]
+},
+'sleep-optimization-3': {
+  id: 'sleep-optimization-3',
+  title: 'Sleep Environment Design',
+  image: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sleep Environment Design' },
+    { type: 'text', content:
+      'Sleep environment significantly impacts sleep quality and duration. \
+Multiple sensory factors (light, sound, temperature, comfort) affect sleep architecture. \
+Personalized optimization addresses individual sensitivities and preferences. \
+Investment in sleep environment yields high return for overall well-being. \
+Consistent sleep space conditions create powerful sleep cues.' 
+    },
+    { type: 'subtitle', content: 'Environmental Factors' },
+    { type: 'text', content:
+      'Temperature: 60-67°F (15-19°C) optimal for most adults. \
+Light: Complete darkness or very dim red/night lights. \
+Noise: Consistent white noise masks disruptive sounds. \
+Air quality: Good ventilation, air purifiers for allergies. \
+Comfort: Supportive mattress, pillows, breathable bedding.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Optimization Strategies' },
+    { type: 'text', content:
+      'Mattress selection: Supportive for preferred sleep position. \
+Pillow arrangement: Proper spinal alignment in all positions. \
+Bedding materials: Natural fibers for temperature regulation. \
+Light control: Blackout curtains, eye masks, electrical tape over LEDs. \
+Sound management: White noise machines, earplugs, soundproofing.' 
+    }
+  ]
+},
+'sleep-optimization-4': {
+  id: 'sleep-optimization-4',
+  title: 'Evening Wind-Down Routine',
+  image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Evening Wind-Down Routine' },
+    { type: 'text', content:
+      'Evening routines signal transition from wakefulness to sleep readiness. \
+Consistent wind-down activities reduce cortisol and increase melatonin. \
+This buffer period prevents bringing daytime stress to bed. \
+Rituals create psychological preparation for restorative sleep. \
+Effective wind-downs improve both sleep latency and quality.' 
+    },
+    { type: 'subtitle', content: 'Wind-Down Activities' },
+    { type: 'text', content:
+      'Digital detox: Screen-free 60-90 minutes before bed. \
+Gentle movement: Stretching, yoga, walking. \
+Relaxation practices: Meditation, deep breathing, progressive muscle relaxation. \
+Reading: Physical books (not e-readers) with soft lighting. \
+Planning: Brief next-day preparation to reduce bedtime worrying.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Framework' },
+    { type: 'text', content:
+      'Consistent timing: Begin wind-down 60-90 minutes before target bedtime. \
+Sequenced activities: Same order nightly creates conditioned response. \
+Environment preparation: Dim lights, comfortable temperature, quiet space. \
+Stress processing: Journaling or reflection to release daytime concerns. \
+Bed association: Use bed only for sleep and intimacy (no work or screens).' 
+    }
+  ]
+},
+'sleep-optimization-5': {
+  id: 'sleep-optimization-5',
+  title: 'Nutrition and Sleep Connection',
+  image: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Nutrition and Sleep Connection' },
+    { type: 'text', content:
+      'Diet significantly affects sleep quality through multiple mechanisms. \
+Nutrient intake influences neurotransmitter production for sleep regulation. \
+Meal timing impacts circadian rhythm and digestive processes during sleep. \
+Specific foods contain sleep-promoting compounds like tryptophan and melatonin. \
+Hydration balance prevents nighttime awakenings without causing bathroom trips.' 
+    },
+    { type: 'subtitle', content: 'Sleep-Promoting Nutrients' },
+    { type: 'text', content:
+      'Tryptophan: Precursor to serotonin and melatonin (turkey, dairy, nuts). \
+Magnesium: Muscle relaxation and GABA activation (leafy greens, nuts, seeds). \
+Melatonin: Direct sleep hormone in foods (tart cherries, walnuts, oats). \
+Glycine: Neurotransmitter for deep sleep (bone broth, collagen). \
+B vitamins: Co-factors for neurotransmitter synthesis (whole grains, eggs).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1000&q=60' },
+    { type: 'subtitle', content: 'Timing Guidelines' },
+    { type: 'text', content:
+      'Last meal: 2-3 hours before bedtime for digestion. \
+Evening snacks: Small portion if needed, rich in tryptophan and magnesium. \
+Caffeine cutoff: 8-10 hours before bedtime (individual sensitivity varies). \
+Alcohol limitation: Disrupts sleep architecture despite initial drowsiness. \
+Hydration balance: Drink majority of water earlier in day.' 
+    }
+  ]
+},
+'sleep-optimization-6': {
+  id: 'sleep-optimization-6',
+  title: 'Managing Insomnia and Sleep Disruptions',
+  image: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Managing Insomnia and Sleep Disruptions' },
+    { type: 'text', content:
+      'Sleep disruptions are common but manageable with evidence-based strategies. \
+Chronic insomnia often involves conditioned arousal and sleep anxiety. \
+Cognitive Behavioral Therapy for Insomnia (CBT-I) is gold standard treatment. \
+Sleep restriction paradoxically improves sleep by increasing sleep drive. \
+Stimulus control re-establishes bed as strong sleep cue.' 
+    },
+    { type: 'subtitle', content: 'CBT-I Techniques' },
+    { type: 'text', content:
+      'Sleep restriction: Limit time in bed to actual sleep time initially. \
+Stimulus control: Leave bed if awake >20 minutes, return only when sleepy. \
+Cognitive restructuring: Challenge unhelpful beliefs about sleep. \
+Sleep hygiene optimization: Environment and behavior adjustments. \
+Relaxation training: Progressive muscle relaxation, guided imagery.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Wakefulness Management' },
+    { type: 'text', content:
+      'Bedtime worry time: Scheduled earlier in evening for processing concerns. \
+Get-up rule: After 20 minutes awake, get up, do quiet activity in dim light. \
+Clock removal: Avoid checking time during night. \
+Next-day coping: Plan strategies for tired days to reduce sleep anxiety. \
+Professional help: Seek sleep specialist for persistent insomnia.' 
+    }
+  ]
+},
+'sleep-optimization-7': {
+  id: 'sleep-optimization-7',
+  title: 'Napping Strategies for Optimal Recovery',
+  image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Napping Strategies for Optimal Recovery' },
+    { type: 'text', content:
+      'Strategic napping can supplement nighttime sleep without disrupting it. \
+Nap timing and duration determine whether naps enhance or impair sleep. \
+Power naps (10-20 minutes) boost alertness without sleep inertia. \
+Longer naps (90 minutes) complete full sleep cycles but risk grogginess. \
+Individual nap response varies based on sleep needs and circadian timing.' 
+    },
+    { type: 'subtitle', content: 'Nap Types' },
+    { type: 'text', content:
+      'Power nap: 10-20 minutes, increases alertness and performance. \
+Coffee nap: Caffeine before 20-minute nap (takes 20 minutes to work). \
+Full-cycle nap: 90 minutes, includes all sleep stages, better for creativity. \
+Prophylactic nap: Before anticipated sleep deprivation (night shifts). \
+Recovery nap: After sleep loss, longer duration acceptable.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Optimization Guidelines' },
+    { type: 'text', content:
+      'Timing: Early afternoon (1-3 PM) aligns with natural dip in alertness. \
+Duration: 10-20 minutes or full 90 minutes, avoid 30-60 minute range. \
+Environment: Quiet, dark, comfortable but not bedroom if possible. \
+Wake strategy: Alarm set, light exposure immediately after waking. \
+Night sleep priority: Naps shouldn\'t replace adequate nighttime sleep.' 
+    }
+  ]
+},
+'sleep-optimization-8': {
+  id: 'sleep-optimization-8',
+  title: 'Sleep Tracking and Data Interpretation',
+  image: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sleep Tracking and Data Interpretation' },
+    { type: 'text', content:
+      'Sleep tracking provides objective data about sleep patterns and quality. \
+Wearables and apps measure movement, heart rate, and sometimes brain waves. \
+Data helps identify trends and correlations with lifestyle factors. \
+Over-reliance on tracking can create sleep performance anxiety. \
+Balanced approach uses data for insight without obsessive monitoring.' 
+    },
+    { type: 'subtitle', content: 'Tracking Methods' },
+    { type: 'text', content:
+      'Wearable devices: Smartwatches, rings, headbands with movement/heart rate sensors. \
+Bedside devices: Under-mattress sensors, bedside monitors. \
+Smartphone apps: Microphone-based movement detection. \
+Sleep diaries: Subjective recording of sleep times and quality. \
+Polysomnography: Clinical gold standard (lab or home test).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1000&q=60' },
+    { type: 'subtitle', content: 'Data Interpretation' },
+    { type: 'text', content:
+      'Trends over time: More valuable than single night data. \
+Sleep consistency: Regularity often matters more than exact duration. \
+Correlation identification: Connect sleep data with lifestyle factors. \
+Limitation awareness: Consumer devices estimate rather than measure sleep stages. \
+Subjective validation: How you feel matters more than perfect scores.' 
+    }
+  ]
+},
+'sleep-optimization-9': {
+  id: 'sleep-optimization-9',
+  title: 'Shift Work and Travel Sleep Management',
+  image: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Shift Work and Travel Sleep Management' },
+    { type: 'text', content:
+      'Non-traditional schedules require specialized sleep optimization strategies. \
+Shift work disorder involves misalignment between work schedule and circadian rhythm. \
+Jet lag results from rapid time zone crossing exceeding circadian adjustment capacity. \
+Strategic light exposure and melatonin timing can accelerate adaptation. \
+Sleep banking before anticipated disruption builds resilience.' 
+    },
+    { type: 'subtitle', content: 'Shift Work Strategies' },
+    { type: 'text', content:
+      'Consistent schedule: Same shift pattern when possible. \
+Light management: Bright light during work, darkness for sleep. \
+Nap strategically: Before night shifts, during breaks if allowed. \
+Sleep environment: Daytime blackout conditions, white noise, cool temperature. \
+Social support: Family understanding of sleep needs during unconventional hours.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Travel Adaptation' },
+    { type: 'text', content:
+      'Pre-travel adjustment: Gradually shift sleep schedule toward destination time. \
+Flight timing: Choose flights that facilitate destination schedule alignment. \
+Light strategy: Seek daylight at destination morning, avoid evening light. \
+Melatonin use: 0.5-5mg at destination bedtime for first few nights. \
+Hydration and movement: Combat dehydration and stiffness from travel.' 
+    }
+  ]
+},
+'sleep-optimization-10': {
+  id: 'sleep-optimization-10',
+  title: 'Long-Term Sleep Health Maintenance',
+  image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Long-Term Sleep Health Maintenance' },
+    { type: 'text', content:
+      'Sleep needs and patterns change throughout lifespan but remain essential. \
+Aging affects sleep architecture without necessarily reducing sleep requirements. \
+Consistent good sleep hygiene prevents age-related sleep deterioration. \
+Medical conditions and medications often impact sleep quality. \
+Proactive sleep health preserves cognitive function and quality of life.' 
+    },
+    { type: 'subtitle', content: 'Lifespan Considerations' },
+    { type: 'text', content:
+      'Young adults: Often sacrifice sleep for social/professional demands. \
+Middle age: Increasing sleep disorders, hormonal changes affect sleep. \
+Older adults: Earlier circadian phase, lighter sleep, more awakenings. \
+Gender differences: Women experience more insomnia, men more sleep apnea. \
+Health conditions: Pain, reflux, nocturia, medications disrupt sleep.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1505693314120-0d443867891c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Sustainable Practices' },
+    { type: 'text', content:
+      'Regular evaluation: Annual sleep habit review and adjustment. \
+Medical screening: Sleep studies if symptoms suggest disorders. \
+Adaptation flexibility: Adjust routines as needs and circumstances change. \
+Social integration: Maintain relationships while protecting sleep needs. \
+Holistic approach: Sleep as foundation for all other health practices.' 
+    }
+  ]
+},
+
+// =======Stress Management=====
+
+'stress-management-1': {
+  id: 'stress-management-1',
+  title: 'Understanding Stress Physiology',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Understanding Stress Physiology' },
+    { type: 'text', content:
+      'Stress is the body\'s response to perceived threats or demands. \
+Acute stress activates fight-or-flight response for immediate survival. \
+Chronic stress maintains physiological arousal, damaging health over time. \
+The HPA axis (hypothalamus-pituitary-adrenal) regulates stress hormone release. \
+Understanding stress biology enables targeted management strategies.' 
+    },
+    { type: 'subtitle', content: 'Stress Response Systems' },
+    { type: 'text', content:
+      'Sympathetic nervous system: Immediate fight-or-flight activation. \
+Parasympathetic nervous system: Rest-and-digest recovery state. \
+Cortisol: Primary stress hormone with daily rhythm and stress spikes. \
+Adrenaline/noradrenaline: Immediate stress neurotransmitters. \
+Allostatic load: Cumulative wear from chronic stress adaptation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Health Impacts' },
+    { type: 'text', content:
+      'Cardiovascular: Increased blood pressure, heart rate, inflammation. \
+Immune: Initially boosted, then suppressed with chronic stress. \
+Digestive: Altered gut motility, microbiome changes, IBS exacerbation. \
+Cognitive: Impaired memory, decision-making, and emotional regulation. \
+Metabolic: Insulin resistance, abdominal fat accumulation.' 
+    }
+  ]
+},
+'stress-management-2': {
+  id: 'stress-management-2',
+  title: 'Cognitive Restructuring Techniques',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cognitive Restructuring Techniques' },
+    { type: 'text', content:
+      'Cognitive restructuring identifies and modifies stress-inducing thought patterns. \
+Thoughts influence emotional and physiological stress responses. \
+Cognitive distortions are habitual thinking errors that amplify stress. \
+Reframing techniques create psychological distance from stressful thoughts. \
+Regular practice builds resilience to future stressors.' 
+    },
+    { type: 'subtitle', content: 'Common Cognitive Distortions' },
+    { type: 'text', content:
+      'Catastrophizing: Expecting worst-case scenarios. \
+Black-and-white thinking: All-or-nothing, no middle ground. \
+Mind reading: Assuming knowledge of others\' thoughts/intentions. \
+Overgeneralization: Broad conclusions from single events. \
+Should statements: Rigid rules about self/others. \
+Personalization: Assuming excessive responsibility for events.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Restructuring Methods' },
+    { type: 'text', content:
+      'Thought recording: Write down stressful thoughts and examine evidence. \
+Decatastrophizing: Ask "What\'s the worst that could happen?" and prepare. \
+Perspective taking: How would you advise a friend with same thoughts? \
+Labeling: "I\'m having the thought that..." creates distance. \
+Alternative explanations: Generate multiple interpretations of situation.' 
+    }
+  ]
+},
+'stress-management-3': {
+  id: 'stress-management-3',
+  title: 'Breathing Techniques for Stress Relief',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Breathing Techniques for Stress Relief' },
+    { type: 'text', content:
+      'Conscious breathing directly influences autonomic nervous system balance. \
+Specific breathing patterns activate parasympathetic relaxation response. \
+Breath control provides immediate stress reduction anywhere, anytime. \
+Regular breathing practice builds stress resilience over time. \
+Different techniques serve various purposes (calming, energizing, focusing).' 
+    },
+    { type: 'subtitle', content: 'Breathing Techniques' },
+    { type: 'text', content:
+      'Diaphragmatic breathing: Deep belly breathing for relaxation. \
+4-7-8 breathing: Inhale 4, hold 7, exhale 8 for anxiety reduction. \
+Box breathing: Equal inhale-hold-exhale-hold (4-4-4-4) for focus. \
+Alternate nostril breathing: Balances nervous system hemispheres. \
+Coherent breathing: 5-6 breaths per minute optimal for heart rate variability.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Strategies' },
+    { type: 'text', content:
+      'Daily practice: 5-10 minutes morning and evening for baseline resilience. \
+Stress response interruption: Use breathing at first signs of stress activation. \
+Preventive application: Before anticipated stressful situations. \
+Integration: Combine with movement, meditation, or daily activities. \
+Progress tracking: Notice changes in stress response over weeks.' 
+    }
+  ]
+},
+'stress-management-4': {
+  id: 'stress-management-4',
+  title: 'Time Management for Stress Reduction',
+  image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Time Management for Stress Reduction' },
+    { type: 'text', content:
+      'Effective time management reduces stress by increasing control and predictability. \
+Overcommitment and procrastination are major sources of chronic stress. \
+Clarifying priorities prevents scattered effort and decision fatigue. \
+Realistic planning accommodates inevitable interruptions and energy fluctuations. \
+Boundaries protect time for recovery and prevent burnout.' 
+    },
+    { type: 'subtitle', content: 'Time Management Systems' },
+    { type: 'text', content:
+      'Eisenhower Matrix: Urgent/important task categorization. \
+Time blocking: Dedicated blocks for specific activities. \
+Pomodoro Technique: Focused work intervals with regular breaks. \
+MITs (Most Important Tasks): 1-3 daily priorities. \
+Weekly review: Planning alignment with longer-term goals.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Stress Prevention Strategies' },
+    { type: 'text', content:
+      'Buffer time: Schedule 20% extra time for tasks and transitions. \
+Email batching: Designated times rather than constant checking. \
+Meeting effectiveness: Clear agendas, time limits, necessary participants only. \
+Delegation assessment: What only you can do versus what others could handle. \
+No training: Practice declining non-essential commitments gracefully.' 
+    }
+  ]
+},
+'stress-management-5': {
+  id: 'stress-management-5',
+  title: 'Physical Activity for Stress Relief',
+  image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Physical Activity for Stress Relief' },
+    { type: 'text', content:
+      'Exercise reduces stress hormones while increasing endorphins and neurotransmitters. \
+Movement provides constructive outlet for stress-induced physiological arousal. \
+Regular activity builds physiological resilience to future stressors. \
+Different exercise types address various stress manifestations. \
+Consistency matters more than intensity for stress management benefits.' 
+    },
+    { type: 'subtitle', content: 'Exercise Types for Stress' },
+    { type: 'text', content:
+      'Aerobic exercise: Reduces overall stress levels and improves mood. \
+Resistance training: Builds confidence and releases tension. \
+Yoga/tai chi: Combines movement with mindfulness and breath awareness. \
+Nature walks: "Green exercise" provides additional stress reduction benefits. \
+Dance/movement: Expresses emotions non-verbally and releases energy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Guidelines' },
+    { type: 'text', content:
+      'Consistency priority: Regular moderate activity beats sporadic intense workouts. \
+Stress response timing: Exercise shortly after stressful event for catharsis. \
+Mindful movement: Focus on bodily sensations during activity. \
+Social exercise: Combine activity with social connection for dual benefits. \
+Barrier reduction: Prepare equipment, schedule sessions, start with achievable goals.' 
+    }
+  ]
+},
+'stress-management-6': {
+  id: 'stress-management-6',
+  title: 'Social Support and Connection',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Social Support and Connection' },
+    { type: 'text', content:
+      'Social connection buffers stress through multiple psychological and biological mechanisms. \
+Quality relationships provide emotional support, practical assistance, and perspective. \
+Loneliness and social isolation amplify stress and health risks. \
+Different types of support (emotional, informational, practical) address various needs. \
+Intentional relationship building requires time and vulnerability.' 
+    },
+    { type: 'subtitle', content: 'Support Types' },
+    { type: 'text', content:
+      'Emotional support: Empathy, validation, caring presence. \
+Informational support: Advice, guidance, sharing knowledge. \
+Practical support: Tangible assistance with tasks or resources. \
+Companionship support: Shared activities and sense of belonging. \
+Appraisal support: Feedback and help evaluating situations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Connection Strategies' },
+    { type: 'text', content:
+      'Regular check-ins: Scheduled contact with important relationships. \
+Vulnerability practice: Appropriate sharing of struggles and needs. \
+Active listening: Full attention without immediate problem-solving. \
+Reciprocity balance: Both giving and receiving support. \
+Community involvement: Groups with shared interests or values.' 
+    }
+  ]
+},
+'stress-management-7': {
+  id: 'stress-management-7',
+  title: 'Mindfulness-Based Stress Reduction',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mindfulness-Based Stress Reduction' },
+    { type: 'text', content:
+      'MBSR teaches systematic mindfulness practices to reduce stress and enhance well-being. \
+Mindfulness creates space between stressors and habitual reactions. \
+Regular practice changes brain structure and function in stress-related regions. \
+Formal meditation and informal mindfulness practices complement each other. \
+8-week MBSR programs have extensive research supporting effectiveness.' 
+    },
+    { type: 'subtitle', content: 'Core Practices' },
+    { type: 'text', content:
+      'Body scan: Systematic attention to bodily sensations. \
+Sitting meditation: Breath, body, sound, and thought awareness. \
+Mindful movement: Gentle yoga with awareness of sensations. \
+Walking meditation: Slow, deliberate walking with full awareness. \
+Daily life mindfulness: Bringing awareness to routine activities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Program Structure' },
+    { type: 'text', content:
+      'Weekly sessions: 2-2.5 hours group instruction and practice. \
+Daily homework: 45 minutes formal practice, informal mindfulness integration. \
+Retreat day: Extended practice (5-7 hours) midway through program. \
+Themes: Perception, stress response, communication, self-compassion. \
+Integration: Applying mindfulness to specific life stressors.' 
+    }
+  ]
+},
+'stress-management-8': {
+  id: 'stress-management-8',
+  title: 'Workplace Stress Management',
+  image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Workplace Stress Management' },
+    { type: 'text', content:
+      'Work-related stress arises from job demands, control, support, and meaning misalignment. \
+Chronic workplace stress contributes to burnout, reduced performance, and health issues. \
+Individual and organizational strategies address different aspects of work stress. \
+Boundaries between work and personal life prevent stress spillover. \
+Job crafting modifies tasks and relationships to increase engagement.' 
+    },
+    { type: 'subtitle', content: 'Individual Strategies' },
+    { type: 'text', content:
+      'Micro-breaks: 1-5 minute breaks every 60-90 minutes. \
+Task management: Prioritization, delegation, realistic planning. \
+Communication clarity: Assertive expression of needs and boundaries. \
+Skill development: Building competence reduces stress from perceived inadequacy. \
+Recovery rituals: Clear transition between work and personal time.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Organizational Approaches' },
+    { type: 'text', content:
+      'Reasonable workloads: Realistic expectations and adequate resources. \
+Autonomy support: Control over work methods and timing when possible. \
+Recognition: Regular feedback and appreciation for contributions. \
+Social support: Positive team relationships and collaborative culture. \
+Wellness programs: Resources for stress management and work-life balance.' 
+    }
+  ]
+},
+'stress-management-9': {
+  id: 'stress-management-9',
+  title: 'Resilience Building Practices',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Resilience Building Practices' },
+    { type: 'text', content:
+      'Resilience is the capacity to adapt well to adversity, trauma, or significant stress. \
+It involves behaviors, thoughts, and actions that can be learned and developed. \
+Resilience doesn\'t eliminate stress but improves recovery and growth from challenges. \
+Multiple domains (physical, emotional, social, cognitive) contribute to overall resilience. \
+Regular practice builds "stress inoculation" for future difficulties.' 
+    },
+    { type: 'subtitle', content: 'Resilience Components' },
+    { type: 'text', content:
+      'Self-awareness: Recognizing stress signals and emotional patterns. \
+Self-regulation: Managing thoughts, emotions, and behaviors under stress. \
+Optimism: Realistic positive outlook and growth mindset. \
+Mental agility: Flexible thinking and multiple perspective consideration. \
+Connection strength: Supportive relationships and community belonging.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60' },
+    { type: 'subtitle', content: 'Development Strategies' },
+    { type: 'text', content:
+      'Challenge exposure: Gradual approach to manageable difficulties. \
+Meaning making: Finding purpose and learning in adversity. \
+Gratitude practice: Regular acknowledgment of positive aspects. \
+Skill building: Developing competence in areas of importance. \
+Recovery emphasis: Adequate rest and rejuvenation between challenges.' 
+    }
+  ]
+},
+'stress-management-10': {
+  id: 'stress-management-10',
+  title: 'Comprehensive Stress Management Plan',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Comprehensive Stress Management Plan' },
+    { type: 'text', content:
+      'Effective stress management requires integrated approach across multiple life domains. \
+Personalized plans address individual stressors, resources, and preferences. \
+Regular evaluation and adjustment maintain relevance as circumstances change. \
+Balance between prevention, intervention, and recovery strategies. \
+Sustainable practices become lifestyle habits rather than temporary fixes.' 
+    },
+    { type: 'subtitle', content: 'Plan Components' },
+    { type: 'text', content:
+      'Stress assessment: Identification of major stressors and responses. \
+Resource inventory: Personal strengths, support systems, coping skills. \
+Prevention strategies: Lifestyle habits reducing baseline stress. \
+Intervention techniques: Immediate stress reduction methods. \
+Recovery practices: Restoration after stressful periods. \
+Evaluation system: Regular review of effectiveness and adjustment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Framework' },
+    { type: 'text', content:
+      'Start small: 1-2 changes initially, build gradually. \
+Consistency focus: Regular practice beats occasional intensity. \
+Holistic approach: Address physical, emotional, cognitive, social aspects. \
+Flexibility: Adapt strategies to changing circumstances and needs. \
+Self-compassion: Accept imperfection and resume after setbacks.' 
+    }
+  ]
+},
+
+// =======Yoga Fundamentals=====
+
+'yoga-fundamentals-1': {
+  id: 'yoga-fundamentals-1',
+  title: 'Introduction to Yoga Philosophy',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Yoga Philosophy' },
+    { type: 'text', content:
+      'Yoga is a holistic system integrating physical, mental, and spiritual practices. \
+The word "yoga" means union - connecting individual consciousness with universal consciousness. \
+Classical yoga philosophy is outlined in Patanjali\'s Yoga Sutras (circa 400 CE). \
+Modern yoga typically focuses on asana (postures) but originally encompassed eight limbs. \
+Understanding philosophy enhances physical practice with deeper meaning and intention.' 
+    },
+    { type: 'subtitle', content: 'The Eight Limbs of Yoga' },
+    { type: 'text', content:
+      'Yamas: Ethical restraints (non-violence, truthfulness, non-stealing, moderation, non-possessiveness). \
+Niyamas: Personal observances (purity, contentment, discipline, self-study, surrender). \
+Asana: Physical postures for health and meditation preparation. \
+Pranayama: Breath control techniques for energy regulation. \
+Pratyahara: Sense withdrawal for inner focus. \
+Dharana: Concentration on single point. \
+Dhyana: Meditation, sustained focused awareness. \
+Samadhi: Union, enlightened consciousness.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Modern Application' },
+    { type: 'text', content:
+      'Begin with asana and pranayama as accessible entry points. \
+Incorporate yamas/niyamas as ethical framework for daily life. \
+Practice mindfulness during physical postures (moving meditation). \
+Respect tradition while adapting to individual needs and limitations. \
+View yoga as lifelong journey rather than destination.' 
+    }
+  ]
+},
+'yoga-fundamentals-2': {
+  id: 'yoga-fundamentals-2',
+  title: 'Basic Yoga Poses (Asanas)',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Yoga Poses (Asanas)' },
+    { type: 'text', content:
+      'Foundation poses build strength, flexibility, and body awareness. \
+Proper alignment prevents injury and maximizes benefits. \
+Each pose has physical, energetic, and mental effects. \
+Beginner-friendly variations make yoga accessible to all bodies. \
+Consistent practice with basic poses creates strong foundation for progression.' 
+    },
+    { type: 'subtitle', content: 'Essential Standing Poses' },
+    { type: 'text', content:
+      'Mountain Pose (Tadasana): Foundation of all standing poses. \
+Warrior I & II (Virabhadrasana): Strength, stability, focus. \
+Triangle Pose (Trikonasana): Lateral flexibility and balance. \
+Tree Pose (Vrksasana): Balance and concentration. \
+Downward-Facing Dog (Adho Mukha Svanasana): Full-body stretch and strength.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Principles' },
+    { type: 'text', content:
+      'Focus on alignment over depth: Quality movement prevents injury. \
+Use props: Blocks, straps, blankets support proper form. \
+Breathe consciously: Connect movement with breath. \
+Listen to body: Distinguish between productive stretch and pain. \
+Practice regularly: Short daily sessions beat occasional long practices.' 
+    }
+  ]
+},
+'yoga-fundamentals-3': {
+  id: 'yoga-fundamentals-3',
+  title: 'Breathing Techniques (Pranayama)',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Breathing Techniques (Pranayama)' },
+    { type: 'text', content:
+      'Pranayama means "extension of life force" through breath control. \
+Conscious breathing regulates nervous system and energy levels. \
+Different techniques serve various purposes (calming, energizing, balancing). \
+Pranayama prepares mind for meditation and enhances asana practice. \
+Regular practice increases lung capacity and respiratory efficiency.' 
+    },
+    { type: 'subtitle', content: 'Basic Pranayama Techniques' },
+    { type: 'text', content:
+      'Ujjayi Breath: Victorious breath with slight throat constriction. \
+Nadi Shodhana: Alternate nostril breathing for balance. \
+Kapalabhati: Skull shining breath for energy and cleansing. \
+Bhramari: Bee breath for calming nervous system. \
+Dirga Pranayama: Three-part breath for full lung expansion.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Guidelines' },
+    { type: 'text', content:
+      'Start with natural breath awareness before controlled techniques. \
+Practice on empty stomach, ideally morning or before asana. \
+Sit comfortably with spine straight for optimal energy flow. \
+Begin with 3-5 minutes daily, gradually increase duration. \
+Stop if feeling lightheaded or uncomfortable.' 
+    }
+  ]
+},
+'yoga-fundamentals-4': {
+  id: 'yoga-fundamentals-4',
+  title: 'Sun Salutations (Surya Namaskar)',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sun Salutations (Surya Namaskar)' },
+    { type: 'text', content:
+      'Sun Salutations are flowing sequences honoring solar energy. \
+They warm up body, build strength and flexibility, and synchronize breath with movement. \
+Traditional practice includes 12 positions performed in continuous flow. \
+Modern variations exist for different levels and intentions. \
+Regular practice creates meditative movement and cardiovascular benefits.' 
+    },
+    { type: 'subtitle', content: 'Classical Sequence' },
+    { type: 'text', content:
+      '1. Prayer Pose (Pranamasana) \
+2. Raised Arms Pose (Hastauttanasana) \
+3. Hand to Foot Pose (Hasta Padasana) \
+4. Equestrian Pose (Ashwa Sanchalanasana) \
+5. Mountain Pose (Parvatasana) \
+6. Eight-Limbed Pose (Ashtanga Namaskara) \
+7. Cobra Pose (Bhujangasana) \
+8. Mountain Pose (Parvatasana) \
+9. Equestrian Pose (Ashwa Sanchalanasana) \
+10. Hand to Foot Pose (Hasta Padasana) \
+11. Raised Arms Pose (Hastauttanasana) \
+12. Prayer Pose (Pranamasana)' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Tips' },
+    { type: 'text', content:
+      'Start with 3-5 rounds, gradually increase to 12. \
+Coordinate breath with each movement (inhale with expansions, exhale with contractions). \
+Move slowly with awareness rather than rushing through sequence. \
+Modify poses as needed for your body\'s current abilities. \
+Practice facing east traditionally, or any direction with sun awareness.' 
+    }
+  ]
+},
+'yoga-fundamentals-5': {
+  id: 'yoga-fundamentals-5',
+  title: 'Yoga for Flexibility and Mobility',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Yoga for Flexibility and Mobility' },
+    { type: 'text', content:
+      'Yoga improves both passive flexibility and active mobility through various approaches. \
+Different poses target specific muscle groups and joint ranges. \
+Consistent practice with proper alignment creates sustainable progress. \
+Flexibility benefits include injury prevention, posture improvement, and pain reduction. \
+Balance flexibility with strength for functional movement patterns.' 
+    },
+    { type: 'subtitle', content: 'Key Flexibility Poses' },
+    { type: 'text', content:
+      'Forward Folds: Hamstring and back flexibility (Uttanasana, Paschimottanasana). \
+Hip Openers: Pigeon Pose (Eka Pada Rajakapotasana), Butterfly Pose (Baddha Konasana). \
+Twists: Spinal mobility and organ stimulation (Ardha Matsyendrasana). \
+Backbends: Chest and hip flexor opening (Bridge Pose, Cobra Pose). \
+Shoulder Openers: Eagle Arms, Cow Face Pose (Gomukhasana).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Principles' },
+    { type: 'text', content:
+      'Warm up before deep stretching. \
+Hold poses 30 seconds to 2 minutes for connective tissue adaptation. \
+Breathe into tight areas to release tension. \
+Avoid bouncing or forcing beyond comfortable edge. \
+Balance flexibility work with strength-building poses.' 
+    }
+  ]
+},
+'yoga-fundamentals-6': {
+  id: 'yoga-fundamentals-6',
+  title: 'Yoga for Strength Building',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Yoga for Strength Building' },
+    { type: 'text', content:
+      'Yoga builds functional strength through bodyweight resistance and isometric holds. \
+Strength-focused practice develops stability, balance, and joint integrity. \
+Different styles (Ashtanga, Power Yoga) emphasize strength development. \
+Yoga strength training complements traditional weight training with unique benefits. \
+Proper progression prevents injury while building capability.' 
+    },
+    { type: 'subtitle', content: 'Strength-Building Poses' },
+    { type: 'text', content:
+      'Plank Variations: Core and upper body strength. \
+Chaturanga Dandasana: Yoga push-up for arm and core strength. \
+Warrior Poses: Leg strength and stability. \
+Boat Pose (Navasana): Core strength and balance. \
+Arm Balances: Crow Pose (Bakasana) for arm and core strength.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Progression Strategies' },
+    { type: 'text', content:
+      'Start with modified versions using props or partial range. \
+Increase hold duration gradually (5 seconds to 30+ seconds). \
+Add repetitions of flowing sequences (vinyasas). \
+Incorporate dynamic movements within holds (pulses, lifts). \
+Progress to more challenging variations as strength develops.' 
+    }
+  ]
+},
+'yoga-fundamentals-7': {
+  id: 'yoga-fundamentals-7',
+  title: 'Restorative and Yin Yoga',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Restorative and Yin Yoga' },
+    { type: 'text', content:
+      'Restorative yoga uses props to support complete relaxation in passive poses. \
+Yin yoga targets connective tissues with long-held floor poses. \
+Both practices activate parasympathetic nervous system for deep recovery. \
+These styles balance more active yoga practices and daily stress. \
+Regular practice improves flexibility, reduces stress, and enhances body awareness.' 
+    },
+    { type: 'subtitle', content: 'Restorative Poses' },
+    { type: 'text', content:
+      'Supported Child\'s Pose: Calming, hip and back release. \
+Legs-Up-the-Wall: Circulation improvement, leg relaxation. \
+Supported Fish Pose: Chest opening, breathing enhancement. \
+Supported Bridge Pose: Gentle backbend, hip opening. \
+Savasana with Props: Complete relaxation with blanket support.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Guidelines' },
+    { type: 'text', content:
+      'Use abundant props: Bolsters, blankets, blocks, straps. \
+Hold poses 5-10 minutes (Restorative) or 3-5 minutes (Yin). \
+Focus on sensation rather than muscular engagement. \
+Breathe deeply to facilitate release. \
+Practice in warm, quiet environment for optimal relaxation.' 
+    }
+  ]
+},
+'yoga-fundamentals-8': {
+  id: 'yoga-fundamentals-8',
+  title: 'Yoga Sequencing Principles',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Yoga Sequencing Principles' },
+    { type: 'text', content:
+      'Effective sequencing creates balanced, safe, and intentional practice. \
+Sequences follow logical progression from simple to complex, ground to standing. \
+Different sequences serve various purposes (energizing, calming, strengthening). \
+Understanding sequencing principles enables personalized practice creation. \
+Good sequencing considers anatomy, energy flow, and breath coordination.' 
+    },
+    { type: 'subtitle', content: 'Sequence Structure' },
+    { type: 'text', content:
+      'Opening: Centering and breath awareness. \
+Warm-up: Gentle movements and simple poses. \
+Sun Salutations: Building heat and connecting breath/movement. \
+Standing Poses: Strength, balance, and foundation. \
+Peak Poses: Most challenging poses of practice. \
+Cool-down: Seated and supine poses, forward folds. \
+Closing: Savasana and integration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Design Principles' },
+    { type: 'text', content:
+      'Counterpose: Balance each pose with opposing movement. \
+Progressive difficulty: Prepare body for peak poses with appropriate warm-up. \
+Theme connection: Unify sequence around specific focus (heart opening, balance). \
+Breath integration: Coordinate movement patterns with inhalation/exhalation. \
+Individual adaptation: Modify sequence for personal needs and limitations.' 
+    }
+  ]
+},
+'yoga-fundamentals-9': {
+  id: 'yoga-fundamentals-9',
+  title: 'Yoga for Stress Relief',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Yoga for Stress Relief' },
+    { type: 'text', content:
+      'Yoga reduces stress through combined physical movement, breath awareness, and mindfulness. \
+Specific poses and sequences activate parasympathetic relaxation response. \
+Regular practice lowers cortisol, reduces inflammation, and improves stress resilience. \
+Yoga provides tools for immediate stress management and long-term adaptation. \
+Even brief practices yield significant stress reduction benefits.' 
+    },
+    { type: 'subtitle', content: 'Stress-Reducing Poses' },
+    { type: 'text', content:
+      'Child\'s Pose (Balasana): Calming, grounding, releases back tension. \
+Legs-Up-the-Wall (Viparita Karani): Relaxes nervous system, reduces swelling. \
+Cat-Cow Flow (Marjaryasana-Bitilasana): Spinal mobility and breath coordination. \
+Forward Folds: Calms nervous system, releases hamstring tension. \
+Supported Savasana: Complete relaxation with props.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Approach' },
+    { type: 'text', content:
+      'Focus on gentle, restorative poses rather than challenging sequences. \
+Emphasize breath awareness over physical achievement. \
+Practice in quiet environment with minimal distractions. \
+Use props generously for complete support and relaxation. \
+Incorporate meditation or yoga nidra at end of practice.' 
+    }
+  ]
+},
+'yoga-fundamentals-10': {
+  id: 'yoga-fundamentals-10',
+  title: 'Developing Home Practice',
+  image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Developing Home Practice' },
+    { type: 'text', content:
+      'Home yoga practice builds self-reliance, consistency, and personalization. \
+Overcoming common obstacles requires strategic planning and self-compassion. \
+Simple equipment creates effective home practice environment. \
+Progress tracking maintains motivation through visible improvement. \
+Balanced approach combines home practice with occasional class attendance.' 
+    },
+    { type: 'subtitle', content: 'Home Setup' },
+    { type: 'text', content:
+      'Dedicated space: Consistent area signals practice intention. \
+Basic equipment: Mat, blocks, strap, blanket, bolster. \
+Atmosphere creation: Pleasant lighting, minimal clutter, possibly music. \
+Technology use: Online classes, apps, or self-designed sequences. \
+Time commitment: Start with 15-20 minutes, increase as habit strengthens.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Consistency Strategies' },
+    { type: 'text', content:
+      'Schedule practice: Specific time slot in daily calendar. \
+Start small: 10-minute practice beats skipped hour-long session. \
+Theme days: Different focus each day (strength, flexibility, relaxation). \
+Progress tracking: Journal or app recording of practice details. \
+Community connection: Online challenges or accountability partners.' 
+    }
+  ]
+},
+
+// =======Mental Wellness======
+
+'mental-wellness-1': {
+  id: 'mental-wellness-1',
+  title: 'Foundations of Mental Health',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Foundations of Mental Health' },
+    { type: 'text', content:
+      'Mental health encompasses emotional, psychological, and social well-being. \
+It affects how we think, feel, act, handle stress, relate to others, and make choices. \
+Mental wellness exists on continuum, not simply presence or absence of illness. \
+Protective factors strengthen resilience while risk factors increase vulnerability. \
+Holistic approach addresses biological, psychological, and social dimensions.' 
+    },
+    { type: 'subtitle', content: 'Core Components' },
+    { type: 'text', content:
+      'Emotional regulation: Ability to manage and respond to emotional experiences appropriately. \
+Cognitive flexibility: Capacity to adapt thinking to new information or circumstances. \
+Social connection: Quality relationships and sense of belonging. \
+Purpose and meaning: Sense that life has direction and significance. \
+Self-acceptance: Realistic and compassionate relationship with oneself.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Maintenance Strategies' },
+    { type: 'text', content:
+      'Regular self-check: Monitoring emotional and mental states. \
+Preventive practices: Consistent habits supporting mental wellness. \
+Early intervention: Addressing concerns before they escalate. \
+Resource awareness: Knowing when and how to seek professional help. \
+Lifelong learning: Continuously developing psychological skills.' 
+    }
+  ]
+},
+'mental-wellness-2': {
+  id: 'mental-wellness-2',
+  title: 'Emotional Intelligence Development',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Emotional Intelligence Development' },
+    { type: 'text', content:
+      'Emotional intelligence involves recognizing, understanding, and managing emotions effectively. \
+EQ comprises self-awareness, self-regulation, motivation, empathy, and social skills. \
+Higher EQ correlates with better relationships, work performance, and mental health. \
+Unlike IQ, emotional intelligence can be developed throughout life. \
+Practical exercises build specific EQ competencies.' 
+    },
+    { type: 'subtitle', content: 'EQ Components' },
+    { type: 'text', content:
+      'Self-awareness: Recognizing own emotions and their effects. \
+Self-regulation: Managing disruptive emotions and impulses. \
+Motivation: Harnessing emotions to pursue goals. \
+Empathy: Understanding others\' emotional experiences. \
+Social skills: Managing relationships and building networks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Development Exercises' },
+    { type: 'text', content:
+      'Emotion labeling: Name specific emotions rather than general feelings. \
+Body scanning: Notice physical sensations associated with different emotions. \
+Perspective taking: Imagine situations from others\' viewpoints. \
+Pause practice: Create space between emotion and response. \
+Feedback seeking: Ask trusted others about emotional impact.' 
+    }
+  ]
+},
+'mental-wellness-3': {
+  id: 'mental-wellness-3',
+  title: 'Mindfulness and Present Moment Awareness',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mindfulness and Present Moment Awareness' },
+    { type: 'text', content:
+      'Mindfulness is non-judgmental attention to present moment experience. \
+Regular practice reduces rumination (past focus) and worry (future focus). \
+Mindfulness creates psychological space between stimulus and response. \
+Neuroscience shows structural brain changes from consistent mindfulness practice. \
+Formal meditation and informal daily mindfulness complement each other.' 
+    },
+    { type: 'subtitle', content: 'Mindfulness Benefits' },
+    { type: 'text', content:
+      'Stress reduction: Decreases cortisol and activates relaxation response. \
+Emotional regulation: Improves response flexibility rather than reactivity. \
+Attention enhancement: Increases focus and reduces distractibility. \
+Relationship improvement: Promotes presence and empathy in interactions. \
+Self-awareness development: Clarifies thought and behavior patterns.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Integration' },
+    { type: 'text', content:
+      'Formal meditation: 10-20 minutes daily sitting practice. \
+Informal mindfulness: Bringing attention to routine activities. \
+Mindful pauses: 1-3 breath awareness moments throughout day. \
+Sensory grounding: Noticing specific sights, sounds, smells, sensations. \
+Non-judgmental observation: Noticing experiences without labeling good/bad.' 
+    }
+  ]
+},
+'mental-wellness-4': {
+  id: 'mental-wellness-4',
+  title: 'Cognitive Behavioral Techniques',
+  image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cognitive Behavioral Techniques' },
+    { type: 'text', content:
+      'CBT addresses connections between thoughts, emotions, and behaviors. \
+Identifying and modifying unhelpful thought patterns improves emotional well-being. \
+Behavioral activation increases engagement with rewarding activities. \
+CBT skills are evidence-based for anxiety, depression, and stress management. \
+These techniques provide practical tools for everyday psychological challenges.' 
+    },
+    { type: 'subtitle', content: 'Core CBT Concepts' },
+    { type: 'text', content:
+      'Cognitive distortions: Habitual thinking errors that amplify distress. \
+Automatic thoughts: Immediate interpretations of situations. \
+Core beliefs: Fundamental assumptions about self, others, and world. \
+Behavioral experiments: Testing beliefs through planned activities. \
+Thought records: Structured examination of thoughts and evidence.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Applications' },
+    { type: 'text', content:
+      'Situation-thought-feeling-behavior analysis. \
+Evidence examination: What supports and contradicts distressing thoughts? \
+Alternative perspective generation. \
+Behavioral activation scheduling: Planned engagement in valued activities. \
+Graded exposure: Gradual approach to avoided situations.' 
+    }
+  ]
+},
+'mental-wellness-5': {
+  id: 'mental-wellness-5',
+  title: 'Self-Compassion Practices',
+  image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Self-Compassion Practices' },
+    { type: 'text', content:
+      'Self-compassion involves treating oneself with kindness during suffering or failure. \
+It comprises self-kindness, common humanity, and mindfulness components. \
+Self-compassion differs from self-esteem by not requiring positive self-evaluation. \
+Research shows self-compassion reduces anxiety, depression, and stress while increasing resilience. \
+Practical exercises develop self-compassion as skill rather than trait.' 
+    },
+    { type: 'subtitle', content: 'Self-Compassion Elements' },
+    { type: 'text', content:
+      'Self-kindness vs. self-judgment: Warm understanding rather than harsh criticism. \
+Common humanity vs. isolation: Recognizing suffering as shared human experience. \
+Mindfulness vs. over-identification: Balanced awareness of painful feelings. \
+These components interact to create compassionate response to difficulty. \
+Self-compassion doesn\'t mean avoiding responsibility or lowering standards.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Development Exercises' },
+    { type: 'text', content:
+      'Self-compassion break: Pause and offer kind words during difficulty. \
+How would I treat a friend?: Apply same compassion to self as to loved ones. \
+Self-compassion journaling: Write about struggles with kindness and understanding. \
+Loving-kindness meditation: Include self in wishes for happiness and peace. \
+Compassionate body scan: Bring kindness to bodily sensations.' 
+    }
+  ]
+},
+'mental-wellness-6': {
+  id: 'mental-wellness-6',
+  title: 'Resilience and Growth Mindset',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Resilience and Growth Mindset' },
+    { type: 'text', content:
+      'Resilience is the capacity to adapt well to adversity, trauma, or significant stress. \
+Growth mindset believes abilities can be developed through effort and learning. \
+Both resilience and growth mindset can be cultivated through specific practices. \
+These approaches view challenges as opportunities rather than threats. \
+Regular practice builds psychological flexibility and adaptive capacity.' 
+    },
+    { type: 'subtitle', content: 'Resilience Factors' },
+    { type: 'text', content:
+      'Realistic optimism: Positive outlook grounded in reality. \
+Emotional regulation: Ability to manage distressing emotions. \
+Impulse control: Capacity to pause before reacting. \
+Causal analysis: Understanding causes of problems without excessive self-blame. \
+Empathy and connection: Supportive relationships and social competence.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Development Strategies' },
+    { type: 'text', content:
+      'Challenge reframing: View difficulties as opportunities for growth. \
+Small wins: Celebrate progress rather than waiting for final outcomes. \
+Learning orientation: Focus on effort and improvement rather than fixed ability. \
+Stress inoculation: Gradually expose self to manageable challenges. \
+Meaning making: Find purpose and learning in adversity.' 
+    }
+  ]
+},
+'mental-wellness-7': {
+  id: 'mental-wellness-7',
+  title: 'Positive Psychology Interventions',
+  image: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Positive Psychology Interventions' },
+    { type: 'text', content:
+      'Positive psychology focuses on building strengths and well-being rather than treating pathology. \
+Evidence-based interventions increase happiness, meaning, and engagement. \
+These practices complement traditional approaches to mental health. \
+Regular application creates lasting changes in outlook and life satisfaction. \
+Positive psychology emphasizes what makes life worth living.' 
+    },
+    { type: 'subtitle', content: 'Core Interventions' },
+    { type: 'text', content:
+      'Gratitude journaling: Regularly recording things for which one is grateful. \
+Strengths identification and use: Recognizing and applying personal strengths. \
+Acts of kindness: Intentional helpful actions toward others. \
+Savoring: Mindfully appreciating positive experiences. \
+Best possible self visualization: Imagining future where everything has gone well.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Framework' },
+    { type: 'text', content:
+      'Variety: Rotate different interventions to maintain engagement. \
+Consistency: Daily or weekly practice rather than occasional application. \
+Integration: Incorporate practices into existing routines. \
+Social sharing: Discuss experiences with supportive others. \
+Progress tracking: Notice changes in outlook and well-being over time.' 
+    }
+  ]
+},
+'mental-wellness-8': {
+  id: 'mental-wellness-8',
+  title: 'Digital Wellness and Technology Boundaries',
+  image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Wellness and Technology Boundaries' },
+    { type: 'text', content:
+      'Technology use significantly impacts mental health through multiple mechanisms. \
+Digital boundaries protect attention, relationships, and psychological well-being. \
+Intentional technology use supports rather than undermines mental wellness. \
+Different strategies address various aspects of digital life (social media, email, news). \
+Balanced approach values technology benefits while minimizing harms.' 
+    },
+    { type: 'subtitle', content: 'Digital Impacts' },
+    { type: 'text', content:
+      'Attention fragmentation: Constant interruptions reduce focus and increase stress. \
+Social comparison: Curated online lives can decrease self-esteem and life satisfaction. \
+Sleep disruption: Blue light and stimulation interfere with sleep quality. \
+Relationship quality: Digital distractions reduce presence in face-to-face interactions. \
+Information overload: Constant news and updates increase anxiety and cognitive load.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Boundary Strategies' },
+    { type: 'text', content:
+      'Digital detox periods: Scheduled technology-free times daily or weekly. \
+Notification management: Turn off non-essential alerts. \
+App limits: Use built-in tools to restrict time on specific applications. \
+Tech-free zones: Designated spaces (bedroom, dining table) without devices. \
+Intentional consumption: Choose content that supports rather than depletes well-being.' 
+    }
+  ]
+},
+'mental-wellness-9': {
+  id: 'mental-wellness-9',
+  title: 'Work-Life Balance and Burnout Prevention',
+  image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Work-Life Balance and Burnout Prevention' },
+    { type: 'text', content:
+      'Work-life balance involves managing professional and personal responsibilities sustainably. \
+Burnout is psychological syndrome from chronic workplace stress not successfully managed. \
+Prevention requires both individual strategies and organizational changes. \
+Early recognition of burnout symptoms enables timely intervention. \
+Sustainable approaches value long-term well-being over short-term productivity.' 
+    },
+    { type: 'subtitle', content: 'Burnout Symptoms' },
+    { type: 'text', content:
+      'Exhaustion: Physical, emotional, and mental depletion. \
+Cynicism: Detachment and negative outlook toward work. \
+Reduced efficacy: Decreased productivity and sense of accomplishment. \
+Cognitive difficulties: Impaired concentration, memory, and decision-making. \
+Physical symptoms: Headaches, gastrointestinal issues, sleep disturbances.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518834103328-5d0b6b40f8b2?w=1000&q=60' },
+    { type: 'subtitle', content: 'Prevention Strategies' },
+    { type: 'text', content:
+      'Boundary setting: Clear separation between work and personal time. \
+Recovery practices: Regular breaks, vacations, and non-work activities. \
+Social support: Colleague relationships and personal connections. \
+Meaning cultivation: Connecting work to personal values and purpose. \
+Realistic expectations: Setting achievable goals and timelines.' 
+    }
+  ]
+},
+'mental-wellness-10': {
+  id: 'mental-wellness-10',
+  title: 'Comprehensive Mental Wellness Plan',
+  image: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Comprehensive Mental Wellness Plan' },
+    { type: 'text', content:
+      'Effective mental wellness requires integrated approach across multiple life domains. \
+Personalized plans address individual needs, preferences, and circumstances. \
+Regular evaluation and adjustment maintain relevance as life changes. \
+Balance between prevention, intervention, and professional support when needed. \
+Sustainable practices become lifestyle habits supporting long-term well-being.' 
+    },
+    { type: 'subtitle', content: 'Plan Components' },
+    { type: 'text', content:
+      'Self-assessment: Current mental wellness status and areas for improvement. \
+Resource inventory: Personal strengths, support systems, coping skills. \
+Preventive practices: Daily habits supporting baseline mental wellness. \
+Intervention tools: Strategies for managing specific challenges as they arise. \
+Professional resources: When and how to seek additional support. \
+Evaluation system: Regular review of effectiveness and adjustment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Framework' },
+    { type: 'text', content:
+      'Start small: 1-2 changes initially, build gradually. \
+Consistency focus: Regular practice beats occasional intensity. \
+Holistic approach: Address physical, emotional, cognitive, social, spiritual aspects. \
+Flexibility: Adapt strategies to changing circumstances and needs. \
+Self-compassion: Accept imperfection and resume after setbacks.' 
+    }
+  ]
+},
+
+// =======Business Model Canvas=======
+
+'business-model-canvas-1': {
+  id: 'business-model-canvas-1',
+  title: 'Introduction to Business Model Canvas',
+  image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Business Model Canvas' },
+    { type: 'text', content:
+      'The Business Model Canvas is a strategic management tool for developing new or documenting existing business models. \
+It provides a visual chart with elements describing a company\'s value proposition, infrastructure, customers, and finances. \
+Created by Alexander Osterwalder, it helps entrepreneurs align activities by illustrating potential trade-offs. \
+The canvas consists of 9 building blocks that cover the four main areas of a business: customers, offer, infrastructure, and financial viability. \
+Using the BMC enables quick iterations and testing of business assumptions.' 
+    },
+    { type: 'subtitle', content: 'The 9 Building Blocks' },
+    { type: 'text', content:
+      '1. Customer Segments: Who are we creating value for? \
+2. Value Propositions: What value do we deliver to customers? \
+3. Channels: How do we reach our customer segments? \
+4. Customer Relationships: What type of relationship does each segment expect? \
+5. Revenue Streams: For what value are customers willing to pay? \
+6. Key Activities: What key activities do our value propositions require? \
+7. Key Resources: What key resources do our value propositions require? \
+8. Key Partnerships: Who are our key partners and suppliers? \
+9. Cost Structure: What are the most important costs inherent in our business model?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Getting Started' },
+    { type: 'text', content:
+      'Start with Customer Segments and Value Propositions - these are the core of any business. \
+Use sticky notes or digital tools to allow for easy rearrangement and iteration. \
+Focus on hypotheses rather than certainties - the canvas should evolve as you learn. \
+Complete the canvas quickly first, then refine each section through research and validation. \
+Regularly update your canvas as your business grows and market conditions change.' 
+    }
+  ]
+},
+'business-model-canvas-2': {
+  id: 'business-model-canvas-2',
+  title: 'Customer Segments and Value Propositions',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Customer Segments and Value Propositions' },
+    { type: 'text', content:
+      'Customer Segments define the different groups of people or organizations your business aims to reach and serve. \
+Value Propositions describe the bundle of products and services that create value for a specific Customer Segment. \
+These two blocks are the heart of your business model - everything else supports delivering value to customers. \
+Well-defined segments allow for targeted marketing and personalized value creation. \
+Strong value propositions solve customer problems or satisfy customer needs.' 
+    },
+    { type: 'subtitle', content: 'Customer Segmentation Types' },
+    { type: 'text', content:
+      'Mass Market: Undifferentiated, serving all customers with similar needs. \
+Niche Market: Specialized needs of specific customer segments. \
+Segmented: Similar needs with slight variations requiring different approaches. \
+Diversified: Serving two unrelated Customer Segments with different needs. \
+Multi-sided Platforms: Serving two or more interdependent Customer Segments.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1000&q=60' },
+    { type: 'subtitle', content: 'Value Proposition Elements' },
+    { type: 'text', content:
+      'Newness: Satisfying an entirely new set of needs. \
+Performance: Improving product or service performance. \
+Customization: Tailoring products/services to specific customer needs. \
+"Getting the job done": Helping customers get specific jobs done better. \
+Design: Product design that stands out. \
+Brand/Status: Customers derive value from using/brandishing a brand. \
+Price: Offering similar value at lower price. \
+Cost Reduction: Helping customers reduce costs. \
+Risk Reduction: Reducing risks customers face. \
+Accessibility: Making products/services available to previously excluded customers. \
+Convenience/Usability: Making things more convenient or easier to use.' 
+    }
+  ]
+},
+'business-model-canvas-3': {
+  id: 'business-model-canvas-3',
+  title: 'Channels and Customer Relationships',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Channels and Customer Relationships' },
+    { type: 'text', content:
+      'Channels describe how a company communicates with and reaches its Customer Segments to deliver its Value Proposition. \
+Customer Relationships describe the types of relationships a company establishes with specific Customer Segments. \
+Together, these blocks define how you interact with customers throughout their journey. \
+Effective channels ensure your value proposition reaches the right customers efficiently. \
+Strong customer relationships increase retention and lifetime value.' 
+    },
+    { type: 'subtitle', content: 'Channel Types' },
+    { type: 'text', content:
+      'Direct Channels: Company-owned channels (sales force, website, retail stores). \
+Indirect Channels: Partner channels (wholesalers, retailers, partners). \
+Owned vs. Partner: Balance between control and reach. \
+Phases: 1. Awareness (raising awareness), 2. Evaluation (helping evaluate value proposition), 3. Purchase (allowing purchase), 4. Delivery (delivering value), 5. After sales (providing post-purchase support).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Relationship Types' },
+    { type: 'text', content:
+      'Personal Assistance: Human interaction during or after sale. \
+Dedicated Personal Assistance: Dedicated representative for individual customer. \
+Self-Service: No direct relationship, tools for customers to help themselves. \
+Automated Services: Automated processes to maintain relationships. \
+Communities: User communities to share knowledge and solve problems. \
+Co-creation: Customers help create value (reviews, customization).' 
+    }
+  ]
+},
+'business-model-canvas-4': {
+  id: 'business-model-canvas-4',
+  title: 'Revenue Streams and Pricing Strategies',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Revenue Streams and Pricing Strategies' },
+    { type: 'text', content:
+      'Revenue Streams represent the cash a company generates from each Customer Segment. \
+Pricing mechanisms determine how revenue is collected for the value delivered. \
+Multiple revenue streams can come from different Customer Segments or different Value Propositions. \
+Revenue models should align with what customers are actually willing to pay for. \
+Successful pricing captures value while remaining competitive and fair.' 
+    },
+    { type: 'subtitle', content: 'Revenue Stream Types' },
+    { type: 'text', content:
+      'Asset Sale: Selling ownership rights to physical products. \
+Usage Fee: Charging for usage of a particular service. \
+Subscription Fees: Selling continuous access to a service. \
+Lending/Renting/Leasing: Temporarily granting exclusive right to use asset. \
+Licensing: Charging for using protected intellectual property. \
+Brokerage Fees: Intermediation services performed on behalf of two or more parties. \
+Advertising: Fees for advertising a particular product, service, or brand.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Pricing Mechanisms' },
+    { type: 'text', content:
+      'Fixed Pricing: Predefined prices based on static variables. \
+Dynamic Pricing: Prices change based on market conditions. \
+Auction: Market-driven price determination. \
+Volume-based: Price varies by quantity purchased. \
+Freemium: Basic services free, premium features paid. \
+Pay-what-you-want: Customers pay desired amount (sometimes with minimum).' 
+    }
+  ]
+},
+'business-model-canvas-5': {
+  id: 'business-model-canvas-5',
+  title: 'Key Activities and Resources',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Key Activities and Resources' },
+    { type: 'text', content:
+      'Key Activities are the most important things a company must do to make its business model work. \
+Key Resources are the most important assets required to make a business model work. \
+These blocks represent what you need to do and what you need to have to deliver your Value Proposition. \
+Identifying these correctly helps allocate resources effectively and build competitive advantages. \
+Activities and Resources should align directly with your Value Proposition.' 
+    },
+    { type: 'subtitle', content: 'Key Activities Categories' },
+    { type: 'text', content:
+      'Production: Designing, making, and delivering products in substantial quantities/quality. \
+Problem Solving: Finding new solutions to individual customer problems. \
+Platform/Network: Creating and maintaining platforms (marketplaces, software, brands). \
+Activities vary by business model type: Manufacturing, service, platform, etc.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Key Resources Types' },
+    { type: 'text', content:
+      'Physical: Physical assets (manufacturing facilities, buildings, vehicles, machines). \
+Intellectual: Brand, proprietary knowledge, patents, copyrights, partnerships, customer databases. \
+Human: People, especially in creative/knowledge-intensive industries. \
+Financial: Cash, lines of credit, stock option pool for hiring key employees.' 
+    }
+  ]
+},
+'business-model-canvas-6': {
+  id: 'business-model-canvas-6',
+  title: 'Key Partnerships and Cost Structure',
+  image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Key Partnerships and Cost Structure' },
+    { type: 'text', content:
+      'Key Partnerships are the network of suppliers and partners that make the business model work. \
+Cost Structure describes all costs incurred to operate a business model. \
+Partnerships can optimize business models, reduce risk, or acquire resources. \
+Understanding costs helps determine pricing and identify areas for efficiency. \
+Successful businesses balance partnerships and costs to maximize value delivery.' 
+    },
+    { type: 'subtitle', content: 'Partnership Types' },
+    { type: 'text', content:
+      'Strategic alliances between non-competitors. \
+Coopetition: Strategic partnerships between competitors. \
+Joint ventures to develop new businesses. \
+Buyer-supplier relationships to assure reliable supplies. \
+Reasons for partnerships: Optimization and economy of scale, reduction of risk and uncertainty, acquisition of particular resources and activities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Cost Structure Characteristics' },
+    { type: 'text', content:
+      'Cost-driven: Focus on minimizing costs wherever possible (no-frills airlines). \
+Value-driven: Focus on value creation, premium value propositions (luxury hotels). \
+Fixed Costs: Remain same regardless of volume of goods/services produced. \
+Variable Costs: Vary proportionally with volume of goods/services produced. \
+Economies of Scale: Cost advantages due to increased output. \
+Economies of Scope: Cost advantages due to larger scope of operations.' 
+    }
+  ]
+},
+'business-model-canvas-7': {
+  id: 'business-model-canvas-7',
+  title: 'Business Model Patterns',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Business Model Patterns' },
+    { type: 'text', content:
+      'Business model patterns are recurring configurations of business model elements. \
+Recognizing patterns helps entrepreneurs design and innovate business models. \
+Common patterns have proven successful across different industries and contexts. \
+Understanding patterns allows for adaptation rather than starting from scratch. \
+Many successful businesses combine multiple patterns for competitive advantage.' 
+    },
+    { type: 'subtitle', content: 'Common Patterns' },
+    { type: 'text', content:
+      'Unbundling: Separating product, relationship, and infrastructure businesses. \
+Long Tail: Selling large numbers of unique items in small quantities. \
+Multi-sided Platforms: Bringing together two or more distinct but interdependent groups. \
+Free as a Business Model: At least one substantial Customer Segment benefits from free offerings. \
+Open Business Models: Creating and capturing value by collaborating with outside partners.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Pattern Application' },
+    { type: 'text', content:
+      'Identify which pattern aligns with your industry and value proposition. \
+Analyze competitors using similar patterns for insights. \
+Consider hybrid models combining elements from multiple patterns. \
+Test pattern assumptions with small experiments before full commitment. \
+Adapt patterns to your specific context rather than copying blindly.' 
+    }
+  ]
+},
+'business-model-canvas-8': {
+  id: 'business-model-canvas-8',
+  title: 'Testing and Validating Your Canvas',
+  image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Testing and Validating Your Canvas' },
+    { type: 'text', content:
+      'A business model canvas represents hypotheses that need testing and validation. \
+Systematic testing reduces risk and improves the chances of success. \
+Each block contains assumptions that can be tested through experiments. \
+Validation should occur before significant resource commitment. \
+Iterative testing leads to continuous improvement of the business model.' 
+    },
+    { type: 'subtitle', content: 'Testing Approaches' },
+    { type: 'text', content:
+      'Customer Interviews: Direct conversations to validate problems and solutions. \
+Minimum Viable Products (MVPs): Basic versions to test core assumptions. \
+A/B Testing: Comparing different approaches to see what works best. \
+Landing Page Tests: Measuring interest before building full product. \
+Concierge Tests: Manual delivery of service to validate demand. \
+Wizard of Oz Tests: Simulating automation while manually performing work.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Validation Framework' },
+    { type: 'text', content:
+      'Identify riskiest assumptions in your canvas. \
+Design experiments to test each critical assumption. \
+Define success metrics before running experiments. \
+Collect data systematically and analyze objectively. \
+Pivot or persevere based on validation results. \
+Update canvas with validated learning.' 
+    }
+  ]
+},
+'business-model-canvas-9': {
+  id: 'business-model-canvas-9',
+  title: 'Competitor Analysis with BMC',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Competitor Analysis with BMC' },
+    { type: 'text', content:
+      'Analyzing competitors\' business models reveals strategic insights and opportunities. \
+Comparison highlights differences in value delivery, cost structure, and revenue generation. \
+Understanding competitors helps identify market gaps and competitive advantages. \
+Business model innovation often comes from recombining elements from different models. \
+Regular competitor analysis keeps your business model responsive to market changes.' 
+    },
+    { type: 'subtitle', content: 'Analysis Process' },
+    { type: 'text', content:
+      'Identify direct and indirect competitors. \
+Create BMC for each major competitor using public information. \
+Compare each building block side by side. \
+Identify patterns and similarities across competitors. \
+Look for underserved customer segments or unmet needs. \
+Analyze cost structures and pricing strategies.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strategic Insights' },
+    { type: 'text', content:
+      'Blue Ocean Opportunities: Areas competitors ignore or underserve. \
+Cost Advantages: More efficient ways to deliver similar value. \
+Differentiation Points: Unique value propositions competitors can\'t easily copy. \
+Partnership Opportunities: Gaps in competitors\' partner networks. \
+Channel Innovations: New ways to reach customers more effectively.' 
+    }
+  ]
+},
+'business-model-canvas-10': {
+  id: 'business-model-canvas-10',
+  title: 'From Canvas to Business Plan',
+  image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'From Canvas to Business Plan' },
+    { type: 'text', content:
+      'The Business Model Canvas provides foundation for detailed business planning. \
+Each canvas block expands into specific plans, budgets, and operational details. \
+The canvas ensures all business plan elements remain aligned and coherent. \
+Investors and stakeholders appreciate the clarity and strategic thinking behind a well-developed canvas. \
+Regular canvas updates keep the business plan relevant as conditions change.' 
+    },
+    { type: 'subtitle', content: 'Expansion Areas' },
+    { type: 'text', content:
+      'Marketing Plan: Detailed strategies for each channel and customer relationship. \
+Operations Plan: Specifics of key activities, resources, and partnerships. \
+Financial Projections: Detailed revenue forecasts and cost budgets. \
+Organizational Structure: Team needed to execute key activities. \
+Risk Analysis: Potential challenges and mitigation strategies. \
+Implementation Timeline: Phased rollout of business model elements.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Strategy' },
+    { type: 'text', content:
+      'Prioritize canvas blocks based on dependencies and risk. \
+Develop detailed action plans for each prioritized block. \
+Allocate resources according to canvas priorities. \
+Establish metrics to measure execution of each block. \
+Create feedback loops to update canvas based on implementation learning. \
+Use canvas as communication tool to align team and stakeholders.' 
+    }
+  ]
+},
+
+// =======Pitching to Investors=======
+
+'pitching-to-investors-1': {
+  id: 'pitching-to-investors-1',
+  title: 'The Art of the Pitch',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'The Art of the Pitch' },
+    { type: 'text', content:
+      'A successful pitch combines compelling storytelling with concrete business fundamentals. \
+Investors see hundreds of pitches - yours needs to stand out while covering essential information. \
+The goal is not just to inform, but to inspire action and build confidence. \
+Different pitches serve different purposes: elevator pitch, deck presentation, detailed business plan. \
+Mastering pitching skills increases funding success and partnership opportunities.' 
+    },
+    { type: 'subtitle', content: 'Pitch Types' },
+    { type: 'text', content:
+      'Elevator Pitch: 30-60 seconds, high-level overview. \
+Pitch Deck: 10-20 slides presented in 5-10 minutes. \
+Executive Summary: 1-2 page written overview. \
+Detailed Presentation: 30-60 minutes with Q&A. \
+Investor Update: Regular progress reports to existing investors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Core Principles' },
+    { type: 'text', content:
+      'Know your audience: Tailor pitch to investor type and interests. \
+Lead with problem: Investors invest in solutions to big problems. \
+Show, don\'t just tell: Use visuals, demos, testimonials. \
+Be authentic: Passion and belief are contagious. \
+Practice relentlessly: Smooth delivery builds confidence. \
+Prepare for questions: Anticipate concerns and have answers ready.' 
+    }
+  ]
+},
+'pitching-to-investors-2': {
+  id: 'pitching-to-investors-2',
+  title: 'Crafting Your Elevator Pitch',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Crafting Your Elevator Pitch' },
+    { type: 'text', content:
+      'An elevator pitch is your 30-60 second introduction to your business. \
+It should be memorable, clear, and compelling enough to spark further conversation. \
+The name comes from the idea of pitching someone during an elevator ride. \
+Perfect this pitch for networking events, chance meetings, and initial introductions. \
+A strong elevator pitch opens doors to more detailed conversations.' 
+    },
+    { type: 'subtitle', content: 'Essential Elements' },
+    { type: 'text', content:
+      'Problem: What problem are you solving? \
+Solution: How does your product/service solve it? \
+Market: How big is the opportunity? \
+Traction: What have you achieved so far? \
+Team: Why is your team the right one to execute? \
+Ask: What are you looking for (investment, partnership, advice)?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60' },
+    { type: 'subtitle', content: 'Delivery Tips' },
+    { type: 'text', content:
+      'Start with a hook: Capture attention immediately. \
+Use simple language: Avoid jargon and technical terms. \
+Show enthusiasm: Your passion should be evident. \
+End with a question: Engage the listener in conversation. \
+Adapt on the fly: Adjust based on listener\'s reactions. \
+Practice variations: Have different lengths (15s, 30s, 60s).' 
+    }
+  ]
+},
+'pitching-to-investors-3': {
+  id: 'pitching-to-investors-3',
+  title: 'Building the Perfect Pitch Deck',
+  image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Building the Perfect Pitch Deck' },
+    { type: 'text', content:
+      'A pitch deck is typically 10-20 slides that tell your startup\'s story visually. \
+It should be designed to stand alone (sent via email) and as presentation support. \
+Investors often review decks before deciding to take a meeting. \
+The deck should flow logically from problem to solution to opportunity. \
+Visual appeal matters - professional design reflects on your company.' 
+    },
+    { type: 'subtitle', content: 'Standard Slide Structure' },
+    { type: 'text', content:
+      '1. Title: Company name, tagline, contact info. \
+2. Problem: The pain point you\'re addressing. \
+3. Solution: Your product/service solution. \
+4. Market Size: Total addressable market (TAM). \
+5. Product: Key features and benefits. \
+6. Business Model: How you make money. \
+7. Traction: Evidence of demand and growth. \
+8. Competition: Competitive landscape and differentiation. \
+9. Team: Key members and their expertise. \
+10. Financials: Revenue projections and key metrics. \
+11. Funding: Amount needed and use of funds. \
+12. Vision: Long-term goals and impact.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Design Principles' },
+    { type: 'text', content:
+      'One idea per slide: Keep slides focused and uncluttered. \
+Visual storytelling: Use images, charts, and minimal text. \
+Consistent branding: Colors, fonts, and style throughout. \
+Readable from afar: Font size minimum 24pt for presentations. \
+Professional quality: No typos, pixelated images, or amateur design. \
+Data visualization: Charts and graphs to illustrate key points.' 
+    }
+  ]
+},
+'pitching-to-investors-4': {
+  id: 'pitching-to-investors-4',
+  title: 'Telling Your Startup Story',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Telling Your Startup Story' },
+    { type: 'text', content:
+      'Investors invest in stories as much as they invest in businesses. \
+Your narrative should create emotional connection while presenting logical business case. \
+The story should explain why this problem matters, why now, and why your team. \
+Authentic stories about your journey and customer experiences build credibility. \
+A compelling narrative makes your pitch memorable among many others.' 
+    },
+    { type: 'subtitle', content: 'Story Elements' },
+    { type: 'text', content:
+      'Origin Story: How you discovered the problem and decided to solve it. \
+Customer Stories: Real examples of people experiencing the problem. \
+Journey Narrative: Challenges overcome and lessons learned. \
+Future Vision: The world your company will help create. \
+Team Connection: Why your team is personally invested in the mission.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Storytelling Techniques' },
+    { type: 'text', content:
+      'Start with tension: Present the problem dramatically. \
+Show transformation: How your solution changes things. \
+Use specific examples: Concrete details make stories believable. \
+Include conflict: Challenges you\'ve overcome demonstrate resilience. \
+Connect emotionally: Appeal to values and aspirations. \
+End with hope: Leave investors feeling optimistic about the future.' 
+    }
+  ]
+},
+'pitching-to-investors-5': {
+  id: 'pitching-to-investors-5',
+  title: 'Financial Projections and Metrics',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Projections and Metrics' },
+    { type: 'text', content:
+      'Financial projections demonstrate your understanding of the business economics. \
+Investors want to see realistic assumptions and logical growth trajectories. \
+Key metrics show how you measure success and track progress. \
+Financial literacy builds confidence in your ability to manage investor funds. \
+Projections should be ambitious yet believable with clear assumptions.' 
+    },
+    { type: 'subtitle', content: 'Essential Financial Slides' },
+    { type: 'text', content:
+      'Revenue Projections: 3-5 year forecast with monthly detail for first year. \
+Key Metrics: Customer acquisition cost, lifetime value, churn, burn rate. \
+Use of Funds: Detailed breakdown of how investment will be used. \
+Milestones: What will be achieved with the funding. \
+Exit Strategy: Potential acquisition or IPO scenarios (for later stage).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60' },
+    { type: 'subtitle', content: 'Projection Best Practices' },
+    { type: 'text', content:
+      'Bottom-up approach: Build from unit economics rather than top-down market share. \
+Show assumptions: Clearly state the assumptions behind your numbers. \
+Include scenarios: Best case, base case, worst case projections. \
+Focus on key drivers: What metrics most impact your success? \
+Be prepared to defend: Know your numbers inside and out. \
+Show hockey stick potential: Demonstrate scalability and growth potential.' 
+    }
+  ]
+},
+'pitching-to-investors-6': {
+  id: 'pitching-to-investors-6',
+  title: 'Demonstrating Traction and Validation',
+  image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Demonstrating Traction and Validation' },
+    { type: 'text', content:
+      'Traction is evidence that your business is gaining momentum and market acceptance. \
+Validation shows that customers want and will pay for your solution. \
+Early traction reduces perceived risk for investors. \
+Different types of traction matter at different stages (pre-revenue vs. growth stage). \
+Quantitative metrics combined with qualitative evidence create compelling proof.' 
+    },
+    { type: 'subtitle', content: 'Traction Types' },
+    { type: 'text', content:
+      'User Growth: Number of users, active users, retention rates. \
+Revenue: Monthly recurring revenue, growth rate, sales pipeline. \
+Partnerships: Strategic alliances with established companies. \
+Press Coverage: Media mentions and industry recognition. \
+Awards and Recognition: Industry awards, competition wins. \
+Customer Testimonials: Positive feedback from early adopters.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Presentation Strategies' },
+    { type: 'text', content:
+      'Show growth curves: Visual representation of momentum. \
+Highlight key milestones: Major achievements and their dates. \
+Use social proof: Quotes from reputable customers or partners. \
+Demonstrate engagement: User activity metrics, not just signups. \
+Compare to benchmarks: How your metrics compare to industry standards. \
+Show month-over-month improvement: Consistent progress builds confidence.' 
+    }
+  ]
+},
+'pitching-to-investors-7': {
+  id: 'pitching-to-investors-7',
+  title: 'Team Slide and Founder Story',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Team Slide and Founder Story' },
+    { type: 'text', content:
+      'Investors often say they "invest in teams, not ideas." \
+The team slide is one of the most important parts of your pitch. \
+It demonstrates that you have the right people to execute the vision. \
+Founder stories explain why you\'re personally committed to this problem. \
+Advisors and board members add credibility and fill skill gaps.' 
+    },
+    { type: 'subtitle', content: 'Team Slide Elements' },
+    { type: 'text', content:
+      'Founder Bios: Relevant experience, education, achievements. \
+Key Hires: Early team members and their roles. \
+Advisors: Industry experts and their contributions. \
+Board Members: Experienced professionals guiding the company. \
+Hiring Plan: Key positions to fill with funding. \
+Team Photos: Professional, approachable images of the team.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Founder Story Crafting' },
+    { type: 'text', content:
+      'Personal connection: Why this problem matters to you personally. \
+Relevant experience: Past work that prepared you for this venture. \
+Domain expertise: Deep knowledge of the industry or technology. \
+Execution capability: Evidence you can build and scale businesses. \
+Complementary skills: How team members\' abilities complement each other. \
+Previous successes: Past accomplishments that build credibility.' 
+    }
+  ]
+},
+'pitching-to-investors-8': {
+  id: 'pitching-to-investors-8',
+  title: 'Handling Investor Questions',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Handling Investor Questions' },
+    { type: 'text', content:
+      'The Q&A session often determines whether an investor moves forward. \
+Questions reveal investor concerns, interests, and level of understanding. \
+How you handle questions demonstrates your knowledge and preparedness. \
+Anticipating common questions allows you to prepare strong responses. \
+The Q&A is an opportunity to build rapport and address objections.' 
+    },
+    { type: 'subtitle', content: 'Common Investor Questions' },
+    { type: 'text', content:
+      'Market: "How do you know customers want this?" \
+Competition: "What stops [big company] from copying you?" \
+Business Model: "How will you actually make money?" \
+Team: "What\'s your experience in this industry?" \
+Traction: "What evidence do you have of demand?" \
+Financials: "What are your key assumptions in projections?" \
+Technology: "What\'s proprietary about your solution?" \
+Risks: "What are your biggest risks and how will you mitigate them?"' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60' },
+    { type: 'subtitle', content: 'Q&A Strategies' },
+    { type: 'text', content:
+      'Listen completely: Don\'t interrupt or formulate answer while investor is speaking. \
+Pause before answering: Shows thoughtfulness, not defensiveness. \
+Be honest: Admit what you don\'t know and offer to follow up. \
+Redirect positively: Address concerns while reinforcing strengths. \
+Use data: Support answers with metrics and evidence. \
+Control the room: If questions go off track, gently steer back to key messages. \
+End strong: Have a closing statement prepared for after Q&A.' 
+    }
+  ]
+},
+'pitching-to-investors-9': {
+  id: 'pitching-to-investors-9',
+  title: 'Practice and Delivery Techniques',
+  image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Practice and Delivery Techniques' },
+    { type: 'text', content:
+      'Delivery can make or break even the strongest pitch content. \
+Practice transforms nervous energy into confident presentation. \
+Vocal variety, body language, and pacing affect how your message is received. \
+Technical preparation prevents disruptions during the presentation. \
+The most polished pitches appear natural and conversational.' 
+    },
+    { type: 'subtitle', content: 'Practice Methods' },
+    { type: 'text', content:
+      'Record yourself: Watch for verbal tics and body language. \
+Practice with timer: Ensure you stay within allocated time. \
+Present to diverse audiences: Get feedback from different perspectives. \
+Memorize flow, not script: Natural delivery beats perfect recitation. \
+Practice Q&A: Simulate investor questions with colleagues. \
+Rehearse transitions: Smooth movement between slides and topics.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Delivery Techniques' },
+    { type: 'text', content:
+      'Eye contact: Engage with individuals, not just the room. \
+Vocal energy: Vary pitch, pace, and volume for emphasis. \
+Body language: Open stance, purposeful gestures, movement. \
+Pause for impact: Strategic silences emphasize key points. \
+Handle nerves: Breathing techniques, grounding exercises. \
+Tech check: Test equipment, backups, internet connection beforehand.' 
+    }
+  ]
+},
+'pitching-to-investors-10': {
+  id: 'pitching-to-investors-10',
+  title: 'Follow-Up and Closing Strategies',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Follow-Up and Closing Strategies' },
+    { type: 'text', content:
+      'The pitch meeting is just the beginning of the investor relationship. \
+Professional follow-up maintains momentum and shows organizational skills. \
+Closing techniques move investors from interest to commitment. \
+Different investors have different decision-making processes and timelines. \
+Persistence paired with respect builds lasting investor relationships.' 
+    },
+    { type: 'subtitle', content: 'Follow-Up Process' },
+    { type: 'text', content:
+      'Thank you email: Send within 24 hours, personalized. \
+Additional materials: Provide requested documents promptly. \
+Updates: Share new achievements or milestones. \
+Answer questions: Provide thorough responses to investor queries. \
+Introductions: Connect investors with customers or partners if helpful. \
+Schedule next steps: Propose specific follow-up meetings or calls.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Closing Techniques' },
+    { type: 'text', content:
+      'Ask for commitment: "Based on our discussion, are you ready to move forward?" \
+Create urgency: Limited availability, other investor interest (truthfully). \
+Address objections: Proactively resolve remaining concerns. \
+Offer references: Connect with existing investors or customers. \
+Propose next steps: Specific actions to move toward investment. \
+Be patient but persistent: Follow up without being pushy.' 
+    }
+  ]
+},
+
+// =======Startup Funding=======
+
+'startup-funding-1': {
+  id: 'startup-funding-1',
+  title: 'Funding Stages and Timeline',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Funding Stages and Timeline' },
+    { type: 'text', content:
+      'Startup funding follows a progression from idea to exit, with different sources at each stage. \
+Understanding funding stages helps entrepreneurs plan realistically and approach appropriate investors. \
+Each stage has typical funding amounts, investor types, and milestones. \
+Raising too much or too little at the wrong stage can create problems. \
+Successful fundraising aligns investor expectations with company development.' 
+    },
+    { type: 'subtitle', content: 'Funding Stages' },
+    { type: 'text', content:
+      'Pre-Seed: $10k-$250k for concept validation and team building. \
+Seed: $500k-$2M for product development and initial traction. \
+Series A: $2M-$15M for scaling proven business model. \
+Series B: $10M-$30M for expanding market reach and operations. \
+Series C+: $30M+ for market dominance, acquisitions, or pre-IPO preparation. \
+Bridge/Mezzanine: Between rounds or before IPO.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Timeline Considerations' },
+    { type: 'text', content:
+      'Fundraising takes 3-6 months minimum - plan runway accordingly. \
+Start fundraising when you have 6+ months of cash remaining. \
+Different investors have different decision timelines (angels faster than VCs). \
+Market conditions affect fundraising difficulty and valuation. \
+Multiple rounds create dilution - plan equity allocation long-term.' 
+    }
+  ]
+},
+'startup-funding-2': {
+  id: 'startup-funding-2',
+  title: 'Bootstrapping and Self-Funding',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Bootstrapping and Self-Funding' },
+    { type: 'text', content:
+      'Bootstrapping means building a company with personal finances and operating revenues. \
+This approach maintains control and avoids dilution but may limit growth speed. \
+Many successful companies started with bootstrapping before seeking external funding. \
+Bootstrapping teaches resourcefulness and forces focus on profitability. \
+Different businesses have different bootstrapping potential based on capital requirements.' 
+    },
+    { type: 'subtitle', content: 'Bootstrapping Methods' },
+    { type: 'text', content:
+      'Personal Savings: Using personal funds to start the business. \
+Credit Cards: Short-term financing for initial expenses (risky). \
+Friends and Family: Loans or investments from personal network. \
+Customer Pre-payments: Getting customers to pay upfront for development. \
+Services Revenue: Consulting or services to fund product development. \
+Lean Operations: Minimizing expenses through creative solutions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Advantages and Challenges' },
+    { type: 'text', content:
+      'Advantages: Maintain control, no dilution, focus on profitability, learn resourcefulness. \
+Challenges: Slower growth, personal financial risk, limited resources, potential burnout. \
+Hybrid approach: Bootstrap to validation, then raise funds for scaling. \
+Exit considerations: Bootstrapped companies may have different exit options. \
+Investor perspective: Bootstrapping demonstrates commitment and resource management skills.' 
+    }
+  ]
+},
+'startup-funding-3': {
+  id: 'startup-funding-3',
+  title: 'Angel Investors and Angel Networks',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Angel Investors and Angel Networks' },
+    { type: 'text', content:
+      'Angel investors are high-net-worth individuals who invest personal funds in early-stage startups. \
+They typically invest $25k-$100k individually, often in syndicates for larger rounds. \
+Angels provide not only capital but also mentorship, connections, and expertise. \
+Angel networks pool resources and conduct due diligence collectively. \
+Building relationships with angels can lead to introductions to venture capitalists.' 
+    },
+    { type: 'subtitle', content: 'Angel Investor Types' },
+    { type: 'text', content:
+      'Accredited Investors: Meet SEC income/net worth requirements. \
+Strategic Angels: Industry experts who add value beyond capital. \
+Serial Entrepreneurs: Successful founders investing in next generation. \
+Family Offices: Wealth management for ultra-high-net-worth families. \
+Corporate Angels: Executives investing personally (different from corporate VC).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Finding and Pitching to Angels' },
+    { type: 'text', content:
+      'Warm introductions: Best approach through trusted connections. \
+Angel networks: Apply to pitch at organized events. \
+Online platforms: AngelList, Gust, Republic for broader access. \
+University networks: Alumni angel groups at top universities. \
+Industry events: Conferences and meetups where angels participate. \
+Due diligence: Research angels\' past investments and value-add capabilities.' 
+    }
+  ]
+},
+'startup-funding-4': {
+  id: 'startup-funding-4',
+  title: 'Venture Capital Fundamentals',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Venture Capital Fundamentals' },
+    { type: 'text', content:
+      'Venture capitalists manage pooled investment funds from institutions and wealthy individuals. \
+VCs seek high-growth companies with potential for 10x+ returns to offset portfolio risks. \
+They typically take board seats and active roles in company development. \
+VC funding comes with expectations of rapid growth and eventual exit (acquisition or IPO). \
+Understanding VC motivations and constraints improves fundraising success.' 
+    },
+    { type: 'subtitle', content: 'VC Fund Structure' },
+    { type: 'text', content:
+      'Limited Partners (LPs): Institutions providing capital to VC funds. \
+General Partners (GPs): VC firm partners who make investment decisions. \
+Management Fee: 2% annually on committed capital for operations. \
+Carried Interest: 20% of profits returned to GPs after returning LPs\' capital. \
+Fund Lifecycle: Typically 10 years (5 for investing, 5 for harvesting). \
+Portfolio Theory: Expect many failures, some moderate successes, few huge wins.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'VC Investment Criteria' },
+    { type: 'text', content:
+      'Market Size: $1B+ total addressable market preferred. \
+Growth Potential: Capable of 10x growth within fund timeline. \
+Team: Proven founders with relevant experience. \
+Traction: Evidence of product-market fit and scalable customer acquisition. \
+Defensibility: Sustainable competitive advantages (tech, network effects, IP). \
+Exit Potential: Clear path to acquisition or IPO.' 
+    }
+  ]
+},
+'startup-funding-5': {
+  id: 'startup-funding-5',
+  title: 'Crowdfunding Platforms and Strategies',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Crowdfunding Platforms and Strategies' },
+    { type: 'text', content:
+      'Crowdfunding raises small amounts from many people, typically via online platforms. \
+Rewards-based crowdfunding offers products or experiences in exchange for contributions. \
+Equity crowdfunding allows non-accredited investors to buy shares in startups. \
+Donation-based supports causes or projects without financial return. \
+Crowdfunding serves as both fundraising and marketing/validation tool.' 
+    },
+    { type: 'subtitle', content: 'Crowdfunding Types' },
+    { type: 'text', content:
+      'Rewards-based: Kickstarter, Indiegogo - pre-orders with perks. \
+Equity-based: SeedInvest, Republic, StartEngine - selling actual equity. \
+Debt-based: LendingClub, Kiva - loans to be repaid with interest. \
+Donation-based: GoFundMe, Patreon - supporting causes or creators. \
+Regulation Crowdfunding (Reg CF): SEC rules allowing up to $5M from non-accredited investors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Campaign Success Factors' },
+    { type: 'text', content:
+      'Compelling Story: Emotional narrative and clear value proposition. \
+Quality Video: Professional production showing product and team. \
+Realistic Goals: Funding target that can be achieved and exceeded. \
+Marketing Plan: Pre-launch email list, social media strategy, PR outreach. \
+Reward Tiers: Attractive options at different price points. \
+Community Engagement: Regular updates and interaction with backers. \
+Fulfillment Plan: Realistic timeline and budget for delivering rewards.' 
+    }
+  ]
+},
+'startup-funding-6': {
+  id: 'startup-funding-6',
+  title: 'Government Grants and SBIR Programs',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Government Grants and SBIR Programs' },
+    { type: 'text', content:
+      'Government grants provide non-dilutive funding for research and innovation. \
+Small Business Innovation Research (SBIR) programs fund R&D with commercial potential. \
+These programs support early-stage technology development without giving up equity. \
+Application processes are competitive and require specific expertise. \
+Grants can bridge funding gaps between angel rounds and venture capital.' 
+    },
+    { type: 'subtitle', content: 'Major Grant Programs' },
+    { type: 'text', content:
+      'SBIR/STTR: $2.5B+ annually across 11 federal agencies. \
+National Science Foundation (NSF): Technology and science innovation grants. \
+Department of Energy (DOE): Clean energy and advanced manufacturing. \
+National Institutes of Health (NIH): Biomedical research and healthcare innovation. \
+DARPA: Defense Advanced Research Projects Agency for breakthrough technologies. \
+State Programs: Regional economic development grants and incentives.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Application Strategies' },
+    { type: 'text', content:
+      'Start early: Process takes 6-12 months from application to award. \
+Match agency mission: Align proposal with specific program goals. \
+Commercialization plan: Clear path from research to market. \
+Team credentials: Demonstrate relevant expertise and capability. \
+Budget justification: Detailed and realistic cost breakdown. \
+Grant writers: Consider professional help for complex applications. \
+Phase approach: SBIR has Phase I (feasibility), Phase II (development), Phase III (commercialization).' 
+    }
+  ]
+},
+'startup-funding-7': {
+  id: 'startup-funding-7',
+  title: 'Corporate Venture Capital and Strategic Investors',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Corporate Venture Capital and Strategic Investors' },
+    { type: 'text', content:
+      'Corporate venture capital (CVC) is investment from established companies into startups. \
+Strategic investors provide industry expertise, customer access, and partnership opportunities. \
+CVC motivations include innovation sourcing, market intelligence, and financial return. \
+Corporate timelines and decision processes differ from traditional VCs. \
+Strategic investments can accelerate growth but may limit future options.' 
+    },
+    { type: 'subtitle', content: 'CVC Types' },
+    { type: 'text', content:
+      'Strategic CVC: Investing in startups aligned with corporate strategy. \
+Financial CVC: Primarily seeking financial returns like traditional VC. \
+Hybrid: Combination of strategic and financial objectives. \
+Corporate Accelerators: Programs offering funding, mentorship, and resources. \
+Partner Funds: Corporations investing as limited partners in VC funds.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Considerations and Risks' },
+    { type: 'text', content:
+      'Advantages: Industry expertise, customer access, potential acquisition, validation. \
+Risks: Slower decision-making, changing corporate priorities, information sharing concerns. \
+Exclusivity: Some strategic investors may demand exclusive partnerships. \
+Competition concerns: Sharing information with potential competitors or customers. \
+Exit limitations: May limit who can acquire the company in the future. \
+Diligence requirements: Often more extensive than financial investors.' 
+    }
+  ]
+},
+'startup-funding-8': {
+  id: 'startup-funding-8',
+  title: 'Convertible Notes and SAFE Agreements',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Convertible Notes and SAFE Agreements' },
+    { type: 'text', content:
+      'Convertible notes are debt instruments that convert to equity in a future priced round. \
+SAFE (Simple Agreement for Future Equity) is a newer, simpler alternative to convertible notes. \
+These instruments allow quick fundraising without immediate valuation negotiation. \
+They\'re commonly used for seed rounds and bridge financing. \
+Understanding terms is crucial to avoid excessive dilution or unfavorable conditions.' 
+    },
+    { type: 'subtitle', content: 'Key Terms' },
+    { type: 'text', content:
+      'Discount Rate: 10-30% discount on price in future equity round. \
+Valuation Cap: Maximum valuation at which note converts (protects early investors). \
+Interest Rate: Typically 2-8% (accrues but usually converts rather than paid in cash). \
+Maturity Date: When note must be repaid or converted (typically 18-24 months). \
+Pro Rata Rights: Right to maintain ownership percentage in future rounds. \
+Most Favored Nation (MFN): Terms match any better terms given to later investors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'SAFE Variations' },
+    { type: 'text', content:
+      'Valuation Cap, No Discount: Converts at lower of cap or discount. \
+Discount, No Cap: Converts with discount but no maximum valuation. \
+Valuation Cap with Discount: More investor-friendly. \
+MFN: For earliest investors before terms are established. \
+Post-Money vs. Pre-Money: Affects dilution calculation (post-money SAFEs are now standard).' 
+    }
+  ]
+},
+'startup-funding-9': {
+  id: 'startup-funding-9',
+  title: 'Due Diligence Process and Preparation',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Due Diligence Process and Preparation' },
+    { type: 'text', content:
+      'Due diligence is the investigation investors conduct before finalizing an investment. \
+The process examines legal, financial, operational, and strategic aspects of the business. \
+Preparation reduces deal friction and builds investor confidence. \
+Different investors have different diligence focus areas and thoroughness. \
+Organized diligence materials demonstrate professionalism and transparency.' 
+    },
+    { type: 'subtitle', content: 'Diligence Categories' },
+    { type: 'text', content:
+      'Legal: Corporate documents, IP ownership, contracts, compliance. \
+Financial: Historical financials, projections, cap table, tax returns. \
+Technical: Code review, architecture, security, scalability. \
+Market: Competitive analysis, customer validation, market size. \
+Team: Background checks, references, organizational structure. \
+Operational: Processes, systems, suppliers, partnerships.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Preparation Checklist' },
+    { type: 'text', content:
+      'Data Room: Organized digital repository of all documents. \
+Cap Table: Current and pro forma after investment. \
+Financial Model: Detailed assumptions and scenarios. \
+Customer List: Key customers with contact information. \
+Employee List: Current team with roles and compensation. \
+Legal Documents: Articles, bylaws, IP assignments, key contracts. \
+Product Roadmap: Development timeline and feature priorities. \
+Go-to-Market Plan: Customer acquisition strategy and costs.' 
+    }
+  ]
+},
+'startup-funding-10': {
+  id: 'startup-funding-10',
+  title: 'Post-Funding Management and Investor Relations',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Post-Funding Management and Investor Relations' },
+    { type: 'text', content:
+      'Successfully raising funds is just the beginning of investor relationships. \
+Effective investor relations maintain trust and support for future rounds. \
+Reporting and communication protocols should be established early. \
+Investors can provide ongoing value beyond capital if engaged properly. \
+Managing investor expectations prevents conflicts and supports long-term success.' 
+    },
+    { type: 'subtitle', content: 'Investor Reporting' },
+    { type: 'text', content:
+      'Regular Updates: Monthly or quarterly reports on progress. \
+Metrics Dashboard: Key performance indicators tracked consistently. \
+Board Meetings: Structured agendas and materials sent in advance. \
+Annual Meetings: Comprehensive review of strategy and performance. \
+Ad Hoc Communications: Major developments (good or bad) communicated promptly. \
+Annual Planning: Budget and strategy alignment with investors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Relationship Management' },
+    { type: 'text', content:
+      'Leverage Expertise: Seek advice on specific challenges matching investor experience. \
+Network Access: Request introductions to potential customers, partners, hires. \
+Follow-on Support: Prepare investors for participation in future rounds. \
+Alignment: Ensure investor expectations match company trajectory. \
+Transparency: Share challenges early to collaborate on solutions. \
+Gratitude: Acknowledge contributions beyond capital.' 
+    }
+  ]
+},
+
+// =======Market Research=======
+
+'market-research-1': {
+  id: 'market-research-1',
+  title: 'Market Research Fundamentals',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Market Research Fundamentals' },
+    { type: 'text', content:
+      'Market research systematically gathers, analyzes, and interprets information about a market. \
+It helps entrepreneurs validate ideas, understand customers, and identify opportunities. \
+Effective research reduces business risk by replacing assumptions with data. \
+Both quantitative (numbers) and qualitative (insights) methods provide complementary understanding. \
+Ongoing market research keeps businesses responsive to changing conditions.' 
+    },
+    { type: 'subtitle', content: 'Research Objectives' },
+    { type: 'text', content:
+      'Market Validation: Does this problem exist and is it painful enough? \
+Customer Understanding: Who are they, what do they need, how do they behave? \
+Competitive Analysis: Who else solves this problem, how well, at what price? \
+Market Sizing: How many potential customers exist, what\'s their total spending? \
+Trend Identification: What changes are occurring that create opportunities?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Research Process' },
+    { type: 'text', content:
+      'Define Objectives: What specific questions need answering? \
+Design Methodology: Primary vs. secondary, quantitative vs. qualitative. \
+Collect Data: Surveys, interviews, observation, existing sources. \
+Analyze Findings: Identify patterns, insights, and implications. \
+Apply Insights: Inform product development, marketing, strategy. \
+Iterate: Research should be continuous, not one-time.' 
+    }
+  ]
+},
+'market-research-2': {
+  id: 'market-research-2',
+  title: 'Primary vs. Secondary Research',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Primary vs. Secondary Research' },
+    { type: 'text', content:
+      'Primary research involves collecting new data directly from sources. \
+Secondary research analyzes existing data collected by others. \
+Primary research provides specific, current insights but is time-consuming and costly. \
+Secondary research is faster and cheaper but may not address specific questions. \
+Effective market research combines both approaches for comprehensive understanding.' 
+    },
+    { type: 'subtitle', content: 'Primary Research Methods' },
+    { type: 'text', content:
+      'Surveys: Structured questionnaires to quantify opinions and behaviors. \
+Interviews: In-depth conversations to explore attitudes and experiences. \
+Focus Groups: Moderated discussions with small groups of target customers. \
+Observational Research: Watching how people behave in natural settings. \
+Experiments: Testing variations to measure cause-effect relationships. \
+Ethnographic Studies: Immersive observation in customers\' environments.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Secondary Research Sources' },
+    { type: 'text', content:
+      'Industry Reports: Market size, trends, forecasts from research firms. \
+Government Data: Census, economic indicators, trade statistics. \
+Academic Research: Peer-reviewed studies on consumer behavior, markets. \
+Company Filings: SEC documents, annual reports from public companies. \
+News Media: Industry publications, general business news. \
+Social Media: Public conversations, sentiment, emerging trends.' 
+    }
+  ]
+},
+'market-research-3': {
+  id: 'market-research-3',
+  title: 'Customer Interviews and Ethnographic Research',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Customer Interviews and Ethnographic Research' },
+    { type: 'text', content:
+      'Customer interviews provide deep understanding of problems, motivations, and behaviors. \
+Ethnographic research observes customers in their natural environments. \
+These qualitative methods uncover insights that surveys often miss. \
+The goal is to understand the "why" behind behaviors, not just the "what." \
+Effective interviewing requires listening more than talking and asking open-ended questions.' 
+    },
+    { type: 'subtitle', content: 'Interview Techniques' },
+    { type: 'text', content:
+      'Open-Ended Questions: "Tell me about..." rather than yes/no questions. \
+Laddering: Follow "why" to uncover deeper motivations. \
+Storytelling: Ask customers to describe specific experiences. \
+Problem Exploration: Focus on pain points and current solutions. \
+Solution Testing: Present concepts and gauge reactions. \
+Non-Leading Questions: Avoid suggesting answers in your questions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Ethnographic Approaches' },
+    { type: 'text', content:
+      'Contextual Inquiry: Observing while customers perform tasks. \
+Day-in-the-Life: Following customers through typical routines. \
+Photo/Video Diaries: Customers document their own experiences. \
+Shop-Alongs: Accompanying customers during shopping. \
+Usage Observation: Watching how customers use products in real settings. \
+Artifact Analysis: Examining tools, documents, and objects customers use.' 
+    }
+  ]
+},
+'market-research-4': {
+  id: 'market-research-4',
+  title: 'Survey Design and Sampling',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Survey Design and Sampling' },
+    { type: 'text', content:
+      'Surveys quantify opinions, behaviors, and characteristics across populations. \
+Well-designed surveys produce reliable data; poorly designed ones produce garbage. \
+Sampling determines who takes the survey and affects generalizability. \
+Question wording, order, and format influence responses. \
+Online tools have made survey administration faster and cheaper.' 
+    },
+    { type: 'subtitle', content: 'Survey Design Principles' },
+    { type: 'text', content:
+      'Clear Objectives: Each question should serve a specific research purpose. \
+Simple Language: Avoid jargon, technical terms, and ambiguity. \
+Logical Flow: Group related questions, start with easy ones. \
+Appropriate Length: Respect respondents\' time (5-10 minutes ideal). \
+Balanced Scales: Include equal positive and negative options. \
+Pilot Testing: Test with small group before full deployment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Sampling Methods' },
+    { type: 'text', content:
+      'Random Sampling: Every member of population has equal selection chance. \
+Stratified Sampling: Population divided into subgroups, sample from each. \
+Convenience Sampling: Easy-to-reach respondents (less reliable). \
+Snowball Sampling: Respondents refer other potential respondents. \
+Quota Sampling: Sample matches population characteristics proportionally. \
+Sample Size: Typically 300-500 for reliable results, more for subgroups.' 
+    }
+  ]
+},
+'market-research-5': {
+  id: 'market-research-5',
+  title: 'Competitive Analysis Frameworks',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Competitive Analysis Frameworks' },
+    { type: 'text', content:
+      'Competitive analysis identifies and evaluates current and potential competitors. \
+Understanding competitors\' strengths and weaknesses reveals market opportunities. \
+Analysis should consider both direct and indirect competitors. \
+Frameworks provide structured approaches for comprehensive evaluation. \
+Regular competitive analysis keeps strategies responsive to market changes.' 
+    },
+    { type: 'subtitle', content: 'Analysis Frameworks' },
+    { type: 'text', content:
+      'SWOT Analysis: Strengths, Weaknesses, Opportunities, Threats for each competitor. \
+Porter\'s Five Forces: Industry competition, threat of new entrants, substitute products, buyer power, supplier power. \
+Competitive Positioning Map: Visual plot of competitors on key dimensions (price vs. quality). \
+Feature Comparison Matrix: Side-by-side comparison of product features and capabilities. \
+Business Model Comparison: How competitors make money and deliver value. \
+Customer Perception: How target customers view different competitors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Information Sources' },
+    { type: 'text', content:
+      'Competitor Websites: Product info, pricing, positioning. \
+Customer Reviews: What customers like and dislike about competitors. \
+Financial Reports: Public company filings reveal strategy and performance. \
+Social Media: Competitor engagement and customer sentiment. \
+Industry Reports: Analyst perspectives on competitive landscape. \
+Mystery Shopping: Experience competitors\' offerings firsthand.' 
+    }
+  ]
+},
+'market-research-6': {
+  id: 'market-research-6',
+  title: 'Market Sizing Techniques',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Market Sizing Techniques' },
+    { type: 'text', content:
+      'Market sizing estimates the potential revenue opportunity for a product or service. \
+Investors require realistic market size estimates to assess growth potential. \
+Different approaches (top-down, bottom-up, value theory) serve different purposes. \
+Market segmentation improves sizing accuracy for specific target customers. \
+Regular market sizing updates track changes in opportunity over time.' 
+    },
+    { type: 'subtitle', content: 'Sizing Approaches' },
+    { type: 'text', content:
+      'Top-Down: Start with total market, apply percentage for your segment. \
+Bottom-Up: Calculate from unit sales x price for individual customers. \
+Value Theory: Willingness to pay x number of potential customers. \
+Total Addressable Market (TAM): Total market demand if you had 100% share. \
+Serviceable Available Market (SAM): Segment of TAM you can realistically serve. \
+Serviceable Obtainable Market (SOM): Share of SAM you can capture in 3-5 years.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Data Sources' },
+    { type: 'text', content:
+      'Government Statistics: Census data, economic indicators, industry reports. \
+Industry Associations: Market research reports, member surveys. \
+Financial Reports: Competitor revenue in specific segments. \
+Academic Research: Market studies in peer-reviewed journals. \
+Expert Interviews: Industry professionals\' estimates. \
+Analogous Markets: Similar markets in other geographies or industries.' 
+    }
+  ]
+},
+'market-research-7': {
+  id: 'market-research-7',
+  title: 'Trend Analysis and Future Forecasting',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Trend Analysis and Future Forecasting' },
+    { type: 'text', content:
+      'Trend analysis identifies patterns and directions of change in markets. \
+Future forecasting predicts how markets will evolve based on current trends. \
+Understanding trends helps position businesses for future opportunities. \
+Multiple forecasting methods provide different perspectives on potential futures. \
+Scenario planning prepares businesses for different possible outcomes.' 
+    },
+    { type: 'subtitle', content: 'Trend Categories' },
+    { type: 'text', content:
+      'Demographic Trends: Population changes, aging, migration patterns. \
+Technological Trends: Innovation adoption rates, emerging technologies. \
+Economic Trends: Growth rates, inflation, employment, consumer spending. \
+Social/Cultural Trends: Values, lifestyles, preferences, behaviors. \
+Regulatory Trends: Policy changes, new regulations, standards. \
+Environmental Trends: Sustainability, climate change, resource availability.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Forecasting Methods' },
+    { type: 'text', content:
+      'Time Series Analysis: Projecting historical patterns into future. \
+Regression Analysis: Modeling relationships between variables. \
+Delphi Method: Expert consensus through structured feedback rounds. \
+Scenario Planning: Developing multiple plausible future scenarios. \
+Leading Indicators: Early signals that predict broader changes. \
+Analogous Analysis: Comparing to similar historical situations.' 
+    }
+  ]
+},
+'market-research-8': {
+  id: 'market-research-8',
+  title: 'Data Analysis and Interpretation',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Data Analysis and Interpretation' },
+    { type: 'text', content:
+      'Data analysis transforms raw information into meaningful insights. \
+Statistical techniques identify patterns, relationships, and significance. \
+Visualization helps communicate findings effectively. \
+Interpretation requires understanding context and avoiding biases. \
+Actionable insights should inform business decisions and strategies.' 
+    },
+    { type: 'subtitle', content: 'Analysis Techniques' },
+    { type: 'text', content:
+      'Descriptive Statistics: Means, medians, frequencies, distributions. \
+Correlation Analysis: Relationships between variables. \
+Segmentation Analysis: Grouping similar customers or behaviors. \
+Gap Analysis: Differences between current and desired states. \
+Sentiment Analysis: Emotional tone in text data (reviews, social media). \
+Regression Analysis: Predicting outcomes based on input variables.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Interpretation Principles' },
+    { type: 'text', content:
+      'Context Matters: Numbers without context can be misleading. \
+Correlation ≠ Causation: Related variables don\'t necessarily cause each other. \
+Statistical Significance: Differentiate real patterns from random variation. \
+Outlier Consideration: Extreme values may distort averages. \
+Triangulation: Confirm findings with multiple data sources. \
+Practical Significance: Is the difference large enough to matter?' 
+    }
+  ]
+},
+'market-research-9': {
+  id: 'market-research-9',
+  title: 'Research Ethics and Legal Considerations',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Research Ethics and Legal Considerations' },
+    { type: 'text', content:
+      'Ethical research respects participants\' rights and privacy. \
+Legal requirements vary by country and type of research. \
+Professional standards maintain research integrity and credibility. \
+Data protection regulations have become increasingly stringent. \
+Ethical practices build trust with participants and stakeholders.' 
+    },
+    { type: 'subtitle', content: 'Ethical Principles' },
+    { type: 'text', content:
+      'Informed Consent: Participants understand and agree to research. \
+Voluntary Participation: No coercion or undue influence. \
+Privacy Protection: Confidential handling of personal information. \
+Minimal Risk: Research should not harm participants. \
+Transparency: Clear explanation of research purpose and use. \
+Debriefing: Sharing findings with participants when appropriate.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Legal Considerations' },
+    { type: 'text', content:
+      'GDPR (Europe): Strict rules on personal data collection and use. \
+CCPA (California): Similar protections for California residents. \
+CAN-SPAM: Regulations for email marketing and surveys. \
+Telephone Consumer Protection Act: Restrictions on telephone surveys. \
+Professional Standards: ESOMAR, Insights Association guidelines. \
+Institutional Review Boards: Required for certain types of research.' 
+    }
+  ]
+},
+'market-research-10': {
+  id: 'market-research-10',
+  title: 'Applying Research to Business Decisions',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Applying Research to Business Decisions' },
+    { type: 'text', content:
+      'Research only creates value when it informs business decisions and actions. \
+Effective application requires translating insights into specific recommendations. \
+Different decisions require different types and levels of research. \
+Organizational processes should incorporate research findings systematically. \
+Measuring the impact of research demonstrates its return on investment.' 
+    },
+    { type: 'subtitle', content: 'Decision Applications' },
+    { type: 'text', content:
+      'Product Development: Feature prioritization based on customer needs. \
+Marketing Strategy: Targeting, messaging, and channel selection. \
+Pricing Decisions: Willingness to pay and competitive positioning. \
+Market Entry: Timing, geography, and approach selection. \
+Resource Allocation: Investment in most promising opportunities. \
+Risk Management: Identifying and mitigating potential threats.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Framework' },
+    { type: 'text', content:
+      'Clear Recommendations: Specific, actionable suggestions from findings. \
+Stakeholder Communication: Tailored presentations for different audiences. \
+Integration Processes: Built-in research review in decision-making. \
+Measurement Plans: Tracking outcomes of research-informed decisions. \
+Feedback Loops: Learning from implementation to improve future research. \
+Resource Allocation: Budget for ongoing research, not just one-time projects.' 
+    }
+  ]
+},
+
+// =======Product Development=======
+
+'product-development-1': {
+  id: 'product-development-1',
+  title: 'Product Development Lifecycle',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Product Development Lifecycle' },
+    { type: 'text', content:
+      'The product development lifecycle guides products from concept to launch and beyond. \
+Understanding each phase helps allocate resources effectively and manage risks. \
+Different methodologies (Waterfall, Agile, Lean) approach the lifecycle differently. \
+Successful products balance user needs, business goals, and technical feasibility. \
+Iterative development allows for continuous improvement based on feedback.' 
+    },
+    { type: 'subtitle', content: 'Development Phases' },
+    { type: 'text', content:
+      'Ideation: Generating and validating product concepts. \
+Definition: Clarifying requirements, scope, and success criteria. \
+Design: Creating user experiences, interfaces, and architecture. \
+Development: Building and coding the product. \
+Testing: Quality assurance and user acceptance testing. \
+Launch: Releasing to market and initial user acquisition. \
+Growth: Scaling, feature addition, and optimization. \
+Maturity: Maintaining, supporting, and planning next versions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Methodology Selection' },
+    { type: 'text', content:
+      'Waterfall: Sequential phases, good for well-understood requirements. \
+Agile: Iterative cycles, adaptable to changing needs. \
+Lean Startup: Build-Measure-Learn loops for validated learning. \
+Hybrid Approaches: Combining elements from different methodologies. \
+Selection factors: Project size, uncertainty, team experience, customer access.' 
+    }
+  ]
+},
+'product-development-2': {
+  id: 'product-development-2',
+  title: 'Ideation and Concept Validation',
+  image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Ideation and Concept Validation' },
+    { type: 'text', content:
+      'Ideation generates potential product concepts to solve identified problems. \
+Concept validation tests whether these ideas address real customer needs. \
+Systematic ideation increases both quantity and quality of ideas. \
+Validation separates promising concepts from wishful thinking. \
+Early validation prevents wasted resources on products nobody wants.' 
+    },
+    { type: 'subtitle', content: 'Ideation Techniques' },
+    { type: 'text', content:
+      'Customer Problems: Start with observed pain points and work backward. \
+Brainstorming: Group sessions generating many ideas without criticism. \
+SCAMPER: Substitute, Combine, Adapt, Modify, Put to other uses, Eliminate, Reverse. \
+Mind Mapping: Visual connections between concepts and associations. \
+Competitor Analysis: Improving or adapting existing solutions. \
+Trend Analysis: Applying emerging technologies or social changes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Validation Methods' },
+    { type: 'text', content:
+      'Problem Interviews: Verify that the problem exists and is painful. \
+Solution Interviews: Test concept appeal before building anything. \
+Concierge MVP: Manual delivery of proposed service to test demand. \
+Wizard of Oz: Fake backend with humans simulating automation. \
+Landing Page Test: Measure interest through signups or pre-orders. \
+Paper Prototyping: Quick, low-fidelity representations for feedback.' 
+    }
+  ]
+},
+'product-development-3': {
+  id: 'product-development-3',
+  title: 'User Research and Persona Development',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'User Research and Persona Development' },
+    { type: 'text', content:
+      'User research uncovers needs, behaviors, and motivations of target users. \
+Personas are fictional archetypes representing key user segments. \
+Research prevents building products based on assumptions rather than reality. \
+Personas keep development focused on specific user needs throughout the process. \
+Continuous research ensures products evolve with changing user expectations.' 
+    },
+    { type: 'subtitle', content: 'Research Methods' },
+    { type: 'text', content:
+      'Contextual Inquiry: Observing users in their natural environment. \
+User Interviews: In-depth conversations about experiences and needs. \
+Surveys: Quantitative data on behaviors, preferences, demographics. \
+Usability Testing: Observing users interact with prototypes or products. \
+Analytics Review: Behavioral data from existing products or competitors. \
+Diary Studies: Users recording experiences over time.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Persona Creation' },
+    { type: 'text', content:
+      'Demographic Information: Age, occupation, location, education. \
+Goals and Motivations: What they want to achieve and why. \
+Frustrations and Pain Points: Current challenges and limitations. \
+Behavior Patterns: How they currently solve problems. \
+Technology Comfort: Experience with similar tools or platforms. \
+Quotes and Stories: Real user statements that bring personas to life.' 
+    }
+  ]
+},
+'product-development-4': {
+  id: 'product-development-4',
+  title: 'Requirements Gathering and Prioritization',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Requirements Gathering and Prioritization' },
+    { type: 'text', content:
+      'Requirements define what the product must do to be successful. \
+Gathering involves extracting needs from stakeholders and users. \
+Prioritization ensures limited resources address the most important needs first. \
+Clear requirements prevent scope creep and misalignment. \
+Requirements should balance user needs, business goals, and technical constraints.' 
+    },
+    { type: 'subtitle', content: 'Requirement Types' },
+    { type: 'text', content:
+      'Functional Requirements: What the product should do (features, behaviors). \
+Non-functional Requirements: How the product should perform (speed, security, reliability). \
+User Requirements: Tasks users need to accomplish. \
+Business Requirements: Goals the product must achieve for the organization. \
+Technical Requirements: Constraints and capabilities of the implementation. \
+Regulatory Requirements: Legal and compliance obligations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Prioritization Frameworks' },
+    { type: 'text', content:
+      'MoSCoW Method: Must have, Should have, Could have, Won\'t have. \
+RICE Scoring: Reach, Impact, Confidence, Effort calculation. \
+Kano Model: Basic, Performance, Delighter features classification. \
+Value vs. Effort Matrix: Plot features by value delivered and development effort. \
+Cost of Delay: Economic impact of delaying feature delivery. \
+Story Mapping: Visual prioritization based on user journey completeness.' 
+    }
+  ]
+},
+'product-development-5': {
+  id: 'product-development-5',
+  title: 'UX/UI Design Principles',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'UX/UI Design Principles' },
+    { type: 'text', content:
+      'User Experience (UX) encompasses all aspects of user interaction with a product. \
+User Interface (UI) is the visual and interactive elements users engage with. \
+Good design makes products usable, useful, and enjoyable. \
+Design should solve user problems while supporting business objectives. \
+Iterative design and testing refine interfaces based on real user feedback.' 
+    },
+    { type: 'subtitle', content: 'UX Principles' },
+    { type: 'text', content:
+      'User-Centered Design: Start with user needs, not technical capabilities. \
+Consistency: Similar elements behave similarly throughout the product. \
+Hierarchy: Visual organization that guides attention to important elements. \
+Feedback: System responses that inform users about actions and results. \
+Error Prevention and Recovery: Designs that minimize mistakes and help recover from them. \
+Accessibility: Usable by people with diverse abilities and disabilities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'UI Design Elements' },
+    { type: 'text', content:
+      'Visual Design: Color, typography, spacing, imagery. \
+Interaction Design: How users accomplish tasks through interface elements. \
+Information Architecture: Organization and structure of content and features. \
+Navigation Design: How users move through the product. \
+Responsive Design: Adapting to different screen sizes and devices. \
+Microinteractions: Small, purposeful animations and feedback moments.' 
+    }
+  ]
+},
+'product-development-6': {
+  id: 'product-development-6',
+  title: 'Prototyping and User Testing',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Prototyping and User Testing' },
+    { type: 'text', content:
+      'Prototypes are early product versions used to test concepts and designs. \
+User testing evaluates prototypes with real users to identify issues. \
+Testing early prevents costly changes later in development. \
+Different fidelity prototypes serve different testing purposes. \
+Iterative testing and refinement lead to better final products.' 
+    },
+    { type: 'subtitle', content: 'Prototype Types' },
+    { type: 'text', content:
+      'Paper Prototypes: Hand-drawn sketches for early concept testing. \
+Wireframes: Basic layout and structure without visual design. \
+Low-Fidelity Digital: Simple interactive prototypes (Figma, Sketch). \
+High-Fidelity Digital: Visually complete, interactive prototypes. \
+Functional Prototypes: Working versions with limited functionality. \
+MVP (Minimum Viable Product): Minimal version that delivers core value.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Testing Methods' },
+    { type: 'text', content:
+      'Usability Testing: Observing users complete specific tasks. \
+A/B Testing: Comparing different versions with real users. \
+Five-Second Tests: First impressions of designs or concepts. \
+Card Sorting: Understanding how users categorize information. \
+First Click Testing: Where users click first to complete tasks. \
+Eye Tracking: Understanding visual attention and scanning patterns.' 
+    }
+  ]
+},
+'product-development-7': {
+  id: 'product-development-7',
+  title: 'Agile Development Methodologies',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Agile Development Methodologies' },
+    { type: 'text', content:
+      'Agile methodologies emphasize iterative development and customer collaboration. \
+They adapt to changing requirements and deliver working software frequently. \
+Cross-functional teams work in short cycles with regular reflection and adjustment. \
+Agile values individuals and interactions over processes and tools. \
+Multiple frameworks implement agile principles with different practices.' 
+    },
+    { type: 'subtitle', content: 'Agile Frameworks' },
+    { type: 'text', content:
+      'Scrum: Fixed-length sprints, roles (Product Owner, Scrum Master), ceremonies. \
+Kanban: Visual workflow, work-in-progress limits, continuous delivery. \
+Extreme Programming (XP): Engineering practices, pair programming, test-driven development. \
+Lean Software Development: Eliminate waste, amplify learning, decide as late as possible. \
+Feature-Driven Development (FDD): Feature-centric planning and tracking. \
+SAFe (Scaled Agile Framework): Enterprise-scale agile implementation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Agile Practices' },
+    { type: 'text', content:
+      'Sprint Planning: Selecting work for upcoming iteration. \
+Daily Standups: Brief team synchronization meetings. \
+Sprint Reviews: Demonstrating completed work to stakeholders. \
+Retrospectives: Reflecting on process and identifying improvements. \
+Backlog Management: Prioritized list of work items. \
+User Stories: Requirements expressed from user perspective.' 
+    }
+  ]
+},
+'product-development-8': {
+  id: 'product-development-8',
+  title: 'Minimum Viable Product (MVP) Development',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Minimum Viable Product (MVP) Development' },
+    { type: 'text', content:
+      'An MVP is the simplest version of a product that delivers core value. \
+It allows testing fundamental business hypotheses with minimal resources. \
+MVPs focus on learning, not perfection or completeness. \
+Successful MVPs validate demand and inform further development. \
+Different types of MVPs serve different validation purposes.' 
+    },
+    { type: 'subtitle', content: 'MVP Types' },
+    { type: 'text', content:
+      'Concierge MVP: Manual service delivery simulating automation. \
+Wizard of Oz MVP: Fake backend with humans performing work. \
+Landing Page MVP: Measuring interest before building product. \
+Piecemeal MVP: Combining existing tools to deliver value. \
+Single-Feature MVP: Focusing on one core capability. \
+Crowdfunding MVP: Validating demand through pre-orders.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'MVP Development Process' },
+    { type: 'text', content:
+      'Identify Riskiest Assumption: What must be true for the business to work? \
+Define Success Metrics: How will you know if the assumption is valid? \
+Build Minimum Version: Only what\'s needed to test the assumption. \
+Measure and Learn: Collect data and analyze results. \
+Pivot or Persevere: Change direction or continue based on learning. \
+Iterate: Build next version incorporating validated learning.' 
+    }
+  ]
+},
+'product-development-9': {
+  id: 'product-development-9',
+  title: 'Quality Assurance and Testing Strategies',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Quality Assurance and Testing Strategies' },
+    { type: 'text', content:
+      'Quality assurance ensures products meet requirements and user expectations. \
+Testing identifies defects and verifies functionality before release. \
+Comprehensive testing strategies prevent issues reaching users. \
+Different testing types address different quality aspects. \
+Automated testing increases efficiency and consistency.' 
+    },
+    { type: 'subtitle', content: 'Testing Types' },
+    { type: 'text', content:
+      'Unit Testing: Testing individual components or functions. \
+Integration Testing: Testing interactions between components. \
+System Testing: Testing complete, integrated system. \
+Acceptance Testing: Verifying system meets business requirements. \
+Performance Testing: Evaluating speed, scalability, and stability. \
+Security Testing: Identifying vulnerabilities and risks. \
+Usability Testing: Assessing user experience and interface effectiveness.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'QA Strategies' },
+    { type: 'text', content:
+      'Test-Driven Development (TDD): Write tests before writing code. \
+Continuous Integration: Automated testing with each code change. \
+Exploratory Testing: Unscripted investigation of the product. \
+Regression Testing: Ensuring new changes don\'t break existing functionality. \
+Beta Testing: Real users testing in production-like environment. \
+A/B Testing: Comparing different versions with live users.' 
+    }
+  ]
+},
+'product-development-10': {
+  id: 'product-development-10',
+  title: 'Launch Strategy and Post-Launch Optimization',
+  image: 'https://images.unsplash.com/photo-1558618668-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Launch Strategy and Post-Launch Optimization' },
+    { type: 'text', content:
+      'Launch strategy determines how and when a product is introduced to the market. \
+Post-launch optimization improves the product based on real usage data. \
+Successful launches balance marketing, user onboarding, and technical readiness. \
+Continuous improvement extends product value and maintains competitiveness. \
+Metrics and feedback inform both immediate fixes and long-term roadmap.' 
+    },
+    { type: 'subtitle', content: 'Launch Approaches' },
+    { type: 'text', content:
+      'Soft Launch: Limited release to test with smaller audience. \
+Phased Rollout: Gradual release to increasing user segments. \
+Beta Launch: Early access for dedicated testers. \
+Geographic Launch: Starting in specific markets before expanding. \
+Big Bang Launch: Full-scale release to all target users simultaneously. \
+Stealth Mode: Limited visibility until product is fully ready.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=1000&q=60' },
+    { type: 'subtitle', content: 'Post-Launch Activities' },
+    { type: 'text', content:
+      'Monitoring: Tracking performance metrics and user behavior. \
+Feedback Collection: Gathering user opinions and issues. \
+Bug Fixing: Addressing defects identified in production. \
+Feature Enhancement: Adding capabilities based on user requests. \
+Performance Optimization: Improving speed, reliability, and scalability. \
+User Education: Helping users discover and utilize product value.' 
+    }
+  ]
+},
+
+// =======Customer Acquisition=======
+
+'customer-acquisition-1': {
+  id: 'customer-acquisition-1',
+  title: 'Customer Acquisition Fundamentals',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Customer Acquisition Fundamentals' },
+    { type: 'text', content:
+      'Customer acquisition is the process of attracting and converting prospects into paying customers. \
+Effective acquisition requires understanding customer journey from awareness to purchase. \
+Different channels and strategies work for different products and audiences. \
+Acquisition cost (CAC) must be balanced against customer lifetime value (LTV). \
+Successful acquisition combines multiple channels into cohesive strategy.' 
+    },
+    { type: 'subtitle', content: 'Acquisition Funnel Stages' },
+    { type: 'text', content:
+      'Awareness: Potential customers discover your product exists. \
+Consideration: Prospects evaluate your solution against alternatives. \
+Conversion: Prospects become paying customers. \
+Retention: Customers continue using and paying for product. \
+Referral: Satisfied customers recommend product to others. \
+Measurement at each stage identifies bottlenecks and opportunities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Key Metrics' },
+    { type: 'text', content:
+      'Customer Acquisition Cost (CAC): Total cost to acquire a customer. \
+Customer Lifetime Value (LTV): Total revenue from a customer over relationship. \
+Conversion Rate: Percentage moving from one funnel stage to next. \
+Time to Conversion: How long prospects take to become customers. \
+Channel Attribution: Which channels contribute to acquisitions. \
+Return on Ad Spend (ROAS): Revenue generated per advertising dollar.' 
+    }
+  ]
+},
+'customer-acquisition-2': {
+  id: 'customer-acquisition-2',
+  title: 'Digital Marketing Channels',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Marketing Channels' },
+    { type: 'text', content:
+      'Digital channels provide scalable ways to reach target audiences online. \
+Each channel has unique characteristics, costs, and best practices. \
+Effective digital marketing integrates multiple channels for maximum impact. \
+Channel selection depends on target audience behavior and product characteristics. \
+Continuous testing and optimization improve channel performance over time.' 
+    },
+    { type: 'subtitle', content: 'Major Digital Channels' },
+    { type: 'text', content:
+      'Search Engine Marketing (SEM): Paid search ads (Google Ads). \
+Social Media Advertising: Facebook, Instagram, LinkedIn, Twitter ads. \
+Content Marketing: Blog posts, videos, podcasts, whitepapers. \
+Email Marketing: Newsletters, automated sequences, promotions. \
+Search Engine Optimization (SEO): Organic search visibility. \
+Affiliate Marketing: Commission-based partnerships. \
+Display Advertising: Banner ads on websites and apps. \
+Influencer Marketing: Partnerships with social media influencers.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60' },
+    { type: 'subtitle', content: 'Channel Selection Criteria' },
+    { type: 'text', content:
+      'Audience Presence: Where target customers spend time online. \
+Cost Efficiency: Expected CAC compared to customer value. \
+Scalability: Ability to increase volume without proportional cost increase. \
+Measurement Capability: Trackability of conversions and ROI. \
+Creative Requirements: Assets needed for effective campaigns. \
+Competitive Landscape: Channel saturation by competitors.' 
+    }
+  ]
+},
+'customer-acquisition-3': {
+  id: 'customer-acquisition-3',
+  title: 'Content Marketing Strategy',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Content Marketing Strategy' },
+    { type: 'text', content:
+      'Content marketing attracts and engages audiences by creating valuable content. \
+It builds trust, establishes authority, and nurtures prospects through the funnel. \
+Effective content addresses customer questions and problems at different stages. \
+Content should align with business goals while providing genuine value. \
+Consistent, high-quality content drives sustainable organic growth.' 
+    },
+    { type: 'subtitle', content: 'Content Types' },
+    { type: 'text', content:
+      'Blog Posts: Educational articles addressing customer questions. \
+Video Content: Tutorials, demonstrations, testimonials, stories. \
+Podcasts: Audio content for on-the-go consumption. \
+Ebooks/Whitepapers: In-depth resources for lead generation. \
+Webinars: Live or recorded educational presentations. \
+Case Studies: Real examples of customer success. \
+Infographics: Visual representations of data or processes. \
+Social Media Posts: Shorter content for engagement and sharing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strategy Development' },
+    { type: 'text', content:
+      'Audience Research: Understanding what content resonates with target customers. \
+Keyword Research: Identifying search terms prospects use. \
+Content Calendar: Planning topics, formats, and publication schedule. \
+Distribution Plan: How content will be promoted across channels. \
+Conversion Paths: How content leads to desired actions (signups, purchases). \
+Performance Measurement: Tracking engagement, leads, and conversions.' 
+    }
+  ]
+},
+'customer-acquisition-4': {
+  id: 'customer-acquisition-4',
+  title: 'Social Media Marketing',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Social Media Marketing' },
+    { type: 'text', content:
+      'Social media marketing builds brand awareness and engages potential customers. \
+Different platforms serve different audiences and content formats. \
+Organic social media builds community, while paid advertising reaches targeted audiences. \
+Social listening provides insights into customer sentiment and emerging trends. \
+Consistent, authentic engagement builds relationships that drive acquisition.' 
+    },
+    { type: 'subtitle', content: 'Platform Strategies' },
+    { type: 'text', content:
+      'Facebook: Broad demographics, community building, detailed targeting. \
+Instagram: Visual content, younger audiences, influencer partnerships. \
+LinkedIn: B2B focus, professional content, networking. \
+Twitter: Real-time conversations, customer service, industry news. \
+TikTok: Short-form video, Gen Z audiences, viral potential. \
+Pinterest: Visual discovery, planning, inspiration. \
+YouTube: Video content, tutorials, brand storytelling.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Best Practices' },
+    { type: 'text', content:
+      'Audience-First Content: Create what your audience wants, not just promotional messages. \
+Consistent Brand Voice: Maintain recognizable personality across platforms. \
+Engagement Focus: Respond to comments, messages, and mentions promptly. \
+Visual Storytelling: Use images and video to capture attention. \
+Value Exchange: Offer useful information, entertainment, or community. \
+Paid Amplification: Boost high-performing organic content to targeted audiences.' 
+    }
+  ]
+},
+'customer-acquisition-5': {
+  id: 'customer-acquisition-5',
+  title: 'Search Engine Optimization (SEO)',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Search Engine Optimization (SEO)' },
+    { type: 'text', content:
+      'SEO improves organic visibility in search engine results pages. \
+It drives qualified traffic by matching content with user search intent. \
+SEO encompasses technical, content, and off-site optimization. \
+Results take time but provide sustainable, cost-effective acquisition. \
+Algorithm changes require ongoing adaptation and best practice adherence.' 
+    },
+    { type: 'subtitle', content: 'SEO Components' },
+    { type: 'text', content:
+      'Technical SEO: Site speed, mobile-friendliness, crawlability, structured data. \
+On-Page SEO: Title tags, meta descriptions, content quality, internal linking. \
+Content Strategy: Keyword research, topic relevance, content depth. \
+Off-Page SEO: Backlinks, social signals, brand mentions. \
+Local SEO: Google Business Profile, local citations, reviews. \
+E-A-T: Expertise, Authoritativeness, Trustworthiness signals.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Strategy' },
+    { type: 'text', content:
+      'Keyword Research: Identify high-intent, relevant search terms. \
+Content Creation: Develop comprehensive resources addressing searcher needs. \
+Technical Audit: Identify and fix issues affecting search visibility. \
+Link Building: Earn quality backlinks from authoritative sites. \
+Performance Tracking: Monitor rankings, traffic, and conversions. \
+Continuous Improvement: Update content, fix issues, adapt to algorithm changes.' 
+    }
+  ]
+},
+'customer-acquisition-6': {
+  id: 'customer-acquisition-6',
+  title: 'Email Marketing and Automation',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Email Marketing and Automation' },
+    { type: 'text', content:
+      'Email marketing nurtures prospects and maintains relationships with customers. \
+Automation sequences deliver timely, relevant messages based on user behavior. \
+Email provides direct communication channel with high ROI potential. \
+Personalization and segmentation increase engagement and conversion rates. \
+Compliance with regulations (CAN-SPAM, GDPR) is essential.' 
+    },
+    { type: 'subtitle', content: 'Email Types' },
+    { type: 'text', content:
+      'Welcome Series: Introduces new subscribers to your brand and value. \
+Newsletters: Regular updates with valuable content and announcements. \
+Promotional Emails: Special offers, sales, and product announcements. \
+Transactional Emails: Order confirmations, receipts, account notifications. \
+Re-engagement Campaigns: Win back inactive subscribers or customers. \
+Educational Sequences: Teach subscribers about topics related to your products.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Automation Strategies' },
+    { type: 'text', content:
+      'Lead Nurturing: Progressive education and relationship building. \
+Behavioral Triggers: Emails based on specific user actions (downloads, views, purchases). \
+Lifecycle Marketing: Different messages for different customer stages. \
+Personalization: Dynamic content based on user data and preferences. \
+A/B Testing: Optimizing subject lines, content, and send times. \
+Performance Analysis: Open rates, click-through rates, conversions, unsubscribe rates.' 
+    }
+  ]
+},
+'customer-acquisition-7': {
+  id: 'customer-acquisition-7',
+  title: 'Paid Advertising Campaigns',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Paid Advertising Campaigns' },
+    { type: 'text', content:
+      'Paid advertising accelerates customer acquisition through targeted reach. \
+Different platforms offer various targeting options and ad formats. \
+Campaign success depends on clear objectives, targeting, creative, and measurement. \
+Testing and optimization improve performance and return on ad spend. \
+Paid advertising should complement, not replace, organic acquisition efforts.' 
+    },
+    { type: 'subtitle', content: 'Advertising Platforms' },
+    { type: 'text', content:
+      'Google Ads: Search, display, video, shopping ads across Google properties. \
+Facebook/Instagram Ads: Detailed demographic, interest, and behavioral targeting. \
+LinkedIn Ads: Professional targeting by job title, industry, company. \
+Twitter Ads: Conversation targeting, keyword targeting, follower lookalikes. \
+TikTok Ads: Short-form video ads with creative effects. \
+Programmatic Display: Automated buying across thousands of websites. \
+Native Advertising: Ads matching form and function of publisher content.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Campaign Management' },
+    { type: 'text', content:
+      'Objective Setting: Awareness, consideration, conversion, or retention goals. \
+Audience Targeting: Demographic, interest, behavioral, custom audience segments. \
+Ad Creative: Compelling visuals, copy, and calls-to-action. \
+Landing Page Optimization: Aligned messaging and conversion-focused design. \
+Bid Strategy: Manual or automated bidding based on goals. \
+Performance Tracking: Conversion tracking, attribution modeling, ROI calculation.' 
+    }
+  ]
+},
+'customer-acquisition-8': {
+  id: 'customer-acquisition-8',
+  title: 'Referral and Partnership Programs',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Referral and Partnership Programs' },
+    { type: 'text', content:
+      'Referral programs incentivize existing customers to recommend your product. \
+Partnership programs collaborate with complementary businesses to reach new audiences. \
+Both leverage existing relationships for cost-effective customer acquisition. \
+Successful programs align incentives with desired behaviors and outcomes. \
+Trust and mutual benefit sustain long-term partnership success.' 
+    },
+    { type: 'subtitle', content: 'Referral Program Types' },
+    { type: 'text', content:
+      'Dual-Sided Incentives: Both referrer and referee receive rewards. \
+Single-Sided Incentives: Only referrer receives reward. \
+Tiered Rewards: Increasing rewards for more referrals. \
+Cash vs. Credit: Monetary rewards vs. account credits or product discounts. \
+Gamification: Points, leaderboards, badges for engagement. \
+Social Sharing: Easy sharing tools integrated with social platforms.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Partnership Models' },
+    { type: 'text', content:
+      'Affiliate Marketing: Commission-based referrals from content creators. \
+Co-Marketing: Joint content, events, or campaigns with complementary brands. \
+Integration Partnerships: Technical integrations between products. \
+Reseller Partnerships: Other companies selling your product. \
+Strategic Alliances: Long-term cooperation for mutual benefit. \
+Influencer Collaborations: Partnerships with social media influencers.' 
+    }
+  ]
+},
+'customer-acquisition-9': {
+  id: 'customer-acquisition-9',
+  title: 'Conversion Rate Optimization (CRO)',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Conversion Rate Optimization (CRO)' },
+    { type: 'text', content:
+      'CRO improves the percentage of visitors who take desired actions. \
+It addresses barriers preventing prospects from converting to customers. \
+Data-driven testing identifies what changes increase conversions. \
+CRO complements acquisition efforts by maximizing value from existing traffic. \
+Small percentage improvements can significantly impact revenue.' 
+    },
+    { type: 'subtitle', content: 'CRO Process' },
+    { type: 'text', content:
+      'Research: Analytics review, user feedback, usability testing. \
+Hypothesis: Proposed change and expected impact. \
+Test Design: A/B test, multivariate test, or sequential test. \
+Implementation: Creating variations and setting up testing platform. \
+Analysis: Statistical significance determination and result interpretation. \
+Implementation or Iteration: Rolling out winning variation or testing new hypothesis.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Optimization Areas' },
+    { type: 'text', content:
+      'Landing Pages: Headlines, copy, visuals, forms, calls-to-action. \
+Checkout Process: Steps, form fields, trust signals, payment options. \
+Pricing Pages: Plan presentation, feature comparison, social proof. \
+Navigation: Menu structure, search functionality, category organization. \
+Mobile Experience: Responsive design, touch optimization, page speed. \
+Trust Elements: Security badges, testimonials, guarantees, return policies.' 
+    }
+  ]
+},
+'customer-acquisition-10': {
+  id: 'customer-acquisition-10',
+  title: 'Acquisition Analytics and Attribution',
+  image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Acquisition Analytics and Attribution' },
+    { type: 'text', content:
+      'Analytics measure acquisition performance and inform optimization decisions. \
+Attribution models assign credit to different touchpoints in customer journey. \
+Understanding which channels drive conversions improves resource allocation. \
+Data integration provides comprehensive view of acquisition effectiveness. \
+Regular reporting identifies trends, opportunities, and issues.' 
+    },
+    { type: 'subtitle', content: 'Key Analytics' },
+    { type: 'text', content:
+      'Traffic Sources: Volume, quality , and behavior by channel. \
+Conversion Rates: Percentage of visitors converting by channel. \
+Cost per Acquisition (CPA): Expense to acquire a customer by channel. \
+Customer Lifetime Value (LTV): Revenue generated per customer by channel. \
+Return on Investment (ROI): Profitability of acquisition efforts. \
+Funnel Analysis: Drop-off points and conversion rates at each stage.'
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Attribution Models' },
+    { type: 'text', content:
+      'Last Click: 100% credit to final touchpoint before conversion. \
+First Click: 100% credit to initial touchpoint. \
+Linear: Equal credit to all touchpoints. \
+Time Decay: More credit to touchpoints closer to conversion. \
+Position-Based: 40% credit to first and last touchpoints, 20% to others. \
+Data-Driven: Algorithmic credit assignment based on actual performance data.'
+    }
+  ]
+},
+
+// =======Legal Basics=======
+
+'legal-basics-1': {
+  id: 'legal-basics-1',
+  title: 'Business Entity Selection',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Business Entity Selection' },
+    { type: 'text', content:
+      'Choosing the right legal structure is one of the most important early business decisions. \
+Different entities offer varying levels of liability protection, tax treatment, and administrative requirements. \
+The choice affects personal liability, fundraising ability, and operational flexibility. \
+Many entrepreneurs start with a simple structure and evolve as the business grows. \
+Professional legal advice is recommended for making this critical decision.' 
+    },
+    { type: 'subtitle', content: 'Common Entity Types' },
+    { type: 'text', content:
+      'Sole Proprietorship: Simplest form, no legal distinction between owner and business. \
+Partnership: Two or more owners sharing profits and liabilities. \
+Limited Liability Company (LLC): Hybrid structure with liability protection and pass-through taxation. \
+Corporation (C-Corp): Separate legal entity with strongest liability protection. \
+S Corporation: Special tax status for corporations meeting IRS requirements. \
+Benefit Corporation: For-profit with legally defined social/environmental purposes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Selection Considerations' },
+    { type: 'text', content:
+      'Liability Protection: Personal asset protection from business debts/lawsuits. \
+Tax Implications: How business income is taxed (pass-through vs. corporate). \
+Administrative Burden: Record-keeping, reporting, and compliance requirements. \
+Fundraising Plans: Investor preferences (VCs typically require C-Corps). \
+Growth Plans: Future expansion, potential acquisition or IPO. \
+State Requirements: Registration and ongoing compliance costs vary by state.' 
+    }
+  ]
+},
+'legal-basics-2': {
+  id: 'legal-basics-2',
+  title: 'Intellectual Property Protection',
+  image: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Intellectual Property Protection' },
+    { type: 'text', content:
+      'Intellectual property (IP) refers to creations of the mind that have commercial value. \
+Protecting IP is crucial for maintaining competitive advantage and company value. \
+Different types of IP require different protection strategies and registrations. \
+IP rights can be licensed, sold, or used as collateral for financing. \
+Early IP strategy prevents costly disputes and loss of rights.' 
+    },
+    { type: 'subtitle', content: 'IP Types and Protections' },
+    { type: 'text', content:
+      'Patents: Protect inventions and processes (20 years from filing). \
+Trademarks: Protect brands, logos, and slogans (renewable indefinitely). \
+Copyrights: Protect original creative works (life + 70 years). \
+Trade Secrets: Protect confidential business information (indefinite if kept secret). \
+Design Patents: Protect ornamental designs of functional items (15 years). \
+Domain Names: Internet addresses, registered through ICANN-accredited registrars.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Protection Strategies' },
+    { type: 'text', content:
+      'Document Creation: Date and sign all creative work. \
+Employment Agreements: Ensure IP created by employees belongs to company. \
+Non-Disclosure Agreements (NDAs): Protect confidential discussions. \
+Registration Timing: File early to establish priority rights. \
+International Protection: Consider global markets in IP strategy. \
+Monitoring and Enforcement: Regularly check for infringements.' 
+    }
+  ]
+},
+'legal-basics-3': {
+  id: 'legal-basics-3',
+  title: 'Contracts and Agreements',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Contracts and Agreements' },
+    { type: 'text', content:
+      'Contracts are legally binding agreements between parties that define rights and obligations. \
+Well-drafted contracts prevent misunderstandings and provide remedies if problems arise. \
+Different business relationships require different types of agreements. \
+Oral contracts can be legally binding but are difficult to prove and enforce. \
+Professional legal review is recommended for significant contracts.' 
+    },
+    { type: 'subtitle', content: 'Essential Contract Elements' },
+    { type: 'text', content:
+      'Offer and Acceptance: Clear proposal and unambiguous acceptance. \
+Consideration: Something of value exchanged between parties. \
+Legal Purpose: Contract must be for lawful activities. \
+Competent Parties: All parties must have legal capacity to contract. \
+Mutual Assent: All parties must understand and agree to terms. \
+Written Form: Required for certain contracts (real estate, long-term, large amounts).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Common Business Contracts' },
+    { type: 'text', content:
+      'Employment Agreements: Terms of employment, including IP and confidentiality. \
+Non-Disclosure Agreements (NDAs): Protect confidential information sharing. \
+Service Agreements: Terms for providing or receiving services. \
+Partnership Agreements: Define roles, responsibilities, and profit sharing. \
+Vendor/Supplier Contracts: Terms for purchasing goods or services. \
+Licensing Agreements: Permission to use IP under specified conditions.' 
+    }
+  ]
+},
+'legal-basics-4': {
+  id: 'legal-basics-4',
+  title: 'Employment Law Basics',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Employment Law Basics' },
+    { type: 'text', content:
+      'Employment law governs relationships between employers and employees. \
+Compliance is critical to avoid lawsuits, penalties, and reputational damage. \
+Laws vary by location, size of company, and type of employees. \
+Proper documentation and consistent policies reduce legal risks. \
+Regular review of employment practices helps maintain compliance as laws change.' 
+    },
+    { type: 'subtitle', content: 'Key Areas' },
+    { type: 'text', content:
+      'Hiring: Non-discrimination laws, background checks, job offers. \
+Compensation: Minimum wage, overtime, equal pay, payroll taxes. \
+Classification: Employee vs. contractor distinctions (misclassification risks). \
+Workplace Safety: OSHA requirements for safe working conditions. \
+Anti-Discrimination: Protected classes, harassment prevention, accommodation. \
+Termination: At-will employment, wrongful discharge, severance.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Compliance Essentials' },
+    { type: 'text', content:
+      'Employee Handbook: Clear policies consistently applied. \
+Proper Classification: Careful distinction between employees and contractors. \
+Record Keeping: Time tracking, payroll records, personnel files. \
+Required Posters: Federal and state labor law posters displayed. \
+Training: Anti-harassment, safety, and compliance training. \
+Documentation: Performance reviews, disciplinary actions, accommodations.' 
+    }
+  ]
+},
+'legal-basics-5': {
+  id: 'legal-basics-5',
+  title: 'Privacy and Data Protection',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Privacy and Data Protection' },
+    { type: 'text', content:
+      'Data protection laws regulate how businesses collect, use, and store personal information. \
+Non-compliance can result in significant fines, lawsuits, and reputational damage. \
+Global regulations like GDPR and CCPA have raised standards worldwide. \
+Privacy should be considered in product design, not added as an afterthought. \
+Regular audits and updates ensure ongoing compliance.' 
+    },
+    { type: 'subtitle', content: 'Key Regulations' },
+    { type: 'text', content:
+      'GDPR (EU): Comprehensive data protection for EU residents, regardless of company location. \
+CCPA/CPRA (California): Similar protections for California residents. \
+HIPAA (US): Health information privacy for healthcare organizations. \
+COPPA (US): Protection of children\'s online privacy. \
+Sector-Specific Laws: Financial (GLBA), educational (FERPA), etc. \
+State Laws: Growing number of state privacy laws in the US.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Compliance Requirements' },
+    { type: 'text', content:
+      'Privacy Policy: Clear disclosure of data practices. \
+Consent Mechanisms: Opt-in for data collection and specific uses. \
+Data Security: Reasonable protection measures for collected data. \
+Data Subject Rights: Processes for access, correction, deletion requests. \
+Data Processing Agreements: Contracts with vendors handling personal data. \
+Breach Notification: Timely reporting of data breaches to authorities and affected individuals.' 
+    }
+  ]
+},
+'legal-basics-6': {
+  id: 'legal-basics-6',
+  title: 'Regulatory Compliance',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Regulatory Compliance' },
+    { type: 'text', content:
+      'Regulatory compliance involves adhering to laws, regulations, and standards relevant to your business. \
+Industries have different regulatory requirements (finance, healthcare, food, etc.). \
+Compliance failures can result in fines, lawsuits, and business closure. \
+Proactive compliance programs reduce risks and build customer trust. \
+Regulations evolve, requiring ongoing monitoring and adaptation.' 
+    },
+    { type: 'subtitle', content: 'Common Regulatory Areas' },
+    { type: 'text', content:
+      'Industry-Specific: Healthcare (HIPAA), finance (SEC, FINRA), food (FDA). \
+Advertising: Truth in advertising, endorsement disclosures, comparative claims. \
+Environmental: Waste disposal, emissions, hazardous materials handling. \
+Import/Export: Customs, tariffs, restricted goods, trade sanctions. \
+Consumer Protection: Product safety, warranties, returns, advertising claims. \
+Accessibility: ADA requirements for physical and digital accessibility.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Compliance Program' },
+    { type: 'text', content:
+      'Risk Assessment: Identify applicable regulations and compliance gaps. \
+Policies and Procedures: Documented processes for compliance activities. \
+Training: Employee education on compliance requirements. \
+Monitoring and Auditing: Regular checks for compliance adherence. \
+Reporting Systems: Mechanisms for reporting potential violations. \
+Corrective Actions: Processes for addressing compliance failures.' 
+    }
+  ]
+},
+'legal-basics-7': {
+  id: 'legal-basics-7',
+  title: 'Founder Agreements and Equity',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Founder Agreements and Equity' },
+    { type: 'text', content:
+      'Founder agreements prevent disputes by clarifying roles, responsibilities, and ownership. \
+Equity allocation should reflect contributions, risk, and future expectations. \
+Vesting schedules protect the company if founders leave early. \
+Clear agreements facilitate future fundraising and reduce investor concerns. \
+Many startup failures result from founder disputes that could have been prevented.' 
+    },
+    { type: 'subtitle', content: 'Agreement Elements' },
+    { type: 'text', content:
+      'Equity Split: Ownership percentages among founders. \
+Vesting Schedule: Gradual earning of equity over time (typically 4 years). \
+Cliff Period: Initial period (typically 1 year) before any equity vests. \
+Roles and Responsibilities: Clear division of duties and decision authority. \
+Intellectual Property: Assignment of IP created before and during employment. \
+Departure Terms: What happens if a founder leaves (buyout provisions).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Equity Considerations' },
+    { type: 'text', content:
+      'Future Dilution: Plan for investor rounds and employee stock options. \
+Advisor Equity: Standard amounts for different levels of advisor involvement. \
+Employee Options: Equity incentives for early employees. \
+83(b) Election: Tax strategy for early equity grants. \
+Cap Table Management: Track ownership percentages and dilution. \
+Equity vs. Salary: Balancing cash compensation with equity for early-stage companies.' 
+    }
+  ]
+},
+'legal-basics-8': {
+  id: 'legal-basics-8',
+  title: 'Risk Management and Insurance',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Risk Management and Insurance' },
+    { type: 'text', content:
+      'Risk management identifies, assesses, and prioritizes business risks. \
+Insurance transfers certain risks to third parties for a premium. \
+Different businesses face different risks requiring specific coverage. \
+Adequate insurance is often required by investors, landlords, and clients. \
+Regular risk assessment helps businesses adapt to changing threats.' 
+    },
+    { type: 'subtitle', content: 'Common Business Insurance' },
+    { type: 'text', content:
+      'General Liability: Covers bodily injury, property damage, advertising injury. \
+Professional Liability (Errors & Omissions): Covers negligence claims for services. \
+Cyber Liability: Covers data breaches and cyber attacks. \
+Directors & Officers (D&O): Protects company leaders from personal liability. \
+Workers\' Compensation: Required for employees, covers work-related injuries. \
+Property Insurance: Covers business property against damage or loss.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Risk Management Process' },
+    { type: 'text', content:
+      'Risk Identification: Systematic review of potential threats. \
+Risk Assessment: Evaluate likelihood and potential impact. \
+Risk Prioritization: Focus on high-probability, high-impact risks. \
+Risk Mitigation: Implement controls to reduce likelihood or impact. \
+Risk Transfer: Insurance or contracts shifting risk to others. \
+Risk Monitoring: Regular review and adjustment of risk management strategies.' 
+    }
+  ]
+},
+'legal-basics-9': {
+  id: 'legal-basics-9',
+  title: 'Dispute Resolution Strategies',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Dispute Resolution Strategies' },
+    { type: 'text', content:
+      'Business disputes are inevitable; how they\'re resolved affects costs and relationships. \
+Different resolution methods offer varying degrees of cost, speed, and control. \
+Contracts should include dispute resolution clauses to provide certainty. \
+Early resolution is typically cheaper and less damaging than litigation. \
+Preserving business relationships can be as important as "winning" disputes.' 
+    },
+    { type: 'subtitle', content: 'Resolution Methods' },
+    { type: 'text', content:
+      'Negotiation: Direct discussion between parties to reach agreement. \
+Mediation: Neutral third party facilitates negotiation without deciding outcome. \
+Arbitration: Neutral third party makes binding decision after hearing evidence. \
+Litigation: Formal court process with judge/jury deciding outcome. \
+Each method differs in cost, time, privacy, and relationship preservation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Prevention and Management' },
+    { type: 'text', content:
+      'Clear Contracts: Well-drafted agreements prevent misunderstandings. \
+Documentation: Maintain records of agreements, changes, and communications. \
+Relationship Management: Regular communication and issue addressing. \
+Escalation Process: Defined steps for resolving disagreements before formal dispute. \
+Legal Counsel: Early involvement of attorneys for significant disputes. \
+Cost-Benefit Analysis: Consider resolution costs versus potential outcomes.' 
+    }
+  ]
+},
+'legal-basics-10': {
+  id: 'legal-basics-10',
+  title: 'Working with Legal Professionals',
+  image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Working with Legal Professionals' },
+    { type: 'text', content:
+      'Effective collaboration with attorneys maximizes value while controlling costs. \
+Different legal needs require different types of legal professionals. \
+Clear communication and preparation reduce legal bills and improve outcomes. \
+Building long-term relationships with trusted counsel provides consistency. \
+Understanding billing practices helps manage legal expenses.' 
+    },
+    { type: 'subtitle', content: 'Legal Professional Types' },
+    { type: 'text', content:
+      'Law Firms: Range from solo practitioners to large international firms. \
+In-House Counsel: Employees focused solely on company legal matters. \
+Legal Aid/Clinics: Low-cost options for qualifying businesses. \
+Online Legal Services: Automated document preparation and review. \
+Specialists: Attorneys focused on specific areas (IP, employment, tax). \
+Generalists: Broad knowledge across multiple business law areas.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Working Effectively' },
+    { type: 'text', content:
+      'Clear Objectives: Define what you want to accomplish. \
+Organized Information: Provide complete, organized documentation. \
+Ask Questions: Ensure you understand advice and implications. \
+Consider Alternatives: Discuss different approaches and costs. \
+Budget Management: Request estimates, consider flat fees, review bills. \
+Preventive Approach: Regular legal review prevents bigger problems later.' 
+    }
+  ]
+},
+
+// ========Scaling Business=======
+
+'scaling-business-1': {
+  id: 'scaling-business-1',
+  title: 'Scaling vs. Growth Fundamentals',
+  image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Scaling vs. Growth Fundamentals' },
+    { type: 'text', content:
+      'Scaling means increasing revenue without proportional increase in costs. \
+Growth means adding resources to increase revenue (linear relationship). \
+Successful scaling requires systems, processes, and automation. \
+Premature scaling is a common startup failure cause. \
+Scaling readiness assessment determines if business is prepared for rapid expansion.' 
+    },
+    { type: 'subtitle', content: 'Scaling Indicators' },
+    { type: 'text', content:
+      'Product-Market Fit: Strong demand with satisfied customers. \
+Repeatable Processes: Consistent delivery without founder involvement. \
+Financial Health: Positive unit economics and cash flow. \
+Team Readiness: Capable team with capacity for increased responsibility. \
+Market Conditions: Favorable environment for expansion. \
+Scalable Infrastructure: Technology and systems supporting growth.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Scaling Strategies' },
+    { type: 'text', content:
+      'Market Expansion: New geographies or customer segments. \
+Product Line Extension: Additional products/services for existing customers. \
+Channel Expansion: New distribution or sales channels. \
+Acquisition: Buying competitors or complementary businesses. \
+Franchising/Licensing: Partner-based expansion with shared systems. \
+Technology Leverage: Automation and systems enabling efficiency.' 
+    }
+  ]
+},
+'scaling-business-2': {
+  id: 'scaling-business-2',
+  title: 'Operational Scaling and Process Optimization',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Operational Scaling and Process Optimization' },
+    { type: 'text', content:
+      'Operational scaling builds capacity to handle increased volume efficiently. \
+Process optimization removes bottlenecks and improves quality. \
+Documentation enables delegation and training as teams grow. \
+Automation reduces manual work and increases consistency. \
+Continuous improvement culture sustains scaling momentum.' 
+    },
+    { type: 'subtitle', content: 'Process Improvement Methods' },
+    { type: 'text', content:
+      'Process Mapping: Visual documentation of workflow steps. \
+Bottleneck Analysis: Identifying constraints limiting throughput. \
+Standard Operating Procedures (SOPs): Detailed instructions for repeated tasks. \
+Automation Opportunities: Technology replacing manual processes. \
+Quality Control Systems: Ensuring consistency at scale. \
+Performance Metrics: Tracking efficiency, quality, and capacity.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Scaling Operations' },
+    { type: 'text', content:
+      'Capacity Planning: Forecasting needs and building ahead of demand. \
+Supplier Relationships: Securing reliable sources at scale. \
+Inventory Management: Balancing availability with carrying costs. \
+Facility Planning: Physical space for increased operations. \
+Technology Infrastructure: Systems supporting larger scale. \
+Quality Assurance: Maintaining standards with increased volume.' 
+    }
+  ]
+},
+'scaling-business-3': {
+  id: 'scaling-business-3',
+  title: 'Team Scaling and Organizational Structure',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Team Scaling and Organizational Structure' },
+    { type: 'text', content:
+      'Team scaling requires strategic hiring, training, and organizational design. \
+Organizational structure evolves from flat to hierarchical as companies grow. \
+Delegation and empowerment enable founder focus on strategic priorities. \
+Culture preservation becomes challenging but critical during rapid growth. \
+Leadership development prepares team members for increased responsibility.' 
+    },
+    { type: 'subtitle', content: 'Hiring for Scale' },
+    { type: 'text', content:
+      'Strategic Hiring: Roles aligned with scaling priorities. \
+Scalable Recruitment: Systems for consistent candidate sourcing and evaluation. \
+Onboarding Programs: Efficient integration of new team members. \
+Succession Planning: Developing internal talent for key positions. \
+Diversity and Inclusion: Building diverse teams for better decision-making. \
+Remote/Hybrid Models: Flexible work arrangements accessing broader talent pools.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Organizational Evolution' },
+    { type: 'text', content:
+      'Functional Structure: Departments by function (sales, marketing, operations). \
+Divisional Structure: Teams organized by product, market, or geography. \
+Matrix Structure: Dual reporting relationships (function and project). \
+Flat vs. Hierarchical: Balancing autonomy with coordination. \
+Span of Control: Optimal number of direct reports per manager. \
+Communication Systems: Ensuring information flow across growing organization.' 
+    }
+  ]
+},
+'scaling-business-4': {
+  id: 'scaling-business-4',
+  title: 'Financial Management at Scale',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Management at Scale' },
+    { type: 'text', content:
+      'Financial systems must evolve to support larger, more complex operations. \
+Cash flow management becomes more critical with increased working capital needs. \
+Financial forecasting requires more sophistication as variables multiply. \
+Investor reporting becomes more formalized with increased stakeholder expectations. \
+Cost control remains essential despite revenue growth.' 
+    },
+    { type: 'subtitle', content: 'Financial Scaling Areas' },
+    { type: 'text', content:
+      'Accounting Systems: Upgrading from simple to enterprise systems. \
+Financial Controls: Preventing errors, fraud, and mismanagement. \
+Cash Flow Management: Forecasting and securing working capital. \
+Budgeting Process: More detailed, department-level budgeting. \
+Financial Reporting: Regular, standardized reports for management and investors. \
+Tax Planning: More complex tax considerations at scale.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Key Metrics at Scale' },
+    { type: 'text', content:
+      'Unit Economics: Cost to acquire and serve each customer. \
+Burn Rate and Runway: Cash consumption rate and remaining time. \
+Customer Lifetime Value (LTV): Total revenue from customer relationship. \
+Customer Acquisition Cost (CAC): Cost to acquire new customer. \
+LTV:CAC Ratio: Should be 3:1 or higher for healthy scaling. \
+Gross Margin: Revenue minus direct costs, indicating scalability.' 
+    }
+  ]
+},
+'scaling-business-5': {
+  id: 'scaling-business-5',
+  title: 'Technology and Infrastructure Scaling',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Technology and Infrastructure Scaling' },
+    { type: 'text', content:
+      'Technology infrastructure must support increased users, transactions, and complexity. \
+Scalable architecture allows growth without complete system rewrites. \
+Technical debt becomes more costly as systems grow. \
+Security requirements increase with larger data volumes and more users. \
+Technology decisions have long-term implications for scalability.' 
+    },
+    { type: 'subtitle', content: 'Technical Scaling Areas' },
+    { type: 'text', content:
+      'Architecture: Modular, scalable design patterns. \
+Database Scaling: Handling increased data volume and access. \
+Server Infrastructure: Cloud vs. on-premise, auto-scaling capabilities. \
+API Design: Clean interfaces for internal and external integration. \
+Monitoring and Analytics: Tracking performance and identifying issues. \
+Security: Protecting larger systems and more valuable data.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Scalable Development Practices' },
+    { type: 'text', content:
+      'Microservices Architecture: Independent, scalable service components. \
+Continuous Integration/Deployment: Automated testing and deployment. \
+Infrastructure as Code: Programmable, reproducible infrastructure. \
+Performance Testing: Load and stress testing before scaling events. \
+Disaster Recovery: Systems for business continuity during failures. \
+Technical Roadmap: Planning technology evolution alongside business growth.' 
+    }
+  ]
+},
+'scaling-business-6': {
+  id: 'scaling-business-6',
+  title: 'Market Expansion Strategies',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Market Expansion Strategies' },
+    { type: 'text', content:
+      'Market expansion increases revenue by reaching new customers or geographies. \
+Different expansion strategies have varying risk, cost, and control trade-offs. \
+Local market success doesn\'t guarantee success in new markets. \
+Cultural, regulatory, and competitive differences require adaptation. \
+Phased approach reduces risk compared to simultaneous global expansion.' 
+    },
+    { type: 'subtitle', content: 'Expansion Approaches' },
+    { type: 'text', content:
+      'Geographic Expansion: New cities, states, countries, or regions. \
+Demographic Expansion: New customer segments within existing markets. \
+Channel Expansion: New distribution or sales channels. \
+Product Expansion: New products/services for existing customers. \
+Strategic Partnerships: Leveraging partners for market access. \
+Acquisition: Buying companies with established market presence.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Expansion Planning' },
+    { type: 'text', content:
+      'Market Research: Understanding new market characteristics. \
+Competitive Analysis: Identifying established and emerging competitors. \
+Regulatory Compliance: Meeting local laws and regulations. \
+Localization: Adapting product, marketing, and operations. \
+Resource Allocation: People, capital, and time required. \
+Success Metrics: Clear goals and measurement for expansion efforts.' 
+    }
+  ]
+},
+'scaling-business-7': {
+  id: 'scaling-business-7',
+  title: 'Culture Preservation During Growth',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Culture Preservation During Growth' },
+    { type: 'text', content:
+      'Company culture naturally evolves during rapid scaling. \
+Intentional culture preservation maintains values that contributed to early success. \
+Cultural dilution is common as new employees join faster than cultural transmission. \
+Founder involvement in culture becomes less direct but remains critical. \
+Strong culture improves retention, performance, and decision-making alignment.' 
+    },
+    { type: 'subtitle', content: 'Culture Elements to Preserve' },
+    { type: 'text', content:
+      'Core Values: Fundamental beliefs guiding behavior and decisions. \
+Working Norms: Unwritten rules about how work gets done. \
+Communication Patterns: How information flows and decisions are made. \
+Recognition Practices: How contributions are acknowledged and rewarded. \
+Conflict Resolution: How disagreements are addressed. \
+Innovation Climate: How new ideas are generated and implemented.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Preservation Strategies' },
+    { type: 'text', content:
+      'Cultural Onboarding: Explicit teaching of culture to new hires. \
+Values Integration: Incorporating values into hiring, promotion, and recognition. \
+Storytelling: Sharing founder stories and company history. \
+Rituals and Traditions: Regular events reinforcing cultural elements. \
+Leadership Modeling: Leaders exemplifying desired cultural attributes. \
+Feedback Mechanisms: Regular cultural assessment and adjustment.' 
+    }
+  ]
+},
+'scaling-business-8': {
+  id: 'scaling-business-8',
+  title: 'Acquisition Integration',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Acquisition Integration' },
+    { type: 'text', content:
+      'Acquisitions accelerate scaling but introduce integration challenges. \
+Most acquisition failures result from poor integration, not poor strategy. \
+Integration planning should begin during due diligence, not after closing. \
+Cultural integration is often more challenging than operational integration. \
+Clear communication reduces uncertainty and resistance during transitions.' 
+    },
+    { type: 'subtitle', content: 'Integration Planning' },
+    { type: 'text', content:
+      'Integration Team: Dedicated team with authority and resources. \
+Communication Plan: Regular, transparent updates to all stakeholders. \
+Cultural Assessment: Understanding differences and planning integration. \
+Operational Integration: Systems, processes, and reporting alignment. \
+Talent Retention: Identifying and retaining key acquired employees. \
+Customer Transition: Maintaining service quality during integration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Integration Approaches' },
+    { type: 'text', content:
+      'Absorption: Acquired company fully integrated into acquirer. \
+Standalone: Acquired company operates independently. \
+Best of Both: Combining strongest elements from both companies. \
+Hybrid: Some functions integrated, others independent. \
+Speed Considerations: Fast integration reduces uncertainty but may cause disruption. \
+Phased Approach: Gradual integration reducing disruption risk.' 
+    }
+  ]
+},
+'scaling-business-9': {
+  id: 'scaling-business-9',
+  title: 'International Expansion',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'International Expansion' },
+    { type: 'text', content:
+      'International expansion offers growth but introduces complexity. \
+Different countries have varying regulations, cultures, and business practices. \
+Market selection should consider size, growth, competition, and ease of entry. \
+Local partners can accelerate market entry but reduce control. \
+Phased approach with learning from each market reduces risk.' 
+    },
+    { type: 'subtitle', content: 'Market Entry Strategies' },
+    { type: 'text', content:
+      'Exporting: Selling products from home country to international customers. \
+Licensing/Franchising: Partner-based model with local operators. \
+Joint Venture: Partnership with local company sharing risk and control. \
+Wholly Owned Subsidiary: Complete ownership and control in foreign market. \
+Acquisition: Buying existing local business for immediate presence. \
+Each approach offers different levels of control, risk, and resource commitment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'International Considerations' },
+    { type: 'text', content:
+      'Legal and Regulatory: Local business laws, taxes, employment regulations. \
+Cultural Adaptation: Product, marketing, and operations localization. \
+Logistics and Supply Chain: Shipping, customs, and local distribution. \
+Currency and Payment: Exchange rates, local payment methods, currency risk. \
+Intellectual Property: Protection in multiple jurisdictions. \
+Compliance: Anti-corruption laws, trade restrictions, data protection.' 
+    }
+  ]
+},
+'scaling-business-10': {
+  id: 'scaling-business-10',
+  title: 'Managing Scaling Challenges',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Managing Scaling Challenges' },
+    { type: 'text', content:
+      'Scaling introduces new challenges even as it solves old ones. \
+Common scaling challenges include cash flow constraints, talent shortages, and system breakdowns. \
+Early identification and proactive management prevent small issues from becoming crises. \
+Founder role evolution is necessary but often difficult. \
+Balancing growth with stability requires disciplined focus and decision-making.' 
+    },
+    { type: 'subtitle', content: 'Common Scaling Challenges' },
+    { type: 'text', content:
+      'Cash Flow Management: Working capital needs increase faster than revenue. \
+Talent Acquisition: Finding enough qualified people quickly. \
+Quality Maintenance: Consistent product/service delivery at scale. \
+System Failures: Technology and operational breakdowns under load. \
+Founder Role Transition: Shifting from doer to leader. \
+Cultural Dilution: Maintaining culture with rapid team growth.'
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Management Strategies' },
+    { type: 'text', content:
+      'Regular Financial Review: Monitor cash flow and financial health. \
+Strategic Hiring: Focused recruitment aligned with scaling needs. \
+Process Documentation: Clear SOPs for consistent operations. \
+Technology Investment: Scalable systems and infrastructure. \
+Leadership Development: Training and mentoring for evolving roles. \
+Cultural Initiatives: Programs to preserve and transmit culture.'
+    }
+  ]
+},
+
+// =======Resume Essentials=======
+
+'resume-essentials-1': {
+  id: 'resume-essentials-1',
+  title: 'Resume Structure and Formatting',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Resume Structure and Formatting' },
+    { type: 'text', content:
+      'A well-structured resume immediately communicates professionalism and clarity. \
+The format should enhance readability while highlighting your most relevant qualifications. \
+Different industries may prefer different resume styles and structures. \
+Consistent formatting creates visual harmony and makes information easy to scan. \
+ATS (Applicant Tracking Systems) require specific formatting considerations to ensure parsing accuracy.' 
+    },
+    { type: 'subtitle', content: 'Essential Resume Sections' },
+    { type: 'text', content:
+      'Contact Information: Name, phone, email, LinkedIn URL, location. \
+Professional Summary: 3-4 sentence overview of qualifications and career goals. \
+Work Experience: Reverse chronological listing with achievements and responsibilities. \
+Education: Degrees, institutions, graduation dates, and relevant honors. \
+Skills: Technical, software, language, and professional competencies. \
+Additional Sections: Certifications, projects, publications, or volunteer work as relevant.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Formatting Best Practices' },
+    { type: 'text', content:
+      'Length: Typically 1-2 pages depending on experience level. \
+Font Choice: Professional, readable fonts like Arial, Calibri, or Georgia. \
+Margins: Consistent margins (0.5-1 inch) for balanced white space. \
+Bullet Points: Use action-oriented bullet points for experience descriptions. \
+Consistency: Uniform formatting for dates, headings, and spacing throughout. \
+ATS Optimization: Avoid headers/footers, use standard section headings, include keywords.' 
+    }
+  ]
+},
+'resume-essentials-2': {
+  id: 'resume-essentials-2',
+  title: 'Achievement-Based Resume Writing',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Achievement-Based Resume Writing' },
+    { type: 'text', content:
+      'Modern resumes emphasize achievements and impact rather than just responsibilities. \
+Quantifiable results demonstrate your value and differentiate you from other candidates. \
+The CAR (Challenge-Action-Result) or STAR (Situation-Task-Action-Result) methods provide effective frameworks. \
+Achievement-focused language shows what you can deliver, not just what you were assigned. \
+Tailoring achievements to target roles increases relevance and impact.' 
+    },
+    { type: 'subtitle', content: 'Achievement Categories' },
+    { type: 'text', content:
+      'Revenue Impact: Increased sales, secured deals, improved profit margins. \
+Cost Reduction: Reduced expenses, optimized processes, negotiated better terms. \
+Efficiency Gains: Improved productivity, reduced time-to-completion, automated processes. \
+Quality Improvements: Enhanced accuracy, reduced errors, improved customer satisfaction. \
+Growth Metrics: Expanded market share, increased user base, grew team/department. \
+Innovation: Implemented new systems, developed novel solutions, created new programs.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Writing Powerful Bullet Points' },
+    { type: 'text', content:
+      'Action Verbs: Begin with strong verbs (led, managed, developed, increased). \
+Quantification: Include numbers, percentages, dollar amounts, timeframes. \
+Relevance: Prioritize achievements most relevant to target position. \
+Context: Provide enough context to understand scope and significance. \
+Clarity: Use clear, concise language without jargon or acronyms. \
+Variety: Mix different types of achievements to show well-rounded capabilities.' 
+    }
+  ]
+},
+'resume-essentials-3': {
+  id: 'resume-essentials-3',
+  title: 'Tailoring Your Resume',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Tailoring Your Resume' },
+    { type: 'text', content:
+      'Generic resumes rarely stand out in competitive job markets. \
+Tailoring demonstrates genuine interest and shows how you specifically fit the role. \
+Each application should highlight different aspects of your background. \
+Keyword optimization for both ATS and human readers increases success rates. \
+Strategic tailoring takes time but significantly improves interview callback rates.' 
+    },
+    { type: 'subtitle', content: 'Tailoring Strategies' },
+    { type: 'text', content:
+      'Keyword Analysis: Identify keywords from job descriptions and industry terminology. \
+Priority Alignment: Reorder bullet points to match job requirement priorities. \
+Custom Summary: Adjust professional summary to reflect role-specific qualifications. \
+Relevant Experience: Emphasize most relevant roles and responsibilities. \
+Skill Highlighting: Feature skills specifically mentioned in job description. \
+Industry Language: Use appropriate terminology and phrasing for the target industry.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Efficient Tailoring Process' },
+    { type: 'text', content:
+      'Master Resume: Maintain comprehensive document with all experiences. \
+Template Creation: Develop base templates for different career paths. \
+Quick-Customize Method: Identify and adjust top third of resume for each application. \
+ATS Check: Verify keyword inclusion matches job description priorities. \
+Human Readability: Ensure tailored version flows naturally and tells cohesive story. \
+Version Control: Keep track of different versions for different applications.' 
+    }
+  ]
+},
+'resume-essentials-4': {
+  id: 'resume-essentials-4',
+  title: 'ATS Optimization',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'ATS Optimization' },
+    { type: 'text', content:
+      'Applicant Tracking Systems screen resumes before human review. \
+Over 90% of large companies and 75% of midsize companies use ATS software. \
+Proper formatting and keyword strategy are essential for passing automated screening. \
+ATS-friendly resumes also tend to be more readable for human reviewers. \
+Understanding how ATS works dramatically improves application success rates.' 
+    },
+    { type: 'subtitle', content: 'ATS-Friendly Formatting' },
+    { type: 'text', content:
+      'Simple Layouts: Avoid columns, tables, graphics, and complex formatting. \
+Standard Headings: Use common section titles like "Work Experience" and "Education". \
+Font Choices: Use standard fonts like Arial, Calibri, Georgia, or Times New Roman. \
+File Types: Submit as .docx or .pdf (unless specific instructions say otherwise). \
+No Headers/Footers: Important information should be in main document body. \
+Text-Based: Avoid images, charts, or non-standard symbols that may not parse correctly.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Keyword Strategy' },
+    { type: 'text', content:
+      'Job Description Analysis: Extract important keywords and phrases. \
+Natural Integration: Include keywords naturally within context. \
+Skill Section: Create dedicated skills section with relevant keywords. \
+Synonyms: Include variations and synonyms of important terms. \
+Industry Terms: Incorporate standard industry terminology and acronyms. \
+Location Keywords: Include relevant geographic terms if location-specific.' 
+    }
+  ]
+},
+'resume-essentials-5': {
+  id: 'resume-essentials-5',
+  title: 'Recent Graduate Resumes',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Recent Graduate Resumes' },
+    { type: 'text', content:
+      'Recent graduates must leverage academic and extracurricular experiences effectively. \
+The resume should bridge academic accomplishments to professional capabilities. \
+Transferable skills from coursework, projects, and activities demonstrate readiness. \
+Strategic presentation compensates for limited professional experience. \
+Clear career objectives help employers understand your direction and potential.' 
+    },
+    { type: 'subtitle', content: 'Experience Alternatives' },
+    { type: 'text', content:
+      'Academic Projects: Major assignments, research papers, capstone projects. \
+Internships: Summer positions, co-op programs, part-time related work. \
+Extracurricular Activities: Club leadership, organization participation, event planning. \
+Volunteer Work: Community service, nonprofit involvement, pro bono projects. \
+Coursework: Relevant classes, specialized training, certifications. \
+Freelance/Gig Work: Independent projects, contract work, consulting assignments.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Graduate Resume Strategies' },
+    { type: 'text', content:
+      'Education First: Place education section near top until you have 2+ years experience. \
+Project Highlights: Detail significant academic projects with outcomes and skills used. \
+Skill Emphasis: Develop robust skills section with both hard and soft skills. \
+Objective Statement: Consider including career objective if changing fields or targeting specific roles. \
+Achievement Language: Frame all experiences with accomplishment-oriented descriptions. \
+Relevance Filter: Include only experiences relevant to target positions.' 
+    }
+  ]
+},
+'resume-essentials-6': {
+  id: 'resume-essentials-6',
+  title: 'Career Change Resumes',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Career Change Resumes' },
+    { type: 'text', content:
+      'Career changers must frame existing experience as valuable to new field. \
+Transferable skills become the bridge between previous and target careers. \
+The resume narrative should explain the change and show commitment to new direction. \
+Relevant coursework, certifications, or projects can demonstrate new field competency. \
+Networking and informational interviews become especially important alongside resume strategy.' 
+    },
+    { type: 'subtitle', content: 'Transferable Skill Categories' },
+    { type: 'text', content:
+      'Leadership: Team management, project direction, mentoring, training. \
+Communication: Writing, presenting, negotiating, client relations, public speaking. \
+Analytical: Data analysis, research, problem-solving, critical thinking. \
+Technical: Software proficiency, systems knowledge, technical writing. \
+Project Management: Planning, organization, budgeting, timeline management. \
+Adaptability: Learning new systems, managing change, cross-functional collaboration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Career Change Resume Structure' },
+    { type: 'text', content:
+      'Summary Statement: Clearly state career change objective and relevant transferable skills. \
+Skills Section: Prominently feature skills applicable to new field. \
+Relevant Experience: Group transferable experiences by skill category rather than chronology. \
+Education/Training: Highlight recent relevant coursework, certifications, or training. \
+Projects: Include volunteer, freelance, or personal projects in new field. \
+Chronological Adaptation: Use hybrid format combining functional and chronological elements.' 
+    }
+  ]
+},
+'resume-essentials-7': {
+  id: 'resume-essentials-7',
+  title: 'Executive and Senior Level Resumes',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Executive and Senior Level Resumes' },
+    { type: 'text', content:
+      'Executive resumes emphasize leadership, strategy, and business impact. \
+The focus shifts from tasks to organizational influence and bottom-line results. \
+Longer career histories require strategic curation rather than comprehensive listing. \
+Branding and value proposition become central to the resume narrative. \
+Board positions, publications, speaking engagements, and industry recognition gain importance.' 
+    },
+    { type: 'subtitle', content: 'Executive Resume Elements' },
+    { type: 'text', content:
+      'Executive Summary: Compelling overview of leadership philosophy and major accomplishments. \
+Leadership Achievements: Significant organizational impact, growth, and transformation results. \
+P&L Responsibility: Budget sizes, revenue growth, cost management achievements. \
+Strategic Initiatives: Major projects, expansions, mergers, or transformations led. \
+Team Leadership: Department/division sizes, team development, succession planning. \
+Industry Recognition: Awards, publications, speaking engagements, board positions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Senior Level Strategies' },
+    { type: 'text', content:
+      'Selective Inclusion: Include only last 15-20 years of most relevant experience. \
+Achievement Focus: Lead with major accomplishments rather than chronological listing. \
+Quantified Impact: Emphasize measurable business results and organizational improvements. \
+Brand Statement: Develop clear personal leadership brand and value proposition. \
+Strategic Positioning: Frame experience in context of industry trends and challenges. \
+Customization: Tailor extensively for each opportunity based on specific organizational needs.' 
+    }
+  ]
+},
+'resume-essentials-8': {
+  id: 'resume-essentials-8',
+  title: 'Technical and Creative Resumes',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Technical and Creative Resumes' },
+    { type: 'text', content:
+      'Technical resumes emphasize specific skills, tools, and project experience. \
+Creative resumes balance aesthetic appeal with readability and ATS compatibility. \
+Portfolio links become essential supplementary materials. \
+Technical resumes require careful categorization of skills and technologies. \
+Creative professionals may have more flexibility with design but must maintain professionalism.' 
+    },
+    { type: 'subtitle', content: 'Technical Resume Features' },
+    { type: 'text', content:
+      'Technical Skills Section: Detailed categorization of languages, tools, and platforms. \
+Project Descriptions: Specific technical challenges, solutions, and outcomes. \
+Methodologies: Experience with Agile, Scrum, DevOps, or other frameworks. \
+Certifications: Technical certifications, training programs, and continuing education. \
+Open Source Contributions: GitHub repositories, community projects, technical writing. \
+System Architectures: Experience with specific systems, integrations, or infrastructure.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Creative Resume Considerations' },
+    { type: 'subtitle', content: 'Creative Resume Considerations' },
+    { type: 'text', content:
+      'Portfolio Integration: Clear links to online portfolio or work samples. \
+Visual Hierarchy: Strategic use of typography, spacing, and layout elements. \
+Brand Consistency: Design that reflects personal or professional brand aesthetic. \
+Content Balance: Enough creative flair to stand out while maintaining readability. \
+Multiple Versions: Traditional ATS version plus designed creative version. \
+Industry Standards: Research expectations within specific creative field or company.' 
+    }
+  ]
+},
+'resume-essentials-9': {
+  id: 'resume-essentials-9',
+  title: 'Resume Review and Refinement',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Resume Review and Refinement' },
+    { type: 'text', content:
+      'Regular resume updates keep your career document current and ready for opportunities. \
+External feedback provides perspective on clarity, impact, and potential improvements. \
+Multiple rounds of refinement typically produce stronger results. \
+Review should consider both content quality and presentation effectiveness. \
+The resume should evolve as your career progresses and goals change.' 
+    },
+    { type: 'subtitle', content: 'Review Checklist' },
+    { type: 'text', content:
+      'Clarity: Clear, concise language without jargon or ambiguity. \
+Impact: Achievement-focused descriptions with quantifiable results. \
+Relevance: Content tailored to target roles and industries. \
+Formatting: Consistent, professional appearance with good readability. \
+Accuracy: Correct dates, titles, company names, and contact information. \
+Completeness: All necessary sections included with appropriate detail.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Refinement Process' },
+    { type: 'text', content:
+      'Self-Review: Read aloud for flow, check for typos, assess overall impression. \
+Peer Feedback: Colleagues in your field can assess technical accuracy and relevance. \
+Mentor Review: Experienced professionals can provide strategic career perspective. \
+Professional Review: Consider paid services for high-stakes career transitions. \
+ATS Testing: Use free online tools to check parsing and keyword optimization. \
+Continuous Updates: Add new accomplishments quarterly, major overhaul annually.' 
+    }
+  ]
+},
+'resume-essentials-10': {
+  id: 'resume-essentials-10',
+  title: 'Cover Letter Integration',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cover Letter Integration' },
+    { type: 'text', content:
+      'Cover letters complement resumes by providing narrative context and demonstrating communication skills. \
+Not all employers require cover letters, but well-crafted ones can differentiate candidates. \
+The cover letter should expand on selected resume points rather than repeat information. \
+Effective cover letters show research, enthusiasm, and specific fit for the role. \
+Digital applications require both traditional and email cover letter approaches.' 
+    },
+    { type: 'subtitle', content: 'Cover Letter Elements' },
+    { type: 'text', content:
+      'Opening: Specific position reference and brief expression of enthusiasm. \
+Connection: How you learned about position and why it interests you. \
+Qualifications: 2-3 key strengths with brief examples linking to role requirements. \
+Company Research: Demonstration of knowledge about organization and its needs. \
+Closing: Appreciation, availability for interview, proactive follow-up statement. \
+Professional Format: Business letter structure with appropriate salutation and closing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Resume-Cover Letter Integration' },
+    { type: 'text', content:
+      'Consistent Branding: Matching visual style and professional tone. \
+Complementary Content: Cover letter expands on selected resume highlights. \
+Keyword Alignment: Both documents should reflect same important keywords. \
+Unified Narrative: Together they tell cohesive career story and value proposition. \
+Strategic Emphasis: Cover letter emphasizes different aspects for different applications. \
+Digital Considerations: Email cover letters require different formatting than attached letters.' 
+    }
+  ]
+},
+
+// =======Interview Prep=======
+
+'resume-essentials-1': {
+  id: 'resume-essentials-1',
+  title: 'Resume Structure and Formatting',
+  image: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Resume Structure and Formatting' },
+    { type: 'text', content:
+      'A well-structured resume immediately communicates professionalism and clarity. \
+The format should enhance readability while highlighting your most relevant qualifications. \
+Different industries may prefer different resume styles and structures. \
+Consistent formatting creates visual harmony and makes information easy to scan. \
+ATS (Applicant Tracking Systems) require specific formatting considerations to ensure parsing accuracy.' 
+    },
+    { type: 'subtitle', content: 'Essential Resume Sections' },
+    { type: 'text', content:
+      'Contact Information: Name, phone, email, LinkedIn URL, location. \
+Professional Summary: 3-4 sentence overview of qualifications and career goals. \
+Work Experience: Reverse chronological listing with achievements and responsibilities. \
+Education: Degrees, institutions, graduation dates, and relevant honors. \
+Skills: Technical, software, language, and professional competencies. \
+Additional Sections: Certifications, projects, publications, or volunteer work as relevant.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Formatting Best Practices' },
+    { type: 'text', content:
+      'Length: Typically 1-2 pages depending on experience level. \
+Font Choice: Professional, readable fonts like Arial, Calibri, or Georgia. \
+Margins: Consistent margins (0.5-1 inch) for balanced white space. \
+Bullet Points: Use action-oriented bullet points for experience descriptions. \
+Consistency: Uniform formatting for dates, headings, and spacing throughout. \
+ATS Optimization: Avoid headers/footers, use standard section headings, include keywords.' 
+    }
+  ]
+},
+'resume-essentials-2': {
+  id: 'resume-essentials-2',
+  title: 'Achievement-Based Resume Writing',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Achievement-Based Resume Writing' },
+    { type: 'text', content:
+      'Modern resumes emphasize achievements and impact rather than just responsibilities. \
+Quantifiable results demonstrate your value and differentiate you from other candidates. \
+The CAR (Challenge-Action-Result) or STAR (Situation-Task-Action-Result) methods provide effective frameworks. \
+Achievement-focused language shows what you can deliver, not just what you were assigned. \
+Tailoring achievements to target roles increases relevance and impact.' 
+    },
+    { type: 'subtitle', content: 'Achievement Categories' },
+    { type: 'text', content:
+      'Revenue Impact: Increased sales, secured deals, improved profit margins. \
+Cost Reduction: Reduced expenses, optimized processes, negotiated better terms. \
+Efficiency Gains: Improved productivity, reduced time-to-completion, automated processes. \
+Quality Improvements: Enhanced accuracy, reduced errors, improved customer satisfaction. \
+Growth Metrics: Expanded market share, increased user base, grew team/department. \
+Innovation: Implemented new systems, developed novel solutions, created new programs.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Writing Powerful Bullet Points' },
+    { type: 'text', content:
+      'Action Verbs: Begin with strong verbs (led, managed, developed, increased). \
+Quantification: Include numbers, percentages, dollar amounts, timeframes. \
+Relevance: Prioritize achievements most relevant to target position. \
+Context: Provide enough context to understand scope and significance. \
+Clarity: Use clear, concise language without jargon or acronyms. \
+Variety: Mix different types of achievements to show well-rounded capabilities.' 
+    }
+  ]
+},
+'resume-essentials-3': {
+  id: 'resume-essentials-3',
+  title: 'Tailoring Your Resume',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Tailoring Your Resume' },
+    { type: 'text', content:
+      'Generic resumes rarely stand out in competitive job markets. \
+Tailoring demonstrates genuine interest and shows how you specifically fit the role. \
+Each application should highlight different aspects of your background. \
+Keyword optimization for both ATS and human readers increases success rates. \
+Strategic tailoring takes time but significantly improves interview callback rates.' 
+    },
+    { type: 'subtitle', content: 'Tailoring Strategies' },
+    { type: 'text', content:
+      'Keyword Analysis: Identify keywords from job descriptions and industry terminology. \
+Priority Alignment: Reorder bullet points to match job requirement priorities. \
+Custom Summary: Adjust professional summary to reflect role-specific qualifications. \
+Relevant Experience: Emphasize most relevant roles and responsibilities. \
+Skill Highlighting: Feature skills specifically mentioned in job description. \
+Industry Language: Use appropriate terminology and phrasing for the target industry.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Efficient Tailoring Process' },
+    { type: 'text', content:
+      'Master Resume: Maintain comprehensive document with all experiences. \
+Template Creation: Develop base templates for different career paths. \
+Quick-Customize Method: Identify and adjust top third of resume for each application. \
+ATS Check: Verify keyword inclusion matches job description priorities. \
+Human Readability: Ensure tailored version flows naturally and tells cohesive story. \
+Version Control: Keep track of different versions for different applications.' 
+    }
+  ]
+},
+'resume-essentials-4': {
+  id: 'resume-essentials-4',
+  title: 'ATS Optimization',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'ATS Optimization' },
+    { type: 'text', content:
+      'Applicant Tracking Systems screen resumes before human review. \
+Over 90% of large companies and 75% of midsize companies use ATS software. \
+Proper formatting and keyword strategy are essential for passing automated screening. \
+ATS-friendly resumes also tend to be more readable for human reviewers. \
+Understanding how ATS works dramatically improves application success rates.' 
+    },
+    { type: 'subtitle', content: 'ATS-Friendly Formatting' },
+    { type: 'text', content:
+      'Simple Layouts: Avoid columns, tables, graphics, and complex formatting. \
+Standard Headings: Use common section titles like "Work Experience" and "Education". \
+Font Choices: Use standard fonts like Arial, Calibri, Georgia, or Times New Roman. \
+File Types: Submit as .docx or .pdf (unless specific instructions say otherwise). \
+No Headers/Footers: Important information should be in main document body. \
+Text-Based: Avoid images, charts, or non-standard symbols that may not parse correctly.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Keyword Strategy' },
+    { type: 'text', content:
+      'Job Description Analysis: Extract important keywords and phrases. \
+Natural Integration: Include keywords naturally within context. \
+Skill Section: Create dedicated skills section with relevant keywords. \
+Synonyms: Include variations and synonyms of important terms. \
+Industry Terms: Incorporate standard industry terminology and acronyms. \
+Location Keywords: Include relevant geographic terms if location-specific.' 
+    }
+  ]
+},
+'resume-essentials-5': {
+  id: 'resume-essentials-5',
+  title: 'Recent Graduate Resumes',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Recent Graduate Resumes' },
+    { type: 'text', content:
+      'Recent graduates must leverage academic and extracurricular experiences effectively. \
+The resume should bridge academic accomplishments to professional capabilities. \
+Transferable skills from coursework, projects, and activities demonstrate readiness. \
+Strategic presentation compensates for limited professional experience. \
+Clear career objectives help employers understand your direction and potential.' 
+    },
+    { type: 'subtitle', content: 'Experience Alternatives' },
+    { type: 'text', content:
+      'Academic Projects: Major assignments, research papers, capstone projects. \
+Internships: Summer positions, co-op programs, part-time related work. \
+Extracurricular Activities: Club leadership, organization participation, event planning. \
+Volunteer Work: Community service, nonprofit involvement, pro bono projects. \
+Coursework: Relevant classes, specialized training, certifications. \
+Freelance/Gig Work: Independent projects, contract work, consulting assignments.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Graduate Resume Strategies' },
+    { type: 'text', content:
+      'Education First: Place education section near top until you have 2+ years experience. \
+Project Highlights: Detail significant academic projects with outcomes and skills used. \
+Skill Emphasis: Develop robust skills section with both hard and soft skills. \
+Objective Statement: Consider including career objective if changing fields or targeting specific roles. \
+Achievement Language: Frame all experiences with accomplishment-oriented descriptions. \
+Relevance Filter: Include only experiences relevant to target positions.' 
+    }
+  ]
+},
+'resume-essentials-6': {
+  id: 'resume-essentials-6',
+  title: 'Career Change Resumes',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Career Change Resumes' },
+    { type: 'text', content:
+      'Career changers must frame existing experience as valuable to new field. \
+Transferable skills become the bridge between previous and target careers. \
+The resume narrative should explain the change and show commitment to new direction. \
+Relevant coursework, certifications, or projects can demonstrate new field competency. \
+Networking and informational interviews become especially important alongside resume strategy.' 
+    },
+    { type: 'subtitle', content: 'Transferable Skill Categories' },
+    { type: 'text', content:
+      'Leadership: Team management, project direction, mentoring, training. \
+Communication: Writing, presenting, negotiating, client relations, public speaking. \
+Analytical: Data analysis, research, problem-solving, critical thinking. \
+Technical: Software proficiency, systems knowledge, technical writing. \
+Project Management: Planning, organization, budgeting, timeline management. \
+Adaptability: Learning new systems, managing change, cross-functional collaboration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Career Change Resume Structure' },
+    { type: 'text', content:
+      'Summary Statement: Clearly state career change objective and relevant transferable skills. \
+Skills Section: Prominently feature skills applicable to new field. \
+Relevant Experience: Group transferable experiences by skill category rather than chronology. \
+Education/Training: Highlight recent relevant coursework, certifications, or training. \
+Projects: Include volunteer, freelance, or personal projects in new field. \
+Chronological Adaptation: Use hybrid format combining functional and chronological elements.' 
+    }
+  ]
+},
+'resume-essentials-7': {
+  id: 'resume-essentials-7',
+  title: 'Executive and Senior Level Resumes',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Executive and Senior Level Resumes' },
+    { type: 'text', content:
+      'Executive resumes emphasize leadership, strategy, and business impact. \
+The focus shifts from tasks to organizational influence and bottom-line results. \
+Longer career histories require strategic curation rather than comprehensive listing. \
+Branding and value proposition become central to the resume narrative. \
+Board positions, publications, speaking engagements, and industry recognition gain importance.' 
+    },
+    { type: 'subtitle', content: 'Executive Resume Elements' },
+    { type: 'text', content:
+      'Executive Summary: Compelling overview of leadership philosophy and major accomplishments. \
+Leadership Achievements: Significant organizational impact, growth, and transformation results. \
+P&L Responsibility: Budget sizes, revenue growth, cost management achievements. \
+Strategic Initiatives: Major projects, expansions, mergers, or transformations led. \
+Team Leadership: Department/division sizes, team development, succession planning. \
+Industry Recognition: Awards, publications, speaking engagements, board positions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Senior Level Strategies' },
+    { type: 'text', content:
+      'Selective Inclusion: Include only last 15-20 years of most relevant experience. \
+Achievement Focus: Lead with major accomplishments rather than chronological listing. \
+Quantified Impact: Emphasize measurable business results and organizational improvements. \
+Brand Statement: Develop clear personal leadership brand and value proposition. \
+Strategic Positioning: Frame experience in context of industry trends and challenges. \
+Customization: Tailor extensively for each opportunity based on specific organizational needs.' 
+    }
+  ]
+},
+'resume-essentials-8': {
+  id: 'resume-essentials-8',
+  title: 'Technical and Creative Resumes',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Technical and Creative Resumes' },
+    { type: 'text', content:
+      'Technical resumes emphasize specific skills, tools, and project experience. \
+Creative resumes balance aesthetic appeal with readability and ATS compatibility. \
+Portfolio links become essential supplementary materials. \
+Technical resumes require careful categorization of skills and technologies. \
+Creative professionals may have more flexibility with design but must maintain professionalism.' 
+    },
+    { type: 'subtitle', content: 'Technical Resume Features' },
+    { type: 'text', content:
+      'Technical Skills Section: Detailed categorization of languages, tools, and platforms. \
+Project Descriptions: Specific technical challenges, solutions, and outcomes. \
+Methodologies: Experience with Agile, Scrum, DevOps, or other frameworks. \
+Certifications: Technical certifications, training programs, and continuing education. \
+Open Source Contributions: GitHub repositories, community projects, technical writing. \
+System Architectures: Experience with specific systems, integrations, or infrastructure.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Creative Resume Considerations' },
+    { type: 'subtitle', content: 'Creative Resume Considerations' },
+    { type: 'text', content:
+      'Portfolio Integration: Clear links to online portfolio or work samples. \
+Visual Hierarchy: Strategic use of typography, spacing, and layout elements. \
+Brand Consistency: Design that reflects personal or professional brand aesthetic. \
+Content Balance: Enough creative flair to stand out while maintaining readability. \
+Multiple Versions: Traditional ATS version plus designed creative version. \
+Industry Standards: Research expectations within specific creative field or company.' 
+    }
+  ]
+},
+'resume-essentials-9': {
+  id: 'resume-essentials-9',
+  title: 'Resume Review and Refinement',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Resume Review and Refinement' },
+    { type: 'text', content:
+      'Regular resume updates keep your career document current and ready for opportunities. \
+External feedback provides perspective on clarity, impact, and potential improvements. \
+Multiple rounds of refinement typically produce stronger results. \
+Review should consider both content quality and presentation effectiveness. \
+The resume should evolve as your career progresses and goals change.' 
+    },
+    { type: 'subtitle', content: 'Review Checklist' },
+    { type: 'text', content:
+      'Clarity: Clear, concise language without jargon or ambiguity. \
+Impact: Achievement-focused descriptions with quantifiable results. \
+Relevance: Content tailored to target roles and industries. \
+Formatting: Consistent, professional appearance with good readability. \
+Accuracy: Correct dates, titles, company names, and contact information. \
+Completeness: All necessary sections included with appropriate detail.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Refinement Process' },
+    { type: 'text', content:
+      'Self-Review: Read aloud for flow, check for typos, assess overall impression. \
+Peer Feedback: Colleagues in your field can assess technical accuracy and relevance. \
+Mentor Review: Experienced professionals can provide strategic career perspective. \
+Professional Review: Consider paid services for high-stakes career transitions. \
+ATS Testing: Use free online tools to check parsing and keyword optimization. \
+Continuous Updates: Add new accomplishments quarterly, major overhaul annually.' 
+    }
+  ]
+},
+'resume-essentials-10': {
+  id: 'resume-essentials-10',
+  title: 'Cover Letter Integration',
+  image: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cover Letter Integration' },
+    { type: 'text', content:
+      'Cover letters complement resumes by providing narrative context and demonstrating communication skills. \
+Not all employers require cover letters, but well-crafted ones can differentiate candidates. \
+The cover letter should expand on selected resume points rather than repeat information. \
+Effective cover letters show research, enthusiasm, and specific fit for the role. \
+Digital applications require both traditional and email cover letter approaches.' 
+    },
+    { type: 'subtitle', content: 'Cover Letter Elements' },
+    { type: 'text', content:
+      'Opening: Specific position reference and brief expression of enthusiasm. \
+Connection: How you learned about position and why it interests you. \
+Qualifications: 2-3 key strengths with brief examples linking to role requirements. \
+Company Research: Demonstration of knowledge about organization and its needs. \
+Closing: Appreciation, availability for interview, proactive follow-up statement. \
+Professional Format: Business letter structure with appropriate salutation and closing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Resume-Cover Letter Integration' },
+    { type: 'text', content:
+      'Consistent Branding: Matching visual style and professional tone. \
+Complementary Content: Cover letter expands on selected resume highlights. \
+Keyword Alignment: Both documents should reflect same important keywords. \
+Unified Narrative: Together they tell cohesive career story and value proposition. \
+Strategic Emphasis: Cover letter emphasizes different aspects for different applications. \
+Digital Considerations: Email cover letters require different formatting than attached letters.' 
+    }
+  ]
+},
+
+// =======Networking Skills=======
+
+'networking-skills-1': {
+  id: 'networking-skills-1',
+  title: 'Networking Mindset and Strategy',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Networking Mindset and Strategy' },
+    { type: 'text', content:
+      'Effective networking requires shifting from transactional to relational thinking. \
+Building genuine relationships creates long-term value beyond immediate job searches. \
+Strategic networking focuses on quality connections rather than quantity. \
+Networking is a continuous process, not just an activity during job transitions. \
+The best networkers focus on giving value before asking for anything.' 
+    },
+    { type: 'subtitle', content: 'Networking Mindsets' },
+    { type: 'text', content:
+      'Abundance Mindset: Believe there are enough opportunities for everyone. \
+Generosity First: Focus on how you can help others before seeking help. \
+Long-Term Perspective: Build relationships that may yield benefits years later. \
+Authentic Connection: Seek genuine shared interests and mutual understanding. \
+Curiosity Driven: Approach networking with genuine interest in others. \
+Reciprocal Value: Look for ways to create win-win relationships.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strategic Planning' },
+    { type: 'text', content:
+      'Goal Setting: Define what you want to achieve through networking. \
+Target Identification: Identify people, companies, and industries of interest. \
+Relationship Mapping: Visualize existing network and identify gaps. \
+Resource Allocation: Dedicate regular time to networking activities. \
+Progress Tracking: Monitor networking efforts and relationship development. \
+Adaptation: Adjust strategy based on results and changing circumstances.' 
+    }
+  ]
+},
+'networking-skills-2': {
+  id: 'networking-skills-2',
+  title: 'Digital Networking Platforms',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Networking Platforms' },
+    { type: 'text', content:
+      'Digital platforms expand networking reach beyond geographic limitations. \
+Different platforms serve different purposes and require different strategies. \
+Consistent, professional presence across platforms builds credibility. \
+Active engagement rather than passive presence maximizes platform value. \
+Platform algorithms reward regular, valuable contributions and interactions.' 
+    },
+    { type: 'subtitle', content: 'Platform Strategies' },
+    { type: 'text', content:
+      'LinkedIn: Professional networking, industry insights, job opportunities. \
+Twitter/X: Industry conversations, thought leadership, real-time engagement. \
+Industry Forums: Niche communities, specialized knowledge sharing, peer connections. \
+Professional Associations: Online communities, virtual events, member directories. \
+Alumni Networks: University platforms, regional chapters, industry groups. \
+Specialized Platforms: GitHub (developers), Behance (creatives), ResearchGate (academics).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Digital Engagement' },
+    { type: 'text', content:
+      'Profile Optimization: Complete, professional profiles with clear value proposition. \
+Content Sharing: Post relevant articles, insights, and accomplishments. \
+Comment Engagement: Add value to others\' posts with thoughtful comments. \
+Connection Strategy: Personalized connection requests with context. \
+Group Participation: Active involvement in relevant professional groups. \
+Direct Messaging: Professional, respectful outreach with clear purpose.' 
+    }
+  ]
+},
+'networking-skills-3': {
+  id: 'networking-skills-3',
+  title: 'In-Person Networking Events',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'In-Person Networking Events' },
+    { type: 'text', content:
+      'In-person events provide opportunities for deeper, more memorable connections. \
+Preparation significantly increases event effectiveness and reduces social anxiety. \
+Quality conversations matter more than number of business cards collected. \
+Follow-up determines whether event connections become valuable relationships. \
+Confidence improves with practice and preparation.' 
+    },
+    { type: 'subtitle', content: 'Event Types' },
+    { type: 'text', content:
+      'Industry Conferences: Large gatherings with speakers, sessions, and networking breaks. \
+Professional Meetups: Smaller, topic-focused gatherings with like-minded professionals. \
+Association Events: Regular meetings of professional organization members. \
+Alumni Gatherings: University or former employer reunions and networking events. \
+Workshops/Seminars: Educational events with networking components. \
+Social Mixers: Less formal gatherings designed specifically for networking.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Event Strategy' },
+    { type: 'text', content:
+      'Pre-Event Research: Identify attendees, speakers, and companies of interest. \
+Goal Setting: Define specific objectives for each event. \
+Conversation Preparation: Develop talking points and questions. \
+Arrival Timing: Early arrival often provides better networking opportunities. \
+Circle Management: Graceful entry and exit from group conversations. \
+Follow-Up System: Process for organizing contacts and timely follow-up.' 
+    }
+  ]
+},
+'networking-skills-4': {
+  id: 'networking-skills-4',
+  title: 'Informational Interviews',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Informational Interviews' },
+    { type: 'text', content:
+      'Informational interviews are exploratory conversations to learn about careers, industries, or companies. \
+They provide insider perspectives without the pressure of job interviews. \
+Successful informational interviews require careful preparation and respectful approach. \
+The focus should be on learning, not job-seeking, though opportunities may emerge naturally. \
+Building relationships through informational interviews creates long-term career assets.' 
+    },
+    { type: 'subtitle', content: 'Interview Objectives' },
+    { type: 'text', content:
+      'Career Exploration: Understand different career paths and progression opportunities. \
+Industry Insight: Learn about industry trends, challenges, and future directions. \
+Company Culture: Gain insider perspective on specific organizations. \
+Role Understanding: Clarify day-to-day responsibilities and required competencies. \
+Skill Development: Identify skills needed for career advancement. \
+Connection Expansion: Build relationships with experienced professionals.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Conducting Effective Interviews' },
+    { type: 'text', content:
+      'Request Approach: Polite, specific outreach explaining your learning goals. \
+Preparation: Research the person and develop thoughtful questions. \
+Time Respect: Strict adherence to agreed duration (typically 20-30 minutes). \
+Question Quality: Focus on insights not easily found through online research. \
+Value Exchange: Consider how you might offer value in return. \
+Follow-Up: Thank-you note and periodic updates on your progress.' 
+    }
+  ]
+},
+'networking-skills-5': {
+  id: 'networking-skills-5',
+  title: 'Elevator Pitch Development',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Elevator Pitch Development' },
+    { type: 'text', content:
+      'An elevator pitch is a brief, compelling introduction that communicates your value. \
+Effective pitches are adaptable to different audiences and situations. \
+The goal is to generate interest and continue conversation, not tell your entire story. \
+Practice creates natural delivery that doesn\'t sound rehearsed or scripted. \
+Different versions may be needed for networking events, interviews, and professional meetings.' 
+    },
+    { type: 'subtitle', content: 'Pitch Components' },
+    { type: 'text', content:
+      'Opening Hook: Brief, attention-grabbing introduction or current focus. \
+Value Proposition: What you do and what makes you distinctive. \
+Evidence: Brief example or achievement demonstrating your capabilities. \
+Target Alignment: Connection to listener\'s interests or needs. \
+Conversation Starter: Question or next step that continues dialogue. \
+Memorable Close: Professional sign-off with contact information if appropriate.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Customization Strategies' },
+    { type: 'text', content:
+      'Audience Analysis: Tailor language and focus to listener\'s background. \
+Context Adaptation: Adjust length and detail based on situation. \
+Industry Language: Use appropriate terminology for specific fields. \
+Goal Alignment: Emphasize different aspects based on conversation purpose. \
+Flexible Length: Have 30-second, 60-second, and 2-minute versions ready. \
+Natural Delivery: Practice until pitch flows conversationally.' 
+    }
+  ]
+},
+'networking-skills-6': {
+  id: 'networking-skills-6',
+  title: 'Relationship Maintenance',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Relationship Maintenance' },
+    { type: 'text', content:
+      'Networking success depends more on relationship maintenance than initial connection. \
+Regular, value-added contact keeps relationships warm and productive. \
+Systematic follow-up ensures no connections are neglected. \
+Different relationships require different maintenance frequencies and approaches. \
+The goal is to become a valuable node in others\' networks, not just extract value.' 
+    },
+    { type: 'subtitle', content: 'Maintenance Activities' },
+    { type: 'text', content:
+      'Check-Ins: Periodic messages to see how contacts are doing. \
+Value Sharing: Sending relevant articles, opportunities, or introductions. \
+Congratulations: Acknowledging promotions, achievements, or milestones. \
+Event Invitations: Inviting to relevant professional events or gatherings. \
+Progress Updates: Sharing your own career developments and achievements. \
+Help Offers: Proactively offering assistance when you can provide value.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Relationship Management Systems' },
+    { type: 'text', content:
+      'Contact Organization: CRM or simple spreadsheet to track connections. \
+Interaction Logging: Record conversations, interests, and follow-up items. \
+Categorization: Group contacts by industry, relationship strength, or potential. \
+Reminder System: Schedule regular check-ins and follow-up activities. \
+Value Tracking: Note how you can potentially help each contact. \
+Reciprocity Balance: Ensure relationships remain mutually beneficial over time.' 
+    }
+  ]
+},
+'networking-skills-7': {
+  id: 'networking-skills-7',
+  title: 'Professional Associations and Groups',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Professional Associations and Groups' },
+    { type: 'text', content:
+      'Professional associations provide structured networking opportunities and industry credibility. \
+Active participation yields greater benefits than passive membership. \
+Leadership roles within associations accelerate relationship building and visibility. \
+Different associations serve different career stages and specialties. \
+Association involvement demonstrates commitment to professional development.' 
+    },
+    { type: 'subtitle', content: 'Association Benefits' },
+    { type: 'text', content:
+      'Networking Events: Conferences, chapter meetings, and special interest groups. \
+Professional Development: Workshops, certifications, and skill-building programs. \
+Industry Insights: Research, publications, and trend analysis. \
+Credibility Enhancement: Association membership signals professional commitment. \
+Leadership Opportunities: Committee roles, board positions, event organization. \
+Job Resources: Career centers, job boards, and recruitment events.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Maximizing Association Value' },
+    { type: 'text', content:
+      'Strategic Selection: Choose associations aligned with career goals and industry. \
+Active Participation: Regular attendance at events and meetings. \
+Volunteer Engagement: Committee work, event planning, or mentorship programs. \
+Contribution: Presenting, writing for publications, or sharing expertise. \
+Relationship Building: Focus on deeper connections with active members. \
+Multi-Level Involvement: Local chapter and national/international participation.' 
+    }
+  ]
+},
+'networking-skills-8': {
+  id: 'networking-skills-8',
+  title: 'Networking for Introverts',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Networking for Introverts' },
+    { type: 'text', content:
+      'Introverts can network effectively by leveraging their natural strengths. \
+Quality conversations suit introverts better than large, superficial interactions. \
+Preparation and structure reduce social anxiety and improve outcomes. \
+Digital networking often plays to introverts\' strengths. \
+Smaller, more intimate gatherings may be more productive than large events.' 
+    },
+    { type: 'subtitle', content: 'Introvert Strengths' },
+    { type: 'text', content:
+      'Deep Listening: Ability to focus intently and understand nuances. \
+Thoughtful Preparation: Tendency to research and plan thoroughly. \
+Meaningful Connections: Preference for substantive relationships over superficial ones. \
+Written Communication: Often strong at written outreach and follow-up. \
+Observational Skills: Noticing details and dynamics others might miss. \
+One-on-One Focus: Comfort with individual conversations rather than groups.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Adaptation Strategies' },
+    { type: 'text', content:
+      'Event Selection: Choose smaller, more focused networking opportunities. \
+Preparation Focus: Extensive pre-event research and conversation planning. \
+Energy Management: Schedule downtime before and after networking events. \
+Arrival Timing: Arrive early when groups are smaller and conversations easier. \
+Conversation Depth: Focus on fewer, more meaningful conversations. \
+Follow-Up Strength: Leverage written communication skills for effective follow-up.' 
+    }
+  ]
+},
+'networking-skills-9': {
+  id: 'networking-skills-9',
+  title: 'Global and Cross-Cultural Networking',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Global and Cross-Cultural Networking' },
+    { type: 'text', content:
+      'Global networking requires understanding cultural differences in professional relationships. \
+Different cultures have different norms around relationship building and business communication. \
+Virtual networking tools help bridge geographic distances. \
+Cultural intelligence improves effectiveness in diverse networking situations. \
+Global networks provide broader perspectives and opportunities.' 
+    },
+    { type: 'subtitle', content: 'Cultural Considerations' },
+    { type: 'text', content:
+      'Communication Styles: Direct vs. indirect, formal vs. informal approaches. \
+Relationship Building: Timeframes and processes for establishing trust. \
+Hierarchy Respect: Appropriate deference to position and seniority. \
+Gift-Giving Norms: Cultural expectations around gifts and reciprocation. \
+Meeting Protocols: Punctuality, agenda adherence, and decision-making processes. \
+Digital Etiquette: Platform preferences and communication norms.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Global Networking Strategies' },
+    { type: 'text', content:
+      'Cultural Research: Learn basic norms and expectations for specific cultures. \
+Adaptation Flexibility: Adjust your approach based on cultural context. \
+Language Considerations: Use clear, simple English or learn basic phrases. \
+Time Zone Management: Respect different working hours and schedule thoughtfully. \
+Platform Diversity: Use regionally popular professional platforms. \
+Patience: Allow time for relationship building across cultural differences.' 
+    }
+  ]
+},
+'networking-skills-10': {
+  id: 'networking-skills-10',
+  title: 'Networking Ethics and Etiquette',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Networking Ethics and Etiquette' },
+    { type: 'text', content:
+      'Ethical networking builds trust and sustainable relationships. \
+Professional etiquette varies by context but always requires respect and consideration. \
+Boundary awareness prevents networking from becoming intrusive or inappropriate. \
+Confidentiality and discretion are essential when discussing professional matters. \
+Long-term reputation depends more on ethical behavior than short-term gains.' 
+    },
+    { type: 'subtitle', content: 'Ethical Principles' },
+    { type: 'text', content:
+      'Transparency: Be clear about your intentions and affiliations. \
+Respect: Honor others\' time, boundaries, and confidentiality. \
+Reciprocity: Seek mutually beneficial relationships rather than one-sided extraction. \
+Authenticity: Represent yourself honestly without exaggeration. \
+Discretion: Protect confidential information shared in professional conversations. \
+Gratitude: Express appreciation for others\' time and assistance.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Professional Etiquette' },
+    { type: 'text', content:
+      'Communication Timing: Respect working hours and response time expectations. \
+Introduction Protocols: Proper procedures for requesting and making introductions. \
+Follow-Up Balance: Persistent without being pushy or intrusive. \
+Event Behavior: Professional conduct at networking events and conferences. \
+Digital Decorum: Appropriate online communication and social media interaction. \
+Relationship Transitions: Ethical approaches when changing companies or industries.' 
+    }
+  ]
+},
+
+// =======Career Planning=======
+
+'career-planning-1': {
+  id: 'career-planning-1',
+  title: 'Self-Assessment and Career Values',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Self-Assessment and Career Values' },
+    { type: 'text', content:
+      'Effective career planning begins with understanding your unique strengths, interests, and values. \
+Self-assessment provides the foundation for making intentional career decisions. \
+Regular reflection ensures your career path aligns with evolving personal priorities. \
+Multiple assessment tools can provide different perspectives on career fit. \
+Honest self-evaluation reveals both opportunities and potential blind spots.' 
+    },
+    { type: 'subtitle', content: 'Assessment Areas' },
+    { type: 'text', content:
+      'Skills Inventory: Technical abilities, transferable skills, and areas for development. \
+Interests Analysis: Activities that engage you naturally and professional topics you enjoy. \
+Values Clarification: What matters most in work (autonomy, impact, balance, growth, etc.). \
+Personality Factors: Work style preferences, communication tendencies, stress responses. \
+Motivation Drivers: What energizes you, what drains you, achievement patterns. \
+Work Environment: Ideal culture, team dynamics, physical workspace preferences.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Assessment Tools' },
+    { type: 'text', content:
+      'Strength Assessments: Identify natural talents and how to leverage them. \
+Interest Inventories: Connect personal interests with potential career paths. \
+Values Clarification: Rank work-related values to understand priorities. \
+Personality Assessments: Understand work style preferences and team dynamics. \
+Skills Audits: Catalogue existing skills and identify development gaps. \
+360 Feedback: Gather perspectives from colleagues, managers, and mentors.' 
+    }
+  ]
+},
+'career-planning-2': {
+  id: 'career-planning-2',
+  title: 'Career Path Exploration',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Career Path Exploration' },
+    { type: 'text', content:
+      'Career exploration involves researching potential paths that align with your assessment results. \
+Multiple paths may suit your skills and interests—exploration reveals the best fit. \
+Industry research, informational interviews, and job shadowing provide realistic perspectives. \
+Traditional career ladders are being replaced by more flexible, portfolio-based career models. \
+Exploration should consider both immediate opportunities and long-term growth potential.' 
+    },
+    { type: 'subtitle', content: 'Exploration Methods' },
+    { type: 'text', content:
+      'Industry Research: Market trends, growth sectors, emerging roles, and required skills. \
+Company Analysis: Organizational structures, cultural factors, and career progression patterns. \
+Role Investigation: Day-to-day responsibilities, required qualifications, and typical career paths. \
+Informational Interviews: Conversations with professionals currently in roles of interest. \
+Job Shadowing: Observing professionals in their work environments. \
+Temporary Assignments: Contract work, internships, or volunteer positions to test fit.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Path Evaluation Criteria' },
+    { type: 'text', content:
+      'Alignment Check: How well path matches skills, interests, and values. \
+Growth Potential: Advancement opportunities, skill development, and earning progression. \
+Market Demand: Current and projected demand for skills and roles. \
+Lifestyle Fit: Work-life balance, travel requirements, schedule flexibility. \
+Learning Curve: Time and effort required to develop necessary competencies. \
+Risk Assessment: Stability, industry volatility, and career transition challenges.' 
+    }
+  ]
+},
+'career-planning-3': {
+  id: 'career-planning-3',
+  title: 'Goal Setting and Action Planning',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Goal Setting and Action Planning' },
+    { type: 'text', content:
+      'Clear goals transform career aspirations into achievable plans. \
+SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) provide structure for success. \
+Career goals should balance short-term achievements with long-term vision. \
+Action plans break large goals into manageable steps with clear accountability. \
+Regular review and adjustment keep goals relevant as circumstances change.' 
+    },
+    { type: 'subtitle', content: 'Goal Categories' },
+    { type: 'text', content:
+      'Skill Development: Acquiring new competencies or improving existing ones. \
+Role Advancement: Promotion, increased responsibility, or leadership positions. \
+Career Transition: Moving to new industry, function, or type of organization. \
+Education/Certification: Formal degrees, professional certifications, specialized training. \
+Networking Goals: Relationship building, mentorship acquisition, professional visibility. \
+Work-Life Integration: Balance improvements, schedule adjustments, boundary setting.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Action Planning' },
+    { type: 'text', content:
+      'Step Identification: Break each goal into specific, sequential actions. \
+Resource Allocation: Identify time, money, and support needed for each step. \
+Timeline Creation: Establish realistic deadlines for each action item. \
+Accountability Systems: Regular check-ins, progress tracking, and milestone celebration. \
+Contingency Planning: Anticipate obstacles and develop alternative approaches. \
+Integration: Align career actions with other life priorities and responsibilities.' 
+    }
+  ]
+},
+'career-planning-4': {
+  id: 'career-planning-4',
+  title: 'Skill Development Planning',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Skill Development Planning' },
+    { type: 'text', content:
+      'Continuous skill development is essential for career growth and adaptability. \
+Skill planning should address both current role requirements and future career aspirations. \
+A mix of formal education, on-the-job learning, and self-directed study maximizes development. \
+Skill acquisition should balance technical competencies with transferable professional skills. \
+Regular skills gap analysis ensures development efforts remain relevant and strategic.' 
+    },
+    { type: 'subtitle', content: 'Skill Categories' },
+    { type: 'text', content:
+      'Technical Skills: Role-specific knowledge, tools, and methodologies. \
+Transferable Skills: Communication, leadership, problem-solving, and collaboration abilities. \
+Digital Literacy: Technology proficiency, data analysis, and digital communication skills. \
+Industry Knowledge: Sector-specific trends, regulations, and best practices. \
+Leadership Competencies: Strategic thinking, team development, and decision-making abilities. \
+Adaptive Skills: Learning agility, change management, and innovation capabilities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Development Approaches' },
+    { type: 'text', content:
+      'Formal Education: Degree programs, certifications, and structured courses. \
+On-the-Job Learning: Stretch assignments, project leadership, and cross-functional work. \
+Mentorship/Coaching: Guidance from experienced professionals and structured development relationships. \
+Self-Directed Study: Reading, online courses, and independent skill practice. \
+Professional Experiences: Conferences, workshops, and industry events. \
+Feedback Systems: Performance reviews, 360 assessments, and regular skill evaluations.' 
+    }
+  ]
+},
+'career-planning-5': {
+  id: 'career-planning-5',
+  title: 'Career Transition Strategies',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Career Transition Strategies' },
+    { type: 'text', content:
+      'Career transitions require careful planning and execution to minimize risk and maximize success. \
+Successful transitions leverage transferable skills while developing new domain expertise. \
+Timing, preparation, and network building significantly impact transition outcomes. \
+Multiple transition approaches exist, from gradual shifts to complete career changes. \
+Emotional preparation and support systems help navigate transition challenges.' 
+    },
+    { type: 'subtitle', content: 'Transition Types' },
+    { type: 'text', content:
+      'Industry Change: Moving to different sector while maintaining similar function. \
+Functional Change: Shifting to different role within same or related industry. \
+Level Transition: Moving to higher responsibility or different organizational level. \
+Entrepreneurial Shift: Starting business or moving to startup environment. \
+Geographic Relocation: Career change driven by or resulting in location change. \
+Work Style Change: Shifting from corporate to freelance, remote, or portfolio career.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Transition Planning' },
+    { type: 'text', content:
+      'Skills Assessment: Identify transferable skills and development needs for new path. \
+Research Phase: Thorough investigation of target industry, roles, and requirements. \
+Network Building: Developing connections in new field before making transition. \
+Experience Building: Volunteering, consulting, or education to build relevant experience. \
+Financial Planning: Budgeting for potential income reduction during transition period. \
+Timeline Development: Phased approach with specific milestones and checkpoints.' 
+    }
+  ]
+},
+'career-planning-6': {
+  id: 'career-planning-6',
+  title: 'Mentorship and Sponsorship',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mentorship and Sponsorship' },
+    { type: 'text', content:
+      'Mentors provide guidance, advice, and perspective based on their experience. \
+Sponsors advocate for your advancement and create opportunities within organizations. \
+Both relationships accelerate career development but serve different functions. \
+Effective mentorship requires clear expectations, mutual respect, and regular engagement. \
+Multiple mentors may address different aspects of career development.' 
+    },
+    { type: 'subtitle', content: 'Relationship Types' },
+    { type: 'text', content:
+      'Traditional Mentorship: Experienced professional guiding less experienced mentee. \
+Peer Mentoring: Colleagues at similar levels providing mutual support and accountability. \
+Reverse Mentoring: Junior professionals mentoring senior colleagues on new skills/trends. \
+Group Mentoring: One mentor working with several mentees simultaneously. \
+Sponsorship: Senior advocate creating opportunities and visibility for protégé. \
+Informal Mentoring: Natural guidance relationships without formal structure.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Relationship Development' },
+    { type: 'text', content:
+      'Mentor Identification: Finding professionals with relevant experience and willingness to help. \
+Approach Strategy: Respectful, specific requests that demonstrate preparation and seriousness. \
+Expectation Setting: Clear agreements about frequency, format, and focus of interactions. \
+Preparation: Coming to meetings with specific questions and progress updates. \
+Reciprocity: Finding ways to provide value to mentor\'s interests or needs. \
+Relationship Evolution: Adapting the relationship as career needs change over time.' 
+    }
+  ]
+},
+'career-planning-7': {
+  id: 'career-planning-7',
+  title: 'Performance and Promotion Planning',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Performance and Promotion Planning' },
+    { type: 'text', content:
+      'Strategic performance management increases promotion likelihood and career advancement. \
+Understanding organizational promotion criteria and processes is essential for planning. \
+Proactive career conversations with managers align expectations and identify development needs. \
+Documenting achievements and impact provides evidence for promotion consideration. \
+Timing and readiness assessment prevent premature promotion requests or missed opportunities.' 
+    },
+    { type: 'subtitle', content: 'Promotion Preparation' },
+    { type: 'text', content:
+      'Criteria Analysis: Understanding specific requirements for targeted promotion level. \
+Skill Gap Assessment: Identifying and addressing competencies needed for next level. \
+Visibility Building: Ensuring decision-makers are aware of your contributions and potential. \
+Relationship Development: Building support network among peers, managers, and leaders. \
+Achievement Documentation: Recording quantifiable results and impact evidence. \
+Timing Assessment: Evaluating organizational context and personal readiness factors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Advancement Strategies' },
+    { type: 'text', content:
+      'Stretch Assignments: Volunteering for projects that demonstrate next-level capabilities. \
+Mentor Guidance: Seeking advice from those who have successfully navigated similar promotions. \
+Skill Demonstration: Consistently performing at next level before formal promotion. \
+Advocacy Building: Developing sponsors who will champion your advancement. \
+Career Conversations: Regular discussions with manager about progression expectations. \
+Alternative Paths: Considering lateral moves that provide growth opportunities.' 
+    }
+  ]
+},
+'career-planning-8': {
+  id: 'career-planning-8',
+  title: 'Work-Life Integration Strategies',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Work-Life Integration Strategies' },
+    { type: 'text', content:
+      'Work-life integration focuses on creating harmony between professional and personal priorities. \
+Effective integration requires ongoing adjustment as life circumstances and career demands evolve. \
+Boundary setting protects personal time while maintaining professional effectiveness. \
+Different career stages and life situations require different integration approaches. \
+Organizational culture significantly impacts integration possibilities and challenges.' 
+    },
+    { type: 'subtitle', content: 'Integration Elements' },
+    { type: 'text', content:
+      'Time Management: Prioritization, scheduling, and protection of personal time. \
+Energy Management: Aligning work with natural energy patterns and recovery needs. \
+Boundary Setting: Clear separation or integration strategies based on preferences. \
+Flexibility Negotiation: Arrangements that accommodate personal responsibilities. \
+Support Systems: Personal and professional networks that enable integration. \
+Mindset Shifts: Changing perspectives on success, productivity, and personal fulfillment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Implementation Strategies' },
+    { type: 'text', content:
+      'Priority Clarification: Identifying what matters most across life domains. \
+Schedule Design: Creating rhythms that support both professional and personal goals. \
+Technology Boundaries: Managing digital connectivity and availability expectations. \
+Communication: Clearly expressing needs and boundaries to colleagues and family. \
+Negotiation Skills: Advocating for flexibility while demonstrating continued value. \
+Regular Assessment: Periodic review and adjustment of integration approaches.' 
+    }
+  ]
+},
+'career-planning-9': {
+  id: 'career-planning-9',
+  title: 'Career Portfolio Development',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Career Portfolio Development' },
+    { type: 'text', content:
+      'Career portfolios showcase achievements, skills, and professional evolution. \
+Portfolios provide tangible evidence of capabilities beyond traditional resumes. \
+Digital portfolios increase accessibility and demonstrate technical proficiency. \
+Regular portfolio updates ensure readiness for opportunities and career conversations. \
+Portfolios serve both external job search and internal career advancement purposes.' 
+    },
+    { type: 'subtitle', content: 'Portfolio Components' },
+    { type: 'text', content:
+      'Project Showcases: Descriptions, outcomes, and learnings from significant work. \
+Achievement Evidence: Metrics, testimonials, awards, and recognition documentation. \
+Skill Demonstrations: Samples, case studies, or certifications showing capabilities. \
+Professional Development: Training, education, and continuous learning records. \
+Thought Leadership: Articles, presentations, or contributions to professional discourse. \
+Career Narrative: Cohesive story connecting experiences and demonstrating growth.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Portfolio Development' },
+    { type: 'text', content:
+      'Content Collection: Regular gathering of work samples, feedback, and achievements. \
+Organization System: Logical structure that highlights most relevant capabilities. \
+Digital Platform: Website, LinkedIn, or portfolio platform for professional presentation. \
+Quality Selection: Choosing portfolio pieces that demonstrate range and depth of abilities. \
+Privacy Considerations: Protecting confidential information while showcasing work. \
+Regular Updates: Quarterly reviews and additions to keep portfolio current.' 
+    }
+  ]
+},
+'career-planning-10': {
+  id: 'career-planning-10',
+  title: 'Career Resilience and Adaptation',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Career Resilience and Adaptation' },
+    { type: 'text', content:
+      'Career resilience enables navigation of setbacks, changes, and unexpected challenges. \
+Adaptability has become essential in rapidly changing professional landscapes. \
+Resilience combines emotional coping skills with practical career management strategies. \
+Building resilience before challenges arise prepares you to handle difficulties effectively. \
+Career adaptability involves both proactive planning and responsive adjustment.' 
+    },
+    { type: 'subtitle', content: 'Resilience Components' },
+    { type: 'text', content:
+      'Emotional Regulation: Managing stress, disappointment, and uncertainty effectively. \
+Cognitive Flexibility: Adapting thinking patterns to changing circumstances. \
+Support Networks: Relationships that provide practical help and emotional support. \
+Skill Adaptability: Ability to learn and apply new skills as needed. \
+Financial Preparedness: Resources that provide stability during transitions. \
+Identity Flexibility: Self-concept not overly dependent on specific role or title.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Adaptation Strategies' },
+    { type: 'text', content:
+      'Continuous Learning: Regular skill updates to remain relevant and employable. \
+Network Maintenance: Strong professional relationships that provide opportunities. \
+Scenario Planning: Considering different career futures and preparing for possibilities. \
+Mindset Development: Growth orientation that views challenges as learning opportunities. \
+Financial Planning: Emergency funds and manageable expenses that provide flexibility. \
+Self-Care Practices: Physical and mental health maintenance that supports resilience.' 
+    }
+  ]
+},
+
+// =======Salary Negotiation=======
+
+'salary-negotiation-1': {
+  id: 'salary-negotiation-1',
+  title: 'Salary Research and Market Analysis',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Salary Research and Market Analysis' },
+    { type: 'text', content:
+      'Accurate salary research establishes realistic expectations and strengthens negotiation position. \
+Multiple data sources provide comprehensive understanding of compensation ranges. \
+Market analysis should consider industry, location, company size, and role specificity. \
+Total compensation includes base salary, bonuses, benefits, equity, and other perks. \
+Timing of research ensures data reflects current market conditions.' 
+    },
+    { type: 'subtitle', content: 'Research Sources' },
+    { type: 'text', content:
+      'Salary Websites: Glassdoor, PayScale, LinkedIn Salary, and industry-specific platforms. \
+Professional Associations: Member surveys and compensation reports for specific fields. \
+Recruiter Insights: Conversations with specialized recruiters about current market rates. \
+Network Intelligence: Discussions with peers in similar roles and companies. \
+Company Research: Public filings, employee reviews, and industry compensation surveys. \
+Government Data: Bureau of Labor Statistics and other official compensation information.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Analysis Factors' },
+    { type: 'text', content:
+      'Geographic Adjustment: Cost of living differences and regional salary variations. \
+Industry Premiums: Compensation differences across sectors and company types. \
+Experience Level: How years of experience and specific expertise impact compensation. \
+Company Factors: Stage, funding, profitability, and compensation philosophy. \
+Role Specificity: How precise role definition and required skills affect salary ranges. \
+Market Timing: Economic conditions, talent demand, and seasonal hiring patterns.' 
+    }
+  ]
+},
+'salary-negotiation-2': {
+  id: 'salary-negotiation-2',
+  title: 'Timing and Strategy Development',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Timing and Strategy Development' },
+    { type: 'text', content:
+      'Negotiation timing significantly impacts outcomes and relationship dynamics. \
+Different negotiation phases (initial offer, promotion, annual review) require different approaches. \
+Strategy should balance ideal outcomes with acceptable minimums and relationship preservation. \
+Preparation includes anticipating counterarguments and developing response options. \
+Effective negotiators focus on interests rather than positions to create win-win solutions.' 
+    },
+    { type: 'subtitle', content: 'Negotiation Timing' },
+    { type: 'text', content:
+      'Initial Offer: After receiving formal offer but before accepting position. \
+Promotion Discussions: When assuming new responsibilities or advancing within organization. \
+Annual Reviews: During performance evaluation and compensation adjustment cycles. \
+Counteroffer Situations: When considering competing offers or retention scenarios. \
+Role Expansion: When taking on additional responsibilities beyond original scope. \
+Market Adjustments: Responding to significant market changes or internal inequities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strategy Components' },
+    { type: 'text', content:
+      'Range Definition: Establishing ideal target, realistic expectation, and minimum acceptable. \
+Value Proposition: Clear articulation of contributions that justify requested compensation. \
+Alternative Development: Creative options beyond base salary (bonus, equity, benefits). \
+BATNA Identification: Best Alternative To Negotiated Agreement if negotiation fails. \
+Relationship Consideration: Balancing negotiation outcomes with ongoing working relationships. \
+Communication Plan: Scripting key messages and practicing delivery.' 
+    }
+  ]
+},
+'salary-negotiation-3': {
+  id: 'salary-negotiation-3',
+  title: 'Total Compensation Considerations',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Total Compensation Considerations' },
+    { type: 'text', content:
+      'Total compensation includes multiple components beyond base salary. \
+Different components have different values based on personal circumstances and preferences. \
+Some compensation elements are negotiable even when base salary has limited flexibility. \
+Understanding the full value of benefits and perks enables more effective negotiation. \
+Long-term compensation elements require different evaluation than immediate cash.' 
+    },
+    { type: 'subtitle', content: 'Compensation Components' },
+    { type: 'text', content:
+      'Base Salary: Fixed annual compensation before bonuses or incentives. \
+Performance Bonus: Variable compensation based on individual or company performance. \
+Equity Compensation: Stock options, RSUs, or other ownership interests. \
+Benefits Value: Health insurance, retirement contributions, and other insurance coverage. \
+Time Off: Vacation days, sick leave, parental leave, and flexible scheduling. \
+Professional Development: Education reimbursement, conference budgets, and training allowances.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Valuation Strategies' },
+    { type: 'text', content:
+      'Cash Equivalents: Calculating monetary value of non-cash benefits and perks. \
+Tax Implications: Understanding how different compensation types are taxed. \
+Risk Assessment: Evaluating stability and likelihood of variable compensation payouts. \
+Time Value: Present value calculations for long-term or deferred compensation. \
+Personal Utility: How different benefits align with individual needs and priorities. \
+Comparable Analysis: Benchmarking total package against market alternatives.' 
+    }
+  ]
+},
+'salary-negotiation-4': {
+  id: 'salary-negotiation-4',
+  title: 'Communication and Persuasion Techniques',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Communication and Persuasion Techniques' },
+    { type: 'text', content:
+      'Effective negotiation communication balances assertiveness with collaboration. \
+Language choice, tone, and framing significantly influence negotiation outcomes. \
+Active listening helps identify underlying interests and potential solutions. \
+Confident delivery enhances credibility while maintaining positive relationship dynamics. \
+Preparation and practice reduce anxiety and improve communication effectiveness.' 
+    },
+    { type: 'subtitle', content: 'Communication Strategies' },
+    { type: 'text', content:
+      'Collaborative Framing: Positioning negotiation as problem-solving rather than confrontation. \
+Evidence-Based Arguments: Supporting requests with market data and achievement examples. \
+Positive Language: Focusing on mutual benefits and value creation opportunities. \
+Active Listening: Understanding employer constraints and interests before responding. \
+Confident Delivery: Clear, calm communication that conveys conviction without aggression. \
+Script Preparation: Practicing key phrases and responses to anticipated objections.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Persuasion Techniques' },
+    { type: 'text', content:
+      'Value Demonstration: Connecting compensation requests to tangible business impact. \
+Social Proof: Referencing market standards and comparable compensation packages. \
+Reciprocity Principle: Offering flexibility in some areas while standing firm on priorities. \
+Anchoring: Starting with reasonable but ambitious initial position. \
+Framing: Presenting requests in context of industry norms or company capabilities. \
+Solution Focus: Proposing specific alternatives when initial requests cannot be met.' 
+    }
+  ]
+},
+'salary-negotiation-5': {
+  id: 'salary-negotiation-5',
+  title: 'Counteroffer Scenarios',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Counteroffer Scenarios' },
+    { type: 'text', content:
+      'Counteroffers require careful consideration of both immediate and long-term implications. \
+Accepting counteroffers involves risks beyond the increased compensation. \
+Different scenarios (current employer vs. new employer) require different approaches. \
+Ethical considerations and relationship impacts should inform counteroffer decisions. \
+Strategic preparation enables effective navigation of counteroffer situations.' 
+    },
+    { type: 'subtitle', content: 'Counteroffer Types' },
+    { type: 'text', content:
+      'Retention Counteroffer: Current employer\'s response to resignation or external offer. \
+Negotiation Counteroffer: Response to initial offer from new employer. \
+Multiple Offer Scenario: Leveraging competing offers to improve terms. \
+Promotion Counteroffer: Enhanced role or compensation to retain key talent. \
+Delayed Counteroffer: Employer response after initial negotiation conclusion. \
+Informal Counteroffer: Unofficial discussions about potential retention arrangements.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Decision Factors' },
+    { type: 'text', content:
+      'Relationship Impact: How acceptance affects trust and future advancement potential. \
+Underlying Issues: Whether compensation was the primary reason for considering departure. \
+Long-Term Prospects: Career growth opportunities with current vs. new employer. \
+Cultural Fit: Alignment with organizational values and work environment preferences. \
+Risk Assessment: Statistical outcomes of counteroffer acceptance in similar situations. \
+Timing Considerations: Market conditions and personal career stage implications.' 
+    }
+  ]
+},
+'salary-negotiation-6': {
+  id: 'salary-negotiation-6',
+  title: 'Equity and Bonus Negotiation',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Equity and Bonus Negotiation' },
+    { type: 'text', content:
+      'Equity and bonus negotiations require different approaches than base salary discussions. \
+Understanding equity structures, vesting schedules, and valuation methods is essential. \
+Bonus negotiations should clarify performance metrics, payout timing, and calculation methods. \
+Risk assessment helps evaluate the probable value of variable compensation elements. \
+Legal and tax implications of equity compensation require professional advice.' 
+    },
+    { type: 'subtitle', content: 'Equity Considerations' },
+    { type: 'text', content:
+      'Equity Types: Stock options (ISO/NSO), RSUs, restricted stock, and phantom stock. \
+Vesting Schedules: Time-based and milestone-based equity earning timelines. \
+Valuation Methods: Current valuation, strike price, and potential future value scenarios. \
+Dilution Impact: How future funding rounds affect ownership percentage. \
+Liquidity Events: Potential timelines and probabilities for equity monetization. \
+Tax Implications: Different tax treatments for various equity types and exercise timing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Bonus Negotiation' },
+    { type: 'text', content:
+      'Structure Types: Performance-based, discretionary, retention, and signing bonuses. \
+Metric Clarity: Specific, measurable criteria that determine bonus eligibility and amounts. \
+Payout Timing: Annual, quarterly, or project-based bonus distribution schedules. \
+Historical Payouts: Company track record for meeting or exceeding bonus targets. \
+Guaranteed Minimums: Negotiating base bonus amounts regardless of performance factors. \
+Multi-Year Considerations: How bonuses compound or change over time.' 
+    }
+  ]
+},
+'salary-negotiation-7': {
+  id: 'salary-negotiation-7',
+  title: 'Promotion Salary Discussions',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Promotion Salary Discussions' },
+    { type: 'text', content:
+      'Promotion salary negotiations require demonstrating readiness for increased responsibility. \
+Research should focus on compensation ranges for the new role, not current position. \
+Timing considerations include performance cycles, budget planning, and organizational context. \
+Documentation of achievements and impact strengthens promotion compensation requests. \
+Internal equity considerations may influence promotion salary adjustments.' 
+    },
+    { type: 'subtitle', content: 'Preparation Elements' },
+    { type: 'text', content:
+      'Role Research: Compensation data for promoted position, not current role. \
+Achievement Documentation: Evidence of performance at next level before promotion. \
+Market Analysis: External salary data for comparable roles and responsibilities. \
+Internal Benchmarking: Understanding compensation patterns for similar promotions. \
+Budget Awareness: Organizational compensation cycles and budget constraints. \
+Succession Planning: Demonstrating readiness to assume promoted responsibilities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Negotiation Approach' },
+    { type: 'text', content:
+      'Value Demonstration: Connecting promotion to tangible business results and impact. \
+Strategic Timing: Aligning discussion with performance reviews or budget cycles. \
+Range Presentation: Providing researched salary ranges for new responsibility level. \
+Alternative Considerations: Additional responsibilities, expanded scope, or special projects. \
+Relationship Management: Maintaining positive dynamics with managers and decision-makers. \
+Long-Term Perspective: Considering promotion as step in ongoing career progression.' 
+    }
+  ]
+},
+'salary-negotiation-8': {
+  id: 'salary-negotiation-8',
+  title: 'Gender and Diversity Considerations',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Gender and Diversity Considerations' },
+    { type: 'text', content:
+      'Research shows persistent compensation gaps related to gender, race, and other factors. \
+Understanding these dynamics informs negotiation strategy and advocacy approaches. \
+Legal protections exist in many jurisdictions regarding equitable compensation practices. \
+Organizational transparency about compensation ranges helps address inequities. \
+Collective advocacy and individual negotiation both contribute to closing gaps.' 
+    },
+    { type: 'subtitle', content: 'Gap Factors' },
+    { type: 'text', content:
+      'Negotiation Differences: Research on negotiation initiation, style, and outcomes by gender. \
+Bias Patterns: Unconscious biases affecting compensation decisions and negotiation perceptions. \
+Industry Variations: Compensation gap differences across sectors and organizational types. \
+Intersectionality: How multiple identity factors compound compensation disparities. \
+Transparency Impact: How salary disclosure policies affect negotiation dynamics and outcomes. \
+Legal Framework: Equal pay laws and protections against compensation discrimination.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strategies for Equity' },
+    { type: 'text', content:
+      'Research Emphasis: Using objective data to support compensation requests. \
+Collaborative Framing: Approaches that align with diverse communication preferences. \
+Sponsorship Development: Building relationships with advocates in decision-making positions. \
+Network Support: Peer groups that share salary information and negotiation strategies. \
+Policy Advocacy: Supporting organizational transparency and equity initiatives. \
+Skill Development: Negotiation training and practice tailored to diverse experiences.' 
+    }
+  ]
+},
+'salary-negotiation-9': {
+  id: 'salary-negotiation-9',
+  title: 'Remote and Global Compensation',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Remote and Global Compensation' },
+    { type: 'text', content:
+      'Remote work has created new compensation models based on location, role, and company policy. \
+Global compensation requires understanding local market rates, taxes, and cost of living. \
+Different remote compensation philosophies (location-based vs. role-based) impact negotiations. \
+International assignments involve additional compensation elements and legal considerations. \
+Digital nomad and distributed team arrangements require creative compensation solutions.' 
+    },
+    { type: 'subtitle', content: 'Remote Compensation Models' },
+    { type: 'text', content:
+      'Location-Based: Compensation adjusted for employee\'s geographic location and cost of living. \
+Role-Based: Standard compensation for role regardless of employee location. \
+Hybrid Models: Base salary plus location adjustments or cost-of-living allowances. \
+Global Benchmarks: Compensation based on international market rates for specific roles. \
+Digital Nomad: Special arrangements for employees working from multiple locations. \
+Distributed Teams: Compensation approaches for teams spread across different countries.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Negotiation Considerations' },
+    { type: 'text', content:
+      'Policy Research: Understanding company\'s remote compensation philosophy and guidelines. \
+Market Comparison: Researching compensation for similar roles in target locations. \
+Cost Analysis: Calculating true cost differences across potential locations. \
+Tax Implications: Understanding international tax obligations and treaty benefits. \
+Legal Compliance: Employment laws, benefits requirements, and contractual considerations. \
+Flexibility Trade-offs: Balancing compensation with location flexibility and lifestyle benefits.' 
+    }
+  ]
+},
+'salary-negotiation-10': {
+  id: 'salary-negotiation-10',
+  title: 'Negotiation Psychology and Mindset',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Negotiation Psychology and Mindset' },
+    { type: 'text', content:
+      'Psychological factors significantly influence negotiation preparation, execution, and outcomes. \
+Mindset development reduces anxiety and improves negotiation effectiveness. \
+Understanding common cognitive biases helps avoid negotiation pitfalls. \
+Emotional regulation maintains professional composure during challenging discussions. \
+Confidence building through preparation and practice enhances negotiation performance.' 
+    },
+    { type: 'subtitle', content: 'Psychological Factors' },
+    { type: 'text', content:
+      'Anxiety Management: Techniques to reduce negotiation-related stress and nervousness. \
+Confidence Building: Developing self-assurance based on preparation and past successes. \
+Cognitive Biases: Recognizing patterns like anchoring, framing, and loss aversion. \
+Emotional Intelligence: Managing emotions and reading others\' emotional signals. \
+Mindset Types: Fixed vs. growth mindset impacts on negotiation approach and resilience. \
+Self-Worth Connection: Separating compensation from personal value and identity.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Mindset Development' },
+    { type: 'text', content:
+      'Preparation Focus: Concentrating energy on factors within your control. \
+Value Perspective: Viewing negotiation as value exchange rather than confrontation. \
+Learning Orientation: Treating each negotiation as skill development opportunity. \
+Abundance Mindset: Believing mutually beneficial solutions are possible. \
+Boundary Setting: Knowing walk-away points while remaining open to creative solutions. \
+Recovery Skills: Techniques for bouncing back from unsuccessful negotiations.' 
+    }
+  ]
+},
+
+// =======LinkedIn Optimization=======
+
+'linkedin-optimization-1': {
+  id: 'linkedin-optimization-1',
+  title: 'Profile Foundation and Structure',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Profile Foundation and Structure' },
+    { type: 'text', content:
+      'A well-structured LinkedIn profile serves as your professional digital headquarters. \
+Complete profiles receive significantly more views and connection requests. \
+Strategic organization highlights most relevant information for target audiences. \
+Consistent formatting and professional tone establish credibility. \
+Regular updates ensure profile reflects current professional status and achievements.' 
+    },
+    { type: 'subtitle', content: 'Profile Sections' },
+    { type: 'text', content:
+      'Headline: Professional tagline appearing next to your name in search results. \
+Profile Photo: Professional headshot that presents approachable, competent image. \
+Background Photo: Banner image that reinforces personal brand or professional focus. \
+About Section: Professional summary highlighting experience, skills, and value proposition. \
+Experience: Detailed work history with achievements and responsibilities. \
+Education: Academic background, certifications, and relevant coursework.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Optimization Principles' },
+    { type: 'text', content:
+      'Completeness: Filling all relevant sections with detailed, current information. \
+Keyword Integration: Strategic inclusion of terms recruiters and connections search for. \
+Achievement Focus: Quantifiable results and impact statements rather than job descriptions. \
+Visual Appeal: Professional photos, consistent formatting, and easy readability. \
+Audience Awareness: Tailoring content for both human readers and search algorithms. \
+Regular Maintenance: Quarterly reviews and updates to keep profile current.' 
+    }
+  ]
+},
+'linkedin-optimization-2': {
+  id: 'linkedin-optimization-2',
+  title: 'Headline and Summary Optimization',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Headline and Summary Optimization' },
+    { type: 'text', content:
+      'The headline and summary sections create critical first impressions on LinkedIn. \
+Headlines appear in search results and connection requests, making them highly visible. \
+Summaries provide opportunity to tell your professional story and value proposition. \
+Both sections should be tailored to target audience and career objectives. \
+Strategic keyword placement improves visibility in LinkedIn searches.' 
+    },
+    { type: 'subtitle', content: 'Headline Strategies' },
+    { type: 'text', content:
+      'Keyword Rich: Including important industry terms and role descriptors. \
+Value Proposition: Communicating what you do and how you create impact. \
+Audience Targeting: Tailoring language to attract desired connections or opportunities. \
+Character Optimization: Utilizing available characters without appearing spammy. \
+Brand Alignment: Consistency with personal brand and professional identity. \
+Current Focus: Reflecting present role while indicating future direction.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Summary Development' },
+    { type: 'text', content:
+      'Opening Hook: Compelling first paragraph that encourages continued reading. \
+Value Statement: Clear articulation of professional strengths and unique value. \
+Experience Highlights: Selected achievements demonstrating capabilities. \
+Skill Summary: Key competencies relevant to target roles or industries. \
+Career Narrative: Cohesive story connecting past experiences to current focus. \
+Call to Action: Clear indication of interests and invitation to connect.' 
+    }
+  ]
+},
+'linkedin-optimization-3': {
+  id: 'linkedin-optimization-3',
+  title: 'Experience and Achievement Showcase',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Experience and Achievement Showcase' },
+    { type: 'text', content:
+      'LinkedIn experience sections should emphasize achievements rather than responsibilities. \
+Quantifiable results demonstrate impact more effectively than job description language. \
+Strategic organization highlights most relevant experiences for target opportunities. \
+Media attachments, links, and recommendations add credibility and depth. \
+Consistent formatting and achievement-focused language improve profile effectiveness.' 
+    },
+    { type: 'subtitle', content: 'Experience Optimization' },
+    { type: 'text', content:
+      'Achievement Emphasis: Leading with results and impact rather than duties. \
+Quantification: Including numbers, percentages, and specific outcomes. \
+Relevance Prioritization: Emphasizing experiences most aligned with career goals. \
+Keyword Integration: Natural inclusion of important industry and role terms. \
+Media Enhancement: Adding presentations, documents, or links to work samples. \
+Recommendation Strategy: Requesting and displaying testimonials from relevant sources.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Achievement Presentation' },
+    { type: 'text', content:
+      'Bullet Point Structure: Clear, concise achievement statements using action verbs. \
+Metrics Inclusion: Specific numbers demonstrating scale, improvement, or impact. \
+Project Highlights: Notable initiatives, implementations, or innovations led. \
+Skill Demonstration: Experiences that showcase relevant competencies. \
+Progression Evidence: Career growth and increasing responsibility over time. \
+Industry Relevance: Achievements that demonstrate understanding of sector-specific challenges.' 
+    }
+  ]
+},
+'linkedin-optimization-4': {
+  id: 'linkedin-optimization-4',
+  title: 'Skills, Endorsements, and Recommendations',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Skills, Endorsements, and Recommendations' },
+    { type: 'text', content:
+      'Skills sections improve profile visibility in LinkedIn searches and recruiter filters. \
+Strategic skill selection highlights relevant competencies for target opportunities. \
+Endorsements provide social proof of claimed skills from professional connections. \
+Recommendations offer detailed testimonials that enhance credibility. \
+Active management of these elements strengthens profile effectiveness.' 
+    },
+    { type: 'subtitle', content: 'Skills Strategy' },
+    { type: 'text', content:
+      'Keyword Selection: Skills that appear in target job descriptions and industry searches. \
+Priority Ordering: Most relevant skills positioned in top three visible positions. \
+Category Balance: Mix of technical, transferable, and industry-specific competencies. \
+Endorsement Building: Tactics for increasing endorsements on key skills. \
+Regular Updates: Adding new skills as they develop and removing outdated ones. \
+Expertise Demonstration: Skills supported by experience descriptions and achievements.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Recommendation Management' },
+    { type: 'text', content:
+      'Strategic Requests: Asking specific individuals for targeted recommendations. \
+Guidance Provision: Suggesting content areas or projects for recommenders to highlight. \
+Reciprocity Practice: Offering to write recommendations for others. \
+Diversity: Recommendations from different roles, levels, and relationship types. \
+Quality over Quantity: Fewer detailed testimonials versus many generic ones. \
+Regular Updates: Refreshing recommendations as career progresses.' 
+    }
+  ]
+},
+'linkedin-optimization-5': {
+  id: 'linkedin-optimization-5',
+  title: 'Content Strategy and Engagement',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Content Strategy and Engagement' },
+    { type: 'text', content:
+      'Active content sharing and engagement increase profile visibility and establish thought leadership. \
+Consistent, valuable content demonstrates expertise and builds professional reputation. \
+Strategic engagement with others\' content expands reach and builds relationships. \
+Content mix should balance original posts, shared content, and community interaction. \
+Platform algorithms reward regular, authentic engagement.' 
+    },
+    { type: 'subtitle', content: 'Content Types' },
+    { type: 'text', content:
+      'Original Insights: Professional observations, lessons learned, or industry analysis. \
+Shared Content: Relevant articles, research, or news with added commentary. \
+Achievement Updates: Professional milestones, project completions, or recognition. \
+Question Posts: Thought-provoking questions that stimulate discussion. \
+Visual Content: Infographics, presentations, or videos demonstrating expertise. \
+Collaborative Content: Co-authored posts or tagged contributions with colleagues.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Engagement Strategy' },
+    { type: 'text', content:
+      'Consistency: Regular posting schedule that maintains visibility. \
+Value Focus: Content that educates, informs, or benefits professional community. \
+Audience Awareness: Tailoring content to interests of target connections. \
+Interaction: Responding to comments and engaging with others\' content. \
+Hashtag Strategy: Using relevant hashtags to increase content discoverability. \
+Analytics Review: Monitoring post performance and adjusting strategy accordingly.' 
+    }
+  ]
+},
+'linkedin-optimization-6': {
+  id: 'linkedin-optimization-6',
+  title: 'Network Building and Management',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Network Building and Management' },
+    { type: 'text', content:
+      'Strategic network building focuses on quality connections rather than quantity. \
+Different connection strategies serve different professional objectives. \
+Relationship maintenance through LinkedIn strengthens professional networks. \
+Network segmentation helps organize connections for different purposes. \
+Active network management maximizes LinkedIn\'s professional relationship potential.' 
+    },
+    { type: 'subtitle', content: 'Connection Strategies' },
+    { type: 'text', content:
+      'Personalized Requests: Custom connection messages explaining shared interests or objectives. \
+Strategic Targeting: Identifying and connecting with professionals in target companies or roles. \
+Alumni Networking: Connecting with fellow graduates from educational institutions. \
+Industry Expansion: Building connections within specific professional sectors. \
+Recruiter Relationships: Developing connections with recruiters in relevant fields. \
+Mentor Connections: Building relationships with experienced professionals for guidance.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Network Management' },
+    { type: 'text', content:
+      'Organization: Using tags and lists to categorize connections by relationship type. \
+Regular Engagement: Periodic interactions to maintain connection relevance. \
+Introduction Facilitation: Connecting professionals who could benefit from knowing each other. \
+Content Sharing: Sharing updates and achievements with relevant segments. \
+Relationship Tracking: Notes and reminders about connections\' interests and interactions. \
+Quality Assessment: Periodic review of network composition and strategic gaps.' 
+    }
+  ]
+},
+'linkedin-optimization-7': {
+  id: 'linkedin-optimization-7',
+  title: 'Job Search and Recruiter Visibility',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Job Search and Recruiter Visibility' },
+    { type: 'text', content:
+      'LinkedIn is a primary platform for job searches and recruiter sourcing. \
+Profile optimization significantly increases visibility to recruiters and hiring managers. \
+Active and passive job search strategies leverage different LinkedIn features. \
+Understanding how recruiters use LinkedIn informs optimization strategies. \
+Strategic job search activity balances visibility with discretion when employed.' 
+    },
+    { type: 'subtitle', content: 'Recruiter Optimization' },
+    { type: 'text', content:
+      'Keyword Strategy: Terms recruiters search for when sourcing candidates. \
+Headline Clarity: Clear indication of current role and career focus. \
+Open to Work Settings: Strategic use of LinkedIn\'s job search status features. \
+Complete Profile: Filling all sections to appear in more search results. \
+Activity Signals: Regular engagement that increases profile visibility in algorithms. \
+Skill Endorsements: Social proof that validates claimed competencies.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Job Search Features' },
+    { type: 'text', content:
+      'Job Alerts: Custom notifications for new postings matching criteria. \
+Company Research: Following target companies and monitoring their updates. \
+Employee Insights: Connecting with current employees for internal perspectives. \
+Application Tracking: Managing applications through LinkedIn\'s job application features. \
+Recruiter Communication: Professional outreach to recruiters at target companies. \
+Discretion Settings: Privacy controls for job search activity while employed.' 
+    }
+  ]
+},
+'linkedin-optimization-8': {
+  id: 'linkedin-optimization-8',
+  title: 'LinkedIn Groups and Communities',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'LinkedIn Groups and Communities' },
+    { type: 'text', content:
+      'LinkedIn groups provide focused communities for professional discussion and networking. \
+Active group participation increases visibility and establishes subject matter expertise. \
+Different groups serve different purposes—industry, functional, alumni, or interest-based. \
+Strategic group selection aligns with professional objectives and target audiences. \
+Quality contributions matter more than number of group memberships.' 
+    },
+    { type: 'subtitle', content: 'Group Types' },
+    { type: 'text', content:
+      'Industry Groups: Sector-specific communities sharing news, trends, and opportunities. \
+Functional Groups: Role-focused communities for specific professional functions. \
+Alumni Groups: University or company alumni networks for relationship building. \
+Professional Association Groups: Official groups for association members. \
+Location-Based Groups: Local professional communities for geographic networking. \
+Special Interest Groups: Communities focused on specific topics or initiatives.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Participation Strategy' },
+    { type: 'text', content:
+      'Strategic Selection: Joining groups relevant to career goals and target industries. \
+Active Engagement: Regular contribution to discussions with valuable insights. \
+Relationship Building: Connecting with active group members who share interests. \
+Content Sharing: Posting relevant articles, questions, or resources to groups. \
+Moderation Respect: Following group rules and maintaining professional conduct. \
+Leadership Opportunities: Volunteering for group moderation or event organization.' 
+    }
+  ]
+},
+'linkedin-optimization-9': {
+  id: 'linkedin-optimization-9',
+  title: 'Analytics and Performance Tracking',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Analytics and Performance Tracking' },
+    { type: 'text', content:
+      'LinkedIn analytics provide insights into profile performance and content effectiveness. \
+Regular review of analytics informs optimization strategies and content planning. \
+Different metrics measure different aspects of LinkedIn presence effectiveness. \
+Benchmarking against goals helps assess progress and identify improvement areas. \
+Data-driven adjustments increase LinkedIn strategy effectiveness over time.' 
+    },
+    { type: 'subtitle', content: 'Key Metrics' },
+    { type: 'text', content:
+      'Profile Views: Number of times your profile has been viewed, with viewer details. \
+Post Engagement: Likes, comments, and shares on your content. \
+Search Appearances: How often you appear in LinkedIn search results. \
+Follower Growth: Increase in profile followers over time. \
+Content Reach: Number of people who see your posts and updates. \
+Demographic Insights: Industries, locations, and job titles of your audience.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Performance Analysis' },
+    { type: 'text', content:
+      'Trend Identification: Patterns in what content performs best with your audience. \
+Audience Insights: Understanding who engages with your profile and content. \
+Optimization Testing: Trying different approaches and measuring results. \
+Goal Alignment: Assessing whether LinkedIn activity supports professional objectives. \
+Competitive Benchmarking: Comparing performance with similar professionals. \
+Strategy Adjustment: Using insights to refine content and engagement approaches.' 
+    }
+  ]
+},
+'linkedin-optimization-10': {
+  id: 'linkedin-optimization-10',
+  title: 'Premium Features and Advanced Strategies',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Premium Features and Advanced Strategies' },
+    { type: 'text', content:
+      'LinkedIn Premium offers enhanced features for job seekers, networkers, and business developers. \
+Different premium subscriptions serve different professional objectives. \
+Advanced features enable more targeted outreach and deeper insights. \
+Cost-benefit analysis helps determine if premium features justify investment. \
+Strategic use of premium capabilities maximizes return on investment.' 
+    },
+    { type: 'subtitle', content: 'Premium Subscription Types' },
+    { type: 'text', content:
+      'Career: Enhanced job search features, applicant insights, and learning resources. \
+Business: Advanced sales and marketing tools for business development. \
+Sales Navigator: Dedicated platform for sales professionals and business development. \
+Recruiter: Advanced talent sourcing tools for hiring professionals. \
+Learning: Access to LinkedIn Learning library of professional courses. \
+Comparison: Feature differences across subscription levels and purposes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Advanced Strategies' },
+    { type: 'text', content:
+      'InMail Optimization: Crafting effective messages for direct outreach to connections. \
+Advanced Search: Using filters to identify and connect with target professionals. \
+Profile Analytics: Deeper insights into who views your profile and why. \
+Learning Integration: Connecting course completion to skill endorsements. \
+Content Amplification: Strategies for increasing content reach and engagement. \
+Integration Planning: Connecting LinkedIn with other professional tools and platforms.' 
+    }
+  ]
+},
+
+// =======Remote Work Skills=======
+
+'remote-work-skills-1': {
+  id: 'remote-work-skills-1',
+  title: 'Remote Work Environment Setup',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Remote Work Environment Setup' },
+    { type: 'text', content:
+      'Effective remote work begins with creating a dedicated, productive workspace. \
+Physical environment significantly impacts focus, comfort, and professional presentation. \
+Ergonomic considerations prevent physical strain and support long-term health. \
+Technology setup ensures reliable connectivity and professional virtual presence. \
+Environmental customization balances professional requirements with personal preferences.' 
+    },
+    { type: 'subtitle', content: 'Workspace Essentials' },
+    { type: 'text', content:
+      'Designated Area: Separate space dedicated specifically to work activities. \
+Ergonomic Furniture: Adjustable chair, proper desk height, and supportive accessories. \
+Technology Setup: Reliable computer, high-speed internet, and necessary peripherals. \
+Lighting: Balanced natural and artificial light that reduces eye strain. \
+Acoustic Management: Noise control through placement, materials, or soundproofing. \
+Professional Background: Clean, appropriate backdrop for video meetings.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Setup Optimization' },
+    { type: 'text', content:
+      'Comfort-Priority: Balancing ergonomic requirements with personal comfort preferences. \
+Distraction Minimization: Strategic placement and organization to reduce interruptions. \
+Flexibility Design: Workspace that accommodates different types of work activities. \
+Professional Presentation: Space that projects competence during video interactions. \
+Health Integration: Elements that support physical movement and wellbeing. \
+Personalization Balance: Individual touches that maintain professional appropriateness.' 
+    }
+  ]
+},
+'remote-work-skills-2': {
+  id: 'remote-work-skills-2',
+  title: 'Time Management and Productivity',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Time Management and Productivity' },
+    { type: 'text', content:
+      'Remote work requires enhanced time management skills without traditional office structures. \
+Productivity systems help maintain focus and accomplish priorities effectively. \
+Different work styles require different time management approaches. \
+Boundary setting protects work time while maintaining work-life balance. \
+Regular productivity assessment identifies improvement opportunities.' 
+    },
+    { type: 'subtitle', content: 'Time Management Systems' },
+    { type: 'text', content:
+      'Daily Structure: Consistent routines that establish work rhythm and momentum. \
+Priority Framework: Systems for identifying and focusing on most important tasks. \
+Time Blocking: Scheduling specific time periods for different types of work. \
+Task Management: Tools and methods for tracking and completing work items. \
+Focus Techniques: Strategies for maintaining concentration and minimizing distractions. \
+Review Processes: Regular assessment of time use and productivity patterns.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Productivity Strategies' },
+    { type: 'text', content:
+      'Deep Work Scheduling: Protected time for focused, cognitively demanding tasks. \
+Meeting Management: Strategic acceptance and preparation for virtual meetings. \
+Communication Efficiency: Balancing responsiveness with uninterrupted work time. \
+Energy Alignment: Scheduling tasks according to natural energy patterns. \
+Tool Optimization: Leveraging technology to automate or streamline work processes. \
+Distraction Management: Techniques for minimizing interruptions and maintaining focus.' 
+    }
+  ]
+},
+'remote-work-skills-3': {
+  id: 'remote-work-skills-3',
+  title: 'Virtual Communication Excellence',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Virtual Communication Excellence' },
+    { type: 'text', content:
+      'Effective virtual communication requires adapting techniques for digital platforms. \
+Different communication channels serve different purposes and require different approaches. \
+Clarity and conciseness become even more important in virtual contexts. \
+Non-verbal communication must be adapted for video and written formats. \
+Building rapport and trust requires intentional effort in virtual environments.' 
+    },
+    { type: 'subtitle', content: 'Communication Channels' },
+    { type: 'text', content:
+      'Video Meetings: Platform best practices, engagement techniques, and technical preparation. \
+Written Communication: Email, chat, and document collaboration norms and etiquette. \
+Asynchronous Updates: Status reports, project updates, and information sharing methods. \
+Presentation Skills: Effective virtual presenting and facilitation techniques. \
+Listening Skills: Active listening and comprehension in virtual contexts. \
+Feedback Delivery: Providing and receiving constructive feedback remotely.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Virtual Presence' },
+    { type: 'text', content:
+      'Technical Setup: Camera positioning, lighting, audio quality, and background. \
+Professional Appearance: Appropriate attire and grooming for video interactions. \
+Engagement Techniques: Eye contact, body language, and participation strategies. \
+Meeting Preparation: Agenda distribution, pre-work, and technical testing. \
+Follow-Up Practices: Meeting notes, action items, and accountability tracking. \
+Relationship Building: Intentional rapport development through virtual interactions.' 
+    }
+  ]
+},
+'remote-work-skills-4': {
+  id: 'remote-work-skills-4',
+  title: 'Collaboration and Team Dynamics',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Collaboration and Team Dynamics' },
+    { type: 'text', content:
+      'Remote collaboration requires intentional processes and relationship building. \
+Different collaboration tools serve different team needs and work styles. \
+Building trust and psychological safety is more challenging but equally important remotely. \
+Clear roles, processes, and expectations prevent collaboration breakdowns. \
+Regular team connection maintains cohesion and alignment.' 
+    },
+    { type: 'subtitle', content: 'Collaboration Tools' },
+    { type: 'text', content:
+      'Project Management: Platforms for task tracking, deadlines, and progress monitoring. \
+Document Collaboration: Shared workspaces for co-creation and editing. \
+Communication Platforms: Channels for different types of team interaction. \
+Virtual Whiteboarding: Tools for brainstorming, planning, and visual collaboration. \
+File Management: Organized systems for document storage and version control. \
+Meeting Platforms: Features that facilitate effective virtual gatherings.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Team Effectiveness' },
+    { type: 'text', content:
+      'Role Clarity: Clear understanding of responsibilities and decision authority. \
+Process Definition: Established workflows for common team activities. \
+Trust Building: Intentional activities that develop psychological safety. \
+Conflict Resolution: Addressing disagreements constructively in virtual contexts. \
+Celebration Rituals: Recognizing achievements and milestones remotely. \
+Connection Maintenance: Regular check-ins and relationship-building activities.' 
+    }
+  ]
+},
+'remote-work-skills-5': {
+  id: 'remote-work-skills-5',
+  title: 'Boundary Setting and Work-Life Integration',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Boundary Setting and Work-Life Integration' },
+    { type: 'text', content:
+      'Remote work blurs traditional boundaries between professional and personal life. \
+Intentional boundary setting protects personal time and prevents burnout. \
+Different boundary strategies work for different people and situations. \
+Communication about boundaries manages expectations with colleagues and family. \
+Regular boundary assessment ensures they remain effective as circumstances change.' 
+    },
+    { type: 'subtitle', content: 'Boundary Types' },
+    { type: 'text', content:
+      'Time Boundaries: Designated work hours and protected personal time. \
+Space Boundaries: Physical separation between work and living areas. \
+Communication Boundaries: Availability expectations and response time norms. \
+Task Boundaries: Clear distinction between work responsibilities and personal activities. \
+Mental Boundaries: Techniques for transitioning between work and personal modes. \
+Technology Boundaries: Device usage rules and notification management.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Integration Strategies' },
+    { type: 'text', content:
+      'Schedule Design: Creating rhythms that support both work effectiveness and personal wellbeing. \
+Transition Rituals: Activities that mark the beginning and end of work periods. \
+Expectation Management: Clear communication with colleagues and family about availability. \
+Flexibility Planning: Systems that accommodate unexpected interruptions or schedule changes. \
+Self-Care Integration: Building wellness activities into daily routines. \
+Regular Assessment: Periodic evaluation of boundary effectiveness and adjustment needs.' 
+    }
+  ]
+},
+'remote-work-skills-6': {
+  id: 'remote-work-skills-6',
+  title: 'Remote Leadership and Management',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Remote Leadership and Management' },
+    { type: 'text', content:
+      'Remote leadership requires adapting traditional management approaches for distributed teams. \
+Trust-based management replaces direct supervision with clear expectations and accountability. \
+Communication frequency and clarity become even more important for remote leaders. \
+Building team culture and connection requires intentional, consistent effort. \
+Remote leadership development addresses unique challenges of distributed team management.' 
+    },
+    { type: 'subtitle', content: 'Leadership Approaches' },
+    { type: 'text', content:
+      'Trust-Based Management: Focusing on outcomes rather than activity monitoring. \
+Communication Rhythm: Regular, predictable touchpoints with team members. \
+Expectation Clarity: Explicit goals, standards, and success criteria. \
+Autonomy Support: Empowering team members while providing necessary guidance. \
+Development Focus: Remote coaching, feedback, and career growth support. \
+Inclusion Practices: Ensuring all team members feel connected and valued.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Team Management' },
+    { type: 'text', content:
+      'Performance Management: Remote goal setting, progress tracking, and evaluation. \
+Meeting Effectiveness: Designing and facilitating productive virtual gatherings. \
+Conflict Resolution: Addressing team issues in distributed environments. \
+Recognition Systems: Acknowledging achievements and contributions remotely. \
+Onboarding: Effectively integrating new team members virtually. \
+Culture Building: Developing and maintaining team norms and shared identity.' 
+    }
+  ]
+},
+'remote-work-skills-7': {
+  id: 'remote-work-skills-7',
+  title: 'Digital Tool Proficiency',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Tool Proficiency' },
+    { type: 'text', content:
+      'Remote work effectiveness depends on proficiency with digital tools and platforms. \
+Different tools serve different purposes—communication, collaboration, productivity, and management. \
+Strategic tool selection balances functionality with team adoption and ease of use. \
+Continuous learning keeps skills current as tools evolve and new options emerge. \
+Integration between tools creates efficient workflows and reduces context switching.' 
+    },
+    { type: 'subtitle', content: 'Tool Categories' },
+    { type: 'text', content:
+      'Communication Platforms: Video conferencing, messaging, and email systems. \
+Collaboration Tools: Document sharing, project management, and virtual whiteboarding. \
+Productivity Software: Task management, calendar, and note-taking applications. \
+File Management: Cloud storage, version control, and document organization systems. \
+Security Tools: VPN, password managers, and data protection software. \
+Specialized Software: Industry or role-specific digital tools and platforms.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Skill Development' },
+    { type: 'text', content:
+      'Learning Approach: Structured methods for acquiring new tool competencies. \
+Efficiency Techniques: Keyboard shortcuts, templates, and automation features. \
+Troubleshooting Skills: Basic problem-solving for common technical issues. \
+Integration Understanding: How different tools work together in workflows. \
+Security Awareness: Best practices for protecting data and privacy. \
+Continuous Improvement: Regular assessment and enhancement of tool proficiency.' 
+    }
+  ]
+},
+'remote-work-skills-8': {
+  id: 'remote-work-skills-8',
+  title: 'Remote Networking and Relationship Building',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Remote Networking and Relationship Building' },
+    { type: 'text', content:
+      'Building professional relationships remotely requires different approaches than in-person networking. \
+Virtual networking events, social platforms, and intentional outreach create connection opportunities. \
+Relationship maintenance requires more intentional effort without physical proximity. \
+Cross-functional and interdepartmental relationships develop differently in remote contexts. \
+Building trust and rapport happens more slowly but can be equally deep remotely.' 
+    },
+    { type: 'subtitle', content: 'Networking Approaches' },
+    { type: 'text', content:
+      'Virtual Events: Online conferences, webinars, and networking sessions. \
+Social Platforms: LinkedIn, professional communities, and industry forums. \
+Intentional Outreach: Scheduled virtual coffee chats and informational interviews. \
+Internal Networking: Building relationships within remote organizations. \
+Alumni Connections: Leveraging educational and former employer networks virtually. \
+Community Participation: Engaging in online professional groups and associations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Relationship Development' },
+    { type: 'text', content:
+      'Initial Connection: Effective virtual introduction and relationship initiation. \
+Follow-Up Systems: Processes for maintaining contact and building relationship depth. \
+Value Exchange: Finding ways to provide value in remote professional relationships. \
+Trust Building: Techniques for developing reliability and rapport virtually. \
+Consistency: Regular, predictable engagement that strengthens connections. \
+Genuine Interest: Demonstrating authentic curiosity about others\' work and interests.' 
+    }
+  ]
+},
+'remote-work-skills-9': {
+  id: 'remote-work-skills-9',
+  title: 'Health and Wellbeing in Remote Work',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Health and Wellbeing in Remote Work' },
+    { type: 'text', content:
+      'Remote work presents unique health and wellbeing challenges requiring proactive management. \
+Physical health considerations include ergonomics, movement, and eye strain prevention. \
+Mental health requires attention to isolation, boundaries, and work-life integration. \
+Social connection must be intentionally maintained without office interactions. \
+Holistic wellbeing strategies address multiple dimensions of health in remote contexts.' 
+    },
+    { type: 'subtitle', content: 'Physical Health' },
+    { type: 'text', content:
+      'Ergonomic Setup: Proper workstation configuration to prevent strain and injury. \
+Movement Integration: Regular physical activity breaks and exercise routines. \
+Eye Care: Screen positioning, lighting, and regular breaks to reduce eye strain. \
+Nutrition: Healthy eating habits without office snacks or cafeteria options. \
+Posture Awareness: Body positioning and movement throughout workday. \
+Sleep Hygiene: Maintaining consistent sleep patterns without commute constraints.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Mental Wellbeing' },
+    { type: 'text', content:
+      'Isolation Management: Strategies for maintaining social connection and combating loneliness. \
+Stress Reduction: Techniques for managing remote work pressures and uncertainties. \
+Boundary Protection: Defending personal time and mental space from work encroachment. \
+Mindfulness Practices: Incorporating presence and awareness into remote work routines. \
+Support Systems: Building networks for emotional support and professional guidance. \
+Work-Life Integration: Creating sustainable patterns that support overall wellbeing.' 
+    }
+  ]
+},
+'remote-work-skills-10': {
+  id: 'remote-work-skills-10',
+  title: 'Career Advancement in Remote Contexts',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Career Advancement in Remote Contexts' },
+    { type: 'text', content:
+      'Career advancement in remote environments requires different strategies than office-based progression. \
+Visibility and impact must be demonstrated intentionally without physical presence. \
+Relationship building with decision-makers happens through different channels remotely. \
+Skill development and professional growth require more self-directed initiative. \
+Navigating organizational politics and advancement pathways presents unique remote challenges.' 
+    },
+    { type: 'subtitle', content: 'Advancement Strategies' },
+    { type: 'text', content:
+      'Visibility Creation: Intentional demonstration of contributions and achievements. \
+Relationship Building: Developing connections with remote colleagues and leaders. \
+Skill Demonstration: Showcasing capabilities through virtual presentations and deliverables. \
+Mentorship Seeking: Finding and engaging remote mentors for career guidance. \
+Opportunity Identification: Recognizing and pursuing advancement possibilities in distributed organizations. \
+Self-Advocacy: Effectively communicating career aspirations and readiness for advancement.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Professional Development' },
+    { type: 'text', content:
+      'Learning Opportunities: Identifying and accessing remote professional development resources. \
+Skill Building: Developing competencies that are particularly valued in remote contexts. \
+Networking: Building professional relationships that support career growth. \
+Visibility Projects: Leading initiatives that demonstrate leadership and strategic thinking. \
+Feedback Seeking: Proactively requesting input on performance and growth areas. \
+Career Planning: Developing and executing advancement strategies in remote environments.' 
+    }
+  ]
+},
+
+// =======Professional Branding=======
+
+'professional-branding-1': {
+  id: 'professional-branding-1',
+  title: 'Personal Brand Foundation',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Personal Brand Foundation' },
+    { type: 'text', content:
+      'Personal branding is the intentional effort to shape public perception of your professional identity. \
+A strong personal brand differentiates you and communicates your unique value proposition. \
+Brand foundation begins with clarity about strengths, values, and professional aspirations. \
+Consistency across platforms and interactions reinforces brand identity. \
+Authenticity creates sustainable brands that don\'t require constant maintenance.' 
+    },
+    { type: 'subtitle', content: 'Brand Elements' },
+    { type: 'text', content:
+      'Value Proposition: Clear statement of what you offer and how you\'re different. \
+Target Audience: Specific professional groups you want to reach and influence. \
+Brand Attributes: Key characteristics you want associated with your professional identity. \
+Visual Identity: Consistent appearance, style, and imagery across platforms. \
+Communication Style: Distinctive voice, tone, and messaging approach. \
+Expertise Areas: Specific domains where you establish credibility and thought leadership.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60' },
+    { type: 'subtitle', content: 'Foundation Development' },
+    { type: 'text', content:
+      'Self-Assessment: Identifying natural strengths, passions, and differentiators. \
+Audience Analysis: Understanding needs, preferences, and perceptions of target groups. \
+Positioning Strategy: Determining how you want to be positioned relative to peers. \
+Consistency Planning: Ensuring brand elements align across all professional touchpoints. \
+Evolution Planning: How brand will develop as career progresses and goals change. \
+Measurement Framework: Criteria for assessing brand effectiveness and impact.' 
+    }
+  ]
+},
+'professional-branding-2': {
+  id: 'professional-branding-2',
+  title: 'Online Presence and Digital Branding',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Online Presence and Digital Branding' },
+    { type: 'text', content:
+      'Digital platforms are primary channels for personal brand expression and visibility. \
+Consistent online presence reinforces brand identity and expands professional reach. \
+Different platforms serve different branding purposes and require tailored approaches. \
+Content strategy demonstrates expertise and builds brand authority over time. \
+Online reputation management protects and enhances professional brand perception.' 
+    },
+    { type: 'subtitle', content: 'Platform Strategy' },
+    { type: 'text', content:
+      'LinkedIn Optimization: Professional network for career branding and industry visibility. \
+Twitter/X: Real-time engagement, thought leadership, and industry conversation. \
+Professional Website: Central hub for portfolio, achievements, and brand narrative. \
+Industry Platforms: Specialized communities and forums for niche expertise demonstration. \
+Content Platforms: Medium, Substack, or industry publications for long-form content. \
+Portfolio Sites: Behance, GitHub, or other platforms for work sample展示.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Digital Brand Management' },
+    { type: 'text', content:
+      'Consistency Maintenance: Unified messaging and visual identity across platforms. \
+Content Calendar: Strategic planning of brand-relevant content publication. \
+Engagement Strategy: Regular interaction that builds community and visibility. \
+Privacy Management: Balancing professional visibility with personal boundaries. \
+Reputation Monitoring: Tracking online mentions and addressing issues proactively. \
+Analytics Review: Measuring digital brand impact and adjusting strategy accordingly.' 
+    }
+  ]
+},
+'professional-branding-3': {
+  id: 'professional-branding-3',
+  title: 'Content Creation and Thought Leadership',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Content Creation and Thought Leadership' },
+    { type: 'text', content:
+      'Content creation establishes expertise and builds brand authority over time. \
+Thought leadership positions you as forward-thinking contributor to your field. \
+Different content formats serve different purposes and audience preferences. \
+Consistent, valuable content builds audience and reinforces brand positioning. \
+Strategic content distribution maximizes reach and impact.' 
+    },
+    { type: 'subtitle', content: 'Content Types' },
+    { type: 'text', content:
+      'Written Content: Articles, blog posts, white papers, and industry analyses. \
+Visual Content: Infographics, presentations, and visual explanations of complex topics. \
+Audio Content: Podcasts, interviews, and audio commentary on industry developments. \
+Video Content: Explanations, tutorials, presentations, and vlogging. \
+Social Media Posts: Short-form insights, commentary, and engagement prompts. \
+Live Content: Webinars, workshops, and real-time Q&A sessions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Thought Leadership Development' },
+    { type: 'text', content:
+      'Topic Selection: Identifying areas where you have unique perspective or expertise. \
+Original Insight: Developing novel perspectives rather than repeating common knowledge. \
+Research Integration: Supporting viewpoints with data, examples, and evidence. \
+Trend Analysis: Commenting on industry developments with informed predictions. \
+Problem-Solving Focus: Addressing challenges your audience faces with practical solutions. \
+Consistent Voice: Maintaining distinctive perspective across different content pieces.' 
+    }
+  ]
+},
+'professional-branding-4': {
+  id: 'professional-branding-4',
+  title: 'Networking and Relationship Building',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Networking and Relationship Building' },
+    { type: 'text', content:
+      'Professional relationships reinforce and amplify personal brand through advocacy. \
+Strategic networking builds connections with influencers who can amplify your brand. \
+Relationship quality matters more than quantity for brand-building purposes. \
+Reciprocal value exchange strengthens relationships and brand perception. \
+Consistent engagement maintains relationship relevance and brand presence.' 
+    },
+    { type: 'subtitle', content: 'Strategic Networking' },
+    { type: 'text', content:
+      'Influencer Connections: Building relationships with industry leaders and amplifiers. \
+Peer Relationships: Developing mutual support networks with professional contemporaries. \
+Mentor Relationships: Learning from experienced professionals while demonstrating potential. \
+Cross-Industry Connections: Building bridges to adjacent fields and perspectives. \
+Community Leadership: Taking active roles in professional organizations and groups. \
+Alumni Networks: Leveraging educational and former employer connections.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Relationship Strategies' },
+    { type: 'text', content:
+      'Value First Approach: Focusing on how you can help others before seeking assistance. \
+Consistent Engagement: Regular, meaningful interaction that deepens connections. \
+Introduction Facilitation: Connecting people in your network who could benefit each other. \
+Public Support: Acknowledging and amplifying others\' work and achievements. \
+Reciprocal Promotion: Mutual brand-building through co-created content or endorsements. \
+Gratitude Expression: Regularly acknowledging those who support your brand development.' 
+    }
+  ]
+},
+'professional-branding-5': {
+  id: 'professional-branding-5',
+  title: 'Public Speaking and Presentation Branding',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Public Speaking and Presentation Branding' },
+    { type: 'text', content:
+      'Public speaking positions you as expert and builds brand visibility exponentially. \
+Presentation opportunities at conferences, webinars, and events amplify professional brand. \
+Speaking style and content reinforce brand attributes and expertise areas. \
+Video recordings of presentations extend reach beyond live audiences. \
+Strategic speaking engagements align with brand positioning and target audience.' 
+    },
+    { type: 'subtitle', content: 'Speaking Opportunities' },
+    { type: 'text', content:
+      'Industry Conferences: Main stage presentations, panel participation, and workshops. \
+Corporate Events: Internal company presentations, training sessions, and town halls. \
+Webinars and Virtual Events: Online presentations reaching geographically dispersed audiences. \
+Academic Settings: University lectures, guest speaking, and educational workshops. \
+Community Events: Local professional gatherings, meetups, and association meetings. \
+Media Appearances: Podcast interviews, television, radio, and online media features.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Brand Alignment' },
+    { type: 'text', content:
+      'Topic Selection: Speaking on subjects that reinforce brand expertise and positioning. \
+Style Development: Presentation approach that reflects brand personality and values. \
+Visual Identity: Consistent slide design, branding, and appearance across presentations. \
+Messaging Integration: Key brand messages woven throughout speaking content. \
+Audience Targeting: Speaking to groups that align with brand target audience. \
+Follow-Up Strategy: Leveraging speaking engagements for continued brand building.' 
+    }
+  ]
+},
+'professional-branding-6': {
+  id: 'professional-branding-6',
+  title: 'Writing and Publication Strategy',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Writing and Publication Strategy' },
+    { type: 'text', content:
+      'Written publications establish lasting brand credibility and demonstrate deep expertise. \
+Different publication venues reach different audiences and serve different brand purposes. \
+Consistent writing voice and perspective reinforce brand identity. \
+Strategic topic selection aligns with brand positioning and audience interests. \
+Publication credits build brand authority that compounds over time.' 
+    },
+    { type: 'subtitle', content: 'Publication Venues' },
+    { type: 'text', content:
+      'Industry Publications: Trade magazines, professional journals, and industry websites. \
+Academic Journals: Peer-reviewed articles for research-focused brand positioning. \
+Mainstream Media: Articles in newspapers, magazines, and major online publications. \
+Books: Authoring books that establish comprehensive expertise in specific areas. \
+Company Publications: Contributing to organizational blogs, newsletters, and reports. \
+Self-Publishing: Personal blogs, newsletters, and independently published content.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Writing Strategy' },
+    { type: 'text', content:
+      'Topic Development: Identifying subjects that demonstrate expertise and provide value. \
+Voice Consistency: Maintaining distinctive writing style that reflects brand personality. \
+Research Integration: Supporting written work with data, examples, and citations. \
+Editorial Relationships: Building connections with editors and publication gatekeepers. \
+Pitching Process: Effectively proposing article ideas to target publications. \
+Promotion Planning: Strategically amplifying published work for maximum brand impact.' 
+    }
+  ]
+},
+'professional-branding-7': {
+  id: 'professional-branding-7',
+  title: 'Visual Identity and Professional Appearance',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Visual Identity and Professional Appearance' },
+    { type: 'text', content:
+      'Visual elements create immediate brand impressions and recognition. \
+Consistent visual identity across platforms reinforces brand professionalism. \
+Professional appearance in person and on video supports brand credibility. \
+Visual style should align with brand personality and target audience expectations. \
+Investing in quality visual elements signals brand seriousness and attention to detail.' 
+    },
+    { type: 'subtitle', content: 'Visual Elements' },
+    { type: 'text', content:
+      'Professional Photography: High-quality headshots and brand-appropriate photos. \
+Logo/Brand Mark: Simple visual identifier for websites, presentations, and materials. \
+Color Palette: Consistent color scheme across digital and physical brand touchpoints. \
+Typography: Font selections that reflect brand personality and ensure readability. \
+Imagery Style: Consistent approach to photos, graphics, and visual content. \
+Design Templates: Reusable formats for presentations, documents, and social media.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Appearance Considerations' },
+    { type: 'text', content:
+      'Professional Attire: Clothing choices that align with brand and industry expectations. \
+Grooming Standards: Personal presentation that reinforces brand credibility. \
+Video Presence: Appearance considerations for virtual meetings and recordings. \
+Consistency: Maintaining visual identity across different contexts and platforms. \
+Adaptation: Adjusting visual elements for different audiences while maintaining core identity. \
+Quality Investment: Prioritizing professional design and photography for key brand elements.' 
+    }
+  ]
+},
+'professional-branding-8': {
+  id: 'professional-branding-8',
+  title: 'Reputation Management and Crisis Response',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Reputation Management and Crisis Response' },
+    { type: 'text', content:
+      'Proactive reputation management protects brand equity built over time. \
+Crisis response planning prepares for potential brand challenges or negative situations. \
+Online reputation monitoring identifies issues early for timely response. \
+Transparent communication during challenges can strengthen brand trust. \
+Recovery strategies rebuild brand credibility after setbacks or mistakes.' 
+    },
+    { type: 'subtitle', content: 'Reputation Monitoring' },
+    { type: 'text', content:
+      'Online Mentions: Tracking brand references across social media and web platforms. \
+Search Results: Regular review of what appears when your name is searched online. \
+Review Platforms: Monitoring employer review sites and professional rating platforms. \
+Media Coverage: Tracking press mentions and media references to your brand. \
+Competitive Positioning: Understanding how your brand compares to peers in public perception. \
+Feedback Channels: Systems for gathering and responding to brand feedback.'
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Crisis Preparedness' },
+    { type: 'text', content:
+      'Risk Assessment: Identifying potential threats to brand reputation. \
+Response Planning: Developing protocols for different types of brand challenges. \
+Communication Templates: Prepared statements for various crisis scenarios. \
+Support Network: Identifying advisors and supporters who can assist during challenges. \
+Learning Systems: Processes for extracting lessons from reputation incidents. \
+Rebuilding Strategies: Approaches for restoring brand credibility after setbacks.' 
+    }
+  ]
+},
+'professional-branding-9': {
+  id: 'professional-branding-9',
+  title: 'Measuring Brand Impact and ROI',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Measuring Brand Impact and ROI' },
+    { type: 'text', content:
+      'Brand effectiveness measurement ensures investment aligns with professional goals. \
+Different metrics track different aspects of brand awareness, perception, and impact. \
+Regular assessment identifies what\'s working and opportunities for improvement. \
+Return on investment analysis justifies continued brand-building effort. \
+Data-driven adjustments optimize brand strategy over time.' 
+    },
+    { type: 'subtitle', content: 'Measurement Metrics' },
+    { type: 'text', content:
+      'Awareness Metrics: Brand mentions, search volume, and social media reach. \
+Engagement Measures: Content interactions, audience growth, and community participation. \
+Perception Indicators: Survey feedback, testimonial quality, and referral patterns. \
+Opportunity Impact: Interview invitations, speaking requests, and collaboration offers. \
+Career Outcomes: Promotion rates, compensation changes, and role advancement. \
+Network Growth: Quality and relevance of professional connections attracted.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Analysis and Adjustment' },
+    { type: 'text', content:
+      'Regular Review: Scheduled assessment of brand metrics and progress toward goals. \
+Benchmarking: Comparing brand performance against peers and industry standards. \
+ROI Calculation: Assessing whether brand benefits justify time and resource investment. \
+Strategy Refinement: Using insights to adjust brand-building approaches and priorities. \
+Success Identification: Recognizing what\'s working to reinforce effective strategies. \
+Pivot Recognition: Knowing when brand strategy needs significant change versus minor adjustment.' 
+    }
+  ]
+},
+'professional-branding-10': {
+  id: 'professional-branding-10',
+  title: 'Brand Evolution and Career Transitions',
+  image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Brand Evolution and Career Transitions' },
+    { type: 'text', content:
+      'Personal brands should evolve as careers progress and professional goals change. \
+Career transitions require intentional brand repositioning and audience realignment. \
+Strategic evolution maintains brand relevance while allowing for growth and change. \
+Transition messaging explains brand evolution to existing audience and new targets. \
+Consistent core values provide continuity through brand evolution.' 
+    },
+    { type: 'subtitle', content: 'Evolution Scenarios' },
+    { type: 'text', content:
+      'Industry Transition: Repositioning brand when moving to different sector. \\
+Role Change: Adapting brand for promotion, functional shift, or responsibility expansion. \\
+Entrepreneurial Move: Transitioning from employee to founder or business owner brand. \\
+Expertise Expansion: Broadening brand to incorporate new skills or knowledge areas. \\
+Audience Shift: Reorienting brand toward different professional groups or industries. \\
+Geographic Relocation: Adapting brand for new regional or cultural context.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
+    { type: 'subtitle', content: 'Transition Strategy' },
+    { type: 'text', content:
+      'Messaging Bridge: Explaining how past experience informs new direction. \\
+Audience Communication: Informing existing network about brand evolution. \\
+Platform Updates: Refreshing digital presence to reflect new brand positioning. \\
+Content Shift: Developing new content that demonstrates evolved expertise. \\
+Relationship Realignment: Adjusting networking focus to new target audiences. \\
+Timeline Planning: Phased approach to brand transition that maintains credibility.' 
+    }
+  ]
+},
 
 
 };
