@@ -1,0 +1,11023 @@
+
+const data = {
+            //==== ML Concepts ====
+
+  "ml-concepts-1": {
+    id: "ml-concepts-1",
+    title: "What is Machine Learning?",
+    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60",
+    sections: [
+      { type: "title", content: "What is Machine Learning?" },
+      {
+        type: "text",
+        content:
+          "Machine Learning is a branch of AI that enables systems to learn from data. \\" +
+          "Instead of being explicitly programmed, ML algorithms identify patterns. \\" +
+          "They improve their performance with experience over time. \\" +
+          "ML powers recommendations, predictions, and automated decisions. \\" +
+          "It bridges the gap between data and actionable insights.",
+      },
+      { type: "subtitle", content: "Core Idea" },
+      {
+        type: "text",
+        content:
+          "ML algorithms find mathematical patterns in datasets. \\" +
+          "They generalize from examples to make predictions on new data. \\" +
+          "The learning process adjusts internal parameters based on feedback. \\" +
+          "Models can be supervised, unsupervised, or reinforced. \\" +
+          "The goal is to automate decision-making where programming rules fail.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Email spam filters use ML to classify incoming messages. \\" +
+          "The system learns from users marking emails as spam or not. \\" +
+          "Patterns in sender addresses, content, and subject lines are analyzed. \\" +
+          "Over time, the filter becomes more accurate at blocking unwanted emails. \\" +
+          "This reduces inbox clutter without manual rule setting.",
+      },
+    ],
+  },
+  "ml-concepts-2": {
+    id: "ml-concepts-2",
+    title: "Supervised vs Unsupervised Learning",
+    image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60",
+    sections: [
+      { type: "title", content: "Supervised vs Unsupervised Learning" },
+      {
+        type: "text",
+        content:
+          "Supervised learning uses labeled data to train prediction models. \\" +
+          "The algorithm learns from input-output pairs provided during training. \\" +
+          "Unsupervised learning finds hidden patterns in unlabeled data. \\" +
+          "It groups similar items or reduces data dimensionality. \\" +
+          "Both approaches solve different types of real-world problems.",
+      },
+      { type: "subtitle", content: "Key Differences" },
+      {
+        type: "text",
+        content:
+          "Supervised: Needs labeled data, predicts known outcomes. \\" +
+          "Unsupervised: Works with unlabeled data, discovers unknown patterns. \\" +
+          "Supervised examples: Classification and regression tasks. \\" +
+          "Unsupervised examples: Clustering and association tasks. \\" +
+          "Semi-supervised learning combines both approaches.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Amazon uses supervised learning to recommend products. \\" +
+          "Customer purchase history provides labeled training data. \\" +
+          "Unsupervised learning groups similar products for discovery. \\" +
+          "Combined approaches create personalized shopping experiences. \\" +
+          "This drives higher engagement and conversion rates.",
+      },
+    ],
+  },
+  "ml-concepts-3": {
+    id: "ml-concepts-3",
+    title: "Regression & Classification",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60",
+    sections: [
+      { type: "title", content: "Regression & Classification" },
+      {
+        type: "text",
+        content:
+          "Regression predicts continuous numerical values like prices or temperatures. \\" +
+          "Classification predicts discrete categories like spam/not-spam. \\" +
+          "Both are supervised learning techniques with different outputs. \\" +
+          "Regression uses algorithms like linear regression and decision trees. \\" +
+          "Classification employs logistic regression, SVM, and neural networks.",
+      },
+      { type: "subtitle", content: "When to Use Each" },
+      {
+        type: "text",
+        content:
+          "Use regression for quantity predictions: stock prices, sales forecasts. \\" +
+          "Use classification for category predictions: disease diagnosis, sentiment. \\" +
+          "Regression minimizes distance between predicted and actual values. \\" +
+          "Classification maximizes accuracy of category assignments. \\" +
+          "Many real problems combine both approaches.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Uber uses regression to predict ride prices and arrival times. \\" +
+          "The model considers traffic, demand, distance, and historical patterns. \\" +
+          "Classification determines ride categories like pool, premier, or XL. \\" +
+          "Both systems work together to optimize user experience. \\" +
+          "This creates efficient, predictable transportation services.",
+      },
+    ],
+  },
+  "ml-concepts-4": {
+    id: "ml-concepts-4",
+    title: "Clustering & Dimensionality Reduction",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60",
+    sections: [
+      { type: "title", content: "Clustering & Dimensionality Reduction" },
+      {
+        type: "text",
+        content:
+          "Clustering groups similar data points without predefined labels. \\" +
+          "K-means and hierarchical clustering are popular algorithms. \\" +
+          "Dimensionality reduction simplifies data while preserving patterns. \\" +
+          "PCA and t-SNE reduce features for visualization and efficiency. \\" +
+          "Both are unsupervised techniques for data exploration.",
+      },
+      { type: "subtitle", content: "Applications" },
+      {
+        type: "text",
+        content:
+          "Clustering: Customer segmentation, document grouping, anomaly detection. \\" +
+          "Dimensionality reduction: Data visualization, noise reduction, feature extraction. \\" +
+          "Clustering finds natural groupings in complex datasets. \\" +
+          "Dimensionality reduction prevents overfitting in high-dimensional data. \\" +
+          "Together they reveal hidden data structure.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Spotify uses clustering to create personalized playlists. \\" +
+          "Songs with similar audio features are grouped together. \\" +
+          "Dimensionality reduction helps visualize music taste patterns. \\" +
+          "Users discover new music through algorithmic recommendations. \\" +
+          "This keeps listeners engaged with fresh, relevant content.",
+      },
+    ],
+  },
+  "ml-concepts-5": {
+    id: "ml-concepts-5",
+    title: "Model Evaluation Metrics",
+    image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60",
+    sections: [
+      { type: "title", content: "Model Evaluation Metrics" },
+      {
+        type: "text",
+        content:
+          "Evaluation metrics quantify how well ML models perform. \\" +
+          "Different metrics suit different problem types and business goals. \\" +
+          "Accuracy measures overall correctness but can be misleading. \\" +
+          "Precision and recall provide nuanced classification insights. \\" +
+          "The right metric aligns with real-world impact.",
+      },
+      { type: "subtitle", content: "Common Metrics" },
+      {
+        type: "text",
+        content:
+          "Accuracy: Proportion of correct predictions overall. \\" +
+          "Precision: How many selected items are relevant. \\" +
+          "Recall: How many relevant items are selected. \\" +
+          "F1-Score: Harmonic mean of precision and recall. \\" +
+          "ROC-AUC: Overall classification performance across thresholds.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Medical diagnosis systems prioritize recall over accuracy. \\" +
+          "Missing a disease (false negative) is more costly than false alarm. \\" +
+          "Cancer screening algorithms maximize detection of true positives. \\" +
+          "Evaluation metrics guide model selection and improvement. \\" +
+          "This saves lives through early, accurate disease detection.",
+      },
+    ],
+  },
+  "ml-concepts-6": {
+    id: "ml-concepts-6",
+    title: "Bias-Variance Tradeoff",
+    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60",
+    sections: [
+      { type: "title", content: "Bias-Variance Tradeoff" },
+      {
+        type: "text",
+        content:
+          "Bias is error from overly simplistic model assumptions. \\" +
+          "Variance is error from excessive sensitivity to training data. \\" +
+          "High bias causes underfitting; high variance causes overfitting. \\" +
+          "The tradeoff balances model complexity and generalization. \\" +
+          "Optimal models minimize total error (bias² + variance + irreducible error).",
+      },
+      { type: "subtitle", content: "Managing the Tradeoff" },
+      {
+        type: "text",
+        content:
+          "Increase model complexity to reduce bias. \\" +
+          "Add regularization to reduce variance. \\" +
+          "Use cross-validation to estimate true performance. \\" +
+          "Collect more data to reduce variance impact. \\" +
+          "Choose algorithms based on data characteristics.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Credit scoring models balance bias-variance carefully. \\" +
+          "Too simple (high bias) misses important risk factors. \\" +
+          "Too complex (high variance) overfits to historical patterns. \\" +
+          "Banks optimize for fair, generalizable lending decisions. \\" +
+          "This maximizes profitability while minimizing default risk.",
+      },
+    ],
+  },
+  "ml-concepts-7": {
+    id: "ml-concepts-7",
+    title: "Cross-Validation Techniques",
+    image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60",
+    sections: [
+      { type: "title", content: "Cross-Validation Techniques" },
+      {
+        type: "text",
+        content:
+          "Cross-validation estimates model performance on unseen data. \\" +
+          "It partitions data into training and validation sets multiple times. \\" +
+          "K-fold cross-validation is the most common approach. \\" +
+          "Stratified cross-validation preserves class distribution. \\" +
+          "Cross-validation prevents overfitting and provides robust performance estimates.",
+      },
+      { type: "subtitle", content: "Types of Cross-Validation" },
+      {
+        type: "text",
+        content:
+          "K-Fold: Data split into K equal parts, each used as validation once. \\" +
+          "Leave-One-Out: Each sample serves as validation individually. \\" +
+          "Stratified: Maintains class proportions in each fold. \\" +
+          "Time Series: Respects temporal ordering for sequential data. \\" +
+          "Nested: Tunes hyperparameters without data leakage.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Pharmaceutical companies use cross-validation in drug discovery. \\" +
+          "Molecular activity predictions must generalize to new compounds. \\" +
+          "Cross-validation ensures models work beyond training molecules. \\" +
+          "This reduces failed clinical trials and accelerates development. \\" +
+          "Life-saving medications reach patients faster through robust validation.",
+      },
+    ],
+  },
+  "ml-concepts-8": {
+    id: "ml-concepts-8",
+    title: "Feature Engineering Basics",
+    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60",
+    sections: [
+      { type: "title", content: "Feature Engineering Basics" },
+      {
+        type: "text",
+        content:
+          "Feature engineering creates informative input variables from raw data. \\" +
+          "Good features dramatically improve model performance. \\" +
+          "It involves transformation, creation, and selection of variables. \\" +
+          "Domain knowledge guides effective feature engineering. \\" +
+          "Well-engineered features often outperform complex algorithms.",
+      },
+      { type: "subtitle", content: "Common Techniques" },
+      {
+        type: "text",
+        content:
+          "One-hot encoding for categorical variables. \\" +
+          "Scaling and normalization for numerical features. \\" +
+          "Polynomial features for capturing interactions. \\" +
+          "Binning continuous variables into categories. \\" +
+          "Creating time-based features from timestamps.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Airbnb uses feature engineering for price prediction. \\" +
+          "Location features include distance to landmarks and neighborhood scores. \\" +
+          "Temporal features capture seasonality and local events. \\" +
+          "Property features combine amenities, photos, and host history. \\" +
+          "Accurate pricing maximizes bookings and host revenue.",
+      },
+    ],
+  },
+  "ml-concepts-9": {
+    id: "ml-concepts-9",
+    title: "Ensemble Methods",
+    image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60",
+    sections: [
+      { type: "title", content: "Ensemble Methods" },
+      {
+        type: "text",
+        content:
+          "Ensemble methods combine multiple models to improve predictions. \\" +
+          "They reduce variance, bias, and overfitting through aggregation. \\" +
+          "Random forests average many decision trees. \\" +
+          "Gradient boosting sequentially corrects previous errors. \\" +
+          "Ensembles often win machine learning competitions.",
+      },
+      { type: "subtitle", content: "Popular Ensemble Techniques" },
+      {
+        type: "text",
+        content:
+          "Bagging: Parallel training of same algorithm on different subsets. \\" +
+          "Boosting: Sequential training focusing on hard examples. \\" +
+          "Stacking: Combining predictions using a meta-model. \\" +
+          "Voting: Majority or weighted average of predictions. \\" +
+          "Each technique addresses different weaknesses.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Netflix recommendation system uses ensemble methods. \\" +
+          "Multiple algorithms predict user ratings for content. \\" +
+          "Combined predictions improve accuracy beyond any single model. \\" +
+          "The ensemble adapts to diverse viewing patterns. \\" +
+          "This creates highly personalized entertainment experiences.",
+      },
+    ],
+  },
+  "ml-concepts-10": {
+    id: "ml-concepts-10",
+    title: "ML in Everyday Life",
+    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60",
+    sections: [
+      { type: "title", content: "ML in Everyday Life" },
+      {
+        type: "text",
+        content:
+          "Machine learning quietly powers daily experiences and services. \\" +
+          "From search engines to social media, ML is everywhere. \\" +
+          "It personalizes content, optimizes routes, and detects fraud. \\" +
+          "ML improves efficiency, safety, and convenience across industries. \\" +
+          "Understanding ML helps navigate the increasingly AI-driven world.",
+      },
+      { type: "subtitle", content: "Ubiquitous Applications" },
+      {
+        type: "text",
+        content:
+          "Search engines rank results using ML algorithms. \\" +
+          "Social media curates feeds based on engagement patterns. \\" +
+          "Navigation apps predict traffic and optimize routes. \\" +
+          "Smart assistants understand and respond to voice commands. \\" +
+          "Streaming services recommend content you will enjoy.",
+      },
+      { type: "image", content: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60" },
+      { type: "subtitle", content: "Real-Time Example" },
+      {
+        type: "text",
+        content:
+          "Google Maps uses ML for real-time traffic predictions. \\" +
+          "Historical data, current speeds, and events inform ETAs. \\" +
+          "The system learns traffic patterns for different days and times. \\" +
+          "Accurate predictions save millions of hours in commute time. \\" +
+          "This demonstrates ML solving everyday transportation challenges.",
+      },
+    ],
+  },
+
+
+  //==== Deep Learnig ====
+  'deep-learning-1': {
+  id: 'deep-learning-1',
+  title: 'What Makes Learning "Deep"?',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'What Makes Learning "Deep"?' },
+    { type: 'text', content:
+      'Deep learning uses neural networks with many hidden layers. \
+These layers enable hierarchical feature learning from raw data. \
+Deep networks automatically discover representations needed for tasks. \
+They eliminate manual feature engineering for complex problems. \
+Depth allows modeling of highly non-linear relationships.' 
+    },
+    { type: 'subtitle', content: 'Key Characteristics' },
+    { type: 'text', content:
+      'Multiple processing layers for feature transformation. \
+Automatic feature extraction from raw inputs. \
+Ability to learn hierarchical representations. \
+Scalability with large datasets and computational resources. \
+State-of-the-art performance in perception tasks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google Translate uses deep learning for accurate translations. \
+Multiple layers understand grammar, syntax, and semantics. \
+The system learns language patterns from millions of documents. \
+Deep networks capture nuances missed by earlier approaches. \
+This enables near-human translation across 100+ languages.' 
+    }
+  ]
+},
+'deep-learning-2': {
+  id: 'deep-learning-2',
+  title: 'Convolutional Neural Networks (CNNs)',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Convolutional Neural Networks (CNNs)' },
+    { type: 'text', content:
+      'CNNs are specialized for processing grid-like data such as images. \
+They use convolutional filters to detect spatial patterns. \
+Pooling layers reduce dimensionality while preserving features. \
+CNNs achieve state-of-the-art results in computer vision tasks. \
+They revolutionized image recognition and processing.' 
+    },
+    { type: 'subtitle', content: 'CNN Architecture Components' },
+    { type: 'text', content:
+      'Convolutional layers detect local patterns. \
+Activation layers introduce non-linearity (ReLU). \
+Pooling layers downsample feature maps. \
+Fully connected layers make final predictions. \
+Batch normalization stabilizes training.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Facebook uses CNNs for automatic photo tagging. \
+The system recognizes faces, objects, and scenes in images. \
+Multiple convolutional layers extract features hierarchically. \
+This enables instant friend suggestions and content organization. \
+CNNs power the social media visual experience.' 
+    }
+  ]
+},
+'deep-learning-3': {
+  id: 'deep-learning-3',
+  title: 'Recurrent Neural Networks (RNNs)',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Recurrent Neural Networks (RNNs)' },
+    { type: 'text', content:
+      'RNNs process sequential data by maintaining internal memory. \
+They handle inputs of varying lengths through recurrent connections. \
+RNNs excel at time-series analysis and natural language tasks. \
+They capture temporal dependencies and contextual information. \
+Variants like LSTMs address long-term dependency problems.' 
+    },
+    { type: 'subtitle', content: 'RNN Applications' },
+    { type: 'text', content:
+      'Time series forecasting and anomaly detection. \
+Speech recognition and audio processing. \
+Natural language understanding and generation. \
+Video analysis across time frames. \
+Musical composition and sequence generation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Apple Siri uses RNNs for voice recognition and understanding. \
+The system processes audio streams as sequential data. \
+RNNs maintain context throughout spoken sentences. \
+This enables natural conversation with virtual assistants. \
+Deep learning makes human-computer interaction seamless.' 
+    }
+  ]
+},
+'deep-learning-4': {
+  id: 'deep-learning-4',
+  title: 'Long Short-Term Memory (LSTMs)',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Long Short-Term Memory (LSTMs)' },
+    { type: 'text', content:
+      'LSTMs are specialized RNNs designed to remember long-term dependencies. \
+They use gating mechanisms to control information flow. \
+Input, forget, and output gates regulate memory cell updates. \
+LSTMs solve the vanishing gradient problem in standard RNNs. \
+They excel at tasks requiring memory over long sequences.' 
+    },
+    { type: 'subtitle', content: 'LSTM Advantages' },
+    { type: 'text', content:
+      'Remember information for many time steps. \
+Learn which information to keep or discard. \
+Handle sequences with long-term dependencies. \
+Mitigate vanishing and exploding gradients. \
+Achieve better performance on complex sequential tasks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google Keyboard uses LSTMs for predictive text and autocorrect. \
+The system remembers typing patterns and context. \
+LSTMs learn from millions of users typing behaviors. \
+Predictions become personalized and contextually aware. \
+This speeds up mobile communication through intelligent assistance.' 
+    }
+  ]
+},
+'deep-learning-5': {
+  id: 'deep-learning-5',
+  title: 'Autoencoders & Dimensionality Reduction',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Autoencoders & Dimensionality Reduction' },
+    { type: 'text', content:
+      'Autoencoders are neural networks that learn efficient data representations. \
+They consist of encoder and decoder components. \
+The bottleneck layer creates compressed feature representations. \
+Autoencoders excel at denoising and anomaly detection. \
+They provide nonlinear dimensionality reduction.' 
+    },
+    { type: 'subtitle', content: 'Autoencoder Types' },
+    { type: 'text', content:
+      'Vanilla autoencoders for basic compression. \
+Denoising autoencoders for robust representations. \
+Variational autoencoders for generative modeling. \
+Sparse autoencoders for feature discovery. \
+Contractive autoencoders for invariant representations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Credit card companies use autoencoders for fraud detection. \
+The system learns normal transaction patterns. \
+Anomalies trigger fraud alerts for investigation. \
+Autoencoders detect novel fraud schemes without labeled examples. \
+This protects customers from unauthorized transactions.' 
+    }
+  ]
+},
+'deep-learning-6': {
+  id: 'deep-learning-6',
+  title: 'Generative Adversarial Networks (GANs)',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Generative Adversarial Networks (GANs)' },
+    { type: 'text', content:
+      'GANs consist of generator and discriminator networks in competition. \
+The generator creates synthetic data resembling real examples. \
+The discriminator distinguishes real from generated data. \
+Training progresses until the generator produces convincing fakes. \
+GANs enable realistic image, video, and audio generation.' 
+    },
+    { type: 'subtitle', content: 'GAN Applications' },
+    { type: 'text', content:
+      'Photorealistic image generation from descriptions. \
+Data augmentation for limited training datasets. \
+Style transfer and artistic creation. \
+Super-resolution and image enhancement. \
+Drug discovery through molecular generation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'NVIDIA uses GANs for AI-generated human faces and scenes. \
+The system creates photorealistic images of non-existent people. \
+Entertainment industry uses this for character creation. \
+GANs generate training data for other AI systems. \
+This demonstrates deep learning creative capabilities.' 
+    }
+  ]
+},
+'deep-learning-7': {
+  id: 'deep-learning-7',
+  title: 'Transfer Learning Strategies',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Transfer Learning Strategies' },
+    { type: 'text', content:
+      'Transfer learning applies knowledge from one task to another. \
+Pre-trained models on large datasets provide excellent starting points. \
+Fine-tuning adapts these models to specific domains with less data. \
+Feature extraction uses pre-trained layers as fixed feature extractors. \
+Transfer learning democratizes deep learning for limited-data scenarios.' 
+    },
+    { type: 'subtitle', content: 'Transfer Learning Approaches' },
+    { type: 'text', content:
+      'Fine-tuning: Update all or some layers on new data. \
+Feature extraction: Use pre-trained layers as fixed encoders. \
+Domain adaptation: Adjust models for different data distributions. \
+Multi-task learning: Share representations across related tasks. \
+This reduces training time and data requirements.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Medical imaging startups use transfer learning for diagnosis. \
+Models pre-trained on ImageNet adapt to X-rays and MRIs. \
+Limited medical imaging data becomes sufficient for training. \
+This accelerates AI adoption in healthcare. \
+Transfer learning saves lives through accessible medical AI.' 
+    }
+  ]
+},
+'deep-learning-8': {
+  id: 'deep-learning-8',
+  title: 'Attention Mechanisms',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Attention Mechanisms' },
+    { type: 'text', content:
+      'Attention mechanisms allow models to focus on relevant input parts. \
+They assign different weights to different sequence positions. \
+Attention improves performance on long sequences and complex tasks. \
+Self-attention captures relationships within a single sequence. \
+Transformers rely entirely on attention mechanisms.' 
+    },
+    { type: 'subtitle', content: 'Attention Benefits' },
+    { type: 'text', content:
+      'Handle variable-length sequences effectively. \
+Improve interpretability through attention visualization. \
+Capture long-range dependencies better than RNNs. \
+Enable parallel computation during training. \
+Achieve state-of-the-art results in NLP tasks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google Search uses attention mechanisms for understanding queries. \
+The system focuses on key terms and their relationships. \
+Attention weights determine which words matter most. \
+This improves search relevance and result quality. \
+Attention makes search engines more intelligent and responsive.' 
+    }
+  ]
+},
+'deep-learning-9': {
+  id: 'deep-learning-9',
+  title: 'Transformers Architecture',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Transformers Architecture' },
+    { type: 'text', content:
+      'Transformers use attention mechanisms without recurrence. \
+They process entire sequences in parallel for efficiency. \
+Positional encoding provides sequence order information. \
+Multi-head attention captures different representation subspaces. \
+Transformers dominate modern natural language processing.' 
+    },
+    { type: 'subtitle', content: 'Transformer Components' },
+    { type: 'text', content:
+      'Self-attention layers for sequence modeling. \
+Feed-forward networks for transformation. \
+Layer normalization for training stability. \
+Residual connections for gradient flow. \
+Encoder-decoder structure for sequence-to-sequence tasks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'OpenAI GPT models use transformer architecture for text generation. \
+These models power chatbots, content creation, and code generation. \
+Transformers understand context across thousands of words. \
+They generate human-like text for various applications. \
+This architecture enables today most advanced language AI.' 
+    }
+  ]
+},
+'deep-learning-10': {
+  id: 'deep-learning-10',
+  title: 'Deep Learning Hardware & Optimization',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Deep Learning Hardware & Optimization' },
+    { type: 'text', content:
+      'Deep learning demands specialized hardware for efficient computation. \
+GPUs accelerate matrix operations central to neural networks. \
+TPUs offer even faster training for large-scale models. \
+Optimization techniques reduce memory and computation requirements. \
+Hardware-software co-design enables practical deep learning deployment.' 
+    },
+    { type: 'subtitle', content: 'Optimization Techniques' },
+    { type: 'text', content:
+      'Mixed precision training reduces memory usage. \
+Model pruning removes unnecessary weights. \
+Quantization decreases precision for faster inference. \
+Knowledge distillation transfers knowledge to smaller models. \
+Architecture search automates optimal model design.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Tesla Autopilot uses optimized deep learning for real-time driving. \
+Specialized hardware processes multiple camera streams simultaneously. \
+Model optimization enables decisions within milliseconds. \
+This ensures safe autonomous driving in complex environments. \
+Hardware advances make real-world AI applications possible.' 
+    }
+  ]
+},
+
+    //==== Natural Language Processing ====
+
+    'nlp-1': {
+  id: 'nlp-1',
+  title: 'Introduction to Natural Language Processing',
+  image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Natural Language Processing' },
+    { type: 'text', content:
+      'NLP enables computers to understand, interpret, and generate human language. \
+It combines linguistics, computer science, and artificial intelligence. \
+NLP powers chatbots, translation, sentiment analysis, and voice assistants. \
+The field has evolved from rule-based systems to deep learning models. \
+Modern NLP handles language complexity with remarkable accuracy.' 
+    },
+    { type: 'subtitle', content: 'Core NLP Tasks' },
+    { type: 'text', content:
+      'Text classification: Categorizing documents or sentences. \
+Named entity recognition: Identifying people, places, organizations. \
+Sentiment analysis: Determining emotional tone in text. \
+Machine translation: Converting between languages. \
+Text generation: Creating coherent language automatically.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Grammarly uses NLP to check writing for errors and improvements. \
+The system analyzes grammar, style, tone, and clarity. \
+Advanced models understand context and intent behind words. \
+Millions use NLP-powered tools for better communication. \
+This demonstrates NLP practical value in everyday writing.' 
+    }
+  ]
+},
+'nlp-2': {
+  id: 'nlp-2',
+  title: 'Text Preprocessing & Tokenization',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Text Preprocessing & Tokenization' },
+    { type: 'text', content:
+      'Text preprocessing prepares raw text for NLP models. \
+Tokenization splits text into meaningful units like words or subwords. \
+Cleaning removes noise such as special characters and HTML tags. \
+Normalization standardizes text through lowercasing and stemming. \
+Quality preprocessing significantly impacts model performance.' 
+    },
+    { type: 'subtitle', content: 'Preprocessing Steps' },
+    { type: 'text', content:
+      'Tokenization: Breaking text into words, subwords, or characters. \
+Lowercasing: Converting all text to lowercase for consistency. \
+Stopword removal: Eliminating common but uninformative words. \
+Stemming/Lemmatization: Reducing words to root forms. \
+Noise removal: Cleaning HTML, URLs, and special characters.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google Search preprocesses billions of queries daily. \
+Tokenization breaks queries into searchable terms. \
+Stemming ensures "running" matches "run" in results. \
+This preprocessing enables fast, accurate search results. \
+Users find relevant information through optimized text processing.' 
+    }
+  ]
+},
+'nlp-3': {
+  id: 'nlp-3',
+  title: 'Word Embeddings & Vector Representations',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Word Embeddings & Vector Representations' },
+    { type: 'text', content:
+      'Word embeddings represent words as dense vectors in continuous space. \
+Similar words have similar vector representations. \
+Word2Vec, GloVe, and FastText are popular embedding methods. \
+Embeddings capture semantic and syntactic relationships. \
+They provide foundational representations for downstream NLP tasks.' 
+    },
+    { type: 'subtitle', content: 'Embedding Properties' },
+    { type: 'text', content:
+      'Similar words cluster together in vector space. \
+Mathematical operations capture relationships (king - man + woman = queen). \
+Dimensionality typically ranges from 50 to 300 dimensions. \
+Pre-trained embeddings exist for many languages. \
+Contextual embeddings like BERT capture polysemy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Amazon uses word embeddings for product search and recommendations. \
+"Wireless headphones" embeddings relate to "Bluetooth earbuds." \
+The system understands synonyms and related products. \
+This improves search relevance and cross-selling opportunities. \
+Embeddings power intelligent e-commerce experiences.' 
+    }
+  ]
+},
+'nlp-4': {
+  id: 'nlp-4',
+  title: 'Sequence-to-Sequence Models',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sequence-to-Sequence Models' },
+    { type: 'text', content:
+      'Seq2seq models transform one sequence into another sequence. \
+They use encoder-decoder architecture with RNNs or transformers. \
+Applications include translation, summarization, and dialogue systems. \
+Attention mechanisms improve performance on long sequences. \
+Seq2seq enables many practical NLP applications.' 
+    },
+    { type: 'subtitle', content: 'Seq2seq Applications' },
+    { type: 'text', content:
+      'Machine translation between different languages. \
+Text summarization for long documents. \
+Chatbot response generation in conversations. \
+Speech recognition converting audio to text. \
+Code generation from natural language descriptions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Microsoft Translator uses seq2seq models for real-time translation. \
+The encoder processes source language sentences. \
+The decoder generates target language translations. \
+Attention focuses on relevant parts of the input. \
+This enables seamless cross-language communication.' 
+    }
+  ]
+},
+'nlp-5': {
+  id: 'nlp-5',
+  title: 'Transformer Models (BERT, GPT)',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Transformer Models (BERT, GPT)' },
+    { type: 'text', content:
+      'Transformers revolutionized NLP with attention-based architecture. \
+BERT uses bidirectional context for understanding language. \
+GPT generates coherent text through autoregressive modeling. \
+These models achieve state-of-the-art results across NLP benchmarks. \
+Pre-trained transformers enable transfer learning for various tasks.' 
+    },
+    { type: 'subtitle', content: 'Transformer Variants' },
+    { type: 'text', content:
+      'BERT: Bidirectional training for language understanding. \
+GPT: Autoregressive generation for text creation. \
+T5: Text-to-text framework unifying NLP tasks. \
+RoBERTa: Optimized BERT with better training procedures. \
+DistilBERT: Smaller, faster version of BERT.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google Search uses BERT to understand search intent better. \
+The model comprehends prepositions and context in queries. \
+"Parking on a hill with no curb" differs from "parking on a hill." \
+BERT captures these nuances for more relevant results. \
+This improves search quality for complex, conversational queries.' 
+    }
+  ]
+},
+'nlp-6': {
+  id: 'nlp-6',
+  title: 'Sentiment Analysis & Text Classification',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sentiment Analysis & Text Classification' },
+    { type: 'text', content:
+      'Sentiment analysis detects emotional tone in text (positive, negative, neutral). \
+Text classification categorizes documents into predefined classes. \
+Both tasks use supervised learning with labeled datasets. \
+Applications include review analysis, content moderation, and spam detection. \
+Modern approaches use deep learning for high accuracy.' 
+    },
+    { type: 'subtitle', content: 'Analysis Techniques' },
+    { type: 'text', content:
+      'Rule-based: Lexicon approaches using sentiment dictionaries. \
+Machine learning: Traditional classifiers like SVM and random forests. \
+Deep learning: RNNs, CNNs, and transformers for complex patterns. \
+Aspect-based: Analyzing sentiment toward specific entities. \
+Multilingual: Sentiment analysis across different languages.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Twitter uses sentiment analysis to gauge public opinion trends. \
+The system analyzes millions of tweets about brands, events, and topics. \
+Real-time sentiment tracking informs marketing and crisis management. \
+Businesses adjust strategies based on public perception. \
+This demonstrates NLP value in understanding mass communication.' 
+    }
+  ]
+},
+'nlp-7': {
+  id: 'nlp-7',
+  title: 'Named Entity Recognition (NER)',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Named Entity Recognition (NER)' },
+    { type: 'text', content:
+      'NER identifies and classifies named entities in text. \
+Common entity types include persons, organizations, locations, dates. \
+NER extracts structured information from unstructured text. \
+Applications include information extraction, search, and knowledge graphs. \
+State-of-the-art NER uses transformer-based models.' 
+    },
+    { type: 'subtitle', content: 'Entity Types' },
+    { type: 'text', content:
+      'Persons: Names of people (Barack Obama, Marie Curie). \
+Organizations: Companies, institutions (Google, United Nations). \
+Locations: Countries, cities, landmarks (Paris, Mount Everest). \
+Dates/Times: Specific dates, periods (July 2023, next Monday). \
+Numerical values: Money, percentages, quantities ($1 million, 25%).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'LinkedIn uses NER to extract skills and experience from profiles. \
+The system identifies job titles, companies, and locations automatically. \
+This powers job matching and professional networking features. \
+Recruiters find candidates with specific skill combinations. \
+NER transforms unstructured resumes into searchable structured data.' 
+    }
+  ]
+},
+'nlp-8': {
+  id: 'nlp-8',
+  title: 'Text Summarization Techniques',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Text Summarization Techniques' },
+    { type: 'text', content:
+      'Text summarization creates concise versions of longer documents. \
+Extractive summarization selects important sentences from the original. \
+Abstractive summarization generates new sentences capturing key ideas. \
+Applications include news aggregation, document analysis, and research. \
+Modern approaches use sequence-to-sequence models with attention.' 
+    },
+    { type: 'subtitle', content: 'Summarization Approaches' },
+    { type: 'text', content:
+      'Extractive: Selects existing sentences using scoring methods. \
+Abstractive: Generates new text using language models. \
+Single-document: Summarizes individual articles or reports. \
+Multi-document: Combines information from multiple sources. \
+Query-focused: Summarizes documents relative to specific questions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'News apps like Flipboard use summarization to create digests. \
+The system extracts key points from multiple news sources. \
+Users get comprehensive overviews without reading full articles. \
+This saves time while keeping people informed. \
+Summarization enables efficient information consumption.' 
+    }
+  ]
+},
+'nlp-9': {
+  id: 'nlp-9',
+  title: 'Question Answering Systems',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Question Answering Systems' },
+    { type: 'text', content:
+      'QA systems answer questions posed in natural language. \
+They retrieve relevant information and generate precise answers. \
+Open-domain QA works across general knowledge sources. \
+Closed-domain QA specializes in specific domains like medicine or law. \
+Modern QA uses reading comprehension and knowledge retrieval.' 
+    },
+    { type: 'subtitle', content: 'QA System Types' },
+    { type: 'text', content:
+      'Retrieval-based: Finds answers in existing knowledge bases. \
+Generative: Creates answers using language models. \
+Extractive: Identifies answer spans within provided context. \
+Open-domain: Answers questions about anything using the web. \
+Closed-domain: Specializes in specific topics or documents.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'IBM Watson uses QA systems for medical diagnosis support. \
+Doctors ask questions about symptoms and test results. \
+The system retrieves relevant medical literature and guidelines. \
+Answers include confidence scores and supporting evidence. \
+This assists healthcare professionals in complex decision-making.' 
+    }
+  ]
+},
+'nlp-10': {
+  id: 'nlp-10',
+  title: 'Chatbots & Dialogue Systems',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Chatbots & Dialogue Systems' },
+    { type: 'text', content:
+      'Chatbots simulate human conversation through text or voice interfaces. \
+Rule-based chatbots follow predefined decision trees. \
+AI-powered chatbots use machine learning for natural conversations. \
+Dialogue systems maintain context across multiple exchanges. \
+Applications include customer service, personal assistants, and entertainment.' 
+    },
+    { type: 'subtitle', content: 'Chatbot Architecture' },
+    { type: 'text', content:
+      'Natural language understanding interprets user input. \
+Dialogue management maintains conversation state and context. \
+Natural language generation creates appropriate responses. \
+Integration with knowledge bases and APIs for information retrieval. \
+Personality design for engaging user experiences.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Bank of America Erica assists customers with banking tasks. \
+The chatbot handles balance inquiries, transfers, and bill payments. \
+Natural conversations replace complex menu navigation. \
+Erica learns from interactions to improve over time. \
+This demonstrates NLP transforming customer service industries.' 
+    }
+  ]
+},
+
+//==== Computer Vision ====
+
+'computer-vision-1': {
+  id: 'computer-vision-1',
+  title: 'Introduction to Computer Vision',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Computer Vision' },
+    { type: 'text', content:
+      'Computer Vision enables machines to interpret and understand visual information. \
+It processes digital images and videos to extract meaningful insights. \
+CV combines image processing, pattern recognition, and machine learning. \
+Applications range from facial recognition to autonomous vehicles. \
+The field has advanced dramatically with deep learning techniques.' 
+    },
+    { type: 'subtitle', content: 'Core CV Tasks' },
+    { type: 'text', content:
+      'Image classification: Identifying objects in images. \
+Object detection: Locating and classifying multiple objects. \
+Image segmentation: Partitioning images into meaningful regions. \
+Facial recognition: Identifying or verifying individuals. \
+Scene understanding: Interpreting complete visual scenes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'iPhone Face ID uses computer vision for secure authentication. \
+The system projects 30,000 invisible dots to create a 3D face map. \
+Neural networks verify identity within milliseconds. \
+This replaces passwords with biometric security. \
+Computer vision makes devices more secure and convenient.' 
+    }
+  ]
+},
+'computer-vision-2': {
+  id: 'computer-vision-2',
+  title: 'Image Processing Fundamentals',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Image Processing Fundamentals' },
+    { type: 'text', content:
+      'Image processing manipulates digital images to enhance or extract information. \
+Basic operations include filtering, transformation, and enhancement. \
+Color spaces (RGB, HSV, grayscale) represent images differently. \
+Filters remove noise, sharpen edges, or blur images. \
+These fundamentals underpin all computer vision applications.' 
+    },
+    { type: 'subtitle', content: 'Processing Techniques' },
+    { type: 'text', content:
+      'Filtering: Smoothing, sharpening, edge detection. \
+Morphological operations: Dilation, erosion for shape analysis. \
+Thresholding: Converting to binary images. \
+Histogram equalization: Improving contrast. \
+Geometric transformations: Rotation, scaling, perspective correction.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Instagram filters use image processing for creative effects. \
+The app applies color adjustments, blur effects, and overlays. \
+Real-time processing happens on mobile devices. \
+Users transform ordinary photos into artistic creations. \
+This demonstrates image processing consumer applications.' 
+    }
+  ]
+},
+'computer-vision-3': {
+  id: 'computer-vision-3',
+  title: 'Convolutional Neural Networks for Vision',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Convolutional Neural Networks for Vision' },
+    { type: 'text', content:
+      'CNNs revolutionized computer vision with hierarchical feature learning. \
+Convolutional layers detect edges, textures, and patterns. \
+Pooling layers reduce spatial dimensions while preserving features. \
+Deep CNN architectures achieve human-level image recognition. \
+Transfer learning makes CNNs accessible for various applications.' 
+    },
+    { type: 'subtitle', content: 'CNN Architectures' },
+    { type: 'text', content:
+      'LeNet-5: Early CNN for digit recognition. \
+AlexNet: Breakthrough architecture for ImageNet competition. \
+VGG: Simple architecture with deep layers. \
+ResNet: Residual connections enabling very deep networks. \
+EfficientNet: Optimized architecture for accuracy and efficiency.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google Photos uses CNNs for automatic image organization. \
+The system recognizes faces, objects, and scenes in personal photos. \
+Users search photos using natural language queries. \
+"Show me photos of beaches from last summer" works instantly. \
+CNNs transform personal photo collections into searchable memories.' 
+    }
+  ]
+},
+'computer-vision-4': {
+  id: 'computer-vision-4',
+  title: 'Object Detection Algorithms',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Object Detection Algorithms' },
+    { type: 'text', content:
+      'Object detection identifies and locates multiple objects in images. \
+It provides bounding boxes and class labels for each detected object. \
+Two-stage detectors (R-CNN family) propose regions then classify. \
+One-stage detectors (YOLO, SSD) perform detection in single pass. \
+Real-time detection enables applications like autonomous driving.' 
+    },
+    { type: 'subtitle', content: 'Detection Approaches' },
+    { type: 'text', content:
+      'R-CNN: Region-based convolutional neural network. \
+Fast R-CNN: Improves speed with ROI pooling. \
+Faster R-CNN: Uses region proposal network. \
+YOLO: "You Only Look Once" for real-time detection. \
+SSD: Single Shot MultiBox Detector balances speed and accuracy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Tesla Autopilot uses object detection for situational awareness. \
+The system identifies cars, pedestrians, cyclists, and traffic signs. \
+Multiple cameras provide 360-degree environmental perception. \
+Real-time detection enables safe autonomous navigation. \
+This demonstrates object detection critical safety applications.' 
+    }
+  ]
+},
+'computer-vision-5': {
+  id: 'computer-vision-5',
+  title: 'Image Segmentation Techniques',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Image Segmentation Techniques' },
+    { type: 'text', content:
+      'Image segmentation partitions images into meaningful regions. \
+Semantic segmentation assigns class labels to each pixel. \
+Instance segmentation differentiates individual object instances. \
+Panoptic segmentation combines semantic and instance approaches. \
+Applications include medical imaging, autonomous driving, and photo editing.' 
+    },
+    { type: 'subtitle', content: 'Segmentation Methods' },
+    { type: 'text', content:
+      'Thresholding: Simple pixel intensity-based segmentation. \
+Edge detection: Identifying boundaries between regions. \
+Region growing: Merging similar neighboring pixels. \
+Clustering: Grouping pixels by feature similarity. \
+Deep learning: U-Net, Mask R-CNN for complex segmentation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Photoshop uses segmentation for advanced image editing. \
+"Select Subject" automatically isolates people or objects. \
+The feature uses deep learning to understand image content. \
+Users remove backgrounds or apply effects precisely. \
+Segmentation powers professional creative workflows.' 
+    }
+  ]
+},
+'computer-vision-6': {
+  id: 'computer-vision-6',
+  title: 'Facial Recognition Systems',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Facial Recognition Systems' },
+    { type: 'text', content:
+      'Facial recognition identifies or verifies individuals from images or video. \
+The process involves detection, alignment, feature extraction, and matching. \
+Deep learning models learn discriminative facial features. \
+Applications range from security to personalized user experiences. \
+Ethical considerations around privacy and bias are crucial.' 
+    },
+    { type: 'subtitle', content: 'Recognition Steps' },
+    { type: 'text', content:
+      'Face detection: Locating faces in images. \
+Alignment: Normalizing face orientation and scale. \
+Feature extraction: Creating face embeddings. \
+Matching: Comparing embeddings with database. \
+Verification/Identification: Confirming identity or finding matches.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Airport security uses facial recognition for passenger processing. \
+Travelers move through checkpoints without showing documents. \
+The system matches live faces to passport databases. \
+This speeds up security lines while maintaining safety. \
+Facial recognition transforms travel efficiency and security.' 
+    }
+  ]
+},
+'computer-vision-7': {
+  id: 'computer-vision-7',
+  title: 'Video Analysis & Action Recognition',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Video Analysis & Action Recognition' },
+    { type: 'text', content:
+      'Video analysis extends computer vision to temporal sequences. \
+Action recognition identifies human activities in video clips. \
+Temporal information complements spatial visual features. \
+3D CNNs and two-stream networks model spatiotemporal patterns. \
+Applications include surveillance, sports analysis, and content moderation.' 
+    },
+    { type: 'subtitle', content: 'Analysis Techniques' },
+    { type: 'text', content:
+      'Optical flow: Estimating motion between frames. \
+3D convolutions: Processing spatial and temporal dimensions. \
+Two-stream networks: Separate spatial and temporal streams. \
+Recurrent networks: Modeling temporal dependencies. \
+Transformer-based: Attention across space and time.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'NFL uses video analysis for player performance evaluation. \
+The system tracks player movements, formations, and plays. \
+Coaches analyze tactics and identify improvement areas. \
+Broadcasters use analysis for enhanced commentary and graphics. \
+Computer vision transforms sports analytics and viewing experiences.' 
+    }
+  ]
+},
+'computer-vision-8': {
+  id: 'computer-vision-8',
+  title: 'Medical Imaging Applications',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Medical Imaging Applications' },
+    { type: 'text', content:
+      'Computer vision assists in medical diagnosis and treatment planning. \
+AI analyzes X-rays, MRIs, CT scans, and ultrasound images. \
+Applications include tumor detection, organ segmentation, and disease classification. \
+Deep learning achieves expert-level performance in many medical tasks. \
+Medical CV improves healthcare accessibility and diagnostic accuracy.' 
+    },
+    { type: 'subtitle', content: 'Medical CV Tasks' },
+    { type: 'text', content:
+      'Detection: Identifying abnormalities like tumors or fractures. \
+Segmentation: Delineating organs, lesions, or anatomical structures. \
+Classification: Diagnosing diseases from medical images. \
+Registration: Aligning images from different modalities or times. \
+Quantification: Measuring biomarkers or disease progression.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google Health uses AI for breast cancer detection in mammograms. \
+The system analyzes scans with accuracy matching radiologists. \
+Early detection improves treatment outcomes and survival rates. \
+AI assists in regions with limited medical expertise. \
+Computer vision democratizes access to quality healthcare.' 
+    }
+  ]
+},
+'computer-vision-9': {
+  id: 'computer-vision-9',
+  title: 'Augmented Reality & CV',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Augmented Reality & CV' },
+    { type: 'text', content:
+      'Augmented Reality overlays digital content onto the physical world. \
+Computer vision enables AR by understanding real-world environments. \
+SLAM (Simultaneous Localization and Mapping) tracks device position. \
+Object recognition anchors digital content to physical objects. \
+AR applications include gaming, education, retail, and navigation.' 
+    },
+    { type: 'subtitle', content: 'AR Technologies' },
+    { type: 'text', content:
+      'Marker-based AR: Uses visual markers for tracking. \
+Markerless AR: Relies on feature detection in the environment. \
+Projection-based AR: Projects digital content onto surfaces. \
+Superimposition-based AR: Replaces or enhances real objects. \
+Location-based AR: Ties content to specific geographical locations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'IKEA Place app uses AR for virtual furniture placement. \
+Users see how products would look in their homes before buying. \
+Computer vision understands room dimensions and lighting. \
+Digital furniture appears realistically in physical spaces. \
+AR transforms shopping experiences through visual try-before-you-buy.' 
+    }
+  ]
+},
+'computer-vision-10': {
+  id: 'computer-vision-10',
+  title: 'Autonomous Vehicles & Vision',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Autonomous Vehicles & Vision' },
+    { type: 'text', content:
+      'Computer vision is crucial for autonomous vehicle perception. \
+Cameras provide rich visual information about the driving environment. \
+CV systems detect lanes, traffic signs, vehicles, and pedestrians. \
+Sensor fusion combines camera data with radar and lidar. \
+Reliable perception enables safe autonomous navigation.' 
+    },
+    { type: 'subtitle', content: 'AV Perception Tasks' },
+    { type: 'text', content:
+      'Lane detection: Identifying road markings and boundaries. \
+Object detection: Recognizing vehicles, pedestrians, cyclists. \
+Traffic sign recognition: Understanding regulatory signs. \
+Free space detection: Identifying drivable areas. \
+Semantic segmentation: Detailed scene understanding.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Waymo autonomous vehicles use computer vision for urban navigation. \
+Multiple cameras provide 360-degree environmental awareness. \
+The system processes visual data in real-time for decision making. \
+Computer vision enables complex urban driving scenarios. \
+This technology promises safer, more efficient transportation.' 
+    }
+  ]
+},
+
+
+//====Ai Ethics====
+
+'ai-ethics-1': {
+  id: 'ai-ethics-1',
+  title: 'Introduction to AI Ethics',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to AI Ethics' },
+    { type: 'text', content:
+      'AI ethics examines moral principles and societal impact of artificial intelligence. \
+It addresses fairness, accountability, transparency, and human values in AI systems. \
+As AI becomes pervasive, ethical considerations grow increasingly important. \
+Ethical AI development balances innovation with social responsibility. \
+The field guides responsible creation and deployment of intelligent systems.' 
+    },
+    { type: 'subtitle', content: 'Core Ethical Principles' },
+    { type: 'text', content:
+      'Fairness: Avoiding unjust discrimination in AI decisions. \
+Transparency: Making AI systems understandable to users. \
+Accountability: Ensuring responsibility for AI outcomes. \
+Privacy: Protecting personal data used by AI systems. \
+Human control: Maintaining meaningful human oversight.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'European Union AI Act establishes legal framework for ethical AI. \
+The regulation classifies AI systems by risk levels. \
+High-risk applications face strict requirements for transparency and safety. \
+This demonstrates government response to AI ethical challenges. \
+Regulation shapes how companies develop and deploy AI globally.' 
+    }
+  ]
+},
+'ai-ethics-2': {
+  id: 'ai-ethics-2',
+  title: 'Bias & Fairness in AI Systems',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Bias & Fairness in AI Systems' },
+    { type: 'text', content:
+      'AI bias occurs when systems produce unfair outcomes for certain groups. \
+Bias can emerge from training data, algorithm design, or system deployment. \
+Fairness requires equal treatment and opportunities across demographics. \
+Addressing bias involves technical solutions and diverse perspectives. \
+Fair AI promotes equitable benefits from technological progress.' 
+    },
+    { type: 'subtitle', content: 'Bias Sources' },
+    { type: 'text', content:
+      'Historical bias: Existing societal inequalities in training data. \
+Measurement bias: Flawed data collection or labeling processes. \
+Aggregation bias: Inappropriate grouping of diverse populations. \
+Evaluation bias: Test data not representing real-world distribution. \
+Deployment bias: Mismatch between design context and actual use.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Amazon discontinued AI recruiting tool that showed gender bias. \
+The system learned historical hiring patterns favoring male candidates. \
+Technical fixes failed to eliminate embedded discrimination. \
+This case highlighted challenges in debiasing real-world AI. \
+Companies now prioritize fairness in HR technology development.' 
+    }
+  ]
+},
+'ai-ethics-3': {
+  id: 'ai-ethics-3',
+  title: 'Transparency & Explainable AI',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Transparency & Explainable AI' },
+    { type: 'text', content:
+      'Explainable AI (XAI) makes machine learning decisions understandable to humans. \
+Transparency builds trust and enables accountability for AI outcomes. \
+Complex models like deep neural networks often act as "black boxes." \
+XAI techniques reveal how models arrive at specific decisions. \
+Explainability is crucial for high-stakes applications like healthcare and finance.' 
+    },
+    { type: 'subtitle', content: 'XAI Approaches' },
+    { type: 'text', content:
+      'Interpretable models: Using inherently understandable algorithms. \
+Post-hoc explanation: Analyzing trained model behavior. \
+Local explanations: Understanding individual predictions. \
+Global explanations: Understanding overall model behavior. \
+Counterfactual explanations: Showing how changes affect outcomes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Banks use explainable AI for credit decision transparency. \
+Regulations require explaining loan denials to applicants. \
+XAI systems show which factors most influenced decisions. \
+This complies with fair lending laws and builds customer trust. \
+Explainability transforms opaque algorithms into accountable tools.' 
+    }
+  ]
+},
+'ai-ethics-4': {
+  id: 'ai-ethics-4',
+  title: 'Privacy in the Age of AI',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Privacy in the Age of AI' },
+    { type: 'text', content:
+      'AI systems often require large amounts of personal data for training. \
+Privacy-preserving techniques protect individual information while enabling innovation. \
+Data minimization, anonymization, and encryption safeguard personal information. \
+Federated learning trains models without centralizing raw data. \
+Balancing data utility with privacy protection is an ongoing challenge.' 
+    },
+    { type: 'subtitle', content: 'Privacy Techniques' },
+    { type: 'text', content:
+      'Differential privacy: Adding mathematical noise to protect individuals. \
+Federated learning: Training across decentralized devices. \
+Homomorphic encryption: Computing on encrypted data. \
+Synthetic data: Generating artificial datasets preserving patterns. \
+Access controls: Limiting data use to authorized purposes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Apple uses differential privacy for iOS data collection. \
+The system learns aggregate patterns without accessing individual data. \
+User privacy remains protected while improving services. \
+This approach enables Siri improvements without compromising privacy. \
+Apple demonstrates privacy-preserving AI at massive scale.' 
+    }
+  ]
+},
+'ai-ethics-5': {
+  id: 'ai-ethics-5',
+  title: 'Accountability & Responsibility',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Accountability & Responsibility' },
+    { type: 'text', content:
+      'AI accountability ensures clear responsibility for system outcomes. \
+When AI causes harm, determining liability can be complex. \
+Responsibility spans developers, deployers, users, and regulators. \
+Accountability mechanisms include auditing, monitoring, and redress. \
+Clear accountability frameworks build public trust in AI systems.' 
+    },
+    { type: 'subtitle', content: 'Accountability Mechanisms' },
+    { type: 'text', content:
+      'Audit trails: Recording system decisions and inputs. \
+Impact assessments: Evaluating potential harms before deployment. \
+Redress procedures: Correcting errors and compensating harms. \
+Oversight boards: Independent review of AI systems. \
+Certification standards: Third-party validation of AI safety.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Uber suspended self-driving tests after fatal pedestrian accident. \
+The incident raised questions about corporate responsibility. \
+Investigations examined technical failures and safety protocols. \
+This case highlighted accountability challenges in autonomous systems. \
+Companies now implement more rigorous safety measures for AI testing.' 
+    }
+  ]
+},
+'ai-ethics-6': {
+  id: 'ai-ethics-6',
+  title: 'AI Safety & Alignment',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI Safety & Alignment' },
+    { type: 'text', content:
+      'AI safety ensures systems behave as intended without causing harm. \
+Alignment research focuses on making AI goals match human values. \
+As AI systems become more capable, safety considerations grow critical. \
+Techniques include value learning, robustness testing, and fail-safes. \
+Proactive safety measures prevent unintended consequences.' 
+    },
+    { type: 'subtitle', content: 'Safety Approaches' },
+    { type: 'text', content:
+      'Robustness: Ensuring reliable performance across conditions. \
+Interpretability: Understanding system decision-making. \
+Verification: Mathematically proving system properties. \
+Monitoring: Detecting unsafe behavior during operation. \
+Corrigibility: Allowing safe modification of deployed systems.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'OpenAI uses reinforcement learning from human feedback (RLHF). \
+This technique aligns language models with human preferences. \
+Human trainers rate model outputs to guide learning. \
+Alignment reduces harmful, untruthful, or biased responses. \
+Safety research makes powerful AI systems more beneficial and controllable.' 
+    }
+  ]
+},
+'ai-ethics-7': {
+  id: 'ai-ethics-7',
+  title: 'AI Governance & Regulation',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI Governance & Regulation' },
+    { type: 'text', content:
+      'AI governance establishes frameworks for responsible development and use. \
+Regulation addresses risks while encouraging innovation and economic growth. \
+International cooperation harmonizes standards across borders. \
+Multi-stakeholder approaches involve government, industry, academia, and civil society. \
+Effective governance balances innovation with public interest protection.' 
+    },
+    { type: 'subtitle', content: 'Governance Elements' },
+    { type: 'text', content:
+      'Risk-based regulation: Stricter rules for higher-risk applications. \
+Standards development: Technical specifications for safety and interoperability. \
+Certification schemes: Independent verification of compliance. \
+Oversight bodies: Institutions monitoring AI development and deployment. \
+International agreements: Coordinating approaches across countries.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'GDPR includes provisions for automated decision-making. \
+The regulation gives individuals right to explanation of algorithmic decisions. \
+Companies must implement data protection by design and default. \
+This European framework influences global AI development practices. \
+GDPR demonstrates how regulation shapes technological innovation.' 
+    }
+  ]
+},
+'ai-ethics-8': {
+  id: 'ai-ethics-8',
+  title: 'AI & Employment Impacts',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI & Employment Impacts' },
+    { type: 'text', content:
+      'AI automation transforms labor markets and job requirements. \
+Some tasks become automated while new roles and industries emerge. \
+Workforce transitions require reskilling and social support systems. \
+Ethical considerations include fair transition and inclusive growth. \
+Proactive policies can maximize benefits while minimizing disruption.' 
+    },
+    { type: 'subtitle', content: 'Employment Strategies' },
+    { type: 'text', content:
+      'Reskilling programs: Training workers for AI-augmented roles. \
+Lifelong learning: Continuous skill development throughout careers. \
+Social safety nets: Supporting workers during transitions. \
+Job quality focus: Ensuring new jobs offer decent wages and conditions. \
+Inclusive design: Creating AI that complements diverse workers.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Amazon invests $700 million in employee upskilling programs. \
+The initiative prepares workers for technical roles in AI era. \
+Training includes software development, data science, and cloud computing. \
+This corporate responsibility approach addresses automation impacts. \
+Companies increasingly recognize workforce transition obligations.' 
+    }
+  ]
+},
+'ai-ethics-9': {
+  id: 'ai-ethics-9',
+  title: 'AI for Social Good',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI for Social Good' },
+    { type: 'text', content:
+      'AI can address pressing societal challenges and promote human welfare. \
+Applications include healthcare accessibility, environmental protection, and education. \
+Ethical deployment prioritizes underserved communities and global equity. \
+Multidisciplinary collaboration combines technical and domain expertise. \
+AI for social good demonstrates technology positive potential.' 
+    },
+    { type: 'subtitle', content: 'Social Good Applications' },
+    { type: 'text', content:
+      'Healthcare: Disease diagnosis in resource-limited settings. \
+Environment: Climate modeling and conservation monitoring. \
+Education: Personalized learning for diverse student needs. \
+Agriculture: Crop monitoring and yield optimization. \
+Humanitarian aid: Disaster response and resource allocation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Microsoft AI for Earth supports environmental sustainability projects. \
+The program provides cloud and AI tools to conservation organizations. \
+Applications include species monitoring, deforestation tracking, and water management. \
+This initiative demonstrates corporate commitment to social responsibility. \
+AI becomes force multiplier for environmental protection efforts.' 
+    }
+  ]
+},
+'ai-ethics-10': {
+  id: 'ai-ethics-10',
+  title: 'Future Ethical Challenges',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Future Ethical Challenges' },
+    { type: 'text', content:
+      'Emerging AI capabilities raise novel ethical questions and concerns. \
+Advanced systems may exhibit unprecedented autonomy and influence. \
+Societal preparation requires anticipatory governance and public engagement. \
+Long-term considerations include existential risks and value lock-in. \
+Ongoing ethical reflection guides responsible technological evolution.' 
+    },
+    { type: 'subtitle', content: 'Future Considerations' },
+    { type: 'text', content:
+      'Artificial general intelligence: Systems with human-like capabilities. \
+Brain-computer interfaces: Merging biological and artificial intelligence. \
+Autonomous weapons: Military applications without human control. \
+Digital persons: AI entities with legal rights and responsibilities. \
+Value alignment: Ensuring advanced AI shares human ethical priorities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'United Nations discusses lethal autonomous weapons systems (LAWS). \
+International debate examines ethical and legal implications. \
+Some countries advocate for preemptive bans on killer robots. \
+This demonstrates global governance addressing emerging AI risks. \
+International cooperation shapes responsible development of powerful technologies.' 
+    }
+  ]
+},
+
+//==== Reinforcement Learning Concepts ====
+
+'reinforcement-learning-1': {
+  id: 'reinforcement-learning-1',
+  title: 'Introduction to Reinforcement Learning',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Reinforcement Learning' },
+    { type: 'text', content:
+      'Reinforcement Learning teaches agents to make decisions through trial and error. \
+Agents learn by interacting with environments and receiving rewards or penalties. \
+Unlike supervised learning, RL learns from experience without labeled datasets. \
+The field combines ideas from psychology, neuroscience, and computer science. \
+RL powers achievements like AlphaGo and autonomous robotics.' 
+    },
+    { type: 'subtitle', content: 'RL Components' },
+    { type: 'text', content:
+      'Agent: The learner or decision-maker. \
+Environment: The world with which the agent interacts. \
+State: Current situation of the agent. \
+Action: Choices available to the agent. \
+Reward: Feedback from environment after actions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'DeepMind AlphaGo used RL to master the complex game of Go. \
+The system played millions of games against itself. \
+Rewards came from winning or losing each game. \
+AlphaGo discovered novel strategies beyond human knowledge. \
+This demonstrated RL potential for solving complex decision problems.' 
+    }
+  ]
+},
+'reinforcement-learning-2': {
+  id: 'reinforcement-learning-2',
+  title: 'Markov Decision Processes',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Markov Decision Processes' },
+    { type: 'text', content:
+      'MDPs provide mathematical framework for RL decision problems. \
+They model environments with states, actions, transitions, and rewards. \
+The Markov property assumes future depends only on current state. \
+Policies define how agents choose actions in each state. \
+Solving MDPs finds optimal policies maximizing cumulative rewards.' 
+    },
+    { type: 'subtitle', content: 'MDP Elements' },
+    { type: 'text', content:
+      'State space: All possible situations. \
+Action space: Available choices in each state. \
+Transition probabilities: How states change after actions. \
+Reward function: Immediate feedback for state-action pairs. \
+Discount factor: Importance of future versus immediate rewards.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Uber uses MDPs for dynamic pricing and driver dispatching. \
+States include driver locations, rider requests, and traffic conditions. \
+Actions involve price adjustments and driver assignments. \
+Rewards maximize platform efficiency and profitability. \
+MDPs optimize real-time transportation logistics.' 
+    }
+  ]
+},
+'reinforcement-learning-3': {
+  id: 'reinforcement-learning-3',
+  title: 'Q-Learning & Value Iteration',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Q-Learning & Value Iteration' },
+    { type: 'text', content:
+      'Q-learning is model-free RL that learns action-value functions. \
+It estimates quality (Q-value) of taking actions in particular states. \
+Value iteration computes optimal value functions through dynamic programming. \
+Both approaches enable agents to learn optimal policies through experience. \
+These foundational algorithms underpin many RL applications.' 
+    },
+    { type: 'subtitle', content: 'Algorithm Details' },
+    { type: 'text', content:
+      'Q-learning: Learns optimal policy without environment model. \
+Value iteration: Computes optimal values for known MDPs. \
+Temporal difference: Updates estimates based on subsequent estimates. \
+Exploration vs exploitation: Balancing new actions with known good ones. \
+Convergence: Guarantees for finding optimal solutions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google uses RL for data center cooling optimization. \
+The system learns optimal temperature and fan speed settings. \
+Q-values represent long-term energy savings from actions. \
+The AI reduced cooling energy consumption by 40%. \
+This demonstrates RL practical applications in resource management.' 
+    }
+  ]
+},
+'reinforcement-learning-4': {
+  id: 'reinforcement-learning-4',
+  title: 'Policy Gradient Methods',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Policy Gradient Methods' },
+    { type: 'text', content:
+      'Policy gradient methods directly optimize policy parameters. \
+They work well for continuous action spaces and high-dimensional problems. \
+The policy is typically represented by a neural network. \
+Gradients indicate how to change policy parameters to increase rewards. \
+These methods power advanced applications like robotic control.' 
+    },
+    { type: 'subtitle', content: 'Policy Gradient Types' },
+    { type: 'text', content:
+      'REINFORCE: Monte Carlo policy gradient algorithm. \
+Actor-Critic: Combines value function and direct policy optimization. \
+PPO: Proximal Policy Optimization for stable training. \
+TRPO: Trust Region Policy Optimization with theoretical guarantees. \
+A3C: Asynchronous Advantage Actor-Critic for parallel training.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'OpenAI used policy gradients to train robotic hands for manipulation. \
+The system learned complex dexterous tasks like solving Rubiks cube. \
+Continuous policy networks controlled individual finger movements. \
+Training involved millions of simulated and real-world trials. \
+This demonstrated RL potential for advanced robotic control.' 
+    }
+  ]
+},
+'reinforcement-learning-5': {
+  id: 'reinforcement-learning-5',
+  title: 'Deep Q-Networks (DQN)',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Deep Q-Networks (DQN)' },
+    { type: 'text', content:
+      'DQN combines Q-learning with deep neural networks for function approximation. \
+It enables RL in high-dimensional state spaces like images. \
+Key innovations include experience replay and target networks. \
+DQN achieved human-level performance on many Atari games. \
+This breakthrough demonstrated deep RL potential.' 
+    },
+    { type: 'subtitle', content: 'DQN Innovations' },
+    { type: 'text', content:
+      'Experience replay: Storing and sampling past transitions. \
+Target network: Separate network for stable Q-targets. \
+Frame stacking: Using multiple recent frames as state representation. \
+Reward clipping: Limiting reward values for numerical stability. \
+End-to-end learning: Raw pixels to actions without feature engineering.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'DeepMind DQN learned to play 49 Atari games from pixel input. \
+The same algorithm architecture worked across different games. \
+The system discovered optimal strategies through trial and error. \
+Performance surpassed human experts on many games. \
+This unified approach demonstrated general game-playing capability.' 
+    }
+  ]
+},
+'reinforcement-learning-6': {
+  id: 'reinforcement-learning-6',
+  title: 'Multi-Agent Reinforcement Learning',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Multi-Agent Reinforcement Learning' },
+    { type: 'text', content:
+      'Multi-agent RL involves multiple interacting learning agents. \
+Agents may cooperate, compete, or exhibit mixed motivations. \
+The environment becomes non-stationary from other agents learning. \
+Applications include autonomous vehicles, economic systems, and game AI. \
+MARL presents unique challenges beyond single-agent RL.' 
+    },
+    { type: 'subtitle', content: 'MARL Approaches' },
+    { type: 'text', content:
+      'Centralized training with decentralized execution. \
+Independent learners treating others as part of environment. \
+Communication protocols for information sharing. \
+Opponent modeling to predict other agents strategies. \
+Mechanism design for incentivizing desired behaviors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'DeepMind AlphaStar used MARL to master StarCraft II. \
+The system controlled multiple units with complementary roles. \
+Agents learned complex micro and macro strategies. \
+AlphaStar defeated world champion human players. \
+This demonstrated MARL capability for real-time strategy games.' 
+    }
+  ]
+},
+'reinforcement-learning-7': {
+  id: 'reinforcement-learning-7',
+  title: 'Inverse Reinforcement Learning',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Inverse Reinforcement Learning' },
+    { type: 'text', content:
+      'IRL infers reward functions from observed expert behavior. \
+Instead of learning from rewards, it learns what rewards explain behavior. \
+This addresses reward specification challenges in complex domains. \
+IRL enables learning from demonstrations without explicit reward engineering. \
+Applications include imitation learning and preference elicitation.' 
+    },
+    { type: 'subtitle', content: 'IRL Applications' },
+    { type: 'text', content:
+      'Imitation learning: Copying expert demonstrations. \
+Apprenticeship learning: Combining demonstration and reinforcement. \
+Preference learning: Inferring rewards from comparative judgments. \
+Inverse optimal control: Recovering cost functions from optimal behavior. \
+Behavior cloning: Directly mimicking demonstrated actions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Self-driving companies use IRL to learn from human drivers. \
+The system observes millions of miles of human driving behavior. \
+IRL infers what human drivers value (safety, comfort, efficiency). \
+Learned reward functions guide autonomous vehicle training. \
+This approach captures nuanced human driving preferences.' 
+    }
+  ]
+},
+'reinforcement-learning-8': {
+  id: 'reinforcement-learning-8',
+  title: 'Exploration vs Exploitation',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Exploration vs Exploitation' },
+    { type: 'text', content:
+      'The exploration-exploitation tradeoff is fundamental to RL. \
+Exploration tries new actions to discover potentially better rewards. \
+Exploitation chooses known good actions to maximize immediate reward. \
+Effective strategies balance these competing objectives. \
+Optimal exploration enables efficient learning in uncertain environments.' 
+    },
+    { type: 'subtitle', content: 'Exploration Strategies' },
+    { type: 'text', content:
+      'ε-greedy: Random exploration with probability ε. \
+Optimistic initialization: Start with high value estimates. \
+UCB: Upper Confidence Bound balances estimated value and uncertainty. \
+Thompson sampling: Bayesian approach sampling from posterior. \
+Intrinsic motivation: Rewards for novelty or information gain.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Netflix uses exploration strategies for content recommendation. \
+The system balances showing popular content (exploitation) with new releases (exploration). \
+Strategic exploration discovers user preferences for niche content. \
+This maximizes long-term user engagement and satisfaction. \
+RL exploration transforms content discovery experiences.' 
+    }
+  ]
+},
+'reinforcement-learning-9': {
+  id: 'reinforcement-learning-9',
+  title: 'Transfer Learning in RL',
+  image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Transfer Learning in RL' },
+    { type: 'text', content:
+      'Transfer learning applies knowledge from previous tasks to new ones. \
+In RL, policies, value functions, or representations transfer across domains. \
+This reduces training time and data requirements for new problems. \
+Transfer enables lifelong learning and generalization capabilities. \
+Meta-RL learns how to learn across families of related tasks.' 
+    },
+    { type: 'subtitle', content: 'Transfer Approaches' },
+    { type: 'text', content:
+      'Policy transfer: Adapting existing policies to new environments. \
+Representation transfer: Shared feature spaces across tasks. \
+Skill libraries: Reusable components for complex behaviors. \
+Curriculum learning: Progressively harder task sequences. \
+Meta-learning: Learning algorithms that adapt quickly to new tasks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Boston Dynamics uses transfer learning for robotic locomotion. \
+Robots learn walking in simulation then transfer to physical hardware. \
+Policies adapt to different terrains and payload conditions. \
+Transfer reduces real-world training time and wear on robots. \
+This enables practical deployment of learning-based robotic control.' 
+    }
+  ]
+},
+'reinforcement-learning-10': {
+  id: 'reinforcement-learning-10',
+  title: 'Real-World RL Applications',
+  image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Real-World RL Applications' },
+    { type: 'text', content:
+      'RL transitions from research to practical applications across industries. \
+Challenges include sample efficiency, safety, and real-world complexity. \
+Successful deployments demonstrate RL economic and societal value. \
+Hybrid approaches combine RL with other AI techniques. \
+Real-world RL represents the frontier of intelligent automation.' 
+    },
+    { type: 'subtitle', content: 'Application Domains' },
+    { type: 'text', content:
+      'Robotics: Manipulation, locomotion, and autonomous systems. \
+Healthcare: Treatment optimization and personalized medicine. \
+Finance: Algorithmic trading and portfolio management. \
+Energy: Grid optimization and consumption management. \
+Manufacturing: Process control and supply chain optimization.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Google uses RL for chip floorplan design optimization. \
+The system places chip components to minimize wire length and area. \
+Training happens faster than human expert design. \
+The AI produces layouts superior to human-designed ones. \
+This demonstrates RL solving complex engineering design problems.' 
+    }
+  ]
+},
+
+//=== Ai In Bussiness===
+
+'ai-business-1': {
+  id: 'ai-business-1',
+  title: 'AI Strategy for Businesses',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI Strategy for Businesses' },
+    { type: 'text', content:
+      'AI strategy aligns artificial intelligence with business objectives and capabilities. \
+Effective strategy identifies high-impact use cases matching organizational strengths. \
+It balances short-term wins with long-term transformation initiatives. \
+Successful AI adoption requires technology, data, talent, and process integration. \
+Strategic AI implementation creates sustainable competitive advantage.' 
+    },
+    { type: 'subtitle', content: 'Strategic Elements' },
+    { type: 'text', content:
+      'Use case prioritization based on value and feasibility. \
+Data strategy ensuring quality, accessibility, and governance. \
+Talent development through hiring, training, and partnerships. \
+Technology infrastructure for scalable AI deployment. \
+Change management for organizational adoption and transformation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'JPMorgan Chase invests $12 billion annually in technology, focusing on AI. \
+The strategy targets fraud detection, trading, customer service, and risk management. \
+AI initiatives align with core banking business objectives. \
+Measurable outcomes include reduced fraud losses and improved efficiency. \
+This demonstrates comprehensive AI strategy in traditional industry.' 
+    }
+  ]
+},
+'ai-business-2': {
+  id: 'ai-business-2',
+  title: 'AI Implementation Roadmap',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI Implementation Roadmap' },
+    { type: 'text', content:
+      'AI implementation follows structured phases from exploration to scaling. \
+Roadmaps provide timelines, milestones, and resource requirements. \
+Pilot projects demonstrate value before significant investment. \
+Iterative approaches allow learning and adjustment based on results. \
+Successful implementation balances ambition with practical constraints.' 
+    },
+    { type: 'subtitle', content: 'Implementation Phases' },
+    { type: 'text', content:
+      'Discovery: Identifying opportunities and assessing feasibility. \
+Pilot: Small-scale proof of concept with measurable outcomes. \
+Prototype: Developing minimum viable AI products. \
+Production: Integrating into operational systems and processes. \
+Scale: Expanding across organization and optimizing performance.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Walmart implemented AI for inventory management through phased approach. \
+Pilot stores tested demand forecasting algorithms. \
+Successful results led to nationwide rollout. \
+The system now manages billions in inventory across thousands of stores. \
+Phased implementation minimized risk while achieving transformational impact.' 
+    }
+  ]
+},
+'ai-business-3': {
+  id: 'ai-business-3',
+  title: 'AI ROI & Business Value',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI ROI & Business Value' },
+    { type: 'text', content:
+      'Measuring AI return on investment quantifies financial and strategic benefits. \
+Direct benefits include cost reduction, revenue growth, and efficiency gains. \
+Indirect benefits encompass improved decision quality and competitive positioning. \
+ROI calculations account for implementation costs and ongoing expenses. \
+Business value extends beyond financial metrics to strategic capabilities.' 
+    },
+    { type: 'subtitle', content: 'Value Categories' },
+    { type: 'text', content:
+      'Cost reduction: Automation and optimization savings. \
+Revenue growth: Improved sales, pricing, and cross-selling. \
+Risk reduction: Fraud prevention and compliance improvements. \
+Customer experience: Personalization and service quality enhancements. \
+Innovation acceleration: Faster product development and experimentation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'American Express uses AI for fraud detection with clear ROI. \
+The system prevents billions in fraudulent transactions annually. \
+ROI calculations include prevented losses minus system costs. \
+Additional value comes from customer trust and reduced investigation workload. \
+This demonstrates quantifiable AI business value in financial services.' 
+    }
+  ]
+},
+'ai-business-4': {
+  id: 'ai-business-4',
+  title: 'AI in Marketing & Sales',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI in Marketing & Sales' },
+    { type: 'text', content:
+      'AI transforms marketing through personalization, targeting, and automation. \
+Sales applications include lead scoring, forecasting, and conversation intelligence. \
+Predictive analytics identifies high-value customers and optimal engagement timing. \
+Natural language processing analyzes customer feedback and market trends. \
+AI-powered marketing achieves higher conversion rates and customer satisfaction.' 
+    },
+    { type: 'subtitle', content: 'Marketing Applications' },
+    { type: 'text', content:
+      'Personalization: Tailored content, recommendations, and offers. \
+Predictive analytics: Customer lifetime value and churn prediction. \
+Content generation: Automated copywriting and creative asset creation. \
+Ad optimization: Real-time bidding and placement optimization. \
+Social listening: Brand sentiment and trend analysis.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Spotify uses AI for personalized music recommendations and marketing. \
+The system analyzes listening habits to create individualized playlists. \
+Marketing campaigns target users with relevant artist promotions. \
+This increases engagement, subscription retention, and artist exposure. \
+AI-powered personalization drives platform growth and user satisfaction.' 
+    }
+  ]
+},
+'ai-business-5': {
+  id: 'ai-business-5',
+  title: 'AI in Operations & Supply Chain',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI in Operations & Supply Chain' },
+    { type: 'text', content:
+      'AI optimizes operations through predictive maintenance and process automation. \
+Supply chain applications include demand forecasting, inventory optimization, and logistics. \
+Computer vision enables quality control and automated inspection. \
+Natural language processing streamlines documentation and communication. \
+AI-driven operations reduce costs, improve quality, and increase resilience.' 
+    },
+    { type: 'subtitle', content: 'Operations Applications' },
+    { type: 'text', content:
+      'Predictive maintenance: Anticipating equipment failures before they occur. \
+Quality control: Automated inspection and defect detection. \
+Process optimization: Real-time adjustment of manufacturing parameters. \
+Supply chain visibility: Tracking and predicting disruptions. \
+Automated planning: Production scheduling and resource allocation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Siemens uses AI for predictive maintenance in industrial equipment. \
+Sensors collect vibration, temperature, and performance data. \
+AI models predict component failures weeks in advance. \
+This reduces unplanned downtime and maintenance costs. \
+Predictive maintenance transforms industrial operations reliability.' 
+    }
+  ]
+},
+'ai-business-6': {
+  id: 'ai-business-6',
+  title: 'AI in Finance & Risk Management',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI in Finance & Risk Management' },
+    { type: 'text', content:
+      'AI transforms financial services through algorithmic trading and risk assessment. \
+Applications include credit scoring, fraud detection, and regulatory compliance. \
+Natural language processing analyzes earnings calls and financial documents. \
+Predictive models forecast market movements and economic indicators. \
+AI enables more accurate, efficient, and inclusive financial services.' 
+    },
+    { type: 'subtitle', content: 'Finance Applications' },
+    { type: 'text', content:
+      'Algorithmic trading: High-frequency and quantitative trading strategies. \
+Credit risk assessment: Loan approval and pricing decisions. \
+Fraud detection: Real-time transaction monitoring and anomaly detection. \
+Regulatory compliance: Automated reporting and monitoring. \
+Wealth management: Personalized investment recommendations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Goldman Sachs uses AI for equities trading and risk management. \
+The system analyzes market data, news, and alternative data sources. \
+AI models identify trading opportunities and assess portfolio risks. \
+This improves trading performance and regulatory compliance. \
+AI becomes core capability in competitive financial markets.' 
+    }
+  ]
+},
+'ai-business-7': {
+  id: 'ai-business-7',
+  title: 'AI in Human Resources',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI in Human Resources' },
+    { type: 'text', content:
+      'AI transforms HR through recruitment automation, talent management, and employee engagement. \
+Applications include resume screening, interview scheduling, and skills assessment. \
+Predictive analytics identifies flight risk and development opportunities. \
+Chatbots handle routine HR inquiries and onboarding processes. \
+Ethical considerations around bias and transparency are particularly important in HR AI.' 
+    },
+    { type: 'subtitle', content: 'HR Applications' },
+    { type: 'text', content:
+      'Recruitment: Automated screening and candidate matching. \
+Onboarding: Personalized training and documentation. \
+Performance management: Continuous feedback and development planning. \
+Retention analysis: Predicting and addressing turnover risks. \
+Workforce planning: Skills gap analysis and succession planning.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Unilever uses AI for graduate recruitment at global scale. \
+The system analyzes video interviews for communication and problem-solving skills. \
+AI assessments complement traditional resume evaluation. \
+This reduces hiring bias and identifies candidates from diverse backgrounds. \
+AI-powered recruitment expands talent pools and improves hiring quality.' 
+    }
+  ]
+},
+'ai-business-8': {
+  id: 'ai-business-8',
+  title: 'AI in Customer Service',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI in Customer Service' },
+    { type: 'text', content:
+      'AI enhances customer service through chatbots, sentiment analysis, and personalized support. \
+Natural language understanding enables conversational interfaces for common inquiries. \
+Sentiment analysis detects customer frustration and escalates appropriately. \
+Predictive routing connects customers with optimal agents based on issue complexity. \
+AI-powered service improves satisfaction while reducing costs.' 
+    },
+    { type: 'subtitle', content: 'Service Applications' },
+    { type: 'text', content:
+      'Chatbots: Automated handling of common inquiries. \
+Voice assistants: Natural language phone support systems. \
+Sentiment analysis: Real-time emotion detection in conversations. \
+Knowledge management: Intelligent search across support documentation. \
+Predictive support: Anticipating issues before customers contact support.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Bank of America Erica handles over 50 million client requests annually. \
+The chatbot assists with balance inquiries, transfers, and financial guidance. \
+Natural conversations replace complex IVR menu navigation. \
+Erica learns from interactions to improve assistance over time. \
+AI-powered service transforms banking customer experience.' 
+    }
+  ]
+},
+'ai-business-9': {
+  id: 'ai-business-9',
+  title: 'AI Ethics in Business',
+  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'AI Ethics in Business' },
+    { type: 'text', content:
+      'Business AI ethics integrates moral principles into commercial AI development and use. \
+Companies establish ethics boards, guidelines, and oversight mechanisms. \
+Responsible AI practices build trust with customers, employees, and regulators. \
+Ethical considerations include fairness, transparency, privacy, and accountability. \
+Leading companies recognize ethical AI as competitive advantage, not just compliance.' 
+    },
+    { type: 'subtitle', content: 'Business Ethics Practices' },
+    { type: 'text', content:
+      'Ethics review boards: Multidisciplinary oversight of AI projects. \
+Bias testing and mitigation: Regular assessment of algorithmic fairness. \
+Transparency documentation: Explaining AI systems to stakeholders. \
+Privacy by design: Integrating data protection into AI development. \
+Impact assessments: Evaluating societal effects before deployment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Salesforce establishes Office of Ethical and Humane Use of Technology. \
+The group develops guidelines, tools, and processes for responsible AI. \
+Initiatives include bias detection in customer relationship algorithms. \
+This proactive approach builds trust in AI-powered business applications. \
+Ethical governance becomes selling point for enterprise software companies.' 
+    }
+  ]
+},
+'ai-business-10': {
+  id: 'ai-business-10',
+  title: 'Future of AI in Business',
+  image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Future of AI in Business' },
+    { type: 'text', content:
+      'AI will increasingly automate complex tasks and enable new business models. \
+Future applications include autonomous decision-making and creative collaboration. \
+AI-human partnership will redefine work across industries and roles. \
+Businesses must adapt to AI-driven competition and customer expectations. \
+Strategic foresight prepares organizations for AI technological evolution.' 
+    },
+    { type: 'subtitle', content: 'Future Trends' },
+    { type: 'text', content:
+      'Autonomous operations: Self-optimizing business processes. \
+Generative business: AI-created products, services, and content. \
+Hyper-personalization: Individualized experiences at scale. \
+Predictive enterprise: Anticipatory rather than reactive operations. \
+AI-first organizations: Redesigned around intelligent automation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Microsoft envisions AI copilots for every business function. \
+The concept combines AI assistance with human expertise and judgment. \
+Copilots help with writing, analysis, design, and decision-making. \
+This represents shift from AI as tool to AI as collaborative partner. \
+Future business productivity transforms through human-AI collaboration.' 
+    }
+  ]
+},
+
+//==== Automation Basics=====
+
+'automation-basics-1': {
+  id: 'automation-basics-1',
+  title: 'Introduction to Industrial Automation',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Industrial Automation' },
+    { type: 'text', content:
+      'Industrial automation uses control systems to operate equipment with minimal human intervention. \
+It increases productivity, quality, and safety while reducing costs and errors. \
+Automation systems range from simple relay controls to complex computer-controlled processes. \
+Modern automation integrates sensors, controllers, and actuators into cohesive systems. \
+The technology transforms manufacturing from manual labor to intelligent production.' 
+    },
+    { type: 'subtitle', content: 'Automation Components' },
+    { type: 'text', content:
+      'Sensors: Detect physical conditions like temperature, pressure, or position. \
+Controllers: Process information and make decisions (PLCs, computers). \
+Actuators: Execute physical actions (motors, valves, robots). \
+Human-Machine Interfaces: Allow monitoring and control by operators. \
+Communication networks: Connect all components for coordinated operation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Coca-Cola bottling plants use automation for high-speed production lines. \
+The system fills, caps, labels, and packages thousands of bottles per hour. \
+Sensors ensure proper fill levels and detect defects in real-time. \
+Automation maintains consistent quality while minimizing waste. \
+This demonstrates how automation enables mass production with precision.' 
+    }
+  ]
+},
+'automation-basics-2': {
+  id: 'automation-basics-2',
+  title: 'PLC Programming Fundamentals',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'PLC Programming Fundamentals' },
+    { type: 'text', content:
+      'Programmable Logic Controllers are industrial computers for automation control. \
+They replace hard-wired relay systems with flexible, reprogrammable logic. \
+PLCs read inputs from sensors, execute logic programs, and control outputs to actuators. \
+Programming languages include ladder logic, function block diagrams, and structured text. \
+PLCs provide reliable operation in harsh industrial environments.' 
+    },
+    { type: 'subtitle', content: 'PLC Programming Languages' },
+    { type: 'text', content:
+      'Ladder Logic: Graphical language resembling electrical relay diagrams. \
+Function Block Diagram: Visual programming with interconnected blocks. \
+Structured Text: High-level language similar to Pascal or BASIC. \
+Instruction List: Low-level assembly-like language. \
+Sequential Function Chart: State-based programming for complex sequences.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Automotive assembly lines use PLCs to coordinate welding robots and conveyors. \
+The PLC sequences operations: position car body, weld specific points, move to next station. \
+Programs handle thousands of I/O points across entire production lines. \
+Changes to vehicle models require only program updates, not rewiring. \
+This flexibility enables efficient production of multiple vehicle types.' 
+    }
+  ]
+},
+'automation-basics-3': {
+  id: 'automation-basics-3',
+  title: 'SCADA Systems Overview',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'SCADA Systems Overview' },
+    { type: 'text', content:
+      'Supervisory Control and Data Acquisition systems monitor and control industrial processes. \
+They provide graphical interfaces for operators to visualize and manage complex systems. \
+SCADA collects data from remote sites, displays information, and sends control commands. \
+Applications include power distribution, water treatment, and manufacturing plants. \
+Modern SCADA integrates with enterprise systems for comprehensive operational intelligence.' 
+    },
+    { type: 'subtitle', content: 'SCADA Components' },
+    { type: 'text', content:
+      'Human-Machine Interface: Graphical display of process status and controls. \
+Remote Terminal Units: Collect field data and execute local control. \
+Programmable Logic Controllers: Local control devices interfacing with equipment. \
+Communication infrastructure: Networks connecting all system components. \
+Historian database: Stores process data for analysis and reporting.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Water treatment plants use SCADA to monitor and control purification processes. \
+Operators see real-time data on chemical levels, flow rates, and tank levels. \
+The system automatically adjusts chlorine doses based on water quality sensors. \
+Alarms notify staff of issues like pump failures or contamination events. \
+SCADA ensures safe drinking water through continuous monitoring and control.' 
+    }
+  ]
+},
+'automation-basics-4': {
+  id: 'automation-basics-4',
+  title: 'Industrial Communication Protocols',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Industrial Communication Protocols' },
+    { type: 'text', content:
+      'Industrial protocols enable communication between automation devices and systems. \
+They ensure reliable data exchange in noisy industrial environments. \
+Protocols range from simple serial communications to high-speed Ethernet networks. \
+Different protocols serve different needs: fieldbus, industrial Ethernet, wireless. \
+Standardization improves interoperability between equipment from different manufacturers.' 
+    },
+    { type: 'subtitle', content: 'Common Protocols' },
+    { type: 'text', content:
+      'Modbus: Simple, robust protocol for connecting industrial electronic devices. \
+Profibus: Fieldbus standard widely used in process and factory automation. \
+EtherNet/IP: Industrial adaptation of standard Ethernet for control applications. \
+Profinet: Industrial Ethernet standard providing real-time communication. \
+OPC UA: Platform-independent standard for data exchange and interoperability.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Pharmaceutical manufacturing uses multiple protocols for different subsystems. \
+EtherNet/IP connects packaging line controllers for high-speed coordination. \
+Modbus RTU links temperature sensors in bioreactors to monitoring systems. \
+OPC UA integrates production data with quality management software. \
+This multi-protocol approach balances speed, reliability, and interoperability.' 
+    }
+  ]
+},
+'automation-basics-5': {
+  id: 'automation-basics-5',
+  title: 'Motion Control Systems',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Motion Control Systems' },
+    { type: 'text', content:
+      'Motion control precisely controls position, velocity, and acceleration of mechanical systems. \
+Applications include robotics, CNC machines, packaging equipment, and assembly systems. \
+Components include motors, drives, controllers, and feedback devices. \
+Advanced motion control enables complex coordinated movements and synchronization. \
+Precision motion is essential for modern manufacturing quality and efficiency.' 
+    },
+    { type: 'subtitle', content: 'Motion Components' },
+    { type: 'text', content:
+      'Servo motors: Provide precise control of position, speed, and torque. \
+Stepper motors: Move in discrete steps for open-loop positioning. \
+Drives/amplifiers: Provide power and control signals to motors. \
+Motion controllers: Generate trajectories and coordinate multiple axes. \
+Feedback devices: Encoders and resolvers measure actual position and speed.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Semiconductor manufacturing uses precision motion control for chip production. \
+Robotic handlers position silicon wafers with micron-level accuracy. \
+Multi-axis systems coordinate movements during photolithography processes. \
+Vibration control prevents microscopic defects in circuit patterns. \
+This precision enables production of advanced computer chips.' 
+    }
+  ]
+},
+'automation-basics-6': {
+  id: 'automation-basics-6',
+  title: 'PID Control Fundamentals',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'PID Control Fundamentals' },
+    { type: 'text', content:
+      'Proportional-Integral-Derivative control is the most common control algorithm in industry. \
+It calculates correction values based on error between desired and actual process variables. \
+PID controllers maintain stable operation of temperature, pressure, flow, and level systems. \
+Proper tuning of PID parameters is essential for optimal performance. \
+The algorithm balances responsiveness, stability, and accuracy.' 
+    },
+    { type: 'subtitle', content: 'PID Components' },
+    { type: 'text', content:
+      'Proportional: Responds to current error magnitude. \
+Integral: Eliminates steady-state error by accumulating past errors. \
+Derivative: Predicts future error based on rate of change. \
+Tuning parameters: Kp, Ki, Kd values adjusted for specific processes. \
+Control loop: Continuous measurement, calculation, and adjustment cycle.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Plastic injection molding uses PID to control barrel temperatures precisely. \
+The controller adjusts heater power based on temperature sensor feedback. \
+Proper temperature control ensures consistent material viscosity and product quality. \
+PID tuning prevents overshoot that could degrade plastic properties. \
+This demonstrates PID maintaining critical process parameters.' 
+    }
+  ]
+},
+'automation-basics-7': {
+  id: 'automation-basics-7',
+  title: 'Industrial Sensors & Instrumentation',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Industrial Sensors & Instrumentation' },
+    { type: 'text', content:
+      'Sensors convert physical phenomena into electrical signals for measurement and control. \
+Industrial sensors operate reliably in harsh environments with temperature extremes and vibration. \
+Instrumentation includes sensors, transmitters, and signal conditioning equipment. \
+Accurate sensing enables precise control, quality assurance, and safety monitoring. \
+Modern sensors provide digital communication and diagnostic capabilities.' 
+    },
+    { type: 'subtitle', content: 'Sensor Types' },
+    { type: 'text', content:
+      'Temperature: Thermocouples, RTDs, thermistors for heat measurement. \
+Pressure: Strain gauges, piezoelectric, capacitive sensors for force per area. \
+Flow: Ultrasonic, magnetic, coriolis meters for liquid/gas movement. \
+Level: Ultrasonic, radar, capacitive sensors for tank contents measurement. \
+Position: Encoders, LVDTs, proximity sensors for location detection.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Oil refineries use thousands of sensors for process monitoring and control. \
+Temperature sensors ensure safe operating ranges in distillation columns. \
+Pressure transmitters monitor pipeline integrity and prevent leaks. \
+Flow meters control precise ratios of crude oil and catalysts. \
+This comprehensive instrumentation enables safe, efficient refining operations.' 
+    }
+  ]
+},
+'automation-basics-8': {
+  id: 'automation-basics-8',
+  title: 'HMI Design Principles',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'HMI Design Principles' },
+    { type: 'text', content:
+      'Human-Machine Interfaces enable operators to monitor and control industrial processes. \
+Effective HMI design balances information density with clarity and usability. \
+Principles include consistency, hierarchy, feedback, and error prevention. \
+Modern HMIs use color, animation, and navigation to convey complex information intuitively. \
+Good HMI design improves operator effectiveness and reduces human error.' 
+    },
+    { type: 'subtitle', content: 'Design Guidelines' },
+    { type: 'text', content:
+      'Alarm management: Clear indication of abnormal conditions with prioritization. \
+Navigation: Intuitive movement between screens and process areas. \
+Information hierarchy: Most important data most prominent and accessible. \
+Color usage: Consistent meaning (red for alarms, green for normal). \
+Responsiveness: Fast screen updates and control acknowledgment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Power plant control rooms use advanced HMIs for grid management. \
+Operators monitor hundreds of generators, transformers, and transmission lines. \
+Color-coded displays show real-time power flow and equipment status. \
+Alarm systems prioritize critical issues requiring immediate attention. \
+Effective HMI design enables safe, reliable electricity distribution.' 
+    }
+  ]
+},
+'automation-basics-9': {
+  id: 'automation-basics-9',
+  title: 'Industrial Safety Systems',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Industrial Safety Systems' },
+    { type: 'text', content:
+      'Safety systems protect personnel, equipment, and the environment from harm. \
+They include emergency stops, safety interlocks, and protective devices. \
+Safety standards require fail-safe design and risk assessment. \
+Modern safety systems use dedicated safety PLCs and networks. \
+Integration of safety with automation improves both protection and productivity.' 
+    },
+    { type: 'subtitle', content: 'Safety Components' },
+    { type: 'text', content:
+      'Emergency stop buttons: Instantly halt hazardous operations. \
+Safety light curtains: Detect personnel entering dangerous areas. \
+Safety interlocks: Prevent access to machinery during operation. \
+Safety relays: Hardwired circuits for reliable safety functions. \
+Safety PLCs: Programmable controllers meeting safety integrity levels.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Automotive press lines use comprehensive safety systems for worker protection. \
+Light curtains stop 50-ton presses if hands enter the danger zone. \
+Interlocked gates prevent access while presses are cycling. \
+Safety PLCs monitor multiple sensors and ensure proper shutdown sequences. \
+These systems prevent catastrophic injuries in high-risk manufacturing.' 
+    }
+  ]
+},
+'automation-basics-10': {
+  id: 'automation-basics-10',
+  title: 'Automation Project Lifecycle',
+  image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Automation Project Lifecycle' },
+    { type: 'text', content:
+      'Successful automation projects follow structured phases from conception to operation. \
+The lifecycle includes requirements, design, implementation, testing, and maintenance. \
+Each phase has specific deliverables and quality gates. \
+Methodologies like V-model ensure thorough verification and validation. \
+Proper project management balances technical requirements with budget and schedule.' 
+    },
+    { type: 'subtitle', content: 'Project Phases' },
+    { type: 'text', content:
+      'Requirements analysis: Define functionality, performance, and constraints. \
+Design: Create system architecture, control strategies, and interfaces. \
+Implementation: Program controllers, build panels, and install equipment. \
+Testing: Verify individual components and validate integrated system. \
+Commissioning: Transition to production operation and operator training.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Food processing plant automation projects follow rigorous lifecycles. \
+Requirements include hygiene standards, production rates, and regulatory compliance. \
+Design ensures cleanability, maintainability, and food safety. \
+Testing validates cleaning cycles and product quality consistency. \
+Commissioning includes microbial testing before production approval. \
+This structured approach ensures safe, efficient food production systems.' 
+    }
+  ]
+},
+
+//==== IoT in Manufacturing ==== 
+
+'iot-manufacturing-1': {
+  id: 'iot-manufacturing-1',
+  title: 'Introduction to Industrial IoT',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Industrial IoT' },
+    { type: 'text', content:
+      'Industrial Internet of Things connects physical manufacturing equipment to digital systems. \
+IIoT enables data collection, analysis, and optimization across production facilities. \
+Sensors, connectivity, and cloud platforms transform traditional manufacturing operations. \
+Applications include predictive maintenance, quality monitoring, and energy optimization. \
+IIoT creates smart, connected factories with unprecedented visibility and control.' 
+    },
+    { type: 'subtitle', content: 'IIoT Components' },
+    { type: 'text', content:
+      'Edge devices: Sensors, actuators, and controllers generating and receiving data. \
+Connectivity: Wireless and wired networks transmitting data between devices and cloud. \
+Cloud platforms: Data storage, processing, and analytics services. \
+Applications: Software for monitoring, analysis, and optimization. \
+Security: Protection of data, devices, and networks from cyber threats.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'GE Aviation uses IIoT to monitor aircraft engines during flight operations. \
+Sensors collect temperature, pressure, and vibration data from thousands of engines. \
+Data transmits via satellite to ground-based analytics systems. \
+Predictive algorithms identify maintenance needs before failures occur. \
+This reduces unscheduled downtime and improves flight safety.' 
+    }
+  ]
+},
+'iot-manufacturing-2': {
+  id: 'iot-manufacturing-2',
+  title: 'IoT Sensors for Manufacturing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'IoT Sensors for Manufacturing' },
+    { type: 'text', content:
+      'IoT sensors provide continuous monitoring of equipment, processes, and environmental conditions. \
+They convert physical measurements into digital data for analysis and action. \
+Modern sensors include wireless communication, energy harvesting, and edge computing capabilities. \
+Sensor networks create comprehensive visibility across manufacturing operations. \
+Intelligent sensing enables data-driven decision making and automation.' 
+    },
+    { type: 'subtitle', content: 'Manufacturing Sensors' },
+    { type: 'text', content:
+      'Vibration sensors: Detect abnormal machine movements indicating wear or imbalance. \
+Acoustic sensors: Listen for unusual sounds suggesting equipment issues. \
+Thermal imaging: Identify hot spots in electrical systems or bearings. \
+Energy monitors: Track power consumption of individual machines or processes. \
+Environmental sensors: Measure temperature, humidity, and air quality in facilities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Caterpillar uses IoT sensors on construction equipment for predictive maintenance. \
+Vibration sensors detect early signs of engine component wear. \
+Temperature sensors monitor hydraulic system performance. \
+Data transmits to dealers who schedule maintenance before failures occur. \
+This maximizes equipment uptime for construction companies.' 
+    }
+  ]
+},
+'iot-manufacturing-3': {
+  id: 'iot-manufacturing-3',
+  title: 'Edge Computing in Manufacturing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Edge Computing in Manufacturing' },
+    { type: 'text', content:
+      'Edge computing processes data near its source rather than sending everything to the cloud. \
+This reduces latency, bandwidth usage, and dependence on continuous cloud connectivity. \
+Edge devices make real-time decisions for time-critical manufacturing applications. \
+Edge-cloud collaboration balances local processing with centralized analytics. \
+Edge computing enables responsive, resilient IIoT implementations.' 
+    },
+    { type: 'subtitle', content: 'Edge Applications' },
+    { type: 'text', content:
+      'Real-time quality inspection: Immediate detection and rejection of defective parts. \
+Predictive maintenance: Local analysis of equipment vibration patterns. \
+Machine optimization: Adjusting parameters based on immediate process conditions. \
+Safety monitoring: Instant response to hazardous conditions. \
+Data filtering: Sending only relevant information to cloud for deeper analysis.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Siemens uses edge computing for real-time quality control in electronics manufacturing. \
+Vision systems inspect circuit boards at production line speeds. \
+Edge processors analyze images and immediately flag defects. \
+Only defect images and statistics transmit to cloud for trend analysis. \
+This combination enables both immediate action and long-term improvement.' 
+    }
+  ]
+},
+'iot-manufacturing-4': {
+  id: 'iot-manufacturing-4',
+  title: 'Predictive Maintenance with IoT',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Predictive Maintenance with IoT' },
+    { type: 'text', content:
+      'Predictive maintenance uses IoT data to forecast equipment failures before they occur. \
+Sensors monitor vibration, temperature, acoustics, and other indicators of equipment health. \
+Machine learning algorithms identify patterns preceding failures. \
+Maintenance schedules based on actual condition rather than fixed intervals. \
+This approach reduces downtime, extends equipment life, and lowers maintenance costs.' 
+    },
+    { type: 'subtitle', content: 'Predictive Techniques' },
+    { type: 'text', content:
+      'Vibration analysis: Detects bearing wear, imbalance, and misalignment. \
+Thermal monitoring: Identifies overheating components and lubrication issues. \
+Acoustic analysis: Listens for unusual sounds indicating problems. \
+Oil analysis: Monitors contamination and wear particles in lubricants. \
+Performance trending: Tracks efficiency degradation over time.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Schneider Electric implements predictive maintenance for electrical distribution equipment. \
+IoT sensors monitor circuit breaker performance and temperature rise. \
+Algorithms predict insulation degradation and contact wear. \
+Utilities schedule maintenance during low-demand periods. \
+This prevents unexpected outages and improves grid reliability.' 
+    }
+  ]
+},
+'iot-manufacturing-5': {
+  id: 'iot-manufacturing-5',
+  title: 'Digital Twins in Manufacturing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Twins in Manufacturing' },
+    { type: 'text', content:
+      'Digital twins are virtual replicas of physical assets, processes, or systems. \
+They use real-time IoT data to simulate, predict, and optimize manufacturing operations. \
+Digital twins enable what-if analysis, virtual commissioning, and performance optimization. \
+They bridge physical and digital worlds for improved decision-making. \
+Applications span product design, production planning, and operational optimization.' 
+    },
+    { type: 'subtitle', content: 'Digital Twin Types' },
+    { type: 'text', content:
+      'Product twins: Virtual models of manufactured products throughout lifecycle. \
+Production twins: Simulations of manufacturing processes and equipment. \
+Performance twins: Real-time operational models using sensor data. \
+Network twins: Models of interconnected systems and supply chains. \
+Facility twins: Complete digital representations of manufacturing plants.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Tesla uses digital twins for vehicle design and factory optimization. \
+Virtual car models simulate crash tests and aerodynamics before physical prototypes. \
+Factory twins optimize production line layouts and robot movements. \
+Real-time performance twins monitor actual production against simulations. \
+This accelerates innovation while improving manufacturing efficiency.' 
+    }
+  ]
+},
+'iot-manufacturing-6': {
+  id: 'iot-manufacturing-6',
+  title: 'IoT for Energy Management',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'IoT for Energy Management' },
+    { type: 'text', content:
+      'IoT enables detailed monitoring and optimization of energy consumption in manufacturing. \
+Smart meters and sensors track electricity, gas, water, and compressed air usage. \
+Analytics identify waste, inefficiencies, and optimization opportunities. \
+Automated control adjusts equipment operation based on energy pricing and demand. \
+Energy management reduces costs and environmental impact while improving sustainability.' 
+    },
+    { type: 'subtitle', content: 'Energy Applications' },
+    { type: 'text', content:
+      'Sub-metering: Detailed tracking of energy use by department, process, or machine. \
+Demand response: Automatically reducing consumption during peak pricing periods. \
+Load balancing: Optimizing equipment schedules to minimize peak demand charges. \
+Efficiency monitoring: Tracking energy performance indicators over time. \
+Renewable integration: Optimizing use of solar, wind, or other green energy sources.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Ford Motor Company uses IoT for comprehensive energy management across factories. \
+Thousands of sensors monitor electricity, natural gas, and water consumption. \
+Algorithms identify compressed air leaks and inefficient equipment operation. \
+The system automatically adjusts HVAC and lighting based on occupancy. \
+These measures save millions in energy costs annually while reducing carbon footprint.' 
+    }
+  ]
+},
+'iot-manufacturing-7': {
+  id: 'iot-manufacturing-7',
+  title: 'Asset Tracking & Management',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Asset Tracking & Management' },
+    { type: 'text', content:
+      'IoT enables real-time tracking and management of manufacturing assets and inventory. \
+Technologies include RFID, GPS, Bluetooth beacons, and cellular connectivity. \
+Asset tracking improves utilization, reduces loss, and optimizes maintenance. \
+Real-time visibility enables just-in-time inventory and efficient logistics. \
+Connected assets provide usage data for lifecycle management and optimization.' 
+    },
+    { type: 'subtitle', content: 'Tracking Technologies' },
+    { type: 'text', content:
+      'RFID: Radio frequency identification for proximity-based tracking. \
+GPS: Global positioning for outdoor location tracking. \
+BLE beacons: Bluetooth low energy for indoor positioning. \
+Cellular IoT: Wide-area tracking with LTE-M or NB-IoT networks. \
+UWB: Ultra-wideband for centimeter-level precision indoor positioning.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Boeing uses IoT to track thousands of tools and equipment across massive factories. \
+RFID tags on tools enable quick location and prevent loss. \
+Sensors monitor calibration status and maintenance requirements. \
+The system ensures right tools are available when needed for aircraft assembly. \
+This reduces search time and prevents production delays.' 
+    }
+  ]
+},
+'iot-manufacturing-8': {
+  id: 'iot-manufacturing-8',
+  title: 'Quality Monitoring with IoT',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Quality Monitoring with IoT' },
+    { type: 'text', content:
+      'IoT enables continuous, real-time quality monitoring throughout manufacturing processes. \
+Sensors measure dimensions, surface finish, color, and other quality attributes. \
+Statistical process control becomes continuous rather than periodic sampling. \
+Early detection of quality deviations prevents large-scale defects. \
+Quality data links to process parameters for root cause analysis and improvement.' 
+    },
+    { type: 'subtitle', content: 'Quality Applications' },
+    { type: 'text', content:
+      'Dimensional measurement: Laser scanners and vision systems verify part geometry. \
+Surface inspection: Cameras detect scratches, pits, or contamination. \
+Material properties: Sensors measure hardness, thickness, or composition. \
+Process parameters: Monitoring temperature, pressure, speed for quality correlation. \
+Traceability: Linking quality data to specific batches, machines, and operators.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Intel uses IoT for microscopic quality control in semiconductor manufacturing. \
+Sensors measure wafer thickness, flatness, and surface defects. \
+Real-time data adjusts etching and deposition processes. \
+Each chip carries unique identifier linking to manufacturing conditions. \
+This ensures consistent quality across billions of microprocessors.' 
+    }
+  ]
+},
+'iot-manufacturing-9': {
+  id: 'iot-manufacturing-9',
+  title: 'IoT Security in Manufacturing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'IoT Security in Manufacturing' },
+    { type: 'text', content:
+      'IoT security protects connected manufacturing systems from cyber threats. \
+Industrial networks face unique risks including safety implications and long equipment lifecycles. \
+Security approaches include network segmentation, device hardening, and continuous monitoring. \
+Zero-trust architecture assumes no device or user is inherently trustworthy. \
+Balancing security with operational requirements is essential for IIoT success.' 
+    },
+    { type: 'subtitle', content: 'Security Measures' },
+    { type: 'text', content:
+      'Network segmentation: Isolating OT networks from IT and internet. \
+Device authentication: Verifying identity of all connected devices. \
+Data encryption: Protecting data in transit and at rest. \
+Access control: Limiting permissions based on roles and needs. \
+Continuous monitoring: Detecting anomalies and potential threats in real-time.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Lockheed Martin implements comprehensive IoT security for defense manufacturing. \
+Air-gapped networks separate sensitive production systems from corporate IT. \
+Hardware security modules protect cryptographic keys for device authentication. \
+Behavioral analytics detect unusual network patterns suggesting intrusion attempts. \
+This multi-layered approach protects critical defense manufacturing operations.' 
+    }
+  ]
+},
+'iot-manufacturing-10': {
+  id: 'iot-manufacturing-10',
+  title: 'IoT Integration with ERP/MES',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'IoT Integration with ERP/MES' },
+    { type: 'text', content:
+      'IoT data integration with Enterprise Resource Planning and Manufacturing Execution Systems creates unified operational visibility. \
+Real-time production data flows into business systems for improved planning and decision-making. \
+ERP systems use IoT data for inventory optimization, scheduling, and customer service. \
+MES systems coordinate production based on real-time equipment status and performance. \
+Integration bridges operational technology with information technology.' 
+    },
+    { type: 'subtitle', content: 'Integration Benefits' },
+    { type: 'text', content:
+      'Real-time inventory: Automatic updates of raw material and finished goods levels. \
+Accurate scheduling: Production plans based on actual equipment availability and performance. \
+Quality traceability: Linking defects to specific batches and process conditions. \
+Maintenance planning: Coordinating downtime with production schedules. \
+Performance analytics: Business intelligence combining operational and financial data.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Procter & Gamble integrates IoT with SAP for global manufacturing operations. \
+Production data from hundreds of plants feeds into centralized ERP. \
+Real-time inventory updates enable efficient supply chain management. \
+Quality data integration ensures compliance with global standards. \
+This integration enables responsive, efficient consumer goods production at massive scale.' 
+    }
+  ]
+},
+
+// ==== Robotics Fundamentals =====
+
+'robotics-fundamentals-1': {
+  id: 'robotics-fundamentals-1',
+  title: 'Introduction to Industrial Robotics',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Industrial Robotics' },
+    { type: 'text', content:
+      'Industrial robots automate repetitive, precise, or dangerous tasks in manufacturing. \
+They consist of mechanical arms, controllers, and end effectors for specific applications. \
+Robots increase productivity, quality, and consistency while reducing labor costs. \
+Modern robots incorporate sensors, vision systems, and AI for adaptive operation. \
+Applications range from welding and painting to assembly and material handling.' 
+    },
+    { type: 'subtitle', content: 'Robot Components' },
+    { type: 'text', content:
+      'Manipulator: Mechanical arm with joints and links for movement. \
+Controller: Computer that stores programs and controls robot motion. \
+End effector: Tool attached to robot wrist (gripper, welder, spray gun). \
+Power supply: Provides energy for motors and electronics. \
+Sensors: Provide feedback on position, force, and environment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Toyota uses thousands of robots in automotive assembly plants worldwide. \
+Robots perform spot welding with precision and consistency human workers cannot match. \
+Each car body receives thousands of welds in minutes. \
+Robot programs adjust for different vehicle models on the same line. \
+This automation enables efficient, high-quality vehicle production.' 
+    }
+  ]
+},
+'robotics-fundamentals-2': {
+  id: 'robotics-fundamentals-2',
+  title: 'Robot Kinematics & Movement',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Robot Kinematics & Movement' },
+    { type: 'text', content:
+      'Kinematics studies robot motion without considering forces causing the motion. \
+Forward kinematics calculates end effector position from joint angles. \
+Inverse kinematics calculates required joint angles for desired end effector position. \
+Degrees of freedom determine robot flexibility and workspace reach. \
+Motion planning generates smooth, efficient paths between positions.' 
+    },
+    { type: 'subtitle', content: 'Kinematic Concepts' },
+    { type: 'text', content:
+      'Degrees of freedom: Number of independent movements a robot can make. \
+Workspace: Volume reachable by robot end effector. \
+Joint types: Revolute (rotational) and prismatic (linear) joints. \
+Coordinate systems: World, base, tool, and workpiece coordinates. \
+Singularities: Positions where robot loses one or more degrees of freedom.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'ABB robots use advanced kinematics for complex automotive painting. \
+Six-axis robots reach inside car bodies while maintaining proper spray distance. \
+Inverse kinematics calculates joint angles for smooth, continuous paint paths. \
+The system avoids singularities that could cause jerky movements or drips. \
+This ensures consistent, high-quality paint finishes.' 
+    }
+  ]
+},
+'robotics-fundamentals-3': {
+  id: 'robotics-fundamentals-3',
+  title: 'Robot Programming Methods',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Robot Programming Methods' },
+    { type: 'text', content:
+      'Robot programming defines motions, actions, and logic for automated tasks. \
+Methods include teach pendant programming, offline programming, and lead-through teaching. \
+Programming languages range from manufacturer-specific to standard languages like Python. \
+Modern approaches incorporate simulation and digital twins for virtual commissioning. \
+Effective programming balances simplicity with flexibility for complex applications.' 
+    },
+    { type: 'subtitle', content: 'Programming Approaches' },
+    { type: 'text', content:
+      'Teach pendant: Manual guidance of robot to record positions and motions. \
+Offline programming: Creating programs in simulation software without stopping production. \
+Lead-through teaching: Physically moving robot through desired motions. \
+Text-based programming: Writing code in robot programming language. \
+Vision-guided programming: Using camera input to adapt to variable part positions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Fanuc robots use teach pendants for intuitive programming in manufacturing. \
+Operators guide robots through welding paths, recording waypoints. \
+Programs include logic for different part types and conditions. \
+Offline programming software simulates cell layout and cycle times. \
+This combination enables efficient programming and optimization.' 
+    }
+  ]
+},
+'robotics-fundamentals-4': {
+  id: 'robotics-fundamentals-4',
+  title: 'Robot End Effectors & Tooling',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Robot End Effectors & Tooling' },
+    { type: 'text', content:
+      'End effectors are tools attached to robot wrists to perform specific tasks. \
+They transform general-purpose robots into specialized automation equipment. \
+Types include grippers, welding torches, spray guns, and assembly tools. \
+Tool changers enable robots to switch between different end effectors automatically. \
+Proper tool design is critical for application success and robot performance.' 
+    },
+    { type: 'subtitle', content: 'End Effector Types' },
+    { type: 'text', content:
+      'Grippers: Mechanical, vacuum, or magnetic devices for part handling. \
+Process tools: Weld guns, dispensers, routers for specific manufacturing processes. \
+Sensing tools: Cameras, probes, force sensors for inspection and measurement. \
+Specialized tools: Custom designs for unique applications. \
+Tool changers: Automatic mechanisms for switching between tools.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Amazon fulfillment centers use robots with specialized end effectors. \
+Mobile robots lift and move entire shelves of products to picking stations. \
+Stationary robots use suction grippers to handle diverse product shapes and sizes. \
+Tooling adapts to seasonal products and packaging changes. \
+This automation enables efficient e-commerce order fulfillment.' 
+    }
+  ]
+},
+'robotics-fundamentals-5': {
+  id: 'robotics-fundamentals-5',
+  title: 'Robot Vision Systems',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Robot Vision Systems' },
+    { type: 'text', content:
+      'Vision systems enable robots to see and adapt to their environment. \
+Cameras provide visual information for part location, inspection, and guidance. \
+Image processing algorithms extract meaningful information from camera images. \
+Vision-guided robots handle part variability and imprecise fixturing. \
+Applications include bin picking, assembly verification, and quality inspection.' 
+    },
+    { type: 'subtitle', content: 'Vision Applications' },
+    { type: 'text', content:
+      'Part location: Finding position and orientation of parts for pickup. \
+Inspection: Checking for defects, completeness, or proper assembly. \
+Measurement: Verifying dimensions and tolerances. \
+Guidance: Adjusting robot path based on visual feedback. \
+Identification: Reading barcodes, text, or other markings.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Coca-Cola uses robot vision for packaging line quality control. \
+Cameras inspect bottle fill levels, cap placement, and label alignment. \
+Defective bottles are automatically rejected from the production line. \
+Vision systems also guide robots loading bottles into shipping cases. \
+This ensures consistent product quality and presentation.' 
+    }
+  ]
+},
+'robotics-fundamentals-6': {
+  id: 'robotics-fundamentals-6',
+  title: 'Collaborative Robotics (Cobots)',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Collaborative Robotics (Cobots)' },
+    { type: 'text', content:
+      'Collaborative robots work safely alongside human workers without safety barriers. \
+They feature force-limiting designs, rounded edges, and safety-rated sensors. \
+Cobots augment human capabilities rather than replacing them entirely. \
+They excel at tasks requiring human judgment combined with robot consistency. \
+Applications include assembly, machine tending, and quality inspection.' 
+    },
+    { type: 'subtitle', content: 'Cobot Features' },
+    { type: 'text', content:
+      'Force sensing: Detects contact and limits force to safe levels. \
+Speed monitoring: Slows or stops when humans approach too closely. \
+Rounded design: Eliminates sharp edges and pinch points. \
+Easy programming: Intuitive interfaces for non-experts to program tasks. \
+Light weight: Portable and easily redeployed to different tasks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'BMW uses collaborative robots for final vehicle assembly tasks. \
+Cobots assist workers installing dashboards and interior components. \
+Humans handle complex wiring while robots hold heavy parts in position. \
+Force sensors ensure safe interaction in tight vehicle interiors. \
+This human-robot collaboration improves ergonomics and productivity.' 
+    }
+  ]
+},
+'robotics-fundamentals-7': {
+  id: 'robotics-fundamentals-7',
+  title: 'Mobile Robotics & AGVs',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mobile Robotics & AGVs' },
+    { type: 'text', content:
+      'Mobile robots navigate autonomously through manufacturing and warehouse facilities. \
+Automated Guided Vehicles transport materials between workstations without human operators. \
+Navigation methods include laser guidance, magnetic tape, and natural feature recognition. \
+Mobile robots improve material flow efficiency and reduce manual material handling. \
+Applications include parts delivery, inventory management, and order picking.' 
+    },
+    { type: 'subtitle', content: 'Mobile Robot Types' },
+    { type: 'text', content:
+      'AGVs: Follow predefined paths using guidance systems. \
+AMRs: Autonomous Mobile Robots navigate dynamically using sensors and maps. \
+Forklift AGVs: Automate pallet handling and storage. \
+Towing vehicles: Pull carts of materials through facilities. \
+Collaborative mobile robots: Work alongside human material handlers.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'DHL warehouses use mobile robots for efficient order fulfillment. \
+AMRs bring shelves of products to human pickers at packing stations. \
+The system optimizes routes based on order priorities and robot locations. \
+Robots automatically recharge when battery levels drop. \
+This system increases picking speed while reducing walking distance for workers.' 
+    }
+  ]
+},
+'robotics-fundamenturing-8': {
+  id: 'robotics-fundamentals-8',
+  title: 'Robot Safety Standards',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Robot Safety Standards' },
+    { type: 'text', content:
+      'Robot safety standards ensure protection for workers interacting with robotic systems. \
+ISO 10218 and ISO/TS 15066 provide international guidelines for robot safety. \
+Risk assessment identifies hazards and determines necessary safety measures. \
+Safety systems include physical barriers, safety sensors, and control reliability. \
+Proper implementation prevents accidents while enabling productive robot operation.' 
+    },
+    { type: 'subtitle', content: 'Safety Measures' },
+    { type: 'text', content:
+      'Risk assessment: Systematic evaluation of potential hazards. \
+Safeguarding: Physical barriers, light curtains, and area scanners. \
+Safe design: Inherently safe robot features and reduced forces. \
+Control reliability: Safety-rated controllers and monitoring functions. \
+Training: Proper education for personnel working near robots.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Volvo implements comprehensive safety for automotive welding robots. \
+Safety fences with interlocked gates prevent entry during robot operation. \
+Light curtains stop robots if workers reach into cells. \
+Emergency stop buttons are strategically located around workcells. \
+Safety PLCs monitor all safety devices and ensure proper shutdown sequences. \
+This multi-layered approach protects workers in high-risk manufacturing environments.' 
+    }
+  ]
+},
+'robotics-fundamentals-9': {
+  id: 'robotics-fundamentals-9',
+  title: 'Robot Maintenance & Troubleshooting',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Robot Maintenance & Troubleshooting' },
+    { type: 'text', content:
+      'Regular maintenance ensures reliable robot operation and extends equipment life. \
+Preventive maintenance includes lubrication, calibration, and component inspection. \
+Diagnostic tools help identify issues before they cause production stoppages. \
+Troubleshooting follows systematic approaches to identify root causes of problems. \
+Proper maintenance reduces downtime and maintains consistent performance.' 
+    },
+    { type: 'subtitle', content: 'Maintenance Activities' },
+    { type: 'text', content:
+      'Preventive maintenance: Scheduled inspections and servicing. \
+Predictive maintenance: Monitoring components for early failure signs. \
+Calibration: Ensuring accuracy of positioning and measurement systems. \
+Component replacement: Proactive replacement of wear items. \
+Software updates: Installing latest firmware and security patches.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Foxconn maintains thousands of robots in electronics assembly facilities. \
+Daily checks include verifying gripper operation and vacuum systems. \
+Monthly maintenance involves lubricating joints and checking belt tension. \
+Vibration monitoring predicts motor and reducer failures before they occur. \
+Predictive maintenance minimizes unexpected downtime in 24/7 production.' 
+    }
+  ]
+},
+'robotics-fundamentals-10': {
+  id: 'robotics-fundamentals-10',
+  title: 'Future Robotics Trends',
+  image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Future Robotics Trends' },
+    { type: 'text', content:
+      'Robotics continues evolving with AI, advanced sensors, and new materials. \
+Trends include smarter collaboration, increased autonomy, and wider accessibility. \
+Cloud robotics enables shared learning and remote operation capabilities. \
+Soft robotics provides compliant manipulation for delicate objects. \
+Future robots will be more adaptable, intelligent, and integrated into workflows.' 
+    },
+    { type: 'subtitle', content: 'Emerging Trends' },
+    { type: 'text', content:
+      'AI integration: Machine learning for adaptive behavior and optimization. \
+Cloud connectivity: Shared intelligence and remote monitoring/control. \
+Sensor fusion: Combining multiple sensing modalities for better perception. \
+Human-robot collaboration: More natural and effective teamwork. \
+Modular robotics: Reconfigurable systems for flexible automation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Boston Dynamics develops advanced robots combining mobility and manipulation. \
+Spot robot navigates complex terrain while performing inspection tasks. \
+Handle robot combines wheeled mobility with arm manipulation for logistics. \
+Atlas robot demonstrates advanced humanoid balance and movement capabilities. \
+These platforms show future directions for versatile robotic systems.' 
+    }
+  ]
+},
+
+// ==== Supply Chain Tech====
+
+'supply-chain-tech-1': {
+  id: 'supply-chain-tech-1',
+  title: 'Modern Supply Chain Management',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Modern Supply Chain Management' },
+    { type: 'text', content:
+      'Modern supply chain management integrates technology to optimize flow of goods from suppliers to customers. \
+It encompasses planning, sourcing, manufacturing, logistics, and returns management. \
+Digital technologies provide end-to-end visibility and predictive capabilities. \
+Effective supply chain management reduces costs, improves service levels, and increases resilience. \
+Today supply chains are strategic differentiators rather than just cost centers.' 
+    },
+    { type: 'subtitle', content: 'Key Components' },
+    { type: 'text', content:
+      'Demand planning: Forecasting customer needs and inventory requirements. \
+Inventory management: Optimizing stock levels across the supply network. \
+Logistics: Transportation, warehousing, and distribution of goods. \
+Supplier management: Relationships and performance monitoring with vendors. \
+Returns management: Handling product returns and reverse logistics.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Walmart uses advanced supply chain technology to maintain its "Everyday Low Prices." \
+The company tracks inventory in real-time across 4,700+ stores. \
+Automatic replenishment systems trigger orders when stock reaches predetermined levels. \
+Cross-docking minimizes warehouse storage time, reducing costs. \
+This efficient supply chain enables competitive pricing and product availability.' 
+    }
+  ]
+},
+'supply-chain-tech-2': {
+  id: 'supply-chain-tech-2',
+  title: 'RFID & Barcode Technologies',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'RFID & Barcode Technologies' },
+    { type: 'text', content:
+      'RFID and barcodes enable automatic identification and tracking of goods through supply chains. \
+Barcodes require line-of-sight scanning and contain limited information. \
+RFID uses radio waves for contactless reading and stores more data. \
+These technologies improve inventory accuracy, reduce errors, and speed processes. \
+Integration with enterprise systems provides real-time visibility of goods movement.' 
+    },
+    { type: 'subtitle', content: 'Technology Comparison' },
+    { type: 'text', content:
+      'Barcodes: Low-cost, standardized, require direct line of sight. \
+RFID: No line of sight needed, multiple tags read simultaneously, more data storage. \
+QR codes: Two-dimensional codes storing URLs or extensive data, easily scanned by smartphones. \
+NFC: Short-range RFID for applications like contactless payment and access control. \
+Choosing depends on application requirements and cost considerations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Zara uses RFID tags on every garment for real-time inventory management. \
+Store employees quickly take inventory by waving RFID readers near racks. \
+The system identifies which items need restocking or relocation between stores. \
+Headquarters receives instant visibility into global inventory levels. \
+This enables fast fashion responsiveness with minimal stockouts or overstock.' 
+    }
+  ]
+},
+'supply-chain-tech-3': {
+  id: 'supply-chain-tech-3',
+  title: 'Warehouse Management Systems',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Warehouse Management Systems' },
+    { type: 'text', content:
+      'Warehouse Management Systems optimize storage, picking, and shipping operations. \
+WMS software coordinates people, equipment, and inventory within warehouses. \
+Features include slotting optimization, wave picking, and labor management. \
+Integration with material handling automation improves efficiency and accuracy. \
+Modern WMS provides real-time visibility and analytics for continuous improvement.' 
+    },
+    { type: 'subtitle', content: 'WMS Functions' },
+    { type: 'text', content:
+      'Receiving: Managing inbound shipments and putaway to storage locations. \
+Storage: Optimizing inventory placement based on velocity and product characteristics. \
+Picking: Directing order selection methods (batch, zone, wave) for efficiency. \
+Packing: Ensuring correct packaging and labeling for shipment. \
+Shipping: Managing carrier selection, documentation, and loading.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Amazon fulfillment centers use sophisticated WMS to process millions of orders daily. \
+The system directs workers to optimal picking locations using shortest paths. \
+Robots bring shelves to pickers, reducing walking time dramatically. \
+Algorithms determine packaging size and shipping method for each order. \
+This enables same-day and next-day delivery promises to customers.' 
+    }
+  ]
+},
+'supply-chain-tech-4': {
+  id: 'supply-chain-tech-4',
+  title: 'Transportation Management Systems',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Transportation Management Systems' },
+    { type: 'text', content:
+      'Transportation Management Systems optimize movement of goods between locations. \
+TMS software plans, executes, and settles freight transportation activities. \
+Features include carrier selection, route optimization, and freight audit. \
+Integration with GPS and telematics provides real-time shipment tracking. \
+Effective transportation management reduces costs and improves service reliability.' 
+    },
+    { type: 'subtitle', content: 'TMS Capabilities' },
+    { type: 'text', content:
+      'Planning: Selecting optimal carriers, modes, and routes for shipments. \
+Execution: Tendering loads, tracking shipments, and managing exceptions. \
+Visibility: Real-time tracking of shipments and estimated arrival times. \
+Settlement: Auditing freight bills and processing carrier payments. \
+Analytics: Measuring performance and identifying improvement opportunities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'UPS uses advanced TMS to optimize delivery routes for 20 million packages daily. \
+The system considers traffic patterns, weather, and delivery commitments. \
+ORION (On-Road Integrated Optimization and Navigation) saves millions of miles annually. \
+Real-time tracking enables accurate delivery estimates for customers. \
+This optimization reduces fuel consumption and improves delivery efficiency.' 
+    }
+  ]
+},
+'supply-chain-tech-5': {
+  id: 'supply-chain-tech-5',
+  title: 'Blockchain in Supply Chain',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Blockchain in Supply Chain' },
+    { type: 'text', content:
+      'Blockchain creates tamper-proof, shared records of supply chain transactions. \
+It provides transparency, traceability, and trust across complex supply networks. \
+Smart contracts automate processes when predefined conditions are met. \
+Applications include provenance tracking, counterfeit prevention, and payment automation. \
+Blockchain addresses trust issues in multi-party supply chain relationships.' 
+    },
+    { type: 'subtitle', content: 'Blockchain Applications' },
+    { type: 'text', content:
+      'Provenance tracking: Verifying origin and journey of products from source to consumer. \
+Smart contracts: Automating payments and other transactions when conditions are met. \
+Counterfeit prevention: Ensuring authenticity of high-value or regulated goods. \
+Compliance documentation: Providing auditable records for regulatory requirements. \
+Supply chain finance: Facilitating faster payments and financing based on verified data.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'IBM Food Trust uses blockchain to trace food products from farm to table. \
+Walmart tracks leafy greens through supply chain in seconds instead of days. \
+Consumers scan QR codes to see product origin, processing, and shipping details. \
+This enables rapid response to contamination incidents, improving food safety. \
+Blockchain builds consumer trust while protecting brand reputation.' 
+    }
+  ]
+},
+'supply-chain-tech-6': {
+  id: 'supply-chain-tech-6',
+  title: 'Supply Chain Analytics',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Supply Chain Analytics' },
+    { type: 'text', content:
+      'Supply chain analytics uses data to optimize decision-making across the supply network. \
+Descriptive analytics reveals what happened through reporting and visualization. \
+Predictive analytics forecasts future demand, risks, and opportunities. \
+Prescriptive analytics recommends optimal actions based on objectives and constraints. \
+Advanced analytics improves efficiency, resilience, and customer satisfaction.' 
+    },
+    { type: 'subtitle', content: 'Analytics Types' },
+    { type: 'text', content:
+      'Descriptive: Historical performance reporting and KPI dashboards. \
+Predictive: Demand forecasting, risk prediction, and predictive maintenance. \
+Prescriptive: Optimization models for inventory, transportation, and network design. \
+Cognitive: AI and machine learning for pattern recognition and autonomous decisions. \
+Real-time: Streaming analytics for immediate response to changing conditions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Coca-Cola uses advanced analytics for demand sensing and inventory optimization. \
+The system analyzes point-of-sale data, weather forecasts, and local events. \
+Machine learning models predict demand spikes for different products and locations. \
+Automated replenishment adjusts inventory levels in real-time. \
+This reduces stockouts while minimizing inventory holding costs.' 
+    }
+  ]
+},
+'supply-chain-tech-7': {
+  id: 'supply-chain-tech-7',
+  title: 'Last-Mile Delivery Innovations',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Last-Mile Delivery Innovations' },
+    { type: 'text', content:
+      'Last-mile delivery is the final step of getting products to customers doors. \
+It represents the most expensive and complex segment of the supply chain. \
+Innovations include drones, autonomous vehicles, and crowd-sourced delivery. \
+Micro-fulfillment centers bring inventory closer to urban customers. \
+Technology improves efficiency, reduces costs, and enhances customer experience.' 
+    },
+    { type: 'subtitle', content: 'Innovation Areas' },
+    { type: 'text', content:
+      'Autonomous delivery: Drones and ground robots for contactless delivery. \
+Crowd-shipping: Using non-professional couriers for flexible capacity. \
+Smart lockers: Secure pickup locations available 24/7. \
+Route optimization: Dynamic routing based on real-time traffic and demand. \
+Delivery windows: Precise time slots for customer convenience.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Domino uses GPS tracking and predictive algorithms for pizza delivery. \
+The system estimates accurate delivery times based on cooking time and driver location. \
+Customers track their order in real-time from oven to doorstep. \
+Heat-retaining bags ensure pizzas arrive hot regardless of delivery time. \
+This technology-enabled delivery creates competitive advantage in food service.' 
+    }
+  ]
+},
+'supply-chain-tech-8': {
+  id: 'supply-chain-tech-8',
+  title: 'Supply Chain Visibility Platforms',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Supply Chain Visibility Platforms' },
+    { type: 'text', content:
+      'Visibility platforms provide real-time tracking and monitoring of supply chain operations. \
+They aggregate data from multiple sources to create comprehensive situational awareness. \
+Features include exception management, predictive alerts, and performance analytics. \
+Visibility enables proactive response to disruptions and optimization opportunities. \
+Modern platforms use IoT, AI, and cloud computing for scalable visibility solutions.' 
+    },
+    { type: 'subtitle', content: 'Visibility Capabilities' },
+    { type: 'text', content:
+      'Real-time tracking: Monitoring shipments, inventory, and equipment locations. \
+Exception management: Alerting when shipments deviate from plan. \
+Performance monitoring: Tracking KPIs across supply chain partners. \
+Predictive analytics: Forecasting potential disruptions before they occur. \
+Collaboration tools: Sharing information with supply chain partners.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Maersk uses digital visibility platforms for global container shipping. \
+The system tracks thousands of vessels and millions of containers worldwide. \
+Customers see real-time location, temperature, and security status of their shipments. \
+Predictive analytics estimate arrival times considering weather and port congestion. \
+This visibility enables better planning and reduces supply chain uncertainty.' 
+    }
+  ]
+},
+'supply-chain-tech-9': {
+  id: 'supply-chain-tech-9',
+  title: 'Sustainable Supply Chain Practices',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sustainable Supply Chain Practices' },
+    { type: 'text', content:
+      'Sustainable supply chains minimize environmental impact while maintaining economic viability. \
+Practices include carbon footprint reduction, circular economy principles, and ethical sourcing. \
+Technology enables measurement, reporting, and improvement of sustainability performance. \
+Sustainable practices reduce costs, meet regulatory requirements, and enhance brand reputation. \
+Companies increasingly view sustainability as competitive advantage rather than compliance burden.' 
+    },
+    { type: 'subtitle', content: 'Sustainability Initiatives' },
+    { type: 'text', content:
+      'Carbon footprint tracking: Measuring and reducing greenhouse gas emissions. \
+Circular supply chains: Designing for reuse, refurbishment, and recycling. \
+Ethical sourcing: Ensuring responsible labor practices and environmental stewardship. \
+Green logistics: Optimizing transportation for fuel efficiency and emissions reduction. \
+Packaging optimization: Reducing material use and increasing recyclability.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'IKEA implements comprehensive sustainability across its supply chain. \
+The company sources sustainable wood and aims for 100% renewable energy. \
+Flat-pack design reduces transportation volume and emissions. \
+Take-back programs enable furniture recycling and circularity. \
+These practices reduce environmental impact while maintaining affordable pricing.' 
+    }
+  ]
+},
+'supply-chain-tech-10': {
+  id: 'supply-chain-tech-10',
+  title: 'Supply Chain Risk Management',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Supply Chain Risk Management' },
+    { type: 'text', content:
+      'Supply chain risk management identifies, assesses, and mitigates disruptions to supply networks. \
+Risks include natural disasters, geopolitical events, supplier failures, and demand volatility. \
+Strategies include diversification, inventory buffers, and alternative sourcing. \
+Technology provides early warning and scenario planning capabilities. \
+Resilient supply chains maintain operations despite unexpected disruptions.' 
+    },
+    { type: 'subtitle', content: 'Risk Management Approaches' },
+    { type: 'text', content:
+      'Risk identification: Mapping supply networks and identifying vulnerabilities. \
+Assessment: Evaluating probability and impact of potential disruptions. \
+Mitigation: Implementing strategies to reduce risk exposure. \
+Monitoring: Continuous surveillance of risk indicators and early warning signals. \
+Response: Developing plans and capabilities for rapid recovery from disruptions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Apple manages complex supply chain risks for global electronics production. \
+The company diversifies suppliers across multiple countries and regions. \
+Safety stock of critical components buffers against supply disruptions. \
+Supplier financial health monitoring identifies potential failures early. \
+These measures proved crucial during COVID-19 pandemic and trade tensions.' 
+    }
+  ]
+},
+
+// ====Quality Control Systems====
+
+'quality-control-1': {
+  id: 'quality-control-1',
+  title: 'Modern Quality Management',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Modern Quality Management' },
+    { type: 'text', content:
+      'Modern quality management integrates prevention, continuous improvement, and customer focus. \
+It moves beyond inspection to designing quality into processes and products. \
+Approaches include Total Quality Management, Six Sigma, and Lean Manufacturing. \
+Technology enables real-time monitoring, data analysis, and automated correction. \
+Quality management is strategic differentiator rather than just compliance function.' 
+    },
+    { type: 'subtitle', content: 'Quality Principles' },
+    { type: 'text', content:
+      'Customer focus: Understanding and meeting customer requirements and expectations. \
+Process approach: Managing activities as interconnected processes with defined inputs and outputs. \
+Continuous improvement: Ongoing enhancement of products, processes, and systems. \
+Evidence-based decision making: Using data and analysis to inform decisions. \
+Relationship management: Building mutually beneficial relationships with suppliers and partners.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Toyota Production System exemplifies integrated quality management. \
+The Andon cord empowers any worker to stop production when quality issues are detected. \
+Jidoka (automation with human touch) builds quality into manufacturing processes. \
+Kaizen (continuous improvement) involves all employees in quality enhancement. \
+This approach made Toyota synonymous with manufacturing excellence.' 
+    }
+  ]
+},
+'quality-control-2': {
+  id: 'quality-control-2',
+  title: 'Statistical Process Control',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Statistical Process Control' },
+    { type: 'text', content:
+      'Statistical Process Control uses statistical methods to monitor and control processes. \
+Control charts track process variation and distinguish common from special causes. \
+SPC enables early detection of process shifts before defective products are produced. \
+It focuses on prevention rather than detection of quality problems. \
+SPC is fundamental to maintaining consistent quality in manufacturing operations.' 
+    },
+    { type: 'subtitle', content: 'SPC Tools' },
+    { type: 'text', content:
+      'Control charts: Graphical displays of process data with control limits. \
+Process capability analysis: Quantifying ability to meet specifications. \
+Histograms: Frequency distributions showing data patterns. \
+Pareto charts: Identifying most significant quality issues. \
+Cause-and-effect diagrams: Structured brainstorming to identify root causes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Intel uses SPC for microchip manufacturing quality control. \
+Control charts monitor critical dimensions like oxide thickness and line width. \
+Automated systems collect thousands of measurements per wafer. \
+Algorithms detect subtle process shifts before they affect yield. \
+This statistical approach enables consistent production of billion-transistor chips.' 
+    }
+  ]
+},
+'quality-control-3': {
+  id: 'quality-control-3',
+  title: 'Automated Inspection Systems',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Automated Inspection Systems' },
+    { type: 'text', content:
+      'Automated inspection uses technology to examine products without human intervention. \
+Systems include machine vision, laser measurement, and X-ray inspection. \
+Automation provides consistent, objective, and high-speed quality assessment. \
+Real-time feedback enables immediate process adjustment when defects are detected. \
+Automated inspection improves quality while reducing labor costs and human error.' 
+    },
+    { type: 'subtitle', content: 'Inspection Technologies' },
+    { type: 'text', content:
+      'Machine vision: Cameras and image processing for visual inspection. \
+Laser scanning: Precise dimensional measurement using triangulation or time-of-flight. \
+X-ray inspection: Internal examination for voids, cracks, or foreign objects. \
+Coordinate measuring machines: Contact probes for 3D geometric measurement. \
+Spectroscopy: Material composition analysis using light absorption or emission.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Pharmaceutical companies use automated inspection for pill and capsule quality. \
+Vision systems check color, shape, size, and surface defects at high speeds. \
+X-ray inspection verifies proper fill levels and detects foreign materials. \
+Reject mechanisms automatically remove defective products from production lines. \
+This ensures medication safety and regulatory compliance.' 
+    }
+  ]
+},
+'quality-control-4': {
+  id: 'quality-control-4',
+  title: 'Quality Data Management',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Quality Data Management' },
+    { type: 'text', content:
+      'Quality data management collects, stores, analyzes, and reports quality-related information. \
+Systems integrate data from inspection equipment, process sensors, and manual inputs. \
+Data analytics identify trends, correlations, and improvement opportunities. \
+Traceability links quality data to specific products, batches, and process conditions. \
+Effective data management supports continuous improvement and regulatory compliance.' 
+    },
+    { type: 'subtitle', content: 'Data Management Functions' },
+    { type: 'text', content:
+      'Data collection: Automated gathering from sensors, instruments, and manual entries. \
+Data storage: Secure, organized repositories for historical quality records. \
+Analysis: Statistical and trend analysis to extract insights from quality data. \
+Reporting: Generation of quality certificates, dashboards, and regulatory submissions. \
+Traceability: Linking products to raw materials, processes, and test results.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Aerospace manufacturers maintain comprehensive quality data for aircraft components. \
+Each part carries unique identifier linking to material certifications and test results. \
+Data systems track components through manufacturing, inspection, and service life. \
+Regulators access complete quality histories during certification and audits. \
+This traceability is critical for aviation safety and regulatory compliance.' 
+    }
+  ]
+},
+'quality-control-5': {
+  id: 'quality-control-5',
+  title: 'Non-Destructive Testing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Non-Destructive Testing' },
+    { type: 'text', content:
+      'Non-Destructive Testing examines materials and components without causing damage. \
+NDT methods detect internal and surface defects without altering the tested object. \
+Techniques include ultrasonic, radiographic, magnetic particle, and penetrant testing. \
+Applications range from weld inspection to composite material evaluation. \
+NDT ensures structural integrity and safety of critical components.' 
+    },
+    { type: 'subtitle', content: 'NDT Methods' },
+    { type: 'text', content:
+      'Ultrasonic testing: Uses high-frequency sound waves to detect internal flaws. \
+Radiographic testing: X-rays or gamma rays reveal internal structure and defects. \
+Magnetic particle testing: Detects surface and near-surface flaws in ferromagnetic materials. \
+Liquid penetrant testing: Reveals surface-breaking defects through capillary action. \
+Eddy current testing: Uses electromagnetic induction to detect surface and subsurface flaws.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Boeing uses extensive NDT for aircraft manufacturing and maintenance. \
+Ultrasonic testing examines composite structures for delamination and voids. \
+Radiographic inspection checks critical welds in landing gear and engine mounts. \
+Eddy current testing detects fatigue cracks in aircraft skin and structural components. \
+These methods ensure airworthiness without damaging expensive aircraft components.' 
+    }
+  ]
+},
+'quality-control-6': {
+  id: 'quality-control-6',
+  title: 'Metrology & Measurement Systems',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Metrology & Measurement Systems' },
+    { type: 'text', content:
+      'Metrology is the science of measurement, essential for manufacturing quality control. \
+Measurement systems must be accurate, precise, and traceable to international standards. \
+Equipment includes coordinate measuring machines, optical comparators, and laser trackers. \
+Measurement uncertainty quantifies reliability of measurement results. \
+Proper metrology ensures products meet design specifications and interchangeability requirements.' 
+    },
+    { type: 'subtitle', content: 'Measurement Equipment' },
+    { type: 'text', content:
+      'CMMs: Coordinate Measuring Machines for 3D geometric measurement. \
+Vision systems: Optical measurement using cameras and image processing. \
+Laser scanners: Non-contact 3D scanning for complex surface measurement. \
+Form measurement: Roundness, flatness, and surface texture measurement. \
+Gage calibration: Regular verification and adjustment of measurement tools.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Medical device manufacturers use precision metrology for implant quality. \
+CMMs verify critical dimensions of hip and knee replacements to micron tolerances. \
+Surface roughness measurement ensures proper bone integration. \
+Traceability to NIST standards guarantees measurement accuracy. \
+This precision enables successful surgical outcomes and patient safety.' 
+    }
+  ]
+},
+'quality-control-7': {
+  id: 'quality-control-7',
+  title: 'Supplier Quality Management',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Supplier Quality Management' },
+    { type: 'text', content:
+      'Supplier quality management ensures purchased materials and components meet requirements. \
+Approaches include supplier qualification, ongoing monitoring, and collaborative improvement. \
+Quality requirements flow down through supply chains via specifications and standards. \
+Supplier performance metrics drive continuous improvement and sourcing decisions. \
+Effective supplier quality management reduces incoming inspection and prevents quality issues.' 
+    },
+    { type: 'subtitle', content: 'Supplier Management Activities' },
+    { type: 'text', content:
+      'Qualification: Assessing supplier capabilities before awarding business. \
+Requirements communication: Clearly defining quality expectations and standards. \
+Performance monitoring: Tracking quality metrics like defect rates and on-time delivery. \
+Audits: On-site evaluations of supplier quality systems and processes. \
+Development: Helping suppliers improve their quality capabilities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Honda implements comprehensive supplier quality management for automotive parts. \
+Suppliers must achieve specific quality levels before receiving production orders. \
+Honda engineers work with suppliers to improve processes and reduce defects. \
+Performance scorecards determine future business allocation. \
+This collaborative approach ensures consistent quality across the supply chain.' 
+    }
+  ]
+},
+'quality-control-8': {
+  id: 'quality-control-8',
+  title: 'Quality Management Software',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Quality Management Software' },
+    { type: 'text', content:
+      'Quality Management Software automates and streamlines quality processes and documentation. \
+Modules include document control, corrective action, audit management, and training records. \
+QMS software ensures compliance with standards like ISO 9001 and regulatory requirements. \
+Integration with manufacturing systems enables real-time quality monitoring and control. \
+Digital QMS improves efficiency, consistency, and visibility of quality management.' 
+    },
+    { type: 'subtitle', content: 'QMS Functions' },
+    { type: 'text', content:
+      'Document control: Managing quality manuals, procedures, and records. \
+Corrective action: Tracking and resolving non-conformities through structured processes. \
+Audit management: Planning, conducting, and following up on quality audits. \
+Training management: Tracking employee qualifications and training requirements. \
+Risk management: Identifying and addressing quality risks throughout organization.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Johnson & Johnson uses enterprise QMS software across global manufacturing. \
+The system manages thousands of quality documents and procedures worldwide. \
+Automated workflows ensure consistent handling of quality issues and corrective actions. \
+Real-time dashboards provide visibility into quality performance across sites. \
+This supports compliance with FDA regulations and other quality standards.' 
+    }
+  ]
+},
+'quality-control-9': {
+  id: 'quality-control-9',
+  title: 'Quality Cost Analysis',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Quality Cost Analysis' },
+    { type: 'text', content:
+      'Quality cost analysis quantifies financial impact of quality-related activities and problems. \
+Categories include prevention, appraisal, internal failure, and external failure costs. \
+Understanding quality costs guides investment in prevention versus correction activities. \
+The goal is minimizing total quality cost while meeting customer requirements. \
+Quality cost reduction directly improves profitability and competitive position.' 
+    },
+    { type: 'subtitle', content: 'Quality Cost Categories' },
+    { type: 'text', content:
+      'Prevention costs: Activities to prevent defects (training, process design, planning). \
+Appraisal costs: Evaluating products to ensure quality (inspection, testing, audits). \
+Internal failure costs: Defects found before delivery (scrap, rework, downtime). \
+External failure costs: Defects found after delivery (warranty, returns, lawsuits). \
+Tracking these costs reveals opportunities for quality improvement investment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'General Electric analyzes quality costs to guide improvement initiatives. \
+The company found external failure costs were 10x higher than prevention costs. \
+Investments in design for quality and process control reduced warranty claims dramatically. \
+Quality cost reporting became standard part of operational reviews. \
+This financial perspective drives quality improvement as business priority.' 
+    }
+  ]
+},
+'quality-control-10': {
+  id: 'quality-control-10',
+  title: 'Future Quality Technologies',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Future Quality Technologies' },
+    { type: 'text', content:
+      'Emerging technologies transform quality control from detection to prediction and prevention. \
+Artificial intelligence identifies complex quality patterns humans might miss. \
+Digital twins simulate quality outcomes before physical production begins. \
+Augmented reality assists inspectors with real-time guidance and information overlay. \
+These technologies enable proactive quality management with unprecedented precision and efficiency.' 
+    },
+    { type: 'subtitle', content: 'Emerging Technologies' },
+    { type: 'text', content:
+      'AI-powered inspection: Machine learning for defect detection and classification. \
+Predictive quality: Forecasting quality issues based on process data patterns. \
+Digital quality twins: Virtual models predicting product quality under different conditions. \
+AR-assisted inspection: Overlaying specifications and guidance during manual inspection. \
+Blockchain for traceability: Immutable quality records across supply chains.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Siemens uses AI for automated visual inspection in electronics manufacturing. \
+Neural networks learn to identify subtle soldering defects human inspectors might miss. \
+The system continuously improves as it processes more inspection images. \
+False reject rates decrease while defect detection accuracy increases. \
+This demonstrates AI potential to enhance both quality and efficiency.' 
+    }
+  ]
+},
+
+//  ====Industrial Safety==== 
+
+'industrial-safety-1': {
+  id: 'industrial-safety-1',
+  title: 'Modern Safety Management Systems',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Modern Safety Management Systems' },
+    { type: 'text', content:
+      'Modern safety management systematically identifies, evaluates, and controls workplace hazards. \
+Approaches include risk assessment, safety planning, training, and continuous improvement. \
+Systems integrate safety into all business processes rather than treating it as separate function. \
+Technology enables predictive safety analytics and real-time hazard monitoring. \
+Effective safety management protects workers while improving operational performance.' 
+    },
+    { type: 'subtitle', content: 'Safety System Elements' },
+    { type: 'text', content:
+      'Risk assessment: Identifying hazards and evaluating their potential impact. \
+Safety planning: Developing procedures and controls to mitigate identified risks. \
+Training and competence: Ensuring workers have knowledge and skills for safe work. \
+Monitoring and measurement: Tracking safety performance and compliance. \
+Continuous improvement: Learning from incidents and enhancing safety practices.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'DuPont implements comprehensive safety management across global operations. \
+The company achieved safety performance 10x better than industry average. \
+Systems include behavior-based safety observations and near-miss reporting. \
+All incidents undergo root cause analysis regardless of injury severity. \
+This systematic approach made DuPont safety leader for decades.' 
+    }
+  ]
+},
+'industrial-safety-2': {
+  id: 'industrial-safety-2',
+  title: 'Machine Guarding Principles',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Machine Guarding Principles' },
+    { type: 'text', content:
+      'Machine guarding protects workers from hazards created by moving machinery parts. \
+Guards prevent contact with dangerous areas like pinch points, cutting edges, and rotating parts. \
+Types include fixed guards, interlocked guards, and presence-sensing devices. \
+Proper guarding considers normal operation, maintenance, and potential failure modes. \
+Effective guarding reduces amputations, crush injuries, and other machinery-related incidents.' 
+    },
+    { type: 'subtitle', content: 'Guarding Approaches' },
+    { type: 'text', content:
+      'Fixed guards: Permanent barriers that cannot be removed without tools. \
+Interlocked guards: Automatically stop machine operation when guard is opened. \
+Adjustable guards: Accommodate different sizes of material being processed. \
+Self-adjusting guards: Move with the material to maintain protection. \
+Presence-sensing devices: Light curtains or pressure mats that stop machines when workers approach.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Paper mills implement comprehensive guarding for rotating equipment and cutting machinery. \
+Fixed guards protect workers from nip points on rollers and drying cylinders. \
+Interlocked guards on slitters and sheeters prevent access while blades are moving. \
+Light curtains protect workers feeding material into converting equipment. \
+This multi-layered approach prevents severe injuries in high-risk paper manufacturing.' 
+    }
+  ]
+},
+'industrial-safety-3': {
+  id: 'industrial-safety-3',
+  title: 'Lockout/Tagout Procedures',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Lockout/Tagout Procedures' },
+    { type: 'text', content:
+      'Lockout/Tagout controls hazardous energy during equipment service and maintenance. \
+LOTO procedures prevent unexpected startup or release of stored energy. \
+Locks physically prevent energy isolation devices from being operated. \
+Tags provide warning and information about the lockout. \
+Proper LOTO prevents electrocution, crushing, cutting, and other energy-related injuries.' 
+    },
+    { type: 'subtitle', content: 'LOTO Steps' },
+    { type: 'text', content:
+      'Preparation: Identifying energy sources and appropriate isolation methods. \
+Shutdown: Turning equipment off using normal stopping procedures. \
+Isolation: Disconnecting equipment from energy sources (electrical, hydraulic, pneumatic). \
+Application: Placing locks and tags on energy isolation devices. \
+Verification: Ensuring equipment is de-energized and cannot be operated.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Chemical plants implement rigorous LOTO for reactor maintenance and cleaning. \
+Each energy source (electricity, steam, compressed air) requires individual isolation. \
+Group lockout boxes coordinate multiple workers on complex equipment. \
+Procedures include testing for zero energy state before work begins. \
+This systematic approach prevents catastrophic incidents during maintenance.' 
+    }
+  ]
+},
+'industrial-safety-4': {
+  id: 'industrial-safety-4',
+  title: 'Personal Protective Equipment',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Personal Protective Equipment' },
+    { type: 'text', content:
+      'Personal Protective Equipment is worn to minimize exposure to workplace hazards. \
+PPE includes items for head, eye, hearing, respiratory, hand, and foot protection. \
+Selection considers specific hazards, compatibility, and worker comfort. \
+Proper use, maintenance, and training are essential for PPE effectiveness. \
+PPE is last line of defense after engineering and administrative controls.' 
+    },
+    { type: 'subtitle', content: 'PPE Types' },
+    { type: 'text', content:
+      'Head protection: Hard hats for impact and electrical hazards. \
+Eye protection: Safety glasses, goggles, or face shields for flying particles and chemicals. \
+Hearing protection: Earplugs or earmuffs for noise exposure control. \
+Respiratory protection: Masks or respirators for airborne contaminants. \
+Hand protection: Gloves for cuts, chemicals, heat, or vibration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Steel mills require comprehensive PPE for extreme hazards. \
+Workers wear aluminized clothing for radiant heat protection near furnaces. \
+Face shields and safety glasses protect against molten metal splash. \
+Heat-resistant gloves handle hot steel and equipment. \
+Specialized respirators filter metal fumes during certain operations. \
+This PPE ensemble enables safe work in extreme manufacturing environments.' 
+    }
+  ]
+},
+'industrial-safety-5': {
+  id: 'industrial-safety-5',
+  title: 'Fall Protection Systems',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Fall Protection Systems' },
+    { type: 'text', content:
+      'Fall protection prevents injuries from working at heights or near openings. \
+Systems include guardrails, safety nets, personal fall arrest systems, and positioning devices. \
+Selection depends on work environment, task requirements, and fall distance. \
+Proper training in equipment use and rescue procedures is critical. \
+Fall protection is essential for construction, maintenance, and warehouse operations.' 
+    },
+    { type: 'subtitle', content: 'Protection Approaches' },
+    { type: 'text', content:
+      'Guardrails: Physical barriers preventing workers from reaching fall hazards. \
+Safety nets: Catch falling workers to reduce impact forces. \
+Personal fall arrest: Harness and lanyard system stopping falls within limited distance. \
+Positioning systems: Allow hands-free work while preventing falls from height. \
+Warning lines: Demarcate areas where fall hazards exist but work doesn\'t require approaching edge.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Wind turbine technicians use comprehensive fall protection for tower work. \
+Climbing safety systems arrest falls during ascent and descent inside towers. \
+Horizontal lifelines allow movement across nacelle while maintaining protection. \
+Rescue equipment and training ensure prompt response if fall occurs. \
+This specialized protection enables safe renewable energy maintenance.' 
+    }
+  ]
+},
+'industrial-safety-6': {
+  id: 'industrial-safety-6',
+  title: 'Hazard Communication Standards',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Hazard Communication Standards' },
+    { type: 'text', content:
+      'Hazard communication ensures workers understand chemical hazards in the workplace. \
+Globally Harmonized System standardizes chemical classification and labeling. \
+Safety Data Sheets provide detailed information about chemical properties and hazards. \
+Labels on containers communicate hazard information through standardized pictograms. \
+Training ensures workers can recognize hazards and take appropriate precautions.' 
+    },
+    { type: 'subtitle', content: 'HazCom Elements' },
+    { type: 'text', content:
+      'Hazard classification: Identifying health, physical, and environmental hazards of chemicals. \
+Labels: Standardized information including pictograms, signal words, and hazard statements. \
+Safety Data Sheets: Detailed technical information about chemical properties and safe handling. \
+Employee training: Ensuring workers understand hazards and protective measures. \
+Written program: Documenting how the organization implements hazard communication.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      '3M implements comprehensive hazard communication for chemical manufacturing. \
+All products receive GHS-compliant labels with standardized hazard pictograms. \
+Digital Safety Data Sheets are accessible to employees and customers worldwide. \
+Training programs ensure proper handling of hazardous materials. \
+This systematic approach protects workers while meeting regulatory requirements.' 
+    }
+  ]
+},
+'industrial-safety-7': {
+  id: 'industrial-safety-7',
+  title: 'Emergency Response Planning',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Emergency Response Planning' },
+    { type: 'text', content:
+      'Emergency response planning prepares organizations to respond effectively to incidents. \
+Plans address fires, chemical releases, medical emergencies, natural disasters, and security threats. \
+Elements include evacuation procedures, communication protocols, and resource allocation. \
+Training and drills ensure personnel know their roles during emergencies. \
+Effective planning minimizes harm to people, property, and the environment.' 
+    },
+    { type: 'subtitle', content: 'Planning Components' },
+    { type: 'text', content:
+      'Risk assessment: Identifying potential emergencies and their consequences. \
+Response procedures: Specific actions for different types of emergencies. \
+Communication plans: How to alert personnel and coordinate with external responders. \
+Resource allocation: Equipment, personnel, and facilities for emergency response. \
+Training and drills: Regular practice to maintain readiness and identify improvement areas.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Oil refineries maintain sophisticated emergency response capabilities. \
+On-site fire brigades train for hydrocarbon fires and chemical releases. \
+Emergency shutdown systems isolate sections of the plant to contain incidents. \
+Mutual aid agreements coordinate response with neighboring facilities and communities. \
+Regular drills with local emergency services ensure coordinated response to major incidents.' 
+    }
+  ]
+},
+'industrial-safety-8': {
+  id: 'industrial-safety-8',
+  title: 'Safety Culture Development',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Safety Culture Development' },
+    { type: 'text', content:
+      'Safety culture represents shared values, attitudes, and behaviors regarding safety. \
+Strong safety culture prioritizes safety over production and encourages reporting of concerns. \
+Leadership commitment, employee involvement, and continuous learning characterize positive cultures. \
+Developing safety culture requires consistent messaging, recognition, and accountability. \
+Positive safety culture correlates with better safety performance and business results.' 
+    },
+    { type: 'subtitle', content: 'Culture Elements' },
+    { type: 'text', content:
+      'Leadership commitment: Visible, consistent prioritization of safety by management. \
+Employee involvement: Workers participating in safety decisions and improvements. \
+Communication: Open dialogue about safety concerns and lessons learned. \
+Learning orientation: Treating incidents as opportunities for improvement rather than blame. \
+Accountability: Clear expectations and consequences for safety performance.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Alcoa transformed safety culture under CEO Paul O\'Neill\'s leadership. \
+The company made safety the first agenda item in all meetings. \
+Any incident, regardless of severity, required immediate reporting to CEO within 24 hours. \
+This emphasis reduced injury rate by 95% over a decade. \
+The cultural transformation also improved quality and productivity significantly.' 
+    }
+  ]
+},
+'industrial-safety-9': {
+  id: 'industrial-safety-9',
+  title: 'Safety Technology Innovations',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Safety Technology Innovations' },
+    { type: 'text', content:
+      'Technology innovations enhance workplace safety through monitoring, prevention, and response. \
+Wearable devices track worker location, vital signs, and environmental exposures. \
+Computer vision detects unsafe behaviors and conditions in real-time. \
+Predictive analytics identify areas of elevated risk before incidents occur. \
+These technologies complement traditional safety approaches with data-driven insights.' 
+    },
+    { type: 'subtitle', content: 'Safety Technologies' },
+    { type: 'text', content:
+      'Wearable sensors: Monitor worker location, posture, fatigue, and environmental exposures. \
+Computer vision: Cameras and AI detect PPE compliance, unsafe behaviors, and hazards. \
+Proximity detection: Alerts when workers approach dangerous equipment or areas. \
+Virtual reality: Provides immersive safety training for hazardous scenarios. \
+Predictive analytics: Identifies risk patterns from incident and near-miss data.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Construction companies use wearable technology for worker safety monitoring. \
+Smart hard hats detect impacts and alert supervisors to potential head injuries. \
+Location sensors ensure workers don\'t enter exclusion zones around heavy equipment. \
+Fatigue monitoring watches for signs of impaired alertness. \
+This technology provides real-time safety oversight on dynamic construction sites.' 
+    }
+  ]
+},
+'industrial-safety-10': {
+  id: 'industrial-safety-10',
+  title: 'Safety Performance Measurement',
+  image: 'https://unsplash.com/photos/white-and-black-checkered-floor-L0nipfxypcA',
+  sections: [
+    { type: 'title', content: 'Safety Performance Measurement' },
+    { type: 'text', content:
+      'Safety performance measurement tracks effectiveness of safety programs and identifies improvement areas. \
+Leading indicators measure proactive safety activities and conditions. \
+Lagging indicators track outcomes like injuries, illnesses, and incidents. \
+Balanced measurement includes both types to drive continuous improvement. \
+Effective measurement informs decision-making and demonstrates safety value to organization.' 
+    },
+    { type: 'subtitle', content: 'Performance Metrics' },
+    { type: 'text', content:
+      'Leading indicators: Safety observations completed, training hours, hazard corrections. \
+Lagging indicators: Recordable injury rate, lost workday cases, severity rates. \
+Process metrics: Compliance with safety procedures, audit findings, corrective action closure. \
+Cultural metrics: Safety perception surveys, near-miss reporting rates, employee involvement. \
+Financial metrics: Workers compensation costs, insurance premiums, productivity impacts.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Procter & Gamble uses balanced safety scorecard across global operations. \
+Leading indicators include percentage of safety observations completed and training compliance. \
+Lagging indicators track recordable injury rates and severity. \
+Cultural indicators measure employee safety perception and engagement. \
+This comprehensive measurement drives continuous safety improvement and benchmarking.' 
+    }
+  ]
+},
+
+// ====Smart Factories====
+
+'smart-factories-1': {
+  id: 'smart-factories-1',
+  title: 'Industry 4.0 Fundamentals',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Industry 4.0 Fundamentals' },
+    { type: 'text', content:
+      'Industry 4.0 represents the fourth industrial revolution, integrating digital technologies into manufacturing. \
+It combines cyber-physical systems, Internet of Things, cloud computing, and artificial intelligence. \
+Smart factories enable autonomous decision-making, real-time optimization, and mass customization. \
+Key technologies include digital twins, additive manufacturing, and advanced robotics. \
+Industry 4.0 transforms manufacturing from linear processes to interconnected, intelligent systems.' 
+    },
+    { type: 'subtitle', content: 'Industry 4.0 Technologies' },
+    { type: 'text', content:
+      'Cyber-Physical Systems: Integration of computation, networking, and physical processes. \
+Internet of Things: Networked sensors and devices communicating and sharing data. \
+Cloud Computing: On-demand computing resources and data storage. \
+Artificial Intelligence: Machine learning and cognitive computing for decision-making. \
+Additive Manufacturing: 3D printing for flexible, customized production.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Siemens Amberg Electronics Plant demonstrates Industry 4.0 principles in action. \
+The factory produces industrial automation products with 99.99885% quality rate. \
+Products communicate with production equipment to guide their own manufacturing. \
+Digital twins optimize processes before physical implementation. \
+This smart factory operates with minimal human intervention while achieving exceptional quality.' 
+    }
+  ]
+},
+'smart-factories-2': {
+  id: 'smart-factories-2',
+  title: 'Digital Factory Concepts',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Factory Concepts' },
+    { type: 'text', content:
+      'Digital factory creates virtual models of physical manufacturing systems before implementation. \
+It enables simulation, optimization, and validation of production processes digitally. \
+Digital twins represent products, processes, and entire factories in virtual environment. \
+Concepts include virtual commissioning, digital mock-ups, and process simulation. \
+Digital factory reduces time-to-market, improves quality, and lowers implementation risks.' 
+    },
+    { type: 'subtitle', content: 'Digital Factory Components' },
+    { type: 'text', content:
+      'Product lifecycle management: Digital management of product information from concept to retirement. \
+Manufacturing process planning: Virtual design and optimization of production processes. \
+Factory layout planning: 3D simulation of material flow, equipment placement, and ergonomics. \
+Virtual commissioning: Testing control logic and automation before physical implementation. \
+Performance simulation: Predicting production outcomes under different scenarios.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'BMW uses digital factory concepts for new vehicle model production planning. \
+Virtual reality enables engineers to walk through factories before construction begins. \
+Process simulations optimize assembly sequences and identify potential bottlenecks. \
+Virtual commissioning reduces production ramp-up time by months. \
+This digital approach enables efficient launch of new vehicle models.' 
+    }
+  ]
+},
+'smart-factories-3': {
+  id: 'smart-factories-3',
+  title: 'Smart Factory Connectivity',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Smart Factory Connectivity' },
+    { type: 'text', content:
+      'Smart factory connectivity enables seamless communication between machines, systems, and people. \
+Industrial networks include fieldbuses, industrial Ethernet, 5G, and wireless technologies. \
+OPC UA provides semantic interoperability between different manufacturers equipment. \
+Time-sensitive networking ensures deterministic communication for critical control applications. \
+Secure, reliable connectivity is foundation for smart factory operations.' 
+    },
+    { type: 'subtitle', content: 'Connectivity Standards' },
+    { type: 'text', content:
+      'OPC UA: Platform-independent standard for secure data exchange. \
+Time-Sensitive Networking: IEEE standards for deterministic Ethernet communication. \
+5G Industrial: Wireless connectivity with low latency and high reliability. \
+MQTT: Lightweight messaging protocol for IoT device communication. \
+TSN: Time-Sensitive Networking for synchronized industrial communication.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Bosch Rexroth implements comprehensive connectivity in smart factory solutions. \
+The company\'s ctrlX Automation platform uses OPC UA for device interoperability. \
+5G wireless enables mobile robot communication and flexible production layouts. \
+TSN ensures synchronized motion control across multiple machines. \
+This connectivity enables flexible, reconfigurable manufacturing systems.' 
+    }
+  ]
+},
+'smart-factories-4': {
+  id: 'smart-factories-4',
+  title: 'Predictive Analytics in Manufacturing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Predictive Analytics in Manufacturing' },
+    { type: 'text', content:
+      'Predictive analytics uses historical and real-time data to forecast future events in manufacturing. \
+Applications include demand forecasting, quality prediction, maintenance scheduling, and resource optimization. \
+Machine learning algorithms identify patterns and relationships humans might miss. \
+Predictive models enable proactive rather than reactive decision-making. \
+This improves efficiency, reduces costs, and enhances customer satisfaction.' 
+    },
+    { type: 'subtitle', content: 'Analytics Applications' },
+    { type: 'text', content:
+      'Demand forecasting: Predicting customer orders to optimize inventory and production planning. \
+Quality prediction: Anticipating defects based on process parameter patterns. \
+Predictive maintenance: Forecasting equipment failures before they occur. \
+Energy optimization: Predicting consumption patterns to reduce costs and environmental impact. \
+Supply chain optimization: Anticipating disruptions and optimizing logistics.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'John Deere uses predictive analytics for agricultural equipment manufacturing. \
+The system forecasts demand for different equipment models based on agricultural cycles. \
+Quality analytics predict welding defects based on parameter trends. \
+Maintenance algorithms schedule service before critical components fail. \
+This data-driven approach optimizes manufacturing operations and product reliability.' 
+    }
+  ]
+},
+'smart-factories-5': {
+  id: 'smart-factories-5',
+  title: 'Flexible Manufacturing Systems',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Flexible Manufacturing Systems' },
+    { type: 'text', content:
+      'Flexible Manufacturing Systems enable rapid changeover between different products. \
+They combine automated machines, material handling systems, and computer control. \
+FMS supports mixed-model production and customization without sacrificing efficiency. \
+Modular equipment and reconfigurable layouts provide manufacturing agility. \
+FMS addresses demand volatility and product variety challenges in modern manufacturing.' 
+    },
+    { type: 'subtitle', content: 'FMS Components' },
+    { type: 'text', content:
+      'CNC machines: Computer-controlled machining centers capable of multiple operations. \
+Automated material handling: AGVs, conveyors, or robots transporting work between stations. \
+Tool management: Automatic tool changers and storage systems. \
+Control system: Computer coordinating all elements of the manufacturing system. \
+Pallet systems: Standardized fixtures for holding workpieces during processing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Haier implements flexible manufacturing for customized home appliances. \
+The company produces thousands of refrigerator variations on the same production line. \
+RFID tags identify each unit and its specific configuration requirements. \
+Robots adjust tooling and processes for each unique product. \
+This enables mass customization while maintaining production efficiency.' 
+    }
+  ]
+},
+'smart-factories-6': {
+  id: 'smart-factories-6',
+  title: 'Energy-Efficient Manufacturing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Energy-Efficient Manufacturing' },
+    { type: 'text', content:
+      'Energy-efficient manufacturing reduces environmental impact while lowering operational costs. \
+Approaches include process optimization, waste heat recovery, and renewable energy integration. \
+Smart grids and energy management systems optimize consumption across facilities. \
+Energy-efficient equipment and lighting reduce baseline consumption. \
+Sustainable manufacturing practices align with corporate social responsibility and regulatory requirements.' 
+    },
+    { type: 'subtitle', content: 'Efficiency Strategies' },
+    { type: 'text', content:
+      'Process optimization: Reducing energy consumption through improved manufacturing methods. \
+Waste heat recovery: Capturing and reusing heat from industrial processes. \
+Renewable energy: Solar, wind, or biomass generation for manufacturing operations. \
+Energy monitoring: Real-time tracking of consumption to identify waste and improvement opportunities. \
+Efficient equipment: Motors, drives, and systems designed for minimal energy use.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Schneider Electric Le Vaudreuil factory is carbon-neutral smart factory. \
+The facility generates renewable energy through solar panels and geothermal systems. \
+Energy management software optimizes consumption across production processes. \
+Waste heat from compressed air systems heats buildings during winter. \
+This demonstrates comprehensive approach to sustainable manufacturing.' 
+    }
+  ]
+},
+'smart-factories-7': {
+  id: 'smart-factories-7',
+  title: 'Human-Centric Smart Factories',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Human-Centric Smart Factories' },
+    { type: 'text', content:
+      'Human-centric smart factories augment rather than replace human workers. \
+Technology supports workers with information, assistance, and physically demanding tasks. \
+Augmented reality provides real-time guidance and information overlay. \
+Cobots collaborate safely with humans on assembly and material handling. \
+Ergonomics and worker wellbeing are integral to factory design and operations.' 
+    },
+    { type: 'subtitle', content: 'Human-Centric Technologies' },
+    { type: 'text', content:
+      'Augmented reality: Overlaying digital information onto physical work environment. \
+Collaborative robots: Working alongside humans without safety barriers. \
+Wearable technology: Monitoring worker health and providing task guidance. \
+Digital work instructions: Interactive, context-aware guidance for complex tasks. \
+Ergonomic assistance: Exoskeletons and lift-assist devices reducing physical strain.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Airbus uses augmented reality for aircraft assembly guidance. \
+Technicians see virtual markers showing exact drill locations on fuselage sections. \
+AR displays torque specifications and sequence information in real-time. \
+This reduces errors and training time while improving quality. \
+Human-centric technology enhances rather than replaces skilled aircraft assemblers.' 
+    }
+  ]
+},
+'smart-factories-8': {
+  id: 'smart-factories-8',
+  title: 'Cybersecurity for Smart Factories',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cybersecurity for Smart Factories' },
+    { type: 'text', content:
+      'Smart factory cybersecurity protects connected manufacturing systems from digital threats. \
+Increased connectivity expands attack surface requiring comprehensive security measures. \
+Approaches include network segmentation, access control, monitoring, and incident response. \
+Security must balance protection with operational requirements and real-time performance needs. \
+Cyber-physical security considers both digital threats and physical safety implications.' 
+    },
+    { type: 'subtitle', content: 'Security Measures' },
+    { type: 'text', content:
+      'Network segmentation: Isolating production networks from corporate IT and internet. \
+Access control: Strict authentication and authorization for all connected devices and users. \
+Monitoring: Continuous surveillance for anomalous network activity and potential threats. \
+Patch management: Regular updates for software and firmware vulnerabilities. \
+Incident response: Plans and capabilities for detecting, containing, and recovering from attacks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Lockheed Martin implements defense-in-depth cybersecurity for advanced manufacturing. \
+Air-gapped networks separate classified production systems from other networks. \
+Hardware security modules protect cryptographic keys for device authentication. \
+Behavioral analytics detect unusual patterns suggesting intrusion attempts. \
+This multi-layered approach protects critical defense manufacturing from cyber threats.' 
+    }
+  ]
+},
+'smart-factories-9': {
+  id: 'smart-factories-9',
+  title: 'Smart Factory ROI & Implementation',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Smart Factory ROI & Implementation' },
+    { type: 'text', content:
+      'Smart factory implementation requires careful planning, investment, and change management. \
+ROI calculations consider both tangible benefits and strategic advantages. \
+Implementation approaches include greenfield projects, brownfield upgrades, and hybrid models. \
+Success factors include clear objectives, cross-functional teams, and iterative development. \
+Proper implementation balances technological capabilities with organizational readiness and business needs.' 
+    },
+    { type: 'subtitle', content: 'Implementation Phases' },
+    { type: 'text', content:
+      'Assessment: Evaluating current state and identifying improvement opportunities. \
+Planning: Developing roadmap with clear objectives, milestones, and success metrics. \
+Pilot: Testing technologies and concepts in limited scope before full implementation. \
+Scaling: Expanding successful pilots across the organization. \
+Optimization: Continuous improvement based on performance data and lessons learned.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Procter & Gamble implemented smart factory technologies across global operations. \
+The company started with pilot projects in selected plants to demonstrate ROI. \
+Successful technologies scaled across manufacturing network based on proven benefits. \
+Implementation included extensive training and change management programs. \
+This systematic approach enabled $1 billion in annual productivity savings.' 
+    }
+  ]
+},
+'smart-factories-10': {
+  id: 'smart-factories-10',
+  title: 'Future Smart Factory Trends',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Future Smart Factory Trends' },
+    { type: 'text', content:
+      'Smart factories continue evolving with emerging technologies and new business models. \
+Trends include autonomous operations, generative design, and circular manufacturing. \
+AI will enable increasingly autonomous decision-making and optimization. \
+Quantum computing may revolutionize complex optimization problems in manufacturing. \
+Future factories will be more adaptive, sustainable, and integrated with broader ecosystems.' 
+    },
+    { type: 'subtitle', content: 'Emerging Trends' },
+    { type: 'text', content:
+      'Autonomous factories: Self-optimizing production with minimal human intervention. \
+Generative design: AI creating optimal product and process designs based on requirements. \
+Circular manufacturing: Closed-loop systems minimizing waste and maximizing resource efficiency. \
+Quantum computing: Solving complex optimization problems beyond classical computer capabilities. \
+Digital thread: Seamless data flow across entire product lifecycle from design to disposal.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Tesla Gigafactories represent future manufacturing concepts in action. \
+The factories integrate product design, manufacturing, and energy systems. \
+Vertical integration reduces supply chain complexity and improves control. \
+Renewable energy powers manufacturing operations, moving toward carbon neutrality. \
+These mega-factories demonstrate scale, integration, and sustainability trends.' 
+    }
+  ]
+},
+
+//  ====3D Printing====
+
+'3d-printing-1': {
+  id: '3d-printing-1',
+  title: 'Additive Manufacturing Fundamentals',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Additive Manufacturing Fundamentals' },
+    { type: 'text', content:
+      'Additive Manufacturing builds objects layer by layer from digital models, unlike traditional subtractive methods. \
+Also known as 3D printing, it enables complex geometries impossible with conventional manufacturing. \
+Processes include material extrusion, vat polymerization, powder bed fusion, and directed energy deposition. \
+Benefits include design freedom, reduced waste, customization, and rapid prototyping. \
+Additive manufacturing transforms product design, production, and supply chain logistics.' 
+    },
+    { type: 'subtitle', content: 'AM Processes' },
+    { type: 'text', content:
+      'Material Extrusion: Fused deposition modeling (FDM) depositing thermoplastic filament. \
+Vat Polymerization: Stereolithography (SLA) curing liquid resin with UV light. \
+Powder Bed Fusion: Selective laser sintering (SLS) or melting (SLM) of powder materials. \
+Material Jetting: Depositing photopolymer droplets cured with UV light. \
+Binder Jetting: Binding powder particles with liquid binder.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'General Electric uses additive manufacturing for aircraft engine fuel nozzles. \
+Traditional manufacturing required assembling 20 separately machined parts. \
+3D printing produces the nozzle as single piece with internal cooling channels. \
+The additive part is 25% lighter and five times more durable. \
+This demonstrates AM advantages for complex, high-performance components.' 
+    }
+  ]
+},
+'3d-printing-2': {
+  id: '3d-printing-2',
+  title: '3D Printing Materials',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: '3D Printing Materials' },
+    { type: 'text', content:
+      '3D printing materials range from common plastics to advanced metals and composites. \
+Material selection depends on application requirements, process compatibility, and cost considerations. \
+Properties include strength, temperature resistance, flexibility, and biocompatibility. \
+Material development continues expanding 3D printing applications across industries. \
+Understanding material characteristics is essential for successful additive manufacturing.' 
+    },
+    { type: 'subtitle', content: 'Material Categories' },
+    { type: 'text', content:
+      'Polymers: PLA, ABS, nylon, and photopolymer resins for prototyping and end-use parts. \
+Metals: Stainless steel, titanium, aluminum, and nickel alloys for aerospace and medical applications. \
+Composites: Carbon fiber, glass fiber, or ceramic reinforced materials for enhanced properties. \
+Biomaterials: Biocompatible materials for medical implants and tissue engineering. \
+Specialty materials: Conductive, flexible, or high-temperature materials for specific applications.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Carbon uses proprietary Digital Light Synthesis technology with programmable liquid resins. \
+The company\'s materials range from rigid polyurethane-like materials to flexible elastomers. \
+EPU (Elastic Polyurethane) materials enable production of athletic shoe midsoles with superior energy return. \
+Medical-grade resins produce FDA-cleared dental aligners and surgical guides. \
+This demonstrates material innovation driving new 3D printing applications.' 
+    }
+  ]
+},
+'3d-printing-3': {
+  id: '3d-printing-3',
+  title: 'Design for Additive Manufacturing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Design for Additive Manufacturing' },
+    { type: 'text', content:
+      'Design for Additive Manufacturing optimizes parts for 3D printing processes rather than traditional manufacturing constraints. \
+DFAM leverages design freedom, part consolidation, and topology optimization. \
+Considerations include support structures, orientation, and material properties. \
+Generative design uses algorithms to create optimal structures based on load requirements. \
+Proper DFAM maximizes additive manufacturing benefits while ensuring printability and performance.' 
+    },
+    { type: 'subtitle', content: 'DFAM Principles' },
+    { type: 'text', content:
+      'Part consolidation: Combining multiple components into single printed part. \
+Topology optimization: Algorithmically removing material where not needed for structural loads. \
+Lattice structures: Using internal lattice patterns to reduce weight while maintaining strength. \
+Conformal cooling: Designing cooling channels following part contours for uniform temperature control. \
+Assembly integration: Incorporating hinges, snap fits, and other features into printed parts.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Airbus uses DFAM for aircraft cabin components like partition walls and seat brackets. \
+Topology optimization creates organic-looking structures that minimize weight while meeting strength requirements. \
+Lattice structures replace solid material where possible, reducing component weight by up to 55%. \
+Part consolidation reduces assembly time and potential failure points. \
+This approach significantly reduces aircraft weight, saving fuel and emissions.' 
+    }
+  ]
+},
+'3d-printing-4': {
+  id: '3d-printing-4',
+  title: 'Metal 3D Printing Technologies',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Metal 3D Printing Technologies' },
+    { type: 'text', content:
+      'Metal additive manufacturing produces fully dense metal parts for demanding applications. \
+Processes include powder bed fusion, directed energy deposition, and binder jetting. \
+Materials include stainless steels, titanium, aluminum, nickel alloys, and precious metals. \
+Applications span aerospace, medical, automotive, and tooling industries. \
+Metal AM enables complex geometries, weight reduction, and performance optimization.' 
+    },
+    { type: 'subtitle', content: 'Metal AM Processes' },
+    { type: 'text', content:
+      'Powder Bed Fusion: Selective laser melting (SLM) or electron beam melting (EBM) fusing metal powder. \
+Directed Energy Deposition: Blown powder or wire fed into melt pool created by laser or electron beam. \
+Binder Jetting: Binding metal powder with liquid binder, then sintering to full density. \
+Material Jetting: Depositing metal droplets or nanoparticles that are then sintered. \
+Sheet lamination: Bonding and cutting metal sheets layer by layer.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Siemens uses metal 3D printing for gas turbine burner components. \
+The printed burners feature intricate cooling channels impossible to machine conventionally. \
+These channels enable higher operating temperatures, improving efficiency and reducing emissions. \
+Rapid prototyping accelerates design iterations and component optimization. \
+Metal AM enables next-generation energy generation equipment.' 
+    }
+  ]
+},
+'3d-printing-5': {
+  id: '3d-printing-5',
+  title: '3D Printing in Medical Applications',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: '3D Printing in Medical Applications' },
+    { type: 'text', content:
+      'Medical 3D printing produces patient-specific implants, surgical guides, and anatomical models. \
+Applications include dental restorations, orthopedic implants, and surgical planning models. \
+Biocompatible materials enable permanent implantation in the human body. \
+Patient-specific devices improve surgical outcomes and recovery times. \
+Medical AM represents one of the most significant and rapidly growing application areas.' 
+    },
+    { type: 'subtitle', content: 'Medical Applications' },
+    { type: 'text', content:
+      'Surgical planning: Patient-specific anatomical models for procedure rehearsal. \
+Implants: Customized hip, knee, cranial, and spinal implants matching patient anatomy. \
+Surgical guides: Patient-specific tools ensuring precise implant placement during surgery. \
+Dental: Crowns, bridges, aligners, and dentures customized to patient dental structure. \
+Bioprinting: Creating tissue constructs and potentially organs using living cells.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Stryker produces patient-specific knee and hip replacements using 3D printing. \
+CT scans create digital models of patient anatomy for implant design. \
+Porous titanium structures promote bone ingrowth for secure fixation. \
+Surgical guides ensure precise implant positioning during procedures. \
+These personalized implants improve patient outcomes and implant longevity.' 
+    }
+  ]
+},
+'3d-printing-6': {
+  id: '3d-printing-6',
+  title: 'Post-Processing for 3D Printing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Post-Processing for 3D Printing' },
+    { type: 'text', content:
+      'Post-processing transforms 3D printed parts from raw prints to finished components. \
+Processes include support removal, surface finishing, heat treatment, and inspection. \
+Proper post-processing ensures dimensional accuracy, surface quality, and material properties. \
+Automation addresses post-processing as bottleneck in additive manufacturing workflows. \
+Understanding post-processing requirements is essential for successful AM implementation.' 
+    },
+    { type: 'subtitle', content: 'Post-Processing Methods' },
+    { type: 'text', content:
+      'Support removal: Manual or chemical dissolution of support structures. \
+Surface finishing: Sanding, polishing, bead blasting, or chemical smoothing. \
+Heat treatment: Stress relief, annealing, or hot isostatic pressing for metal parts. \
+Inspection: Dimensional verification, porosity testing, and material property validation. \
+Secondary operations: Machining critical features, tapping threads, or adding inserts.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Formlabs offers automated post-processing systems for dental 3D printing. \
+The Form Wash automatically cleans uncured resin from printed dental models. \
+Form Cure uses precisely controlled UV light and heat for final curing. \
+This automation ensures consistent results while reducing labor requirements. \
+Automated post-processing enables scalable dental lab production workflows.' 
+    }
+  ]
+},
+'3d-printing-7': {
+  id: '3d-printing-7',
+  title: '3D Printing Software & Workflow',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: '3D Printing Software & Workflow' },
+    { type: 'text', content:
+      '3D printing software manages the digital workflow from design to printed part. \
+Tools include CAD software, slicers, printer management, and simulation software. \
+Workflow steps encompass design, preparation, printing, and post-processing. \
+Integration with enterprise systems enables scalable additive manufacturing operations. \
+Software capabilities significantly impact print success, quality, and efficiency.' 
+    },
+    { type: 'subtitle', content: 'Software Categories' },
+    { type: 'text', content:
+      'CAD software: Creating or modifying 3D models for printing. \
+Slicing software: Converting 3D models into layer-by-layer printer instructions (G-code). \
+Printer management: Monitoring and controlling print jobs across multiple machines. \
+Simulation software: Predicting printing outcomes and potential issues before printing. \
+Workflow management: Coordinating design, printing, and post-processing operations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Autodesk Netfabb provides comprehensive software for additive manufacturing workflow. \
+The platform includes tools for design optimization, build preparation, and simulation. \
+Users can nest multiple parts to maximize build volume utilization. \
+Simulation predicts distortion and residual stresses for metal printing. \
+Process monitoring tracks print progress and detects potential failures in real-time. \
+This integrated software streamlines industrial additive manufacturing operations.' 
+    }
+  ]
+},
+'3d-printing-8': {
+  id: '3d-printing-8',
+  title: 'Quality Control for 3D Printing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Quality Control for 3D Printing' },
+    { type: 'text', content:
+      '3D printing quality control ensures printed parts meet design specifications and performance requirements. \
+Methods include in-process monitoring, dimensional inspection, and material testing. \
+Standards development addresses unique aspects of additive manufacturing quality. \
+Process control and documentation are critical for regulated industries like aerospace and medical. \
+Comprehensive quality systems enable reliable, repeatable additive manufacturing.' 
+    },
+    { type: 'subtitle', content: 'Quality Methods' },
+    { type: 'text', content:
+      'In-process monitoring: Cameras, thermal imaging, and sensors detecting anomalies during printing. \
+Dimensional inspection: CMM, optical scanning, or CT scanning verifying part geometry. \
+Material testing: Mechanical testing, microstructure analysis, and chemical composition verification. \
+Non-destructive testing: X-ray, ultrasonic, or dye penetrant inspection for internal defects. \
+Process documentation: Recording all parameters and conditions for traceability.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Renishaw implements comprehensive quality control for metal additive manufacturing. \
+In-process monitoring systems capture layer-by-layer images and thermal data. \
+CT scanning provides detailed internal inspection without destroying parts. \
+Statistical process control tracks critical parameters across production runs. \
+This rigorous quality approach enables certified aerospace and medical component production.' 
+    }
+  ]
+},
+'3d-printing-9': {
+  id: '3d-printing-9',
+  title: '3D Printing for Tooling & Molds',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: '3D Printing for Tooling & Molds' },
+    { type: 'text', content:
+      '3D printing produces molds, dies, jigs, fixtures, and other manufacturing tooling. \
+Applications include injection molds, casting patterns, composite layup tools, and assembly fixtures. \
+Benefits include reduced lead time, design flexibility, and conformal cooling channels. \
+Materials range from photopolymer resins to metal alloys depending on application requirements. \
+Additive tooling accelerates production while improving part quality and process efficiency.' 
+    },
+    { type: 'subtitle', content: 'Tooling Applications' },
+    { type: 'text', content:
+      'Injection molds: Printed inserts with conformal cooling for faster cycle times. \
+Casting patterns: Investment casting patterns that burn out cleanly. \
+Composite tooling: Molds for carbon fiber layup with integrated heating elements. \
+Assembly fixtures: Custom fixtures holding parts in precise positions during assembly. \
+Guides and gauges: Inspection tools and guides for manufacturing processes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Ford uses 3D printing for manufacturing tooling across its production facilities. \
+The company prints custom fixtures for vehicle assembly, reducing lead time from weeks to days. \
+Conformal cooling channels in injection molds reduce cycle time by up to 70%. \
+Printed sand cores enable complex castings for engine components. \
+This approach accelerates vehicle development while reducing tooling costs.' 
+    }
+  ]
+},
+'3d-printing-10': {
+  id: '3d-printing-10',
+  title: 'Future of Additive Manufacturing',
+  image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Future of Additive Manufacturing' },
+    { type: 'text', content:
+      'Additive manufacturing continues evolving with new materials, processes, and applications. \
+Trends include multi-material printing, increased production speeds, and larger build volumes. \
+Integration with traditional manufacturing creates hybrid manufacturing systems. \
+Digital inventory and distributed manufacturing transform supply chain models. \
+Future AM will enable unprecedented design freedom, customization, and sustainability.' 
+    },
+    { type: 'subtitle', content: 'Future Trends' },
+    { type: 'text', content:
+      'Multi-material printing: Combining different materials within single printed part. \
+Increased speed: Technologies enabling production-scale additive manufacturing. \
+Larger scale: Systems capable of printing building components or entire structures. \
+Hybrid manufacturing: Combining additive and subtractive processes in single machine. \
+Digital inventory: Storing designs digitally and printing on demand rather than physical inventory.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Time Example' },
+    { type: 'text', content:
+      'Relativity Space develops entirely 3D printed rockets for space launch. \
+The company\'s Stargate printer is world\'s largest metal 3D printer. \
+Rockets have 100x fewer parts than traditionally manufactured counterparts. \
+This approach reduces lead time from years to months while lowering costs. \
+The vision includes eventually 3D printing rockets on Mars using local materials.' 
+    }
+  ]
+},
+
+//====Finance ====
+
+'finance-101-1': {
+  id: 'finance-101-1',
+  title: 'Introduction to Personal Finance',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Personal Finance' },
+    { type: 'text', content:
+      'Personal finance encompasses managing your money, saving, and investing for current and future needs. \
+It includes budgeting, banking, insurance, investments, retirement planning, and tax strategies. \
+Understanding personal finance helps achieve financial security and life goals. \
+Key principles include living within means, emergency planning, and long-term thinking. \
+Financial literacy is essential for making informed decisions about money management.' 
+    },
+    { type: 'subtitle', content: 'Core Financial Areas' },
+    { type: 'text', content:
+      'Budgeting: Tracking income and expenses to control spending. \
+Saving: Setting aside money for emergencies and future goals. \
+Investing: Growing wealth through various asset classes. \
+Debt management: Using credit wisely and repaying loans effectively. \
+Insurance: Protecting against financial losses from unexpected events.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sarah, a recent college graduate, starts her financial journey by tracking all expenses. \
+She uses the 50/30/20 rule: 50% for needs, 30% for wants, 20% for savings and debt repayment. \
+Within six months, she builds a $3,000 emergency fund and starts contributing to her employer\'s retirement plan. \
+By understanding basic personal finance principles early, she avoids common financial pitfalls. \
+This foundation enables her to work toward home ownership and financial independence.' 
+    }
+  ]
+},
+'finance-101-2': {
+  id: 'finance-101-2',
+  title: 'Banking Basics & Accounts',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Banking Basics & Accounts' },
+    { type: 'text', content:
+      'Banks provide essential financial services including savings, checking accounts, loans, and payment processing. \
+Understanding different account types helps optimize money management and minimize fees. \
+Key considerations include interest rates, fees, accessibility, and FDIC insurance protection. \
+Modern banking includes online and mobile options for convenient access to services. \
+Proper bank account management is foundational to personal finance success.' 
+    },
+    { type: 'subtitle', content: 'Account Types' },
+    { type: 'text', content:
+      'Checking accounts: For daily transactions, bill payments, and debit card use. \
+Savings accounts: For storing emergency funds and short-term savings goals. \
+Money market accounts: Higher interest than savings with limited check-writing ability. \
+Certificates of Deposit: Fixed-term deposits with guaranteed interest rates. \
+Online banks: Often offer higher interest rates and lower fees than traditional banks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Mark opens a high-yield online savings account earning 4% interest versus his local bank\'s 0.01%. \
+He maintains a checking account with a traditional bank for easy cash deposits and withdrawals. \
+For his emergency fund, he uses a separate savings account to reduce temptation to spend. \
+By strategically using different account types, he maximizes interest earnings while maintaining accessibility. \
+This approach helps his savings grow faster without sacrificing convenience.' 
+    }
+  ]
+},
+'finance-101-3': {
+  id: 'finance-101-3',
+  title: 'Understanding Credit & Debt',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Understanding Credit & Debt' },
+    { type: 'text', content:
+      'Credit represents borrowing capacity based on trust in your ability to repay. \
+Debt is money borrowed that must be repaid, typically with interest. \
+Credit scores numerically represent creditworthiness and affect loan terms and interest rates. \
+Responsible credit use builds financial reputation, while mismanagement creates long-term challenges. \
+Understanding credit helps leverage borrowing power while avoiding excessive debt burdens.' 
+    },
+    { type: 'subtitle', content: 'Credit Components' },
+    { type: 'text', content:
+      'Payment history: Most important factor (35% of credit score). \
+Credit utilization: Ratio of credit used to credit available (30%). \
+Length of credit history: Age of accounts and average account age (15%). \
+Credit mix: Variety of account types (10%). \
+New credit: Recent applications and accounts (10%).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Jessica applies for her first credit card with a $1,000 limit to build credit history. \
+She uses it for regular expenses and pays the balance in full each month. \
+After one year, her credit score improves from "no credit" to 720. \
+When she applies for a car loan, she qualifies for the best interest rate, saving thousands over the loan term. \
+By understanding and responsibly using credit, she establishes a strong financial foundation.' 
+    }
+  ]
+},
+'finance-101-4': {
+  id: 'finance-101-4',
+  title: 'Financial Goal Setting',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Goal Setting' },
+    { type: 'text', content:
+      'Financial goals provide direction and motivation for money management decisions. \
+Effective goals are SMART: Specific, Measurable, Achievable, Relevant, and Time-bound. \
+Goals should be categorized as short-term (1 year), medium-term (1-5 years), and long-term (5+ years). \
+Regular review and adjustment ensure goals remain aligned with changing circumstances and priorities. \
+Goal setting transforms abstract financial aspirations into concrete action plans.' 
+    },
+    { type: 'subtitle', content: 'Goal Categories' },
+    { type: 'text', content:
+      'Emergency fund: 3-6 months of living expenses for unexpected situations. \
+Debt repayment: Eliminating high-interest debt like credit cards or student loans. \
+Major purchases: Saving for home down payment, vehicle, or education. \
+Retirement: Accumulating sufficient assets to maintain lifestyle after stopping work. \
+Wealth building: Investments and assets providing passive income and financial security.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Tom and Maria set SMART financial goals for their family. \
+Short-term: Save $5,000 emergency fund within 12 months ($417/month). \
+Medium-term: Pay off $15,000 credit card debt in 3 years ($416/month). \
+Long-term: Save $100,000 college fund for their newborn in 18 years ($278/month). \
+They use automatic transfers to separate accounts for each goal. \
+Regular quarterly reviews ensure they stay on track and adjust as needed.' 
+    }
+  ]
+},
+'finance-101-5': {
+  id: 'finance-101-5',
+  title: 'Insurance Fundamentals',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Insurance Fundamentals' },
+    { type: 'text', content:
+      'Insurance transfers financial risk from individuals to companies in exchange for premiums. \
+It protects against potentially devastating losses from accidents, illnesses, property damage, or liability claims. \
+Key concepts include premiums, deductibles, coverage limits, and policy terms. \
+Different insurance types address specific risks and should be tailored to individual circumstances. \
+Proper insurance coverage is essential component of comprehensive financial planning.' 
+    },
+    { type: 'subtitle', content: 'Insurance Types' },
+    { type: 'text', content:
+      'Health insurance: Covers medical expenses for illness, injury, and preventive care. \
+Auto insurance: Required by law, covers vehicle damage and liability for accidents. \
+Homeowners/renters insurance: Protects dwelling, belongings, and liability for property incidents. \
+Life insurance: Provides financial protection for dependents if policyholder dies. \
+Disability insurance: Replaces income if unable to work due to illness or injury.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'David, a 30-year-old with a family, reviews his insurance coverage annually. \
+He maintains health insurance through his employer with a Health Savings Account for deductible expenses. \
+His auto insurance includes higher liability limits than state minimums for better protection. \
+Term life insurance provides 10x his income coverage until his children are grown. \
+Disability insurance covers 60% of his income if he becomes unable to work. \
+This comprehensive approach protects his family\'s financial stability.' 
+    }
+  ]
+},
+'finance-101-6': {
+  id: 'finance-101-6',
+  title: 'Financial Institutions & Services',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Institutions & Services' },
+    { type: 'text', content:
+      'Financial institutions facilitate economic transactions and provide money management services. \
+Types include banks, credit unions, brokerage firms, insurance companies, and investment advisors. \
+Services range from basic banking to complex investment products and financial planning. \
+Understanding different institutions helps select appropriate services for specific financial needs. \
+Regulatory frameworks protect consumers and ensure financial system stability.' 
+    },
+    { type: 'subtitle', content: 'Institution Types' },
+    { type: 'text', content:
+      'Commercial banks: For-profit institutions offering comprehensive financial services. \
+Credit unions: Member-owned cooperatives often offering better rates and lower fees. \
+Brokerage firms: Facilitate buying and selling of investment securities. \
+Insurance companies: Provide risk transfer through various insurance products. \
+Investment advisors: Offer professional investment management and financial planning services.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Lisa uses multiple financial institutions optimized for different needs. \
+She banks with a credit union for checking/savings due to lower fees and better service. \
+Her investments are with a low-cost online brokerage for commission-free trading. \
+Insurance policies come from a major insurer with strong financial ratings. \
+For retirement planning, she consults a fee-only financial advisor annually. \
+This diversified approach provides optimal services while managing costs and risks.' 
+    }
+  ]
+},
+'finance-101-7': {
+  id: 'finance-101-7',
+  title: 'Financial Decision Making',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Decision Making' },
+    { type: 'text', content:
+      'Financial decisions involve evaluating alternatives based on costs, benefits, risks, and personal values. \
+Effective decision-making considers both quantitative factors (numbers) and qualitative factors (values, emotions). \
+Common frameworks include cost-benefit analysis, opportunity cost evaluation, and risk assessment. \
+Cognitive biases like loss aversion and confirmation bias can distort financial decisions. \
+Developing systematic decision-making processes improves financial outcomes over time.' 
+    },
+    { type: 'subtitle', content: 'Decision Frameworks' },
+    { type: 'text', content:
+      'Cost-benefit analysis: Comparing expected benefits to costs of each alternative. \
+Opportunity cost: Considering what must be given up when choosing one option over others. \
+Risk assessment: Evaluating probability and potential impact of negative outcomes. \
+Time value of money: Recognizing money today is worth more than same amount in future. \
+Goal alignment: Ensuring decisions support rather than contradict financial goals.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Robert faces decision whether to buy a new car for $30,000 or keep his current car. \
+Option 1: New car costs $500/month payment plus higher insurance, but has warranty and better fuel efficiency. \
+Option 2: Keeping current car requires $2,000 in repairs now and $200/month maintenance risk. \
+He calculates total 5-year cost: $35,000 for new car vs $14,000 for repairs/maintenance on current car. \
+Considering opportunity cost, he invests the $21,000 difference, aligning with his wealth-building goals. \
+This systematic analysis leads to optimal financial decision.' 
+    }
+  ]
+},
+'finance-101-8': {
+  id: 'finance-101-8',
+  title: 'Financial Ratios & Metrics',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Ratios & Metrics' },
+    { type: 'text', content:
+      'Financial ratios quantify relationships between different financial variables to assess health and performance. \
+Personal finance ratios help evaluate debt levels, savings rates, and overall financial position. \
+Common metrics include debt-to-income ratio, savings rate, net worth, and emergency fund coverage. \
+Tracking these metrics over time provides objective measurement of financial progress. \
+Understanding ratios enables data-driven financial decisions and goal setting.' 
+    },
+    { type: 'subtitle', content: 'Key Personal Finance Ratios' },
+    { type: 'text', content:
+      'Debt-to-income ratio: Monthly debt payments divided by monthly gross income (ideally <36%). \
+Savings rate: Percentage of income saved each month (target 15-20% for retirement). \
+Emergency fund ratio: Months of expenses covered by liquid savings (target 3-6 months). \
+Net worth: Assets minus liabilities, measuring overall financial position. \
+Housing cost ratio: Housing expenses divided by income (ideally <28% for mortgage, <30% for rent).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Emily calculates her financial ratios quarterly. \
+Her debt-to-income ratio is 25% ($1,500 debt payments / $6,000 monthly income). \
+Savings rate is 18% ($1,080/month saved of $6,000 income). \
+Emergency fund covers 4 months of expenses ($16,000 savings / $4,000 monthly expenses). \
+Net worth increased from -$20,000 (student loans) to +$50,000 in five years. \
+These metrics show strong financial progress and guide her future planning.' 
+    }
+  ]
+},
+'finance-101-9': {
+  id: 'finance-101-9',
+  title: 'Financial Planning Process',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Planning Process' },
+    { type: 'text', content:
+      'Financial planning is systematic approach to managing finances to achieve life goals. \
+The process includes assessment, goal setting, plan development, implementation, and monitoring. \
+Comprehensive planning covers cash flow, risk management, investment, tax, retirement, and estate planning. \
+Financial plans should be living documents updated regularly as circumstances change. \
+Professional financial planners can provide guidance, but individuals can follow the same process independently.' 
+    },
+    { type: 'subtitle', content: 'Planning Steps' },
+    { type: 'text', content:
+      'Assessment: Gathering financial data and understanding current situation. \
+Goal setting: Identifying specific, measurable financial objectives. \
+Plan development: Creating strategies to achieve goals given resources and constraints. \
+Implementation: Putting the plan into action through specific financial decisions. \
+Monitoring: Regularly reviewing progress and adjusting plan as needed.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'The Chen family completes comprehensive financial planning. \
+Assessment reveals $120,000 income, $250,000 net worth, and adequate insurance. \
+Goals include college funding for two children and retirement at age 60. \
+Plan includes 529 college savings plans and increased 401(k) contributions. \
+Implementation involves automatic monthly transfers to investment accounts. \
+Annual reviews adjust contributions based on market performance and life changes. \
+This structured approach coordinates all financial decisions toward common objectives.' 
+    }
+  ]
+},
+'finance-101-10': {
+  id: 'finance-101-10',
+  title: 'Behavioral Finance Basics',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Behavioral Finance Basics' },
+    { type: 'text', content:
+      'Behavioral finance studies psychological influences on financial decisions and market outcomes. \
+It explains why people make irrational financial choices despite having necessary information. \
+Common biases include loss aversion, overconfidence, herd mentality, and mental accounting. \
+Understanding these biases helps recognize and mitigate their impact on financial decisions. \
+Behavioral insights improve decision-making by addressing emotional and cognitive pitfalls.' 
+    },
+    { type: 'subtitle', content: 'Common Biases' },
+    { type: 'text', content:
+      'Loss aversion: Feeling losses more intensely than equivalent gains (typically 2x more painful). \
+Overconfidence: Overestimating knowledge, ability, or prediction accuracy. \
+Anchoring: Relying too heavily on initial information when making decisions. \
+Confirmation bias: Seeking information that confirms existing beliefs while ignoring contrary evidence. \
+Herd mentality: Following crowd behavior rather than independent analysis.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Michael recognizes his behavioral biases affecting investment decisions. \
+He previously sold stocks during market dips (loss aversion) and bought during peaks (herd mentality). \
+Now he uses automatic dollar-cost averaging to remove emotion from investing. \
+An investment policy statement guides decisions during market volatility. \
+He reviews his portfolio only quarterly to avoid overreacting to short-term fluctuations. \
+By understanding behavioral finance, he makes more rational, long-term-oriented financial decisions.' 
+    }
+  ]
+},
+
+//====Personal Budgeting====
+
+'personal-budgeting-1': {
+  id: 'personal-budgeting-1',
+  title: 'Budgeting Fundamentals',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Budgeting Fundamentals' },
+    { type: 'text', content:
+      'Budgeting is process of creating plan for how to spend money each month. \
+It ensures expenses don\'t exceed income and helps allocate funds toward financial goals. \
+A budget provides visibility into spending patterns and identifies areas for improvement. \
+Effective budgeting balances needs, wants, savings, and debt repayment. \
+Budgeting is foundational skill for financial control and achieving financial objectives.' 
+    },
+    { type: 'subtitle', content: 'Budgeting Benefits' },
+    { type: 'text', content:
+      'Control: Directing money intentionally rather than wondering where it went. \
+Awareness: Understanding actual spending patterns versus perceptions. \
+Goal achievement: Allocating resources toward specific financial objectives. \
+Stress reduction: Eliminating uncertainty about ability to pay bills. \
+Decision making: Providing framework for financial choices and trade-offs.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Alex starts budgeting after consistently running out of money before payday. \
+He tracks all expenses for one month using a budgeting app. \
+The data reveals $300/month on dining out he hadn\'t realized. \
+He creates a budget allocating funds for essentials, savings, and controlled dining expenses. \
+Within three months, he builds a $1,000 emergency fund and reduces financial stress. \
+Budgeting transforms his financial situation from chaotic to controlled.' 
+    }
+  ]
+},
+'personal-budgeting-2': {
+  id: 'personal-budgeting-2',
+  title: 'Budgeting Methods Compared',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Budgeting Methods Compared' },
+    { type: 'text', content:
+      'Different budgeting methods suit different personalities, financial situations, and goals. \
+Methods range from simple envelope systems to detailed zero-based approaches. \
+The best method is one that individuals will consistently use and maintain. \
+Many people combine elements from multiple methods to create hybrid approaches. \
+Understanding different methods helps select or create personalized budgeting system.' 
+    },
+    { type: 'subtitle', content: 'Common Methods' },
+    { type: 'text', content:
+      '50/30/20 rule: 50% needs, 30% wants, 20% savings/debt (simple percentage-based). \
+Zero-based budgeting: Every dollar assigned purpose, income minus expenses equals zero. \
+Envelope system: Cash allocated to categories in physical or digital envelopes. \
+Pay-yourself-first: Savings automatically transferred before other expenses. \
+Values-based budgeting: Aligning spending with personal values and priorities.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Maria tries different budgeting methods to find what works for her family. \
+The 50/30/20 rule feels too rigid for their variable income from commission work. \
+Zero-based budgeting provides needed structure but requires too much time. \
+They settle on hybrid: automated savings (pay-yourself-first) plus envelope system for variable spending. \
+This combination provides structure while accommodating income variability. \
+Finding the right method increases their budgeting consistency and success.' 
+    }
+  ]
+},
+'personal-budgeting-3': {
+  id: 'personal-budgeting-3',
+  title: 'Tracking Expenses Effectively',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Tracking Expenses Effectively' },
+    { type: 'text', content:
+      'Expense tracking records where money is actually spent, providing data for budgeting decisions. \
+Methods include manual tracking, spreadsheet recording, budgeting apps, and automated bank categorization. \
+Consistent tracking reveals spending patterns, identifies waste, and enables informed budget adjustments. \
+The key is finding a tracking method sustainable for long-term use. \
+Accurate expense data transforms budgeting from guessing game to data-driven process.' 
+    },
+    { type: 'subtitle', content: 'Tracking Methods' },
+    { type: 'text', content:
+      'Manual recording: Writing expenses in notebook or recording immediately after purchase. \
+Spreadsheet: Customizable tracking with formulas for analysis and reporting. \
+Budgeting apps: Automated tracking with bank connectivity and categorization (Mint, YNAB). \
+Bank tools: Many banks offer expense categorization and spending reports. \
+Receipt management: Keeping and reviewing physical or digital receipts.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'James uses combination approach for comprehensive expense tracking. \
+He connects accounts to Mint for automatic categorization of regular expenses. \
+For cash transactions, he uses a simple notebook app on his phone. \
+Weekly, he reviews all transactions and corrects any mis-categorizations. \
+Monthly, he analyzes spending patterns and adjusts next month\'s budget accordingly. \
+This system provides accurate data with minimal daily effort.' 
+    }
+  ]
+},
+'personal-budgeting-4': {
+  id: 'personal-budgeting-4',
+  title: 'Needs vs Wants Analysis',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Needs vs Wants Analysis' },
+    { type: 'text', content:
+      'Distinguishing between needs and wants is fundamental to effective budgeting. \
+Needs are essential for survival and basic functioning (housing, food, utilities, transportation). \
+Wants enhance quality of life but aren\'t essential (entertainment, dining out, luxury items). \
+The line can be blurry—for example, a basic phone is need, latest smartphone is want. \
+Consciously categorizing expenses helps prioritize spending and identify saving opportunities.' 
+    },
+    { type: 'subtitle', content: 'Categorization Framework' },
+    { type: 'text', content:
+      'Essential needs: Housing, utilities, basic food, necessary transportation, minimum debt payments. \
+Important needs: Insurance, healthcare, basic clothing, retirement savings. \
+Quality wants: Dining out, entertainment, vacations, hobby expenses. \
+Luxury wants: Premium products, luxury services, impulse purchases. \
+Understanding these distinctions enables intentional spending decisions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sophia analyzes her $4,000 monthly spending through needs/wants lens. \
+Needs: Rent ($1,200), groceries ($400), utilities ($200), transportation ($300), insurance ($300) = $2,400. \
+Wants: Dining out ($600), entertainment ($300), shopping ($400), subscriptions ($100) = $1,400. \
+Savings: $200 (only 5% of income). \
+By reducing wants by 30% ($420), she doubles her savings rate to 10%. \
+This analysis reveals clear opportunities for improving her financial position.' 
+    }
+  ]
+},
+'personal-budgeting-5': {
+  id: 'personal-budgeting-5',
+  title: 'Variable vs Fixed Expenses',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Variable vs Fixed Expenses' },
+    { type: 'text', content:
+      'Fixed expenses remain constant each month (rent, loan payments, subscriptions). \
+Variable expenses fluctuate (groceries, utilities, entertainment, dining). \
+Understanding this distinction helps create realistic budgets and manage cash flow. \
+Fixed expenses are generally harder to reduce quickly, while variable expenses offer immediate adjustment opportunities. \
+Effective budgeting accounts for both types with appropriate strategies for each.' 
+    },
+    { type: 'subtitle', content: 'Expense Management' },
+    { type: 'text', content:
+      'Fixed expense strategies: Negotiate rates, refinance loans, eliminate unnecessary subscriptions. \
+Variable expense strategies: Set spending limits, use envelope system, track closely. \
+Irregular expenses: Annual bills (insurance, taxes) divided into monthly savings amounts. \
+Emergency buffer: Extra amount in variable categories for unexpected increases. \
+Priority: Address fixed expenses first since they must be paid regardless.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'David categorizes his $3,500 monthly expenses. \
+Fixed: Rent ($1,200), car payment ($300), student loan ($200), insurance ($150), subscriptions ($50) = $1,900. \
+Variable: Groceries ($400), gas ($200), dining ($300), entertainment ($200), miscellaneous ($500) = $1,600. \
+He negotiates lower insurance ($30 savings) and cancels two subscriptions ($25 savings). \
+For variables, he implements cash envelopes, reducing dining by $100 and miscellaneous by $200. \
+Total monthly savings: $355, which he redirects to debt repayment and savings.' 
+    }
+  ]
+},
+'personal-budgeting-6': {
+  id: 'personal-budgeting-6',
+  title: 'Budgeting for Irregular Income',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Budgeting for Irregular Income' },
+    { type: 'text', content:
+      'Irregular income budgeting manages variable earnings from commission, freelance, seasonal, or gig work. \
+The approach differs from budgeting with predictable salaries, focusing on averaging and prioritizing. \
+Key strategies include calculating baseline income, building larger emergency funds, and separating business/personal finances. \
+Irregular income requires more conservative spending and more aggressive saving during high-earning periods. \
+Proper management turns income volatility from stressor to opportunity.' 
+    },
+    { type: 'subtitle', content: 'Irregular Income Strategies' },
+    { type: 'text', content:
+      'Baseline budgeting: Live on lowest expected monthly income, save excess from high months. \
+Monthly averaging: Calculate average monthly income over 6-12 months, budget that amount. \
+Priority-based spending: Essential expenses first, then savings, then discretionary spending. \
+Income smoothing account: Hold income in separate account, transfer fixed amount to checking monthly. \
+Larger emergency fund: 6-12 months expenses rather than standard 3-6 months.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Lisa, a freelance graphic designer, earns $2,000-$8,000 monthly. \
+She calculates 12-month average: $4,500/month. \
+She sets up two accounts: income holding and monthly checking. \
+All earnings go to holding account; $4,000 transfers to checking on 1st each month (her baseline budget). \
+During high months, excess builds in holding account to cover low months. \
+She maintains 8-month emergency fund for extra security. \
+This system provides spending predictability despite income variability.' 
+    }
+  ]
+},
+'personal-budgeting-7': {
+  id: 'personal-budgeting-7',
+  title: 'Budgeting Tools & Apps',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Budgeting Tools & Apps' },
+    { type: 'text', content:
+      'Budgeting tools automate tracking, categorization, and reporting to simplify budget management. \
+Options range from simple spreadsheets to sophisticated apps with bank connectivity. \
+Different tools suit different preferences: manual control vs automation, simplicity vs detailed tracking. \
+Many apps offer additional features like goal tracking, debt payoff planning, and investment integration. \
+The right tool reduces administrative burden while increasing budgeting accuracy and consistency.' 
+    },
+    { type: 'subtitle', content: 'Tool Categories' },
+    { type: 'text', content:
+      'Spreadsheets: Excel, Google Sheets templates (fully customizable, manual entry). \
+Envelope apps: Goodbudget, Mvelopes (digital envelope system). \
+Automatic trackers: Mint, Personal Capital (bank connectivity, automated categorization). \
+Zero-based apps: YNAB (You Need A Budget), EveryDollar (zero-based methodology built in). \
+All-in-one: Quicken, Banktivity (comprehensive personal finance management).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'The Patel family tests different budgeting tools to find their fit. \
+Mint\'s automation appeals but categorization errors require frequent correction. \
+YNAB\'s zero-based approach works well but has learning curve and subscription cost. \
+They settle on combination: Google Sheets template they customize, plus Personal Capital for investment tracking. \
+Weekly, they spend 30 minutes updating spreadsheet with transactions. \
+Monthly, they review reports and adjust next month\'s budget. \
+This hybrid approach provides control without excessive time commitment.' 
+    }
+  ]
+},
+'personal-budgeting-8': {
+  id: 'personal-budgeting-8',
+  title: 'Budget Adjustments & Flexibility',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Budget Adjustments & Flexibility' },
+    { type: 'text', content:
+      'Budgets should be flexible documents adjusted as circumstances change, not rigid constraints. \
+Regular reviews (monthly or quarterly) identify needed adjustments based on actual spending and life changes. \
+Adjustment strategies include reallocating between categories, revising targets, or changing budgeting methods. \
+Unexpected expenses require temporary adjustments rather than budget abandonment. \
+Flexibility increases long-term budgeting success by accommodating reality rather than demanding perfection.' 
+    },
+    { type: 'subtitle', content: 'Adjustment Strategies' },
+    { type: 'text', content:
+      'Category reallocation: Moving funds from underspent to overspent categories. \
+Target revision: Adjusting category targets based on realistic spending patterns. \
+Method adjustment: Changing budgeting approach if current method isn\'t working. \
+Seasonal adjustments: Accounting for predictable seasonal variations (holidays, heating costs). \
+Life event adjustments: Major changes like job loss, marriage, or new child require budget overhaul.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'After three months of budgeting, Rachel reviews her results. \
+Groceries consistently exceed budget by $100/month while dining out is $150 under budget. \
+Rather than struggling to reduce grocery spending unrealistically, she adjusts: \
+Increases grocery budget by $75, decreases dining budget by $75 (net zero change). \
+She also realizes her "miscellaneous" category is too vague and splits it into specific categories. \
+These adjustments make her budget more realistic and easier to follow. \
+Flexibility turns initial frustration into sustainable system.' 
+    }
+  ]
+},
+'personal-budgeting-9': {
+  id: 'personal-budgeting-9',
+  title: 'Couple & Family Budgeting',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Couple & Family Budgeting' },
+    { type: 'text', content:
+      'Family budgeting requires coordination, communication, and compromise among household members. \
+Approaches include fully joint finances, completely separate, or hybrid systems. \
+Key considerations: income disparity, spending values, financial goals, and accountability preferences. \
+Regular budget meetings ensure alignment and prevent financial conflicts. \
+Successful family budgeting balances individual autonomy with collective financial objectives.' 
+    },
+    { type: 'subtitle', content: 'Family Budgeting Models' },
+    { type: 'text', content:
+      'Joint everything: All income to joint account, all expenses from joint account. \
+Yours, mine, and ours: Joint account for shared expenses, individual accounts for personal spending. \
+Percentage-based: Each contributes percentage of income to joint expenses proportional to earnings. \
+Allowance system: Equal personal spending allowances regardless of income differences. \
+Hybrid approaches: Combining elements of different models based on family needs.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Mark earns $80,000, Taylor earns $40,000. They use percentage-based joint system. \
+Joint expenses total $5,000/month (housing, utilities, groceries, savings goals). \
+Mark contributes 67% ($3,350), Taylor 33% ($1,650) based on income ratio. \
+Remaining income ($1,650 for Mark, $1,683 for Taylor) goes to personal accounts for individual spending. \
+Monthly budget meetings review joint expenses and adjust as needed. \
+This system feels fair despite income disparity and maintains individual autonomy.' 
+    }
+  ]
+},
+'personal-budgeting-10': {
+  id: 'personal-budgeting-10',
+  title: 'Budgeting for Financial Goals',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Budgeting for Financial Goals' },
+    { type: 'text', content:
+      'Goal-based budgeting allocates specific amounts toward financial objectives within monthly budget. \
+Goals should be specific, measurable, and time-bound with calculated monthly contributions. \
+Common goals include emergency fund, debt repayment, down payment, vacation, and education funding. \
+Goal budgeting transforms abstract aspirations into concrete monthly actions. \
+Tracking progress provides motivation and demonstrates budgeting\'s tangible benefits.' 
+    },
+    { type: 'subtitle', content: 'Goal Integration' },
+    { type: 'text', content:
+      'Goal identification: List all financial goals with amounts and timelines. \
+Monthly calculation: Divide goal amount by months until deadline for monthly contribution. \
+Budget allocation: Create specific line items in budget for each goal. \
+Automation: Set up automatic transfers to goal-specific accounts. \
+Progress tracking: Regularly review goal progress and adjust contributions if needed.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Carlos budgets for three simultaneous goals within his $4,000 monthly after-tax income. \
+Goal 1: $10,000 emergency fund in 20 months = $500/month. \
+Goal 2: $6,000 vacation in 12 months = $500/month. \
+Goal 3: Pay off $8,000 credit card in 16 months = $500/month. \
+Total goals: $1,500/month (37.5% of income). \
+He allocates: $1,500 fixed expenses, $1,000 variable expenses, $1,500 goals. \
+Automatic transfers on payday ensure goal funding before discretionary spending.' 
+    }
+  ]
+},
+
+// ==== Investment Basics =====
+
+'investment-basics-1': {
+  id: 'investment-basics-1',
+  title: 'Introduction to Investing',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Investing' },
+    { type: 'text', content:
+      'Investing allocates money with expectation of generating profit or income over time. \
+Unlike saving (preserving capital), investing aims to grow wealth through asset appreciation or income generation. \
+Key concepts include risk-return tradeoff, diversification, compound interest, and time horizon. \
+Investment vehicles range from conservative bonds to aggressive stocks and alternative assets. \
+Understanding investing fundamentals enables informed decisions to build long-term wealth.' 
+    },
+    { type: 'subtitle', content: 'Investment Principles' },
+    { type: 'text', content:
+      'Risk-return relationship: Higher potential returns typically involve higher risk. \
+Diversification: Spreading investments to reduce impact of any single investment\'s poor performance. \
+Compound interest: Earnings generating additional earnings over time (interest on interest). \
+Time horizon: Investment timeframe affecting appropriate risk level and strategy. \
+Dollar-cost averaging: Investing fixed amounts regularly regardless of market conditions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Maria, age 25, starts investing $300/month in a diversified portfolio averaging 7% annual return. \
+After 10 years: $52,000 contributed, $67,000 total (compound growth added $15,000). \
+After 30 years: $108,000 contributed, $365,000 total (compound growth added $257,000). \
+After 40 years: $144,000 contributed, $749,000 total (compound growth added $605,000). \
+Starting early and staying consistent leverages compound growth for significant wealth accumulation.' 
+    }
+  ]
+},
+'investment-basics-2': {
+  id: 'investment-basics-2',
+  title: 'Risk vs Return Fundamentals',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Risk vs Return Fundamentals' },
+    { type: 'text', content:
+      'The risk-return tradeoff principle states higher potential returns require accepting higher risk. \
+Risk measures uncertainty about investment returns, including potential loss of principal. \
+Return measures investment performance, including capital appreciation and income. \
+Understanding personal risk tolerance helps select appropriate investments matching comfort level. \
+Balancing risk and return is central to investment strategy development.' 
+    },
+    { type: 'subtitle', content: 'Risk Types' },
+    { type: 'text', content:
+      'Market risk: Overall market movements affecting all investments (systematic risk). \
+Specific risk: Individual company or sector issues (unsystematic, diversifiable risk). \
+Inflation risk: Purchasing power erosion over time (real return consideration). \
+Liquidity risk: Difficulty selling investment without significant price concession. \
+Interest rate risk: Bond prices falling when interest rates rise.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Conservative investor Sarah chooses 30% stocks/70% bonds portfolio with expected 5% return. \
+Moderate investor David chooses 60% stocks/40% bonds with expected 7% return. \
+Aggressive investor Michael chooses 90% stocks/10% bonds with expected 9% return. \
+Over 30 years with $500/month contributions: \
+Sarah: $540,000, David: $680,000, Michael: $890,000. \
+Higher returns come with greater volatility; Michael\'s portfolio drops 30% in bear markets versus Sarah\'s 15%.' 
+    }
+  ]
+},
+'investment-basics-3': {
+  id: 'investment-basics-3',
+  title: 'Asset Allocation Strategies',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Asset Allocation Strategies' },
+    { type: 'text', content:
+      'Asset allocation distributes investments among different asset classes (stocks, bonds, cash, alternatives). \
+Research shows asset allocation explains over 90% of portfolio returns over time. \
+Strategies range from static allocations to dynamic approaches adjusting with age or market conditions. \
+Proper allocation balances risk tolerance, time horizon, and financial goals. \
+Rebalancing periodically maintains target allocation as investments grow at different rates.' 
+    },
+    { type: 'subtitle', content: 'Allocation Approaches' },
+    { type: 'text', content:
+      'Strategic allocation: Long-term target mix based on risk tolerance and goals. \
+Tactical allocation: Short-term adjustments based on market outlook. \
+Dynamic allocation: Automatic adjustments based on age (target-date funds). \
+Constant-weight allocation: Regular rebalancing to maintain fixed percentages. \
+Insured allocation: Minimum return guarantee with participation in market gains.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'James, 35 with moderate risk tolerance, uses age-based allocation: (100 - age)% in stocks. \
+Current allocation: 65% stocks, 30% bonds, 5% cash. \
+Stocks: 45% US, 15% international, 5% emerging markets. \
+Bonds: 20% US government, 10% corporate. \
+He rebalances quarterly: if stocks grow to 70%, he sells 5% to buy bonds back to 65%. \
+Annual review adjusts allocation: at 40, he\'ll move to 60% stocks/35% bonds/5% cash.' 
+    }
+  ]
+},
+'investment-basics-4': {
+  id: 'investment-basics-4',
+  title: 'Investment Accounts Types',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Investment Accounts Types' },
+    { type: 'text', content:
+      'Investment accounts hold securities with different tax treatments, withdrawal rules, and purposes. \
+Tax-advantaged accounts (401(k), IRA) offer tax benefits for retirement savings. \
+Taxable accounts provide flexibility without contribution limits or withdrawal restrictions. \
+Understanding account types helps optimize tax efficiency and achieve different financial goals. \
+Strategic account placement (which investments in which accounts) can enhance after-tax returns.' 
+    },
+    { type: 'subtitle', content: 'Account Types' },
+    { type: 'text', content:
+      'Tax-deferred: 401(k), Traditional IRA (contributions tax-deductible, withdrawals taxed). \
+Tax-free: Roth IRA, Roth 401(k) (contributions taxed, qualified withdrawals tax-free). \
+Taxable: Brokerage accounts (annual taxes on dividends and capital gains). \
+Education: 529 plans, Coverdell ESAs (tax-advantaged for education expenses). \
+Health: HSA (triple tax advantage for healthcare expenses).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Lisa maximizes tax-advantaged accounts before taxable investing. \
+She contributes $22,500 to 401(k) (employer match: $4,500), reducing taxable income. \
+$6,500 to Roth IRA (after-tax, grows tax-free). \
+$3,850 to HSA (pre-tax, tax-free growth, tax-free withdrawals for medical). \
+Remaining savings to taxable brokerage for medium-term goals. \
+Bonds go in tax-deferred accounts (interest taxed as ordinary income). \
+Stocks with high growth potential go in Roth accounts (tax-free growth).' 
+    }
+  ]
+},
+'investment-basics-5': {
+  id: 'investment-basics-5',
+  title: 'Diversification Principles',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Diversification Principles' },
+    { type: 'text', content:
+      'Diversification spreads investments across different assets to reduce overall portfolio risk. \
+The principle "don\'t put all eggs in one basket" reduces impact of any single investment\'s poor performance. \
+Effective diversification considers asset classes, geographies, sectors, and investment styles. \
+Correlation measures how investments move relative to each other; diversification works best with low correlation. \
+Over-diversification can dilute returns without meaningful risk reduction.' 
+    },
+    { type: 'subtitle', content: 'Diversification Dimensions' },
+    { type: 'text', content:
+      'Asset class: Stocks, bonds, real estate, commodities, cash equivalents. \
+Geography: Domestic, developed international, emerging markets. \
+Sector: Technology, healthcare, financials, consumer goods, industrials. \
+Company size: Large-cap, mid-cap, small-cap, micro-cap. \
+Investment style: Growth, value, blend.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Tom\'s concentrated portfolio: 100% in tech stocks, loses 40% during tech crash. \
+Sarah\'s diversified portfolio: 60% stocks (US: 35%, international: 15%, emerging: 10%), 35% bonds, 5% REITs. \
+During same tech crash: US stocks -25%, international -10%, emerging -5%, bonds +5%, REITs +3%. \
+Sarah\'s total portfolio: -12% (much smaller loss, quicker recovery). \
+After 10 years: Tom\'s portfolio $150,000, Sarah\'s $180,000 despite same contributions. \
+Diversification provided smoother returns and better long-term outcome.' 
+    }
+  ]
+},
+'investment-basics-6': {
+  id: 'investment-basics-6',
+  title: 'Compound Interest Power',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Compound Interest Power' },
+    { type: 'text', content:
+      'Compound interest calculates interest on both initial principal and accumulated interest from previous periods. \
+It causes investments to grow exponentially over time rather than linearly. \
+The rule of 72 estimates doubling time: 72 divided by annual return percentage. \
+Factors affecting compounding: principal amount, interest rate, compounding frequency, and time. \
+Starting early dramatically magnifies compound interest benefits due to extended time horizon.' 
+    },
+    { type: 'subtitle', content: 'Compound Interest Factors' },
+    { type: 'text', content:
+      'Principal: Initial investment amount. \
+Rate: Annual return percentage. \
+Time: Number of years invested. \
+Frequency: How often interest compounds (annually, quarterly, monthly, daily). \
+Contributions: Regular additional investments accelerating growth.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Scenario A: Anna invests $5,000 annually from age 25-35 (10 years), then stops. Total contributions: $50,000. \
+Scenario B: Bob invests $5,000 annually from age 35-65 (30 years). Total contributions: $150,000. \
+Both earn 7% annually until age 65. \
+At 65: Anna has $602,000, Bob has $540,000. \
+Anna contributed $100,000 less but has $62,000 more due to 10 extra years of compounding. \
+This demonstrates starting early\'s powerful impact even with smaller total contributions.' 
+    }
+  ]
+},
+'investment-basics-7': {
+  id: 'investment-basics-7',
+  title: 'Investment Time Horizons',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Investment Time Horizons' },
+    { type: 'text', content:
+      'Time horizon is expected period until investment funds are needed for their intended purpose. \
+It significantly influences appropriate asset allocation, risk tolerance, and investment selection. \
+Short-term (<3 years): Preservation priority, low-risk investments (cash, short-term bonds). \
+Medium-term (3-10 years): Balanced approach with moderate risk. \
+Long-term (>10 years): Growth priority, can tolerate higher volatility for higher returns. \
+Matching investments to time horizons optimizes risk-return tradeoff.' 
+    },
+    { type: 'subtitle', content: 'Horizon-Based Strategies' },
+    { type: 'text', content:
+      'Emergency fund: 0-3 year horizon, cash equivalents (high-yield savings, money market). \
+Down payment (5 years): Conservative portfolio (40% stocks/60% bonds). \
+College (10 years): Moderate portfolio (60% stocks/40% bonds). \
+Retirement (30 years): Aggressive portfolio (80% stocks/20% bonds), gradually becoming conservative. \
+As horizon shortens, portfolio should shift toward preservation to protect accumulated gains.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'David, age 40, has multiple goals with different time horizons: \
+Emergency fund (immediate): $15,000 in high-yield savings (0-3 years). \
+Home renovation (3 years): $30,000 in short-term bond fund (preservation). \
+College (8 years): $40,000 in 60/40 portfolio (moderate growth). \
+Retirement (25 years): $200,000 in 80/20 portfolio (aggressive growth). \
+Each portfolio matches its specific time horizon and risk requirements. \
+Annual reviews adjust allocations as horizons shorten (college portfolio will shift to 40/60 in 5 years).' 
+    }
+  ]
+},
+'investment-basics-8': {
+  id: 'investment-basics-8',
+  title: 'Dollar-Cost Averaging',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Dollar-Cost Averaging' },
+    { type: 'text', content:
+      'Dollar-cost averaging invests fixed amounts at regular intervals regardless of market conditions. \
+This systematic approach removes emotion from investing and avoids mistiming the market. \
+It buys more shares when prices are low, fewer when prices are high, achieving lower average cost per share. \
+DCA is particularly effective for long-term investors and those with regular income to invest. \
+While not maximizing returns in consistently rising markets, it reduces risk during volatile periods.' 
+    },
+    { type: 'subtitle', content: 'DCA Benefits' },
+    { type: 'text', content:
+      'Emotional discipline: Automatic investing prevents fear/greed-driven decisions. \
+Reduced timing risk: Avoids investing large lump sum at market peak. \
+Lower average cost: Naturally buys more when prices are lower. \
+Behavioral benefits: Creates consistent investing habit. \
+Simplification: Set up automatic transfers and forget about market timing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sarah invests $500 monthly in S&P 500 index fund regardless of market conditions. \
+Month 1: Price $100, buys 5 shares. \
+Month 2: Price $80 (market dip), buys 6.25 shares. \
+Month 3: Price $120 (recovery), buys 4.17 shares. \
+Total: $1,500 invested, 15.42 shares, average cost $97.28/share. \
+If she invested $1,500 lump sum at Month 1: 15 shares at $100 each. \
+DCA provided lower average cost despite identical total investment. \
+Over 20 years, this approach smooths volatility while capturing market growth.' 
+    }
+  ]
+},
+'investment-basics-9': {
+  id: 'investment-basics-9',
+  title: 'Investment Costs & Fees',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Investment Costs & Fees' },
+    { type: 'text', content:
+      'Investment costs reduce returns and significantly impact long-term wealth accumulation. \
+Fees include expense ratios, trading commissions, advisory fees, and account maintenance charges. \
+Even small percentage differences compound into substantial dollar amounts over decades. \
+Understanding and minimizing costs is one of few controllable factors in investment success. \
+Low-cost index funds typically outperform most actively managed funds after fees.' 
+    },
+    { type: 'subtitle', content: 'Cost Types' },
+    { type: 'text', content:
+      'Expense ratio: Annual percentage of assets for fund management (0.03%-2%+). \
+Trading commissions: Fees per trade (often $0 at discount brokers). \
+Loads: Sales charges when buying (front-end) or selling (back-end) funds. \
+Account fees: Annual, inactivity, or minimum balance fees. \
+Advisory fees: Percentage of assets under management (typically 0.25%-1.5%).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      '$100,000 investment over 30 years, 7% average annual return before fees: \
+High-cost option: 1.5% annual fee = 5.5% net return = $498,000 final value. \
+Low-cost option: 0.1% annual fee = 6.9% net return = $807,000 final value. \
+Fee difference: 1.4% annually. \
+Final value difference: $309,000 (62% more money with low fees). \
+The high-cost option gives $498,000 to investor, $309,000 to financial industry. \
+This demonstrates fee impact on long-term wealth.' 
+    }
+  ]
+},
+'investment-basics-10': {
+  id: 'investment-basics-10',
+  title: 'Rebalancing Strategies',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Rebalancing Strategies' },
+    { type: 'text', content:
+      'Rebalancing adjusts portfolio back to target asset allocation after market movements cause drift. \
+It enforces "buy low, sell high" discipline by trimming outperforming assets and buying underperforming ones. \
+Strategies include calendar-based (quarterly, annually) or threshold-based (5% deviation). \
+Rebalancing controls risk and maintains desired risk-return profile over time. \
+Tax considerations: Rebalance in tax-advantaged accounts when possible to avoid taxable events.' 
+    },
+    { type: 'subtitle', content: 'Rebalancing Approaches' },
+    { type: 'text', content:
+      'Calendar rebalancing: Quarterly, semi-annually, or annually regardless of deviations. \
+Threshold rebalancing: When any asset class deviates by predetermined percentage (e.g., 5%). \
+Hybrid: Check at regular intervals, rebalance only if beyond thresholds. \
+Contributions-based: Use new contributions to purchase underweighted assets. \
+Withdrawals-based: Sell overweighted assets for withdrawals to maintain allocation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Target allocation: 60% stocks, 40% bonds ($60,000/$40,000 of $100,000 portfolio). \
+After bull market: Stocks grow to $75,000, bonds to $42,000. Total: $117,000. \
+Current allocation: 64% stocks ($75,000), 36% bonds ($42,000). \
+Stocks are 4% above target, bonds 4% below. \
+Rebalancing sells $4,680 of stocks, buys $4,680 of bonds. \
+New allocation: $70,320 stocks (60%), $46,680 bonds (40%). \
+This automatically sells high (stocks after growth) and buys low (bonds relatively).' 
+    }
+  ]
+},
+
+// ====Stock Market====
+
+'stock-market-1': {
+  id: 'stock-market-1',
+  title: 'Stock Market Fundamentals',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Stock Market Fundamentals' },
+    { type: 'text', content:
+      'The stock market is collection of exchanges where shares of publicly traded companies are bought and sold. \
+It facilitates capital formation for companies and wealth creation for investors. \
+Major U.S. exchanges include NYSE (New York Stock Exchange) and NASDAQ. \
+Stock prices reflect supply and demand influenced by company performance, economic conditions, and investor sentiment. \
+Understanding market basics enables informed participation in equity investing.' 
+    },
+    { type: 'subtitle', content: 'Market Functions' },
+    { type: 'text', content:
+      'Capital formation: Companies raise funds by selling ownership shares to public. \
+Liquidity: Investors can buy/sell shares easily, converting investments to cash. \
+Price discovery: Market prices reflect collective assessment of company value. \
+Corporate governance: Shareholders can influence company management through voting rights. \
+Wealth creation: Investors participate in corporate profits through dividends and capital appreciation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Apple Inc. went public in 1980 at $22 per share (split-adjusted). \
+Early investors who bought 100 shares for $2,200 would have: \
+After 40+ years, through stock splits and growth, those 100 shares became 56,000 shares worth approximately $10 million. \
+This demonstrates long-term wealth creation potential through stock ownership in successful companies. \
+The stock market enabled millions of investors to participate in Apple\'s growth from garage startup to $3 trillion company.' 
+    }
+  ]
+},
+'stock-market-2': {
+  id: 'stock-market-2',
+  title: 'How Stocks Work',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'How Stocks Work' },
+    { type: 'text', content:
+      'Stocks represent ownership shares in publicly traded corporations. \
+Shareholders own fractional portion of company assets and earnings. \
+Common stock provides voting rights and potential dividends, with residual claim on assets after debts. \
+Preferred stock typically offers fixed dividends and priority over common stock in bankruptcy. \
+Stock values fluctuate based on company performance, industry trends, and broader economic conditions.' 
+    },
+    { type: 'subtitle', content: 'Stock Characteristics' },
+    { type: 'text', content:
+      'Market capitalization: Share price × total shares outstanding (large-cap >$10B, mid-cap $2-10B, small-cap <$2B). \
+Dividends: Periodic cash payments to shareholders from company profits. \
+Voting rights: Common shareholders vote on corporate matters like board elections. \
+Capital appreciation: Increase in stock price from initial purchase price. \
+Liquidation preference: Order of claims if company dissolves (debt holders first, then preferred, then common).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Microsoft stock illustrates how stock ownership works. \
+An investor buys 10 shares at $300 each = $3,000 investment. \
+Microsoft pays quarterly dividend of $0.75/share = $7.50 quarterly, $30 annually (1% yield). \
+The investor receives voting rights for Microsoft board elections. \
+If Microsoft stock price increases to $350, investment grows to $3,500 (16.7% capital gain). \
+Total return = capital gain ($500) + dividends ($30) = $530 (17.7% return). \
+This demonstrates dual return components of stock investing.' 
+    }
+  ]
+},
+'stock-market-3': {
+  id: 'stock-market-3',
+  title: 'Stock Exchanges & Trading',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Stock Exchanges & Trading' },
+    { type: 'text', content:
+      'Stock exchanges provide organized markets where buyers and sellers trade securities. \
+Trading occurs through brokers who execute orders on behalf of investors. \
+Orders include market orders (execute immediately at current price) and limit orders (execute only at specified price). \
+Electronic trading has largely replaced physical trading floors, enabling faster execution and global access. \
+Understanding trading mechanics helps investors execute strategies efficiently and cost-effectively.' 
+    },
+    { type: 'subtitle', content: 'Trading Components' },
+    { type: 'text', content:
+      'Brokerage accounts: Hold securities and cash for buying/selling stocks. \
+Order types: Market, limit, stop, stop-limit orders with different execution conditions. \
+Trading hours: Regular session 9:30 AM - 4:00 PM ET, with pre-market and after-hours trading. \
+Settlement: T+2 settlement means trades complete 2 business days after transaction date. \
+Clearing: Process of validating and finalizing transactions between buyers and sellers.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sarah wants to buy 50 shares of Amazon. \
+She logs into her brokerage account and places a limit order: buy 50 shares at $130 or better. \
+Current market price is $132, so her order sits unfilled. \
+Overnight, Amazon reports earnings below expectations, opening at $128 next morning. \
+Her limit order executes at $128 (better than her $130 limit). \
+Without watching markets constantly, she bought at her target price. \
+Two days later (T+2), shares appear in her account, and cash is deducted. \
+This demonstrates controlled entry using limit orders.' 
+    }
+  ]
+},
+'stock-market-4': {
+  id: 'stock-market-4',
+  title: 'Market Indices Explained',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Market Indices Explained' },
+    { type: 'text', content:
+      'Market indices track performance of selected groups of stocks representing specific market segments. \
+They provide benchmarks for investment performance and indicators of market trends. \
+Indices can be price-weighted, market-cap-weighted, or equal-weighted. \
+Major indices include S&P 500 (large US companies), Dow Jones Industrial Average (30 blue-chip stocks), and NASDAQ Composite (technology-heavy). \
+Understanding indices helps interpret market movements and construct diversified portfolios.' 
+    },
+    { type: 'subtitle', content: 'Major Indices' },
+    { type: 'text', content:
+      'S&P 500: 500 largest US companies, market-cap-weighted, considered US market benchmark. \
+Dow Jones Industrial Average: 30 large US companies, price-weighted, oldest US index. \
+NASDAQ Composite: All NASDAQ-listed stocks, heavily weighted toward technology. \
+Russell 2000: 2,000 small-cap US companies, small-cap market benchmark. \
+MSCI World: Global developed markets index covering 23 countries.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'The S&P 500 index returned approximately 10% annually over long term (with dividends reinvested). \
+In 2022, S&P 500 declined 18% due to inflation concerns and interest rate hikes. \
+In 2023, it rebounded 26% as inflation moderated and AI excitement grew. \
+Investors use S&P 500 as benchmark: if their portfolio returned 8% when S&P returned 10%, they underperformed by 2%. \
+Index funds tracking S&P 500 enable investors to match market performance at low cost. \
+This demonstrates indices\' dual role as performance measures and investment vehicles.' 
+    }
+  ]
+},
+'stock-market-5': {
+  id: 'stock-market-5',
+  title: 'Bull vs Bear Markets',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Bull vs Bear Markets' },
+    { type: 'text', content:
+      'Bull markets feature rising prices, investor optimism, and strong economic conditions. \
+Bear markets involve declining prices (typically 20%+ from highs), pessimism, and economic weakness. \
+Market cycles alternate between bull and bear phases over years or decades. \
+Understanding these cycles helps maintain perspective during volatility and avoid emotional decisions. \
+Historical perspective shows bull markets typically last longer and produce greater gains than bear market losses.' 
+    },
+    { type: 'subtitle', content: 'Market Cycle Characteristics' },
+    { type: 'text', content:
+      'Bull market: Rising prices, high investor confidence, economic expansion, high trading volume. \
+Bear market: Falling prices, fear and pessimism, economic contraction, sometimes panic selling. \
+Correction: Short-term decline of 10-20%, more frequent than bear markets. \
+Market bottom: Lowest point before recovery begins. \
+Recovery: Transition from bear to bull market, often beginning before economic improvement.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      '2007-2009 Financial Crisis Bear Market: \
+S&P 500 peaked October 2007: 1,565. \
+Declined 57% to March 2009 low: 677. \
+Duration: 17 months. \
+Subsequent Bull Market (2009-2020): \
+S&P 500 increased 400%+ to February 2020 high: 3,386. \
+Duration: 132 months (longest in US history). \
+COVID-19 Bear Market (2020): \
+34% decline in one month (shortest bear market). \
+Recovery to new highs within 5 months. \
+This illustrates typical pattern: bear markets sharp/short, bull markets gradual/long.' 
+    }
+  ]
+},
+'stock-market-6': {
+  id: 'stock-market-6',
+  title: 'Stock Valuation Methods',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Stock Valuation Methods' },
+    { type: 'text', content:
+      'Stock valuation estimates intrinsic value of company shares using quantitative models. \
+Methods include fundamental analysis (financial metrics) and relative valuation (comparable companies). \
+Common metrics: Price-to-Earnings (P/E), Price-to-Book (P/B), Price-to-Sales (P/S), Dividend Yield. \
+Discounted Cash Flow analysis projects future cash flows discounted to present value. \
+Valuation helps identify potentially undervalued or overvalued stocks relative to their fundamentals.' 
+    },
+    { type: 'subtitle', content: 'Valuation Approaches' },
+    { type: 'text', content:
+      'Relative valuation: Comparing valuation multiples to similar companies or historical averages. \
+Absolute valuation: Discounted Cash Flow estimating intrinsic value based on projected cash flows. \
+Dividend discount model: Valuing stocks based on present value of expected future dividends. \
+Asset-based valuation: Company value based on net asset value (assets minus liabilities). \
+Different methods suit different company types (growth vs value, profitable vs pre-profit).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Comparing two technology companies using P/E ratio: \
+Company A: Stock price $100, Earnings per share $5 → P/E = 20. \
+Company B: Stock price $150, Earnings per share $3 → P/E = 50. \
+Relative valuation: Company A appears cheaper (lower P/E). \
+But further analysis: Company B growing earnings 40% annually, Company A growing 10% annually. \
+PEG ratio (P/E divided by growth rate): \
+Company A: 20/10 = 2.0, Company B: 50/40 = 1.25. \
+Considering growth, Company B may be better value despite higher P/E. \
+This demonstrates need for multiple valuation perspectives.' 
+    }
+  ]
+},
+'stock-market-7': {
+  id: 'stock-market-7',
+  title: 'Dividends & Yield Investing',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Dividends & Yield Investing' },
+    { type: 'text', content:
+      'Dividends are cash payments companies make to shareholders from profits. \
+Dividend yield = annual dividend per share ÷ stock price (expressed as percentage). \
+Dividend investing focuses on companies with consistent dividend payments and growth. \
+Dividend aristocrats are S&P 500 companies that increased dividends for 25+ consecutive years. \
+Dividends provide income stream and historically contributed significant portion of stock total returns.' 
+    },
+    { type: 'subtitle', content: 'Dividend Concepts' },
+    { type: 'text', content:
+      'Dividend payout ratio: Dividends per share ÷ earnings per share (sustainable if <60-70%). \
+Dividend growth rate: Annual percentage increase in dividend payments. \
+Ex-dividend date: Date determining who receives upcoming dividend (must own stock before this date). \
+Record date: Date company reviews records to determine dividend recipients. \
+Payment date: Date dividend is actually paid to shareholders.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Johnson & Johnson (JNJ) dividend aristocrat with 60+ years of dividend increases. \
+2023: Dividend $4.76/year, stock price $155 → yield 3.1%. \
+Investor buys 100 shares: $15,500 investment, receives $476 annual dividend income. \
+Dividend grows average 6% annually. \
+After 10 years: Dividend approximately $8.50/share, yield on cost 5.5% ($850 on $15,500 investment). \
+After 20 years: Dividend $15.20/share, yield on cost 9.8% ($1,520 annually). \
+Plus stock appreciation: shares likely doubled or tripled in value. \
+This demonstrates power of dividend growth investing for retirement income.' 
+    }
+  ]
+},
+'stock-market-8': {
+  id: 'stock-market-8',
+  title: 'Market Order Types',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Market Order Types' },
+    { type: 'text', content:
+      'Order types specify conditions for buying or selling securities in the market. \
+Understanding different order types helps implement investment strategies and manage execution risk. \
+Market orders execute immediately at current market price but offer no price control. \
+Limit orders guarantee price but not execution (only execute at specified price or better). \
+Stop orders become market orders when price reaches specified trigger level.' 
+    },
+    { type: 'subtitle', content: 'Common Order Types' },
+    { type: 'text', content:
+      'Market order: Execute immediately at best available price. \
+Limit order: Execute only at specified price or better. \
+Stop order (stop-loss): Becomes market order when price reaches stop price. \
+Stop-limit order: Becomes limit order when price reaches stop price. \
+Good-til-cancelled (GTC): Order remains active until executed or cancelled (typically 60-90 days).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Mike owns Tesla stock bought at $200, now trading at $250. \
+He wants to protect profits while allowing upside. \
+Strategy: Place trailing stop order 15% below current price. \
+At $250: stop price = $212.50 (15% below). \
+If Tesla rises to $300: stop adjusts to $255 (15% below new high). \
+If Tesla drops to $212.50: order becomes market order, sells near that price. \
+This automatically locks in minimum 6.25% gain ($200 to $212.50) while allowing unlimited upside. \
+If never triggered, he continues holding indefinitely. \
+Demonstrates using order types for risk management.' 
+    }
+  ]
+},
+'stock-market-9': {
+  id: 'stock-market-9',
+  title: 'IPOs & New Listings',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'IPOs & New Listings' },
+    { type: 'text', content:
+      'Initial Public Offerings are first sale of company stock to public, transitioning from private to public ownership. \
+The IPO process involves investment banks underwriting, regulatory filings, roadshows, and pricing. \
+Companies pursue IPOs to raise capital, provide liquidity to early investors, and gain public currency for acquisitions. \
+IPO investing carries unique risks: limited historical data, lock-up expirations, and potential overvaluation. \
+Understanding IPO mechanics helps evaluate opportunities in newly public companies.' 
+    },
+    { type: 'subtitle', content: 'IPO Process' },
+    { type: 'text', content:
+      'Preparation: Company hires investment banks, prepares financial statements and prospectus. \
+Filing: S-1 registration statement with SEC detailing business and financials. \
+Roadshow: Management presents investment case to institutional investors. \
+Pricing: Final offer price determined based on investor demand. \
+Trading: Shares begin trading on exchange, often with significant volatility initially. \
+Lock-up: Insiders prohibited from selling shares for typically 90-180 days after IPO.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Snowflake IPO September 2020: \
+Offered 28 million shares at $120, raising $3.36 billion. \
+First trade: $245 (104% above IPO price). \
+Closed first day: $240, valuing company at $70 billion. \
+Lock-up expiration March 2021: Shares dropped 15% as insiders could sell. \
+Subsequent performance: Peaked near $400 in late 2021, fell to $120 in 2022 tech downturn. \
+Retail investors buying at first-day open ($245) faced 51% loss to 2022 low. \
+Institutional investors at IPO price ($120) had different experience. \
+Demonstrates IPO volatility and importance of valuation discipline.' 
+    }
+  ]
+},
+'stock-market-10': {
+  id: 'stock-market-10',
+  title: 'Stock Market Psychology',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Stock Market Psychology' },
+    { type: 'text', content:
+      'Market psychology studies emotional and cognitive factors influencing investor behavior and market movements. \
+Behavioral biases like fear, greed, herd mentality, and overconfidence drive market cycles. \
+Understanding market psychology helps investors avoid common pitfalls and maintain discipline. \
+Contrarian investing involves going against prevailing sentiment, buying when others are fearful. \
+Emotional control is critical investment skill often determining success more than analytical ability.' 
+    },
+    { type: 'subtitle', content: 'Psychological Patterns' },
+    { type: 'text', content:
+      'Fear and greed cycle: Markets swing between extremes of pessimism and optimism. \
+Herd behavior: Investors following crowd rather than independent analysis. \
+Loss aversion: Feeling losses more intensely than equivalent gains (2x psychologically). \
+Confirmation bias: Seeking information confirming existing beliefs while ignoring contrary evidence. \
+Overconfidence: Overestimating knowledge, skill, or predictive ability.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'March 2020 COVID-19 market panic: \
+S&P 500 dropped 34% in one month as fear peaked. \
+Headlines predicted depression, investors sold indiscriminately. \
+Contrarian investors recognizing extreme fear bought stocks at depressed prices. \
+Those who bought S&P 500 at March 2020 low saw 100%+ returns within 18 months. \
+Investors driven by panic who sold at bottom locked in losses and missed recovery. \
+Warren Buffett quote: "Be fearful when others are greedy, and greedy when others are fearful." \
+This episode demonstrated market psychology\'s powerful influence on investor decisions and market prices.' 
+    }
+  ]
+},
+
+// =====Cryptocurrency=====
+
+'cryptocurrency-1': {
+  id: 'cryptocurrency-1',
+  title: 'Introduction to Cryptocurrency',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Cryptocurrency' },
+    { type: 'text', content:
+      'Cryptocurrency is digital or virtual currency secured by cryptography, making it nearly impossible to counterfeit. \
+It operates on decentralized networks based on blockchain technology—distributed ledger enforced by disparate network of computers. \
+Bitcoin, created in 2009, was first decentralized cryptocurrency, introducing blockchain technology to world. \
+Cryptocurrencies typically use decentralized control as opposed to centralized digital currency and central banking systems. \
+The space has evolved to include thousands of cryptocurrencies with various purposes and technologies.' 
+    },
+    { type: 'subtitle', content: 'Key Characteristics' },
+    { type: 'text', content:
+      'Decentralization: No central authority controls the network (distributed across many computers). \
+Transparency: All transactions recorded on public ledger (blockchain) visible to anyone. \
+Immutability: Transactions cannot be altered once confirmed on blockchain. \
+Pseudonymity: Users identified by cryptographic addresses rather than personal information. \
+Limited supply: Many cryptocurrencies have fixed maximum supply (e.g., Bitcoin: 21 million).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Bitcoin\'s creation solved digital cash problem without needing trusted third party. \
+Before Bitcoin, digital payments required banks/payment processors to prevent double-spending. \
+Satoshi Nakamoto\'s whitepaper introduced proof-of-work consensus enabling decentralized verification. \
+First real-world transaction: 2010, Laszlo Hanyecz paid 10,000 BTC for two pizzas (now worth hundreds of millions). \
+Today, Bitcoin processes billions in daily transactions globally without central authority. \
+This demonstrated cryptocurrency\'s potential as decentralized payment system and store of value.' 
+    }
+  ]
+},
+'cryptocurrency-2': {
+  id: 'cryptocurrency-2',
+  title: 'Blockchain Technology Basics',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Blockchain Technology Basics' },
+    { type: 'text', content:
+      'Blockchain is distributed database or ledger shared among computer network nodes. \
+It stores information electronically in digital format, best known for maintaining secure, decentralized record of cryptocurrency transactions. \
+Blocks contain batches of valid transactions hashed and encoded into Merkle tree, each block including previous block\'s cryptographic hash. \
+This creates chain of blocks, hence "blockchain." The blockchain is resistant to modification of data—once recorded, cannot be altered retroactively. \
+Blockchain enables trustless transactions and decentralized applications beyond just cryptocurrencies.' 
+    },
+    { type: 'subtitle', content: 'Blockchain Components' },
+    { type: 'text', content:
+      'Blocks: Contain transaction data, timestamp, and reference to previous block. \
+Hash: Cryptographic fingerprint of block\'s contents (changes if data changes). \
+Nodes: Network participants maintaining copy of blockchain and validating transactions. \
+Consensus mechanisms: Protocols ensuring all nodes agree on blockchain state (Proof of Work, Proof of Stake). \
+Smart contracts: Self-executing contracts with terms directly written into code.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Ethereum blockchain demonstrates blockchain capabilities beyond cryptocurrency. \
+While Bitcoin blockchain primarily tracks Bitcoin ownership, Ethereum enables decentralized applications (dApps). \
+Smart contracts automatically execute when conditions met (e.g., release funds when delivery confirmed). \
+Decentralized Finance (DeFi) applications on Ethereum enable lending, borrowing, trading without banks. \
+NFTs (Non-Fungible Tokens) use Ethereum to prove digital ownership and authenticity. \
+Ethereum processes millions of transactions daily, showing blockchain\'s scalability for diverse applications.' 
+    }
+  ]
+},
+'cryptocurrency-3': {
+  id: 'cryptocurrency-3',
+  title: 'Bitcoin Fundamentals',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Bitcoin Fundamentals' },
+    { type: 'text', content:
+      'Bitcoin is first and largest cryptocurrency by market capitalization, created by pseudonymous Satoshi Nakamoto. \
+It operates as peer-to-peer electronic cash system without central authority or intermediaries. \
+Bitcoin supply is capped at 21 million coins, with new coins created through mining process that secures network. \
+Transactions are verified by network nodes through cryptography and recorded in public distributed ledger called blockchain. \
+Bitcoin has evolved from digital cash experiment to institutional asset class and potential digital gold.' 
+    },
+    { type: 'subtitle', content: 'Bitcoin Characteristics' },
+    { type: 'text', content:
+      'Limited supply: Maximum 21 million Bitcoins, creating scarcity similar to precious metals. \
+Decentralized: No central authority controls Bitcoin network or monetary policy. \
+Divisible: Each Bitcoin divisible to 100 million units (satoshis), enabling microtransactions. \
+Portable: Digital nature allows transferring billions of dollars across borders easily. \
+Secure: Cryptographic principles and proof-of-work mining secure network against attacks.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Bitcoin\'s value proposition demonstrated during 2013 Cypriot banking crisis. \
+When Cypriot banks froze accounts and confiscated deposits, citizens turned to Bitcoin. \
+Bitcoin provided censorship-resistant store of value and medium of exchange when traditional banking failed. \
+More recently, during 2021 Nigerian protests, government blocked bank accounts of protest organizers. \
+Activists used Bitcoin to receive donations and organize despite financial censorship. \
+These cases show Bitcoin fulfilling its original purpose as decentralized, censorship-resistant money.' 
+    }
+  ]
+},
+'cryptocurrency-4': {
+  id: 'cryptocurrency-4',
+  title: 'Ethereum & Smart Contracts',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Ethereum & Smart Contracts' },
+    { type: 'text', content:
+      'Ethereum is decentralized, open-source blockchain with smart contract functionality. \
+While Bitcoin primarily enables peer-to-peer currency, Ethereum enables decentralized applications through its programmable blockchain. \
+Ethereum\'s native cryptocurrency, Ether (ETH), fuels the network and pays for transaction fees (gas). \
+Smart contracts are self-executing contracts with terms directly written into code, automatically executing when conditions met. \
+Ethereum has become foundation for DeFi, NFTs, DAOs, and thousands of decentralized applications.' 
+    },
+    { type: 'subtitle', content: 'Ethereum Features' },
+    { type: 'text', content:
+      'Smart contracts: Programmable agreements executing automatically without intermediaries. \
+Ethereum Virtual Machine: Runtime environment executing smart contracts across decentralized network. \
+Gas: Unit measuring computational effort for transactions/smart contract execution. \
+ERC standards: Technical standards for tokens on Ethereum blockchain (ERC-20 for fungible tokens, ERC-721 for NFTs). \
+Proof of Stake: Ethereum transitioned from Proof of Work to more energy-efficient consensus mechanism.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Decentralized lending platform Aave demonstrates Ethereum smart contract capabilities. \
+Users deposit crypto assets as collateral to borrow other assets, all managed by smart contracts. \
+Traditional lending requires credit checks, bank approval, days for funding. \
+Aave processes loans instantly based solely on collateral value, 24/7, globally accessible. \
+Interest rates adjust algorithmically based on supply/demand, not set by central authority. \
+Over $20 billion has been lent through Aave without traditional financial intermediaries. \
+This shows Ethereum enabling financial services innovation through programmable money.' 
+    }
+  ]
+},
+'cryptocurrency-5': {
+  id: 'cryptocurrency-5',
+  title: 'Altcoins & Token Types',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Altcoins & Token Types' },
+    { type: 'text', content:
+      'Altcoins refer to cryptocurrencies other than Bitcoin, each with different purposes, technologies, and value propositions. \
+Tokens are digital assets built on existing blockchains (like Ethereum), while coins have their own independent blockchains. \
+Categories include payment coins, stablecoins, utility tokens, security tokens, and governance tokens. \
+Understanding different token types helps navigate complex cryptocurrency landscape and evaluate investment opportunities. \
+The market includes thousands of cryptocurrencies addressing various use cases from payments to decentralized computing.' 
+    },
+    { type: 'subtitle', content: 'Token Categories' },
+    { type: 'text', content:
+      'Payment coins: Designed as medium of exchange (Bitcoin, Litecoin, Bitcoin Cash). \
+Stablecoins: Pegged to stable assets like USD to reduce volatility (USDT, USDC, DAI). \
+Utility tokens: Provide access to platform/services (Chainlink, Filecoin, Basic Attention Token). \
+Governance tokens: Enable voting rights in decentralized protocols (UNI, COMP, AAVE). \
+Security tokens: Represent ownership in real-world assets (real estate, company equity).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Chainlink (LINK) demonstrates utility token value proposition. \
+Chainlink provides decentralized oracle network connecting smart contracts to real-world data. \
+Smart contracts need external data (weather, prices, scores) to execute—Chainlink supplies this reliably. \
+LINK token used to pay node operators for providing data and as collateral to ensure data quality. \
+Companies like Google, Swift, and Oracle use Chainlink to connect their data to blockchains. \
+LINK token\'s value derives from network usage, not just speculation. \
+This shows specialized altcoins solving specific blockchain ecosystem problems.' 
+    }
+  ]
+},
+'cryptocurrency-6': {
+  id: 'cryptocurrency-6',
+  title: 'Cryptocurrency Wallets',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cryptocurrency Wallets' },
+    { type: 'text', content:
+      'Cryptocurrency wallets store private keys needed to access and manage cryptocurrency holdings. \
+Unlike physical wallets holding cash, crypto wallets don\'t store coins—coins exist on blockchain; wallets store keys to access them. \
+Wallet types include hot wallets (connected to internet) and cold wallets (offline, more secure). \
+Security is paramount since lost private keys mean permanently lost access to funds. \
+Understanding wallet types and security practices is essential for safely participating in cryptocurrency ecosystem.' 
+    },
+    { type: 'subtitle', content: 'Wallet Types' },
+    { type: 'text', content:
+      'Hardware wallets: Physical devices storing keys offline (Ledger, Trezor—most secure for large holdings). \
+Software wallets: Applications on computers or phones (Exodus, Trust Wallet—convenient for smaller amounts). \
+Web wallets: Browser-based wallets (MetaMask—easy access for DeFi/NFT interactions). \
+Paper wallets: Physical printout of keys (offline storage but vulnerable to physical damage/loss). \
+Custodial wallets: Exchanges hold keys on your behalf (convenient but you don\'t control keys).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sarah uses layered wallet strategy for different cryptocurrency purposes: \
+Large long-term holdings: Ledger Nano X hardware wallet stored in safe (cold storage). \
+Medium-term investments: Exodus desktop wallet with encrypted backup. \
+DeFi/NFT interactions: MetaMask browser wallet with limited funds. \
+Trading: Coinbase exchange account (custodial) for active trading. \
+She follows security practices: never shares seed phrases, uses 2FA everywhere, tests recovery process. \
+For hardware wallet, she stores seed phrase metal backup in secure location (fire/water proof). \
+This balanced approach provides security for large holdings while maintaining accessibility for active use.' 
+    }
+  ]
+},
+'cryptocurrency-7': {
+  id: 'cryptocurrency-7',
+  title: 'Cryptocurrency Exchanges',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cryptocurrency Exchanges' },
+    { type: 'text', content:
+      'Cryptocurrency exchanges are platforms where users can buy, sell, and trade cryptocurrencies. \
+Types include centralized exchanges (CEXs) like Coinbase and Binance, and decentralized exchanges (DEXs) like Uniswap. \
+CEXs offer convenience, liquidity, and fiat on-ramps but require trusting third party with funds. \
+DEXs enable peer-to-peer trading without intermediaries but can have less liquidity and more complexity. \
+Choosing appropriate exchange depends on trading needs, security preferences, and jurisdictional considerations.' 
+    },
+    { type: 'subtitle', content: 'Exchange Types' },
+    { type: 'text', content:
+      'Centralized exchanges: Operated by companies, custody user funds, offer high liquidity and user-friendly interfaces. \
+Decentralized exchanges: Smart contract-based, non-custodial, users trade directly from their wallets. \
+Brokerage services: Simple buy/sell interfaces for beginners (Coinbase, Gemini). \
+Trading platforms: Advanced interfaces for active traders (Binance, Kraken, FTX formerly). \
+Peer-to-peer exchanges: Direct trades between users (LocalBitcoins, Paxful).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Binance demonstrates evolution of cryptocurrency exchanges. \
+Founded 2017, grew to become world\'s largest crypto exchange by trading volume. \
+Offers spot trading, futures, options, savings products, and NFT marketplace. \
+Handles billions in daily volume across hundreds of cryptocurrency pairs. \
+Security practices include SAFU (Secure Asset Fund for Users) insurance fund. \
+Regulatory challenges show industry tension between innovation and compliance. \
+Contrast with Uniswap DEX: no company, no KYC, accessible globally, but less liquidity for large trades. \
+Different exchange models serve different user needs within crypto ecosystem.' 
+    }
+  ]
+},
+'cryptocurrency-8': {
+  id: 'cryptocurrency-8',
+  title: 'DeFi - Decentralized Finance',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'DeFi - Decentralized Finance' },
+    { type: 'text', content:
+      'Decentralized Finance uses blockchain technology to recreate traditional financial systems without central intermediaries. \
+DeFi applications enable lending, borrowing, trading, insurance, and asset management through smart contracts. \
+Built primarily on Ethereum, DeFi offers permissionless, transparent, and programmable financial services. \
+Total Value Locked (TVL) measures assets deposited in DeFi protocols, growing from millions to over $100 billion. \
+DeFi represents paradigm shift in financial infrastructure, though risks include smart contract vulnerabilities and regulatory uncertainty.' 
+    },
+    { type: 'subtitle', content: 'DeFi Applications' },
+    { type: 'text', content:
+      'Decentralized exchanges: Automated market makers enabling token swaps (Uniswap, SushiSwap). \
+Lending platforms: Algorithmic money markets (Aave, Compound). \
+Yield farming: Earning returns by providing liquidity to DeFi protocols. \
+Stablecoins: Algorithmic or collateralized stable assets (DAI, FRAX). \
+Synthetic assets: Tokens tracking value of real-world assets (Synthetix).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Compound Finance demonstrates DeFi lending/borrowing. \
+Users supply crypto assets to liquidity pools, earning interest. \
+Borrowers collateralize other assets to borrow from pools, paying interest. \
+Interest rates adjust algorithmically based on supply/demand. \
+No credit checks, approvals, or bank hours—global access 24/7. \
+Example: Alice deposits $10,000 USDC earning 3% APY. \
+Bob deposits 5 ETH as collateral, borrows $8,000 USDC paying 5% interest. \
+Smart contracts automatically manage collateral ratios and liquidations if needed. \
+Traditional banks might take days for similar loan; Compound processes instantly. \
+This shows DeFi efficiency and accessibility advantages.' 
+    }
+  ]
+},
+'cryptocurrency-9': {
+  id: 'cryptocurrency-9',
+  title: 'NFTs - Non-Fungible Tokens',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'NFTs - Non-Fungible Tokens' },
+    { type: 'text', content:
+      'Non-Fungible Tokens are unique digital assets representing ownership of specific items using blockchain technology. \
+Unlike cryptocurrencies (fungible/interchangeable), each NFT has distinct value and properties. \
+NFTs enable digital scarcity, provenance tracking, and creator royalties for digital art, collectibles, music, and virtual assets. \
+Most NFTs exist on Ethereum blockchain using ERC-721 or ERC-1155 standards. \
+The NFT market exploded in 2021, though questions remain about long-term value and sustainability.' 
+    },
+    { type: 'subtitle', content: 'NFT Characteristics' },
+    { type: 'text', content:
+      'Uniqueness: Each NFT has distinct identification code and metadata. \
+Indivisibility: Cannot be divided into smaller units like cryptocurrencies. \
+Ownership verification: Blockchain provides transparent ownership history. \
+Interoperability: NFTs usable across different applications and marketplaces. \
+Programmability: Can include royalties, unlockable content, or interactive features.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Beeple\'s "Everydays: The First 5000 Days" NFT sold for $69 million at Christie\'s auction. \
+The digital collage comprised 5,000 daily artworks created over 13+ years. \
+Buyer received NFT proving ownership of digital file, though image remains viewable online. \
+Significance: Established NFTs in fine art world, demonstrated digital art value. \
+For artists, NFTs enable direct sales, secondary market royalties (typically 10% on resales). \
+Contrast traditional art: galleries take 40-50%, artists get nothing from secondary sales. \
+This shows NFTs transforming digital ownership and creator economics.' 
+    }
+  ]
+},
+'cryptocurrency-10': {
+  id: 'cryptocurrency-10',
+  title: 'Crypto Regulation & Future',
+  image: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Crypto Regulation & Future' },
+    { type: 'text', content:
+      'Cryptocurrency regulation evolves as governments address financial stability, consumer protection, and innovation balance. \
+Regulatory approaches vary globally: some countries embrace (El Salvador made Bitcoin legal tender), some restrict (China banned crypto trading). \
+Key issues: securities classification, anti-money laundering (AML), know-your-customer (KYC), and taxation. \
+Future developments may include central bank digital currencies (CBDCs), institutional adoption, and scaling solutions. \
+Regulatory clarity will significantly influence cryptocurrency mainstream adoption and market development.' 
+    },
+    { type: 'subtitle', content: 'Regulatory Areas' },
+    { type: 'text', content:
+      'Securities regulation: Determining which cryptocurrencies qualify as securities under existing laws. \
+AML/KYC: Anti-money laundering and know-your-customer requirements for exchanges. \
+Taxation: Capital gains treatment, reporting requirements for cryptocurrency transactions. \
+Consumer protection: Safeguards against fraud, hacks, and market manipulation. \
+Banking integration: Traditional financial system connections and reserve requirements.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1620336655055-bd87c5d1d73f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'US regulatory approach demonstrates balancing innovation and protection. \
+SEC (Securities and Exchange Commission) views many tokens as securities, requiring registration. \
+CFTC (Commodity Futures Trading Commission) treats Bitcoin as commodity. \
+FinCEN (Financial Crimes Enforcement Network) imposes AML requirements on exchanges. \
+IRS (Internal Revenue Service) taxes crypto as property, requiring capital gains reporting. \
+Contrast with El Salvador: adopted Bitcoin as legal tender, removed capital gains taxes, built Bitcoin infrastructure. \
+Different approaches create regulatory arbitrage opportunities and uncertainty. \
+Future likely involves international coordination as crypto transcends national borders.' 
+    }
+  ]
+},
+
+// =====Retirement Planning=====
+
+'retirement-planning-1': {
+  id: 'retirement-planning-1',
+  title: 'Retirement Planning Fundamentals',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Retirement Planning Fundamentals' },
+    { type: 'text', content:
+      'Retirement planning prepares financially for life after ceasing full-time work. \
+It involves estimating retirement expenses, determining required savings, and selecting appropriate investment strategies. \
+Key considerations include retirement age, life expectancy, healthcare costs, inflation, and potential long-term care needs. \
+Starting early maximizes compound growth benefits and reduces required monthly savings. \
+Comprehensive retirement planning addresses both accumulation (saving) and decumulation (spending) phases.' 
+    },
+    { type: 'subtitle', content: 'Planning Components' },
+    { type: 'text', content:
+      'Expense projection: Estimating retirement living costs, including healthcare and leisure. \
+Income sources: Social Security, pensions, retirement accounts, investments, part-time work. \
+Savings targets: Determining how much to save monthly to reach retirement goals. \
+Investment strategy: Asset allocation balancing growth needs with risk tolerance. \
+Withdrawal strategy: Sustainable spending rate preserving portfolio throughout retirement.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Maria, age 30, wants to retire at 65 with $60,000 annual retirement income (today\'s dollars). \
+Accounting for 3% inflation, that\'s $145,000/year at retirement. \
+Assuming 4% withdrawal rate, she needs $3.6 million portfolio. \
+With 7% average annual return, she must save $1,800 monthly starting now. \
+If she waits until age 40: $3,800/month required. \
+Age 50: $10,000/month (nearly impossible). \
+This demonstrates starting early\'s critical importance for achievable retirement planning.' 
+    }
+  ]
+},
+'retirement-planning-2': {
+  id: 'retirement-planning-2',
+  title: 'Retirement Account Types',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Retirement Account Types' },
+    { type: 'text', content:
+      'Retirement accounts offer tax advantages to encourage long-term savings for retirement. \
+Types include employer-sponsored plans (401(k), 403(b), pensions) and individual plans (IRA, Roth IRA). \
+Tax treatment varies: traditional accounts offer tax-deferred growth (taxed on withdrawal), Roth accounts offer tax-free growth. \
+Contribution limits, income restrictions, and withdrawal rules differ among account types. \
+Strategic use of multiple account types optimizes tax efficiency and withdrawal flexibility.' 
+    },
+    { type: 'subtitle', content: 'Account Types' },
+    { type: 'text', content:
+      '401(k)/403(b): Employer-sponsored, high contribution limits ($22,500 + $7,500 catch-up for 2023). \
+Traditional IRA: Individual, tax-deductible contributions if income below limits. \
+Roth IRA: Individual, after-tax contributions, tax-free qualified withdrawals. \
+SIMPLE IRA: Small business retirement plan. \
+SEP IRA: Self-employed/small business owners. \
+Pension plans: Defined benefit plans providing guaranteed income (increasingly rare).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'David, 45, maximizes retirement accounts strategically: \
+First: Contributes to 401(k) enough to get full employer match (free money). \
+Second: Maxes out HSA ($3,850) for healthcare expenses (triple tax advantage). \
+Third: Maxes out Roth IRA ($6,500) for tax-free growth. \
+Fourth: Returns to 401(k) to reach $22,500 limit. \
+Fifth: After-tax 401(k) contributions if available (mega backdoor Roth). \
+This order optimizes tax benefits while building diverse withdrawal options for retirement.' 
+    }
+  ]
+},
+'retirement-planning-3': {
+  id: 'retirement-planning-3',
+  title: 'Social Security Planning',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Social Security Planning' },
+    { type: 'text', content:
+      'Social Security provides foundation of retirement income for most Americans, but requires strategic planning. \
+Benefits based on 35 highest-earning years, adjusted for inflation, with Full Retirement Age between 66-67. \
+Claiming earlier (62) reduces benefits permanently; delaying (70) increases benefits significantly. \
+Spousal, survivor, and divorce benefits add complexity to claiming decisions. \
+Social Security should be coordinated with other retirement income sources and tax planning.' 
+    },
+    { type: 'subtitle', content: 'Claiming Strategies' },
+    { type: 'text', content:
+      'Early retirement: As early as 62, but benefits reduced by up to 30%. \
+Full Retirement Age: 66-67 depending on birth year, receive 100% of Primary Insurance Amount. \
+Delayed credits: Benefits increase 8% annually from FRA to age 70 (maximum 124-132% of PIA). \
+Spousal benefits: Lower-earning spouse can claim up to 50% of higher-earning spouse\'s PIA. \
+Survivor benefits: Widow(er) can claim deceased spouse\'s benefit if higher than own.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'John (higher earner) and Mary (lower earner) both age 62, planning retirement. \
+John\'s PIA: $2,500/month at FRA 67. Mary\'s PIA: $1,000/month. \
+Option 1: Both claim at 62. John: $1,750 (70% of $2,500), Mary: $700 (70% of $1,000). Total: $2,450/month. \
+Option 2: Mary claims spousal benefit at FRA: $1,250 (50% of John\'s $2,500). John delays to 70: $3,100 (124% of $2,500). Total: $4,350/month. \
+Option 2 provides 78% more monthly income, better survivor protection for Mary. \
+This demonstrates significant impact of coordinated claiming strategy.' 
+    }
+  ]
+},
+'retirement-planning-4': {
+  id: 'retirement-planning-4',
+  title: 'Retirement Savings Targets',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Retirement Savings Targets' },
+    { type: 'text', content:
+      'Retirement savings targets provide benchmarks for assessing progress toward retirement readiness. \
+Common rules: save 10-15% of income annually, have 1x salary by 30, 3x by 40, 6x by 50, 8x by 60. \
+The 4% rule suggests withdrawing 4% of portfolio initially, adjusted for inflation annually, for 30-year retirement. \
+Individual targets vary based on retirement age, lifestyle expectations, and other income sources. \
+Regular assessment against targets helps adjust savings rates and investment strategies.' 
+    },
+    { type: 'subtitle', content: 'Saviness Benchmarks' },
+    { type: 'text', content:
+      'By age 30: 1x annual salary saved. \
+By age 40: 3x annual salary saved. \
+By age 50: 6x annual salary saved. \
+By age 60: 8x annual salary saved. \
+By retirement: 10-12x annual salary saved. \
+These multiples assume retirement at 67, Social Security benefits, and moderate lifestyle.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sarah, age 45, earns $80,000 annually. \
+Target: 6x salary = $480,000 saved by age 50. \
+Current retirement savings: $300,000. \
+Gap: $180,000 in 5 years. \
+Assuming 7% investment returns, she needs to save $2,500/month to reach target. \
+Her current savings: $1,000/month (12% of income). \
+Adjustment needed: Increase to $2,500/month (30% of income) or work longer until 52. \
+Alternatively, reduce retirement spending expectations from 80% to 70% of pre-retirement income. \
+This assessment enables informed decisions about savings rate versus retirement age trade-off.' 
+    }
+  ]
+},
+'retirement-planning-5': {
+  id: 'retirement-planning-5',
+  title: 'Withdrawal Strategies',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Withdrawal Strategies' },
+    { type: 'text', content:
+      'Retirement withdrawal strategies determine how to convert savings into sustainable income throughout retirement. \
+The 4% rule is common starting point but may need adjustment based on market conditions and individual circumstances. \
+Sequence of returns risk—poor early returns—can devastate portfolio longevity despite average long-term returns. \
+Strategies include bucket approaches, dynamic spending rules, and annuity allocations for guaranteed income. \
+Effective withdrawal planning balances lifestyle needs with portfolio preservation.' 
+    },
+    { type: 'subtitle', content: 'Withdrawal Approaches' },
+    { type: 'text', content:
+      'Fixed percentage: Withdraw constant percentage of portfolio annually (e.g., 4%). \
+Fixed inflation-adjusted: 4% initial withdrawal adjusted annually for inflation. \
+Dynamic spending: Adjust withdrawals based on portfolio performance (spend more after good years, less after bad). \
+Bucket strategy: Separate portfolios for short-term (1-3 years), medium-term (4-10 years), and long-term (10+ years) needs. \
+Flooring approach: Guaranteed income (pensions, annuities, Social Security) covers essential expenses, portfolio covers discretionary.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Tom retires at 65 with $1 million portfolio. \
+Using 4% rule: $40,000 first-year withdrawal. \
+Year 1: Portfolio grows 10% to $1.1 million, inflation 3%. Year 2 withdrawal: $41,200 (4% of $1.03 million adjusted portfolio). \
+Year 2: Portfolio declines 15% to $935,000. Year 3 withdrawal: $37,400 (4% of $935,000). \
+Alternative dynamic approach: Good year cap (10% increase max), bad year floor (no less than $35,000). \
+This provides more stable income while protecting portfolio during downturns. \
+In practice, most retirees naturally spend less as they age, providing additional safety margin.' 
+    }
+  ]
+},
+'retirement-planning-6': {
+  id: 'retirement-planning-6',
+  title: 'Healthcare in Retirement',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Healthcare in Retirement' },
+    { type: 'text', content:
+      'Healthcare represents significant and potentially unpredictable retirement expense requiring specific planning. \
+Medicare begins at 65 but doesn\'t cover all costs—premiums, deductibles, copays, and excluded services create out-of-pocket expenses. \
+Long-term care (nursing home, assisted living, in-home care) is major risk not covered by Medicare. \
+Health Savings Accounts offer triple tax advantage for pre-retirement healthcare savings. \
+Realistic healthcare cost estimates are essential for accurate retirement planning.' 
+    },
+    { type: 'subtitle', content: 'Healthcare Components' },
+    { type: 'text', content:
+      'Medicare Part A: Hospital insurance (premium-free for most). \
+Medicare Part B: Medical insurance (premium-based, covers doctors, outpatient). \
+Medicare Part D: Prescription drug coverage. \
+Medigap/Medicare Advantage: Supplemental coverage filling Medicare gaps. \
+Long-term care insurance: Covers extended care services not covered by Medicare. \
+Out-of-pocket costs: Deductibles, copays, non-covered services, dental, vision, hearing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Retired couple, both 65, planning healthcare costs. \
+Medicare Part B premiums: $328/month each = $7,872 annually. \
+Medicare Part D drug plan: $50/month each = $1,200 annually. \
+Medigap Plan G: $200/month each = $4,800 annually. \
+Dental/vision/hearing: $1,500 annually. \
+Out-of-pocket medical: $2,000 annually. \
+Total: $17,372 annually (likely increasing 5-7% annually with healthcare inflation). \
+Long-term care risk: 70% chance one needs care averaging $50,000 annually for 3 years. \
+This demonstrates need for dedicated healthcare planning within retirement budget.' 
+    }
+  ]
+},
+'retirement-planning-7': {
+  id: 'retirement-planning-7',
+  title: 'Early Retirement Strategies',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Early Retirement Strategies' },
+    { type: 'text', content:
+      'Early retirement (before traditional age 65) requires accelerated savings, reduced spending, and creative income bridging. \
+The FIRE movement (Financial Independence, Retire Early) emphasizes extreme savings rates (50-70% of income) and frugal living. \
+Key challenges: longer retirement horizon, healthcare before Medicare, penalty-free access to retirement funds. \
+Strategies include Roth conversion ladders, rule of 55, and substantial taxable investment accounts. \
+Early retirement planning requires meticulous calculations and contingency planning for unexpected expenses.' 
+    },
+    { type: 'subtitle', content: 'Early Retirement Approaches' },
+    { type: 'text', content:
+      'Lean FIRE: Minimalist lifestyle with expenses under $40,000 annually. \
+Fat FIRE: Maintaining pre-retirement lifestyle with higher savings target. \
+Barista FIRE: Partial retirement with part-time work for benefits and supplemental income. \
+Coast FIRE: Savings reach point where no further contributions needed—compound growth reaches target by traditional retirement age. \
+Sequence of returns risk magnified with longer retirement horizon requiring more conservative withdrawal rates.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Mark, 35, wants to retire at 45 with $40,000 annual expenses. \
+Using 3.5% withdrawal rate (conservative for early retirement): needs $1.14 million portfolio. \
+Current savings: $200,000. \
+Need $940,000 in 10 years. \
+With 7% returns, must save $5,400/month (65% of his $100,000 income). \
+Strategy: Max 401(k), Roth IRA, invest surplus in taxable account for pre-59.5 access. \
+At 45: Use rule of 72(t) for penalty-free 401(k) withdrawals or Roth conversion ladder. \
+Healthcare: ACA marketplace plan estimated $800/month with subsidies. \
+Contingency: Part-time consulting available if needed. \
+This demonstrates aggressive but achievable early retirement plan.' 
+    }
+  ]
+},
+'retirement-planning-8': {
+  id: 'retirement-planning-8',
+  title: 'Required Minimum Distributions',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Required Minimum Distributions' },
+    { type: 'text', content:
+      'Required Minimum Distributions are minimum amounts retirement account owners must withdraw annually starting at age 73 (SECURE 2.0). \
+RMDs apply to traditional IRAs, 401(k)s, and other tax-deferred retirement accounts (not Roth IRAs during owner\'s lifetime). \
+Failure to take RMDs results in severe penalty: 50% of amount not withdrawn. \
+RMD amounts calculated using IRS life expectancy tables and account balance at prior year-end. \
+Strategic RMD planning can minimize taxes and coordinate with other retirement income sources.' 
+    },
+    { type: 'subtitle', content: 'RMD Rules' },
+    { type: 'text', content:
+      'Starting age: 73 (born 1951-1959), 75 (born 1960 or later). \
+Calculation: Account balance divided by distribution period from IRS Uniform Lifetime Table. \
+First RMD: Can be delayed until April 1 of year after turning required age, but then two RMDs in that year. \
+Inherited accounts: Different RMD rules for beneficiaries, often requiring faster distributions. \
+Roth 401(k): RMDs required but can be avoided by rolling into Roth IRA.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Robert turns 73 in 2024 with $1 million in traditional IRA. \
+IRS Uniform Lifetime Table distribution period for age 73: 26.5 years. \
+RMD: $1,000,000 ÷ 26.5 = $37,736. \
+This $37,736 added to his other income, potentially pushing him into higher tax bracket. \
+Strategy: Begin Roth conversions in 60s to reduce future RMDs and tax burden. \
+Or coordinate RMDs with charitable giving through Qualified Charitable Distributions (QCDs)—direct transfers to charity count toward RMD but aren\'t taxable income. \
+At 73, Robert donates $20,000 via QCD to his alma mater, reducing taxable RMD to $17,736. \
+This demonstrates tax-efficient RMD management.' 
+    }
+  ]
+},
+'retirement-planning-9': {
+  id: 'retirement-planning-9',
+  title: 'Retirement Income Planning',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Retirement Income Planning' },
+    { type: 'text', content:
+      'Retirement income planning converts accumulated assets into reliable, sustainable cash flow throughout retirement. \
+It involves coordinating multiple income sources: Social Security, pensions, retirement accounts, taxable investments, and potential part-time work. \
+The retirement income pyramid approach layers guaranteed income (base), portfolio withdrawals (middle), and discretionary income (top). \
+Tax efficiency considerations: which accounts to withdraw from first to minimize lifetime taxes. \
+Effective income planning provides financial security while maintaining flexibility for unexpected needs.' 
+    },
+    { type: 'subtitle', content: 'Income Sources' },
+    { type: 'text', content:
+      'Guaranteed income: Social Security, pensions, annuities covering essential expenses. \
+Portfolio income: Systematic withdrawals from retirement and investment accounts. \
+Flexible income: Part-time work, rental income, business income providing optional cash flow. \
+Required Minimum Distributions: Mandatory withdrawals from tax-deferred accounts starting at age 73. \
+Home equity: Potential income through downsizing or reverse mortgage if needed.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Linda, 67, retired with following resources: \
+Social Security: $2,200/month. \
+Pension: $1,500/month. \
+IRA/401(k): $800,000. \
+Taxable investments: $200,000. \
+Essential expenses: $3,500/month. \
+Guaranteed income (Social Security + pension): $3,700/month covers essentials with $200 surplus. \
+Discretionary spending/travel: $2,000/month from portfolio withdrawals. \
+Withdrawal strategy: First from taxable account (capital gains rates), then from IRA (ordinary income rates). \
+At 73, RMDs will supplement income, possibly allowing increased spending or gifting. \
+This layered approach provides security with flexibility.' 
+    }
+  ]
+},
+'retirement-planning-10': {
+  id: 'retirement-planning-10',
+  title: 'Legacy & Estate Planning',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Legacy & Estate Planning' },
+    { type: 'text', content:
+      'Estate planning ensures assets transfer according to wishes while minimizing taxes and legal complications. \
+Components include wills, trusts, beneficiary designations, powers of attorney, and healthcare directives. \
+Retirement accounts have specific inheritance rules requiring careful beneficiary designation planning. \
+Tax considerations: estate tax exemption ($12.92 million per person 2023), step-up in basis for taxable investments. \
+Proper estate planning provides peace of mind and protects heirs from unnecessary complexity and taxes.' 
+    },
+    { type: 'subtitle', content: 'Estate Planning Tools' },
+    { type: 'text', content:
+      'Will: Legal document specifying asset distribution and guardians for minor children. \
+Trusts: Revocable living trusts avoid probate, provide management during incapacity. \
+Beneficiary designations: Retirement accounts and life insurance pass directly to beneficiaries outside of will. \
+Power of attorney: Authorizes someone to manage finances if incapacitated. \
+Healthcare directive: Specifies medical treatment wishes and designates healthcare decision-maker.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'James and Sandra, both 70, have $2 million estate: house $500k, IRAs $1 million, taxable investments $500k. \
+Their will leaves everything to each other, then equally to their three children. \
+Problem: IRAs left directly to children must be emptied within 10 years, creating large tax bills. \
+Better approach: Convert some IRA to Roth over time to reduce future RMDs and tax burden for heirs. \
+Establish testamentary trust for grandchildren\'s education. \
+Update beneficiary designations: primary each other, contingent directly to children (bypass probate). \
+Create pour-over will funding their revocable living trust. \
+This comprehensive plan minimizes taxes and ensures smooth transition to heirs.' 
+    }
+  ]
+},
+
+// ======Tax Fundamentals=====
+
+'tax-fundamentals-1': {
+  id: 'tax-fundamentals-1',
+  title: 'Tax System Basics',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Tax System Basics' },
+    { type: 'text', content:
+      'The U.S. tax system collects revenue to fund government operations through various taxes on income, purchases, property, and wealth transfers. \
+Federal income tax uses progressive system where higher income pays higher percentage rates. \
+Tax filing involves calculating gross income, subtracting deductions and credits to determine tax liability. \
+Understanding basic tax concepts helps minimize legal tax burden and avoid penalties. \
+Tax planning should be year-round activity, not just annual filing exercise.' 
+    },
+    { type: 'subtitle', content: 'Tax Types' },
+    { type: 'text', content:
+      'Income tax: Federal and state taxes on earned and investment income. \
+Payroll tax: Social Security and Medicare taxes (FICA) split between employee and employer. \
+Capital gains tax: Tax on profits from selling investments (rates depend on holding period). \
+Estate tax: Tax on large estates transferred at death (2023 exemption: $12.92 million). \
+Sales tax: State and local taxes on purchases (rates vary by jurisdiction).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Single filer with $80,000 taxable income in 2023: \
+First $11,000: 10% = $1,100. \
+$11,001-$44,725: 12% = $4,047. \
+$44,726-$80,000: 22% = $7,760. \
+Total tax: $12,907 (16.1% effective rate). \
+Plus payroll taxes: $6,120 (7.65% on first $160,200). \
+Total tax burden: $19,027 (23.8% of income). \
+This demonstrates progressive taxation: marginal rate 22%, but effective rate lower due to lower brackets.' 
+    }
+  ]
+},
+'tax-fundamentals-2': {
+  id: 'tax-fundamentals-2',
+  title: 'Tax Brackets & Rates',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Tax Brackets & Rates' },
+    { type: 'text', content:
+      'Tax brackets define income ranges taxed at specific rates in progressive tax system. \
+Marginal tax rate applies to last dollar earned; effective tax rate is average rate on total income. \
+2023 federal income tax brackets: 10%, 12%, 22%, 24%, 32%, 35%, 37%. \
+Tax brackets adjust annually for inflation, affecting income thresholds for each rate. \
+Understanding bracket dynamics helps with income timing and tax planning strategies.' 
+    },
+    { type: 'subtitle', content: '2023 Tax Brackets (Single)' },
+    { type: 'text', content:
+      '10%: Up to $11,000. \
+12%: $11,001 to $44,725. \
+22%: $44,726 to $95,375. \
+24%: $95,376 to $182,100. \
+32%: $182,101 to $231,250. \
+35%: $231,251 to $578,125. \
+37%: Over $578,125. \
+Different brackets for married filing jointly, head of household, and married filing separately.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Common misconception: "Moving into higher tax bracket means all income taxed at higher rate." \
+Reality: Only income above bracket threshold taxed at higher rate. \
+Example: Single filer earning $100,000 taxable income. \
+First $11,000: 10% = $1,100. \
+Next $33,725 ($44,725-$11,000): 12% = $4,047. \
+Next $50,650 ($95,375-$44,725): 22% = $11,143. \
+Last $4,625 ($100,000-$95,375): 24% = $1,110. \
+Total tax: $17,400. Effective rate: 17.4% (not 24%). \
+This understanding prevents fear of small income increases pushing into next bracket.' 
+    }
+  ]
+},
+'tax-fundamentals-3': {
+  id: 'tax-fundamentals-3',
+  title: 'Deductions vs Credits',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Deductions vs Credits' },
+    { type: 'text', content:
+      'Tax deductions reduce taxable income; tax credits directly reduce tax dollar-for-dollar. \
+Deductions lower amount of income subject to tax; credits reduce actual tax bill. \
+$1,000 deduction saves $220 for someone in 22% bracket; $1,000 credit saves $1,000 regardless of bracket. \
+Understanding difference helps prioritize which tax benefits provide greater savings. \
+Many taxpayers qualify for both deductions and credits, maximizing overall tax savings.' 
+    },
+    { type: 'subtitle', content: 'Common Deductions & Credits' },
+    { type: 'text', content:
+      'Standard deduction: Fixed amount based on filing status (2023: $13,850 single, $27,700 married). \
+Itemized deductions: Mortgage interest, state/local taxes, charitable contributions, medical expenses >7.5% AGI. \
+Child Tax Credit: Up to $2,000 per qualifying child (partially refundable). \
+Earned Income Tax Credit: Refundable credit for low-moderate income workers. \
+Education credits: American Opportunity Credit ($2,500), Lifetime Learning Credit ($2,000).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Married couple with $150,000 income, one child, comparing options: \
+Option A: Standard deduction $27,700. Taxable income: $122,300. Tax: approx $18,000. \
+Child Tax Credit: $2,000. Net tax: $16,000. \
+Option B: Itemized deductions: Mortgage interest $12,000 + state taxes $10,000 + charitable $5,000 = $27,000. \
+Slightly less than standard deduction, so they take standard deduction. \
+If they had additional $2,000 charitable giving: $29,000 itemized, saving $2,300 tax (22% of $2,000 extra deduction). \
+Plus $2,000 credit = $4,300 total savings from $2,000 donation (net cost -$2,300). \
+This demonstrates deduction/credit interaction and charitable giving tax benefits.' 
+    }
+  ]
+},
+'tax-fundamentals-4': {
+  id: 'tax-fundamentals-4',
+  title: 'Investment Taxation',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Investment Taxation' },
+    { type: 'text', content:
+      'Investment income receives different tax treatment depending on type and holding period. \
+Capital gains tax applies to profits from selling investments: long-term (>1 year) rates are 0%, 15%, or 20%; short-term (≤1 year) taxed as ordinary income. \
+Dividends qualified for lower rates if held certain period; non-qualified dividends taxed as ordinary income. \
+Interest income generally taxed as ordinary income. \
+Tax-efficient investing strategies can significantly improve after-tax returns over time.' 
+    },
+    { type: 'subtitle', content: 'Investment Tax Rates' },
+    { type: 'text', content:
+      'Long-term capital gains rates (2023): 0% up to $44,625 single, $89,250 married; 15% to $492,300 single, $553,850 married; 20% above. \
+Short-term capital gains: Taxed at ordinary income rates (up to 37%). \
+Qualified dividends: Same preferential rates as long-term capital gains. \
+Non-qualified dividends: Ordinary income rates. \
+Interest income: Ordinary income rates (except municipal bond interest generally tax-exempt).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Two investors each earn $10,000 investment profit. \
+Investor A: Short-term trade (held 6 months), in 32% tax bracket. Tax: $3,200. After-tax: $6,800. \
+Investor B: Long-term holding (2 years), in 32% ordinary bracket but 15% capital gains bracket. Tax: $1,500. After-tax: $8,500. \
+Difference: $1,700 more for Investor B (25% higher after-tax return) due solely to tax treatment. \
+This demonstrates holding period importance. \
+Additionally, tax-loss harvesting can offset gains with losses, further improving after-tax returns. \
+Tax-efficient fund placement (bonds in tax-deferred, stocks in taxable) adds further benefits.' 
+    }
+  ]
+},
+'tax-fundamentals-5': {
+  id: 'tax-fundamentals-5',
+  title: 'Retirement Account Taxation',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Retirement Account Taxation' },
+    { type: 'text', content:
+      'Retirement accounts offer tax advantages but with specific rules and timing considerations. \
+Traditional accounts (401(k), Traditional IRA): Tax-deductible contributions, tax-deferred growth, withdrawals taxed as ordinary income. \
+Roth accounts: After-tax contributions, tax-free growth, qualified withdrawals tax-free. \
+Understanding contribution limits, income restrictions, and withdrawal rules helps optimize retirement savings strategy. \
+Required Minimum Distributions apply to traditional accounts starting at age 73 (75 for younger).' 
+    },
+    { type: 'subtitle', content: 'Retirement Account Rules' },
+    { type: 'text', content:
+      '2023 contribution limits: 401(k) $22,500 + $7,500 catch-up (50+); IRA $6,500 + $1,000 catch-up. \
+Traditional IRA deduction phase-outs: Begins at $73,000 single, $116,000 married (if covered by workplace plan). \
+Roth IRA contribution phase-outs: Begins at $138,000 single, $218,000 married. \
+Roth conversion: Converting traditional to Roth incurs taxes on converted amount but enables tax-free growth. \
+Required Minimum Distributions: Start age 73 (born 1951-1959) or 75 (born 1960+).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sarah, 35, in 24% tax bracket, deciding between traditional and Roth 401(k). \
+Traditional: Contribute $22,500, saves $5,400 tax now ($22,500 × 24%). Grows tax-deferred. \
+Roth: Contribute $22,500 after-tax (requires $29,605 pre-tax to have $22,500 after 24% tax). \
+Assuming 7% growth for 30 years to age 65: \
+Traditional: $22,500 grows to $171,000, taxed at withdrawal (assume 22% bracket): $133,380 after-tax. \
+Roth: $22,500 grows to $171,000 tax-free. \
+Roth wins if tax bracket same or higher in retirement; traditional wins if lower bracket in retirement. \
+Given uncertainty, many contribute to both for tax diversification.' 
+    }
+  ]
+},
+'tax-fundamentals-6': {
+  id: 'tax-fundamentals-6',
+  title: 'Self-Employment Taxes',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Self-Employment Taxes' },
+    { type: 'text', content:
+      'Self-employed individuals pay both employee and employer portions of Social Security and Medicare taxes (15.3% total). \
+Self-employment tax applies to net earnings from self-employment (business income minus expenses). \
+Quarterly estimated tax payments required if expected tax liability exceeds $1,000. \
+Business deductions reduce taxable income, lowering both income tax and self-employment tax. \
+Understanding self-employment tax rules helps freelancers, contractors, and small business owners plan effectively.' 
+    },
+    { type: 'subtitle', content: 'Self-Employment Tax Details' },
+    { type: 'text', content:
+      'Self-employment tax rate: 15.3% (12.4% Social Security on first $160,200 in 2023, 2.9% Medicare unlimited). \
+Additional Medicare tax: 0.9% on earnings over $200,000 single/$250,000 married. \
+Deduction: Can deduct employer-equivalent portion (7.65%) when calculating income tax. \
+Quarterly payments: Due April 15, June 15, September 15, January 15. \
+Business deductions: Home office, supplies, mileage, health insurance, retirement contributions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Freelancer earns $80,000 net profit after business expenses. \
+Self-employment tax: $80,000 × 92.35% (adjustment) = $73,880 × 15.3% = $11,304. \
+Income tax: $80,000 - $5,655 (½ SE tax deduction) = $74,345 taxable. Tax approx $12,000. \
+Total tax: $23,304 (29% of income). \
+As employee earning $80,000: \
+FICA: $6,120 (7.65% employee share). Income tax: $12,000. Total: $18,120 (23%). \
+Difference: $5,184 extra tax for self-employed. \
+But self-employed can deduct business expenses employee cannot: home office ($5,000), mileage ($3,000), etc., reducing taxable income. \
+Plus self-employed can contribute to SEP IRA up to 25% of net earnings, reducing taxable income further.' 
+    }
+  ]
+},
+'tax-fundamentals-7': {
+  id: 'tax-fundamentals-7',
+  title: 'Tax Planning Strategies',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Tax Planning Strategies' },
+    { type: 'text', content:
+      'Tax planning involves legally minimizing tax liability through timing, entity selection, deductions, credits, and investment strategies. \
+Effective planning considers current year while optimizing multi-year tax situation. \
+Strategies include income shifting, deduction bunching, retirement contributions, and tax-loss harvesting. \
+Entity choice (sole proprietorship, S-corp, LLC) affects self-employment taxes and deductions. \
+Professional guidance often valuable for complex situations, but individuals can implement many strategies independently.' 
+    },
+    { type: 'subtitle', content: 'Planning Techniques' },
+    { type: 'text', content:
+      'Income deferral: Delay income to future year if expecting lower tax bracket. \
+Deduction acceleration: Bunch deductible expenses into single year to exceed standard deduction threshold. \
+Tax-loss harvesting: Sell investments at loss to offset capital gains. \
+Retirement contributions: Maximize contributions to reduce taxable income. \
+Charitable giving: Donate appreciated securities instead of cash to avoid capital gains. \
+Health Savings Account: Triple tax advantage for healthcare expenses.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Couple typically has $25,000 itemized deductions ($12,000 mortgage interest + $10,000 state taxes + $3,000 charitable). \
+Standard deduction: $27,700, so they take standard, getting no benefit from $25,000 deductions. \
+Strategy: Bunch charitable giving. \
+Year 1: Donate $15,000 (normal $3,000 + $12,000 from donor-advised fund). Itemized: $12,000 + $10,000 + $15,000 = $37,000. Benefit over standard: $9,300 tax savings (24% bracket). \
+Year 2: Donate $0 from cash, use donor-advised fund for giving. Take standard deduction $27,700. \
+Two-year benefit: $9,300 extra savings versus spreading donations evenly. \
+Plus donate appreciated stock instead of cash: avoid capital gains on $15,000 stock with $10,000 cost basis, saving additional $1,500 capital gains tax.' 
+    }
+  ]
+},
+'tax-fundamentals-8': {
+  id: 'tax-fundamentals-8',
+  title: 'State & Local Taxes',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'State & Local Taxes' },
+    { type: 'text', content:
+      'State and local taxes add significant layer to overall tax burden, with rates and rules varying widely. \
+Income taxes: Some states have progressive rates like federal, some have flat rates, nine have no income tax. \
+Sales taxes: State and local rates combined range from 0% to over 10%. \
+Property taxes: Fund local services, based on property value assessments. \
+State tax deduction limited to $10,000 on federal returns (SALT cap). Understanding state taxes influences residency decisions and financial planning.' 
+    },
+    { type: 'subtitle', content: 'State Tax Variations' },
+    { type: 'text', content:
+      'No income tax states: Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas, Washington, Wyoming. \
+High income tax states: California (13.3% top rate), Hawaii (11%), New York (10.9%), Oregon (9.9%). \
+Sales tax ranges: 0% (Alaska, Delaware, Montana, New Hampshire, Oregon) to 9.55% (Tennessee average combined). \
+Property tax rates: Vary by locality, typically 0.5%-2.5% of assessed value annually. \
+Some states tax retirement income differently (exempt Social Security, pension income, etc.).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Family moving from California to Texas: \
+California: $200,000 income, 9.3% state tax = $18,600. Property tax $8,000 on $800,000 home. Sales tax 8.5%. \
+Texas: No state income tax (saves $18,600). Property tax $12,000 on $500,000 home (similar quality). Sales tax 6.25%. \
+Net savings: $18,600 - $4,000 higher property tax = $14,600 annual savings. \
+But Texas has no income tax because it relies more on property taxes. \
+Total tax comparison requires analyzing all tax types, not just income tax. \
+Retirement consideration: California taxes all retirement income; Texas taxes none. \
+This demonstrates importance of comprehensive state tax analysis for financial decisions.' 
+    }
+  ]
+},
+'tax-fundamentals-9': {
+  id: 'tax-fundamentals-9',
+  title: 'Tax Filing & Compliance',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Tax Filing & Compliance' },
+    { type: 'text', content:
+      'Tax filing involves submitting required forms and documentation to IRS and state agencies annually. \
+Key deadlines: April 15 for most individuals (October 15 with extension). \
+Required documents: W-2 (wages), 1099 forms (investment income, freelance), records of deductions and credits. \
+Electronic filing with direct deposit fastest refund method; paper filing takes 6-8 weeks. \
+Understanding filing requirements, deadlines, and documentation prevents penalties and ensures compliance.' 
+    },
+    { type: 'subtitle', content: 'Filing Requirements' },
+    { type: 'text', content:
+      'Filing thresholds (2023): Single under 65: $13,850; 65+: $15,700. Married filing jointly both under 65: $27,700; one 65+: $29,200; both 65+: $30,700. \
+Even if below threshold, file if eligible for refundable credits or had federal tax withheld. \
+Extensions: File Form 4868 by April 15 extends filing deadline to October 15 (but not payment deadline). \
+Penalties: Failure-to-file penalty 5% monthly up to 25%; failure-to-pay penalty 0.5% monthly. \
+Payment plans: IRS offers installment agreements for those unable to pay full amount.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'College student worked summer job earning $5,000 with $500 federal tax withheld. \
+Not required to file (income below $13,850 threshold). \
+But if she doesn\'t file, she forfeits $500 refund. \
+Additionally, if eligible for American Opportunity Credit ($2,500), she could get refund exceeding taxes paid. \
+By filing: Receives $500 withholding refund + potentially $2,000 more from education credit. \
+Conversely, freelancer earned $15,000 with no tax withheld. \
+Must file (above threshold) and may owe $2,000+ tax plus penalties if not making estimated payments. \
+This demonstrates importance of understanding filing requirements beyond just income threshold.' 
+    }
+  ]
+},
+'tax-fundamentals-10': {
+  id: 'tax-fundamentals-10',
+  title: 'Audits & Tax Controversies',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Audits & Tax Controversies' },
+    { type: 'text', content:
+      'IRS audits examine tax returns to verify accuracy and compliance with tax laws. \
+Audit rates are low (0.4% overall) but higher for certain groups (high income, business owners, certain deductions). \
+Types: Correspondence audits (mail), office audits (IRS office), field audits (your location). \
+Tax controversies include disputes over interpretation, collections issues, and appeals procedures. \
+Proper record-keeping, accurate reporting, and professional representation reduce audit risks and improve outcomes if audited.' 
+    },
+    { type: 'subtitle', content: 'Audit Triggers & Process' },
+    { type: 'text', content:
+      'Common triggers: High income (>$500,000), business losses, large charitable deductions, home office deductions, inconsistent reporting. \
+Audit process: IRS notice, information request, examination, proposed adjustments, agreement or appeal. \
+Appeals: Can appeal within IRS or to Tax Court if disagree with findings. \
+Statute of limitations: Generally 3 years from filing date, extended to 6 years if substantial underreporting (>25% of income). \
+Record retention: Keep records 3-7 years depending on situation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Small business owner deducted $15,000 home office (20% of $75,000 mortgage interest, utilities, etc.). \
+IRS flags return for audit due to high home office percentage. \
+Audit request: Documentation of exclusive business use, square footage calculations, utility bills. \
+Owner has: Photos of dedicated office, measurements, logs of business use, utility bills. \
+IRS allows $10,000 deduction (determines 15% business use more appropriate than 20%). \
+Additional tax: $1,200 (24% of $5,000 disallowed) plus interest. \
+Without documentation, entire $15,000 could have been disallowed: $3,600 additional tax. \
+Lesson: Substantiate deductions with contemporaneous records. \
+If disagree with adjustment, can appeal providing additional evidence or expert opinion.' 
+    }
+  ]
+},
+
+// ====Financial Analysis=====
+
+'financial-analysis-1': {
+  id: 'financial-analysis-1',
+  title: 'Financial Statement Basics',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Statement Basics' },
+    { type: 'text', content:
+      'Financial statements provide snapshot of company\'s financial health and performance. \
+Three primary statements: Income Statement (profitability), Balance Sheet (financial position), and Cash Flow Statement (liquidity). \
+Together they reveal how company generates revenue, manages expenses, controls assets/liabilities, and creates cash flow. \
+Understanding financial statements enables investment decisions, credit analysis, and business management. \
+Financial statement analysis transforms raw accounting data into actionable business insights.' 
+    },
+    { type: 'subtitle', content: 'Statement Components' },
+    { type: 'text', content:
+      'Income Statement: Revenue - Expenses = Net Income (over period). \
+Balance Sheet: Assets = Liabilities + Equity (at point in time). \
+Cash Flow Statement: Operating + Investing + Financing activities = Change in Cash. \
+Each statement connects: Net Income from Income Statement flows to Balance Sheet (Retained Earnings) and Cash Flow Statement. \
+Financial analysis examines relationships within and between these statements.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Analyzing Apple Inc. financial statements (2022): \
+Income Statement: Revenue $394 billion, Net Income $100 billion (25% net margin). \
+Balance Sheet: Total Assets $352 billion ($67 billion cash), Total Liabilities $302 billion, Equity $50 billion. \
+Cash Flow Statement: Operating Cash Flow $122 billion, Investing -$22 billion, Financing -$107 billion. \
+Key insights: Highly profitable, massive cash generation, returning cash to shareholders via buybacks/dividends. \
+Debt used strategically despite large cash position (tax-efficient financing). \
+This analysis reveals business model strength and capital allocation priorities.' 
+    }
+  ]
+},
+'financial-analysis-2': {
+  id: 'financial-analysis-2',
+  title: 'Ratio Analysis Fundamentals',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Ratio Analysis Fundamentals' },
+    { type: 'text', content:
+      'Financial ratios quantify relationships between different financial statement items to assess performance and condition. \
+Categories: profitability ratios, liquidity ratios, solvency ratios, efficiency ratios, and market ratios. \
+Ratios provide standardization for comparing companies of different sizes and across industries. \
+Trend analysis (ratios over time) reveals improving or deteriorating financial condition. \
+Ratio analysis must consider industry context and business model differences.' 
+    },
+    { type: 'subtitle', content: 'Ratio Categories' },
+    { type: 'text', content:
+      'Profitability: Gross margin, operating margin, net margin, return on equity (ROE), return on assets (ROA). \
+Liquidity: Current ratio, quick ratio, cash ratio (ability to meet short-term obligations). \
+Solvency: Debt-to-equity, interest coverage, debt-to-EBITDA (long-term financial stability). \
+Efficiency: Inventory turnover, receivables turnover, asset turnover (asset utilization effectiveness). \
+Market: Price-to-earnings (P/E), price-to-book (P/B), dividend yield.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Comparing two retail companies using ratios: \
+Company A (Walmart): Gross margin 25%, net margin 2%, ROE 20%, current ratio 0.8, inventory turnover 8x. \
+Company B (Target): Gross margin 28%, net margin 4%, ROE 30%, current ratio 0.9, inventory turnover 6x. \
+Analysis: Target more profitable but slower inventory turnover. Walmart lower margins but superior inventory management. \
+Walmart current ratio below 1 might seem concerning, but typical for efficient retailers using supplier financing. \
+Target\'s higher ROE suggests better returns for shareholders. \
+This demonstrates ratio analysis providing insights beyond raw financial numbers.' 
+    }
+  ]
+},
+'financial-analysis-3': {
+  id: 'financial-analysis-3',
+  title: 'Cash Flow Analysis',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cash Flow Analysis' },
+    { type: 'text', content:
+      'Cash flow analysis examines sources and uses of cash, revealing company\'s ability to generate cash from operations. \
+The statement of cash flows categorizes cash movements: operating activities, investing activities, financing activities. \
+Operating cash flow indicates core business profitability and sustainability. \
+Free Cash Flow (Operating Cash Flow - Capital Expenditures) shows cash available for shareholders. \
+Cash flow analysis often more revealing than earnings analysis since "cash is king."' 
+    },
+    { type: 'subtitle', content: 'Cash Flow Components' },
+    { type: 'text', content:
+      'Operating activities: Cash from sales, payments to suppliers/employees, interest/taxes (core business). \
+Investing activities: Capital expenditures, acquisitions, investment purchases/sales (long-term assets). \
+Financing activities: Debt issuance/repayment, equity issuance/repurchase, dividends (capital structure). \
+Free Cash Flow: Operating cash flow minus capital expenditures (cash available for shareholders). \
+Cash conversion cycle: Days inventory + days receivables - days payables (cash efficiency metric).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Amazon cash flow analysis (2022): \
+Operating cash flow: $46.8 billion (strong cash generation). \
+Investing activities: -$62.3 billion (heavy investment in infrastructure, AWS). \
+Financing activities: -$13.2 billion (share buybacks, debt repayment). \
+Net change in cash: -$28.7 billion (cash decreased despite strong operations due to investments). \
+Free Cash Flow: -$15.5 billion (operating cash flow minus $62.3 billion investments). \
+Interpretation: Amazon reinvesting heavily for growth, sacrificing short-term free cash flow for long-term dominance. \
+This contrasts with mature companies generating positive free cash flow for dividends/buybacks. \
+Cash flow analysis reveals Amazon\'s growth-oriented strategy despite negative free cash flow.' 
+    }
+  ]
+},
+'financial-analysis-4': {
+  id: 'financial-analysis-4',
+  title: 'Profitability Analysis',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Profitability Analysis' },
+    { type: 'text', content:
+      'Profitability analysis measures company\'s ability to generate earnings relative to revenue, assets, and equity. \
+Key margins: gross margin, operating margin, net margin reveal cost structure efficiency at different levels. \
+Return ratios: return on assets (ROA), return on equity (ROE) measure efficiency of asset and equity utilization. \
+DuPont analysis decomposes ROE into profitability, efficiency, and leverage components. \
+Profitability trends and comparisons with competitors indicate competitive advantages or disadvantages.' 
+    },
+    { type: 'subtitle', content: 'Profitability Metrics' },
+    { type: 'text', content:
+      'Gross margin: (Revenue - Cost of Goods Sold) / Revenue (production efficiency). \
+Operating margin: Operating Income / Revenue (core business profitability before financing/taxes). \
+Net margin: Net Income / Revenue (overall profitability after all expenses). \
+Return on Assets (ROA): Net Income / Total Assets (asset utilization efficiency). \
+Return on Equity (ROE): Net Income / Shareholders\' Equity (shareholder return on investment).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'DuPont analysis of two technology companies: \
+Company A: Net margin 20%, Asset turnover 0.5x, Equity multiplier 2.0 → ROE = 20% × 0.5 × 2.0 = 20%. \
+Company B: Net margin 10%, Asset turnover 1.0x, Equity multiplier 2.0 → ROE = 10% × 1.0 × 2.0 = 20%. \
+Same ROE but different drivers: Company A highly profitable but inefficient with assets; Company B less profitable but efficient asset user. \
+Further analysis: Company A might be software (high margins, low asset intensity); Company B might be hardware (lower margins, higher asset turnover). \
+This decomposition reveals business model differences masked by identical ROE. \
+Trend analysis: If Company A\'s asset turnover improving while maintaining margins, ROE would increase further.' 
+    }
+  ]
+},
+'financial-analysis-5': {
+  id: 'financial-analysis-5',
+  title: 'Liquidity & Solvency Analysis',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Liquidity & Solvency Analysis' },
+    { type: 'text', content:
+      'Liquidity analysis assesses company\'s ability to meet short-term obligations (<1 year). \
+Solvency analysis evaluates long-term financial stability and ability to meet long-term obligations. \
+Liquidity ratios: current ratio, quick ratio, cash ratio measure short-term payment capacity. \
+Solvency ratios: debt-to-equity, interest coverage, debt-to-EBITDA measure financial leverage and risk. \
+Both analyses essential for creditors, investors, and management evaluating financial risk.' 
+    },
+    { type: 'subtitle', content: 'Key Ratios' },
+    { type: 'text', content:
+      'Current ratio: Current Assets / Current Liabilities (ideally >1.5). \
+Quick ratio: (Current Assets - Inventory) / Current Liabilities (more stringent). \
+Cash ratio: Cash & Equivalents / Current Liabilities (most conservative). \
+Debt-to-equity: Total Debt / Total Equity (measure of financial leverage). \
+Interest coverage: EBIT / Interest Expense (ability to service debt). \
+Debt-to-EBITDA: Total Debt / EBITDA (debt relative to cash generation).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Analyzing airline company pre-COVID vs during COVID: \
+Pre-COVID: Current ratio 0.8, Debt-to-equity 1.5, Interest coverage 5x. \
+During COVID: Current ratio 0.5, Debt-to-equity 3.0, Interest coverage 1.5x. \
+Analysis: Already tight liquidity worsened dramatically; solvency deteriorated with increased debt. \
+Interest coverage nearing 1.0 indicates barely covering interest payments, risking default. \
+Contrast with technology company: Current ratio 2.0, Debt-to-equity 0.5, Interest coverage 20x. \
+Much stronger financial position to weather economic downturns. \
+This demonstrates importance of liquidity/solvency analysis for cyclical or capital-intensive industries.' 
+    }
+  ]
+},
+'financial-analysis-6': {
+  id: 'financial-analysis-6',
+  title: 'Efficiency & Activity Ratios',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Efficiency & Activity Ratios' },
+    { type: 'text', content:
+      'Efficiency ratios measure how effectively company utilizes assets to generate revenue and manage working capital. \
+Activity ratios focus on specific asset categories: inventory turnover, receivables turnover, payables turnover. \
+Cash conversion cycle combines three components: days inventory outstanding + days sales outstanding - days payables outstanding. \
+Higher turnover ratios generally indicate better efficiency, but industry norms vary significantly. \
+Efficiency analysis reveals operational strengths and working capital management effectiveness.' 
+    },
+    { type: 'subtitle', content: 'Efficiency Metrics' },
+    { type: 'text', content:
+      'Inventory turnover: Cost of Goods Sold / Average Inventory (how quickly inventory sells). \
+Days inventory outstanding: 365 / Inventory turnover (days inventory held). \
+Receivables turnover: Revenue / Average Accounts Receivable (how quickly collect from customers). \
+Days sales outstanding: 365 / Receivables turnover (average collection period). \
+Asset turnover: Revenue / Total Assets (overall asset utilization). \
+Cash conversion cycle: DIO + DSO - DPO (cash tied up in working capital).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Comparing two manufacturing companies: \
+Company A: Inventory turnover 6x (61 days), DSO 45 days, DPO 30 days → Cash conversion cycle = 76 days. \
+Company B: Inventory turnover 8x (46 days), DSO 30 days, DPO 60 days → Cash conversion cycle = 16 days. \
+Analysis: Company B more efficient—faster inventory sales, quicker collections, longer payment terms to suppliers. \
+Company B needs less working capital financing, freeing cash for other uses. \
+If both companies have $100 million revenue: \
+Company A working capital tied up: $100M × (76/365) = $20.8 million. \
+Company B: $100M × (16/365) = $4.4 million. \
+Company B has $16.4 million more cash available for growth or shareholder returns.' 
+    }
+  ]
+},
+'financial-analysis-7': {
+  id: 'financial-analysis-7',
+  title: 'Valuation Techniques',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Valuation Techniques' },
+    { type: 'text', content:
+      'Valuation determines intrinsic worth of company or asset using quantitative models. \
+Approaches include discounted cash flow (intrinsic valuation) and comparable company analysis (relative valuation). \
+DCF projects future cash flows discounted to present value using weighted average cost of capital. \
+Comparable analysis uses valuation multiples (P/E, EV/EBITDA) of similar public companies. \
+Different methods suit different company types: DCF for predictable cash flows, multiples for companies with comparable peers.' 
+    },
+    { type: 'subtitle', content: 'Valuation Methods' },
+    { type: 'text', content:
+      'Discounted Cash Flow: Present value of projected free cash flows + terminal value. \
+Comparable company analysis: Valuation multiples relative to similar public companies. \
+Precedent transactions: Multiples paid in recent acquisitions of similar companies. \
+Leveraged buyout analysis: Maximum price private equity could pay given target returns. \
+Asset-based valuation: Net asset value (assets minus liabilities).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Valuing established manufacturing company: \
+DCF approach: Project free cash flows 5 years: $10M, $11M, $12M, $13M, $14M. \
+Terminal value: $14M × (1+3% growth) ÷ (10% discount rate - 3%) = $206M. \
+Present value: $10M/1.1 + $11M/1.1² + $12M/1.1³ + $13M/1.1⁴ + ($14M+$206M)/1.1⁵ = $163M. \
+Comparable analysis: Similar public companies trade at 8x EBITDA. \
+Company EBITDA: $25M → Value: $200M. \
+Precedent transactions: Recent acquisitions at 9x EBITDA → $225M. \
+Weighted valuation: DCF 40%, comparables 40%, transactions 20% → $163M×0.4 + $200M×0.4 + $225M×0.2 = $190M estimated value. \
+This triangulation provides more reliable estimate than single method.' 
+    }
+  ]
+},
+'financial-analysis-8': {
+  id: 'financial-analysis-8',
+  title: 'Budgeting & Forecasting',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Budgeting & Forecasting' },
+    { type: 'text', content:
+      'Financial budgeting plans future revenues, expenses, and cash flows to guide business operations. \
+Forecasting predicts future financial outcomes based on historical data, trends, and assumptions. \
+Budgeting is prescriptive (what should happen); forecasting is predictive (what will likely happen). \
+Both processes involve revenue projections, expense estimates, capital expenditure planning, and working capital requirements. \
+Effective budgeting and forecasting enable proactive management and resource allocation.' 
+    },
+    { type: 'subtitle', content: 'Budgeting Approaches' },
+    { type: 'text', content:
+      'Incremental budgeting: Base budget on prior period plus percentage increase. \
+Zero-based budgeting: Justify all expenses from scratch each period. \
+Activity-based budgeting: Budget based on expected activities and their costs. \
+Rolling forecasts: Continuously updated forecasts extending 12-18 months forward. \
+Scenario planning: Multiple forecasts based on different assumptions (best case, base case, worst case).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Restaurant chain creating 2024 budget: \
+Revenue forecast: Based on same-store sales growth (historical 3% + 2% price increase = 5%), new locations (4 openings). \
+Expense budget: Food cost 30% of revenue (historical 28% + 2% inflation), labor 25% (wage increases), rent fixed per contract. \
+Capital expenditures: $500,000 for new locations, $200,000 for equipment upgrades. \
+Working capital: Inventory increase with sales, receivables minimal (mostly cash sales). \
+Cash flow forecast: Operating cash flow $1.2M, investing -$700K, financing $0 (no borrowing planned). \
+Net cash increase: $500K, building buffer for uncertainties. \
+Monthly variance analysis compares actual to budget, identifying issues early (e.g., food costs running 32% vs 30% budget).' 
+    }
+  ]
+},
+'financial-analysis-9': {
+  id: 'financial-analysis-9',
+  title: 'Cost Analysis & Control',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Cost Analysis & Control' },
+    { type: 'text', content:
+      'Cost analysis examines expense structure to identify savings opportunities and improve profitability. \
+Cost classification: fixed vs variable, direct vs indirect, product vs period costs. \
+Cost control involves monitoring expenses, investigating variances, and implementing efficiency improvements. \
+Activity-based costing allocates overhead based on actual consumption by products/services. \
+Effective cost management balances expense reduction with maintaining quality and competitive position.' 
+    },
+    { type: 'subtitle', content: 'Cost Concepts' },
+    { type: 'text', content:
+      'Fixed costs: Don\'t vary with production volume (rent, salaries, insurance). \
+Variable costs: Change with production (materials, direct labor, commissions). \
+Semi-variable: Have fixed and variable components (utilities, maintenance). \
+Direct costs: Traceable to specific products/services (materials, direct labor). \
+Indirect costs: Overhead allocated across products (administration, rent). \
+Break-even analysis: Fixed costs / (Price - Variable cost per unit).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Manufacturer analyzing product profitability: \
+Traditional costing allocated overhead evenly across products: Product A shows 15% margin, Product B 10%. \
+Activity-based costing reveals different overhead consumption: \
+Product A uses minimal engineering support, simple packaging. \
+Product B requires extensive engineering changes, special packaging, frequent setups. \
+Revised margins: Product A 20%, Product B 5%. \
+Analysis: Product B barely profitable despite similar sales price to Product A. \
+Options: Increase Product B price 15%, reduce engineering requirements, or discontinue if can\'t improve profitability. \
+Without ABC, company might have expanded Product B production, actually reducing overall profitability. \
+This demonstrates cost analysis driving strategic decisions.' 
+    }
+  ]
+},
+'financial-analysis-10': {
+  id: 'financial-analysis-10',
+  title: 'Financial Modeling Basics',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Financial Modeling Basics' },
+    { type: 'text', content:
+      'Financial modeling creates mathematical representation of company\'s financial performance and valuation. \
+Models project future income statements, balance sheets, and cash flow statements based on assumptions. \
+Common applications: valuation, budgeting, fundraising, merger analysis, scenario planning. \
+Best practices: logical structure, clear assumptions, sensitivity analysis, error checking. \
+Financial modeling enables data-driven decision making by quantifying impact of different scenarios.' 
+    },
+    { type: 'subtitle', content: 'Model Components' },
+    { type: 'text', content:
+      'Assumptions: Revenue growth rates, margins, working capital ratios, capital expenditures, financing terms. \
+Income statement: Project revenue, expenses, taxes to derive net income. \
+Balance sheet: Assets, liabilities, equity must balance each period. \
+Cash flow statement: Derived from income statement and balance sheet changes. \
+Supporting schedules: Debt, depreciation, working capital, equity details. \
+Sensitivity analysis: How output changes with different input assumptions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Three-statement model for SaaS company: \
+Assumptions: Revenue growth declining from 40% to 20% over 5 years, gross margin 80%, operating margin improving to 25%. \
+Income statement: Projects revenue reaching $500M in Year 5, net income $100M. \
+Balance sheet: Accounts receivable at 30 days revenue, deferred revenue growing with subscriptions. \
+Cash flow: Converts net income to cash, accounts for capital expenditures (5% of revenue). \
+Output: Free cash flow reaches $80M in Year 5. \
+Valuation: DCF values company at $1.2 billion (15x Year 5 free cash flow discounted at 12%). \
+Sensitivity analysis: Valuation range $900M-$1.5B based on growth rate (30-50%) and margin (20-30%) variations. \
+This model informs fundraising discussions and strategic planning.' 
+    }
+  ]
+},
+
+//====='Camera Basics =====
+
+'camera-basics-1': {
+  id: 'camera-basics-1',
+  title: 'Understanding Camera Types',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Understanding Camera Types' },
+    { type: 'text', content:
+      'Different camera types serve different photography needs, from casual snapshots to professional work. \
+DSLRs offer interchangeable lenses and optical viewfinders for precise composition. \
+Mirrorless cameras provide electronic viewfinders and compact designs with similar capabilities. \
+Point-and-shoot cameras prioritize simplicity and portability with fixed lenses. \
+Smartphone cameras offer convenience and computational photography features. \
+Choosing the right camera depends on your goals, budget, and willingness to learn.' 
+    },
+    { type: 'subtitle', content: 'Camera Categories' },
+    { type: 'text', content:
+      'DSLR (Digital Single-Lens Reflex): Uses mirror mechanism for optical viewfinder, extensive lens selection. \
+Mirrorless: Electronic viewfinder, compact size, fast autofocus, growing lens ecosystems. \
+Point-and-Shoot: Fixed lens, automatic controls, pocket-sized convenience. \
+Smartphone: Always available, computational photography, AI enhancements, social media ready. \
+Medium Format: Higher image quality, larger sensors, used by professionals for commercial work.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sarah wants to start photography but doesn\'t know which camera to buy. \
+For casual family photos and vacations: Smartphone or point-and-shoot offers simplicity. \
+For learning photography seriously: Entry-level DSLR or mirrorless with kit lens. \
+For professional work: Full-frame mirrorless with multiple lenses. \
+Sarah chooses an entry-level mirrorless camera - it\'s lightweight, has good image quality, and lets her grow skills. \
+Within a year, she upgrades lenses while keeping the same camera body, demonstrating the importance of starting with expandable system.' 
+    }
+  ]
+},
+'camera-basics-2': {
+  id: 'camera-basics-2',
+  title: 'Exposure Triangle Fundamentals',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Exposure Triangle Fundamentals' },
+    { type: 'text', content:
+      'The exposure triangle consists of aperture, shutter speed, and ISO - three settings controlling light reaching the sensor. \
+Aperture controls depth of field (how much is in focus) and light amount. \
+Shutter speed determines motion blur and light duration. \
+ISO affects sensor sensitivity and image noise. \
+Balancing these three elements creates properly exposed photographs while achieving desired creative effects.' 
+    },
+    { type: 'subtitle', content: 'Exposure Components' },
+    { type: 'text', content:
+      'Aperture: Measured in f-stops (f/1.4, f/2.8, f/8, f/16). Lower numbers = larger opening = more light = shallower depth of field. \
+Shutter Speed: Measured in seconds/fractions (1/500, 1/60, 1", 30"). Faster = freeze motion; slower = motion blur. \
+ISO: Numbers like 100, 400, 1600, 6400. Lower = less sensitive = cleaner images; higher = more sensitive = more noise. \
+Each setting affects exposure differently while also controlling creative aspects of the image.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Photographing a running child in a park on a sunny day: \
+Goal: Freeze motion while keeping everything in focus. \
+Settings: Fast shutter speed 1/500s to freeze movement. \
+Small aperture f/8 for deep depth of field. \
+Low ISO 100 for clean image. \
+Result: Sharp, well-exposed photo with everything in focus. \
+Same scene but artistic portrait: \
+Shutter speed 1/125s (still fast enough). \
+Wide aperture f/2.8 for blurred background. \
+ISO 100. \
+Result: Child sharp against creamy blurred background. \
+Understanding exposure triangle lets you choose between different creative outcomes.' 
+    }
+  ]
+},
+'camera-basics-3': {
+  id: 'camera-basics-3',
+  title: 'Lens Types & Focal Lengths',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Lens Types & Focal Lengths' },
+    { type: 'text', content:
+      'Lenses are categorized by focal length, which determines angle of view and perspective. \
+Wide-angle lenses (14-35mm) capture more scene, exaggerate perspective, and have deep depth of field. \
+Standard lenses (35-70mm) mimic human eye perspective, versatile for many situations. \
+Telephoto lenses (70-300mm+) magnify distant subjects, compress perspective, and create shallow depth of field. \
+Prime lenses have fixed focal length, often faster apertures; zoom lenses offer variable focal lengths for flexibility.' 
+    },
+    { type: 'subtitle', content: 'Lens Categories' },
+    { type: 'text', content:
+      'Ultra-wide (14-24mm): Dramatic perspectives, architecture, interiors. \
+Wide-angle (24-35mm): Landscapes, street photography, environmental portraits. \
+Standard (35-70mm): Versatile for portraits, street, everyday photography. \
+Telephoto (70-200mm): Portraits, sports, wildlife, compression effects. \
+Super-telephoto (200mm+): Wildlife, sports, distant subjects. \
+Macro: Extreme close-ups with 1:1 reproduction ratio.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Photographing a city scene: \
+Wide-angle 24mm: Captures entire street with buildings, exaggerates perspective making buildings appear to lean. \
+Standard 50mm: Natural perspective showing street as human eye sees it, good for street scenes with people. \
+Telephoto 135mm: Isolates architectural details, compresses perspective making buildings appear closer together. \
+For portraits: \
+85mm prime: Flattering compression, beautiful background blur at f/1.8. \
+24-70mm zoom: Versatile for full-body to headshots without changing lenses. \
+Understanding lenses helps anticipate how different focal lengths will render the same scene differently.' 
+    }
+  ]
+},
+'camera-basics-4': {
+  id: 'camera-basics-4',
+  title: 'Camera Modes Explained',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Camera Modes Explained' },
+    { type: 'text', content:
+      'Camera modes control how automation interacts with manual settings. \
+Auto modes make all decisions for you; semi-auto modes give partial control; manual provides complete control. \
+Understanding different modes helps transition from automatic to creative photography. \
+Each mode serves specific situations: portrait, landscape, sports, night photography, etc. \
+Mastering camera modes is essential step toward intentional photography.' 
+    },
+    { type: 'subtitle', content: 'Camera Modes' },
+    { type: 'text', content:
+      'Auto (Green Box): Camera decides everything - good for beginners or when you need to shoot quickly. \
+Program (P): Camera sets exposure, you control other settings like ISO, white balance, flash. \
+Aperture Priority (A/Av): You choose aperture, camera selects shutter speed for proper exposure. \
+Shutter Priority (S/Tv): You choose shutter speed, camera selects aperture. \
+Manual (M): You control aperture, shutter speed, and ISO - complete creative control. \
+Scene Modes: Pre-programmed for specific situations (portrait, landscape, sports, night).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Shooting a soccer game: \
+Sports mode: Camera selects fast shutter speed to freeze action, continuous autofocus. \
+Better: Shutter Priority mode at 1/1000s to ensure motion freezing, Auto ISO to handle changing light. \
+Portrait session outdoors: \
+Aperture Priority at f/2.8 for blurred background, camera adjusts shutter speed as clouds pass. \
+Landscape at sunrise: \
+Manual mode: f/11 for depth of field, ISO 100 for quality, adjust shutter speed for proper exposure. \
+Low-light concert: \
+Manual mode with specific settings: f/2.8, 1/125s, ISO 3200 - maintains consistency despite changing stage lights. \
+Each mode offers appropriate level of control for the situation.' 
+    }
+  ]
+},
+'camera-basics-5': {
+  id: 'camera-basics-5',
+  title: 'Focusing Techniques',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Focusing Techniques' },
+    { type: 'text', content:
+      'Focus determines which parts of your image appear sharpest. \
+Autofocus systems use contrast or phase detection to lock onto subjects automatically. \
+Manual focus gives complete control but requires practice and good eyesight. \
+Different focus modes suit different situations: single for stationary subjects, continuous for moving subjects. \
+Understanding focus points, modes, and techniques ensures your subject is sharp where intended.' 
+    },
+    { type: 'subtitle', content: 'Focus Methods' },
+    { type: 'text', content:
+      'Single AF-S (One-Shot): Locks focus when shutter half-pressed, good for still subjects. \
+Continuous AF-C (AI Servo): Continuously adjusts focus on moving subjects. \
+Automatic AF-A: Camera decides between single and continuous. \
+Manual Focus: Complete control using focus ring on lens. \
+Focus Points: Select specific area of frame for camera to focus on. \
+Back-button Focus: Separates focus from shutter button for better control.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Portrait photography: \
+Single AF point on subject\'s eye, half-press to lock focus, recompose if needed, then shoot. \
+Birds in flight: \
+Continuous AF with tracking, multiple focus points activated, camera follows bird movement. \
+Macro photography: \
+Manual focus with focus peaking (if available), tiny adjustments using focus ring, tripod essential. \
+Street photography: \
+Zone focusing: set manual focus to specific distance (e.g., 10 feet), use aperture f/8 for depth of field - everything from 7-15 feet in focus. \
+Low-light situations: \
+Switch to manual focus if autofocus struggles, use live view zoomed in for precise focusing. \
+Each technique ensures sharp results for different photographic situations.' 
+    }
+  ]
+},
+'camera-basics-6': {
+  id: 'camera-basics-6',
+  title: 'White Balance & Color',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'White Balance & Color' },
+    { type: 'text', content:
+      'White balance adjusts colors so white objects appear white under different light sources. \
+Different light temperatures (measured in Kelvin) affect color cast: tungsten (warm/orange), fluorescent (green), daylight (neutral), shade (blue). \
+Auto White Balance attempts to neutralize color casts automatically. \
+Manual white balance presets or custom Kelvin settings provide more accurate color. \
+Proper white balance ensures natural-looking colors or can be used creatively for mood.' 
+    },
+    { type: 'subtitle', content: 'White Balance Settings' },
+    { type: 'text', content:
+      'Auto White Balance (AWB): Camera attempts to neutralize color casts automatically. \
+Daylight (~5500K): Neutral setting for midday sun. \
+Shade (~7500K): Compensates for blue cast in open shade. \
+Cloudy (~6500K): Warmer than daylight for overcast conditions. \
+Tungsten (~3200K): Compensates for orange indoor lighting. \
+Fluorescent (~4000K): Corrects green cast from fluorescent lights. \
+Custom/Kelvin: Set specific temperature (2500K-10000K).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Indoor portrait under household bulbs: \
+AWB might produce yellowish skin tones. \
+Tungsten preset corrects orange cast for natural skin tones. \
+Alternatively, custom white balance using gray card for perfect accuracy. \
+Sunset photography: \
+Daylight preset maintains warm golden tones. \
+AWB might neutralize the warmth, losing sunset mood. \
+Creative choice: Use Shade preset (7500K) to enhance warmth even more. \
+Product photography in studio: \
+Custom white balance using gray card ensures accurate colors for catalog. \
+Shooting RAW allows adjusting white balance in post-processing without quality loss. \
+Understanding white balance lets you control mood and accuracy in your images.' 
+    }
+  ]
+},
+'camera-basics-7': {
+  id: 'camera-basics-7',
+  title: 'Understanding Image Sensors',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Understanding Image Sensors' },
+    { type: 'text', content:
+      'Image sensors convert light into digital signals, forming the heart of digital cameras. \
+Sensor size affects image quality, depth of field, low-light performance, and lens selection. \
+Larger sensors generally produce better image quality with less noise, especially in low light. \
+Megapixels measure resolution but don\'t directly correlate with image quality - sensor size and pixel quality matter more. \
+Understanding sensor characteristics helps choose appropriate camera and predict image results.' 
+    },
+    { type: 'subtitle', content: 'Sensor Sizes' },
+    { type: 'text', content:
+      'Full Frame (36×24mm): Same as 35mm film, best quality, shallow depth of field capability. \
+APS-C (~24×16mm): Common in entry/mid-level cameras, crop factor 1.5-1.6x. \
+Micro Four Thirds (17×13mm): Smaller system, crop factor 2x, compact lenses. \
+1-inch (13×9mm): High-end compacts, bridge cameras. \
+Smartphone (tiny): Computational photography compensates for small size.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Comparing different cameras shooting the same portrait with 50mm lens at f/2.8: \
+Full Frame: Natural perspective, very shallow depth of field, excellent low-light performance at ISO 3200. \
+APS-C: Slightly tighter field of view (equivalent to 75mm on full frame), deeper depth of field, more noise at ISO 3200. \
+Smartphone: Computational portrait mode simulates shallow depth of field, struggles in low light, heavy processing. \
+Low-light comparison: \
+Full Frame at ISO 6400: Clean, usable image. \
+APS-C at ISO 6400: Noticeable noise, reduced dynamic range. \
+Smartphone at night mode: Multiple exposures combined, processed result but with artifacts. \
+Understanding sensors helps set realistic expectations and choose appropriate equipment.' 
+    }
+  ]
+},
+'camera-basics-8': {
+  id: 'camera-basics-8',
+  title: 'File Formats: RAW vs JPEG',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'File Formats: RAW vs JPEG' },
+    { type: 'text', content:
+      'RAW files contain unprocessed sensor data, offering maximum flexibility in post-processing. \
+JPEG files are processed in-camera, compressed, and ready to use but with limited editing potential. \
+RAW preserves more detail in highlights and shadows, allowing recovery of over/under-exposed areas. \
+JPEG saves space and is instantly shareable but applies compression and processing decisions you can\'t undo. \
+Choosing between formats depends on your workflow, storage capacity, and editing intentions.' 
+    },
+    { type: 'subtitle', content: 'Format Comparison' },
+    { type: 'text', content:
+      'RAW: Uncompressed sensor data, larger files (20-50MB), requires processing, maximum editing flexibility. \
+JPEG: Compressed, smaller files (3-8MB), ready to share, limited editing headroom. \
+Advantages RAW: Recover highlights/shadows, adjust white balance non-destructively, more detail, better printing quality. \
+Advantages JPEG: Smaller size, faster workflow, no processing needed, universally compatible. \
+Many cameras offer RAW+JPEG: Both files simultaneously.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Wedding photographer shooting important moments: \
+Shoots RAW+JPEG: JPEG for quick previews and client sharing, RAW for final editing. \
+Landscape photographer at sunrise: \
+Shoots only RAW to capture maximum dynamic range, recover shadow detail in foreground and highlight detail in sky. \
+Sports photographer covering fast-paced event: \
+Shoots JPEG only for smaller files, faster buffer clearing, immediate delivery to editor. \
+Family vacation photos: \
+JPEG only for simplicity, direct sharing to social media, less storage needed. \
+Editing comparison: \
+Mistakenly shot portrait with tungsten lighting: RAW allows perfect white balance correction; JPEG correction leaves color casts. \
+Overexposed sky: RAW recovers cloud detail; JPEG shows clipped white with no recovery possible.' 
+    }
+  ]
+},
+'camera-basics-9': {
+  id: 'camera-basics-9',
+  title: 'Essential Camera Accessories',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Essential Camera Accessories' },
+    { type: 'text', content:
+      'Accessories enhance camera capabilities, improve image quality, and expand creative possibilities. \
+Essential accessories include tripods, external flashes, filters, extra batteries/memory cards, and camera bags. \
+Each accessory solves specific problems: stability in low light, better lighting control, creative effects, or protection. \
+Investing in the right accessories often improves photography more than upgrading camera bodies. \
+Understanding accessory purposes helps build kit matching your photographic needs.' 
+    },
+    { type: 'subtitle', content: 'Key Accessories' },
+    { type: 'text', content:
+      'Tripod: Essential for long exposures, low light, landscapes, self-portraits, video. \
+External Flash: Better than built-in flash, bounce capability, off-camera possibilities. \
+Filters: UV/protection, polarizing (reduce reflections, enhance skies), ND (long exposures in daylight). \
+Extra Batteries & Memory Cards: Never miss shots due to dead battery or full card. \
+Camera Bag: Protection, organization, comfortable carrying. \
+Remote Shutter Release: Eliminate camera shake for critical sharpness.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text',
+      content:
+      'Landscape photographer\'s essential kit: \
+Sturdy tripod for sunrise/sunset long exposures. \
+Polarizing filter to reduce reflections on water, enhance sky contrast. \
+ND filter for silky water effects in daylight. \
+Remote shutter release for vibration-free shots. \
+Waterproof bag for changing conditions. \
+Portrait photographer\'s additions: \
+External flash with diffuser for indoor portraits. \
+Reflector for outdoor fill light. \
+Lens selection: 85mm prime, 24-70mm zoom. \
+Street photographer\'s minimal kit: \
+Compact camera with 35mm lens. \
+Extra battery and memory cards. \
+Small discreet bag. \
+Each kit tailored to specific photographic needs and shooting style.' 
+    }
+  ]
+},
+'camera-basics-10': {
+  id: 'camera-basics-10',
+  title: 'Camera Maintenance & Care',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Camera Maintenance & Care' },
+    { type: 'text', content:
+      'Proper camera maintenance ensures longevity, reliability, and optimal performance. \
+Regular cleaning prevents dust spots on images and maintains autofocus accuracy. \
+Proper storage protects against humidity, temperature extremes, and physical damage. \
+Battery care maximizes lifespan and ensures camera readiness when needed. \
+Understanding maintenance basics saves money on repairs and prevents missed photographic opportunities.' 
+    },
+    { type: 'subtitle', content: 'Maintenance Tasks' },
+    { type: 'text', content:
+      'Sensor Cleaning: Carefully remove dust using blower, brushes, or professional cleaning. \
+Lens Cleaning: Microfiber cloth, lens pen, proper technique to avoid scratches. \
+Body Cleaning: Wipe exterior, check seals, clean contacts. \
+Battery Care: Store at 40-60% charge, avoid extreme temperatures, replace when capacity drops. \
+Storage: Dry, temperature-stable environment with silica gel for humidity control. \
+Firmware Updates: Install manufacturer updates for improved performance/bug fixes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'After beach photography session: \
+Immediate cleaning to remove sand and salt spray. \
+Use blower on camera body and lens exterior first. \
+Clean lens with microfiber cloth, checking for sand grains that could scratch. \
+Check sensor for dust spots at f/16 against white wall. \
+Use rocket blower on sensor with camera facing down. \
+Battery care: Charge batteries after use, but don\'t leave on charger indefinitely. \
+Long-term storage: Remove batteries, store in airtight container with silica gel. \
+Travel preparation: Check all equipment before trip, clean sensors, charge batteries, format memory cards. \
+Regular maintenance schedule: Monthly sensor check, quarterly thorough cleaning, annual professional sensor cleaning if heavily used. \
+Proper care extends equipment life and ensures reliability when you need it most.' 
+    }
+  ]
+},
+
+// Composition Tips====
+
+'composition-tips-1': {
+  id: 'composition-tips-1',
+  title: 'Rule of Thirds',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Rule of Thirds' },
+    { type: 'text', content:
+      'The Rule of Thirds divides frame into nine equal parts using two horizontal and two vertical lines. \
+Placing key elements along these lines or at their intersections creates balanced, engaging compositions. \
+This technique prevents centering subjects which can create static, less interesting images. \
+Most cameras and smartphones display grid lines to help apply this rule while shooting. \
+While not absolute, the Rule of Thirds provides strong starting point for effective composition.' 
+    },
+    { type: 'subtitle', content: 'Application Tips' },
+    { type: 'text', content:
+      'Horizons: Place horizon on upper or lower third line, not center. \
+Portraits: Position eyes on upper horizontal line. \
+Subjects: Place main subject at intersection points. \
+Movement: Leave space in direction subject is moving/looking. \
+Landscapes: Place interesting foreground element at lower intersection. \
+Balance: Use opposite intersection for secondary element.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Beach sunset photograph: \
+Amateur places horizon dead center, splitting image in half. \
+Using Rule of Thirds: Place horizon on lower third to emphasize colorful sky, or upper third to show interesting foreground waves. \
+Lighthouse portrait: \
+Centered lighthouse feels static. \
+Better: Position lighthouse at left vertical, with ocean expanse to the right. \
+Portrait of person looking left: \
+Place person on right vertical line, looking into left two-thirds of frame. \
+Creates sense of space and direction. \
+Cityscape with building: \
+Position building at right intersection, include interesting sky or foreground at left intersection. \
+Breaking the rule: Sometimes centering works for symmetry or powerful statements, but understand the rule before breaking it.' 
+    }
+  ]
+},
+'composition-tips-2': {
+  id: 'composition-tips-2',
+  title: 'Leading Lines & Paths',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Leading Lines & Paths' },
+    { type: 'text', content:
+      'Leading lines guide viewer\'s eye through photograph toward main subject or point of interest. \
+Natural lines include roads, rivers, fences, bridges, or architectural elements. \
+Lines can be straight, curved, diagonal, or converging, each creating different visual flow. \
+Effective leading lines start near frame edge and travel toward subject, creating depth and engagement. \
+Finding and utilizing lines transforms ordinary scenes into compelling compositions.' 
+    },
+    { type: 'subtitle', content: 'Line Types' },
+    { type: 'text', content:
+      'Converging lines: Railroad tracks, roads, building edges that meet in distance creating depth. \
+Curved lines: Rivers, pathways, winding roads that create graceful flow through image. \
+Diagonal lines: More dynamic than horizontal/vertical, create energy and movement. \
+Implied lines: Series of objects (trees, streetlights) that create visual pathway. \
+Natural lines: Shorelines, tree branches, mountain ridges.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Country road photograph: \
+Position camera low so road starts at bottom corner, curves toward distant farmhouse. \
+Road acts as leading line drawing eye naturally to subject. \
+Bridge photography: \
+Shoot from one end using bridge railings as converging lines drawing eye to other end or cityscape beyond. \
+Forest path: \
+Path winding through trees creates natural S-curve leading viewer into scene. \
+Urban photography: \
+Use building edges, windowsills, or shadows as diagonal lines creating dynamic composition. \
+Beach scene: \
+Use shoreline as leading line toward sunset or interesting rock formation. \
+Multiple lines: Combine foreground fence line leading to middle-ground road leading to background mountains. \
+Lines should enhance, not distract - ensure they lead to something interesting.' 
+    }
+  ]
+},
+'composition-tips-3': {
+  id: 'composition-tips-3',
+  title: 'Framing Techniques',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Framing Techniques' },
+    { type: 'text', content:
+      'Framing uses elements within scene to create "frame within frame," drawing attention to subject. \
+Natural frames include windows, doorways, arches, tree branches, or tunnels. \
+Frames add depth, context, and focus while eliminating distracting peripheral elements. \
+Effective framing should complement subject, not compete with it, and feel natural within scene. \
+Creative framing transforms ordinary viewpoints into unique, layered compositions.' 
+    },
+    { type: 'subtitle', content: 'Framing Elements' },
+    { type: 'text', content:
+      'Architectural frames: Windows, doorways, arches, bridges, tunnels. \
+Natural frames: Tree branches, rock formations, foliage, caves. \
+Man-made frames: Fences, gates, signs, vehicles. \
+Implied frames: Shadows, light areas, color contrasts that isolate subject. \
+Foreground frames: Objects close to camera that frame middle/background subjects.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Cathedral interior: \
+Shoot through archway to frame altar in distance, adding depth and grandeur. \
+Portrait in forest: \
+Use overhanging branches to frame subject\'s face, creating natural vignette. \
+City street: \
+Shoot through café window framing street scene outside, with reflections adding interest. \
+Mountain landscape: \
+Use foreground rock formation to frame distant peaks, creating layered composition. \
+Doorway portrait: \
+Subject leaning in doorway, frame adds context of location while focusing attention. \
+Creative framing: \
+Use subject\'s own hands to frame face in portrait. \
+Shoot between objects (fence slats, crowd gaps) to isolate subject. \
+Multiple frames: Window within room that frames view containing another architectural frame. \
+Ensure frame is in focus or intentionally blurred depending on desired effect.' 
+    }
+  ]
+},
+'composition-tips-4': {
+  id: 'composition-tips-4',
+  title: 'Symmetry & Patterns',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Symmetry & Patterns' },
+    { type: 'text', content:
+      'Symmetry creates balance and harmony through mirrored or radial arrangements. \
+Patterns involve repeating elements that create rhythm, texture, and visual interest. \
+Both techniques can produce striking, memorable images when executed deliberately. \
+Perfect symmetry often works best centered in frame, while patterns can fill frame or be interrupted for emphasis. \
+Finding symmetry and patterns requires observational skill and sometimes specific viewpoints.' 
+    },
+    { type: 'subtitle', content: 'Symmetry Types' },
+    { type: 'text', content:
+      'Reflection symmetry: Mirror image across vertical or horizontal axis (architecture, water reflections). \
+Rotational symmetry: Elements arranged around central point (flowers, circular staircases). \
+Translational symmetry: Pattern repeating across space (tiles, columns, windows). \
+Approximate symmetry: Similar but not identical elements creating balanced composition. \
+Broken symmetry: Pattern interrupted by contrasting element creating focal point.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Architecture photography: \
+Center cathedral aisle perfectly for symmetrical composition emphasizing grandeur. \
+Water reflection: \
+Place horizon in center to create perfect symmetry between landscape and reflection. \
+Pattern of bicycle racks: \
+Fill frame with repeating shapes for abstract pattern image. \
+Interrupted pattern: Row of identical red chairs with one blue chair creating focal point. \
+Natural symmetry: \
+Butterfly wings, flower petals, snowflakes - get close and center for impact. \
+Urban patterns: \
+Building windows, street grids, pedestrian crossings - shoot from directly above or straight-on. \
+Creative approaches: \
+Use symmetry in portrait with subject centered between symmetrical elements. \
+Break pattern with human element (person walking through repeating columns). \
+Multiple patterns: Layered patterns (textured wall with shadow pattern overlay). \
+Precision matters - use tripod and level for perfect symmetry.' 
+    }
+  ]
+},
+'composition-tips-5': {
+  id: 'composition-tips-5',
+  title: 'Depth & Layering',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Depth & Layering' },
+    { type: 'text', content:
+      'Depth creates three-dimensional feel in two-dimensional medium through foreground, middle ground, and background elements. \
+Layering separates these planes to guide eye through image and create sense of space. \
+Techniques include overlapping elements, atmospheric perspective, and selective focus. \
+Successful depth composition makes viewer feel they could "step into" the photograph. \
+Flat, single-plane images often feel less engaging than those with developed depth.' 
+    },
+    { type: 'subtitle', content: 'Depth Techniques' },
+    { type: 'text', content:
+      'Foreground interest: Strong element close to camera anchors composition. \
+Middle ground: Main subject area with supporting elements. \
+Background: Distant elements providing context and scale. \
+Overlapping: Elements partially hiding others creating spatial relationships. \
+Atmospheric perspective: Distant objects lighter, less saturated, less detailed (haze, fog). \
+Selective focus: Sharp foreground with blurred background (or vice versa).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Landscape photograph: \
+Foreground: Interesting rock or flowers. \
+Middle ground: Lake or field. \
+Background: Mountains with atmospheric haze. \
+All three layers create journey through image. \
+Street scene: \
+Foreground: Café table with coffee cup. \
+Middle ground: People walking on street. \
+Background: Building facades. \
+Urban portrait: \
+Foreground: Out-of-focus foliage frame. \
+Middle ground: Sharp subject. \
+Background: Bokeh city lights. \
+Forest path: \
+Overlapping tree trunks at different distances create natural depth. \
+Use wide-angle lens close to foreground element to exaggerate depth. \
+Morning fog: \
+Natural atmospheric perspective separates layers beautifully. \
+Multiple layers: Five+ distinct planes (grass, fence, house, trees, hills, sky). \
+Ensure each layer adds value, not clutter.' 
+    }
+  ]
+},
+'composition-tips-6': {
+  id: 'composition-tips-6',
+  title: 'Negative Space',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Negative Space' },
+    { type: 'text', content:
+      'Negative space is empty area around main subject, providing breathing room and emphasis. \
+Unlike empty space that feels accidental, negative space is intentional and compositional. \
+Effective negative space creates balance, evokes emotion, and directs attention powerfully. \
+Common negative spaces include sky, water, plain walls, or out-of-focus areas. \
+Mastering negative space involves understanding what to exclude as much as what to include.' 
+    },
+    { type: 'subtitle', content: 'Negative Space Uses' },
+    { type: 'text', content:
+      'Isolation: Emphasizes subject by separating from distractions. \
+Minimalism: Creates clean, simple compositions with strong impact. \
+Mood: Evokes loneliness, tranquility, freedom, or vastness. \
+Balance: Offsets detailed subject with calm area. \
+Typography: Space for text in commercial or editorial use. \
+Direction: Space where subject looks/moves into.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Portrait against plain wall: \
+Subject occupies right third, left two-thirds empty wall creates minimalist feel. \
+Bird in flight: \
+Small bird in upper left corner, vast sky as negative space conveys freedom. \
+Product photography: \
+Isolated product on white background for e-commerce or advertising. \
+Seascape: \
+Small boat centered with expansive water and sky around it. \
+Architecture: \
+Single window on large blank wall. \
+Silhouette at sunset: \
+Dark subject against colorful sky, sky as negative space. \
+Creative uses: \
+Negative space forms shape that complements subject (heart-shaped sky around couple). \
+Extreme negative space: Tiny subject in vast environment for dramatic effect. \
+Balance: Ensure negative space feels intentional, not accidental cropping. \
+Sometimes what you don\'t show is as important as what you do show.' 
+    }
+  ]
+},
+'composition-tips-7': {
+  id: 'composition-tips-7',
+  title: 'Viewpoint & Angles',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Viewpoint & Angles' },
+    { type: 'text', content:
+      'Viewpoint is physical position from which photograph is taken, dramatically affecting composition. \
+Common angles include eye-level, high-angle (looking down), low-angle (looking up), and bird\'s-eye/worm\'s-eye views. \
+Changing viewpoint can transform ordinary subject into extraordinary image. \
+Moving physically is often more effective than zooming for finding best composition. \
+Exploring different viewpoints is key to developing unique photographic style.' 
+    },
+    { type: 'subtitle', content: 'Viewpoint Types' },
+    { type: 'text', content:
+      'Eye-level: Neutral, familiar perspective, good for portraits and documentary. \
+High-angle: Looking down, makes subjects appear smaller, vulnerable, shows patterns. \
+Low-angle: Looking up, makes subjects appear larger, powerful, dramatic. \
+Bird\'s-eye: Directly above, reveals patterns, layouts, abstract compositions. \
+Worm\'s-eye: Ground level, dramatic foregrounds, unique perspectives. \
+Dutch angle: Tilted camera creates dynamism, unease, or energy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Child photography: \
+Eye-level: Connects with child\'s world, intimate. \
+Low-angle: Makes child appear taller, more powerful. \
+High-angle: Emphasizes smallness, cuteness. \
+Architecture: \
+Eye-level: Standard building photo. \
+Low-angle: Emphasizes height, grandeur. \
+Directly in front: Symmetry. \
+From corner: Dynamic diagonals. \
+Food photography: \
+45-degree angle: Classic food magazine style. \
+Overhead (flat lay): Popular for social media, shows arrangement. \
+Street scene: \
+High viewpoint from building: Reveals patterns of people, traffic flow. \
+Ground level: Intimate street details, unique perspective. \
+Landscape: \
+Low viewpoint with wide-angle: Exaggerates foreground, creates depth. \
+High viewpoint: Reveals terrain patterns. \
+Don\'t just stand and shoot - explore kneeling, climbing, lying down.' 
+    }
+  ]
+},
+'composition-tips-8': {
+  id: 'composition-tips-8',
+  title: 'Color Theory in Composition',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Color Theory in Composition' },
+    { type: 'text', content:
+      'Color relationships dramatically affect composition\'s mood, balance, and visual impact. \
+Color theory principles include complementary colors, analogous colors, color temperature, and color harmony. \
+Colors can lead eye, create focal points, evoke emotions, or establish mood. \
+Understanding color relationships helps make intentional choices in both shooting and post-processing. \
+Effective color composition often involves simplifying palette rather than including all colors.' 
+    },
+    { type: 'subtitle', content: 'Color Relationships' },
+    { type: 'text', content:
+      'Complementary colors: Opposite on color wheel (blue/orange, red/green, yellow/purple) create vibrancy. \
+Analogous colors: Neighbors on wheel (blue, blue-green, green) create harmony. \
+Monochromatic: Variations of single hue creates unity and elegance. \
+Warm vs cool: Warm colors (reds, oranges) advance; cool colors (blues, greens) recede. \
+Color weight: Bright/warm colors attract attention more than muted/cool colors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Sunset seascape: \
+Natural complementary colors: Warm orange sky against cool blue water. \
+Add person in red jacket for focal point against complementary green background. \
+Forest scene: \
+Analogous greens create harmonious, peaceful feeling. \
+Add single red mushroom for complementary pop. \
+Urban photography: \
+Monochromatic blue hour cityscape with warm yellow lights creating focal points. \
+Portrait: \
+Subject in blue shirt against orange wall (complementary). \
+Or subject in green against green background (analogous) with red lips as accent. \
+Food photography: \
+Complementary colors: Orange pumpkin soup in blue bowl. \
+Minimalist: White plate, green herbs, single red berry. \
+Color blocking: Arrange elements by color rather than subject. \
+Use color to guide eye: Bright path through muted landscape.' 
+    }
+  ]
+},
+'composition-tips-9': {
+  id: 'composition-tips-9',
+  title: 'Balance & Visual Weight',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Balance & Visual Weight' },
+    { type: 'text', content:
+      'Visual balance distributes elements so no single area overpowers others, creating harmonious composition. \
+Visual weight refers to elements\' ability to attract attention based on size, color, contrast, texture, or isolation. \
+Balance can be symmetrical (formal) or asymmetrical (informal but still balanced). \
+Understanding visual weight helps arrange elements so composition feels stable yet interesting. \
+Imbalanced compositions feel awkward; over-balanced can feel static - finding middle ground is key.' 
+    },
+    { type: 'subtitle', content: 'Balance Principles' },
+    { type: 'text', content:
+      'Symmetrical balance: Mirror image across axis, formal, stable, sometimes static. \
+Asymmetrical balance: Different elements balance through visual weight distribution. \
+Radial balance: Elements arranged around center point. \
+Color balance: Warm colors balance with larger areas of cool colors. \
+Size balance: Small bright object balances large muted object. \
+Position balance: Element near edge balanced by element near center.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Landscape with tree: \
+Tree on right balanced by interesting clouds on left. \
+Small bright sun balanced by larger dark mountain. \
+Portrait with props: \
+Subject on left third balances colorful hat on right. \
+Still life: \
+Large vase on left balanced by group of three fruits on right. \
+Small bright lemon balanced by larger dark bowl. \
+Seascape: \
+Dark foreground rocks bottom left balance bright sky top right. \
+Architecture: \
+Tall building left balanced by smaller buildings right. \
+Color balancing: \
+Small red door balances large blue wall. \
+Negative space balance: \
+Small subject in large empty area feels balanced if positioned intentionally. \
+Rule of thirds often creates good asymmetrical balance naturally. \
+Check balance by squinting - do elements feel evenly distributed?' 
+    }
+  ]
+},
+'composition-tips-10': {
+  id: 'composition-tips-10',
+  title: 'Breaking Composition Rules',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Breaking Composition Rules' },
+    { type: 'text', content:
+      'While composition rules provide strong foundation, intentionally breaking them can create powerful, unique images. \
+Effective rule-breaking requires understanding rules first, then violating them purposefully for specific effect. \
+Common breaks include centering subjects, placing horizon dead center, or including distracting elements. \
+When done intentionally, broken rules create tension, unease, or highlight unconventional beauty. \
+The key difference between mistake and artistic choice is intention and control.' 
+    },
+    { type: 'subtitle', content: 'Intentional Rule Breaks' },
+    { type: 'text', content:
+      'Centering: For symmetry, power, or when subject demands absolute focus. \
+Horizon in center: When reflections create perfect symmetry. \
+Cutting off subjects: For intimacy, mystery, or emphasis on specific part. \
+Tilted horizon: Dutch angle for energy, unease, or dynamic feeling. \
+Busy compositions: Overwhelming detail to convey chaos or abundance. \
+Extreme close-ups: Breaking conventional framing for abstract or intimate view.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Portrait centered: \
+Direct eye contact with centered subject creates powerful confrontation. \
+Reflection symmetry: \
+Horizon centered between landscape and perfect water reflection. \
+Dutch angle: \
+Tilted camera in action sports photography adds energy. \
+Extreme cropping: \
+Portrait cutting off forehead and chin focuses intensely on eyes. \
+Busy street scene: \
+Many overlapping elements convey urban chaos intentionally. \
+Breaking multiple rules: \
+Centered subject with tilted horizon and tight cropping for edgy fashion shot. \
+When it works: \
+Centered lone tree in fog creates meditative minimalism. \
+Horizon centered in mirror-like lake reflection. \
+Extreme close-up of eye for abstract pattern. \
+When it fails: \
+Unintentional tilted horizon looks like mistake. \
+Accidentally cut-off feet in portrait. \
+Centered subject with boring empty space around it. \
+Always ask: "Am I breaking this rule for deliberate effect, or is it just careless?"' 
+    }
+  ]
+},
+
+// ====Lighting Techniques=====
+
+'lighting-techniques-1': {
+  id: 'lighting-techniques-1',
+  title: 'Natural Light Fundamentals',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Natural Light Fundamentals' },
+    { type: 'text', content:
+      'Natural light from sun and sky offers beautiful,免费 lighting that changes throughout day and seasons. \
+Understanding natural light quality, direction, and color helps harness it effectively for photography. \
+Golden hour (sunrise/sunset) provides soft, warm directional light; midday offers harsh overhead light; overcast creates soft diffused light. \
+Modifiers like reflectors, diffusers, and strategic positioning control natural light\'s effects. \
+Mastering natural light is essential skill since it\'s always available and often most flattering.' 
+    },
+    { type: 'subtitle', content: 'Natural Light Types' },
+    { type: 'text', content:
+      'Golden Hour: Hour after sunrise/before sunset - warm, soft, directional, long shadows. \
+Blue Hour: Twilight before sunrise/after sunset - cool, even, moody light. \
+Midday Sun: Harsh, high contrast, overhead, unflattering shadows. \
+Open Shade: Soft, even light in shaded areas near sunlight. \
+Overcast: Nature\'s softbox - diffused, even, low contrast. \
+Window Light: Directional but soft, ideal for indoor portraits.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Portrait at 2 PM in direct sun: \
+Harsh shadows under eyes/nose, squinting subject, contrast too high. \
+Solutions: Move to open shade under tree, use reflector to bounce light back onto face, or use diffuser between sun and subject. \
+Same portrait at 5 PM (golden hour): \
+Warm directional light at angle, soft shadows, beautiful catchlights in eyes. \
+Overcast day portrait: \
+Even lighting without harsh shadows, colors appear more saturated, no squinting. \
+Indoor portrait by window: \
+Soft directional light, position subject facing window for even illumination, use reflector opposite window to fill shadows. \
+Landscape at sunrise: \
+Warm sidelight revealing texture, long interesting shadows, dramatic sky. \
+Understanding light quality transforms how you approach any photographic situation.' 
+    }
+  ]
+},
+'lighting-techniques-2': {
+  id: 'lighting-techniques-2',
+  title: 'Artificial Light Sources',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Artificial Light Sources' },
+    { type: 'text', content:
+      'Artificial lights provide controllable, consistent illumination independent of natural conditions. \
+Types include speedlights (hotshoe flashes), studio strobes, continuous lights (LED, tungsten), and practical lights (lamps, bulbs). \
+Each light type offers different characteristics: power output, color temperature, recycling time, and portability. \
+Understanding artificial light capabilities helps choose appropriate tools for different photographic needs. \
+Combining multiple artificial lights creates professional lighting setups for various effects.' 
+    },
+    { type: 'subtitle', content: 'Light Types' },
+    { type: 'text', content:
+      'Speedlights: Portable, battery-powered, mount on camera or off-camera, moderate power. \
+Studio Strobes: AC-powered, high output, fast recycling, used with modifiers in studio. \
+LED Panels: Continuous light, adjustable color temperature, good for video and stills. \
+Tungsten Lights: Warm continuous light, high heat output, classic studio look. \
+Ring Lights: Even frontal lighting, popular for beauty and macro work. \
+Practical Lights: Existing room lights used creatively within scene.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Event photography in dark venue: \
+Speedlight on camera with bounce card for quick, portable lighting. \
+Better: Off-camera flash on stand with umbrella for more flattering directional light. \
+Product photography in studio: \
+Studio strobes with softboxes for consistent, controllable lighting. \
+LED panels for video content showing product details. \
+Portrait in home studio: \
+Two strobes: key light with softbox, fill light with umbrella, hair light with grid. \
+Or single LED panel with diffusion for simpler setup. \
+Food photography: \
+Continuous LED lights to see lighting effect while arranging food. \
+Macro photography: \
+Ring light for even illumination without shadows in close-ups. \
+Mixed lighting: Combine window light with speedlight fill for balanced indoor portrait. \
+Each situation demands different artificial light solution.' 
+    }
+  ]
+},
+'lighting-techniques-3': {
+  id: 'lighting-techniques-3',
+  title: 'Light Modifiers Explained',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Light Modifiers Explained' },
+    { type: 'text', content:
+      'Light modifiers change quality, direction, and spread of light to achieve desired photographic effect. \
+Softboxes diffuse light creating soft shadows; umbrellas provide broad illumination; grids control light spill; reflectors bounce and fill. \
+Each modifier serves specific purpose: softening, directing, coloring, or shaping light. \
+Understanding modifier characteristics helps choose right tool for creating specific lighting moods and effects. \
+Often, modifier choice matters more than light source itself in determining final image quality.' 
+    },
+    { type: 'subtitle', content: 'Common Modifiers' },
+    { type: 'text', content:
+      'Softboxes: Square/octagonal fabric boxes creating soft, directional light. \
+Umbrellas: Shoot-through (soft diffused) or reflective (broader spread). \
+Beauty Dishes: Create soft yet directional light with defined catchlights. \
+Grids/Snoots: Control spill, create spotlight effects. \
+Reflectors: Bounce existing light, available in white, silver, gold, black. \
+Diffusion Panels: Large scrims soften harsh sunlight or artificial light.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text',
+      content:
+      'Portrait lighting comparison: \
+Bare flash: Harsh shadows, hard edges, unflattering. \
+Flash with small softbox: Softer shadows, more flattering, still directional. \
+Flash with large umbrella: Very soft, wrapping light, minimal shadows. \
+Beauty dish: Soft but defined shadows, circular catchlights, glamorous look. \
+Grid on flash: Spotlight effect, dramatic, isolates subject. \
+Product photography: \
+Softbox for even illumination on product. \
+Strip box for highlighting edges or creating gradients. \
+Reflector to fill shadow side. \
+Outdoor portrait with harsh sun: \
+Diffusion panel between sun and subject creates soft, flattering light. \
+Silver reflector fills shadows under chin. \
+Each modifier creates distinct lighting personality - choose based on desired mood.' 
+    }
+  ]
+},
+'lighting-techniques-4': {
+  id: 'lighting-techniques-4',
+  title: 'Portrait Lighting Patterns',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Portrait Lighting Patterns' },
+    { type: 'text', content:
+      'Portrait lighting patterns refer to shadow shapes created by directional light on human face. \
+Classic patterns include Rembrandt, loop, butterfly, split, and broad/short lighting. \
+Each pattern creates different mood, emphasizes different facial features, and suits different face shapes. \
+Understanding lighting patterns helps create flattering, intentional portraits rather than accidental lighting. \
+Pattern choice depends on subject\'s face shape, desired mood, and artistic intention.' 
+    },
+    { type: 'subtitle', content: 'Lighting Patterns' },
+    { type: 'text', content:
+      'Butterfly: Light directly in front above camera, creates shadow under nose resembling butterfly. \
+Loop: Light at 45-degree angle creates small nose shadow that loops down toward mouth. \
+Rembrandt: Light at side creates triangle of light on shadow-side cheek. \
+Split: Light directly from side, half face in light, half in shadow. \
+Broad: Light illuminates side of face closest to camera (makes face appear wider). \
+Short: Light illuminates side of face away from camera (makes face appear narrower).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Corporate headshot: \
+Loop lighting with softbox at 45 degrees - professional, flattering, not dramatic. \
+Male portrait for drama: \
+Rembrandt lighting with grid for moody, artistic feel. \
+Beauty portrait: \
+Butterfly lighting with beauty dish - glamorous, emphasizes cheekbones, creates catchlights in both eyes. \
+Character portrait: \
+Split lighting for dramatic, mysterious effect. \
+Full-face portrait: \
+Short lighting to slim face appearance. \
+Round face: Use short lighting to create slimming effect. \
+Thin face: Use broad lighting to add width. \
+Multiple light setup: \
+Key light creating pattern, fill light reducing shadow contrast, hair light separating from background. \
+Understanding patterns allows consistent, repeatable portrait lighting.' 
+    }
+  ]
+},
+'lighting-techniques-5': {
+  id: 'lighting-techniques-5',
+  title: 'Three-Point Lighting Setup',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Three-Point Lighting Setup' },
+    { type: 'text', content:
+      'Three-point lighting uses key light, fill light, and back light to create professional, dimensional portraits. \
+Key light is main light source establishing lighting pattern and direction. \
+Fill light reduces contrast by illuminating shadows created by key light. \
+Back light (hair light) separates subject from background and adds depth. \
+This classic setup provides complete control over lighting ratios, shadows, and dimension. \
+Understanding three-point lighting fundamentals applies to both studio and location work.' 
+    },
+    { type: 'subtitle', content: 'Three Points' },
+    { type: 'text', content:
+      'Key Light: Primary light source, strongest, establishes lighting pattern (45 degrees from subject). \
+Fill Light: Softer, less powerful than key, placed opposite key to fill shadows (can be reflector or second light). \
+Back Light: Behind subject, aimed at head/shoulders to create separation from background. \
+Lighting Ratio: Relationship between key and fill brightness (2:1 natural, 4:1 dramatic, 8:1 high contrast). \
+Background Light: Optional fourth light illuminating background separately.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Studio portrait setup: \
+Key: Softbox at 45 degrees left, creating loop lighting pattern. \
+Fill: White reflector right of camera, filling shadows on right side of face. \
+Back light: Small softbox with grid behind subject right, highlighting hair. \
+Adjust ratios: For dramatic portrait, reduce fill or move it farther away. \
+For high-key beauty shot, add more fill light for minimal shadows. \
+Product photography: \
+Key: Softbox left side illuminating product front. \
+Fill: Reflector right side ensuring shadow detail. \
+Back light: Strip box behind highlighting product edges. \
+Background light: Separate light on colored backdrop. \
+Simple location version: \
+Key: Window light left side. \
+Fill: White foam core right side. \
+Back light: Speedlight with grid behind subject (low power). \
+Understanding each light\'s role allows building up from simple to complex setups.' 
+    }
+  ]
+},
+'lighting-techniques-6': {
+  id: 'lighting-techniques-6',
+  title: 'High-Key vs Low-Key Lighting',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'High-Key vs Low-Key Lighting' },
+    { type: 'text', content:
+      'High-key lighting features bright, even illumination with minimal shadows, often using white backgrounds. \
+Low-key lighting creates dramatic contrast with deep shadows and limited bright areas, often using dark backgrounds. \
+High-key conveys lightness, positivity, purity; low-key suggests mystery, drama, intensity. \
+Both techniques require specific lighting setups and exposure approaches. \
+Choosing between high-key and low-key depends on subject matter and desired emotional impact.' 
+    },
+    { type: 'subtitle', content: 'Lighting Characteristics' },
+    { type: 'text', content:
+      'High-Key: Bright overall, minimal shadows, low contrast, often overexposed background, clean feeling. \
+Low-Key: Dark overall, high contrast, deep shadows, selective highlights, moody feeling. \
+High-Key Setup: Multiple lights, white backdrop, lots of fill light, even illumination. \
+Low-Key Setup: Single key light, dark backdrop, minimal fill, controlled light spill. \
+Exposure: High-key often slightly overexposed; low-key often underexposed with bright highlights.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Beauty product advertisement: \
+High-key lighting with white seamless backdrop, even soft lighting, minimal shadows. \
+Conveys purity, cleanliness, accessibility. \
+Film noir style portrait: \
+Low-key lighting with single hard light source creating dramatic shadows. \
+Conveys mystery, intensity, drama. \
+Newborn photography: \
+High-key with white blankets, soft window light, overexposed background. \
+Creates delicate, pure, angelic feeling. \
+Musician promo shot: \
+Low-key with rim lighting outlining subject against black background. \
+Creates edgy, artistic, atmospheric feel. \
+Food photography: \
+High-key for fresh, healthy foods like salads. \
+Low-key for rich, decadent foods like chocolate desserts. \
+Mixed approach: High-key background with low-key subject for contrast. \
+Each style evokes specific emotional response from viewer.' 
+    }
+  ]
+},
+'lighting-techniques-7': {
+  id: 'lighting-techniques-7',
+  title: 'Mixed Lighting Situations',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mixed Lighting Situations' },
+    { type: 'text', content:
+      'Mixed lighting combines different color temperatures (e.g., tungsten and daylight) or light types in single scene. \
+While challenging, mixed lighting can create dynamic, realistic, or artistic effects when handled intentionally. \
+Problems include color casts, uneven exposure, and competing light directions. \
+Solutions involve balancing light sources, using gels to match color temperatures, or embracing contrast creatively. \
+Understanding mixed lighting helps shoot successfully in real-world environments like events, interiors, or urban nights.' 
+    },
+    { type: 'subtitle', content: 'Mixed Lighting Approaches' },
+    { type: 'text', content:
+      'Balancing: Use flash with gels to match ambient color temperature. \
+Dominance: Choose one light source as main, let others contribute character. \
+Creative: Embrace color contrast for artistic effect. \
+Practical lights: Include lamps, neon signs, screens as part of composition. \
+Time of day: Combine window daylight with indoor artificial light. \
+Post-processing: Adjust different color areas separately.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Indoor event with tungsten lights and daylight windows: \
+Option 1: Gel flash to match tungsten, balance exposure for interior. \
+Option 2: Use daylight as main, let tungsten create warm accent. \
+Option 3: Shoot RAW, adjust white balance in post to favor one source. \
+Portrait in room with TV and table lamp: \
+Use flash as key light, allow practical lights to add ambiance and catchlights. \
+Street photography at dusk: \
+Combine blue twilight sky with warm streetlights and neon signs. \
+Creative portrait: \
+Subject lit by blue LED from one side, orange geled flash from other side. \
+Product in environment: \
+Use window light as key, include warm desk lamp in composition for atmosphere. \
+Wedding reception: \
+Balance flash with colorful dance floor lights - sometimes let colors dominate for fun effect. \
+Mixed lighting feels realistic because real world rarely has single light source.' 
+    }
+  ]
+},
+'lighting-techniques-8': {
+  id: 'lighting-techniques-8',
+  title: 'Rim & Hair Lighting',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Rim & Hair Lighting' },
+    { type: 'text', content:
+      'Rim lighting creates bright outline around subject, separating them from background and adding dimension. \
+Hair lighting specifically illuminates hair, adding shine, texture, and separation. \
+Both techniques use lights placed behind subject, aimed toward camera but hidden from view. \
+Effective rim lighting requires precise positioning to avoid lens flare and overexposure. \
+These techniques add professional polish to portraits, fashion, and commercial photography.' 
+    },
+    { type: 'subtitle', content: 'Rim Light Techniques' },
+    { type: 'text', content:
+      'Position: Directly behind subject, slightly above, aimed at their back/head. \
+Modifiers: Grids, snoots, or barn doors to control spill. \
+Intensity: Often 1-2 stops brighter than key light for defined rim. \
+Color: Can use gels for creative effects (blue for cool, orange for warm). \
+Hair Light: Similar but specifically targets hair, often with softer quality. \
+Kicker Light: Rim light from side rather than directly behind.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text',
+      content:
+      'Portrait against dark background: \
+Key light with softbox front left. \
+Rim light with grid behind right, creating bright edge along subject\'s right side. \
+Result: Subject pops from background, three-dimensional feel. \
+Fashion portrait: \
+Two rim lights: left and right behind model, creating double rim effect. \
+Hair light above and behind for shine on hair. \
+Low-key dramatic portrait: \
+Minimal key light (or none), strong rim light as main illumination. \
+Creates mysterious silhouette with bright outline. \
+Product photography: \
+Rim light behind product to highlight edges against dark background. \
+Backlit portrait outdoors: \
+Sun positioned behind subject creates natural rim light. \
+Use reflector front to fill face. \
+Creative variations: \
+Colored rim lights (blue on one side, orange on other). \
+Rim light through objects (venetian blinds, foliage) creating patterned rim. \
+Proper rim lighting requires flagging to prevent light hitting lens.' 
+    }
+  ]
+},
+'lighting-techniques-9': {
+  id: 'lighting-techniques-9',
+  title: 'Creative Lighting Effects',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Creative Lighting Effects' },
+    { type: 'text', content:
+      'Creative lighting uses unconventional techniques to produce artistic, striking, or unusual effects. \
+Techniques include light painting, bokeh shapes, colored gels, projections, and shadow play. \
+These effects transform ordinary subjects into extraordinary images through light manipulation. \
+Creative lighting often involves experimentation, DIY solutions, and embracing "happy accidents." \
+Adding creative lighting to your repertoire expands photographic possibilities beyond conventional approaches.' 
+    },
+    { type: 'subtitle', content: 'Creative Techniques' },
+    { type: 'text', content:
+      'Light Painting: Long exposure while moving light source to "paint" with light. \
+Bokeh Shapes: Custom aperture shapes creating shaped out-of-focus highlights. \
+Colored Gels: Add vibrant colors to lights for dramatic or surreal effects. \
+Projections: Project patterns, images, or textures onto subject/background. \
+Shadow Play: Use objects to create interesting shadow patterns. \
+Prism/Lens Whacking: Optical effects using prisms or detached lenses.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Light painting portrait: \
+Dark room, 30-second exposure, subject stays still. \
+Assistant uses LED wand to paint light around subject creating ethereal glow. \
+Colored gel portrait: \
+Key light with blue gel left, fill with orange gel right. \
+Creates vibrant, contrasting color effect. \
+Projection portrait: \
+Project forest scene or geometric patterns onto subject and background. \
+Creates immersive, surreal environment. \
+Bokeh shapes: \
+Cut heart shape from black paper, place over lens. \
+Shoot portrait with Christmas lights in background - hearts appear in bokeh. \
+Shadow play still life: \
+Use lace doily between light and subject to create patterned shadows. \
+Prism effect: \
+Hold prism in front of lens to create reflections, flares, and multi-exposure effects. \
+DIY solutions: \
+Use colander for spotty light pattern. \
+Christmas lights wrapped around subject for fairy light effect. \
+Creative lighting turns technical skill into artistic expression.' 
+    }
+  ]
+},
+'lighting-techniques-10': {
+  id: 'lighting-techniques-10',
+  title: 'Lighting for Different Genres',
+  image: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Lighting for Different Genres' },
+    { type: 'text', content:
+      'Different photographic genres demand specific lighting approaches to achieve their characteristic looks. \
+Portrait lighting emphasizes flattering facial illumination; product lighting highlights form and texture; landscape uses natural light creatively. \
+Understanding genre-specific lighting helps develop appropriate techniques and equipment choices. \
+While fundamentals transfer across genres, each has particular considerations and established conventions. \
+Adapting lighting approach to genre ensures images meet both technical and aesthetic expectations.' 
+    },
+    { type: 'subtitle', content: 'Genre Lighting' },
+    { type: 'text', content:
+      'Portrait: Flattering facial illumination, catchlights in eyes, controlled shadows. \
+Product: Even illumination, highlight textures, minimize reflections, show form. \
+Food: Appetizing highlights, texture emphasis, fresh appearance. \
+Fashion: Dramatic or clean depending on style, often more experimental. \
+Architecture: Even illumination, highlight design features, control interior/exterior balance. \
+Landscape: Use natural light direction/time of day for mood and texture.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Food photography: \
+Window light from side to create texture shadows. \
+Reflector opposite to fill shadows. \
+Back light to make food "glow" and appear fresh. \
+Spritz of water for sparkle highlights. \
+Product (cosmetics bottle): \
+Two strip boxes left/right for even illumination. \
+Back light to highlight edges. \
+Sweep (seamless curved background) for clean look. \
+Possible light tent for completely even lighting. \
+Architecture interior: \
+Multiple flashes to evenly light room. \
+Balance with window light (maybe ND gel on windows). \
+Long exposure for ambient light capture. \
+Landscape at sunrise: \
+Sidelight revealing texture in landforms. \
+Polarizer to reduce reflections and enhance sky. \
+Graduated ND filter to balance bright sky with darker land. \
+Event photography: \
+Bounce flash for quick, portable lighting. \
+Consider ambient light preservation for atmosphere. \
+Each genre has established lighting approaches that professionals recognize and expect.' 
+    }
+  ]
+},
+
+// =====Portrait Photography=====
+
+'portrait-photography-1': {
+  id: 'portrait-photography-1',
+  title: 'Essential Portrait Gear',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Essential Portrait Gear' },
+    { type: 'text', content:
+      'Portrait photography requires specific equipment to achieve professional, flattering results consistently. \
+Essential gear includes appropriate lenses, lighting equipment, modifiers, and support systems. \
+While great portraits can be made with minimal equipment, having right tools expands creative possibilities. \
+Investing in portrait-specific gear often improves results more than upgrading camera body alone. \
+Understanding gear purposes helps build effective portrait kit matching your style and budget.' 
+    },
+    { type: 'subtitle', content: 'Portrait Gear Essentials' },
+    { type: 'text', content:
+      'Lenses: 85mm f/1.8 (classic portrait), 50mm f/1.8 (versatile), 70-200mm f/2.8 (compression, versatility). \
+Lighting: Speedlight(s) or strobes, light stands, triggers/receivers. \
+Modifiers: Softboxes (various sizes), umbrellas, reflectors (5-in-1), diffusion panels. \
+Support: Tripod for consistency, especially with off-camera lighting. \
+Accessories: Backdrops, clamps, sandbags, battery packs, memory cards.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Starting portrait kit under $1000: \
+Camera: Used DSLR/mirrorless ($400). \
+Lens: 50mm f/1.8 ($150) - sharp, fast, great for portraits. \
+Lighting: One speedlight ($150), stand ($40), umbrella ($30), trigger ($50). \
+Reflector: 5-in-1 collapsible ($30). \
+Backdrop: Seamless paper and stand ($100). \
+Total: ~$950 for complete beginner portrait setup. \
+Upgraded professional kit: \
+Full-frame camera, 85mm f/1.4, 24-70mm f/2.8. \
+Three studio strobes with various modifiers. \
+Multiple backdrops and stands. \
+Portable battery packs for location work. \
+Advanced lighting controllers. \
+Natural light specialist kit: \
+Fast primes (35mm, 85mm), reflectors, diffusers, scout for good light locations. \
+Each photographer\'s kit evolves with their style and specialization.' 
+    }
+  ]
+},
+'portrait-photography-2': {
+  id: 'portrait-photography-2',
+  title: 'Posing Fundamentals',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Posing Fundamentals' },
+    { type: 'text', content:
+      'Posing directs subject into flattering positions that appear natural and convey desired mood. \
+Basic principles: avoid symmetry, create angles, elongate neck, show body contours, relax shoulders. \
+Effective posing considers subject\'s body type, clothing, personality, and portrait purpose. \
+Verbal cues often work better than physically positioning subjects (which can feel invasive). \
+Building repertoire of basic poses provides starting points adaptable to different subjects.' 
+    },
+    { type: 'subtitle', content: 'Posing Principles' },
+    { type: 'text', content:
+      'Weight distribution: Shift weight to back foot, pop front knee. \
+Angles: Turn body 45 degrees to camera, face toward light. \
+Hands: Relaxed, show side not palm, give them something to hold. \
+Head tilt: Slight tilt opposite shoulder direction. \
+Eyes: Look slightly above camera for engagement, away for contemplative. \
+Chin: Push forward and down slightly to define jawline.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Basic standing portrait: \
+Feet shoulder-width, weight on back foot. \
+Turn 45 degrees to camera. \
+Front knee slightly bent. \
+Hands in pockets or one on hip. \
+Shoulders relaxed, one slightly lower. \
+Head turned toward camera, slight tilt. \
+Chin forward and down. \
+Sitting portrait: \
+Sit forward on chair, don\'t lean back. \
+Cross legs at ankles, not knees. \
+Back straight, shoulders back. \
+Hands resting on legs or loosely clasped. \
+Head position variations: looking at camera, looking away, looking down then up. \
+Couple posing: \
+Create connection through touch, gaze, proximity. \
+Vary heights (one sitting, one standing). \
+Interact naturally rather than both looking at camera. \
+Guiding without touching: "Shift your weight to your left foot" rather than pushing them. \
+Demonstrate poses yourself if needed.' 
+    }
+  ]
+},
+'portrait-photography-3': {
+  id: 'portrait-photography-3',
+  title: 'Directing & Communication',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Directing & Communication' },
+    { type: 'text', content:
+      'Effective directing creates comfortable environment where subjects look natural and confident. \
+Communication skills often matter more than technical skills in portrait photography. \
+Techniques include clear instructions, positive reinforcement, conversation, and demonstration. \
+Building rapport quickly helps subjects relax and reveal genuine expressions. \
+Successful directing balances control with allowing natural moments to emerge.' 
+    },
+    { type: 'subtitle', content: 'Communication Techniques' },
+    { type: 'text', content:
+      'Clear instructions: Specific, simple directions ("chin down slightly" not "adjust your head"). \
+Positive reinforcement: Compliment what\'s working ("Great, that smile looks natural!"). \
+Conversation: Talk about interests, ask questions, listen actively. \
+Demonstration: Show pose yourself if verbal instructions fail. \
+Mirror use: Let subjects see themselves if available. \
+Humility: Admit when something isn\'t working, try different approach.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Session with nervous subject: \
+Start with conversation before camera: "Tell me about your work/hobbies." \
+Begin with simple poses: "Just stand naturally, hands at sides." \
+Give constant positive feedback: "Perfect, that\'s great, now let\'s try..." \
+Use humor to relax: "Now give me your best supermodel stare - no, too intense, let\'s dial it back!" \
+For genuine smiles: Ask them to think of something funny, or tell a joke. \
+Directing children: \
+Get on their level physically. \
+Make it game: "Let\'s see who can stand like a flamingo longest!" \
+Involve parents for natural interactions. \
+Use prompts: "Show me your superhero pose!" \
+Directing couples: \
+Give them interactions: "Whisper something funny in her ear." \
+"Forehead to forehead, close your eyes, breathe together." \
+Capture between poses when they naturally adjust or laugh. \
+Key: Subjects should feel guided, not controlled.' 
+    }
+  ]
+},
+'portrait-photography-4': {
+  id: 'portrait-photography-4',
+  title: 'Environmental Portraits',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Environmental Portraits' },
+    { type: 'text', content:
+      'Environmental portraits place subjects in their natural surroundings, telling stories about who they are. \
+The environment becomes character itself, providing context, meaning, and visual interest. \
+Successful environmental portraits balance subject with surroundings - neither dominates unintentionally. \
+Location scouting, working with available light, and incorporating meaningful props are key skills. \
+This approach works well for professionals, artists, or anyone with distinctive environment.' 
+    },
+    { type: 'subtitle', content: 'Environmental Techniques' },
+    { type: 'text', content:
+      'Location choice: Meaningful to subject (workspace, home, favorite place). \
+Composition: Include enough environment to tell story but keep subject primary. \
+Lighting: Use available light creatively, supplement with portable lighting if needed. \
+Props: Incorporate tools, objects, or elements natural to environment. \
+Interaction: Subject engaged with environment rather than just posing. \
+Lens choice: Wider than traditional portraits (35mm, 24-70mm) to include context.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Chef portrait in restaurant kitchen: \
+Wide shot showing kitchen environment, chef in foreground. \
+Medium shot: Chef at prep table with ingredients. \
+Detail: Hands chopping vegetables, focused expression. \
+Lighting: Combination of kitchen practical lights and speedlight fill. \
+Props: Knives, ingredients, kitchen tools. \
+Artist in studio: \
+Surrounded by canvases, paints, brushes. \
+Paint-splattered apron, hands with paint. \
+Natural north light from studio windows. \
+Farmer in field: \
+Early morning light, mist in background. \
+Wearing work clothes, holding tool or produce. \
+Include farm buildings or landscape in background. \
+Office professional: \
+At desk with computer, but positioned to avoid screen glare. \
+Use window light for flattering illumination. \
+Include bookshelf or awards in background for context. \
+Key: Environment should complement subject, not overwhelm.' 
+    }
+  ]
+},
+'portrait-photography-5': {
+  id: 'portrait-photography-5',
+  title: 'Family & Group Portraits',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Family & Group Portraits' },
+    { type: 'text', content:
+      'Group portraits require coordinating multiple people while maintaining individual flattery and group cohesion. \
+Challenges include varying heights, coordinating expressions, managing attention, and technical considerations like depth of field. \
+Successful group photos use hierarchical arrangement, connection between members, and technical precision. \
+Preparation, clear direction, and efficient workflow are essential for keeping groups (especially families with children) engaged. \
+Group portraits often become cherished memories, making quality worth extra effort.' 
+    },
+    { type: 'subtitle', content: 'Group Techniques' },
+    { type: 'text', content:
+      'Hierarchy: Tallest in back/center, arrange in layers for visibility. \
+Connection: Physical contact (shoulders, hands) creates unity. \
+Expressions: Get everyone looking same direction with pleasant expressions. \
+Depth of field: Use f/8 or smaller to ensure all faces sharp. \
+Lighting: Even illumination covering entire group. \
+Posing variations: Formal arranged, casual interacting, candid moments.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Family of five portrait: \
+Parents seated center, children arranged around/behind. \
+Youngest on parent\'s lap. \
+Everyone touching someone (hand on shoulder, etc.). \
+Get attention: Have assistant use noise or toy above camera. \
+Shoot rapidly to capture moments between posed shots. \
+Large extended family: \
+Use stairs or terrain for natural tiering. \
+Arrange by family units within larger group. \
+Multiple shots: Whole group, individual families, grandparents with grandchildren. \
+Corporate team: \
+Staggered standing arrangement. \
+Business attire coordinated but not matchy. \
+Serious but approachable expressions. \
+Casual friend group: \
+Interacting naturally, laughing, conversational. \
+Shot at f/4 to separate from background but keep all sharp. \
+Multiple combinations: Whole group, pairs, individuals. \
+Technical considerations: \
+Wider lens to fit everyone (but watch distortion). \
+Higher ISO if needed for sufficient depth of field. \
+Shoot many frames to ensure everyone has good expression in at least one.' 
+    }
+  ]
+},
+'portrait-photography-6': {
+  id: 'portrait-photography-6',
+  title: 'Children & Baby Portraits',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Children & Baby Portraits' },
+    { type: 'text', content:
+      'Child photography requires flexibility, patience, and understanding of developmental stages. \
+Safety is paramount, especially with newborns requiring specialized posing knowledge. \
+Successful child portraits capture genuine personality rather than forced poses. \
+Techniques include age-appropriate engagement, short attention span management, and parent involvement. \
+Equipment considerations: fast shutter speeds, continuous autofocus, simple lighting setups.' 
+    },
+    { type: 'subtitle', content: 'Age-Specific Approaches' },
+    { type: 'text', content:
+      'Newborns (0-3 months): Sleeping poses, parent involvement, safety first. \
+Babies (3-12 months): Sitting up, exploring, parent interaction shots. \
+Toddlers (1-3 years): Movement, play-based photography, short sessions. \
+Children (4-10): Personality emerges, can follow directions, activity-based. \
+Pre-teens/Teens: More like adult portraits but age-appropriate styling/posing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Newborn session: \
+Warm room, white noise, full baby. \
+Parent nearby for safety at all times. \
+Simple wraps and props, natural poses. \
+Focus on details: feet, hands, eyelashes. \
+Include parents in tender moments. \
+Toddler session: \
+Play-based: bubbles, balls, favorite toys. \
+Let them explore, photograph naturally. \
+Get down to their level. \
+Incorporate environment: park, backyard, beach. \
+Capture range: serious, laughing, curious, pensive. \
+Older child portrait: \
+Activity they enjoy: sports, music, art. \
+Conversation about interests. \
+Some directed poses, some candid. \
+Involve props meaningful to them. \
+Family with children: \
+Capture interactions rather than perfect poses. \
+Parents playing with children. \
+Individual portraits of each child. \
+Technical considerations: \
+Fast shutter speed (1/250s minimum). \
+Continuous autofocus. \
+Simple lighting (window light or single flash bounced). \
+Shoot from burst to capture fleeting expressions.' 
+    }
+  ]
+},
+'portrait-photography-7': {
+  id: 'portrait-photography-7',
+  title: 'Corporate & Business Portraits',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Corporate & Business Portraits' },
+    { type: 'text', content:
+      'Corporate portraits project professionalism, competence, and approachability for business purposes. \
+Consistency across multiple portraits (same company team) is crucial for cohesive look. \
+Technical precision, clean backgrounds, and appropriate styling characterize successful corporate work. \
+Efficiency matters as business subjects often have limited time for sessions. \
+Understanding corporate needs (website, LinkedIn, annual reports) guides approach and delivery.' 
+    },
+    { type: 'subtitle', content: 'Corporate Considerations' },
+    { type: 'text', content:
+      'Consistency: Same lighting, background, cropping across all subjects. \
+Professionalism: Appropriate attire, grooming, expressions. \
+Efficiency: Quick setup, minimal direction needed, fast turnaround. \
+Versatility: Different crops (headshot, three-quarter, environmental) for various uses. \
+Backgrounds: Clean (white, gray) or branded (office environment, logo wall). \
+Lighting: Professional but not dramatic, even illumination, catchlights in eyes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'On-location corporate team: \
+Portable studio setup: backdrop, two lights, reflector. \
+Consistent distance from background for all subjects. \
+Quick posing adjustments: "Turn shoulders 45 degrees, chin down slightly." \
+Capture multiple expressions: serious, smiling, neutral. \
+Different crops: tight headshot, medium upper body. \
+Office environmental portraits: \
+Use actual workspace with clean desk. \
+Window light combined with fill flash. \
+Include company logo or product in background. \
+Action shots: person in meeting, at computer, interacting. \
+Executive portrait: \
+More time, multiple locations within office. \
+Formal and casual options. \
+May include exterior building shot. \
+Large company (50+ employees): \
+Dedicated space for week, scheduling system. \
+Assistant manages flow, checks appearance. \
+Lighting never moves, only subject changes. \
+Same camera settings for consistency. \
+Post-processing: \
+Uniform color correction, skin smoothing, background cleaning. \
+Delivery: Multiple file types/sizes for different uses.' 
+    }
+  ]
+},
+'portrait-photography-8': {
+  id: 'portrait-photography-8',
+  title: 'Creative & Conceptual Portraits',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Creative & Conceptual Portraits' },
+    { type: 'text', content:
+      'Creative portraits prioritize artistic expression over traditional flattery or documentation. \
+Conceptual portraits convey ideas, emotions, or narratives through symbolic elements. \
+These approaches allow personal style development and push photographic boundaries. \
+Techniques include unusual lighting, props, makeup, styling, digital manipulation, and experimental processes. \
+Creative work often involves collaboration with makeup artists, stylists, and models.' 
+    },
+    { type: 'subtitle', content: 'Creative Approaches' },
+    { type: 'text', content:
+      'Conceptual: Portraits that tell stories or represent ideas. \
+Fine Art: Aesthetic emphasis, often series-based, gallery oriented. \
+Fantasy/Surreal: Imaginative elements, digital composites, otherworldly. \
+Abstract: Emphasis on form, color, texture rather than likeness. \
+Experimental: Unconventional techniques, alternative processes, mixed media.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Conceptual series on "time": \
+Subject with multiple clocks, blurred motion, double exposure. \
+Makeup aging effects, vintage clothing. \
+Symbolic props: hourglass, melting watch, calendar pages. \
+Fantasy portrait: \
+Elaborate costume and makeup (elf, fairy, creature). \
+Forest location with mist machine. \
+Digital additions: wings, magical glow, creatures. \
+Fine art nude: \
+Emphasis on form, light, shadow rather than sexuality. \
+Simple backdrop, dramatic lighting. \
+Black and white for timeless quality. \
+Abstract portrait: \
+Extreme close-up on eye with reflection. \
+Multiple exposure blending face with texture. \
+Motion blur creating painterly effect. \
+Experimental techniques: \
+Scanography (scanning face on flatbed scanner). \
+Lens whacking for dreamy focus effects. \
+Chemigram or alternative process prints. \
+Collaboration process: \
+Work with makeup artist for special effects. \
+Stylist for unique clothing. \
+Model who understands conceptual work. \
+Post-processing integral to final vision.' 
+    }
+  ]
+},
+'portrait-photography-9': {
+  id: 'portrait-photography-9',
+  title: 'Portrait Post-Processing',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Portrait Post-Processing' },
+    { type: 'text', content:
+      'Portrait retouching enhances images while maintaining natural appearance and character. \
+Ethical approach preserves unique features while addressing temporary flaws or distractions. \
+Workflow typically includes global adjustments, local refinements, skin retouching, and final output preparation. \
+Tools like frequency separation, dodge and burn, and color grading create professional results. \
+Developing consistent editing style helps build recognizable portfolio while serving client needs.' 
+    },
+    { type: 'subtitle', content: 'Retouching Workflow' },
+    { type: 'text', content:
+      'Global adjustments: Exposure, contrast, white balance, lens corrections. \
+Skin retouching: Blemish removal, even skin tone, texture preservation. \
+Dodge & burn: Enhancing contours, adding depth, shaping features. \
+Eye enhancement: Brightening, sharpening, adding catchlight. \
+Color grading: Creating mood through color adjustments. \
+Final touches: Sharpening, noise reduction, output sizing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Basic portrait retouch in Lightroom/Photoshop: \
+Lightroom: Adjust exposure, contrast, highlights/shadows. \
+White balance for natural skin tones. \
+Lens correction profile. \
+Photoshop: \
+Frequency separation for skin retouching (preserves texture while evening tone). \
+Healing brush for temporary blemishes (not removing permanent features). \
+Dodge and burn to enhance facial structure subtly. \
+Eye work: Select iris, increase clarity and brightness. \
+Add catchlight if missing. \
+Teeth whitening (subtle). \
+Color grading: \
+Add warmth to skin tones. \
+Cool shadows for contrast. \
+Subtle split toning. \
+Beauty portrait more intensive: \
+Skin smoothing while preserving pore texture. \
+More dramatic dodge and burn for sculpted look. \
+Hair retouching (flyaways, shine). \
+Makeup enhancement (intensify lips, eyes). \
+Commercial retouching: \
+Product perfectionism: every hair perfect, flawless skin. \
+Often requires hours per image. \
+Consistency across series crucial. \
+Ethical considerations: \
+Discuss retouching expectations with client. \
+Avoid changing body shape drastically. \
+Preserve character and uniqueness. \
+"Less is more" often produces most natural results.' 
+    }
+  ]
+},
+'portrait-photography-10': {
+  id: 'portrait-photography-10',
+  title: 'Building Portrait Business',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Building Portrait Business' },
+    { type: 'text', content:
+      'Professional portrait photography requires business skills alongside creative abilities. \
+Key aspects include pricing strategy, marketing, client management, and legal considerations. \
+Developing niche (families, headshots, seniors) helps target marketing efforts effectively. \
+Business growth involves portfolio development, client referrals, and continuous skill improvement. \
+Sustainable portrait business balances artistic satisfaction with financial viability.' 
+    },
+    { type: 'subtitle', content: 'Business Components' },
+    { type: 'text', content:
+      'Pricing: Cost-based or value-based, packages vs à la carte. \
+Marketing: Website portfolio, social media, networking, referrals. \
+Client experience: Booking process, session, delivery, follow-up. \
+Legal: Contracts, model releases, business structure, insurance. \
+Operations: Scheduling, invoicing, delivery systems, backup.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-Life Example' },
+    { type: 'text', content:
+      'Starting portrait business plan: \
+Niche: Family photography in local community. \
+Pricing: Introductory packages $300-500 including session and digital files. \
+Marketing: Facebook/Instagram showcasing recent work. \
+Networking: Partner with local businesses (bridal shops, children\'s stores). \
+Portfolio building: Trade sessions with attractive families for portfolio images. \
+Growing established business: \
+Raise prices as demand increases. \
+Specialize further (newborn only, corporate only). \
+Hire assistant for sessions. \
+Invest in better equipment and education. \
+Develop signature style and consistent editing. \
+Corporate portrait business: \
+Pitch to local businesses with team headshot needs. \
+Offer on-lfficiency. \
+Package pricing: per person or flat rate for team. \
+Upsell: Additional environmental shots, branding images. \
+High-end portrait studio: \
+Luxury experience: consultation, wardrobe styling, hair/makeup. \
+Heirloom products: albums, wall art, fine art prints. \
+Premium pricing reflecting quality and service. \
+Referral program for clients. \
+Business essentials regardless of level: \
+Solid contract protecting both parties. \
+Clear communication about what\'s included. \
+Professional image in all interactions. \
+Continual skill development and portfolio updating.' 
+    }
+  ]
+},
+
+// =====Landscape Photography=====
+
+'landscape-photography-1': {
+  id: 'landscape-photography-1',
+  title: 'Introduction to Landscape Photography',
+  image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Landscape Photography' },
+    { type: 'text', content:
+      'Landscape photography captures natural scenery, emphasizing vast spaces, natural elements, and atmospheric conditions. \
+It combines technical skill with artistic vision to convey the beauty and mood of outdoor environments. \
+Successful landscape photography requires understanding light, composition, and patience for the perfect moment. \
+The genre ranges from grand vistas to intimate natural details, each telling a story about the environment. \
+Mastering landscape photography opens opportunities to document nature and create timeless visual art.' 
+    },
+    { type: 'subtitle', content: 'Essential Elements' },
+    { type: 'text', content:
+      'Composition: Arranging visual elements using rules like thirds, leading lines, and foreground interest. \
+Light: Understanding golden hour, blue hour, and how different lighting affects mood and texture. \
+Gear: Appropriate cameras, lenses (wide-angle preferred), tripods, and filters for optimal results. \
+Weather awareness: How atmospheric conditions like fog, rain, or dramatic clouds enhance scenes. \
+Patience: Waiting for ideal conditions and returning to locations at different times/seasons.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Ansel Adams pioneered landscape photography with his iconic images of Yosemite National Park. \
+His technical mastery of exposure and development created unparalleled depth and tonal range. \
+Adams would spend days scouting locations, then return at precise times for perfect light. \
+His Zone System method for exposure and development became foundational for photographers. \
+Adams\' work demonstrates how technical precision combined with artistic vision creates timeless landscape images.' 
+    }
+  ]
+},
+'landscape-photography-2': {
+  id: 'landscape-photography-2',
+  title: 'Golden Hour & Blue Hour Magic',
+  image: 'https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Golden Hour & Blue Hour Magic' },
+    { type: 'text', content:
+      'Golden hour occurs just after sunrise and before sunset, when sunlight appears softer, warmer, and more directional. \
+Blue hour happens before sunrise and after sunset, when indirect sunlight creates cool, blue tones in the sky. \
+These times provide ideal lighting conditions with softer shadows, warmer colors, and atmospheric quality. \
+Understanding these windows helps photographers plan shoots for maximum visual impact. \
+Timing varies by location and season, requiring planning tools and weather monitoring.' 
+    },
+    { type: 'subtitle', content: 'Lighting Characteristics' },
+    { type: 'text', content:
+      'Golden hour: Warm, soft, directional light creating long shadows and enhancing textures. \
+Blue hour: Cool, diffused light with rich blue tones, ideal for cityscapes and water reflections. \
+Duration: Typically 1-2 hours, shorter near equator, longer at higher latitudes. \
+Planning: Apps like PhotoPills or The Photographer\'s Ephemeris predict exact times. \
+Combination: Shooting through both hours creates diverse images from same location.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer capturing Santorini sunset uses golden hour to enhance white buildings with warm glow. \
+Arriving 90 minutes before sunset, she photographs as light transitions from harsh to golden. \
+During golden hour, shadows define architecture while warm light adds romantic quality. \
+As sun sets, she switches to blue hour for different mood—cool tones against warm building lights. \
+The resulting series shows same scene transformed by changing light conditions. \
+This demonstrates strategic timing expanding creative possibilities from single location.' 
+    }
+  ]
+},
+'landscape-photography-3': {
+  id: 'landscape-photography-3',
+  title: 'Composition Rules for Landscapes',
+  image: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Composition Rules for Landscapes' },
+    { type: 'text', content:
+      'Composition organizes visual elements to guide viewer\'s eye and create balanced, engaging images. \
+Traditional rules provide frameworks that can be followed or creatively broken for artistic effect. \
+Effective landscape composition considers foreground interest, depth, scale, and visual flow. \
+Understanding these principles helps photographers create more compelling and professional images. \
+Mastering composition transforms random snapshots into intentional, visually pleasing photographs.' 
+    },
+    { type: 'subtitle', content: 'Key Composition Techniques' },
+    { type: 'text', content:
+      'Rule of thirds: Dividing frame into nine equal sections, placing key elements along lines/intersections. \
+Leading lines: Using natural or man-made lines to guide eye through image toward focal point. \
+Foreground interest: Including compelling elements in front of scene to create depth and scale. \
+Framing: Using natural frames (trees, archways) to isolate subject and add depth. \
+Balancing elements: Distributing visual weight evenly across frame for harmony.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographing Grand Canyon, photographer applies multiple composition techniques: \
+Uses rule of thirds by placing horizon on upper third line, emphasizing vast canyon below. \
+Includes weathered tree as foreground interest, adding scale and leading eye into scene. \
+Waits for cloud formation that naturally frames distant butte. \
+Chooses viewpoint where river creates leading line through middle of frame. \
+Shoots at f/16 for deep depth of field, keeping foreground to background sharp. \
+Resulting image feels balanced, draws viewer into scene, and conveys canyon\'s immense scale. \
+This demonstrates how combined composition techniques create professional landscape images.' 
+    }
+  ]
+},
+'landscape-photography-4': {
+  id: 'landscape-photography-4',
+  title: 'Essential Gear for Landscapes',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Essential Gear for Landscapes' },
+    { type: 'text', content:
+      'Landscape photography requires specific equipment to handle varied conditions and achieve technical quality. \
+While skill matters most, appropriate gear expands creative possibilities and ensures reliability in the field. \
+Key considerations include camera resolution, lens selection, stability solutions, and protective equipment. \
+Understanding gear capabilities helps photographers make informed purchases and pack efficiently for excursions. \
+The right equipment balances technical needs with practical considerations of weight and durability.' 
+    },
+    { type: 'subtitle', content: 'Essential Equipment' },
+    { type: 'text', content:
+      'Camera: DSLR or mirrorless with good dynamic range and resolution (24+ MP recommended). \
+Lenses: Wide-angle (16-35mm), standard zoom (24-70mm), telephoto (70-200mm) for different perspectives. \
+Tripod: Sturdy yet portable, essential for long exposures and precise composition. \
+Filters: Polarizing (reduce glare, enhance colors), ND (long exposures), graduated ND (balance exposure). \
+Accessories: Remote shutter release, extra batteries, weather protection, comfortable backpack.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer preparing for Iceland waterfall shoot packs: \
+Camera: Full-frame mirrorless with 45MP sensor for detailed prints. \
+Lenses: 16-35mm f/2.8 for wide scenes, 24-70mm for medium shots, 70-200mm for compressing distant mountains. \
+Tripod: Carbon fiber with spiked feet for stability on uneven, wet ground. \
+Filters: Circular polarizer to reduce water glare, 6-stop ND for silky water effect, 3-stop graduated ND for bright sky. \
+Protection: Rain cover for camera, waterproof backpack, microfiber cloths for lens cleaning. \
+Extras: Headlamp for predawn hikes, GPS for remote locations, power bank for charging. \
+This comprehensive kit enables capturing diverse images while handling challenging conditions.' 
+    }
+  ]
+},
+'landscape-photography-5': {
+  id: 'landscape-photography-5',
+  title: 'Long Exposure Water Effects',
+  image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Long Exposure Water Effects' },
+    { type: 'text', content:
+      'Long exposure photography uses slow shutter speeds to transform moving water into smooth, ethereal effects. \
+This technique creates dreamlike images where flowing water appears misty, oceans turn glassy, and waterfalls become silky. \
+Achieving these effects requires specific gear settings and conditions for optimal results. \
+Long exposures add artistic interpretation to landscapes, emphasizing movement and time\'s passage. \
+Mastering this technique expands creative possibilities for seascapes, rivers, and waterfalls.' 
+    },
+    { type: 'subtitle', content: 'Technique Essentials' },
+    { type: 'text', content:
+      'Shutter speed: 1-30 seconds for silky water, 30+ seconds for glassy ocean effects. \
+Neutral density filters: Required to reduce light for long exposures in daylight. \
+Stability: Sturdy tripod essential to prevent camera movement during exposure. \
+Remote release: Prevents camera shake from pressing shutter button. \
+Timing: Overcast days ideal for balanced exposures without extreme highlights.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer captures Oregon coastline at sunset using long exposure technique: \
+Arrives 90 minutes before sunset to compose shot with interesting rock formations. \
+Mounts camera on tripod, attaches 10-stop ND filter to enable 30-second exposure in fading light. \
+Uses remote shutter release and mirror lock-up to eliminate vibration. \
+Shoots at f/11 for sharpness, ISO 100 for clean image. \
+30-second exposure transforms crashing waves into misty fog across rocks. \
+Multiple exposures bracket for highlight detail in sunset sky. \
+Result shows dynamic contrast between soft water and sharp rocks with dramatic sky. \
+The image feels timeless and ethereal, different from typical ocean photos.' 
+    }
+  ]
+},
+'landscape-photography-6': {
+  id: 'landscape-photography-6',
+  title: 'Focus Stacking for Sharpness',
+  image: 'https://images.unsplash.com/photo-1506260408121-e353d10b87c7?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Focus Stacking for Sharpness' },
+    { type: 'text', content:
+      'Focus stacking combines multiple images focused at different distances to achieve front-to-back sharpness. \
+This technique solves depth of field limitations when photographing scenes with extreme foreground-to-background distance. \
+It\'s essential for macro landscapes, grand vistas with close foreground elements, and any situation requiring maximum sharpness. \
+The process involves capturing series of images, then blending them using specialized software. \
+Focus stacking enables unprecedented sharpness and detail throughout complex landscape scenes.' 
+    },
+    { type: 'subtitle', content: 'Stacking Process' },
+    { type: 'text', content:
+      'Capture: Series of identical compositions with focus point moving from foreground to background. \
+Overlap: Each image must have overlapping areas of sharp focus for seamless blending. \
+Settings: Manual exposure, white balance, and composition to ensure consistency. \
+Software: Photoshop, Helicon Focus, or other specialized programs blend sharp areas. \
+Blending: Algorithms combine sharpest parts of each image into single perfectly focused composite.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer capturing wildflowers with distant mountain backdrop encounters depth of field challenge: \
+At f/16, either flowers or mountains sharp, but not both due to extreme distance difference. \
+Solution: Sets up tripod and composes shot with flowers 2 feet away, mountains 2 miles distant. \
+Captures 8 images: focus on nearest flower, then progressively further through scene to infinity. \
+Uses manual settings to ensure consistent exposure across all frames. \
+In Photoshop, loads images as layers, auto-aligns, then uses Auto-Blend > Stack Images. \
+Result shows tack-sharp flowers with equally sharp distant mountains—impossible in single exposure. \
+The technique reveals intricate flower details while maintaining majestic mountain backdrop.' 
+    }
+  ]
+},
+'landscape-photography-7': {
+  id: 'landscape-photography-7',
+  title: 'Weather & Atmospheric Conditions',
+  image: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Weather & Atmospheric Conditions' },
+    { type: 'text', content:
+      'Weather dramatically influences landscape photography, transforming ordinary scenes into extraordinary images. \
+Atmospheric conditions like fog, storms, rainbows, and dramatic clouds add mood, depth, and visual interest. \
+Successful landscape photographers learn to embrace challenging weather rather than avoid it. \
+Understanding how different conditions affect light and atmosphere helps predict photographic opportunities. \
+Planning around weather patterns increases chances of capturing unique and compelling images.' 
+    },
+    { type: 'subtitle', content: 'Conditions & Opportunities' },
+    { type: 'text', content:
+      'Fog/mist: Adds mystery, simplifies compositions, creates depth through atmospheric perspective. \
+Storm clouds: Dramatic skies with interesting light patterns and potential for rainbow/sunburst effects. \
+Rain: Creates reflections, saturates colors, adds mood; requires weather protection for gear. \
+Snow: Simplifies landscapes, creates high-contrast scenes, requires exposure compensation. \
+Clear skies: Often less interesting but good for night photography, star trails, urban landscapes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer plans Smoky Mountains shoot specifically for foggy conditions: \
+Checks weather forecasts for temperature/humidity combinations likely to produce valley fog. \
+Arrives predawn at Newfound Gap overlook, sets up as fog begins forming in valleys below. \
+As sun rises, fog creates layered effect with mountain ridges appearing and disappearing. \
+Uses telephoto lens to compress layers, creating sense of infinite depth. \
+Exposes for midtones, adding +1 exposure compensation to prevent fog from appearing gray. \
+Result shows mystical scene with ethereal quality impossible on clear days. \
+Later processes to enhance contrast between fog layers and subtle color in morning light. \
+This demonstrates how targeting specific weather conditions yields unique images.' 
+    }
+  ]
+},
+'landscape-photography-8': {
+  id: 'landscape-photography-8',
+  title: 'Night Sky & Astrophotography',
+  image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Night Sky & Astrophotography' },
+    { type: 'text', content:
+      'Night landscape photography captures celestial phenomena including stars, Milky Way, auroras, and moonlit scenes. \
+This specialized area requires understanding exposure settings, light pollution, and celestial movements. \
+Successful astrophotography combines technical precision with artistic composition of terrestrial and celestial elements. \
+Planning tools help identify optimal dates, times, and locations for different night sky subjects. \
+Mastering night photography opens completely new dimension of landscape imaging possibilities.' 
+    },
+    { type: 'subtitle', content: 'Night Photography Basics' },
+    { type: 'text', content:
+      'Star trails: Long exposures (minutes to hours) showing star movement as circular arcs. \
+Milky Way: Shorter exposures (15-30 seconds) to freeze stars, wide apertures, high ISO. \
+Moonlight: Illuminates landscapes with ethereal blue light, requires precise timing with moon phases. \
+Aurora: Fast shutter speeds (1-15 seconds) to capture movement, wide apertures, high ISO. \
+Light painting: Adding artificial light to foreground elements during long exposures.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer plans Milky Way shot over Joshua Tree National Park: \
+Uses PhotoPills app to determine Milky Way core visibility dates and direction. \
+Travels during new moon phase for darkest skies, checks light pollution maps for optimal location. \
+Arrives before sunset to compose foreground with interesting Joshua tree silhouette. \
+As darkness falls, focuses manually using live view magnification on bright star. \
+Settings: 20 seconds, f/2.8, ISO 3200 (following 500 Rule to avoid star trails). \
+Captures multiple exposures for foreground (during blue hour) and sky, blends in post. \
+Result shows sharp Milky Way arching over dramatic desert landscape. \
+Adds subtle light painting on tree using dim flashlight during one exposure. \
+Final composite creates stunning connection between earthly and celestial realms.' 
+    }
+  ]
+},
+'landscape-photography-9': {
+  id: 'landscape-photography-9',
+  title: 'Seasonal Landscape Photography',
+  image: 'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Seasonal Landscape Photography' },
+    { type: 'text', content:
+      'Seasons dramatically transform landscapes, offering diverse photographic opportunities throughout the year. \
+Each season presents unique colors, lighting conditions, weather patterns, and natural events. \
+Successful seasonal photography requires understanding these changes and planning accordingly. \
+Revisiting locations in different seasons reveals how environments evolve over time. \
+Seasonal awareness helps photographers anticipate and capture nature\'s cyclical beauty.' 
+    },
+    { type: 'subtitle', content: 'Seasonal Characteristics' },
+    { type: 'text', content:
+      'Spring: New growth, wildflowers, flowing water from snowmelt, softer light, unpredictable weather. \
+Summer: Lush greenery, longer days, potential for dramatic thunderstorms, harsh midday light. \
+Autumn: Vibrant foliage colors, changing light angles, morning fog, harvest scenes. \
+Winter: Snow and ice simplify compositions, unique patterns, low-angle light, potential for frost/fog. \
+Transitional periods: Often most dramatic as one season gives way to next.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer documents same New England forest throughout year: \
+Spring: Captures delicate trillium wildflowers with soft backlight through fresh green leaves. \
+Summer: Photographs sunbeams filtering through dense canopy during early morning fog. \
+Autumn: Returns for peak foliage, using polarized light to enhance red and orange maple leaves. \
+Winter: After snowstorm, photographs ice-coated trees with low winter sun creating long shadows. \
+Each visit uses similar composition but reveals completely different character of same location. \
+The series demonstrates seasonal transformation and becomes popular gallery exhibition. \
+By understanding seasonal patterns, photographer times visits for maximum impact each time.' 
+    }
+  ]
+},
+'landscape-photography-10': {
+  id: 'landscape-photography-10',
+  title: 'Finding Unique Perspectives',
+  image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Finding Unique Perspectives' },
+    { type: 'text', content:
+      'Unique perspectives distinguish memorable landscape images from common postcard views. \
+This involves exploring beyond obvious viewpoints, using different equipment, and creative interpretation. \
+Successful photographers develop personal vision through experimentation and studying light/conditions. \
+Finding fresh perspectives requires curiosity, willingness to explore, and seeing familiar scenes differently. \
+Developing distinctive style helps photographers stand out in crowded landscape photography field.' 
+    },
+    { type: 'subtitle', content: 'Perspective Techniques' },
+    { type: 'text', content:
+      'Low angles: Getting close to ground emphasizes foregrounds and creates dramatic skies. \
+High viewpoints: Elevation provides overviews and reveals patterns invisible from ground level. \
+Intimate landscapes: Focusing on small details rather than grand vistas tells different stories. \
+Abstract compositions: Using patterns, textures, and color for non-representational interpretations. \
+Different lenses: Ultra-wide for exaggerated perspectives, telephoto for compression and isolation.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'At iconic Horseshoe Bend overlook, most photographers shoot same wide-angle view. \
+Creative photographer seeks different approach: \
+Uses telephoto lens to isolate interesting rock patterns and Colorado River curves. \
+Returns during storm to capture lightning strikes over the bend—rare perspective. \
+At night, photographs star trails centered above the river using precise polar alignment. \
+During flood stage, uses drone for aerial view showing powerful water movement. \
+In winter, focuses on ice formations along river\'s edge with distant bend as backdrop. \
+Each approach yields unique image of same location, standing out from typical shots. \
+The photographer builds reputation for fresh perspectives on familiar landmarks.' 
+    }
+  ]
+},
+
+// =====Photo Editing=====
+
+'photo-editing-1': {
+  id: 'photo-editing-1',
+  title: 'Introduction to Photo Editing',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Photo Editing' },
+    { type: 'text', content:
+      'Photo editing enhances, corrects, and transforms images using software tools and techniques. \
+It bridges gap between camera capture and final presentation, allowing creative interpretation and technical refinement. \
+Editing ranges from basic adjustments (exposure, color balance) to advanced manipulations (compositing, retouching). \
+Understanding editing workflow and non-destructive techniques preserves image quality and flexibility. \
+Photo editing has become essential skill for photographers in digital era, complementing in-camera skills.' 
+    },
+    { type: 'subtitle', content: 'Editing Workflow' },
+    { type: 'text', content:
+      'Import & organization: Cataloging images with keywords, ratings, and metadata. \
+Global adjustments: Exposure, contrast, white balance, color correction affecting entire image. \
+Local adjustments: Dodging, burning, selective color adjustments targeting specific areas. \
+Retouching: Removing distractions, skin smoothing, object removal, frequency separation. \
+Output: Resizing, sharpening, color space conversion for specific uses (print, web, social).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Professional wedding photographer\'s editing workflow: \
+Shoots in RAW format for maximum editing flexibility. \
+Imports to Lightroom, applies preset for consistent color profile across all images. \
+First pass: Exposure and white balance corrections using histogram reference. \
+Second pass: Selective adjustments—brightens faces, darkens distracting backgrounds. \
+Third pass: Color grading—adds warm tones to skin, cool tones to shadows for cinematic look. \
+Final retouching in Photoshop: Removes temporary blemishes, enhances eye sparkle. \
+Outputs high-res TIFF for printing, optimized JPEG for online gallery. \
+This systematic approach ensures consistent, professional results across hundreds of images.' 
+    }
+  ]
+},
+'photo-editing-2': {
+  id: 'photo-editing-2',
+  title: 'RAW Processing Fundamentals',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'RAW Processing Fundamentals' },
+    { type: 'text', content:
+      'RAW files contain unprocessed sensor data, offering maximum editing flexibility and quality preservation. \
+Unlike JPEGs (which apply in-camera processing), RAW files require software conversion for viewing and editing. \
+RAW processing allows extensive adjustments to exposure, white balance, and color without quality degradation. \
+Understanding RAW workflow enables photographers to rescue poorly exposed images and extract maximum detail. \
+Mastering RAW processing is fundamental for professional-quality digital photography.' 
+    },
+    { type: 'subtitle', content: 'RAW Advantages' },
+    { type: 'text', content:
+      'Greater bit depth: Typically 12-14 bits per channel vs JPEG\'s 8 bits, preserving more tonal information. \
+Non-destructive editing: Original RAW data remains unchanged regardless of adjustments applied. \
+Exposure recovery: 2-3 stops latitude for correcting underexposure or recovering highlights. \
+White balance flexibility: Adjust temperature/tint without color degradation. \
+No compression artifacts: Avoids JPEG\'s lossy compression and associated artifacts.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Landscape photographer captures sunrise scene with challenging lighting: \
+Foreground in shadow, sky brightly lit—5-stop dynamic range difference. \
+Shoots in RAW, exposing for highlights (sky properly exposed, foreground dark). \
+In Lightroom, uses these RAW adjustments: \
+First: Recovers shadow detail by increasing Shadows slider +80, revealing foreground. \
+Second: Recovers highlight detail by decreasing Highlights -70, restoring cloud texture. \
+Third: Adjusts White Balance from Auto to Daylight for natural color. \
+Fourth: Uses Graduated Filter to darken sky further while brightening foreground. \
+Fifth: Applies Lens Corrections automatically fixing distortion and chromatic aberration. \
+Result shows balanced exposure throughout scene, impossible with JPEG alone. \
+Demonstrates RAW\'s power to handle extreme contrast situations.' 
+    }
+  ]
+},
+'photo-editing-3': {
+  id: 'photo-editing-3',
+  title: 'Color Correction Techniques',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Color Correction Techniques' },
+    { type: 'text', content:
+      'Color correction adjusts images to achieve accurate, consistent, and pleasing color representation. \
+It involves white balance adjustment, color cast removal, saturation/vibrance control, and selective color editing. \
+Proper color correction ensures images match scene reality or achieve desired artistic interpretation. \
+Understanding color theory and using tools like histograms and color checkers improves correction accuracy. \
+Mastering color correction separates amateur snapshots from professional-quality photographs.' 
+    },
+    { type: 'subtitle', content: 'Correction Tools' },
+    { type: 'text', content:
+      'White balance: Adjusts color temperature (warm/cool) and tint (green/magenta). \
+Color calibration: Fine-tunes primary color channels (red, green, blue) for accuracy. \
+HSL adjustments: Hue, Saturation, Luminance controls for individual color ranges. \
+Color grading: Creative color manipulation for mood and style. \
+Color checker: Physical target providing reference for accurate color correction.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Product photographer needs accurate color for e-commerce jewelry images: \
+Uses X-Rite ColorChecker passport in first shot of each lighting setup. \
+In Lightroom, uses ColorChecker image to create custom camera profile. \
+Applies this profile to all images from that setup for consistent color. \
+For gold necklace: Adjusts yellow/orange hues slightly warmer to match product samples. \
+Reduces blue saturation in background to prevent color contamination on metal. \
+Uses HSL panel to make diamonds sparkle by increasing luminance of whites/grays. \
+Creates mask to selectively increase saturation only on gemstones. \
+Final images show products with accurate, appealing colors that match physical items. \
+This precision builds customer trust for online purchases.' 
+    }
+  ]
+},
+'photo-editing-4': {
+  id: 'photo-editing-4',
+  title: 'Dodging & Burning Mastery',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Dodging & Burning Mastery' },
+    { type: 'text', content:
+      'Dodging lightens specific image areas; burning darkens them—techniques borrowed from traditional darkroom printing. \
+These selective adjustments control viewer attention, enhance dimensionality, and balance image tonality. \
+Modern digital dodging/burning uses layers, masks, and brushes for precise, non-destructive application. \
+Mastering these techniques creates professional-looking images with enhanced depth and visual impact. \
+Dodging/burning represents fundamental skill for portrait, landscape, and fine art photography editing.' 
+    },
+    { type: 'subtitle', content: 'Technique Applications' },
+    { type: 'text', content:
+      'Portraits: Lighten eyes, teeth; darken distracting background elements. \
+Landscapes: Lighten foreground interest; darken skies to draw eye through scene. \
+Architecture: Enhance shadow details while maintaining highlight texture. \
+Product photography: Create dimension through controlled light/shadow enhancement. \
+Frequency separation: Advanced technique separating texture from tone for skin retouching.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Portrait photographer enhances studio headshot using dodging/burning: \
+In Photoshop, creates new layer filled with 50% gray, set to Soft Light blend mode. \
+Uses white brush at 5% opacity to dodge (lighten): brightens catchlights in eyes, teeth, highlights on hair. \
+Switches to black brush to burn (darken): subtly deepens shadows under chin, around jawline for definition. \
+Creates separate layer for frequency separation: smooths skin texture while preserving pores. \
+Uses curves adjustment layer with mask to brighten iris color selectively. \
+Burns corners slightly to vignette, directing focus to subject\'s face. \
+Each adjustment subtle—cumulative effect creates polished, professional portrait. \
+The subject looks naturally enhanced rather than artificially retouched.' 
+    }
+  ]
+},
+'photo-editing-5': {
+  id: 'photo-editing-5',
+  title: 'Frequency Separation Retouching',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Frequency Separation Retouching' },
+    { type: 'text', content:
+      'Frequency separation separates image into two layers: high-frequency (texture/details) and low-frequency (color/tonality). \
+This advanced technique allows retouching texture and color independently for natural-looking results. \
+It\'s particularly valuable for portrait retouching where skin texture preservation is crucial. \
+Mastering frequency separation enables professional retouching without plastic, over-processed appearance. \
+The technique requires precision but yields superior results for high-end portrait and beauty photography.' 
+    },
+    { type: 'subtitle', content: 'Separation Process' },
+    { type: 'text', content:
+      'Duplicate background twice: one for high frequency, one for low frequency. \
+Apply Gaussian Blur to low-frequency layer to remove texture while preserving color/tone. \
+Create high-frequency layer by subtracting low-frequency from original using Apply Image. \
+Set high-frequency layer to Linear Light blend mode to restore original appearance. \
+Retouch on separate layers above each frequency layer for non-destructive editing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Beauty photographer retouches model\'s skin for cosmetics campaign: \
+Sets up frequency separation as described, creating separate texture and color layers. \
+On color layer: Uses healing brush at 50% opacity to even out skin tone, reduce redness. \
+On texture layer: Clones at 100% opacity to remove blemishes while preserving skin pores. \
+Creates dodge/burn layer between frequencies to enhance facial contours subtly. \
+Uses low-opacity brush on color layer to reduce under-eye darkness without affecting skin texture. \
+Adds subtle high-pass filter to enhance eye details without oversharpening skin. \
+Result: Flawless yet natural-looking skin that still shows human texture. \
+The makeup appears perfect while model looks real—crucial for beauty product credibility. \
+This technique takes 15-20 minutes per image but produces magazine-quality results.' 
+    }
+  ]
+},
+'photo-editing-6': {
+  id: 'photo-editing-6',
+  title: 'Compositing & Blending',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Compositing & Blending' },
+    { type: 'text', content:
+      'Compositing combines elements from multiple images into single cohesive photograph. \
+This advanced technique requires matching lighting, perspective, color, and scale for believable results. \
+Applications include creative art, product photography, architectural visualization, and correcting impossible captures. \
+Mastering compositing expands creative possibilities beyond camera limitations. \
+Successful composites appear seamless, with all elements convincingly integrated into final image.' 
+    },
+    { type: 'subtitle', content: 'Compositing Techniques' },
+    { type: 'text', content:
+      'Masking: Creating precise selections to isolate elements from backgrounds. \
+Blending modes: Mathematical combinations of layers (Multiply, Screen, Overlay). \
+Color matching: Adjusting individual elements to match lighting conditions of base image. \
+Shadow creation: Adding realistic shadows that match scene lighting direction and quality. \
+Perspective matching: Ensuring all elements share consistent vanishing points and scale.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Architectural photographer creates composite for luxury real estate brochure: \
+Base image: Empty living room photographed at twilight with interior lights on. \
+Problem: View through window shows construction site, not desirable garden. \
+Solution: Photographs garden separately at golden hour with similar camera height/angle. \
+In Photoshop, masks window area from living room image. \
+Places garden photo behind, adjusts perspective to match window frame. \
+Color matches: Cools garden image slightly to match twilight blue hour. \
+Adds subtle reflection on window glass using screen blend mode at 20% opacity. \
+Creates new layer to paint in window frame shadows falling across garden. \
+Adds slight lens blur to garden to simulate depth through window. \
+Final composite shows perfect view that sells property, created from two separate captures. \
+Client cannot tell it\'s composite unless informed.' 
+    }
+  ]
+},
+'photo-editing-7': {
+  id: 'photo-editing-7',
+  title: 'Selective Color Adjustments',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Selective Color Adjustments' },
+    { type: 'text', content:
+      'Selective color adjustments target specific colors or areas without affecting entire image. \
+This precision editing allows enhancing important elements while controlling less important areas. \
+Techniques include HSL panels, color range selections, masks, and adjustment brushes. \
+Mastering selective adjustments creates polished images where every element receives optimal treatment. \
+This skill is essential for professional photography across all genres.' 
+    },
+    { type: 'subtitle', content: 'Selective Tools' },
+    { type: 'text', content:
+      'HSL/Color panels: Adjust hue, saturation, luminance of specific color ranges. \
+Color range selection: Selects pixels based on color similarity for targeted adjustments. \
+Adjustment brushes: Paint adjustments onto specific image areas with controllable feathering. \
+Radial/graduated filters: Apply adjustments with smooth transitions from center or edges. \
+Luminosity masks: Sophisticated selections based on brightness values for precise control.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Food photographer enhances restaurant menu image using selective adjustments: \
+Uses HSL panel to increase orange saturation on salmon portion, making it appear fresher. \
+Decreases green saturation in background herbs slightly to prevent color competition. \
+Creatates radial filter over plate, increasing exposure +0.5 and clarity +15 to draw focus. \
+Uses adjustment brush to darken (-0.5 exposure) distracting tablecloth patterns. \
+Selects lemon wedge using color range, increases luminance +20 to make it pop. \
+Creates luminosity mask to brighten shadow areas under food without affecting highlights. \
+Adds graduated filter from top, cooling temperature -10 to simulate restaurant lighting. \
+Each adjustment subtle but cumulative effect makes food appear more appetizing. \
+The image now directs viewer\'s eye precisely where intended while maintaining natural look.' 
+    }
+  ]
+},
+'photo-editing-8': {
+  id: 'photo-editing-8',
+  title: 'Sharpening & Noise Reduction',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sharpening & Noise Reduction' },
+    { type: 'text', content:
+      'Sharpening enhances edge contrast to increase apparent detail and clarity in images. \
+Noise reduction minimizes digital noise (grain-like artifacts) while preserving important detail. \
+These complementary processes require balance—over-sharpening creates halos; over-noise-reduction creates plastic look. \
+Understanding when and how much to apply each technique optimizes image quality for different outputs. \
+Proper sharpening/noise reduction workflow ensures professional results from capture to final presentation.' 
+    },
+    { type: 'subtitle', content: 'Technique Guidelines' },
+    { type: 'text', content:
+      'Capture sharpening: Compensates for inherent softness from digital sensors and anti-aliasing filters. \
+Creative sharpening: Selective sharpening of key elements (eyes in portraits, textures in products). \
+Output sharpening: Final sharpening optimized for specific output (print requires more than screen). \
+Luminance noise: Grain-like noise best reduced without affecting color. \
+Color noise: Colored speckles requiring different reduction approach to preserve color accuracy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Wildlife photographer processes bird image shot at high ISO (6400): \
+In Lightroom, applies lens profile corrections first (distortion, chromatic aberration). \
+Noise reduction: Luminance +40, Detail +50, Contrast +20 to reduce grain while preserving feather detail. \
+Color noise: +30 to remove colored speckles without affecting plumage colors. \
+Sharpening: Amount +60, Radius 0.8, Detail +70, Masking +60 (holding back sharpening from smooth areas). \
+Creates brush mask over bird\'s eye, adds extra sharpening (+30) and clarity (+20). \
+Uses graduated filter on background, adds negative clarity (-30) to smooth bokeh further. \
+For print preparation: Exports to Photoshop, applies Smart Sharpen filter (Amount 120%, Radius 0.6). \
+For web: Appears oversharpened on screen but prints perfectly on matte paper. \
+Final image shows crisp feather details with clean background despite high-ISO capture.' 
+    }
+  ]
+},
+'photo-editing-9': {
+  id: 'photo-editing-9',
+  title: 'Black & White Conversion',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Black & White Conversion' },
+    { type: 'text', content:
+      'Black and white photography emphasizes form, texture, contrast, and composition over color. \
+Digital conversion allows precise control over how colors translate to monochrome tones. \
+Understanding channel mixing, contrast adjustment, and tonal separation creates compelling B&W images. \
+Successful conversion requires different approach than color photography, focusing on light and shadow relationships. \
+Mastering B&W conversion enables creating timeless, emotionally powerful images.' 
+    },
+    { type: 'subtitle', content: 'Conversion Techniques' },
+    { type: 'text', content:
+      'Channel mixing: Adjusting how individual color channels contribute to final monochrome image. \
+Color filtering: Simulating traditional colored filters that lighten their own color/darken complements. \
+Tonal contrast: Enhancing separation between light, midtone, and shadow areas. \
+Split toning: Adding subtle color tints to highlights and shadows for nuanced effects. \
+Dodging/burning: Essential for controlling viewer attention in absence of color.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Street photographer converts color image to B&W for dramatic effect: \
+Original has distracting red signage pulling attention from human subject. \
+In Lightroom, clicks B&W conversion, then adjusts color sliders: \
+Increases Reds +40 to lighten brick buildings for texture. \
+Decreases Greens -30 to darken foliage, simplifying background. \
+Increases Oranges +20 to brighten skin tones slightly. \
+Adds S-curve to contrast: raises highlights, lowers shadows for punch. \
+Uses adjustment brush to dodge (+0.5 exposure) subject\'s face and hands. \
+Burns (-0.3 exposure) corners slightly for focus. \
+Adds split toning: highlights slight warm (25, 5%), shadows cool blue (220, 10%). \
+Final B&W image directs attention precisely where intended, with color distractions eliminated. \
+The conversion emphasizes geometric patterns and human expression originally obscured by color.' 
+    }
+  ]
+},
+'photo-editing-10': {
+  id: 'photo-editing-10',
+  title: 'Workflow Optimization',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Workflow Optimization' },
+    { type: 'text', content:
+      'Efficient editing workflow maximizes productivity while maintaining consistent quality across image batches. \
+Optimization involves streamlining processes, using presets/actions, and establishing logical sequences. \
+A well-designed workflow reduces editing time, minimizes errors, and ensures repeatable results. \
+Understanding automation tools and developing personalized systems benefits professional photographers. \
+Workflow optimization balances speed with quality, essential for commercial photography success.' 
+    },
+    { type: 'subtitle', content: 'Optimization Strategies' },
+    { type: 'text', content:
+      'Preset development: Creating and organizing custom presets for different shooting conditions. \
+Batch processing: Applying adjustments to multiple images simultaneously. \
+Shortcut mastery: Learning keyboard shortcuts to speed common editing tasks. \
+Template creation: Standardized edits for recurring project types (weddings, real estate, products). \
+Quality control: Systematic review process ensuring consistent output before delivery.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Real estate photographer processes 50 property images efficiently: \
+Imports all RAW files to Lightroom, applies custom "Real Estate Basic" preset (corrects lens distortion, sets white balance). \
+First pass: Uses Survey view to compare similar angles, picks best of each set. \
+Second pass: Syncs exposure adjustments from best image to all others from same room. \
+Third pass: Individual tweaks—straightens horizons, removes sensor spots using healing brush. \
+Batch exports to Photoshop action that: \
+1. Corrects verticals using Adaptive Wide Angle filter \
+2. Composites window views if needed \
+3. Adds subtle HDR effect using luminosity masks \
+4. Sharpens for web output \
+Returns to Lightroom, applies final watermark and metadata template. \
+Total time: 2 hours for 50 images (2.4 minutes/image) vs. 8 hours without workflow (9.6 minutes/image). \
+This efficiency enables profitable real estate photography business.' 
+    }
+  ]
+},
+
+// ======Mobile Photography=====
+
+'mobile-photography-1': {
+  id: 'mobile-photography-1',
+  title: 'Mobile Photography Revolution',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mobile Photography Revolution' },
+    { type: 'text', content:
+      'Smartphone cameras have democratized photography, making high-quality imaging accessible to billions worldwide. \
+Modern mobile cameras combine advanced computational photography with intuitive interfaces in pocket-sized devices. \
+The revolution isn\'t just about hardware—it\'s about accessibility, connectivity, and instant sharing capabilities. \
+Mobile photography has created new visual languages and transformed how we document and share our lives. \
+Understanding mobile photography\'s unique advantages and limitations enables creating professional-quality images with phones.' 
+    },
+    { type: 'subtitle', content: 'Mobile Advantages' },
+    { type: 'text', content:
+      'Always available: Camera always in pocket, ready for spontaneous moments. \
+Connectivity: Instant sharing to social media, cloud backup, and collaborative platforms. \
+Computational photography: HDR, night mode, portrait effects through software processing. \
+App ecosystem: Thousands of specialized photography and editing applications. \
+Discreetness: Less intrusive than traditional cameras for street and documentary work.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'iPhone photography evolution demonstrates mobile revolution: \
+iPhone 4 (2010): 5MP camera, basic capabilities, began popularizing mobile photography. \
+iPhone 7 Plus (2016): Dual cameras, portrait mode using computational bokeh. \
+iPhone 11 Pro (2019): Triple cameras, Night Mode, Deep Fusion computational processing. \
+iPhone 14 Pro (2022): 48MP sensor, Photonic Engine, Action mode stabilization. \
+Each generation introduced computational features impossible with traditional cameras: \
+- Live Photos combining stills with motion \
+- Portrait lighting simulating studio effects \
+- Night mode capturing detail in near-darkness \
+- Photographic Styles applying custom looks during capture \
+Professional photographers now regularly use iPhones for assignments, showing technology\'s advancement.' 
+    }
+  ]
+},
+'mobile-photography-2': {
+  id: 'mobile-photography-2',
+  title: 'Mastering Mobile Camera Controls',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mastering Mobile Camera Controls' },
+    { type: 'text', content:
+      'Understanding your smartphone\'s camera controls unlocks creative potential beyond automatic mode. \
+While default camera apps offer simplicity, pro modes and third-party apps provide manual control. \
+Key settings include exposure compensation, focus locking, white balance, and shooting formats. \
+Learning to control these elements enables intentional photography rather than computational guesswork. \
+Mastering mobile camera controls bridges gap between snapshots and deliberate photographic creation.' 
+    },
+    { type: 'subtitle', content: 'Essential Controls' },
+    { type: 'text', content:
+      'Exposure compensation: Adjust brightness before capturing (often via sliding sun icon). \
+Focus lock: Tap and hold to lock focus on specific distance, preventing hunting. \
+Exposure lock: Separately locks exposure from focus for challenging lighting. \
+White balance: Adjust color temperature for accurate or creative color rendering. \
+RAW capture: When available, provides maximum editing flexibility. \
+Grid overlay: Enables rule of thirds composition directly in viewfinder.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer captures sunset silhouette using manual mobile controls: \
+Opens Pro Camera app (like Halide or Moment) for manual control. \
+Composes shot with horizon on lower third, sun near upper-right intersection. \
+Taps to focus on distant subject, locks focus by holding. \
+Swipes down on sun icon to reduce exposure -2 stops, creating dramatic silhouette. \
+Sets white balance to Daylight (5500K) for warm sunset colors. \
+Enables RAW capture for maximum editing flexibility later. \
+Uses 2-second timer to eliminate camera shake from pressing shutter. \
+Captures multiple exposures for HDR blending in post. \
+Result shows professional-quality silhouette with rich colors and clean edges. \
+The manual approach overcomes automatic mode\'s tendency to brighten shadows unnaturally.' 
+    }
+  ]
+},
+'mobile-photography-3': {
+  id: 'mobile-photography-3',
+  title: 'Mobile Composition Techniques',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mobile Composition Techniques' },
+    { type: 'text', content:
+      'Strong composition transforms mobile snapshots into compelling photographs, regardless of technical limitations. \
+Mobile photography offers unique compositional opportunities through accessibility and different handling. \
+Understanding how to use smartphone characteristics (wide lenses, touch interface) enhances compositional creativity. \
+Many compositional principles from traditional photography apply, but with mobile-specific adaptations. \
+Mastering mobile composition creates visually engaging images that stand out in social media feeds.' 
+    },
+    { type: 'subtitle', content: 'Mobile-Specific Techniques' },
+    { type: 'text', content:
+      'Embrace the wide: Standard mobile lenses are wide-angle (26-28mm equivalent), ideal for environmental context. \
+Get closer: Mobile cameras excel at close-up photography due to small sensor depth of field characteristics. \
+Use reflections: Smartphones easily capture reflective surfaces at unusual angles. \
+Shoot from hip: Discreet low-angle perspectives unique to mobile handling. \
+Grid overlay: Essential for aligning horizons and placing key elements. \
+Clean backgrounds: Simplify compositions to overcome mobile sensors\' limited dynamic range.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Street photographer creates compelling urban image using mobile-specific approaches: \
+Notices interesting shadow pattern on sidewalk from overhead fire escape. \
+Gets low, placing phone almost on ground to emphasize pattern leading to pedestrian. \
+Uses wide lens to include both shadow details and environmental context. \
+Taps screen to focus on nearest shadow pattern, locks exposure on midtones. \
+Waits for person to enter frame at rule of thirds intersection. \
+Captures moment when person\'s shadow merges with pattern. \
+Uses native editing to increase contrast, emphasizing graphic quality. \
+Shares immediately to Instagram with location tag, receiving engagement from local community. \
+The image works because it leverages mobile advantages: discreet low angle, instant sharing, wide perspective showing environment.' 
+    }
+  ]
+},
+'mobile-photography-4': {
+  id: 'mobile-photography-4',
+  title: 'Mobile Portrait Photography',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mobile Portrait Photography' },
+    { type: 'text', content:
+      'Smartphones have revolutionized portrait photography through computational bokeh and facial recognition. \
+Modern mobile portrait modes simulate shallow depth of field previously requiring expensive lenses. \
+Understanding mobile portrait limitations and strengths enables creating flattering, professional-looking portraits. \
+Lighting, posing, and background control remain crucial despite computational assistance. \
+Mobile portrait photography empowers everyone to create quality portraits without specialized equipment.' 
+    },
+    { type: 'subtitle', content: 'Portrait Techniques' },
+    { type: 'text', content:
+      'Portrait mode: Uses dual cameras/computational photography to create background blur. \
+Lighting modes: Studio, contour, stage light effects simulated through software. \
+Live Photos: Captures moments before/after shot for selecting perfect expression. \
+Selfie optimization: Front-facing camera enhancements specifically designed for self-portraits. \
+Editing: Built-in retouching tools for skin smoothing, reshaping, and lighting adjustment.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Lifestyle blogger creates professional-looking portrait for Instagram using iPhone: \
+Finds open shade location with clean, distant background (important for portrait mode accuracy). \
+Positions subject 6-8 feet from background to ensure clean bokeh separation. \
+Uses Portrait mode with Natural Light setting (not Stage Light which can look artificial). \
+Ensures good eye contact, asks subject to tilt chin slightly down for flattering angle. \
+Captures Live Photo to choose perfect moment from 1.5-second clip. \
+Uses built-in editing: increases exposure slightly, applies Vivid Warm filter at 40%. \
+Uses retouch tool subtly to remove temporary blemishes. \
+Adjusts portrait lighting effect intensity to 50% for natural-looking contour. \
+Crops to square format for Instagram, maintaining subject\'s eyes on upper third line. \
+Final image appears professionally shot despite using only smartphone in available light.' 
+    }
+  ]
+},
+'mobile-photography-5': {
+  id: 'mobile-photography-5',
+  title: 'Mobile Night Photography',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mobile Night Photography' },
+    { type: 'text', content:
+      'Computational night photography enables smartphone cameras to capture scenes previously impossible without tripods. \
+Night modes use multiple exposures and AI processing to reduce noise and enhance detail in low light. \
+Understanding how night modes work and their limitations helps maximize after-dark photography results. \
+Stability remains crucial—even with computational assistance, camera movement causes blur. \
+Mobile night photography opens creative possibilities for capturing cities, landscapes, and intimate moments after dark.' 
+    },
+    { type: 'subtitle', content: 'Night Mode Techniques' },
+    { type: 'text', content:
+      'Auto night mode: Automatically activates in low light, adjusting exposure time based on stability detection. \
+Manual control: Some apps allow adjusting night mode exposure duration. \
+Tripod detection: Phones detect stable mounting and extend exposure times for better results. \
+Astrophotography modes: Specialized modes for capturing stars and Milky Way. \
+Light painting effects: Using long exposures to capture light trails from moving sources.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Traveler captures illuminated Paris streets at night using smartphone: \
+Finds stable surface (balcony railing) to eliminate handshake during long exposure. \
+Night mode automatically activates, showing 3-second exposure countdown. \
+Composes with Eiffel Tower on left third, leading lines of street drawing eye through frame. \
+Holds perfectly still as phone captures multiple exposures, merging them computationally. \
+Result shows detailed buildings with minimal noise, well-exposed lights without excessive bloom. \
+For light trails: Finds overlook of roundabout, uses third-party app to set 10-second exposure. \
+Captures car light trails as circular patterns while buildings remain sharp. \
+Edits in Lightroom Mobile: reduces highlights to preserve light detail, increases shadows slightly. \
+Adds subtle vignette to focus attention on center of frame. \
+Shares to travel blog with geotag, demonstrating professional night photography from smartphone.' 
+    }
+  ]
+},
+'mobile-photography-6': {
+  id: 'mobile-photography-6',
+  title: 'Mobile Editing Apps Mastery',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mobile Editing Apps Mastery' },
+    { type: 'text', content:
+      'Mobile editing applications bring professional-level adjustments to smartphones, enabling complete workflows on device. \
+Understanding different apps\' strengths allows creating optimized editing workflows for various image types. \
+Key capabilities include RAW processing, selective adjustments, healing tools, and creative filters. \
+Mobile editing enables immediate refinement and sharing, capitalizing on photography\'s moment. \
+Mastering mobile editing apps empowers creating polished images entirely on smartphone.' 
+    },
+    { type: 'subtitle', content: 'Essential Apps' },
+    { type: 'text', content:
+      'Lightroom Mobile: Professional RAW processing, presets, selective adjustments. \
+Snapseed: Google\'s powerful free editor with selective tools and healing. \
+VSCO: Film-inspired presets and subtle editing tools popular with mobile photographers. \
+TouchRetouch: Specialized object removal through content-aware filling. \
+Afterlight: Creative filters, textures, and frames for artistic effects. \
+Procreate Pocket: Advanced editing with layer support for compositing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Food blogger edits restaurant photo entirely on iPhone: \
+Starts in Lightroom Mobile: imports RAW file shot with Moment lens. \
+Applies custom "Food Warm" preset developed for consistent blog style. \
+Uses selective adjustments: brightens plate (+0.5 exposure), darkens background (-0.3). \
+Exports to Snapseed for healing: removes distracting crumb on tablecloth. \
+Uses Brush tool to selectively increase saturation on herbs only. \
+Switches to TouchRetouch to remove exit sign reflection in window. \
+Returns to Lightroom for final tweaks: adds subtle vignette, sharpens for web. \
+Uses Afterlight to add subtle film grain texture matching blog aesthetic. \
+Adds logo watermark using Overlay function. \
+Exports optimized version for Instagram (1080x1350) and full-res for blog. \
+Entire workflow takes 8 minutes on phone while still at restaurant, ready for immediate posting.' 
+    }
+  ]
+},
+'mobile-photography-7': {
+  id: 'mobile-photography-7',
+  title: 'Accessories for Mobile Photography',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Accessories for Mobile Photography' },
+    { type: 'text', content:
+      'Specialized accessories expand mobile photography capabilities beyond built-in limitations. \
+From lens attachments to stabilization systems, accessories enable professional techniques with smartphones. \
+Understanding which accessories provide meaningful improvements helps build effective mobile photography kits. \
+The right accessories balance enhancement with maintaining mobile photography\'s spontaneity and convenience. \
+Strategic accessory use bridges gap between smartphone convenience and DSLR capabilities.' 
+    },
+    { type: 'subtitle', content: 'Essential Accessories' },
+    { type: 'text', content:
+      'Clip-on lenses: Wide-angle, telephoto, macro, and fisheye attachments expanding focal range. \
+Stabilization: Gimbals for smooth video, mini-tripods for long exposures. \
+Lighting: LED panels designed for mobile use, portable and battery-powered. \
+Storage: External drives with direct phone connectivity for backing up large files. \
+Audio: External microphones significantly improving video sound quality. \
+Protection: Waterproof cases enabling photography in challenging conditions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Travel vlogger creates professional content using mobile accessory kit: \
+Phone: iPhone 14 Pro with 1TB storage for 4K video. \
+Lenses: Moment anamorphic lens for cinematic video, telephoto for wildlife. \
+Stabilization: DJI OM 6 gimbal for buttery-smooth tracking shots. \
+Audio: Rode VideoMic Me-L directional microphone for clear voice recording. \
+Lighting: Lume Cube Panel Mini for fill light during interviews. \
+Storage: SanDisk iXpand flash drive for daily backups. \
+Tripod: Joby GorillaPod for stable timelapses and long exposures. \
+Case: Lifeproof waterproof case for beach and waterfall shoots. \
+With this kit weighing under 5 pounds, she creates content rivaling traditional camera setups. \
+The portability allows spontaneous shooting impossible with bulkier equipment.' 
+    }
+  ]
+},
+'mobile-photography-8': {
+  id: 'mobile-photography-8',
+  title: 'Social Media Optimization',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Social Media Optimization' },
+    { type: 'text', content:
+      'Mobile photography and social media are intrinsically linked, each driving the other\'s evolution. \
+Understanding platform-specific requirements maximizes visual impact across different social networks. \
+Optimization includes aspect ratios, color profiles, editing styles, and timing for maximum engagement. \
+Successful social media photography balances artistic quality with platform algorithms and audience preferences. \
+Mastering social media optimization turns mobile photography into effective communication and community building.' 
+    },
+    { type: 'subtitle', content: 'Platform-Specific Strategies' },
+    { type: 'text', content:
+      'Instagram: Square/vertical formats, cohesive feed aesthetics, Stories/Reels optimization. \
+TikTok: Vertical video, high-contrast colors, fast-paced editing style. \
+Pinterest: Vertical images with text overlay, step-by-step visual guides. \
+Twitter: Single impactful images that work at small sizes in feeds. \
+Facebook: Mixed formats, family-friendly content, album organization.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Food blogger optimizes same dish for different platforms using mobile: \
+For Instagram Feed: Shoots square format, edits with warm preset matching feed aesthetic. \
+Adds subtle shadow on white background for depth, captions with recipe ingredients. \
+For Instagram Reels: Records vertical video showing cooking process. \
+Uses trending audio, text overlays with timing to steps, ends with final plated shot. \
+For Pinterest: Creates vertical infographic with step numbers, saves with keyword-rich description. \
+For TikTok: Quick cuts between raw ingredients and final dish, uses popular food hashtags. \
+For Facebook: Shares album showing multiple angles, includes longer recipe story in caption. \
+Each version optimized for platform algorithms and user behavior: \
+Instagram: aesthetic consistency, TikTok: trend participation, Pinterest: educational value. \
+This multiplatform approach maximizes reach from single cooking session.' 
+    }
+  ]
+},
+'mobile-photography-9': {
+  id: 'mobile-photography-9',
+  title: 'Mobile Macro Photography',
+  image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mobile Macro Photography' },
+    { type: 'text', content:
+      'Smartphones excel at macro photography due to small sensors providing extensive depth of field. \
+Many phones feature dedicated macro modes or lenses specifically for close-up photography. \
+Understanding mobile macro techniques reveals miniature worlds invisible to naked eye. \
+Lighting, stability, and focus control become increasingly important at extreme magnifications. \
+Mobile macro photography democratizes exploration of intricate details in everyday surroundings.' 
+    },
+    { type: 'subtitle', content: 'Macro Techniques' },
+    { type: 'text', content:
+      'Native macro mode: Dedicated close-focusing capabilities on multi-lens phones. \
+Clip-on lenses: Attachment macro lenses providing greater magnification than built-in. \
+Focus stacking: Combining multiple focus distances for extended depth of field. \
+Lighting: Using phone flashlight or external LEDs to illuminate small subjects. \
+Stability: Essential for sharp results at high magnification—tripods or makeshift supports.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Nature enthusiast explores backyard insect photography using smartphone: \
+Uses iPhone with Moment macro lens attachment for 10x magnification. \
+Finds dewdrop-covered spiderweb at dawn, uses phone flashlight for illumination. \
+Sets phone on mini-tripod 2 inches from subject for stability. \
+Uses ProCamera app to manually focus on nearest dewdrop. \
+Captures multiple images focusing progressively deeper into web. \
+Uses Photoshop Express mobile to focus stack 5 images for front-to-back sharpness. \
+Edits to enhance contrast between droplets and web strands. \
+Selectively increases saturation on rainbow refractions within droplets. \
+Final image reveals intricate web architecture with jewel-like water droplets. \
+Shares to nature photography groups, astonishing followers with detail captured by smartphone.' 
+    }
+  ]
+},
+'mobile-photography-10': {
+  id: 'mobile-photography-10',
+  title: 'Mobile Video & Cinematography',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mobile Video & Cinematography' },
+    { type: 'text', content:
+      'Modern smartphones capture professional-quality video with features like 4K/8K recording, high frame rates, and log profiles. \
+Mobile cinematography combines this technical capability with cinematic techniques adapted for smartphone form factor. \
+Understanding mobile video settings, stabilization, and audio capture enables creating compelling moving images. \
+The accessibility of smartphone video has democratized filmmaking and transformed content creation. \
+Mastering mobile cinematography empowers storytelling through moving images without traditional camera equipment.' 
+    },
+    { type: 'subtitle', content: 'Video Features' },
+    { type: 'text', content:
+      'Resolution/frame rates: 4K at 60fps, 1080p at 240fps for slow motion. \
+Cinematic mode: Computational shallow depth of field with focus transitions. \
+Dolby Vision HDR: Professional HDR recording and editing workflow. \
+Manual controls: Adjustable shutter speed, ISO, white balance in pro video apps. \
+Audio: Multiple microphone inputs, external mic support, wind reduction.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Short film creator produces festival submission using only smartphone: \
+Uses iPhone 14 Pro with Filmic Pro app for manual control. \
+Shoots in Apple ProRes 4K at 24fps for cinematic look. \
+Uses anamorphic lens attachment for widescreen aspect ratio and lens flares. \
+DJI Ronin SC gimbal provides smooth tracking shots and stabilized walking footage. \
+Rode Wireless Go II records clean audio to separate channels for each actor. \
+Lighting: Aputure Amaran LEDs controlled via smartphone app. \
+Post-production in LumaFusion on iPad Pro: \
+Color grades using custom LUTs, edits multi-camera angles, adds sound design. \
+Exports final 15-minute film in 4K HDR. \
+The film wins "Best Mobile Production" at independent film festival. \
+Demonstrates professional results achievable with smartphone-based workflow.' 
+    }
+  ]
+},
+
+// =======Commercial Photography====
+
+'commercial-photography-1': {
+  id: 'commercial-photography-1',
+  title: 'Introduction to Commercial Photography',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Commercial Photography' },
+    { type: 'text', content:
+      'Commercial photography creates images primarily for business purposes—advertising, marketing, branding, and sales. \
+Unlike artistic photography, commercial work serves client objectives, target audiences, and specific business goals. \
+Success requires balancing creative vision with practical considerations like budgets, timelines, and brand guidelines. \
+Commercial photographers must understand marketing principles, production workflows, and client relationship management. \
+The field encompasses diverse specialties including product, fashion, food, architecture, and corporate photography.' 
+    },
+    { type: 'subtitle', content: 'Commercial Specialties' },
+    { type: 'text', content:
+      'Product photography: Showcasing goods for e-commerce, catalogs, and advertising. \
+Fashion photography: Presenting clothing and accessories for brands, magazines, retailers. \
+Food photography: Creating appetizing images for restaurants, packaging, cookbooks. \
+Architectural photography: Capturing buildings and spaces for developers, architects, hospitality. \
+Corporate photography: Portraits, events, and workplace images for business communications. \
+Lifestyle photography: Products in use within aspirational life contexts.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Apple\'s product photography demonstrates commercial excellence: \
+Every iPhone image follows strict brand guidelines—clean white backgrounds, precise lighting showing materials. \
+Technical requirements: Perfect reflections on glass, accurate color reproduction, highlight/shadow balance. \
+Creative requirements: Showcasing product elegance while communicating features intuitively. \
+Production process: Multi-day shoots with specialized equipment (robotic arms for consistent angles). \
+Post-production: Extensive retouching to remove imperfections while maintaining realistic appearance. \
+Result: Images that drive billions in sales by making products appear simultaneously aspirational and attainable. \
+Apple photographers balance artistic composition with marketing objectives—defining commercial photography success.' 
+    }
+  ]
+},
+'commercial-photography-2': {
+  id: 'commercial-photography-2',
+  title: 'Client Brief Interpretation',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Client Brief Interpretation' },
+    { type: 'text', content:
+      'Effectively interpreting client briefs transforms business objectives into visual solutions. \
+A comprehensive brief should outline target audience, brand guidelines, usage requirements, and success metrics. \
+Photographers must ask clarifying questions to fill information gaps and prevent misunderstandings. \
+Interpreting briefs requires balancing client requests with photographic expertise about what will work visually. \
+Successful interpretation leads to images that satisfy both creative standards and business objectives.' 
+    },
+    { type: 'subtitle', content: 'Brief Elements' },
+    { type: 'text', content:
+      'Objectives: What should images accomplish (sell product, build brand, demonstrate use)? \
+Audience: Who will see images (demographics, psychographics, existing customers)? \
+Usage: Where will images appear (website, social media, print ads, billboards)? \
+Brand guidelines: Color palettes, logos, typography, existing visual assets. \
+Deliverables: Number of images, formats, resolutions, timelines. \
+Budget: Financial constraints influencing approach, crew size, locations.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer receives brief for athletic shoe campaign: \
+Client wants: "Youthful, energetic images showing shoes in urban environments." \
+Photographer asks clarifying questions: \
+- Target age range? (Answer: 18-25) \
+- Urban environments meaning city streets or skate parks? (Both) \
+- Energetic meaning action shots or lifestyle? (Action with lifestyle context) \
+- Competitor references? (Client shares three campaigns they admire) \
+- Primary usage? (Instagram and website hero images) \
+- Color scheme preferences? (Brand colors: neon orange, black, white) \
+Based on answers, photographer proposes: \
+Location scouting in downtown areas with graffiti walls and skate parks. \
+Models aged 20-23 with athletic builds but relatable appearance. \
+Lighting: Dynamic with hard shadows matching urban aesthetic. \
+Action shots: Jumping, running, skateboarding. \
+Lifestyle shots: Casual wear showing shoes in coffee shop, street settings. \
+Mood board confirms direction before shoot, ensuring alignment.' 
+    }
+  ]
+},
+'commercial-photography-3': {
+  id: 'commercial-photography-3',
+  title: 'Commercial Lighting Techniques',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Commercial Lighting Techniques' },
+    { type: 'text', content:
+      'Commercial lighting creates controlled, consistent, and visually appealing illumination tailored to subject and objectives. \
+Techniques range from simple one-light setups to complex multi-light arrangements for specific effects. \
+Understanding light quality, direction, color temperature, and modulation is essential for professional results. \
+Commercial lighting must often be maintained consistently across multiple shots for campaign cohesion. \
+Mastering lighting techniques enables photographers to create images that meet exacting commercial standards.' 
+    },
+    { type: 'subtitle', content: 'Lighting Setups' },
+    { type: 'text', content:
+      'Product lighting: Even, shadowless illumination for catalog shots; dramatic directional light for hero images. \
+Portrait lighting: Traditional patterns (Rembrandt, butterfly, split) adapted for commercial contexts. \
+Food lighting: Directional side/back lighting to enhance texture and freshness appearance. \
+Architectural lighting: Balancing ambient and artificial light, often combining multiple exposures. \
+Fashion lighting: Dramatic, mood-creating setups that enhance clothing texture and form.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Jewelry photographer lights diamond necklace for luxury brand catalog: \
+Challenge: Show sparkle while accurately representing metal color and gem clarity. \
+Setup: Large softbox above for overall even illumination. \
+Strip boxes on both sides at 45-degree angles to create catchlights in facets. \
+Black cards on sides to increase contrast and make diamonds "pop." \
+Mirror behind camera creating small highlight in each major facet. \
+Lighting ratio: 3:1 (key to fill) for slight drama without losing shadow detail. \
+Color temperature: 5500K matched to daylight for accurate color representation. \
+Light meter readings ensure consistency across multiple product angles. \
+Result: Necklace appears brilliant and luxurious, with every diamond facet sparkling. \
+Same lighting maintained across entire jewelry line for catalog consistency.' 
+    }
+  ]
+},
+'commercial-photography-4': {
+  id: 'commercial-photography-4',
+  title: 'Product Photography Mastery',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Product Photography Mastery' },
+    { type: 'text', content:
+      'Product photography showcases goods in their best light to drive sales and brand perception. \
+Technical precision meets marketing strategy—every element communicates quality, value, and desirability. \
+Successful product photography requires understanding materials, lighting interactions, and consumer psychology. \
+The field spans from simple white-background e-commerce shots to elaborate lifestyle contextualizations. \
+Mastering product photography is essential for commercial success in increasingly visual marketplace.' 
+    },
+    { type: 'subtitle', content: 'Product Categories' },
+    { type: 'text', content:
+      'E-commerce: Clean, consistent images on white/neutral backgrounds for online shopping. \
+Packaging: Products in their packaging showing how they appear on shelves. \
+Lifestyle: Products in use within aspirational settings showing context and benefits. \
+Detail shots: Close-ups highlighting textures, materials, and craftsmanship. \
+Group shots: Multiple products arranged attractively showing variety or sets.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer shoots kitchen blender for appliance brand\'s website: \
+E-commerce shot: White seamless background, even lighting from large softboxes on both sides. \
+Product rotated 360 degrees for interactive viewer on website. \
+Detail shots: Close-up of blade assembly showing precision engineering. \
+Texture shot: Side lighting revealing brushed stainless steel finish. \
+In-context shot: Blender on modern kitchen counter with ingredients nearby. \
+Action shot: Smoothie being poured into glass, captured with high-speed sync flash. \
+Lifestyle shot: Attractive person smiling while using blender in sunlit kitchen. \
+Each image serves different purpose: \
+White background: For online store product page. \
+Lifestyle: For social media and advertising. \
+Detail shots: For technical specifications page. \
+Production uses tethered shooting—images appear instantly on computer for client approval. \
+Color-checker ensures accurate reproduction for online shopping where color accuracy affects returns.' 
+    }
+  ]
+},
+'commercial-photography-5': {
+  id: 'commercial-photography-5',
+  title: 'Food & Beverage Photography',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Food & Beverage Photography' },
+    { type: 'text', content:
+      'Food photography makes dishes appear fresh, delicious, and desirable through careful styling and lighting. \
+The specialty combines technical skill with understanding of food science, styling techniques, and consumer appetites. \
+Successful food photography often involves collaboration between photographer, food stylist, and prop stylist. \
+Lighting must enhance textures, colors, and freshness while appearing natural and appetizing. \
+Mastering food photography is essential for restaurants, food brands, cookbooks, and advertising agencies.' 
+    },
+    { type: 'subtitle', content: 'Food Techniques' },
+    { type: 'text', content:
+      'Styling: Arranging food attractively using techniques to maintain appearance under hot lights. \
+Lighting: Directional side/back lighting to create highlights on moist surfaces and texture shadows. \
+Propping: Selecting plates, utensils, and backgrounds that complement without distracting. \
+Freshness maintenance: Techniques to keep food looking fresh through long shoots. \
+Steam/sizzle addition: Artificial methods to add appealing steam or sizzle effects.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Fast food chain launches new burger—photographer creates campaign images: \
+Challenge: Make mass-produced burger appear gourmet and appetizing. \
+Food stylist prepares multiple identical burgers using specific techniques: \
+- Toasts bun interiors for visual texture \
+- Brushes meat patty with oil for juicy appearance \
+- Precisely places sesame seeds on bun top \
+- Uses tweezers to arrange lettuce attractively \
+- Injects steam effect between bun and patty \
+Photographer lights from back-left to create highlights on lettuce and cheese melt. \
+Fill card on right softens shadows while maintaining directional quality. \
+Shoots from low angle to make burger appear substantial. \
+Props: Simple wood background, checkered paper reminiscent of classic diners. \
+Captures "hero shot" of whole burger and detail shots of dripping sauce. \
+For video: Records cheese pull using hot burger and cold cheese slice trick. \
+Result: Burger appears far more appealing than actual product, driving sales through visual appeal.' 
+    }
+  ]
+},
+'commercial-photography-6': {
+  id: 'commercial-photography-6',
+  title: 'Fashion & Apparel Photography',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Fashion & Apparel Photography' },
+    { type: 'text', content:
+      'Fashion photography presents clothing and accessories in aspirational contexts that drive desire and sales. \
+The specialty balances showcasing product details with creating mood, story, and emotional connection. \
+Successful fashion photography requires collaboration with stylists, models, hair/makeup artists, and art directors. \
+Understanding fabric behavior under light, garment construction, and body movement is essential. \
+Fashion photography spans commercial catalog work to high-concept editorial imagery for magazines.' 
+    },
+    { type: 'subtitle', content: 'Fashion Categories' },
+    { type: 'text', content:
+      'E-commerce: Clean, consistent product shots on models or mannequins. \
+Lookbook: Themed collections showing complete outfits in lifestyle contexts. \
+Editorial: Concept-driven images for magazines telling visual stories. \
+Campaign: Brand-specific imagery for seasonal advertising across multiple media. \
+Street style: Candid-inspired images showing fashion in real-world settings.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Luxury brand shoots winter collection for upcoming campaign: \
+Concept: "Urban Explorer" — high-fashion outerwear in city environments. \
+Location scouting: Industrial areas with textured walls, metal structures, dramatic architecture. \
+Models: Androgynous looks emphasizing clothing rather than specific gender. \
+Lighting: Mix of natural window light and portable strobes with gels for color accents. \
+Styling: Layered looks showing versatility, accessories highlighting key pieces. \
+Shot list includes: \
+- Full-length shots showing complete outfits \
+- Medium shots highlighting fabric textures and details \
+- Detail shots of buttons, stitching, labels \
+- Movement shots with coats flowing as models walk \
+- Environmental portraits establishing mood and story \
+Production team: Photographer, assistant, digital tech, stylist, hair/makeup, model wrangler. \
+Tethered shooting allows art director immediate approval on laptop. \
+Post-production: Color grading to cool tones enhancing winter feel, careful retouching maintaining fabric texture. \
+Result: Cohesive campaign usable across billboards, magazines, social media, and website.' 
+    }
+  ]
+},
+'commercial-photography-7': {
+  id: 'commercial-photography-7',
+  title: 'Architectural & Real Estate',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Architectural & Real Estate' },
+    { type: 'text', content:
+      'Architectural photography captures buildings and spaces accurately while highlighting design excellence. \
+The specialty requires technical precision with perspective control, lighting balance, and composition. \
+Successful architectural photography communicates spatial relationships, materials, and design intent. \
+Real estate photography focuses on making properties appealing to potential buyers or renters. \
+Both fields require understanding of architecture, lighting conditions, and specialized equipment.' 
+    },
+    { type: 'subtitle', content: 'Techniques' },
+    { type: 'text', content:
+      'Perspective control: Using tilt-shift lenses or post-processing to correct converging verticals. \
+Light balancing: Combining multiple exposures to handle interior/exterior lighting differences. \
+Composition: Emphasizing lines, shapes, and spatial relationships that define architecture. \
+Time blending: Combining images from different times for optimal interior and exterior lighting. \
+People inclusion: Adding scale and life to spaces while maintaining focus on architecture.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Photographer shoots luxury penthouse for real estate developer: \
+Challenge: Show expansive views while maintaining interior appeal. \
+Arrives during blue hour when interior lights visible but exterior still has detail. \
+Uses tripod with geared head for precise composition adjustments. \
+Tilt-shift lens corrects perspective—keeps walls vertical despite shooting upward. \
+Captures multiple exposures: \
+1. Interior correctly exposed (lights on, curtains open) \
+2. Exterior view correctly exposed \
+3. Additional frames for highlight/shadow detail \
+Blends exposures in Photoshop using luminosity masks for natural-looking balance. \
+Compositions emphasize: \
+- Living room flowing to balcony with city view \
+- Kitchen highlighting high-end appliances \
+- Master bedroom with morning light simulation \
+- Bathroom showing material textures under even lighting \
+Adds subtle interior lighting enhancement using dodging techniques. \
+Delivers 15 images showing property at its best while remaining accurate representations. \
+Images help sell $5 million penthouse within one month of listing.' 
+    }
+  ]
+},
+'commercial-photography-8': {
+  id: 'commercial-photography-8',
+  title: 'Corporate & Business Photography',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Corporate & Business Photography' },
+    { type: 'text', content:
+      'Corporate photography creates images for business communications—websites, annual reports, marketing, and internal use. \
+The specialty requires balancing professional polish with authentic representation of company culture. \
+Successful corporate photography makes businesses appear competent, trustworthy, and desirable to work with. \
+Understanding different corporate needs—executive portraits, team photos, event coverage, workplace scenes—is essential. \
+Corporate photographers must work efficiently in business environments with minimal disruption.' 
+    },
+    { type: 'subtitle', content: 'Corporate Categories' },
+    { type: 'text', content:
+      'Executive portraits: Flattering, professional images for leadership pages and media. \
+Team photography: Group shots showing collaboration and company culture. \
+Workplace photography: Candid and staged scenes of employees working. \
+Event coverage: Conferences, meetings, celebrations documenting company activities. \
+Product-in-use: Showing company offerings being utilized by satisfied customers.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Tech company hires photographer for website refresh: \
+Needs: 50 images showing diverse employees, modern workspace, company culture. \
+Planning: Two-day shoot schedule minimizing disruption to work. \
+Day 1: Executive portraits in conference rooms with consistent lighting setup. \
+Each executive gets 15 minutes—efficient workflow essential. \
+Natural poses: Leaning on table, standing by window, casual seated positions. \
+Day 2: Workplace scenes—capturing authentic moments with some direction. \
+Sets up in common areas, photographs employees naturally interacting. \
+Arranges specific shots: developers collaborating at whiteboard, design team reviewing prototypes. \
+Includes diversity in age, ethnicity, gender throughout images. \
+Lighting: Portable strobes with softboxes supplementing existing office lighting. \
+Style: Bright, clean, slightly desaturated matching tech aesthetic. \
+Delivers mix of vertical and horizontal images optimized for website sections. \
+Images used across recruitment materials, investor presentations, and social media.' 
+    }
+  ]
+},
+'commercial-photography-9': {
+  id: 'commercial-photography-9',
+  title: 'Pricing & Business Models',
+  image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Pricing & Business Models' },
+    { type: 'text', content:
+      'Commercial photography pricing reflects value delivered, not just time spent shooting. \
+Successful pricing strategies consider usage rights, production costs, creative fees, and market positioning. \
+Different business models suit different photographers—day rates, project fees, licensing, retainers. \
+Understanding industry standards and communicating value effectively prevents underpricing and client misunderstandings. \
+Sustainable commercial photography businesses balance creative satisfaction with financial viability.' 
+    },
+    { type: 'subtitle', content: 'Pricing Approaches' },
+    { type: 'text', content:
+      'Day rate: Fixed price per shooting day plus expenses and licensing. \
+Project fee: Comprehensive quote covering pre-production, shoot days, post-production, licensing. \
+Licensing: Pricing based on usage (geographic scope, duration, media types). \
+Retainer: Regular monthly fee for ongoing services and first right of refusal. \
+Stock photography: Licensing existing images through agencies or directly.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Commercial photographer quotes food brand campaign: \
+Project: 10 hero images for packaging, website, social media. \
+Production costs: \
+- Food stylist: $800/day (2 days) \
+- Prop stylist: $600/day (2 days) \
+- Assistant: $400/day (2 days) \
+- Kitchen rental: $500/day (2 days) \
+- Food/props: $1,000 \
+- Equipment rental: $300 \
+Total production: $5,500 \
+Creative fee: $3,500/day (2 days) = $7,000 \
+Post-production: $2,000 (editing, retouching, file preparation) \
+Subtotal: $14,500 \
+Licensing: \
+- Packaging (North America, 2 years): $8,000 \
+- Digital advertising (unlimited, 1 year): $6,000 \
+- Social media (unlimited, 1 year): $4,000 \
+Total licensing: $18,000 \
+Project total: $32,500 \
+Payment: 50% advance, 50% on delivery. \
+Client receives detailed breakdown showing value—not just "expensive photography." \
+Photographer earns fair compensation covering costs, time, expertise, and usage rights.' 
+    }
+  ]
+},
+'commercial-photography-10': {
+  id: 'commercial-photography-10',
+  title: 'Marketing Your Commercial Business',
+  image: 'https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Marketing Your Commercial Business' },
+    { type: 'text', content:
+      'Successful commercial photographers market themselves as business solutions, not just image creators. \
+Marketing strategies should target specific industries, demonstrate problem-solving capability, and communicate unique value. \
+Effective marketing combines portfolio development, networking, content creation, and strategic outreach. \
+Understanding client pain points and how photography addresses them forms foundation of successful marketing. \
+Consistent, professional marketing builds reputation and attracts ideal commercial clients.' 
+    },
+    { type: 'subtitle', content: 'Marketing Channels' },
+    { type: 'text', content:
+      'Portfolio website: Professionally presented work organized by specialty or industry. \
+Social media: Industry-specific platforms (LinkedIn, Instagram) showing process and results. \
+Networking: Industry events, trade shows, professional associations. \
+Content marketing: Blog posts, case studies, behind-the-scenes showing expertise. \
+Email marketing: Newsletter updates to past clients and prospects. \
+Referral programs: Incentivizing satisfied clients to recommend services.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Example' },
+    { type: 'text', content:
+      'Commercial photographer specializing in tech companies implements marketing strategy: \
+Website redesign: Organizes portfolio by "Startup Photography," "Corporate Tech," "Product Launches." \
+Adds case studies: Before/after images showing how photography improved client metrics. \
+LinkedIn optimization: Complete profile highlighting tech industry experience. \
+Regular posts: Behind-the-scenes from shoots, photography tips for tech marketers. \
+Content creation: Whitepaper "How Quality Photography Increases SaaS Conversions." \
+Networking: Attends tech startup events, offers free headshots to founders. \
+Targeted outreach: Researches tech companies with outdated website imagery, sends personalized emails. \
+Email newsletter: Monthly with one case study, one photography tip, availability updates. \
+Referral program: 10% discount for clients who refer new business. \
+Result: Within 6 months, fills schedule with ideal clients—tech companies valuing quality photography. \
+Raises rates 25% due to increased demand and demonstrated ROI through case studies.' 
+    }
+  ]
+},
+
+};
+
+export default data;
