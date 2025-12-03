@@ -24513,21 +24513,21 @@ Consistent core values provide continuity through brand evolution.'
     },
     { type: 'subtitle', content: 'Evolution Scenarios' },
     { type: 'text', content:
-      'Industry Transition: Repositioning brand when moving to different sector. \\
-Role Change: Adapting brand for promotion, functional shift, or responsibility expansion. \\
-Entrepreneurial Move: Transitioning from employee to founder or business owner brand. \\
-Expertise Expansion: Broadening brand to incorporate new skills or knowledge areas. \\
-Audience Shift: Reorienting brand toward different professional groups or industries. \\
+      'Industry Transition: Repositioning brand when moving to different sector. \
+Role Change: Adapting brand for promotion, functional shift, or responsibility expansion. \
+Entrepreneurial Move: Transitioning from employee to founder or business owner brand. \
+Expertise Expansion: Broadening brand to incorporate new skills or knowledge areas. \
+Audience Shift: Reorienting brand toward different professional groups or industries. \
 Geographic Relocation: Adapting brand for new regional or cultural context.' 
     },
     { type: 'image', content: 'https://images.unsplash.com/photo-1586282391129-76a6df230234?w=1000&q=60' },
     { type: 'subtitle', content: 'Transition Strategy' },
     { type: 'text', content:
-      'Messaging Bridge: Explaining how past experience informs new direction. \\
-Audience Communication: Informing existing network about brand evolution. \\
-Platform Updates: Refreshing digital presence to reflect new brand positioning. \\
-Content Shift: Developing new content that demonstrates evolved expertise. \\
-Relationship Realignment: Adjusting networking focus to new target audiences. \\
+      'Messaging Bridge: Explaining how past experience informs new direction. \
+Audience Communication: Informing existing network about brand evolution. \
+Platform Updates: Refreshing digital presence to reflect new brand positioning. \
+Content Shift: Developing new content that demonstrates evolved expertise. \
+Relationship Realignment: Adjusting networking focus to new target audiences. \
 Timeline Planning: Phased approach to brand transition that maintains credibility.' 
     }
   ]
