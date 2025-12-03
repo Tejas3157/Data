@@ -11018,6 +11018,3317 @@ Raises rates 25% due to increased demand and demonstrated ROI through case studi
   ]
 },
 
+//=====Music Theory====
+
+'music-theory-1': {
+  id: 'music-theory-1',
+  title: 'Introduction to Music Theory',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Music Theory' },
+    { type: 'text', content:
+      'Music theory is the study of the language and notation of music. \
+It helps musicians understand how music works and communicate effectively. \
+Theory covers elements like rhythm, melody, harmony, and form. \
+Learning theory improves your ability to compose, analyze, and perform. \
+It provides the foundation for all musical understanding and creativity.' 
+    },
+    { type: 'subtitle', content: 'Core Concepts' },
+    { type: 'text', content:
+      'Notes represent specific pitches on the musical scale. \
+Scales are organized sequences of notes that create musical patterns. \
+Chords are combinations of notes played simultaneously for harmony. \
+Rhythm determines the timing and duration of musical sounds. \
+Understanding these basics unlocks your ability to read and create music.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Application' },
+    { type: 'text', content:
+      'Songwriters use music theory to create memorable melodies. \
+Understanding chord progressions helps build emotional impact. \
+Knowledge of scales enables improvisation and solo creation. \
+Rhythmic theory assists in creating engaging song structures. \
+Theory turns random notes into intentional musical expressions.' 
+    }
+  ]
+},
+'music-theory-2': {
+  id: 'music-theory-2',
+  title: 'Scales and Modes',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Scales and Modes' },
+    { type: 'text', content:
+      'Scales are organized sequences of musical notes in ascending order. \
+Each scale has a specific pattern of whole and half steps. \
+Major scales create bright, happy sounds commonly used in pop music. \
+Minor scales produce darker, sadder tones found in blues and rock. \
+Modes are variations of scales that create different musical moods.' 
+    },
+    { type: 'subtitle', content: 'Common Scales' },
+    { type: 'text', content:
+      'Major Scale: The foundation of Western music with seven notes. \
+Natural Minor: Creates melancholic or mysterious feelings. \
+Pentatonic: Five-note scale used in blues, rock, and folk. \
+Blues Scale: Adds blue notes for soulful, expressive sound. \
+Chromatic: Includes all twelve notes for dramatic effect.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Usage' },
+    { type: 'text', content:
+      'Rock guitarists use pentatonic scales for iconic solos. \
+Classical composers employ major and minor scales for emotional contrast. \
+Jazz musicians utilize modes for complex harmonic structures. \
+Film composers choose specific scales to evoke audience emotions. \
+Understanding scales helps predict which notes will sound good together.' 
+    }
+  ]
+},
+'music-theory-3': {
+  id: 'music-theory-3',
+  title: 'Chords and Harmony',
+  image: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Chords and Harmony' },
+    { type: 'text', content:
+      'Chords are combinations of three or more notes played simultaneously. \
+Harmony refers to how chords progress and relate to each other. \
+Triads are three-note chords forming major, minor, diminished qualities. \
+Seventh chords add complexity with an additional fourth note. \
+Chord progressions create the harmonic foundation for songs.' 
+    },
+    { type: 'subtitle', content: 'Chord Types' },
+    { type: 'text', content:
+      'Major Chords: Bright, happy sounds used in uplifting music. \
+Minor Chords: Darker, sadder tones for emotional depth. \
+Dominant Chords: Create tension that wants to resolve. \
+Suspended Chords: Replace thirds for ambiguous, floating quality. \
+Extended Chords: Add ninths, elevenths for jazz complexity.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Application' },
+    { type: 'text', content:
+      'Pop songs often use I-V-vi-IV chord progressions. \
+Blues relies on the 12-bar blues progression structure. \
+Jazz standards feature complex ii-V-I progressions. \
+Understanding chords helps transpose songs to different keys. \
+Chord knowledge enables songwriting and arrangement creation.' 
+    }
+  ]
+},
+'music-theory-4': {
+  id: 'music-theory-4',
+  title: 'Rhythm and Time Signatures',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Rhythm and Time Signatures' },
+    { type: 'text', content:
+      'Rhythm organizes music in time through patterns of duration. \
+Time signatures indicate how many beats are in each measure. \
+The top number shows beats per measure, bottom shows note value. \
+Common time signatures create different musical feels and grooves. \
+Understanding rhythm is essential for playing with other musicians.' 
+    },
+    { type: 'subtitle', content: 'Common Time Signatures' },
+    { type: 'text', content:
+      '4/4 Time: Most common, four quarter notes per measure. \
+3/4 Time: Waltz rhythm, three beats per measure. \
+6/8 Time: Compound meter, often used in folk music. \
+2/4 Time: March time, two beats per measure. \
+12/8 Time: Blues shuffle feel, twelve eighth notes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Application' },
+    { type: 'text', content:
+      'Rock music primarily uses 4/4 time with strong backbeats. \
+Waltzes always follow 3/4 time signature patterns. \
+Blues shuffles often use 12/8 for swinging feel. \
+Progressive rock experiments with odd time signatures. \
+DJs must understand rhythm for beatmatching tracks.' 
+    }
+  ]
+},
+'music-theory-5': {
+  id: 'music-theory-5',
+  title: 'Key Signatures and Transposition',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Key Signatures and Transposition' },
+    { type: 'text', content:
+      'Key signatures indicate which notes are sharp or flat in a piece. \
+Each key signature corresponds to a major and relative minor key. \
+Circle of fifths visualizes relationships between different keys. \
+Transposition changes music from one key to another. \
+This skill is essential for adapting songs to different vocal ranges.' 
+    },
+    { type: 'subtitle', content: 'Understanding Keys' },
+    { type: 'text', content:
+      'Sharp Keys: G, D, A, E, B, F# have increasing sharps. \
+Flat Keys: F, Bb, Eb, Ab, Db, Gb have increasing flats. \
+C Major/A Minor: No sharps or flats in signature. \
+Relative Keys: Share same key signature, different tonics. \
+Parallel Keys: Share same tonic, different key signatures.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Usage' },
+    { type: 'text', content:
+      'Singers transpose songs to fit their vocal range. \
+Bands adjust keys to match their instrumentation. \
+Jazz musicians transpose on the fly during improvisation. \
+Arrangers choose keys based on instrument characteristics. \
+Understanding keys helps analyze music across genres.' 
+    }
+  ]
+},
+'music-theory-6': {
+  id: 'music-theory-6',
+  title: 'Musical Form and Structure',
+  image: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Musical Form and Structure' },
+    { type: 'text', content:
+      'Musical form refers to the overall structure of a composition. \
+Common forms organize sections like verses, choruses, and bridges. \
+Understanding form helps listeners follow musical development. \
+Different genres use characteristic formal structures. \
+Form creates expectation and satisfaction in musical experience.' 
+    },
+    { type: 'subtitle', content: 'Common Forms' },
+    { type: 'text', content:
+      'ABA Form: Ternary form with contrasting middle section. \
+Verse-Chorus: Most common pop structure with repeating chorus. \
+12-Bar Blues: Standard blues progression over twelve measures. \
+Sonata Form: Exposition, development, recapitulation structure. \
+Rondo Form: Alternating main theme with contrasting episodes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Application' },
+    { type: 'text', content:
+      'Pop songs follow predictable verse-chorus structures. \
+Jazz standards often use AABA or ABAC forms. \
+Classical sonatas follow specific developmental structures. \
+DJs mix tracks understanding their structural points. \
+Songwriters use form to create emotional journeys.' 
+    }
+  ]
+},
+'music-theory-7': {
+  id: 'music-theory-7',
+  title: 'Intervals and Ear Training',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Intervals and Ear Training' },
+    { type: 'text', content:
+      'Intervals measure the distance between two musical pitches. \
+Each interval has a specific sound quality and emotional effect. \
+Ear training develops your ability to recognize intervals by ear. \
+This skill improves transcription, improvisation, and composition. \
+Interval recognition is fundamental to musical understanding.' 
+    },
+    { type: 'subtitle', content: 'Interval Types' },
+    { type: 'text', content:
+      'Perfect Intervals: Unisons, fourths, fifths, octaves. \
+Major Intervals: Seconds, thirds, sixths, sevenths. \
+Minor Intervals: One half-step smaller than major intervals. \
+Augmented/Diminished: Altered by additional half-steps. \
+Compound Intervals: Larger than one octave.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Application' },
+    { type: 'text', content:
+      'Singers use interval recognition for accurate pitching. \
+Transcribers identify intervals to write down heard music. \
+Improvisers hear intervals to create melodic lines. \
+Composers choose intervals for specific emotional effects. \
+Musicians tune instruments using interval relationships.' 
+    }
+  ]
+},
+'music-theory-8': {
+  id: 'music-theory-8',
+  title: 'Counterpoint and Voice Leading',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Counterpoint and Voice Leading' },
+    { type: 'text', content:
+      'Counterpoint combines multiple independent melodic lines. \
+Voice leading refers to how individual parts move between chords. \
+Good voice leading creates smooth, logical musical motion. \
+These principles originate from Renaissance and Baroque music. \
+They remain essential for arranging and composition today.' 
+    },
+    { type: 'subtitle', content: 'Voice Leading Rules' },
+    { type: 'text', content:
+      'Common Tone: Keep shared notes between chords. \
+Stepwise Motion: Move voices by step when possible. \
+Avoid Parallel Fifths/Octaves: Creates hollow sound. \
+Resolve Leading Tones: Seventh should resolve to tonic. \
+Contrary Motion: Voices move in opposite directions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Modern Application' },
+    { type: 'text', content:
+      'String arrangers use voice leading for smooth parts. \
+Jazz pianists apply voice leading in chord voicings. \
+Producers create backing vocals using contrapuntal principles. \
+Film composers write multiple melodic lines simultaneously. \
+Understanding counterpoint enriches harmonic understanding.' 
+    }
+  ]
+},
+'music-theory-9': {
+  id: 'music-theory-9',
+  title: 'Orchestration and Instrumentation',
+  image: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Orchestration and Instrumentation' },
+    { type: 'text', content:
+      'Orchestration assigns musical material to specific instruments. \
+Instrumentation studies characteristics and capabilities of instruments. \
+Different instruments have unique timbres, ranges, and techniques. \
+Good orchestration balances clarity, color, and musical intent. \
+This knowledge is essential for arrangers and composers.' 
+    },
+    { type: 'subtitle', content: 'Instrument Families' },
+    { type: 'text', content:
+      'Strings: Violin, viola, cello, bass with bowing techniques. \
+Woodwinds: Flute, oboe, clarinet, bassoon with breath control. \
+Brass: Trumpet, trombone, French horn, tuba using mouthpieces. \
+Percussion: Drums, mallets, auxiliary with striking techniques. \
+Keyboards: Piano, organ, synthesizer with harmonic capability.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Application' },
+    { type: 'text', content:
+      'Film composers choose instruments to evoke emotions. \
+Arrangers select instruments based on available resources. \
+Producers layer different timbres for rich textures. \
+Songwriters consider instrumentation during composition. \
+Understanding instruments improves communication with musicians.' 
+    }
+  ]
+},
+'music-theory-10': {
+  id: 'music-theory-10',
+  title: 'Analysis and Musical Interpretation',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Analysis and Musical Interpretation' },
+    { type: 'text', content:
+      'Musical analysis examines how musical elements work together. \
+Interpretation applies analytical insights to performance decisions. \
+Analysis considers harmony, melody, rhythm, form, and texture. \
+Understanding these elements informs expressive performance choices. \
+Analytical skills deepen appreciation and mastery of music.' 
+    },
+    { type: 'subtitle', content: 'Analytical Approaches' },
+    { type: 'text', content:
+      'Harmonic Analysis: Identifies chords and their functions. \
+Formal Analysis: Maps the structure of musical works. \
+Melodic Analysis: Studies contour, motive, and development. \
+Rhythmic Analysis: Examines patterns and metric organization. \
+Stylistic Analysis: Considers historical and genre context.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Real-World Application' },
+    { type: 'text', content:
+      'Performers analyze scores for interpretative decisions. \
+Conductors study works to develop rehearsal strategies. \
+Teachers use analysis to explain musical concepts. \
+Producers analyze hits to understand successful elements. \
+Composers analyze masterworks for inspiration and technique.' 
+    }
+  ]
+},
+
+// ====Home Recording====
+
+'home-recording-1': {
+  id: 'home-recording-1',
+  title: 'Setting Up Your Home Studio',
+  image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Setting Up Your Home Studio' },
+    { type: 'text', content:
+      'Home recording allows musicians to create professional quality music from home. \
+Essential equipment includes computer, audio interface, microphones, and monitors. \
+Room treatment improves sound quality by reducing reflections and standing waves. \
+Software choices range from free DAWs to professional studio systems. \
+Strategic setup maximizes workflow efficiency and creative potential.' 
+    },
+    { type: 'subtitle', content: 'Essential Equipment' },
+    { type: 'text', content:
+      'Computer: Fast processor and ample RAM for audio processing. \
+Audio Interface: Converts analog signals to digital with preamps. \
+Microphones: Different types for various instruments and voices. \
+Monitors: Studio speakers designed for accurate frequency response. \
+Headphones: Closed-back for recording, open-back for mixing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Setup' },
+    { type: 'text', content:
+      'Position monitors to form equilateral triangle with listening position. \
+Treat first reflection points on walls with acoustic panels. \
+Place computer away from microphone to reduce fan noise. \
+Organize cables to prevent interference and tripping hazards. \
+Create comfortable environment that inspires creativity.' 
+    }
+  ]
+},
+'home-recording-2': {
+  id: 'home-recording-2',
+  title: 'Microphone Selection and Placement',
+  image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Microphone Selection and Placement' },
+    { type: 'text', content:
+      'Different microphones capture sound using various operating principles. \
+Dynamic mics handle high sound pressure levels like guitar amps and drums. \
+Condenser mics offer detailed response ideal for vocals and acoustic instruments. \
+Ribbon mics provide warm, vintage character for specific applications. \
+Proper placement dramatically affects recorded sound quality.' 
+    },
+    { type: 'subtitle', content: 'Microphone Types' },
+    { type: 'text', content:
+      'Dynamic: Durable, handles loud sources, requires no phantom power. \
+Condenser: Sensitive, detailed, requires phantom power (+48V). \
+Ribbon: Fragile, warm sound, figure-8 polar pattern. \
+USB: Built-in interface, convenient for podcasting and beginners. \
+Stereo: Matched pairs for capturing spatial information.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60' },
+    { type: 'subtitle', content: 'Placement Techniques' },
+    { type: 'text', content:
+      'Vocal microphone placed 6-12 inches from mouth with pop filter. \
+Acoustic guitar mic aimed at 12th fret for balanced tone. \
+Guitar amp microphone positioned off-center from speaker cone. \
+Drum overheads placed equidistant from snare for phase coherence. \
+Experiment with distance to find sweet spot for each source.' 
+    }
+  ]
+},
+'home-recording-3': {
+  id: 'home-recording-3',
+  title: 'Recording Vocals at Home',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Recording Vocals at Home' },
+    { type: 'text', content:
+      'Vocal recording requires attention to technical and performance aspects. \
+Room acoustics significantly impact vocal recording quality. \
+Proper microphone technique prevents plosives and sibilance issues. \
+Headphone mix affects pitch accuracy and emotional delivery. \
+Multiple takes and comping create the perfect final performance.' 
+    },
+    { type: 'subtitle', content: 'Vocal Recording Setup' },
+    { type: 'text', content:
+      'Use pop filter 2-4 inches from microphone to stop plosives. \
+Position microphone slightly above mouth pointing downward. \
+Create vocal booth with moving blankets if room treatment limited. \
+Ensure comfortable headphone mix with reverb for pitch reference. \
+Stand while recording for better breath support and energy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1571330735066-03b0d0c3d8c0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Professional Tips' },
+    { type: 'text', content:
+      'Record multiple complete takes for emotional consistency. \
+Use comping to combine best phrases from different takes. \
+Record doubles and harmonies during same session for tonal consistency. \
+Stay hydrated with room temperature water throughout session. \
+Take breaks to prevent vocal fatigue and maintain performance quality.' 
+    }
+  ]
+},
+'home-recording-4': {
+  id: 'home-recording-4',
+  title: 'Recording Acoustic Instruments',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Recording Acoustic Instruments' },
+    { type: 'text', content:
+      'Acoustic instruments require careful microphone placement to capture natural tone. \
+Room acoustics become part of the recorded sound with acoustic sources. \
+Stereo techniques capture spatial information and instrument width. \
+Phase relationships between multiple microphones affect sound quality. \
+Different instruments require specific microphone approaches.' 
+    },
+    { type: 'subtitle', content: 'Instrument Techniques' },
+    { type: 'text', content:
+      'Acoustic Guitar: XY or spaced pair pointing at 12th fret. \
+Piano: Stereo pair inside with lid open, or overhead for room sound. \
+Violin: Single condenser pointing between bridge and fingerboard. \
+Brass: Dynamic microphone several feet away to capture full tone. \
+Percussion: Close mics plus room mics for natural ambience.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Best Practices' },
+    { type: 'text', content:
+      'Listen in mono to check for phase cancellation issues. \
+Experiment with microphone distance to balance direct and room sound. \
+Use reflection filters when recording in untreated rooms. \
+Record multiple microphone positions simultaneously if possible. \
+Consider the musical context when choosing microphone placement.' 
+    }
+  ]
+},
+'home-recording-5': {
+  id: 'home-recording-5',
+  title: 'Recording Electric Guitar and Bass',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Recording Electric Guitar and Bass' },
+    { type: 'text', content:
+      'Electric guitar recording combines amplifier capture with DI signals. \
+Different microphone positions on speaker cabinet dramatically change tone. \
+DI recording provides clean signal for reamping and processing flexibility. \
+Bass guitar often combines DI with amplifier or speaker simulation. \
+Modern options include amp modeling plugins and hardware units.' 
+    },
+    { type: 'subtitle', content: 'Recording Methods' },
+    { type: 'text', content:
+      'Amp + Mic: Dynamic mic on speaker with condenser for room. \
+DI Box: Clean signal direct from instrument for reamping. \
+Amp Modeling: Digital simulation of classic amplifier tones. \
+Reamping: Record DI then send back through amplifier later. \
+Multi-Mic: Combine close and distant mics for full sound.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Professional Techniques' },
+    { type: 'text', content:
+      'Position microphone off-center on speaker cone for smoother tone. \
+Record both DI and amped signals simultaneously for options. \
+Use multiple guitar tracks panned left/right for width. \
+Record bass with DI plus amp mic for low-end weight. \
+Experiment with different amplifier settings before recording.' 
+    }
+  ]
+},
+'home-recording-6': {
+  id: 'home-recording-6',
+  title: 'Digital Audio Workstations (DAWs)',
+  image: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Audio Workstations (DAWs)' },
+    { type: 'text', content:
+      'DAWs are software platforms for recording, editing, and mixing audio. \
+Different DAWs have varying workflows, features, and target users. \
+Most DAWs include virtual instruments, effects, and editing tools. \
+Choosing the right DAW depends on workflow preferences and musical style. \
+Mastering one DAW thoroughly is better than knowing many superficially.' 
+    },
+    { type: 'subtitle', content: 'Popular DAWs' },
+    { type: 'text', content:
+      'Logic Pro: Mac-only with comprehensive virtual instruments. \
+Pro Tools: Industry standard for professional studios. \
+Ableton Live: Excellent for electronic music and live performance. \
+FL Studio: Pattern-based workflow popular with hip-hop producers. \
+Reaper: Affordable, customizable with strong community support.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60' },
+    { type: 'subtitle', content: 'Getting Started' },
+    { type: 'text', content:
+      'Learn keyboard shortcuts to dramatically increase workflow speed. \
+Create template sessions with commonly used tracks and effects. \
+Organize sessions with consistent naming and color coding. \
+Regularly save incremental versions to prevent data loss. \
+Use reference tracks to compare your mixes with professional releases.' 
+    }
+  ]
+},
+'home-recording-7': {
+  id: 'home-recording-7',
+  title: 'Basic Audio Editing Techniques',
+  image: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Audio Editing Techniques' },
+    { type: 'text', content:
+      'Audio editing prepares recorded tracks for mixing and arrangement. \
+Common editing tasks include trimming, fading, and comping takes. \
+Grid and slip modes help align musical elements rhythmically. \
+Crossfades prevent clicks and pops at edit points. \
+Non-destructive editing preserves original audio files.' 
+    },
+    { type: 'subtitle', content: 'Essential Editing Skills' },
+    { type: 'text', content:
+      'Comping: Combining best sections from multiple takes. \
+Time Alignment: Correcting timing inconsistencies between tracks. \
+Fades: Creating smooth transitions at clip boundaries. \
+Noise Reduction: Removing hum, hiss, or background noise. \
+Pocketing: Subtle timing adjustments for groove consistency.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Application' },
+    { type: 'text', content:
+      'Edit vocals to remove breaths between phrases if desired. \
+Align drum hits to grid for tight rhythmic foundation. \
+Create composite guitar solo from multiple improvisations. \
+Remove string squeaks and fret noise from acoustic recordings. \
+Edit bass guitar to lock precisely with kick drum pattern.' 
+    }
+  ]
+},
+'home-recording-8': {
+  id: 'home-recording-8',
+  title: 'Using Virtual Instruments and MIDI',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Using Virtual Instruments and MIDI' },
+    { type: 'text', content:
+      'Virtual instruments emulate real instruments using sampled recordings. \
+MIDI data represents musical performance information without audio. \
+MIDI controllers include keyboards, drum pads, and wind controllers. \
+Virtual instruments range from realistic emulations to synthesized sounds. \
+MIDI editing allows detailed adjustment of timing, velocity, and expression.' 
+    },
+    { type: 'subtitle', content: 'Virtual Instrument Types' },
+    { type: 'text', content:
+      'Samplers: Use recorded samples of real instruments. \
+Synthesizers: Generate sound using oscillators and filters. \
+Romplers: Combine sampling with synthesis capabilities. \
+Drum Machines: Specialized for percussion and rhythm patterns. \
+Orchestral Libraries: Detailed samples of classical instruments.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'MIDI Techniques' },
+    { type: 'text', content:
+      'Record MIDI performances in real-time with expressive dynamics. \
+Edit MIDI notes to correct timing and pitch inaccuracies. \
+Use velocity changes to add natural dynamics to performances. \
+Apply MIDI effects like arpeggiators and chord generators. \
+Combine MIDI with audio recording for hybrid productions.' 
+    }
+  ]
+},
+'home-recording-9': {
+  id: 'home-recording-9',
+  title: 'Basic Mixing Concepts',
+  image: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Mixing Concepts' },
+    { type: 'text', content:
+      'Mixing balances individual tracks into cohesive musical whole. \
+Core mixing elements include volume balance, panning, and equalization. \
+Effects like reverb and delay create space and depth. \
+Dynamic processing controls level fluctuations with compression. \
+Reference tracks help calibrate your ears during mixing.' 
+    },
+    { type: 'subtitle', content: 'Mixing Fundamentals' },
+    { type: 'text', content:
+      'Balance: Set appropriate volume relationships between tracks. \
+Panning: Position sounds in stereo field for width and clarity. \
+EQ: Shape frequency content to reduce masking and enhance character. \
+Compression: Control dynamic range for consistency and impact. \
+Effects: Add space and interest with time-based processing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Approach' },
+    { type: 'text', content:
+      'Start with volume balance before applying any processing. \
+Use high-pass filters to remove unnecessary low frequencies. \
+Create focus by giving each instrument its own frequency space. \
+Use buses for parallel processing and organizational efficiency. \
+Take regular breaks to prevent ear fatigue during long sessions.' 
+    }
+  ]
+},
+'home-recording-10': {
+  id: 'home-recording-10',
+  title: 'Preparing for Mixing and Mastering',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Preparing for Mixing and Mastering' },
+    { type: 'text', content:
+      'Proper preparation ensures efficient mixing and mastering stages. \
+Organization includes naming tracks, color coding, and grouping. \
+Consolidation combines edited audio into continuous files. \
+Reference tracks provide target sound for mixing decisions. \
+Headroom preservation prevents clipping and distortion.' 
+    },
+    { type: 'subtitle', content: 'Preparation Steps' },
+    { type: 'text', content:
+      'Name Tracks: Clear, descriptive names for all audio tracks. \
+Color Code: Visual organization by instrument type or section. \
+Remove Unused: Delete unused takes and audio files to save space. \
+Check Phase: Ensure multi-mic recordings are phase coherent. \
+Create Stems: Bounce instrument groups for backup and collaboration.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Professional Workflow' },
+    { type: 'text', content:
+      'Export session with all audio starting at same point. \
+Include tempo and key information for mixing engineer. \
+Provide alternate versions of important parts (vocal takes, solos). \
+Leave headroom of -6dB to -3dB for mastering engineer. \
+Include notes about creative intentions and reference tracks.' 
+    }
+  ]
+},
+
+// ====Guitar Basics====
+
+'guitar-basics-1': {
+  id: 'guitar-basics-1',
+  title: 'Getting Started with Guitar',
+  image: 'https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Getting Started with Guitar' },
+    { type: 'text', content:
+      'Learning guitar opens doors to musical expression across genres. \
+Proper posture and hand position prevent injury and improve technique. \
+Understanding guitar parts helps with maintenance and sound shaping. \
+Regular practice with proper technique builds solid foundation. \
+Patience and consistency are more important than natural talent.' 
+    },
+    { type: 'subtitle', content: 'Guitar Anatomy' },
+    { type: 'text', content:
+      'Headstock: Houses tuning pegs for string adjustment. \
+Neck: Contains frets for changing pitch, usually 19-24 frets. \
+Body: Acoustic has sound hole, electric has pickups and controls. \
+Bridge: Anchors strings and transmits vibration to body. \
+Controls: Electric guitars have volume, tone, and pickup selectors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'First Steps' },
+    { type: 'text', content:
+      'Hold guitar comfortably with back straight, not hunched. \
+Left thumb behind neck for leverage, not wrapped over top. \
+Right hand relaxed for picking or fingerstyle technique. \
+Start with easy chords like E minor, A minor, and D major. \
+Practice daily for 15-30 minutes rather than occasional long sessions.' 
+    }
+  ]
+},
+'guitar-basics-2': {
+  id: 'guitar-basics-2',
+  title: 'Basic Chords and Strumming',
+  image: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Chords and Strumming' },
+    { type: 'text', content:
+      'Basic chords form foundation for thousands of popular songs. \
+Open chords use unfretted strings for full, resonant sound. \
+Proper fingering ensures clear notes without muting adjacent strings. \
+Strumming patterns create rhythm and musical feel. \
+Smooth chord changes develop through deliberate, slow practice.' 
+    },
+    { type: 'subtitle', content: 'Essential Open Chords' },
+    { type: 'text', content:
+      'C Major: Three-finger shape used in countless pop songs. \
+G Major: Full-sounding chord requiring finger stretch. \
+D Major: Bright chord perfect for folk and country music. \
+E Minor: Simplest two-finger chord with melancholic sound. \
+A Minor: Easy three-finger shape for emotional progressions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strumming Fundamentals' },
+    { type: 'text', content:
+      'Hold pick between thumb and curled index finger. \
+Strum from elbow with relaxed wrist motion. \
+Practice downstrokes only before adding upstrokes. \
+Count out loud: "1 and 2 and 3 and 4 and". \
+Start slowly with metronome before increasing tempo.' 
+    }
+  ]
+},
+'guitar-basics-3': {
+  id: 'guitar-basics-3',
+  title: 'Reading Guitar Tablature',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Reading Guitar Tablature' },
+    { type: 'text', content:
+      'Tablature shows where to place fingers rather than musical notation. \
+Each line represents a guitar string, numbers indicate frets. \
+Tabs are easier to read than standard notation for guitarists. \
+Symbols indicate techniques like bends, slides, and vibrato. \
+Understanding tabs unlocks vast library of online guitar lessons.' 
+    },
+    { type: 'subtitle', content: 'Tab Symbols' },
+    { type: 'text', content:
+      'Numbers: Fret position on that string (0 = open string). \
+h: Hammer-on from one note to higher note. \
+p: Pull-off from higher note to lower note. \
+/: Slide up to higher fret. \
+\\: Slide down to lower fret. \
+b: Bend string to raise pitch.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Application' },
+    { type: 'text', content:
+      'Read tabs from left to right like standard text. \
+Vertical alignment indicates notes played simultaneously. \
+Rhythm is not precisely notated in most tabs. \
+Listen to original recording to understand timing. \
+Start with simple riffs before attempting complete solos.' 
+    }
+  ]
+},
+'guitar-basics-4': {
+  id: 'guitar-basics-4',
+  title: 'Basic Fingerpicking Patterns',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Fingerpicking Patterns' },
+    { type: 'text', content:
+      'Fingerpicking creates intricate patterns using individual fingers. \
+Thumb handles bass notes while fingers play melody and harmony. \
+Patterns range from simple alternating bass to complex arpeggios. \
+Fingerstyle allows simultaneous bass, rhythm, and melody. \
+This technique is essential for folk, classical, and acoustic genres.' 
+    },
+    { type: 'subtitle', content: 'Finger Assignment' },
+    { type: 'text', content:
+      'p (thumb): Plays bass notes on strings 6, 5, and 4. \
+i (index): Usually plays third string. \
+m (middle): Usually plays second string. \
+a (ring): Usually plays first string. \
+This classical assignment provides foundation for all patterns.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Beginner Patterns' },
+    { type: 'text', content:
+      'Alternating Bass: Thumb alternates between two bass strings. \
+Travis Picking: Thumb maintains pattern while fingers play melody. \
+Arpeggio Patterns: Notes of chord played in sequence rather than together. \
+Practice slowly with consistent finger assignment. \
+Focus on smooth transitions between chords while maintaining pattern.' 
+    }
+  ]
+},
+'guitar-basics-5': {
+  id: 'guitar-basics-5',
+  title: 'Power Chords and Rock Riffs',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Power Chords and Rock Riffs' },
+    { type: 'text', content:
+      'Power chords use root and fifth without third for neutral sound. \
+This simplicity allows easy movement up and down the neck. \
+Power chords sound massive with distortion in rock and metal. \
+Many iconic rock riffs are built from power chord shapes. \
+Muting techniques keep other strings quiet during aggressive playing.' 
+    },
+    { type: 'subtitle', content: 'Power Chord Shapes' },
+    { type: 'text', content:
+      'Two-note Power Chord: Root on 6th string with fifth on next string. \
+Three-note Power Chord: Adds octave for fuller sound. \
+Movable Shape: Same fingering works anywhere on neck. \
+Index finger barres both notes in two-note version. \
+Pinkie or ring finger adds octave in three-note version.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Rock Techniques' },
+    { type: 'text', content:
+      'Palm muting creates chugging rhythm guitar sound. \
+Downpicking creates aggressive, articulate attack. \
+Galloping rhythms use patterns of eighth and sixteenth notes. \
+Practice with distortion to learn proper muting control. \
+Start with classic rock riffs like Smoke on the Water or Seven Nation Army.' 
+    }
+  ]
+},
+'guitar-basics-6': {
+  id: 'guitar-basics-6',
+  title: 'Introduction to Scales for Improvisation',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Scales for Improvisation' },
+    { type: 'text', content:
+      'Scales provide notes that work together for melodies and solos. \
+Pentatonic scales are easiest starting point for improvisation. \
+Minor pentatonic works over many rock, blues, and pop progressions. \
+Learning scale patterns helps navigate the fretboard. \
+Improvisation combines scale knowledge with musical expression.' 
+    },
+    { type: 'subtitle', content: 'Essential Scales' },
+    { type: 'text', content:
+      'Minor Pentatonic: Five-note scale used in blues and rock. \
+Major Pentatonic: Brighter alternative for country and pop. \
+Blues Scale: Minor pentatonic with added blue note. \
+Natural Minor: Full seven-note scale for more options. \
+Practice each pattern starting from different root notes.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Improvisation Tips' },
+    { type: 'text', content:
+      'Start with just a few notes from the scale. \
+Listen more than you play when improvising with others. \
+Use repetition to create musical phrases. \
+Leave space between phrases for breathing room. \
+Practice over backing tracks in different styles and tempos.' 
+    }
+  ]
+},
+'guitar-basics-7': {
+  id: 'guitar-basics-7',
+  title: 'Barre Chords Mastery',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Barre Chords Mastery' },
+    { type: 'text', content:
+      'Barre chords use index finger to press multiple strings simultaneously. \
+This technique allows playing any chord anywhere on the neck. \
+Barre chords unlock entire fretboard for chord progressions. \
+Strength and proper technique prevent hand fatigue. \
+Mastering barre chords dramatically expands musical possibilities.' 
+    },
+    { type: 'subtitle', content: 'Barre Chord Shapes' },
+    { type: 'text', content:
+      'E Shape Barre: Based on open E chord, root on 6th string. \
+A Shape Barre: Based on open A chord, root on 5th string. \
+Minor Barre: Same shapes with third finger lifted for minor. \
+7th Chords: Adjust fingers for dominant and minor seventh chords. \
+Start with F major as first barre chord challenge.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Technique Tips' },
+    { type: 'text', content:
+      'Place index finger close to fret for minimal pressure. \
+Roll index finger slightly onto side for better pressure. \
+Use arm weight rather than just hand strength. \
+Check each string rings clearly before strumming. \
+Practice transitioning between open chords and barre chords.' 
+    }
+  ]
+},
+'guitar-basics-8': {
+  id: 'guitar-basics-8',
+  title: 'Common Chord Progressions',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Common Chord Progressions' },
+    { type: 'text', content:
+      'Chord progressions are sequences that form song harmony. \
+Certain progressions appear repeatedly across musical genres. \
+Roman numerals indicate chord function within key. \
+Understanding progressions helps with songwriting and improvisation. \
+Many hit songs use simple three or four chord progressions.' 
+    },
+    { type: 'subtitle', content: 'Popular Progressions' },
+    { type: 'text', content:
+      'I-V-vi-IV: Most common pop progression (C G Am F). \
+12-Bar Blues: Foundation of blues, rock, and jazz. \
+ii-V-I: Essential jazz progression with strong resolution. \
+I-vi-IV-V: 50s doo-wop progression (C Am F G). \
+vi-IV-I-V: Emotional alternative progression.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Application' },
+    { type: 'text', content:
+      'Learn progressions in multiple keys for flexibility. \
+Experiment with different strumming patterns over same progression. \
+Try capo to change key while using familiar chord shapes. \
+Sing or write melodies over chord progressions. \
+Analyze favorite songs to identify their chord progressions.' 
+    }
+  ]
+},
+'guitar-basics-9': {
+  id: 'guitar-basics-9',
+  title: 'Introduction to Lead Guitar Techniques',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Lead Guitar Techniques' },
+    { type: 'text', content:
+      'Lead guitar focuses on melody, solos, and instrumental lines. \
+Techniques like bending and vibrato add expression to notes. \
+Phrasing creates musical sentences rather than just playing scales. \
+Timing and rhythm are as important as note choice. \
+Good lead playing serves the song rather than showing off.' 
+    },
+    { type: 'subtitle', content: 'Essential Techniques' },
+    { type: 'text', content:
+      'Bending: Pushing string to raise pitch, usually one or two steps. \
+Vibrato: Small pitch fluctuations adding warmth and expression. \
+Slides: Smooth transitions between notes without re-picking. \
+Hammer-ons: Sounding note by fretting without picking. \
+Pull-offs: Sounding lower note by pulling finger off string.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Approach' },
+    { type: 'text', content:
+      'Practice bends slowly with tuner to ensure accurate pitch. \
+Develop consistent vibrato speed and width. \
+Learn iconic simple solos before attempting complex ones. \
+Record yourself to identify areas needing improvement. \
+Listen to great guitarists across different genres for inspiration.' 
+    }
+  ]
+},
+'guitar-basics-10': {
+  id: 'guitar-basics-10',
+  title: 'Practicing Effectively and Building Repertoire',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Practicing Effectively and Building Repertoire' },
+    { type: 'text', content:
+      'Effective practice requires structure, focus, and consistency. \
+Building repertoire means learning complete songs from start to finish. \
+Balancing technique, theory, and songs maintains motivation. \
+Recording practice sessions provides objective feedback. \
+Setting specific goals accelerates progress more than random practice.' 
+    },
+    { type: 'subtitle', content: 'Practice Structure' },
+    { type: 'text', content:
+      'Warm-up: Finger exercises and scale patterns. \
+Technique: Focus on specific skill needing improvement. \
+Repertoire: Learn and refine complete songs. \
+Creativity: Improvisation, songwriting, or arrangement. \
+Cool-down: Review what was learned and plan next session.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Repertoire Building' },
+    { type: 'text', content:
+      'Learn songs at appropriate difficulty level. \
+Start with simple three-chord songs for early success. \
+Learn songs you genuinely enjoy listening to. \
+Practice with recordings to develop timing and feel. \
+Perform songs for friends or family to build confidence.' 
+    }
+  ]
+},
+
+// =====Piano Fundamentals=======
+
+'piano-fundamentals-1': {
+  id: 'piano-fundamentals-1',
+  title: 'Introduction to the Piano',
+  image: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to the Piano' },
+    { type: 'text', content:
+      'The piano is a versatile instrument that serves as foundation for music theory. \
+It features 88 keys covering more than seven octaves of musical range. \
+White keys represent natural notes while black keys are sharps and flats. \
+Learning piano improves musical understanding across all instruments. \
+Proper posture and hand position prevent injury and enable technical development.' 
+    },
+    { type: 'subtitle', content: 'Piano Anatomy' },
+    { type: 'text', content:
+      'Keyboard: Array of black and white keys that produce sound. \
+Action: Mechanical system translating key press to hammer movement. \
+Soundboard: Amplifies string vibrations for rich, resonant tone. \
+Pedals: Sustain, soft, and sostenuto pedals modify sound characteristics. \
+Frame: Heavy iron frame supports string tension up to 20 tons.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Getting Started' },
+    { type: 'text', content:
+      'Sit with back straight, elbows slightly higher than keyboard. \
+Position bench so forearms are parallel to floor when hands on keys. \
+Number fingers 1-5 starting with thumb as 1, pinky as 5. \
+Learn keyboard geography: pattern of two and three black keys. \
+Practice finding all C notes using the two-black-key group as reference.' 
+    }
+  ]
+},
+'piano-fundamentals-2': {
+  id: 'piano-fundamentals-2',
+  title: 'Reading Piano Sheet Music',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Reading Piano Sheet Music' },
+    { type: 'text', content:
+      'Piano music uses both treble and bass clefs simultaneously. \
+The grand staff combines these clefs to cover piano\'s wide range. \
+Middle C serves as reference point between the two staves. \
+Note values indicate rhythm through different note shapes. \
+Reading fluency develops through consistent, gradual practice.' 
+    },
+    { type: 'subtitle', content: 'Staff Fundamentals' },
+    { type: 'text', content:
+      'Treble Clef: Also called G clef, notes: E G B D F (lines). \
+Bass Clef: Also called F clef, notes: G B D F A (lines). \
+Ledger Lines: Extend staff for notes beyond five lines. \
+Time Signature: Top number = beats per measure, bottom = note value. \
+Key Signature: Sharps or flats at beginning indicating key.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Reading' },
+    { type: 'text', content:
+      'Practice identifying notes without looking at keyboard. \
+Start with simple five-finger positions in C major. \
+Say note names aloud while playing to reinforce connection. \
+Use landmarks: treble G, bass F, and middle C as references. \
+Read ahead of where you\'re playing to maintain flow.' 
+    }
+  ]
+},
+'piano-fundamentals-3': {
+  id: 'piano-fundamentals-3',
+  title: 'Basic Finger Exercises and Technique',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Finger Exercises and Technique' },
+    { type: 'text', content:
+      'Proper finger technique ensures control, speed, and expressiveness. \
+Exercises develop independent finger movement and strength. \
+Curved fingers with relaxed wrists prevent tension and injury. \
+Gradual tempo increase builds muscle memory without strain. \
+Daily technical practice maintains and improves piano skills.' 
+    },
+    { type: 'subtitle', content: 'Essential Exercises' },
+    { type: 'text', content:
+      'Five-Finger Patterns: Play C-D-E-F-G with each hand separately. \
+Hanon Exercises: Classic studies for finger independence and strength. \
+Scales: One and two octaves in major and minor keys. \
+Arpeggios: Broken chord patterns for hand flexibility. \
+Chords: Block chords and broken chord patterns.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Technical Principles' },
+    { type: 'text', content:
+      'Keep fingers curved as if holding a small ball. \
+Use arm weight rather than just finger strength for tone. \
+Lift fingers from knuckle joints, not from wrist. \
+Practice with metronome starting very slow (40-60 BPM). \
+Focus on evenness of tone and timing between fingers.' 
+    }
+  ]
+},
+'piano-fundamentals-4': {
+  id: 'piano-fundamentals-4',
+  title: 'Major and Minor Scales',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Major and Minor Scales' },
+    { type: 'text', content:
+      'Scales are organized sequences of notes that create musical tonality. \
+Major scales follow pattern: whole-whole-half-whole-whole-whole-half. \
+Minor scales have three forms: natural, harmonic, and melodic. \
+Scale practice improves finger dexterity and music theory understanding. \
+All Western music is based on major and minor scale systems.' 
+    },
+    { type: 'subtitle', content: 'Scale Types' },
+    { type: 'text', content:
+      'C Major: No sharps or flats, starting point for beginners. \
+G Major: One sharp (F#), introduces black key technique. \
+A Minor: Relative minor of C major, same key signature. \
+Harmonic Minor: Raises seventh degree for distinctive sound. \
+Melodic Minor: Different ascending and descending patterns.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Method' },
+    { type: 'text', content:
+      'Practice hands separately before combining. \
+Use proper fingering patterns for each scale. \
+Start with one octave, expand to two, then four octaves. \
+Practice with different rhythms: quarter, eighth, triplets. \
+Play scales in contrary motion for hand independence.' 
+    }
+  ]
+},
+'piano-fundamentals-5': {
+  id: 'piano-fundamentals-5',
+  title: 'Basic Chords and Progressions',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Chords and Progressions' },
+    { type: 'text', content:
+      'Chords are three or more notes played simultaneously for harmony. \
+Triads form foundation of Western harmony: major, minor, diminished. \
+Chord progressions create musical movement and emotional narrative. \
+Understanding chords enables accompaniment, improvisation, and composition. \
+Piano\'s layout makes chord relationships visually clear.' 
+    },
+    { type: 'subtitle', content: 'Essential Chords' },
+    { type: 'text', content:
+      'C Major Triad: C-E-G, fundamental major chord. \
+A Minor Triad: A-C-E, relative minor of C major. \
+G Major Triad: G-B-D, dominant chord in C major. \
+F Major Triad: F-A-C, subdominant chord in C major. \
+Seventh Chords: Add fourth note for richer harmony.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Common Progressions' },
+    { type: 'text', content:
+      'I-IV-V: Basic progression in countless pop and folk songs. \
+I-V-vi-IV: Modern pop progression (C G Am F). \
+12-Bar Blues: Foundation for blues, rock, and jazz. \
+ii-V-I: Essential jazz progression with strong resolution. \
+Practice progressions in different keys for versatility.' 
+    }
+  ]
+},
+'piano-fundamentals-6': {
+  id: 'piano-fundamentals-6',
+  title: 'Hand Coordination and Independence',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Hand Coordination and Independence' },
+    { type: 'text', content:
+      'Piano requires hands to perform different tasks simultaneously. \
+Left hand often provides harmony while right hand plays melody. \
+Coordination develops through slow, deliberate practice. \
+Hand independence allows complex polyphonic music like Bach. \
+This skill separates piano from many other instruments.' 
+    },
+    { type: 'subtitle', content: 'Coordination Exercises' },
+    { type: 'text', content:
+      'Contrary Motion Scales: Hands move opposite directions. \
+Different Rhythms: Left hand quarters, right hand eighths. \
+Broken Chords: Left hand arpeggio, right hand melody. \
+Polyrhythms: Three against two, four against three patterns. \
+Bach Inventions: Classic studies for hand independence.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Approach' },
+    { type: 'text', content:
+      'Practice hands separately until confident with each part. \
+Combine at extremely slow tempo with metronome. \
+Count aloud to internalize rhythmic relationships. \
+Focus on coordination before adding expression or speed. \
+Be patient - hand independence develops over months, not days.' 
+    }
+  ]
+},
+'piano-fundamentals-7': {
+  id: 'piano-fundamentals-7',
+  title: 'Pedal Technique and Expression',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Pedal Technique and Expression' },
+    { type: 'text', content:
+      'Pedals modify piano sound for greater musical expression. \
+Sustain pedal connects notes for legato and rich harmonies. \
+Soft pedal creates quieter, more intimate tone quality. \
+Sostenuto pedal sustains specific notes while others remain dry. \
+Proper pedaling separates amateur from professional piano playing.' 
+    },
+    { type: 'subtitle', content: 'Pedal Types' },
+    { type: 'text', content:
+      'Damper Pedal (Right): Most used pedal for sustaining sound. \
+Una Corda (Left): Shifts action for softer, muted tone. \
+Sostenuto (Middle): Sustains selected notes, rare on uprights. \
+Half-Pedaling: Partial depression for subtle sustain effects. \
+Syncopated Pedaling: Changing pedal after beat for clean sound.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Pedaling Techniques' },
+    { type: 'text', content:
+      'Change pedal with harmonic changes, not randomly. \
+Listen carefully to avoid muddy sound from too much sustain. \
+Practice pedal changes without playing to develop foot control. \
+Use ears more than rules - different pieces require different pedaling. \
+Record yourself to evaluate pedaling effectiveness.' 
+    }
+  ]
+},
+'piano-fundamentals-8': {
+  id: 'piano-fundamentals-8',
+  title: 'Sight-Reading Fundamentals',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Sight-Reading Fundamentals' },
+    { type: 'text', content:
+      'Sight-reading is playing music at first sight without preparation. \
+This skill enables learning new repertoire quickly and efficiently. \
+Good sight-readers process multiple elements simultaneously. \
+Regular sight-reading practice improves overall musicianship. \
+The key is continuing without stopping to correct mistakes.' 
+    },
+    { type: 'subtitle', content: 'Sight-Reading Elements' },
+    { type: 'text', content:
+      'Pitch Reading: Quick recognition of notes on both staves. \
+Rhythm: Internalizing rhythmic patterns without counting each beat. \
+Key Signature: Instant recognition of sharps or flats. \
+Articulation: Observing staccato, legato, and accent marks. \
+Hand Position: Understanding fingering suggestions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Strategy' },
+    { type: 'text', content:
+      'Start with material below your current playing level. \
+Keep eyes on music, not on hands or keyboard. \
+Maintain steady tempo even if you make mistakes. \
+Scan piece before playing: key, time signature, difficult spots. \
+Practice sight-reading daily for 10-15 minutes for best results.' 
+    }
+  ]
+},
+'piano-fundamentals-9': {
+  id: 'piano-fundamentals-9',
+  title: 'Memorization Techniques',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Memorization Techniques' },
+    { type: 'text', content:
+      'Memorizing music frees you from sheet music during performance. \
+Different memory types work together for secure retention. \
+Analytical memory understands structure, harmony, and form. \
+Muscle memory develops through repetition of physical movements. \
+Aural memory remembers how the music should sound.' 
+    },
+    { type: 'subtitle', content: 'Memory Types' },
+    { type: 'text', content:
+      'Visual Memory: Seeing notes on page and keys on keyboard. \
+Aural Memory: Remembering sound and melodic contours. \
+Analytical Memory: Understanding harmony, form, and structure. \
+Kinesthetic Memory: Muscle memory from repeated physical motions. \
+Combining these approaches creates most secure memorization.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Memorization Process' },
+    { type: 'text', content:
+      'Learn piece thoroughly with music before memorizing. \
+Memorize in small sections, often by phrase or measure group. \
+Analyze harmonic progression and formal structure. \
+Practice away from piano - visualize playing in your mind. \
+Test memory by playing without music, then checking against score.' 
+    }
+  ]
+},
+'piano-fundamentals-10': {
+  id: 'piano-fundamentals-10',
+  title: 'Introduction to Piano Styles and Genres',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Piano Styles and Genres' },
+    { type: 'text', content:
+      'Piano music spans classical, jazz, pop, blues, and contemporary styles. \
+Each genre has characteristic techniques, rhythms, and harmonies. \
+Classical emphasizes precision, interpretation of composer\'s intent. \
+Jazz focuses on improvisation, swing rhythm, and extended harmonies. \
+Popular styles include chord-based accompaniment and rhythmic patterns.' 
+    },
+    { type: 'subtitle', content: 'Genre Characteristics' },
+    { type: 'text', content:
+      'Classical: Formal structures, nuanced dynamics, pedal control. \
+Jazz: Swing rhythm, improvisation, seventh and extended chords. \
+Blues: 12-bar progression, blue notes, rhythmic left hand patterns. \
+Pop: Simple chord progressions, rhythmic accompaniment patterns. \
+New Age: Atmospheric textures, minimal melodies, pedal effects.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Exploring Styles' },
+    { type: 'text', content:
+      'Listen extensively to great pianists in each style. \
+Start with beginner pieces in your preferred genre. \
+Notice characteristic rhythmic patterns and harmonic language. \
+Attend live performances to observe technique and expression. \
+Experiment with combining elements from different styles.' 
+    }
+  ]
+},
+
+// ======Songwriting=====
+
+'songwriting-1': {
+  id: 'songwriting-1',
+  title: 'The Songwriting Process',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'The Songwriting Process' },
+    { type: 'text', content:
+      'Songwriting combines melody, harmony, rhythm, and lyrics into cohesive whole. \
+The process varies between writers but often follows similar stages. \
+Inspiration can come from personal experience, observation, or imagination. \
+Editing and revision transform initial ideas into polished songs. \
+Developing consistent writing habits improves creativity and output.' 
+    },
+    { type: 'subtitle', content: 'Songwriting Stages' },
+    { type: 'text', content:
+      'Inspiration: Initial spark of melody, lyric, or chord progression. \
+Development: Expanding idea into verse, chorus, or section. \
+Arrangement: Structuring complete song with intro, verses, chorus, bridge. \
+Refinement: Editing lyrics, adjusting melody, improving chord choices. \
+Completion: Finalizing song for recording or performance.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Getting Started' },
+    { type: 'text', content:
+      'Capture ideas immediately in voice memo or notebook. \
+Don\'t judge initial ideas - let creativity flow without criticism. \
+Set regular writing time even without specific inspiration. \
+Study songs you love to understand what makes them effective. \
+Collaborate with other writers for new perspectives.' 
+    }
+  ]
+},
+'songwriting-2': {
+  id: 'songwriting-2',
+  title: 'Lyric Writing Fundamentals',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Lyric Writing Fundamentals' },
+    { type: 'text', content:
+      'Lyrics convey story, emotion, and message through poetic language. \
+Effective lyrics balance literal meaning with poetic imagery. \
+Rhyme schemes create musicality and memorability. \
+Meter and syllable count affect how lyrics fit musical rhythm. \
+Authenticity and specificity make lyrics resonate with listeners.' 
+    },
+    { type: 'subtitle', content: 'Lyric Elements' },
+    { type: 'text', content:
+      'Theme: Central idea or emotion the song explores. \
+Imagery: Sensory details that create vivid mental pictures. \
+Rhyme: End rhymes, internal rhymes, near rhymes for musicality. \
+Meter: Rhythmic pattern of stressed and unstressed syllables. \
+Hook: Memorable phrase repeated throughout song.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Writing Tips' },
+    { type: 'text', content:
+      'Write from personal experience for authenticity. \
+Show rather than tell - use specific details instead of abstractions. \
+Read lyrics aloud to test rhythm and natural phrasing. \
+Edit ruthlessly - remove unnecessary words and clichés. \
+Keep notebook of interesting phrases, observations, and word combinations.' 
+    }
+  ]
+},
+'songwriting-3': {
+  id: 'songwriting-3',
+  title: 'Melody Creation and Development',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Melody Creation and Development' },
+    { type: 'text', content:
+      'Melody is the memorable, singable line that listeners remember. \
+Strong melodies have contour, repetition, and variation. \
+Range should be comfortable for target voice or instrument. \
+Melodic motifs provide unity through repetition and development. \
+Melody and lyrics should support each other rhythmically and emotionally.' 
+    },
+    { type: 'subtitle', content: 'Melodic Elements' },
+    { type: 'text', content:
+      'Contour: Overall shape - ascending, descending, or arched. \
+Range: Distance between lowest and highest notes. \
+Intervals: Relationships between consecutive notes. \
+Repetition: Repeating motifs for memorability. \
+Development: Varying motifs while maintaining recognition.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Creating Melodies' },
+    { type: 'text', content:
+      'Hum or sing freely over chord progressions. \
+Start with simple stepwise motion, add leaps for interest. \
+Experiment with different rhythmic patterns for same notes. \
+Record improvisations and extract best melodic ideas. \
+Study hit songs to analyze what makes their melodies effective.' 
+    }
+  ]
+},
+'songwriting-4': {
+  id: 'songwriting-4',
+  title: 'Chord Progressions for Songwriters',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Chord Progressions for Songwriters' },
+    { type: 'text', content:
+      'Chord progressions provide harmonic foundation for melodies and lyrics. \
+Certain progressions evoke specific emotions and work across genres. \
+Understanding Roman numeral analysis helps transpose and modify progressions. \
+Tension and release creates emotional movement within songs. \
+Simple progressions often work better than complex ones for pop music.' 
+    },
+    { type: 'subtitle', content: 'Essential Progressions' },
+    { type: 'text', content:
+      'I-V-vi-IV: Most common modern pop progression. \
+I-vi-IV-V: 50s progression with nostalgic feel. \
+ii-V-I: Jazz progression with strong resolution. \
+I-IV-V: Blues and rock foundation. \
+vi-IV-I-V: Emotional pop progression.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Creative Approaches' },
+    { type: 'text', content:
+      'Add seventh chords for richer harmonic color. \
+Experiment with borrowed chords from parallel minor/major. \
+Try modal mixtures for unexpected harmonic twists. \
+Use pedal points (sustained notes under changing chords). \
+Simplify complex progressions to their essential harmonic movement.' 
+    }
+  ]
+},
+'songwriting-5': {
+  id: 'songwriting-5',
+  title: 'Song Structure and Form',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Song Structure and Form' },
+    { type: 'text', content:
+      'Song structure organizes musical and lyrical ideas into coherent whole. \
+Common structures guide listeners through emotional journey. \
+Different sections serve specific functions: verse sets scene, chorus delivers payoff. \
+Transitions between sections maintain flow and interest. \
+Understanding structure helps writers complete songs rather than accumulate fragments.' 
+    },
+    { type: 'subtitle', content: 'Common Structures' },
+    { type: 'text', content:
+      'Verse-Chorus: Most common pop structure with repeating chorus. \
+AABA: Standard 32-bar form common in jazz and musical theater. \
+Through-Composed: Continuous development without repeating sections. \
+Strophic: Same music for each verse, common in folk. \
+Compound Forms: Combinations like verse-chorus-bridge.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Section Functions' },
+    { type: 'text', content:
+      'Intro: Establishes mood, tempo, key, hooks listener. \
+Verse: Tells story, builds tension, often lower dynamic. \
+Chorus: Emotional peak, main message, memorable hook. \
+Bridge: Contrasting section, adds development, prevents monotony. \
+Outro: Concludes song, can fade or have definitive ending.' 
+    }
+  ]
+},
+'songwriting-6': {
+  id: 'songwriting-6',
+  title: 'Rhyme Schemes and Poetic Devices',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Rhyme Schemes and Poetic Devices' },
+    { type: 'text', content:
+      'Rhyme schemes create musicality and structure in lyrics. \
+Different rhyme types add variety and sophistication. \
+Poetic devices like metaphor and alliteration enhance lyrical impact. \
+Consistent meter ensures lyrics fit musical rhythm naturally. \
+Mastering these tools elevates lyrics from ordinary to memorable.' 
+    },
+    { type: 'subtitle', content: 'Rhyme Types' },
+    { type: 'text', content:
+      'Perfect Rhyme: Identical vowel and consonant sounds (time/climb). \
+Slant Rhyme: Similar but not identical sounds (time/line). \
+Internal Rhyme: Rhyme within line rather than at end. \
+Masculine Rhyme: Single syllable rhymes (cat/hat). \
+Feminine Rhyme: Multi-syllable rhymes (motion/ocean).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Poetic Devices' },
+    { type: 'text', content:
+      'Metaphor: Implied comparison (you are my sunshine). \
+Simile: Direct comparison using like or as (strong as an ox). \
+Alliteration: Repetition of initial sounds (Peter Piper picked). \
+Assonance: Repetition of vowel sounds (free and easy). \
+Consonance: Repetition of consonant sounds (stroke of luck).' 
+    }
+  ]
+},
+'songwriting-7': {
+  id: 'songwriting-7',
+  title: 'Collaborative Songwriting',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Collaborative Songwriting' },
+    { type: 'text', content:
+      'Collaboration combines different strengths for better songs. \
+Successful collaboration requires clear communication and mutual respect. \
+Different collaboration models suit different partnerships. \
+Establishing agreements about credit and ownership prevents conflicts. \
+Co-writing expands creative possibilities through diverse perspectives.' 
+    },
+    { type: 'subtitle', content: 'Collaboration Models' },
+    { type: 'text', content:
+      'Lyricist + Composer: Traditional division of labor. \
+Topliner + Track Maker: Common in pop and electronic music. \
+Band Collaboration: All members contribute to writing process. \
+Writer Camps: Intensive multi-writer sessions. \
+Remote Collaboration: Using digital tools across distances.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Best Practices' },
+    { type: 'text', content:
+      'Discuss musical influences and goals before starting. \
+Create safe environment where all ideas are considered. \
+Use "yes, and..." approach rather than immediately criticizing ideas. \
+Document contributions clearly for credit determination. \
+Sign simple collaboration agreement before commercial release.' 
+    }
+  ]
+},
+'songwriting-8': {
+  id: 'songwriting-8',
+  title: 'Developing Your Unique Voice',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Developing Your Unique Voice' },
+    { type: 'text', content:
+      'Songwriting voice is distinctive style that makes your songs recognizable. \
+It develops naturally through consistent writing and self-discovery. \
+Authenticity means writing what feels true rather than chasing trends. \
+Influences provide foundation but should be transformed, not copied. \
+Your unique perspective and experiences are your greatest assets.' 
+    },
+    { type: 'subtitle', content: 'Finding Your Voice' },
+    { type: 'text', content:
+      'Write extensively without judgment to discover natural tendencies. \
+Analyze songs you love to understand what resonates with you. \
+Notice recurring themes in your writing - these are your interests. \
+Experiment with different styles before settling into natural voice. \
+Accept that your voice will evolve throughout your writing life.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Authenticity Practices' },
+    { type: 'text', content:
+      'Write from personal experience with specific details. \
+Don\'t try to sound like someone else - sound like you. \
+Write songs you would want to listen to, not just commercial ones. \
+Be willing to reveal vulnerability in your lyrics. \
+Trust that your unique perspective has value.' 
+    }
+  ]
+},
+'songwriting-9': {
+  id: 'songwriting-9',
+  title: 'Overcoming Writer\'s Block',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Overcoming Writer\'s Block' },
+    { type: 'text', content:
+      'Writer\'s block is temporary creative stagnation affecting all writers. \
+It often stems from perfectionism, fear, or creative exhaustion. \
+Specific strategies can restart creative flow and build momentum. \
+Changing routine or approach breaks habitual thinking patterns. \
+Understanding that blocks are normal reduces anxiety about them.' 
+    },
+    { type: 'subtitle', content: 'Common Causes' },
+    { type: 'text', content:
+      'Perfectionism: Unrealistic standards paralyzing initial creation. \
+Fear: Of failure, judgment, or not meeting expectations. \
+Burnout: Creative exhaustion from overwork or stress. \
+Lack of Inspiration: Temporary drought of compelling ideas. \
+Distraction: Inability to focus due to external or internal factors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Strategies' },
+    { type: 'text', content:
+      'Set small, achievable goals rather than expecting masterpiece. \
+Use prompts or constraints to limit overwhelming choices. \
+Change environment: write in different location or time. \
+Write badly on purpose to bypass perfectionism. \
+Take creative break and consume other art for inspiration.' 
+    }
+  ]
+},
+'songwriting-10': {
+  id: 'songwriting-10',
+  title: 'Demo Recording and Presentation',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Demo Recording and Presentation' },
+    { type: 'text', content:
+      'Demos showcase songs for publishers, artists, or producers. \
+Quality demos communicate song\'s potential despite production limitations. \
+Clear structure and performance help listeners focus on song itself. \
+Presentation materials include lyric sheets and contact information. \
+Professional approach increases chances of songs being heard seriously.' 
+    },
+    { type: 'subtitle', content: 'Demo Essentials' },
+    { type: 'text', content:
+      'Clear Vocals: Lyrics should be easily understood. \
+Solid Structure: Complete song with intro, verses, chorus, bridge. \
+Good Tempo: Appropriate pace that supports song\'s mood. \
+Simple Arrangement: Focus on song, not production tricks. \
+Clean Recording: Free of distortion, clipping, and background noise.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Presentation Package' },
+    { type: 'text', content:
+      'Lyric Sheet: Professionally formatted with contact info. \
+Audio File: High-quality MP3 or WAV with clear filename. \
+Brief Bio: Relevant background and previous successes. \
+Song Description: Brief note about inspiration or intended audience. \
+Follow professional submission guidelines for each publisher or artist.' 
+    }
+  ]
+},
+
+// ======Music Production======
+
+'music-production-1': {
+  id: 'music-production-1',
+  title: 'Introduction to Music Production',
+  image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to Music Production' },
+    { type: 'text', content:
+      'Music production encompasses recording, editing, mixing, and mastering. \
+Modern producers often write, arrange, and perform in addition to engineering. \
+Digital tools have democratized production, making professional results accessible. \
+Understanding both technical and creative aspects makes successful producers. \
+Production transforms musical ideas into polished recordings for listeners.' 
+    },
+    { type: 'subtitle', content: 'Producer Roles' },
+    { type: 'text', content:
+      'Creative Director: Guides overall sound, arrangement, and performance. \
+Recording Engineer: Captures quality audio performances. \
+Mix Engineer: Balances and processes tracks into cohesive mix. \
+Mastering Engineer: Prepares final master for distribution. \
+Modern producers often fulfill all these roles in home studios.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60' },
+    { type: 'subtitle', content: 'Getting Started' },
+    { type: 'text', content:
+      'Choose DAW that fits your workflow and musical style. \
+Start with minimal setup: computer, audio interface, headphones. \
+Learn one tool thoroughly before accumulating more equipment. \
+Study productions you admire to understand their sonic characteristics. \
+Practice regularly - production skills develop through doing.' 
+    }
+  ]
+},
+'music-production-2': {
+  id: 'music-production-2',
+  title: 'Digital Audio Fundamentals',
+  image: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital Audio Fundamentals' },
+    { type: 'text', content:
+      'Digital audio converts sound waves into numerical data for computer processing. \
+Sample rate determines frequency range (Nyquist theorem). \
+Bit depth affects dynamic range and noise floor. \
+Understanding these concepts prevents technical issues in production. \
+Proper digital audio setup ensures high-quality recordings and mixes.' 
+    },
+    { type: 'subtitle', content: 'Key Concepts' },
+    { type: 'text', content:
+      'Sample Rate: Number of samples per second (44.1kHz for CD). \
+Bit Depth: Resolution of each sample (16-bit for CD, 24-bit for production). \
+Nyquist Theorem: Sample rate must be at least double highest frequency. \
+Clipping: Digital distortion when signal exceeds maximum level. \
+Dithering: Noise shaping when reducing bit depth for final distribution.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Settings' },
+    { type: 'text', content:
+      'Record at 24-bit/48kHz for balance of quality and computer resources. \
+Leave 6dB of headroom to prevent clipping during recording. \
+Use 44.1kHz for projects destined for CD or streaming. \
+Export stems at same sample rate and bit depth as project. \
+Apply dither only during final export to 16-bit for CD.' 
+    }
+  ]
+},
+'music-production-3': {
+  id: 'music-production-3',
+  title: 'MIDI Production and Virtual Instruments',
+  image: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'MIDI Production and Virtual Instruments' },
+    { type: 'text', content:
+      'MIDI (Musical Instrument Digital Interface) controls virtual instruments. \
+Virtual instruments range from realistic emulations to completely synthetic sounds. \
+MIDI editing allows precise control over timing, pitch, and expression. \
+Layering virtual instruments creates rich, complex textures. \
+MIDI production enables complete productions without acoustic recording.' 
+    },
+    { type: 'subtitle', content: 'MIDI Concepts' },
+    { type: 'text', content:
+      'Note Data: Pitch, timing, duration of each note. \
+Velocity: How hard note is struck, affecting volume and tone. \
+Controller Data: Continuous parameters like modulation, pitch bend. \
+Program Change: Switches between different instrument sounds. \
+MIDI Effects: Arpeggiators, chord generators, and note processors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1000&q=60' },
+    { type: 'subtitle', content: 'Production Techniques' },
+    { type: 'text', content:
+      'Record MIDI performances with expressive dynamics and timing. \
+Edit timing and velocity for polished, humanized performances. \
+Layer multiple virtual instruments for unique composite sounds. \
+Use MIDI effects to generate complex patterns from simple input. \
+Combine MIDI with audio recording for hybrid productions.' 
+    }
+  ]
+},
+'music-production-4': {
+  id: 'music-production-4',
+  title: 'Audio Editing and Comping',
+  image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Audio Editing and Comping' },
+    { type: 'text', content:
+      'Audio editing prepares recorded performances for mixing. \
+Comping combines the best sections from multiple takes. \
+Time alignment corrects rhythmic inconsistencies between tracks. \
+Crossfades prevent clicks and pops at edit points. \
+Non-destructive editing preserves original audio files.' 
+    },
+    { type: 'subtitle', content: 'Editing Techniques' },
+    { type: 'text', content:
+      'Comping: Selecting best phrases from multiple takes. \
+Time Alignment: Moving audio to correct rhythmic placement. \
+Fades: Creating smooth transitions at clip boundaries. \
+Noise Reduction: Removing hum, hiss, or background noise. \
+Pocketing: Subtle timing adjustments for groove consistency.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60' },
+    { type: 'subtitle', content: 'Workflow Tips' },
+    { type: 'text', content:
+      'Record multiple complete takes for consistent emotional performance. \
+Use playlists or lanes to organize multiple takes in DAW. \
+Edit vocals to remove breaths between phrases if desired. \
+Align drum hits to grid for tight rhythmic foundation. \
+Create composite guitar solo from multiple improvisations.' 
+    }
+  ]
+},
+'music-production-5': {
+  id: 'music-production-5',
+  title: 'EQ and Frequency Management',
+  image: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'EQ and Frequency Management' },
+    { type: 'text', content:
+      'EQ (Equalization) shapes frequency content of audio signals. \
+Proper EQ creates space for each instrument in the mix. \
+Frequency ranges have characteristic sounds and musical roles. \
+Different EQ types (parametric, graphic, shelving) suit different tasks. \
+Subtractive EQ often works better than additive EQ for clean mixes.' 
+    },
+    { type: 'subtitle', content: 'Frequency Ranges' },
+    { type: 'text', content:
+      'Sub Bass (20-60Hz): Felt more than heard, provides foundation. \
+Bass (60-250Hz): Fundamental frequencies of rhythm section. \
+Low Mids (250-500Hz): Body and warmth, can become muddy. \
+Mids (500Hz-2kHz): Core of most instruments, clarity zone. \
+Highs (2kHz-20kHz): Brilliance, air, and detail.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60' },
+    { type: 'subtitle', content: 'EQ Techniques' },
+    { type: 'text', content:
+      'High-pass filter to remove unnecessary low frequencies. \
+Notch filter to reduce problematic resonances. \
+Broad boosts for tonal shaping, narrow cuts for problem solving. \
+Use EQ in context of full mix, not on soloed tracks. \
+A/B comparison to ensure EQ improvements actually help mix.' 
+    }
+  ]
+},
+'music-production-6': {
+  id: 'music-production-6',
+  title: 'Compression and Dynamic Control',
+  image: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Compression and Dynamic Control' },
+    { type: 'text', content:
+      'Compression reduces dynamic range between loudest and quietest parts. \
+It adds punch, consistency, and control to audio signals. \
+Different compression types (VCA, optical, FET) have characteristic sounds. \
+Parameters include threshold, ratio, attack, release, and makeup gain. \
+Parallel compression preserves transients while adding density.' 
+    },
+    { type: 'subtitle', content: 'Compressor Parameters' },
+    { type: 'text', content:
+      'Threshold: Level above which compression begins. \
+Ratio: Amount of compression applied (4:1 means 4dB over becomes 1dB). \
+Attack: How quickly compressor responds after threshold crossed. \
+Release: How quickly compressor stops compressing after signal falls below. \
+Makeup Gain: Amplification after compression to restore level.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1000&q=60' },
+    { type: 'subtitle', content: 'Application' },
+    { type: 'text', content:
+      'Vocal compression: Smooth performance, increase intelligibility. \
+Drum compression: Add punch, control peaks, increase sustain. \
+Bass compression: Even out level, maintain consistent foundation. \
+Parallel compression: Blend heavily compressed signal with dry signal. \
+Bus compression: Glue together groups of instruments.' 
+    }
+  ]
+},
+'music-production-7': {
+  id: 'music-production-7',
+  title: 'Reverb and Spatial Effects',
+  image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Reverb and Spatial Effects' },
+    { type: 'text', content:
+      'Reverb simulates sound reflections in physical spaces. \
+It creates sense of depth, size, and ambiance in mixes. \
+Different reverb types emulate specific acoustic environments. \
+Delay creates distinct repeats for rhythmic and spatial effects. \
+Proper use of space makes mixes sound professional and immersive.' 
+    },
+    { type: 'subtitle', content: 'Reverb Types' },
+    { type: 'text', content:
+      'Room: Small, intimate spaces like bedrooms or small studios. \
+Hall: Large concert halls with long decay times. \
+Plate: Metallic, bright reverb from vintage plate units. \
+Spring: Characteristic boingy sound from guitar amplifiers. \
+Convolution: Uses impulse responses of real spaces for authenticity.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60' },
+    { type: 'subtitle', content: 'Application Techniques' },
+    { type: 'text', content:
+      'Use same reverb on multiple tracks to create cohesive space. \
+EQ reverb returns to prevent muddiness in low frequencies. \
+Pre-delay separates direct sound from reverb onset for clarity. \
+Automate reverb levels for dynamic spatial effects. \
+Use delay for rhythmic effects and to create space without muddiness.' 
+    }
+  ]
+},
+'music-production-8': {
+  id: 'music-production-8',
+  title: 'Mixing Fundamentals and Workflow',
+  image: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mixing Fundamentals and Workflow' },
+    { type: 'text', content:
+      'Mixing balances individual tracks into cohesive musical whole. \
+Effective workflow progresses from technical preparation to creative decisions. \
+Reference tracks provide target sound and prevent ear fatigue. \
+Organization (naming, color coding, grouping) improves efficiency. \
+Regular breaks maintain perspective and prevent ear fatigue.' 
+    },
+    { type: 'subtitle', content: 'Mixing Stages' },
+    { type: 'text', content:
+      'Preparation: Organization, gain staging, and technical fixes. \
+Balance: Setting basic volume levels and pan positions. \
+EQ: Shaping frequency content and reducing masking. \
+Dynamics: Compression, limiting, and transient control. \
+Effects: Adding reverb, delay, modulation, and spatial effects.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60' },
+    { type: 'subtitle', content: 'Workflow Tips' },
+    { type: 'text', content:
+      'Start with volume balance before applying any processing. \
+Mix at moderate volume to hear balance accurately. \
+Check mix in mono for phase issues and balance. \
+Use reference tracks in similar genre for comparison. \
+Take breaks every 45-60 minutes to prevent ear fatigue.' 
+    }
+  ]
+},
+'music-production-9': {
+  id: 'music-production-9',
+  title: 'Mastering Basics',
+  image: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Mastering Basics' },
+    { type: 'text', content:
+      'Mastering prepares final mix for distribution across formats and systems. \
+It ensures consistency across album and competitive loudness for streaming. \
+Mastering involves subtle EQ, compression, limiting, and enhancement. \
+Different distribution formats (streaming, CD, vinyl) require different masters. \
+Professional mastering often yields better results than self-mastering.' 
+    },
+    { type: 'subtitle', content: 'Mastering Chain' },
+    { type: 'text', content:
+      'EQ: Final tonal balancing and problem correction. \
+Compression: Gentle overall dynamic control and glue. \
+Stereo Enhancement: Careful widening if needed. \
+Limiting: Final peak control and loudness maximization. \
+Dither: Noise shaping when reducing to 16-bit for CD.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1000&q=60' },
+    { type: 'subtitle', content: 'Best Practices' },
+    { type: 'text', content:
+      'Start with excellent mix - mastering cannot fix bad mixes. \
+Use high-quality monitoring in treated room. \
+Compare to commercial references in similar genre. \
+Check on multiple systems: headphones, car, phone speakers. \
+Leave at least -1dB true peak headroom for lossy encoding.' 
+    }
+  ]
+},
+'music-production-10': {
+  id: 'music-production-10',
+  title: 'Music Production Career Pathways',
+  image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Music Production Career Pathways' },
+    { type: 'text', content:
+      'Music production offers diverse career opportunities beyond traditional studio roles. \
+Modern producers often combine multiple skills and revenue streams. \
+Networking and reputation are as important as technical skills. \
+Continuous learning is essential due to rapidly evolving technology. \
+Building portfolio and client relationships creates sustainable career.' 
+    },
+    { type: 'subtitle', content: 'Career Options' },
+    { type: 'text', content:
+      'Recording/Mix Engineer: Focuses on technical aspects of capture and balance. \
+Producer: Creative direction, song development, project management. \
+Composer: Creates music for media (film, TV, games, advertising). \
+Sound Designer: Creates and manipulates sounds for various media. \
+Educator: Teaches production skills through lessons, courses, or workshops.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1593698054558-9b5cda1c9f30?w=1000&q=60' },
+    { type: 'subtitle', content: 'Building Career' },
+    { type: 'text', content:
+      'Develop portfolio of high-quality work showcasing your skills. \
+Network with musicians, other producers, and industry professionals. \
+Start with local artists and gradually build reputation. \
+Consider internships or assistantships in established studios. \
+Continue developing both technical skills and musical sensibilities.' 
+    }
+  ]
+},
+
+// ======Vocal Techniques=====
+
+'vocal-techniques-1': {
+  id: 'vocal-techniques-1',
+  title: 'Vocal Anatomy and Health',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Vocal Anatomy and Health' },
+    { type: 'text', content:
+      'Understanding vocal anatomy helps singers use their instrument effectively. \
+The voice mechanism involves breath support, vocal folds, and resonance chambers. \
+Proper vocal care prevents injury and ensures longevity. \
+Hydration, rest, and healthy habits maintain optimal vocal function. \
+Vocal health is foundation for all singing technique.' 
+    },
+    { type: 'subtitle', content: 'Vocal Anatomy' },
+    { type: 'text', content:
+      'Diaphragm: Primary breathing muscle for breath support. \
+Vocal Folds: Vibrating membranes in larynx that produce sound. \
+Resonators: Chest, throat, mouth, nasal cavities amplify sound. \
+Articulators: Lips, tongue, jaw shape sound into words. \
+Understanding these components helps target specific technical improvements.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Vocal Health' },
+    { type: 'text', content:
+      'Drink plenty of water throughout day for hydrated vocal folds. \
+Avoid shouting, whispering, or speaking over loud noise. \
+Get adequate sleep for vocal recovery and overall health. \
+Limit caffeine and alcohol which dehydrate vocal tissues. \
+Use humidifier in dry environments to maintain mucosal hydration.' 
+    }
+  ]
+},
+'vocal-techniques-2': {
+  id: 'vocal-techniques-2',
+  title: 'Breath Support and Control',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Breath Support and Control' },
+    { type: 'text', content:
+      'Breath is the power source for singing, like bow for violin. \
+Proper breath support provides consistent airflow for stable tone. \
+Diaphragmatic breathing engages core muscles for controlled exhalation. \
+Efficient breathing prevents vocal strain and improves endurance. \
+Breath control affects phrasing, dynamics, and vocal quality.' 
+    },
+    { type: 'subtitle', content: 'Breathing Techniques' },
+    { type: 'text', content:
+      'Diaphragmatic Breathing: Belly expands on inhalation, contracts on exhalation. \
+Rib Expansion: Sides and back expand while keeping shoulders relaxed. \
+Appoggio: Classical technique balancing inhalation and exhalation muscles. \
+Suspension: Maintaining expansion during singing rather than collapsing. \
+Coordinating breath with phrasing for musical expression.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Exercises' },
+    { type: 'text', content:
+      'Lie on back with book on belly, practice raising book with breath. \
+Hiss exercise: Sustained "sss" sound with consistent airflow. \
+Staccato exercises: Short bursts of breath for abdominal engagement. \
+Practice breathing during speaking to develop habitual good technique. \
+Count while exhaling to develop breath control and capacity.' 
+    }
+  ]
+},
+'vocal-techniques-3': {
+  id: 'vocal-techniques-3',
+  title: 'Vocal Warm-Ups and Exercises',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Vocal Warm-Ups and Exercises' },
+    { type: 'text', content:
+      'Warm-ups prepare voice for singing by gradually increasing blood flow. \
+Exercises target specific technical skills like range, agility, and tone. \
+Consistent practice builds muscle memory and vocal strength. \
+Warm-ups should progress from gentle to more demanding exercises. \
+Proper warm-up prevents injury and improves vocal performance.' 
+    },
+    { type: 'subtitle', content: 'Warm-Up Sequence' },
+    { type: 'text', content:
+      'Body Warm-Up: Gentle stretching, shoulder rolls, neck relaxation. \
+Breath Awareness: Deep breathing with focus on diaphragm engagement. \
+Humming: Gentle vibrations to warm vocal folds without strain. \
+Lip Trills: Combines breath support with vocal fold vibration. \
+Sirens: Smooth glides through entire range without pushing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Technical Exercises' },
+    { type: 'text', content:
+      'Scale patterns on different vowels for agility and pitch accuracy. \
+Arpeggios for interval training and smooth register transitions. \
+Staccato exercises for breath support and vocal fold closure. \
+Messá di voce: Swell from soft to loud and back on single note. \
+Register blending exercises for seamless voice throughout range.' 
+    }
+  ]
+},
+'vocal-techniques-4': {
+  id: 'vocal-techniques-4',
+  title: 'Pitch Accuracy and Ear Training',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Pitch Accuracy and Ear Training' },
+    { type: 'text', content:
+      'Pitch accuracy means singing correct notes relative to harmony. \
+Ear training develops ability to recognize and reproduce pitches. \
+Matching pitch requires coordination between hearing and vocal production. \
+Relative pitch (understanding intervals) is more useful than perfect pitch. \
+Consistent practice improves pitch accuracy over time.' 
+    },
+    { type: 'subtitle', content: 'Ear Training Skills' },
+    { type: 'text', content:
+      'Pitch Matching: Singing back single notes played on piano. \
+Interval Recognition: Identifying distances between notes (major third, perfect fifth). \
+Chord Quality: Distinguishing major, minor, diminished, augmented chords. \
+Melodic Dictation: Writing down melodies after hearing them. \
+Harmonic Awareness: Hearing your note within chord context.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Methods' },
+    { type: 'text', content:
+      'Use piano or tuning app to check pitch accuracy regularly. \
+Practice with drone notes to develop sense of center and intonation. \
+Sing scales slowly with focus on exact pitch of each note. \
+Record yourself and analyze pitch accuracy objectively. \
+Sing with accompaniment tracks to practice staying in tune with harmony.' 
+    }
+  ]
+},
+'vocal-techniques-5': {
+  id: 'vocal-techniques-5',
+  title: 'Vocal Registers and Range Extension',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Vocal Registers and Range Extension' },
+    { type: 'text', content:
+      'Vocal registers are distinct modes of vocal fold vibration. \
+Common registers include chest, head, and mix (or middle) voice. \
+Register transitions should be smooth and seamless. \
+Range extension develops gradually through proper technique. \
+Understanding registers helps singers access full vocal potential.' 
+    },
+    { type: 'subtitle', content: 'Vocal Registers' },
+    { type: 'text', content:
+      'Chest Voice: Lower register with fuller, speaking-like quality. \
+Head Voice: Higher register with lighter, flute-like quality. \
+Mixed Voice: Blend of chest and head qualities for middle range. \
+Falsetto (for men): Light register above normal head voice. \
+Whistle Register: Highest register, very flute-like tone.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Developing Range' },
+    { type: 'text', content:
+      'Never push or strain when exploring range extremes. \
+Use sirens and slides to connect registers smoothly. \
+Practice descending scales from high notes to ease tension. \
+Strengthen middle voice first before extending to extremes. \
+Be patient - range extension occurs over months, not days.' 
+    }
+  ]
+},
+'vocal-techniques-6': {
+  id: 'vocal-techniques-6',
+  title: 'Resonance and Tone Production',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Resonance and Tone Production' },
+    { type: 'text', content:
+      'Resonance amplifies and colors vocal sound through body cavities. \
+Different resonance strategies create various vocal timbres. \
+Proper resonance reduces strain and increases vocal power. \
+Vocal placement refers to where singer focuses resonant sensation. \
+Tone production combines breath support, vocal fold closure, and resonance.' 
+    },
+    { type: 'subtitle', content: 'Resonance Chambers' },
+    { type: 'text', content:
+      'Chest Resonance: Adds warmth and power to lower notes. \
+Oral Resonance: Mouth shape affects vowel formation and clarity. \
+Nasal Resonance: Adds brightness and ring to tone (not nasal air escape). \
+Pharyngeal Resonance: Throat space affects overall tone color. \
+Sinus Resonance: Adds high overtones for "ping" or projection.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Tone Development' },
+    { type: 'text', content:
+      'Practice humming to feel vibrations in different face areas. \
+Use nasal consonants (m, n, ng) to access nasal resonance. \
+Experiment with vowel modifications for consistent tone across range. \
+Record different tone qualities and analyze what you prefer. \
+Listen to great singers and analyze their tone production strategies.' 
+    }
+  ]
+},
+'vocal-techniques-7': {
+  id: 'vocal-techniques-7',
+  title: 'Articulation and Diction',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Articulation and Diction' },
+    { type: 'text', content:
+      'Articulation shapes sound into intelligible words through mouth movements. \
+Diction refers to clarity and correctness of pronunciation. \
+Good diction ensures listeners understand lyrics without straining. \
+Different languages and musical styles require specific articulation. \
+Balancing clear diction with beautiful tone is key skill.' 
+    },
+    { type: 'subtitle', content: 'Articulators' },
+    { type: 'text', content:
+      'Lips: Form consonants like p, b, m, w, and vowel shapes. \
+Tongue: Most important articulator for consonants and vowel formation. \
+Jaw: Opening affects resonance and vowel clarity. \
+Soft Palate: Controls nasal resonance and affects tone quality. \
+Teeth: Involved in f, v, th sounds.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Techniques' },
+    { type: 'text', content:
+      'Practice tongue twisters for agility and clarity. \
+Exaggerate consonant articulation in practice, then refine. \
+Record yourself singing and check lyric intelligibility. \
+Practice vowels on sustained notes for consistency. \
+Study phonetic symbols for accurate pronunciation in different languages.' 
+    }
+  ]
+},
+'vocal-techniques-8': {
+  id: 'vocal-techniques-8',
+  title: 'Performance Skills and Stage Presence',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Performance Skills and Stage Presence' },
+    { type: 'text', content:
+      'Stage presence engages audience beyond just vocal technique. \
+Performance skills include movement, facial expression, and audience connection. \
+Managing performance anxiety improves vocal delivery and enjoyment. \
+Microphone technique affects vocal sound in amplified settings. \
+Authenticity and emotional connection make performances memorable.' 
+    },
+    { type: 'subtitle', content: 'Performance Elements' },
+    { type: 'text', content:
+      'Body Language: Posture, gestures, and movement support vocal delivery. \
+Eye Contact: Connecting with audience creates intimacy and engagement. \
+Facial Expression: Communicates emotion and song meaning. \
+Movement: Purposeful staging enhances performance without distracting. \
+Storytelling: Conveying song narrative through vocal and physical expression.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Developing Presence' },
+    { type: 'text', content:
+      'Record video of performances to analyze body language and expression. \
+Practice performing in front of mirror to develop self-awareness. \
+Take acting or movement classes to enhance stage skills. \
+Watch great performers across genres to study their stagecraft. \
+Start with small, supportive audiences before larger performances.' 
+    }
+  ]
+},
+'vocal-techniques-9': {
+  id: 'vocal-techniques-9',
+  title: 'Microphone Technique',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Microphone Technique' },
+    { type: 'text', content:
+      'Microphone technique maximizes vocal quality in amplified settings. \
+Different microphone types (dynamic, condenser) require different approaches. \
+Proper distance and angle prevent plosives and ensure consistent tone. \
+Handling microphone and stand affects mobility and stage presence. \
+Understanding sound system basics helps troubleshoot issues.' 
+    },
+    { type: 'subtitle', content: 'Microphone Basics' },
+    { type: 'text', content:
+      'Dynamic Mics: Durable, handle high volume, require closer positioning. \
+Condenser Mics: More sensitive, capture detail, used in studio settings. \
+Polar Patterns: Directional sensitivity (cardioid, omnidirectional, figure-8). \
+Pop Filters: Prevent plosive sounds from hitting microphone directly. \
+Monitoring: Hearing yourself through speakers or in-ear monitors.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Technique Tips' },
+    { type: 'text', content:
+      'Hold microphone near mouth, not at chest level. \
+Angle microphone slightly to avoid direct plosive air bursts. \
+Maintain consistent distance for even volume and tone. \
+Pull back slightly on loud notes to prevent distortion. \
+Practice with microphone during rehearsals, not just performances.' 
+    }
+  ]
+},
+'vocal-techniques-10': {
+  id: 'vocal-techniques-10',
+  title: 'Vocal Styles and Genre Adaptation',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Vocal Styles and Genre Adaptation' },
+    { type: 'text', content:
+      'Different musical genres require specific vocal techniques and aesthetics. \
+Classical singing emphasizes consistent vibrato, precise diction, and pure vowels. \
+Jazz vocals focus on phrasing, improvisation, and conversational delivery. \
+Pop singing uses microphone technique, contemporary tone, and emotional directness. \
+Musical theater requires acting through song, character voices, and projection.' 
+    },
+    { type: 'subtitle', content: 'Genre Characteristics' },
+    { type: 'text', content:
+      'Classical: Legato line, controlled vibrato, language precision. \
+Jazz: Swing rhythm, scat singing, conversational phrasing. \
+Pop/Belt: Contemporary tone, emotional intensity, microphone intimacy. \
+R&B/Soul: Melismatic runs, emotional expression, gospel influence. \
+Country: Twang, story-telling delivery, conversational tone.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Style Development' },
+    { type: 'text', content:
+      'Listen extensively to great singers in your chosen genre. \
+Analyze their technical approach and stylistic choices. \
+Take lessons with teachers experienced in your preferred style. \
+Practice genre-specific exercises and repertoire. \
+Develop flexibility to sing multiple styles while maintaining vocal health.' 
+    }
+  ]
+},
+
+// ======DJ Skills=====
+
+'dj-skills-1': {
+  id: 'dj-skills-1',
+  title: 'Introduction to DJ Equipment',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introduction to DJ Equipment' },
+    { type: 'text', content:
+      'DJ equipment has evolved from vinyl turntables to digital controllers. \
+Understanding equipment options helps choose appropriate setup for needs. \
+Different components work together to mix, manipulate, and play music. \
+Equipment knowledge enables troubleshooting during performances. \
+Starting with basic setup allows focusing on fundamental skills.' 
+    },
+    { type: 'subtitle', content: 'Essential Equipment' },
+    { type: 'text', content:
+      'Turntables: Traditional vinyl players with pitch control. \
+CDJs: Professional CD/media players with jog wheels and controls. \
+DJ Controller: All-in-one unit connecting to computer software. \
+Mixer: Combines multiple audio sources with EQ and effects. \
+Headphones: Critical for cueing next track without audience hearing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Getting Started' },
+    { type: 'text', content:
+      'Start with affordable two-channel controller and laptop. \
+Learn basic functions before investing in professional equipment. \
+Understand signal flow from source to mixer to speakers. \
+Practice setting up equipment quickly and efficiently. \
+Experiment with different equipment at music stores before purchasing.' 
+    }
+  ]
+},
+'dj-skills-2': {
+  id: 'dj-skills-2',
+  title: 'Basic Beatmatching',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Beatmatching' },
+    { type: 'text', content:
+      'Beatmatching aligns tempos of two tracks so they play in sync. \
+It\'s fundamental skill for seamless transitions between songs. \
+Manual beatmatching develops critical listening and timing skills. \
+Modern software includes sync features but understanding fundamentals remains important. \
+Practice develops ability to match beats quickly and accurately.' 
+    },
+    { type: 'subtitle', content: 'Beatmatching Process' },
+    { type: 'text', content:
+      'Identify downbeat (first beat) of incoming track in headphones. \
+Adjust tempo slider to match BPM of playing track. \
+Start incoming track on correct beat when playing track\'s downbeat occurs. \
+Make fine tempo adjustments while tracks play together in headphones. \
+Use jog wheel for minor timing corrections after tracks are synchronized.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Tips' },
+    { type: 'text', content:
+      'Start with tracks of same tempo and genre for easier matching. \
+Practice without looking at BPM displays to develop ear training. \
+Use simple four-on-the-floor dance tracks initially. \
+Count beats aloud to internalize timing and phrase structure. \
+Record practice sessions to analyze accuracy and identify areas for improvement.' 
+    }
+  ]
+},
+'dj-skills-3': {
+  id: 'dj-skills-3',
+  title: 'Phrase Matching and Song Structure',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Phrase Matching and Song Structure' },
+    { type: 'text', content:
+      'Phrase matching aligns musical sections between tracks for coherent flow. \
+Most electronic dance music follows 8, 16, or 32-bar phrase structure. \
+Understanding song structure helps predict when changes will occur. \
+Matching phrases creates natural transitions that feel intentional. \
+This skill separates amateur mixing from professional DJing.' 
+    },
+    { type: 'subtitle', content: 'Common Structures' },
+    { type: 'text', content:
+      'Intro: 16-32 bars establishing groove, often percussion only. \
+Build-up: Increasing tension before drop, often with risers and filters. \
+Drop/Chorus: Main section with full energy and primary melody. \
+Breakdown: Softer middle section for dynamic contrast. \
+Outro: Simplifying elements for mixing into next track.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Phrase Mixing' },
+    { type: 'text', content:
+      'Count phrases (groups of 8 bars) while listening to tracks. \
+Start incoming track at beginning of phrase on playing track. \
+Plan transitions around phrase boundaries for natural flow. \
+Use breakdowns and intros for longer, more gradual transitions. \
+Practice identifying song structure while listening to various tracks.' 
+    }
+  ]
+},
+'dj-skills-4': {
+  id: 'dj-skills-4',
+  title: 'EQ and Filter Mixing Techniques',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'EQ and Filter Mixing Techniques' },
+    { type: 'text', content:
+      'EQ controls frequency content of individual tracks during mixing. \
+Filters remove specific frequency ranges for creative effects. \
+Proper EQ use prevents frequency clashes and creates clean mixes. \
+Gradual EQ adjustments can blend tracks more smoothly than simple volume fades. \
+Mastering EQ is essential for professional-sounding DJ sets.' 
+    },
+    { type: 'subtitle', content: 'Three-Band EQ' },
+    { type: 'text', content:
+      'High Frequencies (Treble): Cymbals, hi-hats, vocal sibilance. \
+Mid Frequencies: Vocals, most melodic elements, guitar, piano. \
+Low Frequencies (Bass): Kick drum, bassline, low synths. \
+Each channel typically has kill switches or full-range knobs. \
+Understanding frequency ranges helps make intentional EQ decisions.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'EQ Techniques' },
+    { type: 'text', content:
+      'Cut bass on incoming track initially to prevent low-end muddiness. \
+Swap bass lines by cutting one while bringing in the other. \
+Use high-pass filter to gradually remove low end during breakdowns. \
+Create space for vocals by reducing mid frequencies on instrumental track. \
+Make subtle adjustments rather than extreme cuts for smoother mixes.' 
+    }
+  ]
+},
+'dj-skills-5': {
+  id: 'dj-skills-5',
+  title: 'Creative Transitions and Effects',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Creative Transitions and Effects' },
+    { type: 'text', content:
+      'Creative transitions add personality and style to DJ performances. \
+Effects processors modify sound in real-time for dramatic moments. \
+Different transition types suit different musical contexts. \
+Effects should enhance rather than distract from musical flow. \
+Developing signature transitions helps establish unique DJ identity.' 
+    },
+    { type: 'subtitle', content: 'Transition Types' },
+    { type: 'text', content:
+      'Blend: Long, gradual mix over multiple phrases. \
+Cut: Immediate switch from one track to another. \
+Echo Out: Using echo effect to fade out playing track. \
+Spinback: Rewinding track dramatically before dropping new track. \
+Drop Mix: Starting new track exactly on drop of previous track.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Effects Usage' },
+    { type: 'text', content:
+      'Reverb: Creates space and can smooth abrupt transitions. \
+Delay/Echo: Repeats last sounds for dramatic exits. \
+Filter: Sweeps frequencies for build-ups and breakdowns. \
+Flanger/Phaser: Adds movement and texture to sustained sections. \
+Use effects sparingly - less is often more effective.' 
+    }
+  ]
+},
+'dj-skills-6': {
+  id: 'dj-skills-6',
+  title: 'Building Energy and Set Flow',
+  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Building Energy and Set Flow' },
+    { type: 'text', content:
+      'Set flow refers to overall energy progression throughout DJ performance. \
+Effective sets take listeners on journey with peaks, valleys, and surprises. \
+Energy management considers tempo, key, intensity, and crowd response. \
+Reading the room and adapting set accordingly separates good from great DJs. \
+Planning set structure while allowing flexibility is key skill.' 
+    },
+    { type: 'subtitle', content: 'Energy Elements' },
+    { type: 'text', content:
+      'Tempo: Gradual BPM increases build energy, decreases provide relief. \
+Key: Harmonic mixing (matching keys) creates smooth, pleasing transitions. \
+Intensity: Track selection based on energy level (intro vs peak time tracks). \
+Genre: Strategic genre shifts maintain interest while maintaining cohesion. \
+Surprise: Unexpected tracks or techniques create memorable moments.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60' },
+    { type: 'subtitle', content: 'Set Planning' },
+    { type: 'text', content:
+      'Start 5-10 BPM below peak tempo for opening slots. \
+Group tracks by energy level and plan possible transitions. \
+Prepare multiple options for each transition point. \
+Practice entire sets to ensure flow and timing. \
+Leave flexibility to adapt to crowd response during performance.' 
+    }
+  ]
+},
+'dj-skills-7': {
+  id: 'dj-skills-7',
+  title: 'Harmonic Mixing and Key Matching',
+  image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Harmonic Mixing and Key Matching' },
+    { type: 'text', content:
+      'Harmonic mixing matches musical keys between tracks for pleasing blends. \
+The Camelot Wheel (or circle of fifths) visualizes compatible keys. \
+Mixing in key reduces dissonance and creates smoother transitions. \
+Software can analyze and display track keys for easier harmonic mixing. \
+Understanding basic music theory enhances harmonic mixing decisions.' 
+    },
+    { type: 'subtitle', content: 'Camelot Wheel System' },
+    { type: 'text', content:
+      'Numbers 1-12 represent musical keys (1B = C minor, 8A = C# major). \
+Same number: Perfect key match (1A to 1A). \
+Plus/minus 1: Compatible keys (1A to 2A or 12A). \
+Relative major/minor: Same number, different letter (1A to 1B). \
+Understanding these relationships guides track selection for harmonic mixing.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practical Application' },
+    { type: 'text', content:
+      'Use software like Mixed In Key to analyze track keys. \
+Organize music library by key for easy harmonic selection. \
+Experiment with different key relationships for various effects. \
+Don\'t be slave to harmonic mixing - sometimes energy matters more. \
+Practice harmonic mixing to develop ear for compatible keys.' 
+    }
+  ]
+},
+'dj-skills-8': {
+  id: 'dj-skills-8',
+  title: 'Scratching Fundamentals',
+  image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Scratching Fundamentals' },
+    { type: 'text', content:
+      'Scratching manipulates vinyl records to create rhythmic patterns. \
+It\'s fundamental hip-hop DJ technique that has influenced all DJ genres. \
+Basic scratches combine forward and backward movements with crossfader control. \
+Practice develops hand coordination and rhythmic precision. \
+Scratching adds dynamic, live element to DJ performances.' 
+    },
+    { type: 'subtitle', content: 'Basic Scratches' },
+    { type: 'text', content:
+      'Baby Scratch: Simplest scratch, forward and back without crossfader. \
+Forward Scratch: Sound only when moving record forward. \
+Backward Scratch: Sound only when moving record backward. \
+Tear Scratch: Three-part movement creating triplet rhythm. \
+Chirp Scratch: Combines record movement with quick crossfader close.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Learning Process' },
+    { type: 'text', content:
+      'Start with simple drum loop or scratch sample. \
+Practice each scratch slowly without music first. \
+Use metronome to develop rhythmic accuracy. \
+Record practice sessions to analyze technique. \
+Be patient - scratching requires months of consistent practice.' 
+    }
+  ]
+},
+'dj-skills-9': {
+  id: 'dj-skills-9',
+  title: 'Digital DJ Software and Workflow',
+  image: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Digital DJ Software and Workflow' },
+    { type: 'text', content:
+      'Digital DJ software integrates with controllers for enhanced capabilities. \
+Different software options cater to various styles and preferences. \
+Organized music library with proper metadata improves workflow efficiency. \
+Understanding software features maximizes creative possibilities. \
+Backup systems prevent technical failures during performances.' 
+    },
+    { type: 'subtitle', content: 'Software Options' },
+    { type: 'text', content:
+      'Serato DJ: Industry standard, excellent for hip-hop and scratching. \
+Rekordbox: Pioneer ecosystem, prepares music for CDJs. \
+Traktor: Advanced effects and looping, popular with electronic DJs. \
+Virtual DJ: Versatile, works with many controllers. \
+Each software has strengths for different DJ styles.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=1000&q=60' },
+    { type: 'subtitle', content: 'Workflow Tips' },
+    { type: 'text', content:
+      'Organize tracks with consistent naming and folder structure. \
+Use tags, colors, and ratings for quick track identification. \
+Create playlists for different venues, events, or energy levels. \
+Set up default settings and templates for efficient preparation. \
+Export prepared USB drives as backup even when using laptop.' 
+    }
+  ]
+},
+'dj-skills-10': {
+  id: 'dj-skills-10',
+  title: 'Performance Skills and Crowd Reading',
+  image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Performance Skills and Crowd Reading' },
+    { type: 'text', content:
+      'Performance skills extend beyond technical mixing to audience engagement. \
+Reading crowd energy and adapting set accordingly defines successful DJs. \
+Stage presence, selection intuition, and timing create memorable experiences. \
+Understanding venue dynamics and event context informs performance approach. \
+Balancing prepared material with improvisation based on crowd response.' 
+    },
+    { type: 'subtitle', content: 'Crowd Reading' },
+    { type: 'text', content:
+      'Energy Level: Are people dancing, talking, or leaving? \
+Demographics: Age, style preferences, musical expectations. \
+Response: How they react to different tracks and techniques. \
+Time of Night: Early warm-up vs peak time vs closing sets. \
+Venue Vibe: Club, festival, wedding, corporate event differences.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Performance Development' },
+    { type: 'text', content:
+      'Record sets and analyze what worked and what didn\'t. \
+Watch crowd rather than equipment during performances. \
+Develop intuition for when to change energy direction. \
+Practice talking on microphone if required for event type. \
+Network with other DJs to observe different performance approaches.' 
+    }
+  ]
+},
+
+//====Spanish Basics====
+
+'spanish-basics-1': {
+  id: 'spanish-basics-1',
+  title: 'Spanish Alphabet and Pronunciation',
+  image: 'https://images.unsplash.com/photo-1529254479751-fbacb4c7a587?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Spanish Alphabet and Pronunciation' },
+    { type: 'text', content:
+      'Spanish uses the Latin alphabet with 27 letters, including ñ. \
+Pronunciation is phonetic with consistent letter-to-sound rules. \
+Vowels have pure, consistent sounds unlike English. \
+Mastering pronunciation early prevents accent fossilization. \
+Spanish is spoken by over 500 million people worldwide.' 
+    },
+    { type: 'subtitle', content: 'Key Pronunciation Rules' },
+    { type: 'text', content:
+      'Vowels: a (ah), e (eh), i (ee), o (oh), u (oo) - always same sound. \
+C before e/i: Sounds like "th" in Spain, "s" in Latin America. \
+G before e/i: Sounds like harsh "h" (like German "ch"). \
+J: Always sounds like harsh "h". \
+LL: Sounds like "y" in most regions, "sh" in Argentina.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Tips' },
+    { type: 'text', content:
+      'Listen to native speakers from different Spanish-speaking countries. \
+Practice rolling your r\'s by repeating "butter" quickly. \
+Record yourself speaking and compare to native pronunciation. \
+Focus on vowel purity - each vowel gets equal time and clarity. \
+Use tongue twisters (trabalenguas) to improve articulation.' 
+    }
+  ]
+},
+'spanish-basics-2': {
+  id: 'spanish-basics-2',
+  title: 'Basic Greetings and Introductions',
+  image: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Basic Greetings and Introductions' },
+    { type: 'text', content:
+      'Spanish greetings vary by formality, time of day, and region. \
+Understanding formal vs informal address is crucial for social interactions. \
+Introductions follow specific patterns with questions about origin and well-being. \
+Cultural aspects like kissing cheeks or handshakes accompany verbal greetings. \
+Proper greetings establish rapport and show cultural respect.' 
+    },
+    { type: 'subtitle', content: 'Essential Phrases' },
+    { type: 'text', content:
+      'Hola: Hello (informal, any time). \
+Buenos días: Good morning (until noon). \
+Buenas tardes: Good afternoon (until evening). \
+Buenas noches: Good evening/good night. \
+¿Cómo estás?: How are you? (informal). \
+¿Cómo está usted?: How are you? (formal).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Cultural Context' },
+    { type: 'text', content:
+      'Use "usted" with elders, professionals, and people you don\'t know. \
+Two kisses on cheeks common in Spain and many Latin American countries. \
+Handshake is safe default in business or formal situations. \
+"¿Qué tal?" is casual alternative to "¿Cómo estás?" \
+Respond to "¿Cómo estás?" with "Bien, ¿y tú?" (Good, and you?).' 
+    }
+  ]
+},
+'spanish-basics-3': {
+  id: 'spanish-basics-3',
+  title: 'Gender and Articles in Spanish',
+  image: 'https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Gender and Articles in Spanish' },
+    { type: 'text', content:
+      'All Spanish nouns have gender: masculine or feminine. \
+Articles must match the gender and number of the nouns they modify. \
+Gender affects adjective endings and pronoun usage. \
+While mostly logical, some noun genders must be memorized. \
+Understanding gender is foundational for Spanish grammar.' 
+    },
+    { type: 'subtitle', content: 'Definite Articles' },
+    { type: 'text', content:
+      'el: masculine singular (el libro - the book). \
+la: feminine singular (la casa - the house). \
+los: masculine plural (los libros - the books). \
+las: feminine plural (las casas - the houses). \
+Use with specific, known things or general categories.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1513258496099-48168024aec0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Gender Rules' },
+    { type: 'text', content:
+      'Nouns ending in -o are usually masculine (el niño). \
+Nouns ending in -a are usually feminine (la niña). \
+Exceptions: el día (day), la mano (hand). \
+Words ending in -ión, -dad, -tad, -tud are feminine. \
+Learn nouns with their articles from the beginning.' 
+    }
+  ]
+},
+'spanish-basics-4': {
+  id: 'spanish-basics-4',
+  title: 'Present Tense Regular Verbs',
+  image: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Present Tense Regular Verbs' },
+    { type: 'text', content:
+      'Spanish verbs change endings based on subject and tense. \
+Regular verbs follow predictable patterns in present tense. \
+Three verb conjugation groups: -ar, -er, -ir verbs. \
+Present tense describes current actions and general truths. \
+Mastering regular verbs builds foundation for irregular forms.' 
+    },
+    { type: 'subtitle', content: 'Conjugation Patterns' },
+    { type: 'text', content:
+      '-AR verbs: habl-ar (to speak): hablo, hablas, habla, hablamos, habláis, hablan. \
+-ER verbs: com-er (to eat): como, comes, come, comemos, coméis, comen. \
+-IR verbs: viv-ir (to live): vivo, vives, vive, vivimos, vivís, viven. \
+Note similarities between -er and -ir conjugations. \
+Subject pronouns often omitted since verb ending indicates subject.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Strategies' },
+    { type: 'text', content:
+      'Create flashcards with infinitive on one side, conjugations on other. \
+Practice conjugating verbs in sentences, not in isolation. \
+Use common regular verbs first: hablar, comer, vivir, trabajar, estudiar. \
+Listen for verb endings in Spanish media to internalize patterns. \
+Write short paragraphs about your daily routine using present tense.' 
+    }
+  ]
+},
+'spanish-basics-5': {
+  id: 'spanish-basics-5',
+  title: 'Common Irregular Verbs',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Common Irregular Verbs' },
+    { type: 'text', content:
+      'Irregular verbs don\'t follow standard conjugation patterns. \
+Some of the most frequently used verbs are irregular. \
+Understanding irregularities is essential for basic communication. \
+Irregularities often appear in first person (yo form) or stem changes. \
+Mastering common irregular verbs dramatically improves speaking ability.' 
+    },
+    { type: 'subtitle', content: 'Essential Irregular Verbs' },
+    { type: 'text', content:
+      'Ser (to be): soy, eres, es, somos, sois, son - for permanent qualities. \
+Estar (to be): estoy, estás, está, estamos, estáis, están - for temporary states. \
+Ir (to go): voy, vas, va, vamos, vais, van - essential for movement. \
+Tener (to have): tengo, tienes, tiene, tenemos, tenéis, tienen. \
+Hacer (to do/make): hago, haces, hace, hacemos, hacéis, hacen.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Usage Examples' },
+    { type: 'text', content:
+      'Ser: Soy estudiante (I am a student) - permanent. \
+Estar: Estoy cansado (I am tired) - temporary. \
+Ir: Voy al mercado (I go to the market). \
+Tener: Tengo hambre (I am hungry - literally "I have hunger"). \
+Hacer: Hago mi tarea (I do my homework).' 
+    }
+  ]
+},
+'spanish-basics-6': {
+  id: 'spanish-basics-6',
+  title: 'Numbers, Dates, and Time',
+  image: 'https://images.unsplash.com/photo-1513258496099-48168024aec0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Numbers, Dates, and Time' },
+    { type: 'text', content:
+      'Spanish numbers follow logical patterns with some irregularities. \
+Telling time uses specific constructions different from English. \
+Dates follow day-month-year format with definite articles. \
+Numbers are essential for shopping, scheduling, and basic conversations. \
+Mastering numbers 1-100 provides foundation for larger numbers.' 
+    },
+    { type: 'subtitle', content: 'Number Patterns' },
+    { type: 'text', content:
+      '1-15: Unique words (uno, dos, tres... quince). \
+16-19: dieciséis, diecisiete, dieciocho, diecinueve. \
+20-29: veinte, veintiuno, veintidós... veintinueve. \
+30-90: treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa. \
+100+: cien (100), ciento uno (101), doscientos (200).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=1000&q=60' },
+    { type: 'subtitle', content: 'Time and Dates' },
+    { type: 'text', content:
+      'Time: Son las [hour] y [minutes] (It\'s [hour] and [minutes]). \
+1:00: Es la una (not son las una). \
+Quarter past: y cuarto. \
+Half past: y media. \
+Dates: el [number] de [month] de [year]. \
+Monday: lunes, Tuesday: martes, etc.' 
+    }
+  ]
+},
+'spanish-basics-7': {
+  id: 'spanish-basics-7',
+  title: 'Asking Questions in Spanish',
+  image: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Asking Questions in Spanish' },
+    { type: 'text', content:
+      'Spanish questions use inversion or question words. \
+Intonation rises at the end of yes/no questions. \
+Question words (qué, quién, dónde, etc.) introduce information questions. \
+Word order often changes in questions compared to statements. \
+Asking questions is essential for conversations and getting information.' 
+    },
+    { type: 'subtitle', content: 'Question Words' },
+    { type: 'text', content:
+      '¿Qué?: What? \
+¿Quién?: Who? (¿Quiénes? plural). \
+¿Dónde?: Where? \
+¿Cuándo?: When? \
+¿Por qué?: Why? \
+¿Cómo?: How? \
+¿Cuánto?: How much? (¿Cuántos? masculine plural).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Question Formation' },
+    { type: 'text', content:
+      'Yes/No questions: Change intonation or invert subject and verb. \
+Statement: Tú hablas español. (You speak Spanish). \
+Question: ¿Hablas español? (Do you speak Spanish?). \
+With question word: ¿Qué estudias? (What do you study?). \
+Use question marks at beginning (¿) and end (?) of questions.' 
+    }
+  ]
+},
+'spanish-basics-8': {
+  id: 'spanish-basics-8',
+  title: 'Food and Restaurant Vocabulary',
+  image: 'https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Food and Restaurant Vocabulary' },
+    { type: 'text', content:
+      'Food vocabulary varies significantly across Spanish-speaking regions. \
+Restaurant interactions follow specific scripts and polite forms. \
+Understanding menu categories helps when dining out. \
+Food is central to Hispanic culture and social interactions. \
+Learning food vocabulary makes travel and daily life much easier.' 
+    },
+    { type: 'subtitle', content: 'Essential Vocabulary' },
+    { type: 'text', content:
+      'Comida: Food/meal. \
+Desayuno: Breakfast. \
+Almuerzo: Lunch. \
+Cena: Dinner. \
+La cuenta: The bill/check. \
+Propina: Tip. \
+Menú del día: Daily special (common in Spain). \
+Plato principal: Main course.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1513258496099-48168024aec0?w=1000&q=60' },
+    { type: 'subtitle', content: 'Restaurant Phrases' },
+    { type: 'text', content:
+      'Una mesa para dos, por favor: A table for two, please. \
+La carta, por favor: The menu, please. \
+¿Qué me recomienda?: What do you recommend? \
+Quisiera pedir...: I would like to order... \
+¿Me trae la cuenta?: Could you bring me the check? \
+Estaba delicioso: It was delicious.' 
+    }
+  ]
+},
+'spanish-basics-9': {
+  id: 'spanish-basics-9',
+  title: 'Family and Personal Descriptions',
+  image: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Family and Personal Descriptions' },
+    { type: 'text', content:
+      'Family is central to Hispanic cultures and frequent conversation topic. \
+Family members have specific terms that differ from English. \
+Adjectives change endings to match gender and number of nouns. \
+Possessive adjectives indicate ownership and relationships. \
+Describing people involves both physical characteristics and personality.' 
+    },
+    { type: 'subtitle', content: 'Family Members' },
+    { type: 'text', content:
+      'Madre/Padre: Mother/Father. \
+Hermano/Hermana: Brother/Sister. \
+Abuelo/Abuela: Grandfather/Grandmother. \
+Tío/Tía: Uncle/Aunt. \
+Primo/Prima: Cousin (male/female). \
+Esposo/Esposa: Husband/Wife. \
+Novio/Novia: Boyfriend/Girlfriend.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1000&q=60' },
+    { type: 'subtitle', content: 'Descriptive Adjectives' },
+    { type: 'text', content:
+      'Alto/Alta: Tall. \
+Bajo/Baja: Short. \
+Joven: Young (same for m/f). \
+Viejo/Vieja: Old. \
+Inteligente: Intelligent (same for m/f). \
+Trabajador/Trabajadora: Hard-working. \
+Adjectives usually follow the noun they describe.' 
+    }
+  ]
+},
+'spanish-basics-10': {
+  id: 'spanish-basics-10',
+  title: 'Daily Routine and Present Tense Practice',
+  image: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Daily Routine and Present Tense Practice' },
+    { type: 'text', content:
+      'Describing daily routines consolidates present tense mastery. \
+Reflexive verbs are common for personal care activities. \
+Time expressions organize events chronologically. \
+This practical application connects vocabulary with grammar. \
+Talking about routines builds confidence in basic conversation.' 
+    },
+    { type: 'subtitle', content: 'Daily Activities' },
+    { type: 'text', content:
+      'Despertarse: To wake up (reflexive). \
+Levantarse: To get up (reflexive). \
+Ducharse: To shower (reflexive). \
+Vestirse: To get dressed (reflexive). \
+Desayunar: To eat breakfast. \
+Ir al trabajo/escuela: To go to work/school. \
+Cenar: To eat dinner. \
+Acostarse: To go to bed (reflexive).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?w=1000&q=60' },
+    { type: 'subtitle', content: 'Sample Routine' },
+    { type: 'text', content:
+      'Me despierto a las siete. (I wake up at seven). \
+Me levanto y me ducho. (I get up and shower). \
+Desayuno cereal con leche. (I eat cereal with milk for breakfast). \
+Voy al trabajo a las ocho. (I go to work at eight). \
+Trabajo hasta las cinco. (I work until five). \
+Ceno con mi familia a las siete. (I eat dinner with my family at seven). \
+Me acuesto a las diez. (I go to bed at ten).' 
+    }
+  ]
+},
+
+// =====French Phrases====
+
+'french-phrases-1': {
+  id: 'french-phrases-1',
+  title: 'French Pronunciation Basics',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'French Pronunciation Basics' },
+    { type: 'text', content:
+      'French pronunciation features nasal vowels and silent letters. \
+The French alphabet has 26 letters but different sound values than English. \
+Liaison and elision create smooth connections between words. \
+Accent marks (é, è, ê, etc.) change vowel pronunciation and meaning. \
+Mastering pronunciation early prevents fossilization of errors.' 
+    },
+    { type: 'subtitle', content: 'Key Sounds' },
+    { type: 'text', content:
+      'Nasal vowels: an/en, in, on, un (air flows through nose and mouth). \
+U sound: Lips rounded as if saying "oo" but try to say "ee". \
+R: Guttural sound from back of throat, like gentle gargling. \
+Silent final consonants: Most final consonants are silent. \
+E muet: Unstressed "e" often silent or very lightly pronounced.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Practice Tips' },
+    { type: 'text', content:
+      'Listen to French music and repeat lyrics. \
+Watch French films with French subtitles. \
+Practice tongue twisters (virelangues). \
+Record yourself and compare to native speakers. \
+Focus on rhythm and melody of French sentences.' 
+    }
+  ]
+},
+'french-phrases-2': {
+  id: 'french-phrases-2',
+  title: 'Greetings and Polite Expressions',
+  image: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Greetings and Polite Expressions' },
+    { type: 'text', content:
+      'French greetings vary by formality and time of day. \
+Politeness is highly valued in French culture. \
+Understanding tu vs vous distinction is crucial. \
+Greetings often include cheek kissing (faire la bise) in social settings. \
+Proper greetings set tone for successful interactions.' 
+    },
+    { type: 'subtitle', content: 'Essential Greetings' },
+    { type: 'text', content:
+      'Bonjour: Hello/Good day (until evening). \
+Bonsoir: Good evening. \
+Salut: Hi/Bye (informal). \
+Au revoir: Goodbye. \
+À bientôt: See you soon. \
+Comment allez-vous?: How are you? (formal). \
+Comment vas-tu?: How are you? (informal).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Politeness Essentials' },
+    { type: 'text', content:
+      'S\'il vous plaît: Please (formal). \
+S\'il te plaît: Please (informal). \
+Merci: Thank you. \
+Merci beaucoup: Thank you very much. \
+De rien: You\'re welcome. \
+Excusez-moi: Excuse me (formal). \
+Pardon: Sorry/Excuse me.' 
+    }
+  ]
+},
+'french-phrases-3': {
+  id: 'french-phrases-3',
+  title: 'Introductions and Basic Conversations',
+  image: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Introductions and Basic Conversations' },
+    { type: 'text', content:
+      'French introductions follow specific patterns with questions. \
+Learning to ask and answer basic questions builds conversation skills. \
+Cultural aspects influence how personal information is shared. \
+Small talk topics differ from English-speaking cultures. \
+Confidence in introductions opens doors to deeper conversations.' 
+    },
+    { type: 'subtitle', content: 'Introduction Phrases' },
+    { type: 'text', content:
+      'Je m\'appelle...: My name is... \
+Comment vous appelez-vous?: What is your name? (formal). \
+Comment tu t\'appelles?: What is your name? (informal). \
+Enchanté(e): Nice to meet you. \
+Je suis...: I am... (nationality/profession). \
+D\'où venez-vous?: Where are you from? (formal). \
+D\'où viens-tu?: Where are you from? (informal).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=1000&q=60' },
+    { type: 'subtitle', content: 'Conversation Starters' },
+    { type: 'text', content:
+      'Qu\'est-ce que vous faites dans la vie?: What do you do? (formal). \
+Qu\'est-ce que tu fais?: What do you do? (informal). \
+Vous habitez où?: Where do you live? (formal). \
+Tu habites où?: Where do you live? (informal). \
+Quel temps fait-il?: What\'s the weather like? \
+Vous parlez anglais?: Do you speak English? (formal).' 
+    }
+  ]
+},
+'french-phrases-4': {
+  id: 'french-phrases-4',
+  title: 'Food and Dining Phrases',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Food and Dining Phrases' },
+    { type: 'text', content:
+      'Food is central to French culture and social life. \
+Restaurant etiquette includes specific phrases and behaviors. \
+French meals follow courses with particular vocabulary. \
+Understanding café culture enhances travel experiences. \
+Food vocabulary varies by region with local specialties.' 
+    },
+    { type: 'subtitle', content: 'Restaurant Phrases' },
+    { type: 'text', content:
+      'Une table pour deux, s\'il vous plaît: A table for two, please. \
+La carte, s\'il vous plaît: The menu, please. \
+Je voudrais...: I would like... \
+L\'addition, s\'il vous plaît: The check, please. \
+C\'était délicieux: It was delicious. \
+Je suis végétarien(ne): I am vegetarian. \
+Avez-vous des recommandations?: Do you have recommendations?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Food Vocabulary' },
+    { type: 'text', content:
+      'Le petit déjeuner: Breakfast. \
+Le déjeuner: Lunch. \
+Le dîner: Dinner. \
+L\'entrée: Appetizer/starter. \
+Le plat principal: Main course. \
+Le dessert: Dessert. \
+Le café: Coffee (espresso unless specified). \
+Le vin: Wine.' 
+    }
+  ]
+},
+'french-phrases-5': {
+  id: 'french-phrases-5',
+  title: 'Directions and Transportation',
+  image: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Directions and Transportation' },
+    { type: 'text', content:
+      'Asking for directions requires specific question forms. \
+Understanding transportation vocabulary is essential for travel. \
+French cities have excellent public transportation systems. \
+Prepositions (à, de, en, etc.) are crucial for location expressions. \
+Confidence with directions reduces travel stress.' 
+    },
+    { type: 'subtitle', content: 'Direction Questions' },
+    { type: 'text', content:
+      'Où est...?: Where is...? \
+Comment aller à...?: How do I get to...? \
+C\'est loin?: Is it far? \
+C\'est près d\'ici?: Is it near here? \
+À droite: To the right. \
+À gauche: To the left. \
+Tout droit: Straight ahead. \
+Au coin de la rue: At the corner of the street.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Transportation' },
+    { type: 'text', content:
+      'La gare: Train station. \
+Le métro: Subway. \
+L\'autobus: Bus. \
+Le taxi: Taxi. \
+Un billet: A ticket. \
+Un aller simple: One-way ticket. \
+Un aller-retour: Round-trip ticket. \
+Quelqu\'un: Platform.' 
+    }
+  ]
+},
+'french-phrases-6': {
+  id: 'french-phrases-6',
+  title: 'Shopping and Market Phrases',
+  image: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Shopping and Market Phrases' },
+    { type: 'text', content:
+      'French shopping etiquette includes specific greetings and politeness. \
+Markets (marchés) are important for fresh food and local culture. \
+Understanding sizes, colors, and materials vocabulary helps shopping. \
+Bargaining is generally not done in stores but may occur in markets. \
+Receipts are called "ticket de caisse" or "reçu".' 
+    },
+    { type: 'subtitle', content: 'Shopping Phrases' },
+    { type: 'text', content:
+      'Je cherche...: I\'m looking for... \
+Combien ça coûte?: How much does it cost? \
+C\'est trop cher: It\'s too expensive. \
+Avez-vous une taille plus petite/grande?: Do you have a smaller/larger size? \
+Je voudrais essayer ceci: I would like to try this on. \
+Je le prends: I\'ll take it. \
+Où sont les cabines d\'essayage?: Where are the fitting rooms?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=1000&q=60' },
+    { type: 'subtitle', content: 'Market Vocabulary' },
+    { type: 'text', content:
+      'Le marché: Market. \
+La boulangerie: Bakery. \
+La fromagerie: Cheese shop. \
+La boucherie: Butcher shop. \
+La poissonnerie: Fish shop. \
+Les fruits: Fruits. \
+Les légumes: Vegetables. \
+Du pain: Some bread.' 
+    }
+  ]
+},
+'french-phrases-7': {
+  id: 'french-phrases-7',
+  title: 'Accommodation and Hotel Phrases',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Accommodation and Hotel Phrases' },
+    { type: 'text', content:
+      'Hotel interactions follow specific formal patterns. \
+Understanding room types and amenities vocabulary is essential. \
+Checking in/out involves particular questions and documentation. \
+Complaints or requests require polite phrasing. \
+French hotels often have different classifications (étoiles/stars).' 
+    },
+    { type: 'subtitle', content: 'Hotel Phrases' },
+    { type: 'text', content:
+      'J\'ai une réservation: I have a reservation. \
+Avez-vous une chambre libre?: Do you have a room available? \
+Pour une personne/deux personnes: For one person/two people. \
+Avec salle de bain: With bathroom. \
+Le petit déjeuner est inclus?: Is breakfast included? \
+À quel heure est le petit déjeuner?: What time is breakfast? \
+La clé, s\'il vous plaît: The key, please.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Requests and Problems' },
+    { type: 'text', content:
+      'Pouvez-vous m\'apporter...?: Can you bring me...? \
+Il n\'y a pas d\'eau chaude: There\'s no hot water. \
+La télévision ne marche pas: The television doesn\'t work. \
+La chambre est trop bruyante: The room is too noisy. \
+Je voudrais prolonger mon séjour: I would like to extend my stay. \
+Je pars demain: I\'m leaving tomorrow.' 
+    }
+  ]
+},
+'french-phrases-8': {
+  id: 'french-phrases-8',
+  title: 'Emergency and Health Phrases',
+  image: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Emergency and Health Phrases' },
+    { type: 'text', content:
+      'Emergency situations require clear, simple communication. \
+Medical vocabulary helps describe symptoms accurately. \
+Understanding French healthcare system basics is important. \
+Emergency numbers differ from other countries. \
+Pharmacy (pharmacie) interactions follow specific patterns.' 
+    },
+    { type: 'subtitle', content: 'Emergency Phrases' },
+    { type: 'text', content:
+      'Au secours!: Help! \
+Appelez la police!: Call the police! \
+Appelez une ambulance!: Call an ambulance! \
+Au feu!: Fire! \
+J\'ai besoin d\'un médecin: I need a doctor. \
+Où est l\'hôpital?: Where is the hospital? \
+Où est la pharmacie la plus proche?: Where is the nearest pharmacy?' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60' },
+    { type: 'subtitle', content: 'Medical Vocabulary' },
+    { type: 'text', content:
+      'J\'ai mal...: I have pain... (à la tête: in my head, à l\'estomac: in my stomach). \
+Je suis malade: I am sick. \
+J\'ai de la fièvre: I have a fever. \
+Je suis allergique à...: I am allergic to... \
+Une ordonnance: A prescription. \
+Les médicaments: Medicine. \
+L\'aspirine: Aspirin.' 
+    }
+  ]
+},
+'french-phrases-9': {
+  id: 'french-phrases-9',
+  title: 'Socializing and Invitations',
+  image: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Socializing and Invitations' },
+    { type: 'text', content:
+      'French social interactions have specific etiquette. \
+Invitations may be verbal or written with particular phrasing. \
+Understanding social cues helps navigate gatherings. \
+Topics of conversation differ from English-speaking cultures. \
+Accepting/declining invitations requires polite formulations.' 
+    },
+    { type: 'subtitle', content: 'Invitation Phrases' },
+    { type: 'text', content:
+      'Voulez-vous...?: Would you like to...? (formal). \
+Veux-tu...?: Would you like to...? (informal). \
+Ça te dit de...?: How about...? (informal). \
+Je vous invite à...: I invite you to... (formal). \
+Je t\'invite à...: I invite you to... (informal). \
+Quel est votre programme?: What are your plans? (formal). \
+Quel est ton programme?: What are your plans? (informal).' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=1000&q=60' },
+    { type: 'subtitle', content: 'Responses' },
+    { type: 'text', content:
+      'Avec plaisir!: With pleasure! \
+Volontiers!: Gladly! \
+Je suis désolé(e), je ne peux pas: I\'m sorry, I can\'t. \
+Peut-être une autre fois: Maybe another time. \
+C\'est gentil: That\'s nice/kind. \
+À quelle heure?: At what time? \
+Où ça?: Where?' 
+    }
+  ]
+},
+'french-phrases-10': {
+  id: 'french-phrases-10',
+  title: 'Weather and Small Talk',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=60',
+  sections: [
+    { type: 'title', content: 'Weather and Small Talk' },
+    { type: 'text', content:
+      'Weather is common small talk topic in France. \
+Seasonal vocabulary helps describe changing conditions. \
+Understanding weather-related activities and clothing. \
+Small talk often includes comments on current events or surroundings. \
+Cultural awareness improves small talk appropriateness.' 
+    },
+    { type: 'subtitle', content: 'Weather Vocabulary' },
+    { type: 'text', content:
+      'Quel temps fait-il?: What\'s the weather like? \
+Il fait beau: It\'s nice weather. \
+Il fait mauvais: It\'s bad weather. \
+Il fait chaud: It\'s hot. \
+Il fait froid: It\'s cold. \
+Il pleut: It\'s raining. \
+Il neige: It\'s snowing. \
+Il y a du vent: It\'s windy.' 
+    },
+    { type: 'image', content: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=1000&q=60' },
+    { type: 'subtitle', content: 'Small Talk Topics' },
+    { type: 'text', content:
+      'Vous avez passé un bon weekend?: Did you have a good weekend? (formal). \
+Tu as passé un bon weekend?: Did you have a good weekend? (informal). \
+Qu\'est-ce que vous pensez de...?: What do you think about...? (formal). \
+Qu\'est-ce que tu penses de...?: What do you think about...? (informal). \
+C\'est intéressant: That\'s interesting. \
+Je suis d\'accord: I agree. \
+Je ne suis pas d\'accord: I disagree.' 
+    }
+  ]
+},
+
+// =====Mandarin Chinese====
+
+
+
+// =====German Grammar====
+
+
+
+// =======Japanese Writing====
+
+
+
+// =======Italian Conversation====
+
+
+
+// ======Portuguese Essentials====
+
+
+
+// ======Arabic Script=====
+
+
+
 };
 
 export default data;
